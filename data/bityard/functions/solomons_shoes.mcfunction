@@ -17,10 +17,10 @@ execute as @a[scores={solomonsShoes=1}] at @s run summon minecraft:armor_stand ~
 scoreboard players add @e[tag=solomonsShoes] solomonsShoes 1
 
 # Correct position of player to created platform
-execute as @e[type=shulker,tag=solomonsShoes,scores={solomonsShoes=1}] at @s run teleport @p[scores={solomonsShoes=1}] ~ ~3 ~ 
+execute as @e[type=shulker,tag=solomonsShoes,scores={solomonsShoes=1}] at @s run teleport @p[scores={solomonsShoes=1}] ~ ~3 ~
 
 # Reset score flag for players who aren't sneaking
-execute as @a[scores={playerSneak=0}] run scoreboard players set @s solomonsShoes 0
+execute as @a[scores={solomonsShoes=1..,playerSneak=0}] run scoreboard players set @s solomonsShoes 0
 
 # Summon particles around platforms
 execute as @e[type=shulker,tag=solomonsShoes] at @s run particle end_rod ~ ~0.5 ~ 0.25 0.25 0.25 0.02 1

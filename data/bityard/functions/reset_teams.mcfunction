@@ -1,13 +1,9 @@
 ################################################################
-# Reset Scoreboard
-# removes and re-creates all team & objectives
+# Reset Teams
+# removes and re-creates color teams
 ################################################################
 
 
-
-##### REMOVE #####
-
-# Team Colors
 team remove black
 team remove dark_blue
 team remove dark_green
@@ -26,10 +22,6 @@ team remove yellow
 team remove white
 
 
-
-##### CREATE #####
-
-# Team Colors
 team add black Black
 team option black color black
 team add dark_blue Dark Blue
