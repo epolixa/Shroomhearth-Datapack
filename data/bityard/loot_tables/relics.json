@@ -1,0 +1,156 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:feather",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{ench:[{id:-1}], display:{Name: \"Gentle Plume\", Lore: [\"When in main hand:\",\" Levitation ?\",\" Slowness I\"]}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:iron_boots",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{ench:[{id:-1}], display:{Name: \"Super Ice Skates\", Lore: [\"When on feet & over Ice:\",\" Speed III\"]}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:golden_chestplate",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{ench:[{id:-1}], display:{Name: \"Cursed Heart\", Lore: [\"When on body:\",\" Wither IV\",\" Resistance IV\"]}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:blaze_rod",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{ench:[{id:19,lvl:3},{id:20,lvl:3}], display:{Name: \"Cider Wand\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:pumpkin",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{ench:[{id:-1}], display:{Name: \"Haunted Pumpkin\", Lore: [\"When on head:\",\" ???\"]}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:chainmail_helmet",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{ench:[{id:-1}], display:{Name: \"Seer's Veil\", Lore: [\"When on head:\",\" Night Vision\",\" Reveals nearby mobs\",\" -1 Glowstone Dust per 10 seconds\"]}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:chorus_fruit",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{ench:[{id:-1}], display:{Name: \"Ephemeral Bonbon\", Lore: [\"When eaten:\",\" Phase through blocks for 6 seconds\"]}}"
+            },
+            {
+              "function": "set_count",
+              "count": {"min": 6, "max": 12}
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:golden_boots",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{ench:[{id:-1}], display:{Name: \"Hell Heels\", Lore: [\"When on feet & over Lava:\",\" Creates Magma\"]}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:anvil",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{ench:[{id:-1}], display:{Name: \"Extraordinarily Heavy Anvil\", Lore: [\"When in main hand:\",\" Levitation -?\"]}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:leather_boots",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{ench:[{id:-1}], display:{color: 16777215, Name: \"Voxel Socks\", Lore: [\"When on feet & sneaking:\",\" Creates a temporary surface\"]}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:leather_leggings",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{ench:[{id:-1}], display:{color: 6928962, Name: \"Frog Rompers\", Lore: [\"When on legs & sneaking:\",\" Charges Jump Boost\"]}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:cookie",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{ench:[{id:-1}], display:{Name: \"Everlasting Cookie\", Lore: [\"When eaten:\",\" +1 Everlasting Cookie\"]}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:ender_pearl",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{ench:[{id:-1}], display:{Name: \"Re-usable Ender Pearl\", Lore: [\"When thrown:\",\" +1 Re-usable Ender Pearl\"]}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

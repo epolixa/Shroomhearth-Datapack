@@ -1,0 +1,174 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "potion",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display: {Name: \"Super Potion of Swiftness\"}, Potion:\"minecraft:water\", CustomPotionEffects:[{Id: 1, Amplifier: 2, Duration: 9600}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "potion",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display: {Name: \"Super Potion of Haste\"}, Potion:\"minecraft:water\", CustomPotionEffects:[{Id: 3, Amplifier: 2, Duration: 9600}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "potion",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display: {Name: \"Super Potion of Strength\"}, Potion:\"minecraft:water\", CustomPotionEffects:[{Id: 5, Amplifier: 2, Duration: 9600}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "potion",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display: {Name: \"Super Potion of Leaping\"}, Potion:\"minecraft:water\", CustomPotionEffects:[{Id: 8, Amplifier: 2, Duration: 9600}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "potion",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display: {Name: \"Super Potion of Regeneration\"}, Potion:\"minecraft:water\", CustomPotionEffects:[{Id: 10, Amplifier: 2, Duration: 9600}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "potion",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display: {Name: \"Super Potion of Resistance\"}, Potion:\"minecraft:water\", CustomPotionEffects:[{Id: 11, Amplifier: 2, Duration: 9600}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "potion",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display: {Name: \"Super Potion of Fire Resistance\"}, Potion:\"minecraft:water\", CustomPotionEffects:[{Id: 12, Amplifier: 0, Duration: 14400}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "potion",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display: {Name: \"Super Potion of Water Breathing\"}, Potion:\"minecraft:water\", CustomPotionEffects:[{Id: 13, Amplifier: 0, Duration: 14400}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "potion",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display: {Name: \"Super Potion of Invisibility\"}, Potion:\"minecraft:water\", CustomPotionEffects:[{Id: 14, Amplifier: 0, Duration: 14400}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "potion",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display: {Name: \"Super Potion of Night Vision\"}, Potion:\"minecraft:water\", CustomPotionEffects:[{Id: 16, Amplifier: 0, Duration: 14400}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "potion",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display: {Name: \"Super Potion of Absorption\"}, Potion:\"minecraft:water\", CustomPotionEffects:[{Id: 22, Amplifier: 2, Duration: 9600}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "potion",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display: {Name: \"Super Potion of Glowing\"}, Potion:\"minecraft:water\", CustomPotionEffects:[{Id: 24, Amplifier: 0, Duration: 14400}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "potion",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display: {Name: \"Super Potion of Levitation\"}, Potion:\"minecraft:water\", CustomPotionEffects:[{Id: 25, Amplifier: 2, Duration: 9600}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "potion",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display: {Name: \"Super Potion of Luck\"}, Potion:\"minecraft:water\", CustomPotionEffects:[{Id: 26, Amplifier: 2, Duration: 9600}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "potion",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display: {Name: \"Baileys\"}, Potion:\"minecraft:water\", CustomPotionEffects:[{Id: 26, Amplifier: 2, Duration: 4800}, {Id: 23, Amplifier: 0, Duration: 1200}, {Id: 9, Amplifier: 0, Duration: 600}, {Id: 2, Amplifier: 0, Duration: 1200}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

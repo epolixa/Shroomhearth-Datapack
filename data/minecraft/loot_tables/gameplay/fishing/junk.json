@@ -1,0 +1,108 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:wet_sponge",
+                    "weight": 1,
+                    "quality": 4
+                },
+
+                {
+                    "type": "item",
+                    "name": "minecraft:fishing_rod",
+                    "weight": 2,
+                    "quality": 3,
+                    "functions": [
+                        {
+                            "function": "set_damage",
+                            "damage": {
+                                "min": 0,
+                                "max": 0.90
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:leather_boots",
+                    "weight": 3,
+                    "quality": 3,
+                    "functions": [
+                        {
+                            "function": "set_damage",
+                            "damage": {
+                                "min": 0,
+                                "max": 0.90
+                            }
+                        }
+                    ]
+                },
+
+                {
+                    "type": "item",
+                    "name": "minecraft:leather",
+                    "weight": 4,
+                    "quality": 2
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:bone",
+                    "weight": 5,
+                    "quality": 2
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 6,
+                    "quality": 2,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Potion:\"minecraft:water\"}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:string",
+                    "weight": 7,
+                    "quality": 2
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:bowl",
+                    "weight": 8,
+                    "quality": 2
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:stick",
+                    "weight": 9,
+                    "quality": 2
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:ink_sac",
+                    "weight": 10,
+                    "quality": 2
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:tripwire_hook",
+                    "weight": 11,
+                    "quality": 2
+                },
+
+                {
+                    "type": "item",
+                    "name": "minecraft:rotten_flesh",
+                    "weight": 12,
+                    "quality": 1
+                }
+            ]
+        }
+    ]
+}

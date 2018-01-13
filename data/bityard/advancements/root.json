@@ -1,0 +1,27 @@
+{
+	"criteria": {
+		"visited_spawn": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"position": {
+					"x": {
+						"min": -549,
+						"max": -537
+					},
+					"z": {
+						"min": 256,
+						"max": 268
+					}
+				}
+			}
+		}
+	},
+	"display": {
+		"icon": {
+			"item": "minecraft:red_mushroom_block"
+		},
+		"title": "Bityard",
+		"description": "Visit spawn",
+		"background": "minecraft:textures/blocks/mushroom_block_skin_stem.png"
+	}
+}

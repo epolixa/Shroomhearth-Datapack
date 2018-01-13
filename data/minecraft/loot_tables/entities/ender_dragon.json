@@ -1,0 +1,387 @@
+{
+  "pools": [
+    {
+      "rolls": {"min": 8, "max": 16},
+      "bonus_rolls": {"min": 2, "max": 8},
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "bityard:relics",
+          "weight": 1,
+          "quality": 5
+        },
+        {
+          "type": "loot_table",
+          "name": "bityard:super_gear",
+          "weight": 2,
+          "quality": 5
+        },
+        {
+          "type": "item",
+          "name": "minecraft:dragon_head",
+          "weight": 2,
+          "quality": 4
+        },
+        {
+          "type": "item",
+          "name": "minecraft:dragon_egg",
+          "weight": 2,
+          "quality": 4
+        },
+        {
+          "type": "loot_table",
+          "name": "bityard:attribute_diamond_gear",
+          "weight": 3,
+          "quality": 4
+        },
+        {
+          "type": "item",
+          "name": "minecraft:elytra",
+          "weight": 3,
+          "quality": 4
+        },
+        {
+          "type": "item",
+          "name": "minecraft:totem_of_undying",
+          "weight": 4,
+          "quality": 4
+        },
+        {
+          "type": "loot_table",
+          "name": "bityard:mob_eggs_overworld",
+          "weight": 5,
+          "quality": 3
+        },
+        {
+          "type": "loot_table",
+          "name": "bityard:mob_eggs_nether",
+          "weight": 5,
+          "quality": 3
+        },
+        {
+          "type": "loot_table",
+          "name": "bityard:mob_eggs_end",
+          "weight": 5,
+          "quality": 3
+        },
+        {
+            "type": "item",
+            "name": "minecraft:diamond_sword",
+            "weight": 5,
+            "quality": 3,
+            "functions": [
+                {
+                    "function": "enchant_with_levels",
+                    "treasure": true,
+                    "levels": {
+                        "min": 20,
+                        "max": 39
+                    }
+                }
+            ]
+        },
+        {
+            "type": "item",
+            "name": "minecraft:diamond_boots",
+            "weight": 5,
+            "quality": 3,
+            "functions": [
+                {
+                    "function": "enchant_with_levels",
+                    "treasure": true,
+                    "levels": {
+                        "min": 20,
+                        "max": 39
+                    }
+                }
+            ]
+        },
+        {
+            "type": "item",
+            "name": "minecraft:diamond_chestplate",
+            "weight": 5,
+            "quality": 3,
+            "functions": [
+                {
+                    "function": "enchant_with_levels",
+                    "treasure": true,
+                    "levels": {
+                        "min": 20,
+                        "max": 39
+                    }
+                }
+            ]
+        },
+        {
+            "type": "item",
+            "name": "minecraft:diamond_leggings",
+            "weight": 5,
+            "quality": 3,
+            "functions": [
+                {
+                    "function": "enchant_with_levels",
+                    "treasure": true,
+                    "levels": {
+                        "min": 20,
+                        "max": 39
+                    }
+                }
+            ]
+        },
+        {
+            "type": "item",
+            "name": "minecraft:diamond_helmet",
+            "weight": 5,
+            "quality": 3,
+            "functions": [
+                {
+                    "function": "enchant_with_levels",
+                    "treasure": true,
+                    "levels": {
+                        "min": 20,
+                        "max": 39
+                    }
+                }
+            ]
+        },
+        {
+            "type": "item",
+            "name": "minecraft:diamond_pickaxe",
+            "weight": 5,
+            "quality": 3,
+            "functions": [
+                {
+                    "function": "enchant_with_levels",
+                    "treasure": true,
+                    "levels": {
+                        "min": 20,
+                        "max": 39
+                    }
+                }
+            ]
+        },
+        {
+            "type": "item",
+            "name": "minecraft:diamond_shovel",
+            "weight": 5,
+            "quality": 3,
+            "functions": [
+                {
+                    "function": "enchant_with_levels",
+                    "treasure": true,
+                    "levels": {
+                        "min": 20,
+                        "max": 39
+                    }
+                }
+            ]
+        },
+        {
+            "type": "item",
+            "name": "minecraft:iron_sword",
+            "weight": 5,
+            "quality": 3,
+            "functions": [
+                {
+                    "function": "enchant_with_levels",
+                    "treasure": true,
+                    "levels": {
+                        "min": 20,
+                        "max": 39
+                    }
+                }
+            ]
+        },
+        {
+            "type": "item",
+            "name": "minecraft:iron_boots",
+            "weight": 5,
+            "quality": 3,
+            "functions": [
+                {
+                    "function": "enchant_with_levels",
+                    "treasure": true,
+                    "levels": {
+                        "min": 20,
+                        "max": 39
+                    }
+                }
+            ]
+        },
+        {
+            "type": "item",
+            "name": "minecraft:iron_chestplate",
+            "weight": 5,
+            "quality": 3,
+            "functions": [
+                {
+                    "function": "enchant_with_levels",
+                    "treasure": true,
+                    "levels": {
+                        "min": 20,
+                        "max": 39
+                    }
+                }
+            ]
+        },
+        {
+            "type": "item",
+            "name": "minecraft:iron_leggings",
+            "weight": 5,
+            "quality": 3,
+            "functions": [
+                {
+                    "function": "enchant_with_levels",
+                    "treasure": true,
+                    "levels": {
+                        "min": 20,
+                        "max": 39
+                    }
+                }
+            ]
+        },
+        {
+            "type": "item",
+            "name": "minecraft:iron_helmet",
+            "weight": 5,
+            "quality": 3,
+            "functions": [
+                {
+                    "function": "enchant_with_levels",
+                    "treasure": true,
+                    "levels": {
+                        "min": 20,
+                        "max": 39
+                    }
+                }
+            ]
+        },
+        {
+            "type": "item",
+            "name": "minecraft:iron_pickaxe",
+            "weight": 5,
+            "quality": 3,
+            "functions": [
+                {
+                    "function": "enchant_with_levels",
+                    "treasure": true,
+                    "levels": {
+                        "min": 20,
+                        "max": 39
+                    }
+                }
+            ]
+        },
+        {
+            "type": "item",
+            "name": "minecraft:iron_shovel",
+            "weight": 5,
+            "quality": 3,
+            "functions": [
+                {
+                    "function": "enchant_with_levels",
+                    "treasure": true,
+                    "levels": {
+                        "min": 20,
+                        "max": 39
+                    }
+                }
+            ]
+        },
+        {
+          "type": "loot_table",
+          "name": "bityard:super_potions",
+          "weight": 6,
+          "quality": 3
+        },
+        {
+          "type": "loot_table",
+          "name": "bityard:attribute_iron_gear",
+          "weight": 8,
+          "quality": 3
+        },
+        {
+            "type": "item",
+            "name": "minecraft:shulker_shell",
+            "weight": 8,
+            "quality": 2,
+            "functions": [
+                {
+                    "function": "set_count",
+                    "count": {
+                        "min": 4,
+                        "max": 8
+                    }
+                }
+            ]
+        },              
+        {
+          "type": "item",
+          "name": "minecraft:diamond",
+          "weight": 9,
+          "quality": 2,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {"min": 4, "max": 16}
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:emerald",
+          "weight": 11,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {"min": 8, "max": 24}
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:gold_ingot",
+          "weight": 12,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {"min": 8, "max": 24}
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:quartz",
+          "weight": 13,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {"min": 8, "max": 32}
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:iron_ingot",
+          "weight": 14,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {"min": 8, "max": 24}
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:lapis_lazuli",
+          "weight": 15,
+          "quality": 1
+        }
+      ]
+    }
+  ]
+}

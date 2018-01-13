@@ -1,0 +1,35 @@
+{
+  "pools":
+  [
+    {
+      "rolls": 1,
+      "entries":
+      [
+        {
+          "type": "item",
+          "name": "minecraft:filled_map",
+          "functions":
+          [
+            {
+              "function": "set_nbt",
+              "tag":
+              "{
+                map: 1000,
+                ench: [{id:-1}],
+                display: {
+                  Name: \"Cloud Ninja\",
+                  Lore:
+                  [
+                    \"Rare\",
+                    \"Cloud Ninja uses enchanted socks to escape in midair\",
+                    \"daydrifter\"
+                  ]
+                }
+              }"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
