@@ -1,4 +1,12 @@
 {
+  "display": {
+		"icon": {
+			"item": "minecraft:red_mushroom_block"
+		},
+		"title": "Bityard",
+		"description": "Visit spawn",
+		"background": "minecraft:textures/blocks/mushroom_block_stem.png"
+	},
 	"criteria": {
 		"visited_spawn": {
 			"trigger": "minecraft:location",
@@ -15,13 +23,5 @@
 				}
 			}
 		}
-	},
-	"display": {
-		"icon": {
-			"item": "minecraft:red_mushroom_block"
-		},
-		"title": "Bityard",
-		"description": "Visit spawn",
-		"background": "minecraft:textures/blocks/mushroom_block_skin_stem.png"
 	}
 }

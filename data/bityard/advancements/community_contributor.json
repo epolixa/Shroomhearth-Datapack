@@ -1,0 +1,16 @@
+{
+  "parent": "bityard:root",
+  "display": {
+		"icon": {
+			"item": "minecraft:crafting_table"
+		},
+		"title": "Community Contributor",
+		"description": "Reach the maximum community score for a project",
+    "frame": "goal"
+	},
+	"criteria": {
+		"mined_blocks": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}
