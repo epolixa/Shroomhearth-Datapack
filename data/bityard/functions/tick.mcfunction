@@ -4,8 +4,11 @@
 ################################################################
 
 
-# Bityard Functions
-function bityard:spawn_particles
+# Advancement Triggers
+function bityard:advancement_triggers
 
 # Modules
 function bityard:modules
+
+# Bityard Functions
+function bityard:spawn_particles

@@ -10,7 +10,7 @@ execute as @a[nbt={Inventory:[{Slot:100b,id:"minecraft:leather_boots"}]},scores=
 # Remove any platforms that are too close to flagged player
 execute as @a if score @s solomonsShoes matches 1 at @s run kill @e[tag=solomonsShoes,distance=..2]
 
-# Create a solomonsShoes for flagged player
+# Create a platform for flagged player
 execute as @a[scores={solomonsShoes=1}] at @s run summon minecraft:armor_stand ~ ~-2.5 ~ {Tags:["solomonsShoes"],NoAI:true,NoGravity:true,Silent:true,Invulnerable:true,Invisible:true,Passengers:[{id:shulker,Tags:["solomonsShoes"],NoAI:true,NoGravity:true,Silent:true,DeathTime:19,DeathLootTable:"minecraft:empty",Invulnerable:true,ActiveEffects: [{Id:14,Amplifier:0,Duration:999999,ShowParticles:false}]},{id:falling_block,Tags:["solomonsShoes"],BlockState:{Name:"minecraft:white_stained_glass"},Time:1,DropItem:0,NoGravity:1}]}
 
 # Increment score for platforms

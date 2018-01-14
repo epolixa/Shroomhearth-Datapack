@@ -5,8 +5,7 @@
 
 
 # Flags
-execute as @a[scores={playerSneak=1..}] at @s run scoreboard players set @s playerSneak 0
-execute as @a[scores={rng=9..}] at @s run scoreboard players set @s rng 0
+function bityard:flags
 
 # Community
 #function bityard:community_score

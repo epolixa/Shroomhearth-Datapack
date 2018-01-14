@@ -2,7 +2,7 @@
   "parent": "bityard:root",
   "display": {
 		"icon": {
-			"item": "minecraft:player_head"
+			"item": "minecraft:stone"
 		},
 		"title": "AlmightyA",
 		"description": "Mine over 50,000 Stone blocks"
