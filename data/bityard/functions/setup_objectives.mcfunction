@@ -4,7 +4,7 @@
 ################################################################
 
 
-# Flags/Trackers
+## Flags/Trackers
 
 # playerSneak - used by solomonShoes
 scoreboard objectives remove playerSneak
@@ -38,21 +38,25 @@ scoreboard objectives remove community
 scoreboard objectives add community dummy
 
 
-# Advancements
+## Advancements
 
 # minedStone - used by AlmightyA
 scoreboard objectives remove minedStone
 scoreboard objectives add minedStone minecraft.mined:minecraft.stone
 
 
-# Relic Items
+## Relic Items
 
 # solomonsShoes - Solomon's Shoes
 scoreboard objectives remove solomonsShoes
 scoreboard objectives add solomonsShoes dummy
 
+# solomonsShoes - Lovers' Stone
+scoreboard objectives remove loversStone
+scoreboard objectives add loversStone dummy
 
-# Set Display
+
+## Set Display
 
 # Ensure that community score is shown in the tab list
 scoreboard objectives setdisplay list community

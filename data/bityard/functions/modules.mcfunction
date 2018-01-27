@@ -4,13 +4,13 @@
 ################################################################
 
 
-# Community
+## Community
 function bityard:community_score
 
-# Relic Items
+## Relic Items
 function bityard:solomons_shoes
 function bityard:lovers_stone
 
-# Flags
+## Flags
 function bityard:flags
 function bityard:health_display
