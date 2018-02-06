@@ -51,9 +51,13 @@ scoreboard objectives add minedStone minecraft.mined:minecraft.stone
 scoreboard objectives remove solomonsShoes
 scoreboard objectives add solomonsShoes dummy
 
-# solomonsShoes - Lovers' Stone
+# loversStone - Lovers' Stone
 scoreboard objectives remove loversStone
 scoreboard objectives add loversStone dummy
+
+# ephemeralBonbon - Ephemeral Bonbon
+scoreboard objectives remove ephemeralBonbon
+scoreboard objectives add ephemeralBonbon minecraft.used:minecraft.chorus_fruit
 
 
 ## Set Display

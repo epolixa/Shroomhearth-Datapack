@@ -5,23 +5,12 @@
       "entries": [
         {
           "type": "item",
-          "name": "minecraft:feather",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{ench:[{id:-1}], display:{Name: \"Gentle Plume\", Lore: [\"When in main hand:\",\" Levitation ?\",\" Slowness I\"]}}"
-            }
-          ]
-        },
-        {
-          "type": "item",
           "name": "minecraft:iron_boots",
           "weight": 1,
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{ench:[{id:-1}], display:{Name: \"Super Ice Skates\", Lore: [\"When on feet & over Ice:\",\" Speed III\"]}}"
+              "tag": "{Attributes:[{Name: \"super_ice_skates\"}], ench:[{id:-1}], display:{Name: \"Super Ice Skates\", Lore: [\"When on feet & walking over Ice:\",\" Speed III\"]}}"
             }
           ]
         },
@@ -32,7 +21,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{ench:[{id:-1}], display:{Name: \"Cursed Heart\", Lore: [\"When on body:\",\" Wither IV\",\" Resistance IV\"]}}"
+              "tag": "{Attributes:[{Name: \"cursed_heart\"}], ench:[{id:-1}], display:{Name: \"Cursed Heart\", Lore: [\"When on body:\",\" Wither IV\",\" Resistance IV\"]}}"
             }
           ]
         },
@@ -76,7 +65,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{ench:[{id:-1}], display:{Name: \"Ephemeral Bonbon\", Lore: [\"When eaten:\",\" Phase through blocks for 6 seconds\"]}}"
+              "tag": "{Attributes:[{Name: \"ephemeral_bonbon\"}], ench:[{id:-1}], display:{Name: \"Ephemeral Bonbon\", Lore: [\"When eaten:\",\" Phase through blocks for 6 seconds\"]}}"
             },
             {
               "function": "set_count",
@@ -91,18 +80,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{ench:[{id:-1}], display:{Name: \"Hell Heels\", Lore: [\"When on feet & over Lava:\",\" Creates Magma\"]}}"
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "name": "minecraft:anvil",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{ench:[{id:-1}], display:{Name: \"Extraordinarily Heavy Anvil\", Lore: [\"When in main hand:\",\" Levitation -?\"]}}"
+              "tag": "{Attributes:[{Name: \"hell_heels\"}], ench:[{id:-1}], display:{Name: \"Hell Heels\", Lore: [\"When on feet & over Lava:\",\" Creates Magma\"]}}"
             }
           ]
         },
@@ -113,7 +91,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{ench:[{id:-1}], display:{color: 16777215, Name: \"Voxel Socks\", Lore: [\"When on feet & sneaking:\",\" Creates a temporary surface\"]}}"
+              "tag": "{Attributes:[{Name: \"solomons_shoes\"}], ench:[{id:-1}], display:{color: 16777215, Name: \"Voxel Socks\", Lore: [\"When on feet & sneaking:\",\" Creates a temporary surface\"]}}"
             }
           ]
         },
