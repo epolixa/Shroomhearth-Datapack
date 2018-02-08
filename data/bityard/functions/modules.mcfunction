@@ -11,6 +11,7 @@ function bityard:community_score
 function bityard:solomons_shoes
 function bityard:lovers_stone
 function bityard:ephemeral_bonbon
+function bityard:hell_heels
 
 ## Flags
 function bityard:flags
