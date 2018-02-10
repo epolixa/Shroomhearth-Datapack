@@ -60,6 +60,12 @@
         },
         {
           "type": "loot_table",
+          "name": "bityard:trading_cards",
+          "weight": 4,
+          "quality": 4
+        },
+        {
+          "type": "loot_table",
           "name": "bityard:decor_skulls",
           "weight": 4,
           "quality": 4

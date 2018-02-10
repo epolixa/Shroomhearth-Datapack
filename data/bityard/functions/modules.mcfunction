@@ -5,14 +5,14 @@
 
 
 ## Community
-function bityard:community_score
+function bityard:modules/community_score
 
 ## Relic Items
-function bityard:solomons_shoes
-function bityard:lovers_stone
-function bityard:ephemeral_bonbon
-function bityard:hell_heels
+function bityard:modules/solomons_shoes
+function bityard:modules/kin_stone
+function bityard:modules/ethereal_bonbon
+function bityard:modules/hell_heels
 
 ## Flags
-function bityard:flags
-function bityard:health_display
+function bityard:modules/flags
+function bityard:modules/health_display
