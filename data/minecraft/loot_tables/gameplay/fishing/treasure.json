@@ -5,30 +5,23 @@
             "entries": [
                 {
                     "type": "item",
-                    "name": "minecraft:totem_of_undying",
-                    "weight": 1,
-                    "quality": 4
+                    "name": "minecraft:lily_pad",
+                    "weight": 1
                 },
-
                 {
                     "type": "item",
-                    "name": "minecraft:book",
-                    "weight": 2,
-                    "quality": 3,
-                    "functions": [
-                        {
-                            "function": "enchant_with_levels",
-                            "levels": 30,
-                            "treasure": true
-                        }
-                    ]
+                    "name": "minecraft:name_tag",
+                    "weight": 1
                 },
-
+                {
+                    "type": "item",
+                    "name": "minecraft:saddle",
+                    "weight": 1
+                },
                 {
                     "type": "item",
                     "name": "minecraft:bow",
-                    "weight": 3,
-                    "quality": 2,
+                    "weight": 1,
                     "functions": [
                         {
                             "function": "set_damage",
@@ -47,8 +40,7 @@
                 {
                     "type": "item",
                     "name": "minecraft:fishing_rod",
-                    "weight": 4,
-                    "quality": 2,
+                    "weight": 1,
                     "functions": [
                         {
                             "function": "set_damage",
@@ -64,19 +56,18 @@
                         }
                     ]
                 },
-
                 {
                     "type": "item",
-                    "name": "minecraft:saddle",
-                    "weight": 5,
-                    "quality": 1
-                },
-                {
-                    "type": "item",
-                    "name": "minecraft:name_tag",
-                    "weight": 6,
-                    "quality": 1
-                }      
+                    "name": "minecraft:book",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "levels": 30,
+                            "treasure": true
+                        }
+                    ]
+                }
             ]
         }
     ]

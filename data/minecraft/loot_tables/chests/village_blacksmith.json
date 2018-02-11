@@ -108,17 +108,6 @@
                 },
                 {
                     "type": "item",
-                    "name": "minecraft:iron_hoe",
-                    "weight": 2,
-                    "functions": [
-                    	{
-                    		"function": "set_nbt",
-                    		"tag": "{ench:[{id:21,lvl:3}]}"
-                    	}
-                    ]
-                },
-                {
-                    "type": "item",
                     "name": "minecraft:obsidian",
                     "functions": [
                         {
@@ -164,11 +153,6 @@
                     "type": "item",
                     "name": "minecraft:diamond_horse_armor",
                     "weight": 1
-                },
-                {
-                  "type": "loot_table",
-                  "name": "bityard:attribute_iron_gear",
-                  "weight": 1
                 }
             ]
         }

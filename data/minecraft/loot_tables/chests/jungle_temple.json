@@ -111,21 +111,6 @@
                     "weight": 1
                 },
                 {
-                    "type": "loot_table",
-                    "name": "bityard:attribute_gold_gear",
-                    "weight": 2
-                },
-                {
-                    "type": "loot_table",
-                    "name": "bityard:relics",
-                    "weight": 1
-                },
-                {
-                    "type": "item",
-                    "name": "minecraft:totem_of_undying",
-                    "weight": 2
-                },
-                {
                     "type": "item",
                     "name": "minecraft:book",
                     "weight": 1,

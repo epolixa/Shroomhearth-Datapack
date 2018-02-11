@@ -1,147 +1,258 @@
 {
-  "pools": [
-    {
-      "rolls": {
-        "min": 1,
-        "max": 9
-      },
-      "bonus_rolls": {
-        "min": 1,
-        "max": 3
-      },
-      "entries": [
+    "pools": [
         {
-          "type": "loot_table",
-          "name": "bityard:super_potions",
-          "weight": 1,
-          "quality": 5
+            "rolls": {
+                "min": 1,
+                "max": 3
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:saddle",
+                    "weight": 20
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:golden_apple",
+                    "weight": 15
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:enchanted_golden_apple",
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:music_disc_13",
+                    "weight": 15
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:music_disc_cat",
+                    "weight": 15
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:name_tag",
+                    "weight": 20
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:golden_horse_armor",
+                    "weight": 10
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_horse_armor",
+                    "weight": 15
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_horse_armor",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:book",
+                    "weight": 10,
+                    "functions": [
+                        {
+                            "function": "enchant_randomly"
+                        }
+                    ]
+                }
+            ]
         },
         {
-          "type": "item",
-          "name": "minecraft:enchanted_golden_apple",
-          "quality": 5,
-          "weight": 1
-        },
-        {
-          "type": "loot_table",
-          "name": "bityard:mob_eggs_overworld",
-          "weight": 2,
-          "quality": 5
-        },
-        {
-          "type": "loot_table",
-          "name": "bityard:attribute_iron_gear",
-          "weight": 2,
-          "quality": 4
-        },
-        {
-          "type": "item",
-          "name": "minecraft:golden_apple",
-          "quality": 3,
-          "weight": 3
-        },
-        {
-          "type": "loot_table",
-          "name": "bityard:attribute_stone_gear",
-          "weight": 3,
-          "quality": 4
-        },
-        {
-          "type": "loot_table",
-          "name": "bityard:attribute_leather_gear",
-          "weight": 3,
-          "quality": 4
-        },
-        {
-          "type": "item",
-          "name": "minecraft:diamond_horse_armor",
-          "quality": 4,
-          "weight": 3
-        },
-        {
-          "type": "loot_table",
-          "name": "bityard:trading_cards",
-          "weight": 4,
-          "quality": 4
-        },
-        {
-          "type": "loot_table",
-          "name": "bityard:decor_skulls",
-          "weight": 4,
-          "quality": 4
-        },
-        {
-          "type": "loot_table",
-          "name": "bityard:records",
-          "weight": 4,
-          "quality": 3
-        },
-        {
-          "type": "item",
-          "name": "minecraft:saddle",
-          "quality": 2,
-          "weight": 5
-        },
-        {
-          "type": "item",
-          "name": "minecraft:name_tag",
-          "quality": 3,
-          "weight": 5
-        },
-        {
-          "type": "item",
-          "name": "minecraft:golden_horse_armor",
-          "quality": 2,
-          "weight": 5
-        },
-        {
-          "type": "item",
-          "name": "minecraft:iron_horse_armor",
-          "quality": 2,
-          "weight": 5
-        },
-        {
-          "type": "item",
-          "name": "minecraft:book",
-          "quality": 2,
-          "weight": 6,
-          "functions": [
-            {
-              "function": "enchant_randomly"
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "name": "minecraft:gold_ingot",
-          "quality": 2,
-          "weight": 7,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
+            "rolls": {
                 "min": 1,
                 "max": 4
-              }
-            }
-          ]
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_ingot",
+                    "weight": 10,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 4
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:gold_ingot",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 4
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:bread",
+                    "weight": 20
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:wheat",
+                    "weight": 20,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 4
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:bucket",
+                    "weight": 10
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:redstone",
+                    "weight": 15,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 4
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:coal",
+                    "weight": 15,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 4
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:melon_seeds",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 4
+                            }
+                        }
+                    ],
+                    "weight": 10
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:pumpkin_seeds",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 4
+                            }
+                        }
+                    ],
+                    "weight": 10
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:beetroot_seeds",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 4
+                            }
+                        }
+                    ],
+                    "weight": 10
+                }
+            ]
         },
         {
-          "type": "item",
-          "name": "minecraft:iron_ingot",
-          "quality": 1,
-          "weight": 7,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 4
-              }
-            }
-          ]
+            "rolls": 3,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:bone",
+                    "weight": 10,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:gunpowder",
+                    "weight": 10,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:rotten_flesh",
+                    "weight": 10,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:string",
+                    "weight": 10,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 8
+                            }
+                        }
+                    ]
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

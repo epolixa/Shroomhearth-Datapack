@@ -126,16 +126,6 @@
                     "weight": 5
                 },
                 {
-                    "type": "loot_table",
-                    "name": "bityard:attribute_iron_gear",
-                    "weight": 1
-                },
-                {
-                    "type": "loot_table",
-                    "name": "bityard:super_potions",
-                    "weight": 1
-                },
-                {
                     "type": "item",
                     "name": "minecraft:golden_apple",
                     "weight": 1

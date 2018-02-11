@@ -22,11 +22,6 @@
                 },
                 {
                     "type": "item",
-                    "name": "minecraft:totem_of_undying",
-                    "weight": 3
-                },
-                {
-                    "type": "item",
                     "name": "minecraft:iron_ingot",
                     "functions": [
                         {
@@ -125,11 +120,6 @@
                     "weight": 10
                 },
                 {
-                    "type": "loot_table",
-                    "name": "bityard:attribute_gold_gear",
-                    "weight": 10
-                },
-                {
                     "type": "item",
                     "name": "minecraft:diamond_horse_armor",
                     "weight": 5
@@ -155,9 +145,8 @@
                     "weight": 2
                 },
                 {
-                    "type": "loot_table",
-                    "name": "bityard:relics",
-                    "weight": 2
+                    "type": "empty",
+                    "weight": 15
                 }
             ]
         },
@@ -181,20 +170,6 @@
                 {
                     "type": "item",
                     "name": "minecraft:gunpowder",
-                    "weight": 10,
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 8
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "minecraft:quartz",
                     "weight": 10,
                     "functions": [
                         {

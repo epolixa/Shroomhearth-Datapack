@@ -45,11 +45,6 @@
                     "weight": 1
                 },
                 {
-                    "type": "loot_table",
-                    "name": "bityard:relics",
-                    "weight": 1
-                },
-                {
                     "type": "item",
                     "name": "minecraft:book",
                     "weight": 10,
