@@ -6,22 +6,39 @@
                 {
                     "type": "item",
                     "name": "minecraft:golden_apple",
-                    "weight": 20
+                    "weight": 20,
+                    "value": 2
                 },
                 {
                     "type": "item",
                     "name": "minecraft:enchanted_golden_apple",
-                    "weight": 1
+                    "weight": 1,
+                    "value": 4
                 },
                 {
                     "type": "item",
                     "name": "minecraft:name_tag",
-                    "weight": 30
+                    "weight": 30,
+                    "value": 2
                 },
                 {
                     "type": "item",
-                    "name": "minecraft:book",
+                    "name": "minecraft:iron_pickaxe",
                     "weight": 10,
+                    "value": 3,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": 30
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_pickaxe",
+                    "weight": 15,
+                    "value": 2,
                     "functions": [
                         {
                             "function": "enchant_randomly"
@@ -30,24 +47,124 @@
                 },
                 {
                     "type": "item",
-                    "name": "minecraft:iron_pickaxe",
-                    "weight": 5
+                    "name": "minecraft:diamond_pickaxe",
+                    "weight": 5,
+                    "value": 4,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": 30
+                        }
+                    ]
                 },
                 {
-                    "type": "empty",
-                    "weight": 5
+                    "type": "item",
+                    "name": "minecraft:diamond_pickaxe",
+                    "weight": 10,
+                    "value": 3,
+                    "functions": [
+                        {
+                            "function": "enchant_randomly"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "potion",
+                    "weight": 15,
+                    "value": 2,
+                    "functions": [
+                        {
+                          "function": "set_nbt",
+                          "tag": "{display: {Name: \"Potion of Haste\"}, Potion:\"minecraft:water\", CustomPotionEffects:[{Id: 3, Amplifier: 1, Duration: 360}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "potion",
+                    "weight": 15,
+                    "value": 3,
+                    "functions": [
+                        {
+                          "function": "set_nbt",
+                          "tag": "{display: {Name: \"Potion of Haste\"}, Potion:\"minecraft:water\", CustomPotionEffects:[{Id: 3, Amplifier: 2, Duration: 180}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "potion",
+                    "weight": 15,
+                    "value": 3,
+                    "functions": [
+                        {
+                          "function": "set_nbt",
+                          "tag": "{display: {Name: \"Potion of Haste\"}, Potion:\"minecraft:water\", CustomPotionEffects:[{Id: 3, Amplifier: 1, Duration: 960}]}"
+                        }
+                    ]
                 }
             ]
         },
+
+
+
         {
             "rolls": {
                 "min": 2,
                 "max": 4
             },
+            "bonus_rolls": {
+                "min": 2,
+                "max": 3
+            },
             "entries": [
                 {
                     "type": "item",
-                    "name": "minecraft:iron_ingot",
+                    "name": "minecraft:iron_block",
+                    "weight": 3,
+                    "value": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:gold_block",
+                    "weight": 3,
+                    "value": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:redstone_block",
+                    "weight": 2,
+                    "value": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:lapis_block",
+                    "weight": 2,
+                    "value": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_block",
+                    "weight": 1,
+                    "value": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:emerald_block",
+                    "weight": 1,
+                    "value": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:coal_block",
+                    "weight": 4,
+                    "value": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_ore",
                     "functions": [
                         {
                             "function": "set_count",
@@ -57,11 +174,12 @@
                             }
                         }
                     ],
-                    "weight": 10
+                    "weight": 10,
+                    "value": 2
                 },
                 {
                     "type": "item",
-                    "name": "minecraft:gold_ingot",
+                    "name": "minecraft:gold_ore",
                     "functions": [
                         {
                             "function": "set_count",
@@ -71,11 +189,12 @@
                             }
                         }
                     ],
-                    "weight": 5
+                    "weight": 5,
+                    "value": 2
                 },
                 {
                     "type": "item",
-                    "name": "minecraft:redstone",
+                    "name": "minecraft:redstone_ore",
                     "functions": [
                         {
                             "function": "set_count",
@@ -85,11 +204,12 @@
                             }
                         }
                     ],
-                    "weight": 5
+                    "weight": 5,
+                    "value": 2
                 },
                 {
                     "type": "item",
-                    "name": "minecraft:lapis_lazuli",
+                    "name": "minecraft:lapis_ore",
                     "functions": [
                         {
                             "function": "set_count",
@@ -99,11 +219,12 @@
                             }
                         }
                     ],
-                    "weight": 5
+                    "weight": 5,
+                    "value": 3
                 },
                 {
                     "type": "item",
-                    "name": "minecraft:diamond",
+                    "name": "minecraft:diamond_ore",
                     "functions": [
                         {
                             "function": "set_count",
@@ -113,11 +234,27 @@
                             }
                         }
                     ],
-                    "weight": 3
+                    "weight": 3,
+                    "value": 4
                 },
                 {
                     "type": "item",
-                    "name": "minecraft:coal",
+                    "name": "minecraft:emerald_ore",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ],
+                    "weight": 5,
+                    "value": 3
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:coal_ore",
                     "functions": [
                         {
                             "function": "set_count",
@@ -127,8 +264,18 @@
                             }
                         }
                     ],
-                    "weight": 10
-                },
+                    "weight": 10,
+                    "value": 1
+                }
+            ]
+        },
+
+
+
+        {
+            "rolls": 3,
+            "bonus_rolls": 1,
+            "entries": [
                 {
                     "type": "item",
                     "name": "minecraft:bread",
@@ -141,55 +288,9 @@
                             }
                         }
                     ],
-                    "weight": 15
+                    "weight": 15,
+                    "value": 1
                 },
-                {
-                    "type": "item",
-                    "name": "minecraft:melon_seeds",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 2,
-                                "max": 4
-                            }
-                        }
-                    ],
-                    "weight": 10
-                },
-                {
-                    "type": "item",
-                    "name": "minecraft:pumpkin_seeds",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 2,
-                                "max": 4
-                            }
-                        }
-                    ],
-                    "weight": 10
-                },
-                {
-                    "type": "item",
-                    "name": "minecraft:beetroot_seeds",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 2,
-                                "max": 4
-                            }
-                        }
-                    ],
-                    "weight": 10
-                }
-            ]
-        },
-        {
-            "rolls": 3,
-            "entries": [
                 {
                     "type": "item",
                     "name": "minecraft:rail",
@@ -202,7 +303,8 @@
                             }
                         }
                     ],
-                    "weight": 20
+                    "weight": 20,
+                    "value": 2
                 },
                 {
                     "type": "item",
@@ -216,7 +318,8 @@
                             }
                         }
                     ],
-                    "weight": 5
+                    "weight": 5,
+                    "value": 3
                 },
                 {
                     "type": "item",
@@ -230,7 +333,8 @@
                             }
                         }
                     ],
-                    "weight": 5
+                    "weight": 5,
+                    "value": 3
                 },
                 {
                     "type": "item",
@@ -244,7 +348,8 @@
                             }
                         }
                     ],
-                    "weight": 5
+                    "weight": 5,
+                    "value": 2
                 },
                 {
                     "type": "item",
@@ -258,7 +363,8 @@
                             }
                         }
                     ],
-                    "weight": 15
+                    "weight": 15,
+                    "value": 1
                 }
             ]
         }

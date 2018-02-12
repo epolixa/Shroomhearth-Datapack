@@ -59,6 +59,12 @@
                     "value": 4
                 },
                 {
+                    "type": "item",
+                    "name": "minecraft:totem_of_undying",
+                    "weight": 2,
+                    "value": 4
+                },
+                {
                     "type": "loot_table",
                     "name": "bityard:mob_eggs_overworld",
                     "weight": 10,
@@ -144,6 +150,9 @@
                 }
             ]
         },
+
+
+
         {
             "rolls": {
                 "min": 1,
@@ -261,6 +270,9 @@
                 }                
             ]
         },
+
+
+        
         {
             "rolls": 3,
             "entries": [

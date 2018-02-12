@@ -497,66 +497,7 @@
           ]
         },
 
-        {
-          "type": "item",
-          "name": "minecraft:chainmail_boots",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{display: {Name: \"Sneaky Chain Boots\"}}"
-            },
-            {
-              "function": "set_attributes",
-              "modifiers": [
-                {
-                  "attribute": "generic.armor",
-                  "name": "Armor",
-                  "amount": 2.0,
-                  "operation": "addition",
-                  "slot": ["feet"]
-                },
-                {
-                  "attribute": "generic.followRange",
-                  "name": "Follow Range",
-                  "amount": -24.0,
-                  "operation": "addition",
-                  "slot": ["feet"]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "name": "minecraft:chainmail_boots",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{display: {Name: \"Sneaky Chain Boots\"}}"
-            },
-            {
-              "function": "set_attributes",
-              "modifiers": [
-                {
-                  "attribute": "generic.armor",
-                  "name": "Armor",
-                  "amount": 2.0,
-                  "operation": "addition",
-                  "slot": ["feet"]
-                },
-                {
-                  "attribute": "generic.followRange",
-                  "name": "Follow Range",
-                  "amount": -28.0,
-                  "operation": "addition",
-                  "slot": ["feet"]
-                }
-              ]
-            }
-          ]
-        },
+
 
         {
           "type": "item",
@@ -1176,66 +1117,7 @@
           ]
         },
 
-        {
-          "type": "item",
-          "name": "minecraft:iron_boots",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{display: {Name: \"Sneaky Iron Boots\"}}"
-            },
-            {
-              "function": "set_attributes",
-              "modifiers": [
-                {
-                  "attribute": "generic.armor",
-                  "name": "Armor",
-                  "amount": 2.0,
-                  "operation": "addition",
-                  "slot": ["feet"]
-                },
-                {
-                  "attribute": "generic.followRange",
-                  "name": "Follow Range",
-                  "amount": -24.0,
-                  "operation": "addition",
-                  "slot": ["feet"]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "name": "minecraft:iron_boots",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{display: {Name: \"Sneaky Iron Boots\"}}"
-            },
-            {
-              "function": "set_attributes",
-              "modifiers": [
-                {
-                  "attribute": "generic.armor",
-                  "name": "Armor",
-                  "amount": 2.0,
-                  "operation": "addition",
-                  "slot": ["feet"]
-                },
-                {
-                  "attribute": "generic.followRange",
-                  "name": "Follow Range",
-                  "amount": -28.0,
-                  "operation": "addition",
-                  "slot": ["feet"]
-                }
-              ]
-            }
-          ]
-        },
+        
 
         {
           "type": "item",
