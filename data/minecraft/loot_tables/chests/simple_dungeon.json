@@ -24,19 +24,19 @@
                 },
                 {
                     "type": "loot_table",
-                    "name": "bityard:attribute_iron_gear",
+                    "name": "bityard:attribute_gear/iron",
                     "weight": 15,
                     "value": 3
                 },
                 {
                     "type": "loot_table",
-                    "name": "bityard:attribute_gold_gear",
+                    "name": "bityard:attribute_gear/golden",
                     "weight": 10,
                     "value": 3
                 },
                 {
                     "type": "loot_table",
-                    "name": "bityard:attribute_diamond_gear",
+                    "name": "bityard:attribute_gear/diamond",
                     "weight": 5,
                     "value": 3
                 },

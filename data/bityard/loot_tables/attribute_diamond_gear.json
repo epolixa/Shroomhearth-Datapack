@@ -25,7 +25,7 @@
                 {
                   "attribute": "generic.maxHealth",
                   "name": "Max Health",
-                  "amount": 3.0,
+                  "amount": 2.0,
                   "operation": "addition",
                   "slot": ["head"]
                 }
@@ -35,12 +35,72 @@
         },
         {
           "type": "item",
-          "name": "minecraft:diamond_helmet",
+          "name": "minecraft:diamond_chestplate",
           "weight": 1,
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display: {Name: \"Healthy Diamond Helmet\"}}"
+              "tag": "{display: {Name: \"Healthy Diamond Chestplate\"}}"
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "generic.armor",
+                  "name": "Armor",
+                  "amount": 8.0,
+                  "operation": "addition",
+                  "slot": ["chest"]
+                },
+                {
+                  "attribute": "generic.maxHealth",
+                  "name": "Max Health",
+                  "amount": 2.0,
+                  "operation": "addition",
+                  "slot": ["chest"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:diamond_leggings",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display: {Name: \"Healthy Diamond Leggings\"}}"
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "generic.armor",
+                  "name": "Armor",
+                  "amount": 6.0,
+                  "operation": "addition",
+                  "slot": ["legs"]
+                },
+                {
+                  "attribute": "generic.maxHealth",
+                  "name": "Max Health",
+                  "amount": 2.0,
+                  "operation": "addition",
+                  "slot": ["legs"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:diamond_boots",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display: {Name: \"Healthy Diamond Boots\"}}"
             },
             {
               "function": "set_attributes",
@@ -50,19 +110,130 @@
                   "name": "Armor",
                   "amount": 3.0,
                   "operation": "addition",
-                  "slot": ["head"]
+                  "slot": ["feet"]
                 },
                 {
                   "attribute": "generic.maxHealth",
                   "name": "Max Health",
-                  "amount": 4.0,
+                  "amount": 2.0,
                   "operation": "addition",
-                  "slot": ["head"]
+                  "slot": ["feet"]
                 }
               ]
             }
           ]
         },
+        {
+          "type": "item",
+          "name": "minecraft:diamond_pickaxe",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display: {Name: \"Healthy Diamond Pickaxe\"}}"
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "generic.attackSpeed",
+                  "name": "Attack Speed",
+                  "amount": -2.8,
+                  "operation": "addition",
+                  "slot": ["mainhand"]
+                },
+                {
+                  "attribute": "generic.maxHealth",
+                  "name": "Max Health",
+                  "amount": 2.0,
+                  "operation": "addition",
+                  "slot": ["mainhand"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:diamond_sword",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display: {Name: \"Healthy Diamond Sword\"}}"
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "generic.attackSpeed",
+                  "name": "Attack Speed",
+                  "amount": -2.4,
+                  "operation": "addition",
+                  "slot": ["mainhand"]
+                },
+                {
+                  "attribute": "generic.maxHealth",
+                  "name": "Max Health",
+                  "amount": 2.0,
+                  "operation": "addition",
+                  "slot": ["mainhand"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:diamond_axe",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display: {Name: \"Healthy Diamond Axe\"}}"
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "generic.attackSpeed",
+                  "name": "Attack Speed",
+                  "amount": -3.0,
+                  "operation": "addition",
+                  "slot": ["mainhand"]
+                },
+                {
+                  "attribute": "generic.maxHealth",
+                  "name": "Max Health",
+                  "amount": 2.0,
+                  "operation": "addition",
+                  "slot": ["mainhand"]
+                }
+              ]
+            }
+          ]
+        },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         {
           "type": "item",
@@ -123,70 +294,8 @@
               ]
             }
           ]
-        },
-
-
-
-        {
-          "type": "item",
-          "name": "minecraft:diamond_chestplate",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{display: {Name: \"Healthy Diamond Chestplate\"}}"
-            },
-            {
-              "function": "set_attributes",
-              "modifiers": [
-                {
-                  "attribute": "generic.armor",
-                  "name": "Armor",
-                  "amount": 8.0,
-                  "operation": "addition",
-                  "slot": ["chest"]
-                },
-                {
-                  "attribute": "generic.maxHealth",
-                  "name": "Max Health",
-                  "amount": 3.0,
-                  "operation": "addition",
-                  "slot": ["chest"]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "name": "minecraft:diamond_chestplate",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{display: {Name: \"Healthy Diamond Chestplate\"}}"
-            },
-            {
-              "function": "set_attributes",
-              "modifiers": [
-                {
-                  "attribute": "generic.armor",
-                  "name": "Armor",
-                  "amount": 8.0,
-                  "operation": "addition",
-                  "slot": ["chest"]
-                },
-                {
-                  "attribute": "generic.maxHealth",
-                  "name": "Max Health",
-                  "amount": 4.0,
-                  "operation": "addition",
-                  "slot": ["chest"]
-                }
-              ]
-            }
-          ]
-        },
+        },      
+        
 
         {
           "type": "item",
@@ -247,70 +356,8 @@
               ]
             }
           ]
-        },
-
-
-
-        {
-          "type": "item",
-          "name": "minecraft:diamond_leggings",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{display: {Name: \"Healthy Diamond Leggings\"}}"
-            },
-            {
-              "function": "set_attributes",
-              "modifiers": [
-                {
-                  "attribute": "generic.armor",
-                  "name": "Armor",
-                  "amount": 6.0,
-                  "operation": "addition",
-                  "slot": ["legs"]
-                },
-                {
-                  "attribute": "generic.maxHealth",
-                  "name": "Max Health",
-                  "amount": 3.0,
-                  "operation": "addition",
-                  "slot": ["legs"]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "name": "minecraft:diamond_leggings",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{display: {Name: \"Healthy Diamond Leggings\"}}"
-            },
-            {
-              "function": "set_attributes",
-              "modifiers": [
-                {
-                  "attribute": "generic.armor",
-                  "name": "Armor",
-                  "amount": 6.0,
-                  "operation": "addition",
-                  "slot": ["legs"]
-                },
-                {
-                  "attribute": "generic.maxHealth",
-                  "name": "Max Health",
-                  "amount": 4.0,
-                  "operation": "addition",
-                  "slot": ["legs"]
-                }
-              ]
-            }
-          ]
-        },
+        },       
+        
 
         {
           "type": "item",
@@ -436,66 +483,8 @@
 
 
 
-        {
-          "type": "item",
-          "name": "minecraft:diamond_boots",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{display: {Name: \"Healthy Diamond Boots\"}}"
-            },
-            {
-              "function": "set_attributes",
-              "modifiers": [
-                {
-                  "attribute": "generic.armor",
-                  "name": "Armor",
-                  "amount": 3.0,
-                  "operation": "addition",
-                  "slot": ["feet"]
-                },
-                {
-                  "attribute": "generic.maxHealth",
-                  "name": "Max Health",
-                  "amount": 3.0,
-                  "operation": "addition",
-                  "slot": ["feet"]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "name": "minecraft:diamond_boots",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{display: {Name: \"Healthy Diamond Boots\"}}"
-            },
-            {
-              "function": "set_attributes",
-              "modifiers": [
-                {
-                  "attribute": "generic.armor",
-                  "name": "Armor",
-                  "amount": 3.0,
-                  "operation": "addition",
-                  "slot": ["feet"]
-                },
-                {
-                  "attribute": "generic.maxHealth",
-                  "name": "Max Health",
-                  "amount": 4.0,
-                  "operation": "addition",
-                  "slot": ["feet"]
-                }
-              ]
-            }
-          ]
-        },
+        
+        
 
 
 
@@ -947,36 +936,7 @@
 
 
 
-        {
-          "type": "item",
-          "name": "minecraft:diamond_pickaxe",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{display: {Name: \"Strong Diamond Pickaxe\"}}"
-            },
-            {
-              "function": "set_attributes",
-              "modifiers": [
-                {
-                  "attribute": "generic.attackSpeed",
-                  "name": "Attack Speed",
-                  "amount": -2.8,
-                  "operation": "addition",
-                  "slot": ["mainhand"]
-                },
-                {
-                  "attribute": "generic.attackDamage",
-                  "name": "Attack Damage",
-                  "amount": 4.0,
-                  "operation": "addition",
-                  "slot": ["mainhand"]
-                }
-              ]
-            }
-          ]
-        },
+        
         {
           "type": "item",
           "name": "minecraft:diamond_pickaxe",

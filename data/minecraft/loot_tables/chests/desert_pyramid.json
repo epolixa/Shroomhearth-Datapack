@@ -5,33 +5,20 @@
                 "min": 2,
                 "max": 4
             },
+            "bonus_rolls": {
+                "min": 1,
+                "max": 2
+            },
             "entries": [
                 {
                     "type": "item",
-                    "name": "minecraft:diamond",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 3
-                            }
-                        }
-                    ],
-                    "weight": 5
+                    "name": "minecraft:totem_of_undying",
+                    "weight": 5,
+                    "value": 4
                 },
                 {
                     "type": "item",
-                    "name": "minecraft:iron_ingot",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 5
-                            }
-                        }
-                    ],
+                    "name": "minecraft:gold_block",
                     "weight": 15
                 },
                 {
@@ -41,8 +28,8 @@
                         {
                             "function": "set_count",
                             "count": {
-                                "min": 2,
-                                "max": 7
+                                "min": 3,
+                                "max": 12
                             }
                         }
                     ],
@@ -50,17 +37,203 @@
                 },
                 {
                     "type": "item",
-                    "name": "minecraft:emerald",
+                    "name": "minecraft:gold_nugget",
                     "functions": [
                         {
                             "function": "set_count",
                             "count": {
-                                "min": 1,
-                                "max": 3
+                                "min": 4,
+                                "max": 24
                             }
                         }
                     ],
                     "weight": 15
+                },
+                {
+                    "type": "loot_table",
+                    "name": "bityard:attribute_gear/golden",
+                    "weight": 5,
+                    "value": 3
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:golden_pickaxe",
+                    "weight": 10,
+                    "value": 2
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:golden_pickaxe",
+                    "weight": 5,
+                    "value": 3,
+                    "functions": [
+                        {
+                            "function": "enchant_randomly"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:golden_pickaxe",
+                    "weight": 3,
+                    "value": 4,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": 30
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:golden_sword",
+                    "weight": 10,
+                    "value": 2
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:golden_sword",
+                    "weight": 5,
+                    "value": 3,
+                    "functions": [
+                        {
+                            "function": "enchant_randomly"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:golden_sword",
+                    "weight": 3,
+                    "value": 4,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": 30
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:golden_chestplate",
+                    "weight": 10,
+                    "value": 2
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:golden_chestplate",
+                    "weight": 5,
+                    "value": 3,
+                    "functions": [
+                        {
+                            "function": "enchant_randomly"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:golden_chestplate",
+                    "weight": 3,
+                    "value": 4,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": 30
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:golden_helmet",
+                    "weight": 10,
+                    "value": 2
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:golden_helmet",
+                    "weight": 5,
+                    "value": 3,
+                    "functions": [
+                        {
+                            "function": "enchant_randomly"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:golden_helmet",
+                    "weight": 3,
+                    "value": 4,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": 30
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:golden_leggings",
+                    "weight": 10,
+                    "value": 2
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:golden_leggings",
+                    "weight": 5,
+                    "value": 3,
+                    "functions": [
+                        {
+                            "function": "enchant_randomly"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:golden_leggings",
+                    "weight": 3,
+                    "value": 4,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": 30
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:golden_boots",
+                    "weight": 10,
+                    "value": 2
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:golden_boots",
+                    "weight": 5,
+                    "value": 3,
+                    "functions": [
+                        {
+                            "function": "enchant_randomly"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:golden_boots",
+                    "weight": 3,
+                    "value": 4,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": 30
+                        }
+                    ]
                 },
                 {
                     "type": "item",
@@ -111,18 +284,8 @@
                 },
                 {
                     "type": "item",
-                    "name": "minecraft:iron_horse_armor",
-                    "weight": 15
-                },
-                {
-                    "type": "item",
                     "name": "minecraft:golden_horse_armor",
                     "weight": 10
-                },
-                {
-                    "type": "item",
-                    "name": "minecraft:diamond_horse_armor",
-                    "weight": 5
                 },
                 {
                     "type": "item",
@@ -136,20 +299,34 @@
                 },
                 {
                     "type": "item",
+                    "name": "minecraft:book",
+                    "weight": 5,
+                    "value": 4,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "levels": 30,
+                            "treasure": true
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
                     "name": "minecraft:golden_apple",
-                    "weight": 20
+                    "weight": 20,
+                    "value": 2
                 },
                 {
                     "type": "item",
                     "name": "minecraft:enchanted_golden_apple",
-                    "weight": 2
-                },
-                {
-                    "type": "empty",
-                    "weight": 15
+                    "weight": 2,
+                    "value": 4
                 }
             ]
         },
+
+
+
         {
             "rolls": 4,
             "entries": [
@@ -157,20 +334,7 @@
                     "type": "item",
                     "name": "minecraft:bone",
                     "weight": 10,
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 8
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "minecraft:gunpowder",
-                    "weight": 10,
+                    "value": 1,
                     "functions": [
                         {
                             "function": "set_count",
@@ -185,20 +349,7 @@
                     "type": "item",
                     "name": "minecraft:rotten_flesh",
                     "weight": 10,
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 8
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "minecraft:string",
-                    "weight": 10,
+                    "value": 1,
                     "functions": [
                         {
                             "function": "set_count",
@@ -213,12 +364,28 @@
                     "type": "item",
                     "name": "minecraft:sand",
                     "weight": 10,
+                    "value": 2,
                     "functions": [
                         {
                             "function": "set_count",
                             "count": {
                                 "min": 1,
-                                "max": 8
+                                "max": 16
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:sandstone",
+                    "weight": 10,
+                    "value": 2,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 16
                             }
                         }
                     ]

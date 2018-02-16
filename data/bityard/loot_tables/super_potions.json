@@ -167,6 +167,17 @@
               "tag": "{display: {Name: \"Baileys\"}, Potion:\"minecraft:water\", CustomPotionEffects:[{Id: 26, Amplifier: 2, Duration: 4800}, {Id: 23, Amplifier: 0, Duration: 1200}, {Id: 9, Amplifier: 0, Duration: 600}, {Id: 2, Amplifier: 0, Duration: 1200}]}"
             }
           ]
+        },
+        {
+          "type": "item",
+          "name": "potion",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display: {Name: \"Cobalt Velvet\"}, Potion:\"minecraft:water\", CustomPotionEffects:[{Id: 1, Amplifier: 1, Duration: 4800}, {Id: 16, Amplifier: 0, Duration: 4800}, {Id: 13, Amplifier: 0, Duration: 4800}]}"
+            }
+          ]
         }
       ]
     }
