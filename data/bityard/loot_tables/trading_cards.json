@@ -12,7 +12,7 @@
           [
             {
               "function": "set_nbt",
-              "tag":"{map: 1000, ench: [{id:-1}], display: {Name: \"Cloud Ninja\", Lore: [\"Cloud Ninja uses enchanted\",\"socks to escape in midair.\",\"daydrifter\"]}}"
+              "tag":"{map: 10000000, ench: [{id:-1}], display: {Name: \"{\\\"text\\\":\\\"Gabriel Fletcher\\\"}\", Lore: [\"Is there a Gabriel-sized\",\"window anywhere?\"]}}"
             }
           ]
         }

@@ -1,10 +1,10 @@
 ################################################################
-# Setup Objectives
+# Reset Objectives
 # creates all necessary objectives used by modules, etc
 ################################################################
 
 
-## Flags/Trackers
+## Flags/Trackers/Timers
 
 # playerSneak - used by solomonShoes
 scoreboard objectives remove playerSneak
@@ -13,6 +13,10 @@ scoreboard objectives add playerSneak minecraft.custom:minecraft.sneak_time
 # playerHealth - displayed under player nametag
 scoreboard objectives remove playerHealth
 scoreboard objectives add playerHealth health \u00A74\u2764
+
+# bleedSpeed
+scoreboard objectives remove bleedSpeed
+scoreboard objectives add bleedSpeed dummy
 
 # playerLevel - displayed under player nametag
 scoreboard objectives remove playerLevel
@@ -59,6 +63,17 @@ scoreboard objectives add kinStone dummy
 scoreboard objectives remove etherealBonbon
 scoreboard objectives add etherealBonbon minecraft.used:minecraft.chorus_fruit
 
+# everCookie - Everlasting Cookie
+scoreboard objectives remove everCookie
+scoreboard objectives add everCookie dummy
+scoreboard objectives remove ateCookie
+scoreboard objectives add ateCookie minecraft.used:minecraft.cookie
+
+# reusablePearl - Reusable Ender Pearl
+scoreboard objectives remove reusablePearl
+scoreboard objectives add reusablePearl dummy
+scoreboard objectives remove usedPearl
+scoreboard objectives add usedPearl minecraft.used:minecraft.ender_pearl
 
 ## Set Display
 

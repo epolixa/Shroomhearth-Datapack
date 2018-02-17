@@ -12,6 +12,11 @@ function bityard:modules/solomons_shoes
 function bityard:modules/kin_stone
 function bityard:modules/ethereal_bonbon
 function bityard:modules/hell_heels
+function bityard:modules/everlasting_cookie
+function bityard:modules/reusable_ender_pearl
+
+## Misc
+function bityard:modules/bleeding_particles
 
 ## Flags
 function bityard:modules/flags
