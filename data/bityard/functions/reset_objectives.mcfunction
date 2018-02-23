@@ -41,6 +41,12 @@ scoreboard players set @e[tag=healthDisplay,type=armor_stand] healthDisplay 0
 scoreboard objectives remove community
 scoreboard objectives add community dummy
 
+# water polish - objectives for extra player water particles
+scoreboard objectives remove soaked
+scoreboard objectives add soaked dummy
+scoreboard objectives remove bubbleBreath
+scoreboard objectives add bubbleBreath dummy
+
 
 ## Advancements
 
