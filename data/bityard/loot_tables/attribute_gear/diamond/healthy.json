@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display: {Name: \"Healthy Diamond Helmet\"}}"
+              "tag": "{display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"text\\\":\\\"Healthy Diamond Helmet\\\"}\"}}"
             },
             {
               "function": "set_attributes",
@@ -20,14 +20,14 @@
                   "name": "Armor",
                   "amount": 3.0,
                   "operation": "addition",
-                  "slot": ["head"]
+                  "slot": "head"
                 },
                 {
                   "attribute": "generic.maxHealth",
                   "name": "Max Health",
                   "amount": 2.0,
                   "operation": "addition",
-                  "slot": ["head"]
+                  "slot": "head"
                 }
               ]
             }
@@ -40,7 +40,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display: {Name: \"Healthy Diamond Chestplate\"}}"
+              "tag": "{display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"text\\\":\\\"Healthy Diamond Chestplate\\\"}\"}}"
             },
             {
               "function": "set_attributes",
@@ -50,14 +50,14 @@
                   "name": "Armor",
                   "amount": 8.0,
                   "operation": "addition",
-                  "slot": ["chest"]
+                  "slot": "chest"
                 },
                 {
                   "attribute": "generic.maxHealth",
                   "name": "Max Health",
                   "amount": 2.0,
                   "operation": "addition",
-                  "slot": ["chest"]
+                  "slot": "chest"
                 }
               ]
             }
@@ -70,7 +70,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display: {Name: \"Healthy Diamond Leggings\"}}"
+              "tag": "{display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"text\\\":\\\"Healthy Diamond Leggings\\\"}\"}}"
             },
             {
               "function": "set_attributes",
@@ -80,14 +80,14 @@
                   "name": "Armor",
                   "amount": 6.0,
                   "operation": "addition",
-                  "slot": ["legs"]
+                  "slot": "legs"
                 },
                 {
                   "attribute": "generic.maxHealth",
                   "name": "Max Health",
                   "amount": 2.0,
                   "operation": "addition",
-                  "slot": ["legs"]
+                  "slot": "legs"
                 }
               ]
             }
@@ -100,7 +100,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display: {Name: \"Healthy Diamond Boots\"}}"
+              "tag": "{display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"text\\\":\\\"Healthy Diamond Boots\\\"}\"}}"
             },
             {
               "function": "set_attributes",
@@ -110,14 +110,14 @@
                   "name": "Armor",
                   "amount": 3.0,
                   "operation": "addition",
-                  "slot": ["feet"]
+                  "slot": "feet"
                 },
                 {
                   "attribute": "generic.maxHealth",
                   "name": "Max Health",
                   "amount": 2.0,
                   "operation": "addition",
-                  "slot": ["feet"]
+                  "slot": "feet"
                 }
               ]
             }
@@ -133,7 +133,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display: {Name: \"Healthy Diamond Sword\"}}"
+              "tag": "{display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"text\\\":\\\"Healthy Diamond Sword\\\"}\"}}"
             },
             {
               "function": "set_attributes",
@@ -143,14 +143,14 @@
                   "name": "Attack Speed",
                   "amount": -2.4,
                   "operation": "addition",
-                  "slot": ["mainhand"]
+                  "slot": "mainhand"
                 },
                 {
                   "attribute": "generic.maxHealth",
                   "name": "Max Health",
                   "amount": 2.0,
                   "operation": "addition",
-                  "slot": ["mainhand"]
+                  "slot": "mainhand"
                 }
               ]
             }
@@ -163,7 +163,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display: {Name: \"Healthy Diamond Pickaxe\"}}"
+              "tag": "{display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"text\\\":\\\"Healthy Diamond Pickaxe\\\"}\"}}"
             },
             {
               "function": "set_attributes",
@@ -173,14 +173,14 @@
                   "name": "Attack Speed",
                   "amount": -2.8,
                   "operation": "addition",
-                  "slot": ["mainhand"]
+                  "slot": "mainhand"
                 },
                 {
                   "attribute": "generic.maxHealth",
                   "name": "Max Health",
                   "amount": 2.0,
                   "operation": "addition",
-                  "slot": ["mainhand"]
+                  "slot": "mainhand"
                 }
               ]
             }
@@ -193,7 +193,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display: {Name: \"Healthy Diamond Axe\"}}"
+              "tag": "{display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"text\\\":\\\"Healthy Diamond Axe\\\"}\"}}"
             },
             {
               "function": "set_attributes",
@@ -203,14 +203,14 @@
                   "name": "Attack Speed",
                   "amount": -3.0,
                   "operation": "addition",
-                  "slot": ["mainhand"]
+                  "slot": "mainhand"
                 },
                 {
                   "attribute": "generic.maxHealth",
                   "name": "Max Health",
                   "amount": 2.0,
                   "operation": "addition",
-                  "slot": ["mainhand"]
+                  "slot": "mainhand"
                 }
               ]
             }

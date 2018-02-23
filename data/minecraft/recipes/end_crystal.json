@@ -1,0 +1,25 @@
+{
+  "type": "crafting_shaped",
+  "key": [
+    {
+      "item":"minecraft:diamond",
+      "key": "d"
+    },
+    {
+      "item":"minecraft:eye_of_ender",
+      "key": "e"
+    },
+    {
+      "item":"minecraft:ghast_tear",
+      "key": "t"
+    }
+  ],
+  "pattern": [
+    "ddd",
+    "ded",
+    "dtd"
+  ],
+  "result": {
+    "item": "minecraft:end_crystal"
+  }
+}

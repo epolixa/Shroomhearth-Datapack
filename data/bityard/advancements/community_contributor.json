@@ -6,7 +6,7 @@
 		},
 		"title": "Community Contributor",
 		"description": "Reach the maximum community score for a project",
-    "frame": "goal"
+    	"frame": "goal"
 	},
 	"criteria": {
 		"mined_blocks": {

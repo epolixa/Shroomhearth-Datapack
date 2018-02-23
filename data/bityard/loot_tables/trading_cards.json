@@ -12,7 +12,7 @@
           [
             {
               "function": "set_nbt",
-              "tag":"{map: 10000000, ench: [{id:-1}], display: {Name: \"{\\\"text\\\":\\\"Gabriel Fletcher\\\"}\", Lore: [\"Is there a Gabriel-sized\",\"window anywhere?\"]}}"
+              "tag":"{map: 10000000, ench: [{id:-1}], display: {Name: \"{\\\"color\\\":\\\"light_purple\\\", \\\"text\\\":\\\"Gabriel Fletcher\\\"}\", Lore: [\"Is there a Gabriel-sized\",\"window anywhere?\"]}}"
             }
           ]
         }
