@@ -14,6 +14,14 @@ scoreboard objectives add playerSneak minecraft.custom:minecraft.sneak_time
 scoreboard objectives remove playerHealth
 scoreboard objectives add playerHealth health \u00A74\u2764
 
+# playerSleep - flag for sleeping players
+scoreboard objectives remove playerSleep
+scoreboard objectives add playerSleep dummy
+
+# viewPitch - used for name colors
+scoreboard objectives remove viewPitch
+scoreboard objectives add viewPitch dummy
+
 # bleedSpeed
 scoreboard objectives remove bleedSpeed
 scoreboard objectives add bleedSpeed dummy
@@ -47,6 +55,17 @@ scoreboard objectives add soaked dummy
 scoreboard objectives remove bubbleBreath
 scoreboard objectives add bubbleBreath dummy
 
+# drop item sounds
+scoreboard objectives remove dropItem
+scoreboard objectives add dropItem minecraft.custom:minecraft.drop
+
+# entity ticks - increments every tick for mobs, used for spawn control
+scoreboard objectives remove entityTicks 
+scoreboard objectives add entityTicks dummy
+
+# heldDye - for name coloring
+scoreboard objectives remove heldDye
+scoreboard objectives add heldDye dummy
 
 ## Advancements
 
