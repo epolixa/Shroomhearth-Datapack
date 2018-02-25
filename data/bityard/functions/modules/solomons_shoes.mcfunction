@@ -32,4 +32,4 @@ execute as @e[type=shulker,tag=solomonsShoes,scores={solomonsShoes=1}] at @s run
 execute as @e[type=shulker,tag=solomonsShoes,scores={solomonsShoes=120}] at @s run playsound minecraft:ui.toast.out player @a ~ ~ ~ 1.4 1.4
 
 # Remove platforms at the end of their life
-kill @e[tag=solomonsShoes,scores={solomonsShoes=120..}]
+kill @e[tag=solomonsShoes,scores={solomonsShoes=120..}] 

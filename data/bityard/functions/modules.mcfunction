@@ -14,13 +14,16 @@ function bityard:modules/ethereal_bonbon
 function bityard:modules/hell_heels
 function bityard:modules/everlasting_cookie
 function bityard:modules/reusable_ender_pearl
+function bityard:modules/frog_rompers
+
+## Misc
+function bityard:modules/bleeding_particles
 function bityard:modules/swimming_polish
 function bityard:modules/multi_sleep
 function bityard:modules/drop_item
 function bityard:modules/color_names
-
-## Misc
-function bityard:modules/bleeding_particles
+function bityard:modules/farming_xp
+function bityard:modules/grass_path
 
 ## Flags
 function bityard:modules/flags

@@ -18,9 +18,17 @@ scoreboard objectives add playerHealth health \u00A74\u2764
 scoreboard objectives remove playerSleep
 scoreboard objectives add playerSleep dummy
 
+# playerJump - flag for jumping players
+scoreboard objectives remove playerJump
+scoreboard objectives add playerJump minecraft.custom:minecraft.jump
+
 # viewPitch - used for name colors
 scoreboard objectives remove viewPitch
 scoreboard objectives add viewPitch dummy
+
+# motionY - value of vertical movement
+scoreboard objectives remove motionY
+scoreboard objectives add motionY dummy
 
 # bleedSpeed
 scoreboard objectives remove bleedSpeed
@@ -67,6 +75,10 @@ scoreboard objectives add entityTicks dummy
 scoreboard objectives remove heldDye
 scoreboard objectives add heldDye dummy
 
+# farming xp
+scoreboard objectives remove farmWheat
+scoreboard objectives add farmWheat minecraft.mined:minecraft.wheat
+
 ## Advancements
 
 # minedStone - used by AlmightyA
@@ -99,6 +111,12 @@ scoreboard objectives remove reusablePearl
 scoreboard objectives add reusablePearl dummy
 scoreboard objectives remove usedPearl
 scoreboard objectives add usedPearl minecraft.used:minecraft.ender_pearl
+
+# frog rompers
+scoreboard objectives remove frogRompers
+scoreboard objectives add frogRompers dummy
+scoreboard objectives remove frogRompersSneak
+scoreboard objectives add frogRompersSneak minecraft.custom:minecraft.sneak_time
 
 ## Set Display
 

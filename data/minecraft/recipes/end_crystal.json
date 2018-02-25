@@ -1,19 +1,16 @@
 {
   "type": "crafting_shaped",
-  "key": [
-    {
-      "item":"minecraft:diamond",
-      "key": "d"
+  "key": {
+    "d": {
+      "item":"minecraft:diamond"
     },
-    {
-      "item":"minecraft:eye_of_ender",
-      "key": "e"
+    "e": {
+      "item":"minecraft:ender_eye"
     },
-    {
-      "item":"minecraft:ghast_tear",
-      "key": "t"
+    "t": {
+      "item":"minecraft:ghast_tear"
     }
-  ],
+  },
   "pattern": [
     "ddd",
     "ded",

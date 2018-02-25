@@ -1,0 +1,152 @@
+{
+  "parent": "bityard:root",
+  "display": {
+		"icon": {
+			"item": "minecraft:red_terracotta"
+		},
+		"title": "The_RedGear",
+		"description": "Collect every red block"
+	},
+	"criteria": {
+		"red_wool": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item":"minecraft:red_wool"
+					}
+				]
+			}
+		},
+		"bricks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item":"minecraft:bricks"
+					}
+				]
+			}
+		},
+		"tnt": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item":"minecraft:tnt"
+					}
+				]
+			}
+		},
+		"netherrack": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item":"minecraft:netherrack"
+					}
+				]
+			}
+		},
+		"red_mushroom_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item":"minecraft:red_mushroom_block"
+					}
+				]
+			}
+		},
+		"redstone_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item":"minecraft:redstone_block"
+					}
+				]
+			}
+		},
+		"red_terracotta": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item":"minecraft:red_terracotta"
+					}
+				]
+			}
+		},
+		"red_stained_glass": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item":"minecraft:red_stained_glass"
+					}
+				]
+			}
+		},
+		"nether_wart_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item":"minecraft:nether_wart_block"
+					}
+				]
+			}
+		},
+		"red_nether_bricks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item":"minecraft:red_nether_bricks"
+					}
+				]
+			}
+		},
+		"red_shulker_box": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item":"minecraft:red_shulker_box"
+					}
+				]
+			}
+		},
+		"red_glazed_terracotta": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item":"minecraft:red_glazed_terracotta"
+					}
+				]
+			}
+		},
+		"red_concrete": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item":"minecraft:red_concrete"
+					}
+				]
+			}
+		},
+		"red_concrete_powder": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item":"minecraft:red_concrete_powder"
+					}
+				]
+			}
+		}
+	}
+}

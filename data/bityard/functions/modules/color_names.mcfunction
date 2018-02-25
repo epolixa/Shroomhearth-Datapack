@@ -164,7 +164,6 @@ execute as @e[tag=color_names, nbt={Color:14b}] at @s at @p[team=!red, distance=
 execute as @e[tag=color_names, nbt={Color:15b}] at @s at @p[team=!black, distance=..3] run playsound minecraft:item.bottle.empty player @a ~ ~2.3 ~ 1 1.4
 
 
-
 # join team based on sheep dummy color
 # white
 execute as @e[tag=color_names, nbt={Color:0b}] at @s run team join white @p[team=!white, distance=..3]
