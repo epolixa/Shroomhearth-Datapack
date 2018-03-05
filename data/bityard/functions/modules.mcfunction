@@ -24,6 +24,7 @@ function bityard:modules/drop_item
 function bityard:modules/color_names
 function bityard:modules/farming_xp
 function bityard:modules/grass_path
+function bityard:modules/item_glint
 
 ## Flags
 function bityard:modules/flags

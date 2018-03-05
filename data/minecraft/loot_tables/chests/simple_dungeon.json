@@ -60,6 +60,12 @@
                 },
                 {
                     "type": "item",
+                    "name": "minecraft:experience_bottle",
+                    "weight": 15,
+                    "value": 2
+                },
+                {
+                    "type": "item",
                     "name": "minecraft:totem_of_undying",
                     "weight": 2,
                     "value": 4

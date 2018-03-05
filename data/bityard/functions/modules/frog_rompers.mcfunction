@@ -28,8 +28,9 @@ execute as @a[scores={playerJump=1.., frogRompersSneak=40..59}] at @s run playso
 execute as @a[scores={playerJump=1.., frogRompersSneak=60..80}] at @s run playsound minecraft:entity.puffer_fish.blow_up player epolixa ~ ~ ~ 1 1.4
 
 # tick down frog romper sneak when not crouched
-execute as @a[scores={frogRompers=1.., playerSneak=0, frogRompersSneak=1..}, nbt={OnGround:1b}] run scoreboard players remove @s frogRompersSneak 1
+execute as @a[scores={playerSneak=0, frogRompersSneak=1..}, nbt={OnGround:1b}] run scoreboard players remove @s frogRompersSneak 1
 
-# reset objective to 0 if not wearing rompers
+# reset objectives to 0 if not wearing rompers
 execute as @a[scores={frogRompers=0, frogRompersSneak=1..}] run scoreboard players set @s frogRompersSneak 0
+execute as @a[scores={frogRompersSneak=1}] run scoreboard players add @s frogRompers 0
 execute as @a[scores={frogRompers=1..}] run scoreboard players set @s frogRompers 0

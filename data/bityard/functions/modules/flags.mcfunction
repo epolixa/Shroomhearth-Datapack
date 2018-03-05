@@ -13,6 +13,10 @@ execute as @a[scores={playerJump=1..}] at @s run scoreboard players set @s playe
 # rng - reset to 0 after 9 ticks
 execute as @a[scores={rng=9..}] at @s run scoreboard players set @s rng 0
 
+# bubbleSwim - reset to 0 after 10 cm
+execute as @a[scores={bubbleSwim=100..}] at @s run scoreboard players set @s bubbleSwim 0
+execute as @a at @s unless block ~ ~0.1 ~ #bityard:water run scoreboard players set @s bubbleSwim 0
+
 # viewPitch
 execute as @a store result score @s viewPitch run data get entity @s Rotation[1]
 

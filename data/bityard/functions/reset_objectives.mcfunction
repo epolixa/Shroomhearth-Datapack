@@ -62,10 +62,16 @@ scoreboard objectives remove soaked
 scoreboard objectives add soaked dummy
 scoreboard objectives remove bubbleBreath
 scoreboard objectives add bubbleBreath dummy
+scoreboard objectives remove bubbleSwim
+scoreboard objectives add bubbleSwim minecraft.custom:minecraft.dive_one_cm 
 
 # drop item sounds
 scoreboard objectives remove dropItem
 scoreboard objectives add dropItem minecraft.custom:minecraft.drop
+
+# item glint
+scoreboard objectives remove itemGlint
+scoreboard objectives add itemGlint dummy
 
 # entity ticks - increments every tick for mobs, used for spawn control
 scoreboard objectives remove entityTicks 
@@ -78,6 +84,12 @@ scoreboard objectives add heldDye dummy
 # farming xp
 scoreboard objectives remove farmWheat
 scoreboard objectives add farmWheat minecraft.mined:minecraft.wheat
+scoreboard objectives remove farmBeets
+scoreboard objectives add farmBeets minecraft.mined:minecraft.beetroots
+scoreboard objectives remove farmCarrots
+scoreboard objectives add farmCarrots minecraft.mined:minecraft.carrots
+scoreboard objectives remove farmPotatoes
+scoreboard objectives add farmPotatoes minecraft.mined:minecraft.potatoes
 
 ## Advancements
 

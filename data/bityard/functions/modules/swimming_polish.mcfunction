@@ -17,12 +17,14 @@ execute as @a[scores={soaked=41..}] at @s unless block ~ ~0.1 ~ #bityard:water r
 # decay soaked timer while out of water
 execute as @a[scores={soaked=1..}] at @s unless block ~ ~0.1 ~ #bityard:water run scoreboard players remove @s soaked 1
 
-
 # trigger bubble "breath" particle timer for submerged players
-execute as @a[scores={bubbleBreath=0}] at @s if block ~ ~1.9 ~ #bityard:water run scoreboard players set @s bubbleBreath 20
+execute as @a[scores={bubbleBreath=0}] at @s if block ~ ~1.9 ~ #bityard:water run scoreboard players set @s bubbleBreath 40
 
 # bubble "breath" particles on player on timer
-execute as @a[scores={bubbleBreath=20}] at @s run particle minecraft:bubble_column_up ~ ~1.4 ~ 0.2 0.2 0.2 0.08 1
+execute as @a[scores={bubbleBreath=40}] at @s run particle minecraft:bubble_column_up ~ ~1.4 ~ 0.2 0.2 0.2 0.08 1
+
+# underwater "swimming" particles
+execute as @a[scores={bubbleSwim=100..}] at @s run particle minecraft:bubble_column_up ~ ~0.5 ~ 0.2 0.2 0.2 0 1
 
 # countdown bubble breath
 execute as @a[scores={bubbleBreath=1..}] run scoreboard players remove @s bubbleBreath 1
