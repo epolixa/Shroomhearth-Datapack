@@ -147,6 +147,16 @@
 					}
 				]
 			}
+		},
+		"red_coral": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item":"minecraft:red_coral"
+					}
+				]
+			}
 		}
 	}
 }
