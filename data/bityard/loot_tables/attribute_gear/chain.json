@@ -5,11 +5,11 @@
 			"entries": [
 				{
 					"type": "loot_table",
-					"name": "bityard:attribute_gear/iron/armor"
+					"name": "bityard:attribute_gear/chain/armor"
 				},
 				{
 					"type": "loot_table",
-					"name": "bityard:attribute_gear/iron/tools"
+					"name": "bityard:attribute_gear/chain/tools"
 				}
 			]
 		}
