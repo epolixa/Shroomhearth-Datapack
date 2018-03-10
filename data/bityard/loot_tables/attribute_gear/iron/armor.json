@@ -1,0 +1,49 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "loot_table",
+					"name": "bityard:attribute_gear/iron/armor/healthy"
+				},
+				{
+					"type": "loot_table",
+					"name": "bityard:attribute_gear/iron/armor/lucky"
+				},
+				{
+					"type": "loot_table",
+					"name": "bityard:attribute_gear/iron/armor/strong"
+				},
+				{
+					"type": "loot_table",
+					"name": "bityard:attribute_gear/iron/armor/sturdy"
+				},
+				{
+					"type": "loot_table",
+					"name": "bityard:attribute_gear/iron/armor/swift"
+				},
+				{
+					"type": "loot_table",
+					"name": "bityard:attribute_gear/iron/armor_chain/healthy"
+				},
+				{
+					"type": "loot_table",
+					"name": "bityard:attribute_gear/iron/armor_chain/lucky"
+				},
+				{
+					"type": "loot_table",
+					"name": "bityard:attribute_gear/iron/armor_chain/strong"
+				},
+				{
+					"type": "loot_table",
+					"name": "bityard:attribute_gear/iron/armor_chain/sturdy"
+				},
+				{
+					"type": "loot_table",
+					"name": "bityard:attribute_gear/iron/armor_chain/swift"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,187 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:iron_sword",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"text\\\":\\\"Sturdy Iron Sword\\\"}\"}}"
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "generic.attackSpeed",
+                  "name": "Attack Speed",
+                  "amount": -2.4,
+                  "operation": "addition",
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "generic.attackDamage",
+                  "name": "Attack Damage",
+                  "amount": 5.0,
+                  "operation": "addition",
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "generic.knockbackResistance",
+                  "name": "Knockback Resistance",
+                  "amount": 0.25,
+                  "operation": "addition",
+                  "slot": "mainhand"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:iron_pickaxe",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"text\\\":\\\"Sturdy Iron Pickaxe\\\"}\"}}"
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "generic.attackSpeed",
+                  "name": "Attack Speed",
+                  "amount": -2.8,
+                  "operation": "addition",
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "generic.attackDamage",
+                  "name": "Attack Damage",
+                  "amount": 3.0,
+                  "operation": "addition",
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "generic.knockbackResistance",
+                  "name": "Knockback Resistance",
+                  "amount": 0.25,
+                  "operation": "addition",
+                  "slot": "mainhand"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:iron_axe",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"text\\\":\\\"Sturdy Iron Axe\\\"}\"}}"
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "generic.attackSpeed",
+                  "name": "Attack Speed",
+                  "amount": -3.1,
+                  "operation": "addition",
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "generic.attackDamage",
+                  "name": "Attack Damage",
+                  "amount": 8.0,
+                  "operation": "addition",
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "generic.knockbackResistance",
+                  "name": "Knockback Resistance",
+                  "amount": 0.25,
+                  "operation": "addition",
+                  "slot": "mainhand"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:iron_shovel",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"text\\\":\\\"Sturdy Iron Shovel\\\"}\"}}"
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "generic.attackSpeed",
+                  "name": "Attack Speed",
+                  "amount": -3.0,
+                  "operation": "addition",
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "generic.attackDamage",
+                  "name": "Attack Damage",
+                  "amount": 3.5,
+                  "operation": "addition",
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "generic.knockbackResistance",
+                  "name": "Knockback Resistance",
+                  "amount": 0.25,
+                  "operation": "addition",
+                  "slot": "mainhand"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:iron_hoe",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"text\\\":\\\"Sturdy Iron Hoe\\\"}\"}}"
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "generic.attackSpeed",
+                  "name": "Attack Speed",
+                  "amount": -1.0,
+                  "operation": "addition",
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "generic.knockbackResistance",
+                  "name": "Knockback Resistance",
+                  "amount": 0.25,
+                  "operation": "addition",
+                  "slot": "mainhand"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

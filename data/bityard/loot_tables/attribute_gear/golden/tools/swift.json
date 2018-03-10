@@ -1,0 +1,187 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:golden_sword",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"text\\\":\\\"Swift Golden Sword\\\"}\"}}"
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "generic.attackSpeed",
+                  "name": "Attack Speed",
+                  "amount": -2.4,
+                  "operation": "addition",
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "generic.attackDamage",
+                  "name": "Attack Damage",
+                  "amount": 3.0,
+                  "operation": "addition",
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "generic.movementSpeed",
+                  "name": "Movement Speed",
+                  "amount": 0.02,
+                  "operation": "addition",
+                  "slot": "mainhand"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:golden_pickaxe",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"text\\\":\\\"Swift Golden Pickaxe\\\"}\"}}"
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "generic.attackSpeed",
+                  "name": "Attack Speed",
+                  "amount": -2.8,
+                  "operation": "addition",
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "generic.attackDamage",
+                  "name": "Attack Damage",
+                  "amount": 1.0,
+                  "operation": "addition",
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "generic.movementSpeed",
+                  "name": "Movement Speed",
+                  "amount": 0.02,
+                  "operation": "addition",
+                  "slot": "mainhand"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:golden_axe",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"text\\\":\\\"Swift Golden Axe\\\"}\"}}"
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "generic.attackSpeed",
+                  "name": "Attack Speed",
+                  "amount": -3.0,
+                  "operation": "addition",
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "generic.attackDamage",
+                  "name": "Attack Damage",
+                  "amount": 6.0,
+                  "operation": "addition",
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "generic.movementSpeed",
+                  "name": "Movement Speed",
+                  "amount": 0.02,
+                  "operation": "addition",
+                  "slot": "mainhand"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:golden_shovel",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"text\\\":\\\"Swift Golden Shovel\\\"}\"}}"
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "generic.attackSpeed",
+                  "name": "Attack Speed",
+                  "amount": -3.0,
+                  "operation": "addition",
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "generic.attackDamage",
+                  "name": "Attack Damage",
+                  "amount": 1.5,
+                  "operation": "addition",
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "generic.movementSpeed",
+                  "name": "Movement Speed",
+                  "amount": 0.02,
+                  "operation": "addition",
+                  "slot": "mainhand"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:golden_hoe",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"text\\\":\\\"Swift Golden Hoe\\\"}\"}}"
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "generic.attackSpeed",
+                  "name": "Attack Speed",
+                  "amount": -3.0,
+                  "operation": "addition",
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "generic.movementSpeed",
+                  "name": "Movement Speed",
+                  "amount": 0.02,
+                  "operation": "addition",
+                  "slot": "mainhand"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

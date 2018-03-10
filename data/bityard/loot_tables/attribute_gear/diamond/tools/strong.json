@@ -1,0 +1,152 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:diamond_sword",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"text\\\":\\\"Strong Diamond Sword\\\"}\"}}"
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "generic.attackSpeed",
+                  "name": "Attack Speed",
+                  "amount": -2.4,
+                  "operation": "addition",
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "generic.attackDamage",
+                  "name": "Attack Damage",
+                  "amount": 7.0,
+                  "operation": "addition",
+                  "slot": "mainhand"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:diamond_pickaxe",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"text\\\":\\\"Strong Diamond Pickaxe\\\"}\"}}"
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "generic.attackSpeed",
+                  "name": "Attack Speed",
+                  "amount": -2.8,
+                  "operation": "addition",
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "generic.attackDamage",
+                  "name": "Attack Damage",
+                  "amount": 5.0,
+                  "operation": "addition",
+                  "slot": "mainhand"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:diamond_axe",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"text\\\":\\\"Strong Diamond Axe\\\"}\"}}"
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "generic.attackSpeed",
+                  "name": "Attack Speed",
+                  "amount": -3.0,
+                  "operation": "addition",
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "generic.attackDamage",
+                  "name": "Attack Damage",
+                  "amount": 9.0,
+                  "operation": "addition",
+                  "slot": "mainhand"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:diamond_shovel",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"text\\\":\\\"Strong Diamond Shovel\\\"}\"}}"
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "generic.attackSpeed",
+                  "name": "Attack Speed",
+                  "amount": -3.0,
+                  "operation": "addition",
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "generic.attackDamage",
+                  "name": "Attack Damage",
+                  "amount": 5.5,
+                  "operation": "addition",
+                  "slot": "mainhand"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:diamond_hoe",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"text\\\":\\\"Strong Diamond Hoe\\\"}\"}}"
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "generic.attackDamage",
+                  "name": "Attack Damage",
+                  "amount": 1.0,
+                  "operation": "addition",
+                  "slot": "mainhand"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
