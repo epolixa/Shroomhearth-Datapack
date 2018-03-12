@@ -9,7 +9,7 @@
 					"functions": [
 						{
 							"function": "set_nbt",
-							"tag": "{title:\"Bityard Book\", author:\"\", display:{Lore:[\"Guide to the World\"]}, pages:[{\"text\":\"test page 1!\"},{\"text\":\"test page 2!\"}]}"
+							"tag": "{title:\"Bityard Book\", generation: 1, author:\"\", display:{Lore:[\"Guide to the World\"]}, pages:[\"{\\\"text\\\":\\\"test page 1!\\\"}\",\"{\\\"text\\\":\\\"test page 2!\\\"}\"]}"
 						}
 					]
 				}
