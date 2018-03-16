@@ -8,8 +8,12 @@
             "entries": [
                 {
                     "type": "item",
-                    "name": "minecraft:arrow",
+                    "name": "minecraft:tipped_arrow",
                     "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Potion: \"minecraft:strong_poison\"}"
+                        },
                         {
                             "function": "set_count",
                             "count": {

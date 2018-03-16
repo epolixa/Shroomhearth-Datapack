@@ -5,6 +5,7 @@
                 "min": 2,
                 "max": 8
             },
+            "bonus_rolls": 1,
             "entries": [
                 {
                     "type": "item",
@@ -18,7 +19,8 @@
                                 "max": 3
                             }
                         }
-                    ]
+                    ],
+                    "value": 1
                 },
                 {
                     "type": "item",
@@ -29,10 +31,11 @@
                             "function": "minecraft:set_count",
                             "count": {
                                 "min": 1,
-                                "max": 4
+                                "max": 8
                             }
                         }
-                    ]
+                    ],
+                    "value": 2
                 },
                 {
                     "type": "item",
@@ -43,25 +46,62 @@
                             "function": "minecraft:set_count",
                             "count": {
                                 "min": 1,
-                                "max": 3
+                                "max": 9
                             }
                         }
-                    ]
+                    ],
+                    "value": 3
                 },
                 {
                     "type": "item",
                     "name": "minecraft:stone_axe",
-                    "weight": 2
+                    "weight": 2,
+                    "value": 1
                 },
                 {
                     "type": "item",
                     "name": "minecraft:rotten_flesh",
-                    "weight": 10
+                    "weight": 10,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 3
+                            }
+                        }
+                    ],
+                    "value": 0
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:bone",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 3
+                            }
+                        }
+                    ],
+                    "value": 0
                 },
                 {
                     "type": "item",
                     "name": "minecraft:emerald",
-                    "weight": 1
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ],
+                    "value": 3
                 },
                 {
                     "type": "item",
@@ -72,10 +112,32 @@
                             "function": "minecraft:set_count",
                             "count": {
                                 "min": 2,
-                                "max": 3
+                                "max": 4
                             }
                         }
-                    ]
+                    ],
+                    "value": 1
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:packed_ice",
+                    "weight": 15,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 3,
+                                "max": 9
+                            }
+                        }
+                    ],
+                    "value": 1
+                },
+                {
+                    "type": "loot_table",
+                    "name": "bityard:tipped_arrows",
+                    "weight": 2,
+                    "value": 3
                 }
             ]
         },
@@ -85,6 +147,19 @@
                 {
                     "type": "item",
                     "name": "minecraft:golden_apple",
+                    "weight": 1
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 1,
+                "max": 2
+            },
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "bityard:super_potions",
                     "weight": 1
                 }
             ]

@@ -5,18 +5,7 @@
       "entries": [
         {
           "type": "item",
-          "name": "minecraft:diamond_pickaxe",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{ench: [{id: 32, lvl: 6}]}"
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "name": "minecraft:diamond_pickaxe",
+          "name": "minecraft:diamond_shovel",
           "weight": 1,
           "functions": [
             {
@@ -27,7 +16,18 @@
         },
         {
           "type": "item",
-          "name": "minecraft:diamond_pickaxe",
+          "name": "minecraft:diamond_shovel",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{ench: [{id: 32, lvl: 6}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:diamond_shovel",
           "weight": 1,
           "functions": [
             {
@@ -37,6 +37,6 @@
           ]
         }
       ]
-    }
-  ]
-} 
+  	}
+	]
+}

@@ -3,17 +3,6 @@
     {
       "rolls": 1,
       "entries": [
-      	{
-          "type": "item",
-          "name": "minecraft:diamond_axe",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{ench: [{id: 16, lvl: 6}]}"
-            }
-          ]
-        },
         {
           "type": "item",
           "name": "minecraft:diamond_axe",
@@ -21,7 +10,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{ench: [{id: 17, lvl: 6}]}"
+              "tag": "{ench: [{id: 34, lvl: 4}]}"
             }
           ]
         },
@@ -54,7 +43,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{ench: [{id: 34, lvl: 4}]}"
+              "tag": "{ench: [{id: 35, lvl: 4}]}"
             }
           ]
         },
@@ -65,7 +54,18 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{ench: [{id: 35, lvl: 4}]}"
+              "tag": "{ench: [{id: 16, lvl: 6}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:diamond_axe",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{ench: [{id: 17, lvl: 6}]}"
             }
           ]
         }

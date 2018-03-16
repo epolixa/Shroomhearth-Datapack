@@ -1,0 +1,25 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "bityard:super_gear/armor/helmet"
+        },
+        {
+          "type": "loot_table",
+          "name": "bityard:super_gear/armor/chestplate"
+        },
+        {
+          "type": "loot_table",
+          "name": "bityard:super_gear/armor/leggings"
+        },
+        {
+          "type": "loot_table",
+          "name": "bityard:super_gear/armor/boots"
+        }
+      ]
+    }
+  ]
+}

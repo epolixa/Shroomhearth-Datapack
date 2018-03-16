@@ -3,17 +3,6 @@
     {
       "rolls": 1,
       "entries": [
-      	{
-          "type": "item",
-          "name": "minecraft:diamond_hoe",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{ench: [{id: 32, lvl: 6}]}"
-            }
-          ]
-        },
         {
           "type": "item",
           "name": "minecraft:diamond_hoe",
@@ -37,6 +26,6 @@
           ]
         }
       ]
-  	}
-	]
-}	
+    }
+  ]
+}

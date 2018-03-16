@@ -1,0 +1,41 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "bityard:super_gear/tools/axe"
+        },
+        {
+          "type": "loot_table",
+          "name": "bityard:super_gear/tools/bow"
+        },
+        {
+          "type": "loot_table",
+          "name": "bityard:super_gear/tools/fishing_rod"
+        },
+        {
+          "type": "loot_table",
+          "name": "bityard:super_gear/tools/hoe"
+        },
+        {
+          "type": "loot_table",
+          "name": "bityard:super_gear/tools/pickaxe"
+        },
+        {
+          "type": "loot_table",
+          "name": "bityard:super_gear/tools/shovel"
+        },
+        {
+          "type": "loot_table",
+          "name": "bityard:super_gear/tools/sword"
+        },
+        {
+          "type": "loot_table",
+          "name": "bityard:super_gear/tools/trident"
+        }
+      ]
+    }
+  ]
+}
