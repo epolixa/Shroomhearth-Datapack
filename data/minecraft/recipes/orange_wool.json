@@ -6,7 +6,7 @@
       "item": "minecraft:white_wool"
     },
     "d": {
-      "item": "minecraft:lapis_lazuli"
+      "item": "minecraft:orange_dye"
     }
   },
   "pattern": [
@@ -15,7 +15,7 @@
     "www"
   ],
   "result": {
-    "item": "minecraft:blue_wool",
+    "item": "minecraft:orange_wool",
     "count": 8
   }
 }

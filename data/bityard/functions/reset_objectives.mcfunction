@@ -90,6 +90,8 @@ scoreboard objectives remove farmCarrots
 scoreboard objectives add farmCarrots minecraft.mined:minecraft.carrots
 scoreboard objectives remove farmPotatoes
 scoreboard objectives add farmPotatoes minecraft.mined:minecraft.potatoes
+scoreboard objectives remove farmWarts
+scoreboard objectives add farmWarts minecraft.mined:minecraft.nether_wart
 
 ## Advancements
 

@@ -6,7 +6,7 @@
       "item": "minecraft:white_wool"
     },
     "d": {
-      "item": "minecraft:lapis_lazuli"
+      "item": "minecraft:cactus_green"
     }
   },
   "pattern": [
@@ -15,7 +15,7 @@
     "www"
   ],
   "result": {
-    "item": "minecraft:blue_wool",
+    "item": "minecraft:green_wool",
     "count": 8
   }
 }
