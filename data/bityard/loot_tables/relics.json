@@ -116,6 +116,17 @@
               "tag": "{relic: \"reusable_ender_pearl\", ench:[{id:-1}], display:{Name: \"{\\\"color\\\":\\\"light_purple\\\", \\\"text\\\":\\\"Re-usable Ender Pearl\\\"}\", Lore: [\"When thrown:\",\" +1 Re-usable Ender Pearl\"]}}"
             }
           ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:magenta_dye",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{relic: \"kin_stone\", ench:[{id:-1}], display:{Name: \"{\\\"color\\\":\\\"light_purple\\\", \\\"text\\\":\\\"Kin Stone\\\"}\", Lore: [\"When held:\",\" Points to nearest Kin Stone holder\"]}}"
+            }
+          ]
         }
       ]
     }
