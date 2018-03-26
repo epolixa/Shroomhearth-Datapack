@@ -15,6 +15,7 @@ function bityard:modules/hell_heels
 function bityard:modules/everlasting_cookie
 function bityard:modules/reusable_ender_pearl
 function bityard:modules/frog_rompers
+function bityard:modules/super_ice_skates
 
 ## Misc
 function bityard:modules/bleeding_particles
