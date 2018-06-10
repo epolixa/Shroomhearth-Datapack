@@ -12,10 +12,13 @@ function bityard:modules/solomons_shoes
 function bityard:modules/kin_stone
 function bityard:modules/ethereal_bonbon
 function bityard:modules/hell_heels
+function bityard:modules/cursed_heart
 function bityard:modules/everlasting_cookie
 function bityard:modules/reusable_ender_pearl
 function bityard:modules/frog_rompers
 function bityard:modules/super_ice_skates
+function bityard:modules/hungry_pickaxe
+function bityard:modules/vampire_fang
 
 ## Misc
 function bityard:modules/bleeding_particles

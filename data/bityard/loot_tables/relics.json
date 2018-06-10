@@ -21,7 +21,26 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{relic: \"cursed_heart\", ench:[{id:-1}], display:{Name: \"{\\\"italic\\\":\\\"false\\\", \\\"color\\\":\\\"light_purple\\\", \\\"text\\\":\\\"Cursed Heart\\\"}\", Lore: [\"When on body:\",\" Wither VI\",\" Resistance IV\"]}}"
+              "tag": "{relic: \"cursed_heart\", Enchantments:[{id:\"null\"}], display:{Name: \"{\\\"italic\\\":\\\"false\\\", \\\"color\\\":\\\"light_purple\\\", \\\"text\\\":\\\"Cursed Heart\\\"}\", Lore: [\"When on body:\",\" Wither II\",\" Resistance IV\"]}}"
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "generic.armor",
+                  "name": "Armor",
+                  "amount": 5.0,
+                  "operation": "addition",
+                  "slot": "chest"
+                },
+                {
+                  "attribute": "generic.knockbackResistance",
+                  "name": "Knockback Resistance",
+                  "amount": 1,
+                  "operation": "addition",
+                  "slot": "chest"
+                }
+              ]
             }
           ]
         },
@@ -125,6 +144,28 @@
             {
               "function": "set_nbt",
               "tag": "{relic: \"kin_stone\", ench:[{id:-1}], display:{Name: \"{\\\"italic\\\":\\\"false\\\", \\\"color\\\":\\\"light_purple\\\", \\\"text\\\":\\\"Kin Stone\\\"}\", Lore: [\"When held:\",\" Points to nearest Kin Stone holder\"]}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:diamond_pickaxe",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{relic: \"hungry_pickaxe\", ench:[{id:-1}], display:{Name: \"{\\\"italic\\\":\\\"false\\\", \\\"color\\\":\\\"light_purple\\\", \\\"text\\\":\\\"Hungry Pickaxe\\\"}\", Lore: [\"When mining Ore:\",\" Haste I - III (1:00)\"]}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:diamond_sword",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{relic: \"vampire_fang\", ench:[{id:-1}], display:{Name: \"{\\\"italic\\\":\\\"false\\\", \\\"color\\\":\\\"light_purple\\\", \\\"text\\\":\\\"Vampire Fang\\\"}\", Lore: [\"While inflicting damage:\",\" Regeneration 1 (0:05)\"]}}"
             }
           ]
         }

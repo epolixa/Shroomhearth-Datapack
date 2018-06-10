@@ -7,7 +7,7 @@
 execute as @a[nbt={SelectedItem:{tag: {relic: "everlasting_cookie"}}}] run scoreboard players set @s everCookie 2
 
 # Give player new cookie when eaten
-execute as @a[scores={everCookie=1..,ateCookie=1..}] at @s run summon minecraft:item ~ ~0.9 ~ {Item:{Count:1b, id:"minecraft:cookie", tag:{relic: "everlasting_cookie", ench:[{id:-1}], display:{Name: "{\"text\":\"Everlasting Cookie\"}", Lore: ["When eaten:"," +1 Everlasting Cookie"]}}}}
+execute as @a[scores={everCookie=1..,ateCookie=1..}] at @s run summon minecraft:item ~ ~0.9 ~ {Item:{Count:1b, id:"minecraft:cookie", tag:{relic: "everlasting_cookie", Enchantments:[{id:"null"}], display:{Name: "{\"text\":\"Everlasting Cookie\"}", Lore: ["When eaten:"," +1 Everlasting Cookie"]}}}}
 
 # Reset ate cookie flag
 execute as @a[scores={ateCookie=1..}] run scoreboard players set @s ateCookie 0
