@@ -6,21 +6,25 @@
 
 ## Flags/Trackers/Timers
 
-# playerSneak - used by solomonShoes
-scoreboard objectives remove playerSneak
-scoreboard objectives add playerSneak minecraft.custom:minecraft.sneak_time
-
 # playerHealth - displayed under player nametag
 scoreboard objectives remove playerHealth
-scoreboard objectives add playerHealth health \u00A74\u2764
+scoreboard objectives add playerHealth health "\u00A74\u2764"
 
-# playerSleep - flag for sleeping players
-scoreboard objectives remove playerSleep
-scoreboard objectives add playerSleep dummy
+# playerLevel - displayed under player nametag
+scoreboard objectives remove playerLevel
+scoreboard objectives add playerLevel level "\u00A7a\u272A"
 
 # playerJump - flag for jumping players
 scoreboard objectives remove playerJump
 scoreboard objectives add playerJump minecraft.custom:minecraft.jump
+
+# playerSneak - used by solomonShoes
+scoreboard objectives remove playerSneak
+scoreboard objectives add playerSneak minecraft.custom:minecraft.sneak_time
+
+# playerSleep - flag for sleeping players
+scoreboard objectives remove playerSleep
+scoreboard objectives add playerSleep dummy
 
 # viewPitch - used for name colors
 scoreboard objectives remove viewPitch
@@ -33,10 +37,6 @@ scoreboard objectives add motionY dummy
 # bleedSpeed
 scoreboard objectives remove bleedSpeed
 scoreboard objectives add bleedSpeed dummy
-
-# playerLevel - displayed under player nametag
-scoreboard objectives remove playerLevel
-scoreboard objectives add playerLevel level \u00A7a\u272A
 
 # rng - psuedo random number generator per player
 scoreboard objectives remove rng
@@ -63,7 +63,7 @@ scoreboard objectives add soaked dummy
 scoreboard objectives remove bubbleBreath
 scoreboard objectives add bubbleBreath dummy
 scoreboard objectives remove bubbleSwim
-scoreboard objectives add bubbleSwim minecraft.custom:minecraft.dive_one_cm 
+scoreboard objectives add bubbleSwim minecraft.custom:minecraft.swim_one_cm 
 
 # drop item sounds
 scoreboard objectives remove dropItem

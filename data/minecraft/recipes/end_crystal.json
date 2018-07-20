@@ -1,22 +1,23 @@
 {
   "type": "crafting_shaped",
   "key": {
-    "d": {
-      "item":"minecraft:diamond"
+    "g": {
+      "item":"minecraft:glass"
     },
     "e": {
       "item":"minecraft:ender_eye"
     },
-    "t": {
-      "item":"minecraft:ghast_tear"
+    "s": {
+      "item":"minecraft:nether_star"
     }
   },
   "pattern": [
-    "ddd",
-    "ded",
-    "dtd"
+    "ggg",
+    "geg",
+    "gsg"
   ],
   "result": {
-    "item": "minecraft:end_crystal"
+    "item": "minecraft:end_crystal",
+    "count": 4
   }
 }

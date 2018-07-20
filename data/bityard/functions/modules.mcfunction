@@ -8,17 +8,17 @@
 function bityard:modules/community_score
 
 ## Relic Items
-function bityard:modules/solomons_shoes
-function bityard:modules/kin_stone
-function bityard:modules/ethereal_bonbon
-function bityard:modules/hell_heels
-function bityard:modules/cursed_heart
-function bityard:modules/everlasting_cookie
-function bityard:modules/reusable_ender_pearl
-function bityard:modules/frog_rompers
-function bityard:modules/super_ice_skates
-function bityard:modules/hungry_pickaxe
-function bityard:modules/vampire_fang
+function bityard:modules/relics/solomons_shoes
+function bityard:modules/relics/kin_stone
+function bityard:modules/relics/ethereal_bonbon
+function bityard:modules/relics/hell_heels
+function bityard:modules/relics/cursed_heart
+function bityard:modules/relics/everlasting_cookie
+function bityard:modules/relics/reusable_ender_pearl
+function bityard:modules/relics/frog_rompers
+function bityard:modules/relics/super_ice_skates
+function bityard:modules/relics/hungry_pickaxe
+function bityard:modules/relics/vampire_fang
 
 ## Misc
 function bityard:modules/bleeding_particles
