@@ -46,28 +46,6 @@
         },
         {
           "type": "item",
-          "name": "minecraft:pumpkin",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{relic: \"haunted_pumpkin\", ench:[{id:-1}], display:{Name: \"{\\\"italic\\\":\\\"false\\\", \\\"color\\\":\\\"light_purple\\\", \\\"text\\\":\\\"Haunted Pumpkin\\\"}\", Lore: [\"When on head:\",\" Become spooky\"]}}"
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "name": "minecraft:chainmail_helmet",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{relic: \"seers_veil\", ench:[{id:-1}], display:{Name: \"{\\\"italic\\\":\\\"false\\\", \\\"color\\\":\\\"light_purple\\\", \\\"text\\\":\\\"Seer's Veil\\\"}\", Lore: [\"When on head:\",\" Night Vision\",\" Reveals mobs through walls\"]}}"
-            }
-          ]
-        },
-        {
-          "type": "item",
           "name": "minecraft:chorus_fruit",
           "weight": 1,
           "functions": [
