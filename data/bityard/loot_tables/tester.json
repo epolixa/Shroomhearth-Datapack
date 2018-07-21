@@ -5,31 +5,12 @@
       "entries": [
         {
           "type": "item",
-          "name": "minecraft:golden_chestplate",
+          "name": "minecraft:iron_boots",
           "weight": 1,
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{relic: \"cursed_heart\", Enchantments:[{id:\"null\"}], display:{Name: \"{\\\"italic\\\":\\\"false\\\", \\\"color\\\":\\\"light_purple\\\", \\\"text\\\":\\\"Cursed Heart\\\"}\", Lore: [\"When on body:\",\" Wither VI\",\" Resistance IV\"]}}"
-            },
-            {
-              "function": "set_attributes",
-              "modifiers": [
-                {
-                  "attribute": "generic.armor",
-                  "name": "Armor",
-                  "amount": 5.0,
-                  "operation": "addition",
-                  "slot": "chest"
-                },
-                {
-                  "attribute": "generic.knockbackResistance",
-                  "name": "Knockback Resistance",
-                  "amount": 1,
-                  "operation": "addition",
-                  "slot": "chest"
-                }
-              ]
+              "tag": "{relic: \"super_ice_skates\", ench:[{id:-1}], display:{Name: \"{\\\"italic\\\":\\\"false\\\", \\\"color\\\":\\\"light_purple\\\", \\\"text\\\":\\\"Super Ice Skates\\\"}\", Lore: [\"§r§7When on feet & walking over Ice:\",\"§r§5 Speed III\"]}}"
             }
           ]
         }
