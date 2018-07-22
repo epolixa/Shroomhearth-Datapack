@@ -12,7 +12,18 @@
           [
             {
               "function": "set_nbt",
-              "tag":"{map: 10000000, ench: [{id:-1}], display: {Name: \"{\\\"color\\\":\\\"light_purple\\\", \\\"text\\\":\\\"Gabriel Fletcher\\\"}\", Lore: [\"Is there a Gabriel-sized\",\"window anywhere?\"]}}"
+              "tag":"{map: 10000000, display: {Name: \"{\\\"color\\\":\\\"yellow\\\", \\\"text\\\":\\\"Cloud Ninja\\\"}\", Lore: [\"§r§7daydrifter\"]}, Enchantments:[{id:\"null\"}], card: true}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:filled_map",
+          "functions":
+          [
+            {
+              "function": "set_nbt",
+              "tag":"{map: 10000001, display: {Name: \"{\\\"color\\\":\\\"yellow\\\", \\\"text\\\":\\\"Cursed Heart\\\"}\", Lore: [\"§r§7Nihilisorama\"]}, Enchantments:[{id:\"null\"}], card: true}"
             }
           ]
         }
