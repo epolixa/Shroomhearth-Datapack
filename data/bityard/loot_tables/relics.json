@@ -146,6 +146,17 @@
               "tag": "{relic: \"vampire_fang\", Enchantments:[{id:\"null\"}], display:{Name: \"{\\\"italic\\\":\\\"false\\\", \\\"color\\\":\\\"light_purple\\\", \\\"text\\\":\\\"Vampire Fang\\\"}\", Lore: [\"§r§7While inflicting damage:\",\"§r§5 Regeneration I (0:05)\"]}}"
             }
           ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:diamond_hoe",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{relic: \"mojjagack\", Enchantments:[{id:\"null\"}], display:{Name: \"{\\\"italic\\\":\\\"false\\\", \\\"color\\\":\\\"light_purple\\\", \\\"text\\\":\\\"Mojjagack\\\"}\", Lore: [\"§r§7While inflicting damage:\",\"§r§5 ???\"]}}"
+            }
+          ]
         }
       ]
     }

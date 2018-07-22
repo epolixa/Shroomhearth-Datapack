@@ -18,6 +18,9 @@ execute as @a[scores={etherealBonbon=3..123},gamemode=!spectator] run gamemode s
 # Spawn particles around spectator
 execute as @a[scores={etherealBonbon=3..123}] at @s run particle minecraft:dragon_breath ~ ~1.6 ~ 0.2 0.2 0.2 0.005 1
 
+# Play sound at end of duration
+execute as @a[scores={etherealBonbon=2},gamemode=spectator] at @s run playsound minecraft:entity.enderman.teleport player @a ~ ~ ~ 1 1.1
+
 # Put player back in survival mode
 execute as @a[scores={etherealBonbon=2},gamemode=spectator] run gamemode survival @s
 

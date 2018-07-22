@@ -26,6 +26,10 @@ scoreboard objectives add playerSneak minecraft.custom:minecraft.sneak_time
 scoreboard objectives remove playerSleep
 scoreboard objectives add playerSleep dummy
 
+# playerDamage - flag for a player inflicting damage
+scoreboard objectives remove playerDamage
+scoreboard objectives add playerDamage minecraft.custom:minecraft.damage_dealt
+
 # viewPitch - used for name colors
 scoreboard objectives remove viewPitch
 scoreboard objectives add viewPitch dummy
@@ -149,10 +153,6 @@ scoreboard objectives remove hungryDiamond
 scoreboard objectives add hungryDiamond minecraft.mined:minecraft.diamond_ore
 scoreboard objectives remove hungryEmerald
 scoreboard objectives add hungryEmerald minecraft.mined:minecraft.emerald_ore
-
-# vampire fang
-scoreboard objectives remove vampDamage
-scoreboard objectives add vampDamage minecraft.custom:minecraft.damage_dealt
 
 
 ## Set Display

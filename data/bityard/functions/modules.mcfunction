@@ -19,6 +19,7 @@ function bityard:modules/relics/frog_rompers
 function bityard:modules/relics/super_ice_skates
 function bityard:modules/relics/hungry_pickaxe
 function bityard:modules/relics/vampire_fang
+function bityard:modules/relics/mojjagack
 
 ## Misc
 function bityard:modules/bleeding_particles

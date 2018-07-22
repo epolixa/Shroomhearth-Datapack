@@ -10,6 +10,9 @@ execute as @a[scores={playerSneak=1..}] at @s run scoreboard players set @s play
 # playerJump - reset to 0 every tick
 execute as @a[scores={playerJump=1..}] at @s run scoreboard players set @s playerJump 0
 
+# playerDamage - reset to 0 every tick
+execute as @a[scores={playerDamage=1..}] run scoreboard players set @s playerDamage 0
+
 # rng - reset to 0 after 9 ticks
 execute as @a[scores={rng=9..}] at @s run scoreboard players set @s rng 0
 
