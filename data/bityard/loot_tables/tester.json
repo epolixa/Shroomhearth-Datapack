@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display: {Name: \"{ \\\"text\\\":\\\"Gut Punch\\\"}\"}, Potion:\"minecraft:water\", CustomPotionEffects:[{Id: 5, Amplifier: 0, Duration: 4800}, {Id: 7, Amplifier: 0, Duration: 1}, {Id: 11, Amplifier: 0, Duration: 4800}]}"
+              "tag": "{display: {Name: \"{ \\\"text\\\":\\\"Gut Punch\\\"}\"}, CustomPotionColor: 10099482, CustomPotionEffects:[{Id: 5, Amplifier: 0, Duration: 4800}, {Id: 7, Amplifier: 0, Duration: 1}, {Id: 11, Amplifier: 0, Duration: 4800}], Potion:\"minecraft:water\"}"
             }
           ]
         }

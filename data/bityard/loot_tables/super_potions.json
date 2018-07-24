@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"text\\\":\\\"Super Potion of Swiftness\\\"}\"}, Potion:\"minecraft:water\", CustomPotionEffects:[{Id: 1, Amplifier: 2, Duration: 9600}]}"
+              "tag": "{display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"color\\\":\\\"aqua\\\", \\\"text\\\":\\\"Super Potion of Swiftness\\\"}\"}, CustomPotionColor: 8171462, CustomPotionEffects:[{Id: 1, Amplifier: 2, Duration: 9600}], Potion:\"minecraft:water\"}"
             }
           ]
         },
@@ -21,7 +21,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"text\\\":\\\"Super Potion of Haste\\\"}\"}, Potion:\"minecraft:water\", CustomPotionEffects:[{Id: 3, Amplifier: 2, Duration: 9600}]}"
+              "tag": "{display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"color\\\":\\\"aqua\\\", \\\"text\\\":\\\"Super Potion of Haste\\\"}\"}, CustomPotionColor: 14270531, CustomPotionEffects:[{Id: 3, Amplifier: 2, Duration: 9600}], Potion:\"minecraft:water\"}"
             }
           ]
         },
@@ -32,7 +32,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"text\\\":\\\"Super Potion of Strength\\\"}\"}, Potion:\"minecraft:water\", CustomPotionEffects:[{Id: 5, Amplifier: 2, Duration: 9600}]}"
+              "tag": "{display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"color\\\":\\\"aqua\\\", \\\"text\\\":\\\"Super Potion of Strength\\\"}\"}, CustomPotionColor: 9643043, CustomPotionEffects:[{Id: 5, Amplifier: 2, Duration: 9600}], Potion:\"minecraft:water\"}"
             }
           ]
         },
@@ -43,7 +43,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"text\\\":\\\"Super Potion of Leaping\\\"}\"}, Potion:\"minecraft:water\", CustomPotionEffects:[{Id: 8, Amplifier: 2, Duration: 9600}]}"
+              "tag": "{display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"color\\\":\\\"aqua\\\", \\\"text\\\":\\\"Super Potion of Leaping\\\"}\"}, CustomPotionColor: 2293580, CustomPotionEffects:[{Id: 8, Amplifier: 2, Duration: 9600}], Potion:\"minecraft:water\"}"
             }
           ]
         },
@@ -54,7 +54,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"text\\\":\\\"Super Potion of Regeneration\\\"}\"}, Potion:\"minecraft:water\", CustomPotionEffects:[{Id: 10, Amplifier: 2, Duration: 9600}]}"
+              "tag": "{display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"color\\\":\\\"aqua\\\", \\\"text\\\":\\\"Super Potion of Regeneration\\\"}\"}, CustomPotionColor: 13458603, CustomPotionEffects:[{Id: 10, Amplifier: 2, Duration: 9600}], Potion:\"minecraft:water\"}"
             }
           ]
         },
@@ -65,7 +65,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"text\\\":\\\"Super Potion of Resistance\\\"}\"}, Potion:\"minecraft:water\", CustomPotionEffects:[{Id: 11, Amplifier: 2, Duration: 9600}]}"
+              "tag": "{display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"color\\\":\\\"aqua\\\", \\\"text\\\":\\\"Super Potion of Resistance\\\"}\"}, CustomPotionColor: 10044730, CustomPotionEffects:[{Id: 11, Amplifier: 2, Duration: 9600}], Potion:\"minecraft:water\"}"
             }
           ]
         },
@@ -76,7 +76,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"text\\\":\\\"Super Potion of Fire Resistance\\\"}\"}, Potion:\"minecraft:water\", CustomPotionEffects:[{Id: 12, Amplifier: 0, Duration: 14400}]}"
+              "tag": "{display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"color\\\":\\\"aqua\\\", \\\"text\\\":\\\"Super Potion of Fire Resistance\\\"}\"}, CustomPotionColor: 14981690, CustomPotionEffects:[{Id: 12, Amplifier: 0, Duration: 14400}], Potion:\"minecraft:water\"}"
             }
           ]
         },
@@ -87,7 +87,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"text\\\":\\\"Super Potion of Water Breathing\\\"}\"}, Potion:\"minecraft:water\", CustomPotionEffects:[{Id: 13, Amplifier: 0, Duration: 14400}]}"
+              "tag": "{display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"color\\\":\\\"aqua\\\", \\\"text\\\":\\\"Super Potion of Water Breathing\\\"}\"}, CustomPotionColor: 3035801, CustomPotionEffects:[{Id: 13, Amplifier: 0, Duration: 14400}], Potion:\"minecraft:water\"}"
             }
           ]
         },
@@ -98,7 +98,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"text\\\":\\\"Super Potion of Invisibility\\\"}\"}, Potion:\"minecraft:water\", CustomPotionEffects:[{Id: 14, Amplifier: 0, Duration: 14400}]}"
+              "tag": "{display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"color\\\":\\\"aqua\\\", \\\"text\\\":\\\"Super Potion of Invisibility\\\"}\"}, CustomPotionColor: 8356754, CustomPotionEffects:[{Id: 14, Amplifier: 0, Duration: 14400}], Potion:\"minecraft:water\"}"
             }
           ]
         },
@@ -109,7 +109,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"text\\\":\\\"Super Potion of Night Vision\\\"}\"}, Potion:\"minecraft:water\", CustomPotionEffects:[{Id: 16, Amplifier: 0, Duration: 14400}]}"
+              "tag": "{display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"color\\\":\\\"aqua\\\", \\\"text\\\":\\\"Super Potion of Night Vision\\\"}\"}, CustomPotionColor: 2039713, CustomPotionEffects:[{Id: 16, Amplifier: 0, Duration: 14400}], Potion:\"minecraft:water\"}"
             }
           ]
         },
@@ -120,7 +120,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"text\\\":\\\"Super Potion of Absorption\\\"}\"}, Potion:\"minecraft:water\", CustomPotionEffects:[{Id: 22, Amplifier: 2, Duration: 9600}]}"
+              "tag": "{display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"color\\\":\\\"aqua\\\", \\\"text\\\":\\\"Super Potion of Absorption\\\"}\"}, CustomPotionColor: 2445989, CustomPotionEffects:[{Id: 22, Amplifier: 2, Duration: 9600}], Potion:\"minecraft:water\"}"
             }
           ]
         },
@@ -131,7 +131,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"text\\\":\\\"Super Potion of Glowing\\\"}\"}, Potion:\"minecraft:water\", CustomPotionEffects:[{Id: 24, Amplifier: 0, Duration: 14400}]}"
+              "tag": "{display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"color\\\":\\\"aqua\\\", \\\"text\\\":\\\"Super Potion of Glowing\\\"}\"}, CustomPotionColor: 9740385, CustomPotionEffects:[{Id: 24, Amplifier: 0, Duration: 14400}], Potion:\"minecraft:water\"}"
             }
           ]
         },
@@ -142,7 +142,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"text\\\":\\\"Super Potion of Levitation\\\"}\"}, Potion:\"minecraft:water\", CustomPotionEffects:[{Id: 25, Amplifier: 2, Duration: 9600}]}"
+              "tag": "{display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"color\\\":\\\"aqua\\\", \\\"text\\\":\\\"Super Potion of Luck\\\"}\"}, CustomPotionColor: 3381504, CustomPotionEffects:[{Id: 26, Amplifier: 2, Duration: 9600}], Potion:\"minecraft:water\"}"
             }
           ]
         },
@@ -153,7 +153,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"text\\\":\\\"Super Potion of Luck\\\"}\"}, Potion:\"minecraft:water\", CustomPotionEffects:[{Id: 26, Amplifier: 2, Duration: 9600}]}"
+              "tag": "{display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"color\\\":\\\"aqua\\\", \\\"text\\\":\\\"Super Potion of Slow Falling\\\"}\"}, CustomPotionColor: 13565951, CustomPotionEffects:[{Id: 28, Amplifier: 2, Duration: 9600}], Potion:\"minecraft:water\"}"
             }
           ]
         },
@@ -164,7 +164,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"text\\\":\\\"Super Potion of Slow Falling\\\"}\"}, Potion:\"minecraft:water\", CustomPotionEffects:[{Id: 28, Amplifier: 2, Duration: 9600}]}"
+              "tag": "{display: {Name: \"{ \\\"color\\\":\\\"aqua\\\", \\\"text\\\":\\\"Baileys\\\"}\"}, CustomPotionColor: 13281662, CustomPotionEffects:[{Id: 26, Amplifier: 2, Duration: 4800}, {Id: 23, Amplifier: 0, Duration: 1200}, {Id: 9, Amplifier: 0, Duration: 600}, {Id: 2, Amplifier: 0, Duration: 1200}], Potion:\"minecraft:water\"}"
             }
           ]
         },
@@ -175,7 +175,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display: {Name: \"{ \\\"text\\\":\\\"Baileys\\\"}\"}, Potion:\"minecraft:water\", CustomPotionEffects:[{Id: 26, Amplifier: 2, Duration: 4800}, {Id: 23, Amplifier: 0, Duration: 1200}, {Id: 9, Amplifier: 0, Duration: 600}, {Id: 2, Amplifier: 0, Duration: 1200}]}"
+              "tag": "{display: {Name: \"{ \\\"color\\\":\\\"aqua\\\", \\\"text\\\":\\\"Cobalt Velvet\\\"}\"}, CustomPotionColor: 2482893, CustomPotionEffects:[{Id: 29, Amplifier: 0, Duration: 4800}, {Id: 30, Amplifier: 0, Duration: 4800}], Potion:\"minecraft:water\"}"
             }
           ]
         },
@@ -186,7 +186,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display: {Name: \"{ \\\"text\\\":\\\"Cobalt Velvet\\\"}\"}, Potion:\"minecraft:water\", CustomPotionEffects:[{Id: 29, Amplifier: 0, Duration: 4800}, {Id: 30, Amplifier: 0, Duration: 4800}]}"
+              "tag": "{display: {Name: \"{ \\\"color\\\":\\\"aqua\\\", \\\"text\\\":\\\"Fluffy Dream\\\"}\"}, CustomPotionColor: 10673569, CustomPotionEffects:[{Id: 2, Amplifier: 0, Duration: 4800}, {Id: 8, Amplifier: 0, Duration: 4800}, {Id: 28, Amplifier: 0, Duration: 4800}], Potion:\"minecraft:water\"}"
             }
           ]
         },
@@ -197,7 +197,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display: {Name: \"{ \\\"text\\\":\\\"Fluffy Dream\\\"}\"}, Potion:\"minecraft:water\", CustomPotionEffects:[{Id: 2, Amplifier: 0, Duration: 4800}, {Id: 8, Amplifier: 0, Duration: 4800}, {Id: 28, Amplifier: 0, Duration: 4800}]}"
+              "tag": "{display: {Name: \"{ \\\"color\\\":\\\"aqua\\\", \\\"text\\\":\\\"Gut Punch\\\"}\"}, CustomPotionColor: 16763268, CustomPotionEffects:[{Id: 5, Amplifier: 0, Duration: 4800}, {Id: 7, Amplifier: 0, Duration: 1}, {Id: 11, Amplifier: 0, Duration: 4800}], Potion:\"minecraft:water\"}"
             }
           ]
         },
@@ -208,7 +208,18 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display: {Name: \"{ \\\"text\\\":\\\"Gut Punch\\\"}\"}, Potion:\"minecraft:water\", CustomPotionEffects:[{Id: 5, Amplifier: 0, Duration: 4800}, {Id: 7, Amplifier: 0, Duration: 1}, {Id: 11, Amplifier: 0, Duration: 4800}]}"
+              "tag": "{display: {Name: \"{ \\\"color\\\":\\\"aqua\\\", \\\"text\\\":\\\"Swammy Juice\\\"}\"}, CustomPotionColor: 16019232, CustomPotionEffects:[{Id: 1, Amplifier: 4, Duration: 600}, {Id: 9, Amplifier: 0, Duration: 600}], Potion:\"minecraft:water\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "splash_potion",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display: {Name: \"{ \\\"color\\\":\\\"aqua\\\", \\\"text\\\":\\\"Nano Boost\\\"}\"}, CustomPotionColor: 5692391, CustomPotionEffects:[{Id: 5, Amplifier: 3, Duration: 360}, {Id: 11, Amplifier: 1, Duration: 360}, {Id: 1, Amplifier: 0, Duration: 360}], Potion:\"minecraft:water\"}"
             }
           ]
         }
