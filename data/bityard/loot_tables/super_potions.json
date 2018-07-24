@@ -219,7 +219,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display: {Name: \"{ \\\"color\\\":\\\"aqua\\\", \\\"text\\\":\\\"Nano Boost\\\"}\"}, CustomPotionColor: 5692391, CustomPotionEffects:[{Id: 5, Amplifier: 3, Duration: 360}, {Id: 11, Amplifier: 1, Duration: 360}, {Id: 1, Amplifier: 0, Duration: 360}], Potion:\"minecraft:water\"}"
+              "tag": "{display: {Name: \"{ \\\"color\\\":\\\"aqua\\\", \\\"text\\\":\\\"Nano Boost\\\"}\"}, CustomPotionColor: 5692391, CustomPotionEffects:[{Id: 6, Amplifier: 1, Duration: 1}, {Id: 5, Amplifier: 3, Duration: 400}, {Id: 11, Amplifier: 1, Duration: 400}, {Id: 1, Amplifier: 0, Duration: 400}], Potion:\"minecraft:water\"}"
             }
           ]
         }
