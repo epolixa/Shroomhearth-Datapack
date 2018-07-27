@@ -5,7 +5,7 @@
 		},
 		"title": "Bityard",
 		"description": "Visit spawn",
-		"background": "minecraft:textures/blocks/mushroom_stem.png"
+		"background": "minecraft:textures/block/mushroom_stem.png"
 	},
 	"criteria": {
 		"visited_spawn": {

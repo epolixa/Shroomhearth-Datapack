@@ -1,0 +1,32 @@
+{
+  "parent": "bityard:root",
+  "display": {
+		"icon": {
+			"item": "minecraft:carrot"
+		},
+		"title": "vegworm",
+		"description": "Eat every kind of fruit & vegetable"
+	},
+	"criteria": {
+		"carrot": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"items": [
+					{
+						"item":"minecraft:carrot"
+					}
+				]
+			}
+		},
+		"potato": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"items": [
+					{
+						"item":"minecraft:potato"
+					}
+				]
+			}
+		}
+	}
+}

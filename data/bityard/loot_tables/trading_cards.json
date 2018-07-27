@@ -26,6 +26,17 @@
               "tag":"{map: 10000001, display: {Name: \"{\\\"color\\\":\\\"yellow\\\", \\\"text\\\":\\\"Cursed Heart\\\"}\", Lore: [\"§r§7Nihilisorama\"]}, Enchantments:[{id:\"null\"}], card: true}"
             }
           ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:filled_map",
+          "functions":
+          [
+            {
+              "function": "set_nbt",
+              "tag":"{map: 10000002, display: {Name: \"{\\\"color\\\":\\\"yellow\\\", \\\"text\\\":\\\"Ragrita the Radiant\\\"}\", Lore: [\"§r§7daydrifter\"]}, Enchantments:[{id:\"null\"}], card: true}"
+            }
+          ]
         }
       ]
     }

@@ -30,6 +30,14 @@ scoreboard objectives add playerSleep dummy
 scoreboard objectives remove playerDamage
 scoreboard objectives add playerDamage minecraft.custom:minecraft.damage_dealt
 
+# playerCount - flag for number of online players
+scoreboard objectives remove playerCount
+scoreboard objectives add playerCount dummy
+
+# playerGroup - flag for number of other players in group / nearby
+scoreboard objectives remove playerGroup
+scoreboard objectives add playerGroup dummy
+
 # viewPitch - used for name colors
 scoreboard objectives remove viewPitch
 scoreboard objectives add viewPitch dummy
@@ -53,11 +61,10 @@ scoreboard objectives add playerTicks minecraft.custom:minecraft.play_one_minute
 # healthDisplay - timer for displayed health/level
 scoreboard objectives remove healthDisplay
 scoreboard objectives add healthDisplay dummy
-kill @e[tag=healthDisplay,type=armor_stand]
-summon minecraft:armor_stand -543 10 262 {Tags: ["healthDisplay"], Marker: true, NoGravity: true, NoAI: true, Invisible: true, Invulnerable: true, Silent: true, Small: true}
-scoreboard players set @e[tag=healthDisplay,type=armor_stand] healthDisplay 0
 
 # community - objectives for calculating community score
+scoreboard objectives remove communityTicks
+scoreboard objectives add communityTicks dummy
 scoreboard objectives remove community
 scoreboard objectives add community dummy
 
@@ -73,7 +80,7 @@ scoreboard objectives add bubbleSwim minecraft.custom:minecraft.swim_one_cm
 scoreboard objectives remove dropItem
 scoreboard objectives add dropItem minecraft.custom:minecraft.drop
 
-# item glint
+# item entity glint
 scoreboard objectives remove itemGlint
 scoreboard objectives add itemGlint dummy
 
@@ -110,11 +117,11 @@ scoreboard objectives add minedStone minecraft.mined:minecraft.stone
 scoreboard objectives remove solomonsShoes
 scoreboard objectives add solomonsShoes dummy
 
-# kinStone - Lovers' Stone
+# kinStone - Kin Stone
 scoreboard objectives remove kinStone
 scoreboard objectives add kinStone dummy
 
-# etherealBonbon - Ephemeral Bonbon
+# etherealBonbon - Ethereal Bonbon
 scoreboard objectives remove etherealBonbon
 scoreboard objectives add etherealBonbon minecraft.used:minecraft.chorus_fruit
 
@@ -130,13 +137,13 @@ scoreboard objectives add reusablePearl dummy
 scoreboard objectives remove usedPearl
 scoreboard objectives add usedPearl minecraft.used:minecraft.ender_pearl
 
-# frog rompers
+# frogRompers - Frog Rompers
 scoreboard objectives remove frogRompers
 scoreboard objectives add frogRompers dummy
 scoreboard objectives remove frogRompersSneak
 scoreboard objectives add frogRompersSneak minecraft.custom:minecraft.sneak_time
 
-# hungry pickaxe
+# hungry - Hungry Pickaxe
 scoreboard objectives remove hungryCoal
 scoreboard objectives add hungryCoal minecraft.mined:minecraft.coal_ore
 scoreboard objectives remove hungryIron
@@ -155,7 +162,11 @@ scoreboard objectives remove hungryEmerald
 scoreboard objectives add hungryEmerald minecraft.mined:minecraft.emerald_ore
 
 
-## Set Display
+## Setup fake "Env" player
+scoreboard players set Env playerCount 0
+scoreboard players set Env healthDisplay 0
 
+
+## Set Display
 # Ensure that community score is shown in the tab list
 scoreboard objectives setdisplay list community

@@ -22,6 +22,7 @@ function bityard:modules/relics/vampire_fang
 function bityard:modules/relics/mojjagack
 
 ## Misc
+function bityard:modules/community_score
 function bityard:modules/bleeding_particles
 function bityard:modules/swimming_polish
 function bityard:modules/multi_sleep
@@ -31,6 +32,7 @@ function bityard:modules/farming_xp
 function bityard:modules/grass_path
 function bityard:modules/item_glint
 
-## Flags
+## Flags & Tags
 function bityard:modules/flags
+function bityard:modules/tags
 function bityard:modules/health_display

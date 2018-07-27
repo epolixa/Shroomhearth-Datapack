@@ -1,0 +1,16 @@
+{
+  "parent": "bityard:root",
+  "display": {
+		"icon": {
+			"item": "minecraft:crafting_table"
+		},
+		"title": "Community Participator",
+		"description": "Group up with 5 other players (resets per project)",
+    	"frame": "challenge"
+	},
+	"criteria": {
+		"mined_blocks": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

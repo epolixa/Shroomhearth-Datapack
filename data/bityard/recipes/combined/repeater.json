@@ -10,13 +10,10 @@
     },
     "s": {
       "item": "minecraft:stone"
-    },
-    "_": {
-      "item": "minecraft:air"
     }
   },
   "pattern": [
-    "r_r",
+    "r r",
     "wrw",
     "sss"
   ],
