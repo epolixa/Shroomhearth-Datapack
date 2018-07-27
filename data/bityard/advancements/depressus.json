@@ -1,0 +1,23 @@
+{
+  "parent": "bityard:root",
+  "display": {
+		"icon": {
+			"item": "minecraft:golden_carrot"
+		},
+		"title": "Depressus",
+		"description": "Obtain a stack of golden carrots"
+	},
+	"criteria": {
+		"craft_carrots": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item":"minecraft:golden_carrot",
+						"count": 64
+					}
+				]
+			}
+		}
+	}
+}

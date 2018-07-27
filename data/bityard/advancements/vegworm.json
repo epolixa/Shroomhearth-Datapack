@@ -8,12 +8,82 @@
 		"description": "Eat every kind of fruit & vegetable"
 	},
 	"criteria": {
+		"apple": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"items": [
+					{
+						"item":"minecraft:apple"
+					}
+				]
+			}
+		},
+		"beetroot": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"items": [
+					{
+						"item":"minecraft:beetroot"
+					}
+				]
+			}
+		},
 		"carrot": {
 			"trigger": "minecraft:consume_item",
 			"conditions": {
 				"items": [
 					{
 						"item":"minecraft:carrot"
+					}
+				]
+			}
+		},
+		"chorus_fruit": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"items": [
+					{
+						"item":"minecraft:chorus_fruit"
+					}
+				]
+			}
+		},
+		"dried_kelp": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"items": [
+					{
+						"item":"minecraft:dried_kelp"
+					}
+				]
+			}
+		},
+		"golden_apple": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"items": [
+					{
+						"item":"minecraft:golden_apple"
+					}
+				]
+			}
+		},
+		"golden_carrot": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"items": [
+					{
+						"item":"minecraft:golden_carrot"
+					}
+				]
+			}
+		},
+		"melon_slice": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"items": [
+					{
+						"item":"minecraft:melon_slice"
 					}
 				]
 			}

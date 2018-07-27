@@ -236,6 +236,23 @@
                             }
                         }
 					]					
+				},
+				{
+					"type": "item",
+					"name": "minecraft:tipped_arrow",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{Potion: \"minecraft:long_slow_falling\"}"
+						},
+						{
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 8
+                            }
+                        }
+					]					
 				}
 			]
 		}
