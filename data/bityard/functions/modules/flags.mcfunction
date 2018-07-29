@@ -36,3 +36,7 @@ execute as @a run scoreboard players add Env playerCount 1
 # playerGroup - number of players nearby
 scoreboard players set @a playerGroup 0
 execute as @a at @s run scoreboard players add @a[distance=1..32] playerGroup 1
+
+# boss announcements
+execute as @a[scores={killWither=1..}] run scoreboard players set @s killWither 0
+execute as @a[scores={killDragon=1..}] run scoreboard players set @s killDragon 0
