@@ -32,6 +32,7 @@ function bityard:modules/farming_xp
 function bityard:modules/grass_path
 function bityard:modules/item_glint
 function bityard:modules/boss_announcement
+function bityard:modules/end_crystal_ward
 
 ## Flags & Tags
 function bityard:modules/flags
