@@ -69,8 +69,8 @@ scoreboard objectives remove community
 scoreboard objectives add community dummy
 
 # curse - flag for cursed player
-scoreboard objective remove curse
-scoreboard objective add curse dummy
+scoreboard objectives remove curse
+scoreboard objectives add curse dummy
 
 # water polish - objectives for extra player water particles
 scoreboard objectives remove soaked

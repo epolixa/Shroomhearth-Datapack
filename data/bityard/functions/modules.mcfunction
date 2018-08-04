@@ -23,6 +23,7 @@ function bityard:modules/relics/mojjagack
 
 ## Misc
 function bityard:modules/community_score
+function bityard:modules/curse
 function bityard:modules/bleeding_particles
 function bityard:modules/swimming_polish
 function bityard:modules/multi_sleep
