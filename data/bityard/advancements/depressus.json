@@ -5,19 +5,11 @@
 			"item": "minecraft:golden_carrot"
 		},
 		"title": "Depressus",
-		"description": "Obtain a stack of golden carrots"
+		"description": "Craft an entire stack of golden carrots in one sitting"
 	},
 	"criteria": {
-		"craft_carrots": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"item":"minecraft:golden_carrot",
-						"count": 64
-					}
-				]
-			}
+		"crafted_carrots": {
+			"trigger": "minecraft:impossible"
 		}
 	}
 }

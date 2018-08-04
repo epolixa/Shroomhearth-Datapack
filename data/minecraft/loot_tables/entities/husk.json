@@ -41,12 +41,12 @@
             "entries": [
                 {
                     "type": "item",
-                    "name": "minecraft:iron_ingot",
+                    "name": "minecraft:nether_quartz",
                     "weight": 1
                 },
                 {
                     "type": "item",
-                    "name": "minecraft:carrot",
+                    "name": "minecraft:beetroot",
                     "weight": 1
                 },
                 {

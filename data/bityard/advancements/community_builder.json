@@ -1,10 +1,10 @@
 {
-  "parent": "bityard:community_participator",
+  "parent": "bityard:community_builder",
   "display": {
 		"icon": {
 			"item": "minecraft:chest"
 		},
-		"title": "Community Contributor",
+		"title": "Community Builder",
 		"description": "Reach the maximum community score (resets per project)",
     	"frame": "challenge"
 	},

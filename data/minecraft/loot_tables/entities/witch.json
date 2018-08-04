@@ -7,9 +7,14 @@
             },
             "entries": [
                 {
+                    "type": "loot_table",
+                    "name": "bityard:super_potions",
+                    "weight": 1
+                },
+                {
                     "type": "item",
                     "name": "minecraft:glowstone_dust",
-                    "weight": 1,
+                    "weight": 3,
                     "functions": [
                         {
                             "function": "set_count",
@@ -30,7 +35,7 @@
                 {
                     "type": "item",
                     "name": "minecraft:sugar",
-                    "weight": 1,
+                    "weight": 3,
                     "functions": [
                         {
                             "function": "set_count",
@@ -51,7 +56,7 @@
                 {
                     "type": "item",
                     "name": "minecraft:redstone",
-                    "weight": 1,
+                    "weight": 3,
                     "functions": [
                         {
                             "function": "set_count",
@@ -72,7 +77,7 @@
                 {
                     "type": "item",
                     "name": "minecraft:spider_eye",
-                    "weight": 1,
+                    "weight": 3,
                     "functions": [
                         {
                             "function": "set_count",
@@ -93,7 +98,7 @@
                 {
                     "type": "item",
                     "name": "minecraft:glass_bottle",
-                    "weight": 1,
+                    "weight": 3,
                     "functions": [
                         {
                             "function": "set_count",
@@ -114,7 +119,7 @@
                 {
                     "type": "item",
                     "name": "minecraft:gunpowder",
-                    "weight": 1,
+                    "weight": 3,
                     "functions": [
                         {
                             "function": "set_count",
@@ -135,7 +140,7 @@
                 {
                     "type": "item",
                     "name": "minecraft:stick",
-                    "weight": 2,
+                    "weight": 4,
                     "functions": [
                         {
                             "function": "set_count",

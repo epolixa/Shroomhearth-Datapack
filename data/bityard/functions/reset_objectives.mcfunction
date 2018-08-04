@@ -50,7 +50,7 @@ scoreboard objectives add motionY dummy
 scoreboard objectives remove bleedSpeed
 scoreboard objectives add bleedSpeed dummy
 
-# rng - psuedo random number generator per player
+# rng - fake random number generator per player
 scoreboard objectives remove rng
 scoreboard objectives add rng minecraft.custom:minecraft.play_one_minute
 
@@ -67,6 +67,10 @@ scoreboard objectives remove communityTicks
 scoreboard objectives add communityTicks dummy
 scoreboard objectives remove community
 scoreboard objectives add community dummy
+
+# curse - flag for cursed player
+scoreboard objective remove curse
+scoreboard objective add curse dummy
 
 # water polish - objectives for extra player water particles
 scoreboard objectives remove soaked
@@ -115,6 +119,10 @@ scoreboard objectives add killDragon minecraft.killed:minecraft.ender_dragon
 # minedStone - used by AlmightyA
 scoreboard objectives remove minedStone
 scoreboard objectives add minedStone minecraft.mined:minecraft.stone
+
+# craftedCarrots - used by Depressus
+scoreboard objectives remove craftedCarrots
+scoreboard objectives add craftedCarrots minecraft.crafted:minecraft.golden_carrot
 
 
 ## Relic Items
