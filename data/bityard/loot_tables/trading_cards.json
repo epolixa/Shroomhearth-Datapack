@@ -147,6 +147,94 @@
               "tag":"{map: 10000012, display: {Name: \"{\\\"color\\\":\\\"yellow\\\", \\\"text\\\":\\\"Lord Thorbert\\\"}\", Lore: [\"§r§7daydrifter\"]}, Enchantments:[{id:\"null\"}], card: true}"
             }
           ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:filled_map",
+          "functions":
+          [
+            {
+              "function": "set_nbt",
+              "tag":"{map: 10000013, display: {Name: \"{\\\"color\\\":\\\"yellow\\\", \\\"text\\\":\\\"Val\\\"}\", Lore: [\"§r§7daydrifter\"]}, Enchantments:[{id:\"null\"}], card: true}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:filled_map",
+          "functions":
+          [
+            {
+              "function": "set_nbt",
+              "tag":"{map: 10000014, display: {Name: \"{\\\"color\\\":\\\"yellow\\\", \\\"text\\\":\\\"Taliyya Tethys\\\"}\", Lore: [\"§r§7daydrifter\"]}, Enchantments:[{id:\"null\"}], card: true}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:filled_map",
+          "functions":
+          [
+            {
+              "function": "set_nbt",
+              "tag":"{map: 10000015, display: {Name: \"{\\\"color\\\":\\\"yellow\\\", \\\"text\\\":\\\"Balasar\\\"}\", Lore: [\"§r§7daydrifter\"]}, Enchantments:[{id:\"null\"}], card: true}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:filled_map",
+          "functions":
+          [
+            {
+              "function": "set_nbt",
+              "tag":"{map: 10000016, display: {Name: \"{\\\"color\\\":\\\"yellow\\\", \\\"text\\\":\\\"Raphael Greyscale\\\"}\", Lore: [\"§r§7daydrifter\"]}, Enchantments:[{id:\"null\"}], card: true}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:filled_map",
+          "functions":
+          [
+            {
+              "function": "set_nbt",
+              "tag":"{map: 10000017, display: {Name: \"{\\\"color\\\":\\\"yellow\\\", \\\"text\\\":\\\"Caltonius\\\"}\", Lore: [\"§r§7daydrifter\"]}, Enchantments:[{id:\"null\"}], card: true}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:filled_map",
+          "functions":
+          [
+            {
+              "function": "set_nbt",
+              "tag":"{map: 10000018, display: {Name: \"{\\\"color\\\":\\\"yellow\\\", \\\"text\\\":\\\"Theo Rydel\\\"}\", Lore: [\"§r§7daydrifter\"]}, Enchantments:[{id:\"null\"}], card: true}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:filled_map",
+          "functions":
+          [
+            {
+              "function": "set_nbt",
+              "tag":"{map: 10000019, display: {Name: \"{\\\"color\\\":\\\"yellow\\\", \\\"text\\\":\\\"Sycamore\\\"}\", Lore: [\"§r§7daydrifter\"]}, Enchantments:[{id:\"null\"}], card: true}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:filled_map",
+          "functions":
+          [
+            {
+              "function": "set_nbt",
+              "tag":"{map: 10000020, display: {Name: \"{\\\"color\\\":\\\"yellow\\\", \\\"text\\\":\\\"Dum Uzgul\\\"}\", Lore: [\"§r§7daydrifter\"]}, Enchantments:[{id:\"null\"}], card: true}"
+            }
+          ]
         }
       ]
     }
