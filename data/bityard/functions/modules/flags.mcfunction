@@ -42,4 +42,4 @@ execute as @a[scores={killWither=1..}] run scoreboard players set @s killWither 
 execute as @a[scores={killDragon=1..}] run scoreboard players set @s killDragon 0
 
 # craftedCarrots - should reset every tick if greater than 0
-execute as @a[scores={craftedCarrots=1..},advancements={bityard:depressus=false}] run scoreboard players set @s craftedCarrots 0
+execute as @a[scores={craftedCarrots=1..},advancements={bityard:mr_tori=false}] run scoreboard players set @s craftedCarrots 0

@@ -4,12 +4,17 @@
 		"icon": {
 			"item": "minecraft:golden_carrot"
 		},
-		"title": "Depressus",
+		"title": "Mr_Tori",
 		"description": "Craft an entire stack of golden carrots in one sitting"
 	},
 	"criteria": {
 		"crafted_carrots": {
 			"trigger": "minecraft:impossible"
 		}
+	},
+	"rewards": {
+		"loot": [
+			"bityard:advancements/mr_tori"
+		]
 	}
 }

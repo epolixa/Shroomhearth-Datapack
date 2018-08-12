@@ -15,7 +15,7 @@
 	},
 	"rewards": {
 		"loot": [
-			"bityard:community_reward_chest"
+			"bityard:advancements/community_reward_chest"
 		]
 	}
 }

@@ -5,12 +5,12 @@
       "entries": [
         {
           "type": "item",
-          "name": "minecraft:chest",
+          "name": "minecraft:player_head",
           "weight": 1,
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display: {Name: \"{ \\\"color\\\":\\\"aqua\\\", \\\"text\\\":\\\"Builder's Box\\\"}\"}, BlockEntityTag:{LootTable:\"bityard:advancements/community_reward\"}}"
+              "tag": "{SkullOwner:\"Mr_Tori\"}"
             }
           ]
         }

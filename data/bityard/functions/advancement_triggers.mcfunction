@@ -12,5 +12,5 @@ execute as @a[scores={community=5000..}, advancements={bityard:community_builder
 # AlmightyA - mine over 50k stone blocks
 execute as @a[scores={minedStone=50000..}, advancements={bityard:almightya=false}] run advancement grant @s only bityard:almightya
 
-# Depressus - craft a stack of golden carrots
-execute as @a[scores={craftedCarrots=64..}, advancements={bityard:depressus=false}] run advancement grant @s only bityard:depressus
+# Mr_Tori - craft a stack of golden carrots
+execute as @a[scores={craftedCarrots=64..}, advancements={bityard:mr_tori=false}] run advancement grant @s only bityard:mr_tori

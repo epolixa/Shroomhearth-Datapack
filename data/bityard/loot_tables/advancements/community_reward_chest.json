@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display: {Name: \"{ \\\"color\\\":\\\"aqua\\\", \\\"text\\\":\\\"Builder's Box\\\"}\"}, BlockEntityTag:{LootTable:\"bityard:advancements/community_reward\"}}"
+              "tag": "{display: {Name: \"{ \\\"color\\\":\\\"aqua\\\", \\\"text\\\":\\\"Builder's Box\\\"}\"}, BlockEntityTag:{LootTable:\"bityard:community_reward\"}}"
             }
           ]
         }
