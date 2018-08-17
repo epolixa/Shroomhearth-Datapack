@@ -4,19 +4,17 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "item",
-          "name": "minecraft:chorus_fruit",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{relic: \"ethereal_bonbon\", Enchantments:[{id:\"null\"}], display:{Name: \"{\\\"italic\\\":\\\"false\\\", \\\"color\\\":\\\"light_purple\\\", \\\"text\\\":\\\"Ethereal Bonbon\\\"}\", Lore: [\"§r§7When eaten:\",\"§r§5 Become ethereal (0:06)\"]}}"
-            },
-            {
-              "function": "set_count",
-              "count": {"min": 6, "max": 12}
-            }
-          ]
+          "type": "loot_table",
+          "name": "bityard:super_gear"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "bityard:attribute_gear/diamond"
         }
       ]
     }

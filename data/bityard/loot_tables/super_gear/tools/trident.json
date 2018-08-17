@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{ench: [{id: 34, lvl: 4}]}"
+              "tag": "{Enchantments: [{id: 34, lvl: 4}]}"
             }
           ]
         },
@@ -21,7 +21,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{ench: [{id: 66, lvl: 6}]}"
+              "tag": "{Enchantments: [{id: 66, lvl: 6}]}"
             }
           ]
         },
@@ -32,7 +32,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{ench: [{id: 65, lvl: 4}]}"
+              "tag": "{Enchantments: [{id: 65, lvl: 4}]}"
             }
           ]
         },
@@ -43,7 +43,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{ench: [{id: 67, lvl: 4}]}"
+              "tag": "{Enchantments: [{id: 67, lvl: 4}]}"
             }
           ]
         }

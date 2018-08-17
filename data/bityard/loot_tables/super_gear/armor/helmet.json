@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{ench: [{id: 34, lvl: 4}]}"
+              "tag": "{Enchantments: [{id: 34, lvl: 4}]}"
             }
           ]
         },
@@ -21,7 +21,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{ench: [{id: 3, lvl: 5}]}"
+              "tag": "{Enchantments: [{id: 3, lvl: 5}]}"
             }
           ]
         },
@@ -32,7 +32,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{ench: [{id: 1, lvl: 5}]}"
+              "tag": "{Enchantments: [{id: 1, lvl: 5}]}"
             }
           ]
         },
@@ -43,7 +43,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{ench: [{id: 4, lvl: 5}]}"
+              "tag": "{Enchantments: [{id: 4, lvl: 5}]}"
             }
           ]
         },
@@ -54,7 +54,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{ench: [{id: 0, lvl: 5}]}"
+              "tag": "{Enchantments: [{id: 0, lvl: 5}]}"
             }
           ]
         },
@@ -65,7 +65,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{ench: [{id: 5, lvl: 4}]}"
+              "tag": "{Enchantments: [{id: 5, lvl: 4}]}"
             }
           ]
         },
@@ -76,7 +76,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{ench: [{id: 7, lvl: 4}]}"
+              "tag": "{Enchantments: [{id: 7, lvl: 4}]}"
             }
           ]
         }
