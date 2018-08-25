@@ -6,13 +6,13 @@
 
 ## Flags/Trackers/Timers
 
-# playerHealth - displayed under player nametag
-scoreboard objectives remove playerHealth
-scoreboard objectives add playerHealth health "\u00A74\u2764"
+# entityHealth - tracking entity Health, displayed under nametag
+scoreboard objectives remove entityHealth
+scoreboard objectives add entityHealth dummy "\u00A74\u2764\u00A7r"
 
 # playerLevel - displayed under player nametag
 scoreboard objectives remove playerLevel
-scoreboard objectives add playerLevel level "\u00A7a\u272A"
+scoreboard objectives add playerLevel level "\u00A7a\u272A\u00A7r"
 
 # playerJump - flag for jumping players
 scoreboard objectives remove playerJump
@@ -87,6 +87,8 @@ scoreboard objectives add dropItem minecraft.custom:minecraft.drop
 # item entity glint
 scoreboard objectives remove itemGlint
 scoreboard objectives add itemGlint dummy
+scoreboard objectives remove itemAge
+scoreboard objectives add itemAge dummy
 
 # entity ticks - increments every tick for mobs, used for spawn control
 scoreboard objectives remove entityTicks 

@@ -13,7 +13,7 @@ execute as @a[nbt={Inventory:[{Slot:-106b, tag:{relic:"everlasting_cookie"}}]}] 
 execute as @a[scores={everCookie=1..,ateCookie=1..}] at @s run summon minecraft:item ~ ~0.9 ~ {Item:{Count:1b, id:"minecraft:cookie", tag:{relic: "everlasting_cookie", Enchantments:[{id:"null"}], display:{Name: "{\"text\":\"Everlasting Cookie\"}", Lore: ["When eaten:"," +1 Everlasting Cookie"]}}}}
 
 # Give player hunger when eaten
-execute as @a[scores={everCookie=1..,ateCookie=1..}] run effect give @s minecraft:hunger 10 0 true
+execute as @a[scores={everCookie=1..,ateCookie=1..}] run effect give @s minecraft:hunger 8 0 true
 
 # Reset ate cookie flag
 execute as @a[scores={ateCookie=1..}] run scoreboard players set @s ateCookie 0
