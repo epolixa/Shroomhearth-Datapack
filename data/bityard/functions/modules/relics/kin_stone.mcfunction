@@ -16,7 +16,7 @@ execute as @a[nbt={Inventory:[{Slot:-106b,id:"minecraft:magenta_dye", tag:{relic
 execute as @a[nbt={Inventory:[{Slot:-106b,id:"minecraft:magenta_dye", tag:{relic:"kin_stone"}}]},scores={kinStone=0}] run scoreboard players set @s kinStone 1
 
 # Summon armor stand marker at player's viewpoint if another player has kin stone
-execute as @a[scores={kinStone=1}] at @s at @p[scores={kinStone=1..},distance=4..] positioned ~ ~1.5 ~ positioned ^ ^ ^1 run summon minecraft:armor_stand ~ ~ ~ {Tags: ["kinStone"], Marker: true, NoGravity: true, NoAI: true, Invisible: true, Invulnerable: true, Silent: true, Small: true}
+execute as @a[scores={kinStone=1}] at @s at @p[scores={kinStone=1..}] positioned ~ ~1.5 ~ positioned ^ ^ ^1 run summon minecraft:armor_stand ~ ~ ~ {Tags: ["kinStone"], Marker: true, NoGravity: true, NoAI: true, Invisible: true, Invulnerable: true, Silent: true, Small: true}
 
 # Increment score for armor stand
 execute as @e[tag=kinStone,type=armor_stand] run scoreboard players add @s kinStone 1

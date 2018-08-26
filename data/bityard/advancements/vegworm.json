@@ -8,95 +8,161 @@
 		"description": "Eat every kind of fruit & vegetable"
 	},
 	"criteria": {
-		"apple": {
-			"trigger": "minecraft:consume_item",
-			"conditions": {
-				"items": [
-					{
-						"item":"minecraft:apple"
-					}
-				]
-			}
-		},
-		"beetroot": {
-			"trigger": "minecraft:consume_item",
-			"conditions": {
-				"items": [
-					{
-						"item":"minecraft:beetroot"
-					}
-				]
-			}
-		},
-		"carrot": {
-			"trigger": "minecraft:consume_item",
-			"conditions": {
-				"items": [
-					{
-						"item":"minecraft:carrot"
-					}
-				]
-			}
-		},
-		"chorus_fruit": {
-			"trigger": "minecraft:consume_item",
-			"conditions": {
-				"items": [
-					{
-						"item":"minecraft:chorus_fruit"
-					}
-				]
-			}
-		},
-		"dried_kelp": {
-			"trigger": "minecraft:consume_item",
-			"conditions": {
-				"items": [
-					{
-						"item":"minecraft:dried_kelp"
-					}
-				]
-			}
-		},
-		"golden_apple": {
-			"trigger": "minecraft:consume_item",
-			"conditions": {
-				"items": [
-					{
-						"item":"minecraft:golden_apple"
-					}
-				]
-			}
-		},
-		"golden_carrot": {
-			"trigger": "minecraft:consume_item",
-			"conditions": {
-				"items": [
-					{
-						"item":"minecraft:golden_carrot"
-					}
-				]
-			}
-		},
-		"melon_slice": {
-			"trigger": "minecraft:consume_item",
-			"conditions": {
-				"items": [
-					{
-						"item":"minecraft:melon_slice"
-					}
-				]
-			}
-		},
-		"potato": {
-			"trigger": "minecraft:consume_item",
-			"conditions": {
-				"items": [
-					{
-						"item":"minecraft:potato"
-					}
-				]
-			}
-		}
-	}
+    "apple": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:apple"
+        }
+      }
+    },
+    "mushroom_stew": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:mushroom_stew"
+        }
+      }
+    },
+    "golden_apple": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:golden_apple"
+        }
+      }
+    },
+    "enchanted_golden_apple": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:enchanted_golden_apple"
+        }
+      }
+    },
+    "melon_slice": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:melon_slice"
+        }
+      }
+    },
+    "carrot": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:carrot"
+        }
+      }
+    },
+    "potato": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:potato"
+        }
+      }
+    },
+    "baked_potato": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:baked_potato"
+        }
+      }
+    },
+    "poisonous_potato": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:poisonous_potato"
+        }
+      }
+    },
+    "golden_carrot": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:golden_carrot"
+        }
+      }
+    },
+    "chorus_fruit": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:chorus_fruit"
+        }
+      }
+    },
+    "beetroot": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:beetroot"
+        }
+      }
+    },
+    "beetroot_soup": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:beetroot_soup"
+        }
+      }
+    },
+    "dried_kelp": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:dried_kelp"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "apple"
+    ],
+    [
+      "mushroom_stew"
+    ],
+    [
+      "golden_apple"
+    ],
+    [
+      "enchanted_golden_apple"
+    ],
+    [
+      "melon_slice"
+    ],
+    [
+      "carrot"
+    ],
+    [
+      "potato"
+    ],
+    [
+      "baked_potato"
+    ],
+    [
+      "poisonous_potato"
+    ],
+    [
+      "golden_carrot"
+    ],
+    [
+      "chorus_fruit"
+    ],
+    [
+      "beetroot"
+    ],
+    [
+      "beetroot_soup"
+    ],
+    [
+      "dried_kelp"
+    ]
+  ]
 }

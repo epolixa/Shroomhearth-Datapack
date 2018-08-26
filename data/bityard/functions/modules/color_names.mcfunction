@@ -38,7 +38,7 @@ execute as @a[nbt={Inventory:[{Slot:-106b,id:"minecraft:cyan_dye"}]}] run scoreb
 execute as @a[nbt={SelectedItem:{id:"minecraft:purple_dye"}}] run scoreboard players add @s heldDye 1
 execute as @a[nbt={Inventory:[{Slot:-106b,id:"minecraft:purple_dye"}]}] run scoreboard players add @s heldDye 1
 # dark_blue
-execute as @a[nbt={SelectedItem:{id:"minecraft:lapi_lazuli"}}] run scoreboard players add @s heldDye 1
+execute as @a[nbt={SelectedItem:{id:"minecraft:lapis_lazuli"}}] run scoreboard players add @s heldDye 1
 execute as @a[nbt={Inventory:[{Slot:-106b,id:"minecraft:lapi_lazuli"}]}] run scoreboard players add @s heldDye 1
 # dark_red
 execute as @a[nbt={SelectedItem:{id:"minecraft:cocoa_beans"}}] run scoreboard players add @s heldDye 1
