@@ -19,7 +19,7 @@
                 },
                 {
                     "type": "item",
-                    "name": "minecraft:leather",
+                    "name": "minecraft:rabbit_hide",
                     "weight": 10
                 },
                 {
@@ -65,6 +65,16 @@
                 {
                     "type": "item",
                     "name": "minecraft:stick",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:seagrass",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:kelp",
                     "weight": 5
                 },
                 {

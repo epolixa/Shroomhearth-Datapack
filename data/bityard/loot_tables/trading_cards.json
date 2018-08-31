@@ -12,7 +12,7 @@
           [
             {
               "function": "set_nbt",
-              "tag":"{map: 10000000, display: {Name: \"{\\\"color\\\":\\\"yellow\\\", \\\"text\\\":\\\"Cloud Ninja\\\"}\", Lore: [\"§r§7daydrifter\"]}, Enchantments:[{id:\"null\"}], card: true}"
+              "tag":"{map: 10000000, special_loot: \"trading_card\", display: {Name: \"{\\\"color\\\":\\\"yellow\\\", \\\"text\\\":\\\"Cloud Ninja\\\"}\", Lore: [\"§r§7daydrifter\"]}, Enchantments:[{id:\"minecraft:lure\"}], HideFlags: 1}"
             }
           ]
         },
@@ -23,7 +23,7 @@
           [
             {
               "function": "set_nbt",
-              "tag":"{map: 10000001, display: {Name: \"{\\\"color\\\":\\\"yellow\\\", \\\"text\\\":\\\"Cursed Heart\\\"}\", Lore: [\"§r§7Nihilisorama\"]}, Enchantments:[{id:\"null\"}], card: true}"
+              "tag":"{map: 10000001, special_loot: \"trading_card\", display: {Name: \"{\\\"color\\\":\\\"yellow\\\", \\\"text\\\":\\\"Cursed Heart\\\"}\", Lore: [\"§r§7Nihilisorama\"]}, Enchantments:[{id:\"minecraft:lure\"}], HideFlags: 1}"
             }
           ]
         },
@@ -34,7 +34,7 @@
           [
             {
               "function": "set_nbt",
-              "tag":"{map: 10000002, display: {Name: \"{\\\"color\\\":\\\"yellow\\\", \\\"text\\\":\\\"Ragrita the Radiant\\\"}\", Lore: [\"§r§7daydrifter\"]}, Enchantments:[{id:\"null\"}], card: true}"
+              "tag":"{map: 10000002, special_loot: \"trading_card\", display: {Name: \"{\\\"color\\\":\\\"yellow\\\", \\\"text\\\":\\\"Ragrita the Radiant\\\"}\", Lore: [\"§r§7daydrifter\"]}, Enchantments:[{id:\"minecraft:lure\"}], HideFlags: 1}"
             }
           ]
         },
@@ -45,7 +45,7 @@
           [
             {
               "function": "set_nbt",
-              "tag":"{map: 10000003, display: {Name: \"{\\\"color\\\":\\\"yellow\\\", \\\"text\\\":\\\"Nana\\\"}\", Lore: [\"§r§7daydrifter\"]}, Enchantments:[{id:\"null\"}], card: true}"
+              "tag":"{map: 10000003, special_loot: \"trading_card\", display: {Name: \"{\\\"color\\\":\\\"yellow\\\", \\\"text\\\":\\\"Nana\\\"}\", Lore: [\"§r§7daydrifter\"]}, Enchantments:[{id:\"minecraft:lure\"}], HideFlags: 1}"
             }
           ]
         },
@@ -56,7 +56,7 @@
           [
             {
               "function": "set_nbt",
-              "tag":"{map: 10000004, display: {Name: \"{\\\"color\\\":\\\"yellow\\\", \\\"text\\\":\\\"Saggy\\\"}\", Lore: [\"§r§7daydrifter\"]}, Enchantments:[{id:\"null\"}], card: true}"
+              "tag":"{map: 10000004, special_loot: \"trading_card\", display: {Name: \"{\\\"color\\\":\\\"yellow\\\", \\\"text\\\":\\\"Saggy\\\"}\", Lore: [\"§r§7daydrifter\"]}, Enchantments:[{id:\"minecraft:lure\"}], HideFlags: 1}"
             }
           ]
         },
@@ -67,7 +67,7 @@
           [
             {
               "function": "set_nbt",
-              "tag":"{map: 10000005, display: {Name: \"{\\\"color\\\":\\\"yellow\\\", \\\"text\\\":\\\"Gidget\\\"}\", Lore: [\"§r§7daydrifter\"]}, Enchantments:[{id:\"null\"}], card: true}"
+              "tag":"{map: 10000005, special_loot: \"trading_card\", display: {Name: \"{\\\"color\\\":\\\"yellow\\\", \\\"text\\\":\\\"Gidget\\\"}\", Lore: [\"§r§7daydrifter\"]}, Enchantments:[{id:\"minecraft:lure\"}], HideFlags: 1}"
             }
           ]
         },
@@ -78,7 +78,7 @@
           [
             {
               "function": "set_nbt",
-              "tag":"{map: 10000006, display: {Name: \"{\\\"color\\\":\\\"yellow\\\", \\\"text\\\":\\\"Michael Greyscale\\\"}\", Lore: [\"§r§7daydrifter\"]}, Enchantments:[{id:\"null\"}], card: true}"
+              "tag":"{map: 10000006, special_loot: \"trading_card\", display: {Name: \"{\\\"color\\\":\\\"yellow\\\", \\\"text\\\":\\\"Michael Greyscale\\\"}\", Lore: [\"§r§7daydrifter\"]}, Enchantments:[{id:\"minecraft:lure\"}], HideFlags: 1}"
             }
           ]
         },
@@ -89,7 +89,7 @@
           [
             {
               "function": "set_nbt",
-              "tag":"{map: 10000007, display: {Name: \"{\\\"color\\\":\\\"yellow\\\", \\\"text\\\":\\\"Ulfgar Firebeard\\\"}\", Lore: [\"§r§7daydrifter\"]}, Enchantments:[{id:\"null\"}], card: true}"
+              "tag":"{map: 10000007, special_loot: \"trading_card\", display: {Name: \"{\\\"color\\\":\\\"yellow\\\", \\\"text\\\":\\\"Ulfgar Firebeard\\\"}\", Lore: [\"§r§7daydrifter\"]}, Enchantments:[{id:\"minecraft:lure\"}], HideFlags: 1}"
             }
           ]
         },
@@ -100,7 +100,7 @@
           [
             {
               "function": "set_nbt",
-              "tag":"{map: 10000008, display: {Name: \"{\\\"color\\\":\\\"yellow\\\", \\\"text\\\":\\\"Serenity\\\"}\", Lore: [\"§r§7daydrifter\"]}, Enchantments:[{id:\"null\"}], card: true}"
+              "tag":"{map: 10000008, special_loot: \"trading_card\", display: {Name: \"{\\\"color\\\":\\\"yellow\\\", \\\"text\\\":\\\"Serenity\\\"}\", Lore: [\"§r§7daydrifter\"]}, Enchantments:[{id:\"minecraft:lure\"}], HideFlags: 1}"
             }
           ]
         },
@@ -111,7 +111,7 @@
           [
             {
               "function": "set_nbt",
-              "tag":"{map: 10000009, display: {Name: \"{\\\"color\\\":\\\"yellow\\\", \\\"text\\\":\\\"Brax Drillby\\\"}\", Lore: [\"§r§7daydrifter\"]}, Enchantments:[{id:\"null\"}], card: true}"
+              "tag":"{map: 10000009, special_loot: \"trading_card\", display: {Name: \"{\\\"color\\\":\\\"yellow\\\", \\\"text\\\":\\\"Brax Drillby\\\"}\", Lore: [\"§r§7daydrifter\"]}, Enchantments:[{id:\"minecraft:lure\"}], HideFlags: 1}"
             }
           ]
         },
@@ -122,7 +122,7 @@
           [
             {
               "function": "set_nbt",
-              "tag":"{map: 10000010, display: {Name: \"{\\\"color\\\":\\\"yellow\\\", \\\"text\\\":\\\"Ulfgar Bluebeard\\\"}\", Lore: [\"§r§7daydrifter\"]}, Enchantments:[{id:\"null\"}], card: true}"
+              "tag":"{map: 10000010, special_loot: \"trading_card\", display: {Name: \"{\\\"color\\\":\\\"yellow\\\", \\\"text\\\":\\\"Ulfgar Bluebeard\\\"}\", Lore: [\"§r§7daydrifter\"]}, Enchantments:[{id:\"minecraft:lure\"}], HideFlags: 1}"
             }
           ]
         },
@@ -133,7 +133,7 @@
           [
             {
               "function": "set_nbt",
-              "tag":"{map: 10000011, display: {Name: \"{\\\"color\\\":\\\"yellow\\\", \\\"text\\\":\\\"Hadiyya Shakoor\\\"}\", Lore: [\"§r§7daydrifter\"]}, Enchantments:[{id:\"null\"}], card: true}"
+              "tag":"{map: 10000011, special_loot: \"trading_card\", display: {Name: \"{\\\"color\\\":\\\"yellow\\\", \\\"text\\\":\\\"Hadiyya Shakoor\\\"}\", Lore: [\"§r§7daydrifter\"]}, Enchantments:[{id:\"minecraft:lure\"}], HideFlags: 1}"
             }
           ]
         },
@@ -144,7 +144,7 @@
           [
             {
               "function": "set_nbt",
-              "tag":"{map: 10000012, display: {Name: \"{\\\"color\\\":\\\"yellow\\\", \\\"text\\\":\\\"Lord Thorbert\\\"}\", Lore: [\"§r§7daydrifter\"]}, Enchantments:[{id:\"null\"}], card: true}"
+              "tag":"{map: 10000012, special_loot: \"trading_card\", display: {Name: \"{\\\"color\\\":\\\"yellow\\\", \\\"text\\\":\\\"Lord Thorbert\\\"}\", Lore: [\"§r§7daydrifter\"]}, Enchantments:[{id:\"minecraft:lure\"}], HideFlags: 1}"
             }
           ]
         },
@@ -155,7 +155,7 @@
           [
             {
               "function": "set_nbt",
-              "tag":"{map: 10000013, display: {Name: \"{\\\"color\\\":\\\"yellow\\\", \\\"text\\\":\\\"Val\\\"}\", Lore: [\"§r§7daydrifter\"]}, Enchantments:[{id:\"null\"}], card: true}"
+              "tag":"{map: 10000013, special_loot: \"trading_card\", display: {Name: \"{\\\"color\\\":\\\"yellow\\\", \\\"text\\\":\\\"Val\\\"}\", Lore: [\"§r§7daydrifter\"]}, Enchantments:[{id:\"minecraft:lure\"}], HideFlags: 1}"
             }
           ]
         },
@@ -166,7 +166,7 @@
           [
             {
               "function": "set_nbt",
-              "tag":"{map: 10000014, display: {Name: \"{\\\"color\\\":\\\"yellow\\\", \\\"text\\\":\\\"Taliyya Tethys\\\"}\", Lore: [\"§r§7daydrifter\"]}, Enchantments:[{id:\"null\"}], card: true}"
+              "tag":"{map: 10000014, special_loot: \"trading_card\", display: {Name: \"{\\\"color\\\":\\\"yellow\\\", \\\"text\\\":\\\"Taliyya Tethys\\\"}\", Lore: [\"§r§7daydrifter\"]}, Enchantments:[{id:\"minecraft:lure\"}], HideFlags: 1}"
             }
           ]
         },
@@ -177,7 +177,7 @@
           [
             {
               "function": "set_nbt",
-              "tag":"{map: 10000015, display: {Name: \"{\\\"color\\\":\\\"yellow\\\", \\\"text\\\":\\\"Balasar\\\"}\", Lore: [\"§r§7daydrifter\"]}, Enchantments:[{id:\"null\"}], card: true}"
+              "tag":"{map: 10000015, special_loot: \"trading_card\", display: {Name: \"{\\\"color\\\":\\\"yellow\\\", \\\"text\\\":\\\"Balasar\\\"}\", Lore: [\"§r§7daydrifter\"]}, Enchantments:[{id:\"minecraft:lure\"}], HideFlags: 1}"
             }
           ]
         },
@@ -188,7 +188,7 @@
           [
             {
               "function": "set_nbt",
-              "tag":"{map: 10000016, display: {Name: \"{\\\"color\\\":\\\"yellow\\\", \\\"text\\\":\\\"Raphael Greyscale\\\"}\", Lore: [\"§r§7daydrifter\"]}, Enchantments:[{id:\"null\"}], card: true}"
+              "tag":"{map: 10000016, special_loot: \"trading_card\", display: {Name: \"{\\\"color\\\":\\\"yellow\\\", \\\"text\\\":\\\"Raphael Greyscale\\\"}\", Lore: [\"§r§7daydrifter\"]}, Enchantments:[{id:\"minecraft:lure\"}], HideFlags: 1}"
             }
           ]
         },
@@ -199,7 +199,7 @@
           [
             {
               "function": "set_nbt",
-              "tag":"{map: 10000017, display: {Name: \"{\\\"color\\\":\\\"yellow\\\", \\\"text\\\":\\\"Caltonius\\\"}\", Lore: [\"§r§7daydrifter\"]}, Enchantments:[{id:\"null\"}], card: true}"
+              "tag":"{map: 10000017, special_loot: \"trading_card\", display: {Name: \"{\\\"color\\\":\\\"yellow\\\", \\\"text\\\":\\\"Caltonius\\\"}\", Lore: [\"§r§7daydrifter\"]}, Enchantments:[{id:\"minecraft:lure\"}], HideFlags: 1}"
             }
           ]
         },
@@ -210,7 +210,7 @@
           [
             {
               "function": "set_nbt",
-              "tag":"{map: 10000018, display: {Name: \"{\\\"color\\\":\\\"yellow\\\", \\\"text\\\":\\\"Theo Rydel\\\"}\", Lore: [\"§r§7daydrifter\"]}, Enchantments:[{id:\"null\"}], card: true}"
+              "tag":"{map: 10000018, special_loot: \"trading_card\", display: {Name: \"{\\\"color\\\":\\\"yellow\\\", \\\"text\\\":\\\"Theo Rydel\\\"}\", Lore: [\"§r§7daydrifter\"]}, Enchantments:[{id:\"minecraft:lure\"}], HideFlags: 1}"
             }
           ]
         },
@@ -221,7 +221,7 @@
           [
             {
               "function": "set_nbt",
-              "tag":"{map: 10000019, display: {Name: \"{\\\"color\\\":\\\"yellow\\\", \\\"text\\\":\\\"Sycamore\\\"}\", Lore: [\"§r§7daydrifter\"]}, Enchantments:[{id:\"null\"}], card: true}"
+              "tag":"{map: 10000019, special_loot: \"trading_card\", display: {Name: \"{\\\"color\\\":\\\"yellow\\\", \\\"text\\\":\\\"Sycamore\\\"}\", Lore: [\"§r§7daydrifter\"]}, Enchantments:[{id:\"minecraft:lure\"}], HideFlags: 1}"
             }
           ]
         },
@@ -232,7 +232,7 @@
           [
             {
               "function": "set_nbt",
-              "tag":"{map: 10000020, display: {Name: \"{\\\"color\\\":\\\"yellow\\\", \\\"text\\\":\\\"Dum Uzgul\\\"}\", Lore: [\"§r§7daydrifter\"]}, Enchantments:[{id:\"null\"}], card: true}"
+              "tag":"{map: 10000020, special_loot: \"trading_card\", display: {Name: \"{\\\"color\\\":\\\"yellow\\\", \\\"text\\\":\\\"Dum Uzgul\\\"}\", Lore: [\"§r§7daydrifter\"]}, Enchantments:[{id:\"minecraft:lure\"}], HideFlags: 1}"
             }
           ]
         }

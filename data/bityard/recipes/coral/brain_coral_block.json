@@ -1,0 +1,17 @@
+{
+  "type": "crafting_shaped",
+  "group": "coral_block",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "bityard:coral_pieces/brain_coral_piece"
+    }
+  },
+  "result": {
+    "item": "minecraft:brain_coral_block"
+  }
+}

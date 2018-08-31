@@ -1,0 +1,17 @@
+{
+  "type": "crafting_shaped",
+  "group": "coral_block",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "bityard:coral_pieces/bubble_coral_piece"
+    }
+  },
+  "result": {
+    "item": "minecraft:bubble_coral_block"
+  }
+}
