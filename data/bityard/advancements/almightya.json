@@ -7,6 +7,11 @@
 		"title": "AlmightyA",
 		"description": "Mine over 50,000 Stone blocks"
 	},
+	"rewards": {
+		"loot": [
+			"bityard:advancements/almightya"
+		]
+	},
 	"criteria": {
 		"mined_blocks": {
 			"trigger": "minecraft:impossible"

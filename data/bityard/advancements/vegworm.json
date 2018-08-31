@@ -7,6 +7,11 @@
 		"title": "vegworm",
 		"description": "Eat every kind of fruit & vegetable"
 	},
+  "rewards": {
+    "loot": [
+      "bityard:advancements/vegworm"
+    ]
+  },
 	"criteria": {
     "apple": {
       "trigger": "minecraft:consume_item",

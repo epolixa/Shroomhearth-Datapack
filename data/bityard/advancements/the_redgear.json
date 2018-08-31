@@ -7,6 +7,11 @@
 		"title": "The_RedGear",
 		"description": "Collect every red block"
 	},
+	"rewards": {
+		"loot": [
+			"bityard:advancements/the_redgear"
+		]
+	},
 	"criteria": {
 		"red_wool": {
 			"trigger": "minecraft:inventory_changed",
@@ -153,7 +158,7 @@
 			"conditions": {
 				"items": [
 					{
-						"item":"minecraft:fire_coral"
+						"item":"minecraft:fire_coral_block"
 					}
 				]
 			}
