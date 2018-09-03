@@ -6,7 +6,7 @@
 		},
 		"title": "Community Builder",
 		"description": "Reach the maximum community score (resets per project)",
-    	"frame": "challenge"
+    "frame": "goal"
 	},
 	"criteria": {
 		"mined_blocks": {

@@ -5,7 +5,8 @@
 			"item": "minecraft:carrot"
 		},
 		"title": "vegworm",
-		"description": "Eat every kind of fruit & vegetable"
+		"description": "Eat every kind of fruit & vegetable",
+    "frame": "challenge"
 	},
   "rewards": {
     "loot": [

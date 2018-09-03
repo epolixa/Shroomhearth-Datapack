@@ -5,7 +5,8 @@
 			"item": "minecraft:golden_carrot"
 		},
 		"title": "Mr_Tori",
-		"description": "Craft an entire stack of golden carrots in one sitting"
+		"description": "Craft an entire stack of golden carrots in one sitting",
+		"frame": "challenge"
 	},
 	"rewards": {
 		"loot": [

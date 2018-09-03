@@ -5,7 +5,8 @@
 			"item": "minecraft:red_concrete"
 		},
 		"title": "The_RedGear",
-		"description": "Collect every red block"
+		"description": "Collect every red block",
+		"frame": "challenge"
 	},
 	"rewards": {
 		"loot": [
