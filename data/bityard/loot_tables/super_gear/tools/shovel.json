@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{Enchantments: [{id: 34, lvl: 4}]}"
+              "tag": "{Enchantments: [{id: \"minecraft:unbreaking\", lvl: 4}]}"
             }
           ]
         },
@@ -21,7 +21,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{Enchantments: [{id: 32, lvl: 6}]}"
+              "tag": "{Enchantments: [{id: \"minecraft:efficiency\", lvl: 6}]}"
             }
           ]
         },
@@ -32,7 +32,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{Enchantments: [{id: 35, lvl: 4}]}"
+              "tag": "{Enchantments: [{id: \"minecraft:fortune\", lvl: 4}]}"
             }
           ]
         }

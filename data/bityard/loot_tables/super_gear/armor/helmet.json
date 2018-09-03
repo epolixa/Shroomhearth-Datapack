@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{Enchantments: [{id: 34, lvl: 4}]}"
+              "tag": "{Enchantments: [{id: \"minecraft:unbreaking\", lvl: 4}]}"
             }
           ]
         },
@@ -21,7 +21,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{Enchantments: [{id: 3, lvl: 5}]}"
+              "tag": "{Enchantments: [{id: \"minecraft:blast_protection\", lvl: 5}]}"
             }
           ]
         },
@@ -32,7 +32,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{Enchantments: [{id: 1, lvl: 5}]}"
+              "tag": "{Enchantments: [{id: \"minecraft:fire_protection\", lvl: 5}]}"
             }
           ]
         },
@@ -43,7 +43,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{Enchantments: [{id: 4, lvl: 5}]}"
+              "tag": "{Enchantments: [{id: \"minecraft:projectile_protection\", lvl: 5}]}"
             }
           ]
         },
@@ -54,7 +54,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{Enchantments: [{id: 0, lvl: 5}]}"
+              "tag": "{Enchantments: [{id: \"minecraft:protection\", lvl: 5}]}"
             }
           ]
         },
@@ -65,7 +65,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{Enchantments: [{id: 5, lvl: 4}]}"
+              "tag": "{Enchantments: [{id: \"minecraft:respiration\", lvl: 4}]}"
             }
           ]
         },
@@ -76,7 +76,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{Enchantments: [{id: 7, lvl: 4}]}"
+              "tag": "{Enchantments: [{id: \"minecraft:thorns\", lvl: 4}]}"
             }
           ]
         }

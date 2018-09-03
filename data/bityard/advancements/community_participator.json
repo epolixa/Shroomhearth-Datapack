@@ -6,7 +6,7 @@
 		},
 		"title": "Community Participator",
 		"description": "Group up with 5 other players (resets per project)",
-    "frame": "normal"
+    "frame": "task"
 	},
 	"criteria": {
 		"mined_blocks": {

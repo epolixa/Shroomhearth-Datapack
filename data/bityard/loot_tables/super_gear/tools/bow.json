@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{Enchantments: [{id: 34, lvl: 4}]}"
+              "tag": "{Enchantments: [{id: \"minecraft:unbreaking\", lvl: 4}]}"
             }
           ]
         },
@@ -21,7 +21,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{Enchantments: [{id: 70, lvl: 1},{id: 51, lvl: 1}]}"
+              "tag": "{Enchantments: [{id: \"minecraft:mending\", lvl: 1},{id: \"minecraft:infinity\", lvl: 1}]}"
             }
           ]
         },
@@ -32,7 +32,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{Enchantments: [{id: 48, lvl: 6}]}"
+              "tag": "{Enchantments: [{id: \"minecraft:power\", lvl: 6}]}"
             }
           ]
         },
@@ -43,7 +43,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{Enchantments: [{id: 49, lvl: 3}]}"
+              "tag": "{Enchantments: [{id: \"minecraft:punch\", lvl: 3}]}"
             }
           ]
         }

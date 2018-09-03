@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{Enchantments: [{id: 34, lvl: 4}]}"
+              "tag": "{Enchantments: [{id: \"minecraft:unbreaking\", lvl: 4}]}"
             }
           ]
         },
@@ -21,7 +21,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{Enchantments: [{id: 18, lvl: 6}]}"
+              "tag": "{Enchantments: [{id: \"minecraft:bane_of_arthropods\", lvl: 6}]}"
             }
           ]
         },
@@ -32,7 +32,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{Enchantments: [{id: 16, lvl: 6}]}"
+              "tag": "{Enchantments: [{id: \"minecraft:sharpness\", lvl: 6}]}"
             }
           ]
         },
@@ -43,7 +43,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{Enchantments: [{id: 17, lvl: 6}]}"
+              "tag": "{Enchantments: [{id: \"minecraft:smite\", lvl: 6}]}"
             }
           ]
         },
@@ -54,7 +54,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{Enchantments: [{id: 20, lvl: 3}]}"
+              "tag": "{Enchantments: [{id: \"minecraft:fire_aspect\", lvl: 3}]}"
             }
           ]
         },
@@ -65,7 +65,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{Enchantments: [{id: 19, lvl: 3}]}"
+              "tag": "{Enchantments: [{id: \"minecraft:knockback\", lvl: 3}]}"
             }
           ]
         },
@@ -76,7 +76,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{Enchantments: [{id: 21, lvl: 4}]}"
+              "tag": "{Enchantments: [{id: \"minecraft:looting\", lvl: 4}]}"
             }
           ]
         },
@@ -87,7 +87,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{Enchantments: [{id: 22, lvl: 4}]}"
+              "tag": "{Enchantments: [{id: \"minecraft:sweeping_edge\", lvl: 4}]}"
             }
           ]
         }
