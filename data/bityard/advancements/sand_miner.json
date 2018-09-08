@@ -1,0 +1,16 @@
+{
+  "parent": "bityard:community_participator",
+  "display": {
+		"icon": {
+			"item": "minecraft:sand"
+		},
+		"title": "Sand Miner",
+		"description": "Mine a chunk's worth of Sand or Sandstone at the Sand Mines",
+		"frame": "task"
+	},
+	"criteria": {
+		"mined_blocks": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

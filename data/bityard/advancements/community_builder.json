@@ -5,7 +5,7 @@
 			"item": "minecraft:chest"
 		},
 		"title": "Community Builder",
-		"description": "Reach the maximum community score (resets per project)",
+		"description": "Reach 5000 community score (resets per project)",
     "frame": "goal"
 	},
 	"criteria": {

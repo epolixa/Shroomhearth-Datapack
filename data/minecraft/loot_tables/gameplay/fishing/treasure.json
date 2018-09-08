@@ -67,6 +67,11 @@
                             "treasure": true
                         }
                     ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:nautilus_shell",
+                    "weight": 1
                 }
             ]
         }

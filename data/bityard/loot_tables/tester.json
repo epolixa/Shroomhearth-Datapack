@@ -1,20 +1,11 @@
 {
   "pools": [
     {
-      "rolls": 1,
+      "rolls": 16,
       "entries": [
         {
           "type": "loot_table",
-          "name": "bityard:super_gear"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
-          "name": "bityard:attribute_gear/diamond"
+          "name": "minecraft:chests/simple_dungeon"
         }
       ]
     }
