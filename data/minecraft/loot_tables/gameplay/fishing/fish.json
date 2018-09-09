@@ -36,13 +36,13 @@
                 {
                     "type": "item",
                     "name": "minecraft:sea_pickle",
-                    "weight": 13,
+                    "weight": 9,
                     "quality": 1
                 },
                 {
                     "type": "loot_table",
                     "name": "bityard:coral",
-                    "weight": 13,
+                    "weight": 11,
                     "quality": 1
                 }
             ]
