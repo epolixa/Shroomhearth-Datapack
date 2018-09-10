@@ -15,7 +15,7 @@
                 },
                 {
                     "type": "item",
-                    "name": "minecraft:prismarine_crystal",
+                    "name": "minecraft:prismarine_crystals",
                     "weight": 2,
                     "quality": 3,
                     "count": {
