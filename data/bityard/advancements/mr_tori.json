@@ -1,5 +1,5 @@
 {
-  "parent": "bityard:root",
+  "parent": "bityard:zzz",
   "display": {
 		"icon": {
 			"item": "minecraft:golden_carrot"

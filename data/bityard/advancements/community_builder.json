@@ -1,5 +1,5 @@
 {
-  "parent": "bityard:community_participator",
+  "parent": "bityard:zzz",
   "display": {
 		"icon": {
 			"item": "minecraft:chest"

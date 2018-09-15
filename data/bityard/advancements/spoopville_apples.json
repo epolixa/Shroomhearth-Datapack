@@ -1,0 +1,37 @@
+{
+	"parent": "bityard:zzz",
+  "display": {
+		"icon": {
+			"item": "minecraft:golden_apple"
+		},
+		"title": "Bobbing Queen",
+		"description": "Snag a Golden Apple at Apple Bobbing",
+		"frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+	},
+	"criteria": {
+		"snagged_apple": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"entity": {
+					"type": "item", 
+					"nbt": "{Item:{id:minecraft:golden_apple}}",
+					"location": {
+						"position": {
+							"x": {
+								"min": 1961,
+								"max": 1998
+							},
+							"z": {
+								"min": -3392,
+								"max": -3340
+							}
+						}	
+					}
+				}
+			}
+		}
+	}
+}

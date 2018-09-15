@@ -1,0 +1,31 @@
+/summon minecraft:wither_skeleton ~ ~1 ~ {
+	CustomName:"{\"text\":\"Shadow\",\"color\":\"black\",\"obfuscated\":true}",
+	PersistenceRequired:1b,
+	CanPickUpLoot:0b,
+	Attributes:[
+		{
+			Name:"generic.followRange",
+			Base:113
+		},
+		{
+			Name:"generic.knockbackResistance",
+			Base:1f
+		},
+		{
+			Name:"generic.movementSpeed",
+			Base:0.3f
+		}
+	],
+	Silent:1,
+	Invulnerable:1,
+	DeathLootTable:"minecraft:empty",
+	ActiveEffects:[
+		{
+			Id:14,
+			Amplifier:0,
+			Duration:2147483647,
+			ShowParticles:0b
+		}
+	],
+	Tags:["maze_shadow"]
+}

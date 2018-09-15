@@ -4,7 +4,7 @@
 			"item": "minecraft:red_mushroom_block"
 		},
 		"title": "Bityard",
-		"description": "Visit spawn",
+		"description": "Visit Spawn",
 		"background": "minecraft:textures/block/mushroom_stem.png"
 	},
 	"criteria": {

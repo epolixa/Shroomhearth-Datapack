@@ -1,0 +1,26 @@
+{
+	"parent": "bityard:spoopville",
+  "display": {
+		"icon": {
+			"item": "minecraft:dark_oak_leaves"
+		},
+		"title": "The Shadow... It's close now...",
+		"description": "Discover the secret of the Maze",
+		"frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+	},
+	"criteria": {
+		"attacked_by_monster": {
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"nbt": "{Tags:[\"maze_shadow\"]}"
+					}
+				}
+			}
+		}
+	}
+}

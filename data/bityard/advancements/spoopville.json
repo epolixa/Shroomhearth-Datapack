@@ -1,0 +1,31 @@
+{
+	"parent": "bityard:root",
+  "display": {
+		"icon": {
+			"item": "minecraft:skeleton_skull"
+		},
+		"title": "In this town of Halloween",
+		"description": "Visit Spoopville",
+		"frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+	},
+	"criteria": {
+		"visited_spoopville": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"position": {
+					"x": {
+						"min": 1961,
+						"max": 1998
+					},
+					"z": {
+						"min": -3392,
+						"max": -3340
+					}
+				}
+			}
+		}
+	}
+}
