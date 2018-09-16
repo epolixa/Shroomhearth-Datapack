@@ -298,7 +298,7 @@
                             "levels": 30
                         }
                     ]
-                },
+                }
             ]
         },
 
@@ -451,7 +451,7 @@
                 },
                 {
                     "type": "item",
-                    "name": "minecraft:lapis_lazuli_block",
+                    "name": "minecraft:lapis_block",
                     "weight": 5,
                     "value": 4
                 },
