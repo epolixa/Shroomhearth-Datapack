@@ -11,7 +11,7 @@
                     "functions": [
                         {
                             "function": "set_damage",
-                            "damage": 0.0
+                            "damage": 0.001
                         }
                     ]
                 }
@@ -27,13 +27,7 @@
                     "type": "item",
                     "name": "minecraft:dragon_head",
                     "weight": 1,
-                    "quality": 1,
-                    "functions": [
-                        {
-                            "function": "set_damage",
-                            "damage": 0.0
-                        }
-                    ]
+                    "quality": 1
                 }
             ]
         },
@@ -48,13 +42,7 @@
                     "type": "loot_table",
                     "name": "minecraft:chests/end_city_treasure",
                     "weight": 1,
-                    "quality": 1,
-                    "functions": [
-                        {
-                            "function": "set_damage",
-                            "damage": 0.0
-                        }
-                    ]
+                    "quality": 1
                 }
             ]
         }
