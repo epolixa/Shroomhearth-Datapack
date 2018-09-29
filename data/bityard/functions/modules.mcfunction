@@ -22,7 +22,7 @@
 #function bityard:modules/curse
 #function bityard:modules/bleeding_particles
 #function bityard:modules/swimming_polish
-#function bityard:modules/multi_sleep
+function bityard:modules/multi_sleep
 #function bityard:modules/drop_item
 #function bityard:modules/color_names
 #function bityard:modules/farming_xp
