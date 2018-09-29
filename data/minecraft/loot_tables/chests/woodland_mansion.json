@@ -9,37 +9,37 @@
             "entries": [
                 {
                     "type": "loot_table",
-                    "name": "minecraft:simple_dungeon",
+                    "name": "minecraft:chests/simple_dungeon",
                     "value": 3
                 },
                 {
                     "type": "loot_table",
-                    "name": "minecraft:abandoned_mineshaft",
+                    "name": "minecraft:chests/abandoned_mineshaft",
                     "value": 1
                 },
                 {
                     "type": "loot_table",
-                    "name": "minecraft:desert_pyramid",
+                    "name": "minecraft:chests/desert_pyramid",
                     "value": 2
                 },
                 {
                     "type": "loot_table",
-                    "name": "minecraft:igloo_chest",
+                    "name": "minecraft:chests/igloo_chest",
                     "value": 1
                 },
                 {
                     "type": "loot_table",
-                    "name": "minecraft:jungle_temple",
+                    "name": "minecraft:chests/jungle_temple",
                     "value": 2
                 },
                 {
                     "type": "loot_table",
-                    "name": "minecraft:stronghold_crossing",
+                    "name": "minecraft:chests/stronghold_crossing",
                     "value": 3
                 },
                 {
                     "type": "loot_table",
-                    "name": "minecraft:village_blacksmith",
+                    "name": "minecraft:chests/village_blacksmith",
                     "value": 1
                 }
             ]
