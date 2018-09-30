@@ -1,0 +1,21 @@
+{
+  "type": "crafting_shaped",
+  "group": "stained_glass",
+  "key": {
+    "d": {
+      "item": "minecraft:bone_meal"
+    },
+    "g": {
+		"tag": "bityard:glass/not_white_glass"
+	}
+  },
+  "pattern": [
+	"ggg",
+    "gdg",
+    "ggg"
+  ],
+  "result": {
+    "item": "minecraft:white_stained_glass",
+	"count": 8
+  }
+}

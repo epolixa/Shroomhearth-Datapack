@@ -1,0 +1,21 @@
+{
+  "type": "crafting_shaped",
+  "group": "wool",
+  "key": {
+    "d": {
+      "item": "minecraft:bone_meal"
+    },
+    "w": {
+		"tag": "bityard:wool/not_white_wool"
+	}
+  },
+  "pattern": [
+	"www",
+    "wdw",
+    "www"
+  ],
+  "result": {
+    "item": "minecraft:white_wool",
+	"count": 8
+  }
+}

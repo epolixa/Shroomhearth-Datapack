@@ -1,0 +1,21 @@
+{
+  "type": "crafting_shaped",
+  "group": "stained_glass",
+  "key": {
+    "d": {
+      "item": "minecraft:cocoa_beans"
+    },
+    "g": {
+		"tag": "bityard:glass/not_brown_glass"
+	}
+  },
+  "pattern": [
+	"ggg",
+    "gdg",
+    "ggg"
+  ],
+  "result": {
+    "item": "minecraft:brown_stained_glass",
+	"count": 8
+  }
+}

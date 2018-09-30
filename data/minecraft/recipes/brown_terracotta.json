@@ -1,0 +1,21 @@
+{
+  "type": "crafting_shaped",
+  "group": "stained_terracotta",
+  "key": {
+    "d": {
+      "item": "minecraft:cocoa_beans"
+    },
+    "t": {
+		"tag": "bityard:terracotta/not_brown_terracotta"
+	}
+  },
+  "pattern": [
+	"ttt",
+    "tdt",
+    "ttt"
+  ],
+  "result": {
+    "item": "minecraft:brown_terracotta",
+	"count": 8
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "crafting_shaped",
+  "group": "stained_terracotta",
+  "key": {
+    "d": {
+      "item": "minecraft:cactus_green"
+    },
+    "t": {
+		"tag": "bityard:terracotta/not_green_terracotta"
+	}
+  },
+  "pattern": [
+	"ttt",
+    "tdt",
+    "ttt"
+  ],
+  "result": {
+    "item": "minecraft:green_terracotta",
+	"count": 8
+  }
+}

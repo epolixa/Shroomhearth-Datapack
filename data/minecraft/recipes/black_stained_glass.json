@@ -1,0 +1,21 @@
+{
+  "type": "crafting_shaped",
+  "group": "stained_glass",
+  "key": {
+    "d": {
+      "item": "minecraft:ink_sac"
+    },
+    "g": {
+		"tag": "bityard:glass/not_black_glass"
+	}
+  },
+  "pattern": [
+	"ggg",
+    "gdg",
+    "ggg"
+  ],
+  "result": {
+    "item": "minecraft:black_stained_glass",
+	"count": 8
+  }
+}

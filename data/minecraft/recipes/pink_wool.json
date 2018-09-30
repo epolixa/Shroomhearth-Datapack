@@ -2,20 +2,20 @@
   "type": "crafting_shaped",
   "group": "wool",
   "key": {
-    "w": {
-      "item": "minecraft:white_wool"
-    },
     "d": {
       "item": "minecraft:pink_dye"
-    }
+    },
+    "w": {
+		"tag": "bityard:wool/not_pink_wool"
+	}
   },
   "pattern": [
-    "www",
+	"www",
     "wdw",
     "www"
   ],
   "result": {
     "item": "minecraft:pink_wool",
-    "count": 8
+	"count": 8
   }
 }

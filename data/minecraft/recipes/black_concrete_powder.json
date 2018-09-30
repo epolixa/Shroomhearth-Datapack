@@ -1,0 +1,24 @@
+{
+  "type": "crafting_shaped",
+  "group": "concrete_powder",
+  "key": {
+	"d": {
+	  "item": "minecraft:ink_sac"	
+	},
+    "g": {
+      "item": "minecraft:gravel"
+    },
+    "s": {
+		"tag": "minecraft:sand"
+	}
+  },
+  "pattern": [
+	"dss",
+    "ssg",
+    "ggg"
+  ],
+  "result": {
+    "item": "minecraft:black_concrete_powder",
+	"count": 8
+  }
+}

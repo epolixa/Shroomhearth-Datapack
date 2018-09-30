@@ -1,0 +1,21 @@
+{
+  "type": "crafting_shaped",
+  "group": "stained_glass",
+  "key": {
+    "d": {
+      "item": "minecraft:rose_red"
+    },
+    "g": {
+		"tag": "bityard:glass_pane/not_red_glass_pane"
+	}
+  },
+  "pattern": [
+	"ggg",
+    "gdg",
+    "ggg"
+  ],
+  "result": {
+    "item": "minecraft:red_stained_glass_pane",
+	"count": 8
+  }
+}

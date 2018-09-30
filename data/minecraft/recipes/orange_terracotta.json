@@ -1,0 +1,21 @@
+{
+  "type": "crafting_shaped",
+  "group": "stained_terracotta",
+  "key": {
+    "d": {
+      "item": "minecraft:orange_dye"
+    },
+    "t": {
+		"tag": "bityard:terracotta/not_orange_terracotta"
+	}
+  },
+  "pattern": [
+	"ttt",
+    "tdt",
+    "ttt"
+  ],
+  "result": {
+    "item": "minecraft:orange_terracotta",
+	"count": 8
+  }
+}

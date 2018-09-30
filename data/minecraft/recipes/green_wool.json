@@ -2,20 +2,20 @@
   "type": "crafting_shaped",
   "group": "wool",
   "key": {
-    "w": {
-      "item": "minecraft:white_wool"
-    },
     "d": {
       "item": "minecraft:cactus_green"
-    }
+    },
+    "w": {
+		"tag": "bityard:wool/not_green_wool"
+	}
   },
   "pattern": [
-    "www",
+	"www",
     "wdw",
     "www"
   ],
   "result": {
     "item": "minecraft:green_wool",
-    "count": 8
+	"count": 8
   }
 }

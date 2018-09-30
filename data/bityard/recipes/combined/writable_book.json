@@ -1,0 +1,27 @@
+{
+  "type": "crafting_shapeless",
+  "group": "writable_book",
+  "ingredients": [
+    {
+      "item": "minecraft:leather"
+    },
+    {
+      "item": "minecraft:paper"
+    },
+	{
+      "item": "minecraft:paper"
+    },
+	{
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "minecraft:feather"
+    },
+    {
+      "item": "minecraft:ink_sac"
+    }
+  ],
+  "result": {
+    "item": "minecraft:writable_book"
+  }
+}

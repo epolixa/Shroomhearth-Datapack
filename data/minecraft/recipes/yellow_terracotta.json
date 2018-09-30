@@ -1,0 +1,21 @@
+{
+  "type": "crafting_shaped",
+  "group": "stained_terracotta",
+  "key": {
+    "d": {
+      "item": "minecraft:dandelion_yellow"
+    },
+    "t": {
+		"tag": "bityard:terracotta/not_yellow_terracotta"
+	}
+  },
+  "pattern": [
+	"ttt",
+    "tdt",
+    "ttt"
+  ],
+  "result": {
+    "item": "minecraft:yellow_terracotta",
+	"count": 8
+  }
+}
