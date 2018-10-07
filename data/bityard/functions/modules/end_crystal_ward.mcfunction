@@ -3,6 +3,24 @@
 # player-placed end crystals ward hostile mobs from spawning
 ################################################################
 
+# tag wardable mobs
+execute as @e[type=minecraft:zombie, tag=!wardable] run tag @s add wardable
+execute as @e[type=minecraft:husk, tag=!wardable] run tag @s add wardable
+execute as @e[type=minecraft:drowned, tag=!wardable] run tag @s add wardable
+execute as @e[type=minecraft:zombie_villager, tag=!wardable] run tag @s add wardable
+execute as @e[type=minecraft:skeleton, tag=!wardable] run tag @s add wardable
+execute as @e[type=minecraft:slime, tag=!wardable] run tag @s add wardable
+execute as @e[type=minecraft:witch, tag=!wardable] run tag @s add wardable
+execute as @e[type=minecraft:stray, tag=!wardable] run tag @s add wardable
+execute as @e[type=minecraft:creeper, tag=!wardable] run tag @s add wardable
+execute as @e[type=minecraft:spider, tag=!wardable] run tag @s add wardable
+execute as @e[type=minecraft:cave_spider, tag=!wardable] run tag @s add wardable
+execute as @e[type=minecraft:phantom, tag=!wardable] run tag @s add wardable
+execute as @e[type=minecraft:ghast, tag=!wardable] run tag @s add wardable
+execute as @e[type=minecraft:magma_cube, tag=!wardable] run tag @s add wardable
+execute as @e[type=minecraft:blaze, tag=!wardable] run tag @s add wardable
+execute as @e[type=minecraft:wither_skeleton, tag=!wardable] run tag @s add wardable
+
 # play effects on nearby mob
 execute as @e[type=minecraft:end_crystal,nbt={ShowBottom:0b}] at @s at @e[tag=wardable,scores={entityTicks=1},distance=..32] run particle minecraft:dragon_breath ~ ~0.9 ~ 0.2 0.3 0.2 0 3
 
