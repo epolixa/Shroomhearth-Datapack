@@ -7,6 +7,9 @@
 execute as @a at @s if block ~ ~0.1 ~ #bityard:water run scoreboard players add @s soaked 0
 execute as @a at @s if block ~ ~1.9 ~ #bityard:water run scoreboard players add @s bubbleBreath 0
 
+# bubbleSwim - reset to 0 after 10 cm
+execute as @a[scores={bubbleSwim=100..}] at @s run scoreboard players set @s bubbleSwim 0
+execute as @a at @s unless block ~ ~0.1 ~ #bityard:water run scoreboard players set @s bubbleSwim 0
 
 # build up soaked timer while in water
 execute as @a[scores={soaked=..159}] at @s if block ~ ~0.1 ~ #bityard:water run scoreboard players add @s soaked 1

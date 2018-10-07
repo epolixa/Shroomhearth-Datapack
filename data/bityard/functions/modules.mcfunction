@@ -3,6 +3,30 @@
 # enable/disable specific command features
 ################################################################
 
+## Misc Falgs
+#function bityard:modules/flags
+
+## Advancements
+#function bityard:modules/advancements/community_participator
+#function bityard:modules/advancements/community_builder
+#function bityard:modules/advancements/almightya
+#function bityard:modules/advancements/mr_tori
+
+## Misc
+#function bityard:modules/health_display
+#function bityard:modules/community_score
+#function bityard:modules/curse
+#function bityard:modules/boss_announcement
+#function bityard:modules/bleeding_particles
+#function bityard:modules/swimming_polish
+function bityard:modules/multi_sleep
+#function bityard:modules/drop_item
+#function bityard:modules/color_names
+#function bityard:modules/farming_xp
+#function bityard:modules/grass_path
+#function bityard:modules/item_glint
+#function bityard:modules/end_crystal_ward
+
 ## Relic Items
 #function bityard:modules/relics/solomons_shoes
 #function bityard:modules/relics/kin_stone
@@ -16,22 +40,3 @@
 #function bityard:modules/relics/hungry_pickaxe
 #function bityard:modules/relics/vampire_fang
 #function bityard:modules/relics/mojjagack
-
-## Misc
-#function bityard:modules/community_score
-#function bityard:modules/curse
-#function bityard:modules/bleeding_particles
-#function bityard:modules/swimming_polish
-function bityard:modules/multi_sleep
-#function bityard:modules/drop_item
-#function bityard:modules/color_names
-#function bityard:modules/farming_xp
-#function bityard:modules/grass_path
-#function bityard:modules/item_glint
-#function bityard:modules/boss_announcement
-#function bityard:modules/end_crystal_ward
-
-## Flags & Tags
-#function bityard:modules/flags
-#function bityard:modules/tags
-#function bityard:modules/health_display
