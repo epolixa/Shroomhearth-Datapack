@@ -12,7 +12,7 @@
 #function bityard:modules/advancements/almightya
 #function bityard:modules/advancements/mr_tori
 
-## Misc
+## Features
 #function bityard:modules/health_display
 #function bityard:modules/community_score
 #function bityard:modules/curse
