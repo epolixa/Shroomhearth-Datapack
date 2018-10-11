@@ -22,7 +22,7 @@
 function bityard:modules/multi_sleep
 #function bityard:modules/drop_item
 #function bityard:modules/color_names
-#function bityard:modules/color_names_2
+function bityard:modules/color_names_2
 #function bityard:modules/farming_xp
 #function bityard:modules/grass_path
 #function bityard:modules/item_glint
