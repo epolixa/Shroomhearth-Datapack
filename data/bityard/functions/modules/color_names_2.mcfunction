@@ -5,7 +5,7 @@
 
 # join sleeping player to a team based on the color of bed they are in
 execute as @a[team=!white,nbt={Sleeping:1b}] at @s if block ~ ~ ~ minecraft:white_bed run team join white @p
-execute as @a[team=!gold,nbt={Sleeping:1b}] at @s if block ~ ~ ~ minecraft:yellow_bed run team join gold @p
+execute as @a[team=!gold,nbt={Sleeping:1b}] at @s if block ~ ~ ~ minecraft:orange_bed run team join gold @p
 execute as @a[team=!aqua,nbt={Sleeping:1b}] at @s if block ~ ~ ~ minecraft:magenta_bed run team join aqua @p
 execute as @a[team=!blue,nbt={Sleeping:1b}] at @s if block ~ ~ ~ minecraft:light_blue_bed run team join blue @p
 execute as @a[team=!yellow,nbt={Sleeping:1b}] at @s if block ~ ~ ~ minecraft:yellow_bed run team join yellow @p
