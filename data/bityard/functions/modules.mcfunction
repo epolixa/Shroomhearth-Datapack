@@ -26,7 +26,6 @@ function bityard:modules/color_names_2
 #function bityard:modules/farming_xp
 #function bityard:modules/grass_path
 #function bityard:modules/item_glint
-function bityard:modules/end_crystal_ward
 
 ## Relic Items
 #function bityard:modules/relics/solomons_shoes
