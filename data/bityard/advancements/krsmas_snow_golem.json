@@ -1,5 +1,5 @@
 {
-	"parent": "bityard:zzz",
+	"parent": "bityard:krsmas",
   "display": {
 		"icon": {
 			"item": "minecraft:player_head",
@@ -13,25 +13,36 @@
     "hidden": false
 	},
 	"criteria": {
-		"in_village": {
-			"trigger": "minecraft:inventory_changed",
+		"visited_krsmas": {
+			"trigger": "minecraft:location",
 			"conditions": {
-				"items": [
-					{
-						"item":"minecraft:written_book"
+				"position": {
+					"x": {
+						"min": -6240,
+						"max": -6158
+					},
+					"z": {
+						"min": 1062,
+						"max": 1147
 					}
-				]
+				}
 			}
 		},
-		"built_snow_golem": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"item":"minecraft:written_book"
-					}
-				]
-			}
-		}
-	}
+		"summoned_golem": {
+      "trigger": "minecraft:summoned_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:snow_golem"
+        }
+      }
+    }
+	},
+	"requirements": [
+    [
+      "visited_krsmas"
+    ],
+    [
+      "summoned_golem"
+    ]
+  ]
 }

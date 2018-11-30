@@ -56,6 +56,32 @@
                     "condition": "killed_by_player"
                 }
             ]
+        },
+        {
+            "conditions": [
+                {
+                    "condition": "killed_by_player"
+                },
+                {
+                    "condition": "random_chance_with_looting",
+                    "chance": 0.025,
+                    "looting_multiplier": 0.01
+                }
+            ],
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:player_head",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Spider Head\\\",\\\"italic\\\":false}\"},SkullOwner:\"MHF_Spider\"}"
+                        }
+                    ],
+                    "weight": 1
+                }
+            ]
         }
     ]
 }

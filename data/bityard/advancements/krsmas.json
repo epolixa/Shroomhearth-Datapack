@@ -1,0 +1,31 @@
+{
+	"parent": "bityard:root",
+  "display": {
+		"icon": {
+			"item": "minecraft:red_glazed_terracotta"
+		},
+		"title": "Candy canes and silver lanes",
+		"description": "Visit the Krsmas Village",
+		"frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+	},
+	"criteria": {
+		"visited_krsmas": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"position": {
+					"x": {
+						"min": -6240,
+						"max": -6158
+					},
+					"z": {
+						"min": 1062,
+						"max": 1147
+					}
+				}
+			}
+		}
+	}
+}
