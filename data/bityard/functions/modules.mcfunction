@@ -36,7 +36,7 @@ function bityard:modules/color_names_2
 #function bityard:modules/relics/everlasting_cookie
 #function bityard:modules/relics/reusable_ender_pearl
 #function bityard:modules/relics/frog_rompers
-#function bityard:modules/relics/super_ice_skates
+function bityard:modules/relics/super_ice_skates
 #function bityard:modules/relics/hungry_pickaxe
 #function bityard:modules/relics/vampire_fang
 #function bityard:modules/relics/mojjagack
