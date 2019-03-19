@@ -8,7 +8,7 @@
 #function bityard:advancement_triggers
 
 # Modules
-function bityard:modules
+function bityard:main
 
 # Bityard Functions
 function bityard:spawn_particles

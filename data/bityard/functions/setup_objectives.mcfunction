@@ -4,6 +4,23 @@
 ################################################################
 
 
+## Setup "Env"
+# playerCount - flag for number of online players
+scoreboard objectives remove playerCount
+scoreboard objectives add playerCount dummy
+scoreboard players set Env playerCount 0
+
+# healthDisplay - timer for displayed health/level
+scoreboard objectives remove healthDisplay
+scoreboard objectives add healthDisplay dummy
+scoreboard players set Env healthDisplay 0
+
+# debug - flag to display debug messages to creative mode players
+scoreboard objectives remove debug
+scoreboard objectives add debug dummy
+scoreboard players set Env debug 0
+
+
 ## Flags/Trackers/Timers
 
 # entityHealth - tracking entity Health, displayed under nametag
@@ -30,9 +47,6 @@ scoreboard objectives add playerSleep dummy
 scoreboard objectives remove playerDamage
 scoreboard objectives add playerDamage minecraft.custom:minecraft.damage_dealt
 
-# playerCount - flag for number of online players
-scoreboard objectives remove playerCount
-scoreboard objectives add playerCount dummy
 
 # playerGroup - flag for number of other players in group / nearby
 scoreboard objectives remove playerGroup
@@ -57,10 +71,6 @@ scoreboard objectives add rng minecraft.custom:minecraft.play_one_minute
 # playerTicks - total played ticks
 scoreboard objectives remove playerTicks
 scoreboard objectives add playerTicks minecraft.custom:minecraft.play_one_minute
-
-# healthDisplay - timer for displayed health/level
-scoreboard objectives remove healthDisplay
-scoreboard objectives add healthDisplay dummy
 
 # community - objectives for calculating community score
 scoreboard objectives remove communityTicks
@@ -115,6 +125,11 @@ scoreboard objectives remove killWither
 scoreboard objectives add killWither minecraft.killed:minecraft.wither
 scoreboard objectives remove killDragon
 scoreboard objectives add killDragon minecraft.killed:minecraft.ender_dragon
+
+
+## Modules
+function end_crystal_ward:setup
+
 
 ## Advancements
 
@@ -176,11 +191,6 @@ scoreboard objectives remove hungryDiamond
 scoreboard objectives add hungryDiamond minecraft.mined:minecraft.diamond_ore
 scoreboard objectives remove hungryEmerald
 scoreboard objectives add hungryEmerald minecraft.mined:minecraft.emerald_ore
-
-
-## Setup fake "Env" player
-scoreboard players set Env playerCount 0
-scoreboard players set Env healthDisplay 0
 
 
 ## Set Display

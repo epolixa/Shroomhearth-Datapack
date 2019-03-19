@@ -1,6 +1,7 @@
 ################################################################
 # Flags
-# controls global flags and trackers that dont have their own module ################################################################
+# controls global flags and trackers that dont have their own module 
+################################################################
 
 
 # playerSneak - reset to 0 every tick while sneaking
