@@ -1,5 +1,4 @@
-execute if score Env debug matches 1 run tellraw @a[gamemode=creative] {"color": "gray", "text": "end_crystal_ward:tags enter"}
-
+# add tags to hostile monster mobs
 tag @s[type=minecraft:zombie] add wardable
 tag @s[type=minecraft:husk] add wardable
 tag @s[type=minecraft:drowned] add wardable
@@ -16,6 +15,6 @@ tag @s[type=minecraft:ghast] add wardable
 tag @s[type=minecraft:magma_cube] add wardable
 tag @s[type=minecraft:blaze] add wardable
 tag @s[type=minecraft:wither_skeleton] add wardable
-execute in minecraft:overworld run tag @s[distance=0..,type=minecraft:zombie_pigman] add wardable
 
-execute if score Env debug matches 1 run tellraw @a[gamemode=creative] {"color": "gray", "text": "end_crystal_ward:tags exit"}
+# tag zombie pigmen only in the overworld
+execute in minecraft:overworld run tag @s[type=minecraft:zombie_pigman,distance=0..] add wardable

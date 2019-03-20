@@ -27,9 +27,6 @@ function bityard:modules/color_names_2
 #function bityard:modules/grass_path
 #function bityard:modules/item_glint
 
-#only run if an end crystal is loaded
-execute if entity @e[limit=1,type=end_crystal] run function end_crystal_ward:main 
-
 ## Relic Items
 #function bityard:modules/relics/solomons_shoes
 #function bityard:modules/relics/kin_stone
