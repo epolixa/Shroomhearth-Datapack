@@ -1,41 +1,20 @@
 ################################################################
-# Modules
-# enable/disable specific command features
+# Tick
+# main game loop commands that run every tick
 ################################################################
 
-## Misc Falgs
-#function bityard:modules/flags
+# Advancement Triggers
+#function bityard:advancement_triggers
 
-## Advancements
-#function bityard:modules/advancements/community_participator
-#function bityard:modules/advancements/community_builder
-#function bityard:modules/advancements/almightya
-#function bityard:modules/advancements/mr_tori
+# Core Bityard functions
+function bityard:modules
 
-## Features
-#function bityard:modules/health_display
-#function bityard:modules/community_score
-#function bityard:modules/curse
-#function bityard:modules/boss_announcement
-#function bityard:modules/bleeding_particles
-#function bityard:modules/swimming_polish
-function bityard:modules/multi_sleep
-#function bityard:modules/drop_item
-#function bityard:modules/color_names
-function bityard:modules/color_names_2
-#function bityard:modules/farming_xp
-#function bityard:modules/item_glint
+# Speedy Paths - only run if a player is online
+execute if entity @p[limit=1] run function speedy_paths:main 
 
-## Relic Items
-#function bityard:modules/relics/solomons_shoes
-#function bityard:modules/relics/kin_stone
-#function bityard:modules/relics/ethereal_bonbon
-#function bityard:modules/relics/hell_heels
-#function bityard:modules/relics/cursed_heart
-#function bityard:modules/relics/everlasting_cookie
-#function bityard:modules/relics/reusable_ender_pearl
-#function bityard:modules/relics/frog_rompers
-function bityard:modules/relics/super_ice_skates
-#function bityard:modules/relics/hungry_pickaxe
-#function bityard:modules/relics/vampire_fang
-#function bityard:modules/relics/mojjagack
+# End Crystal Ward - only run if an end crystal is loaded?
+#execute if entity @e[type=end_crystal,nbt={ShowBottom:0b},limit=1] run function end_crystal_ward:main 
+execute if entity @p[limit=1] run function end_crystal_ward:main 
+
+# Misc Functions
+#function bityard:spawn_particles
