@@ -15,6 +15,11 @@
           ]
         },
         {
+          "type": "loot_table",
+          "name": "bityard:relics/pegasus_cuirass",
+          "weight": 1
+        },
+        {
           "type": "item",
           "name": "minecraft:golden_chestplate",
           "weight": 1,
