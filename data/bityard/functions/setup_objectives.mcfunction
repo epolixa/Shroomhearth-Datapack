@@ -39,10 +39,6 @@ scoreboard objectives add playerJump minecraft.custom:minecraft.jump
 scoreboard objectives remove playerSneak
 scoreboard objectives add playerSneak minecraft.custom:minecraft.sneak_time
 
-# playerSleep - flag for sleeping players
-scoreboard objectives remove playerSleep
-scoreboard objectives add playerSleep dummy
-
 # playerDamage - flag for a player inflicting damage
 scoreboard objectives remove playerDamage
 scoreboard objectives add playerDamage minecraft.custom:minecraft.damage_dealt
@@ -129,6 +125,7 @@ scoreboard objectives add killDragon minecraft.killed:minecraft.ender_dragon
 
 ## Modules
 function end_crystal_ward:setup
+function multi_sleep:setup
 
 
 ## Advancements

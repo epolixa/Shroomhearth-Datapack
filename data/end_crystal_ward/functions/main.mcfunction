@@ -24,7 +24,6 @@ tag @e[type=minecraft:wither_skeleton,tag=!wardable] add wardable
 # tag zombie pigmen only in the overworld
 execute in minecraft:overworld run tag @e[type=minecraft:zombie_pigman,distance=0..] add wardable
 
-
 # increment wardable each tick - mobs with wardable=1 (had just spawned) are targetable
 scoreboard players add @e[tag=wardable,tag=!ward_target] wardable 1
 

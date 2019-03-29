@@ -29,8 +29,8 @@
 #scoreboard players add @e entityTicks 1
 
 # playerCount - number of online players
-#scoreboard players set Env playerCount 0
-#execute as @a run scoreboard players add Env playerCount 1
+scoreboard players set Env playerCount 0
+execute as @a run scoreboard players add Env playerCount 1
 
 # playerGroup - number of players nearby
 #scoreboard players set @a playerGroup 0
