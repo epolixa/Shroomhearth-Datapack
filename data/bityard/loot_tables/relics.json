@@ -50,19 +50,9 @@
           ]
         },
         {
-          "type": "item",
-          "name": "minecraft:chorus_fruit",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{special_loot: \"relic\", relic: \"ethereal_bonbon\", Enchantments:[{id:\"minecraft:lure\"}], HideFlags: 1, display:{Name: \"{\\\"italic\\\":\\\"false\\\", \\\"color\\\":\\\"light_purple\\\", \\\"text\\\":\\\"Ethereal Bonbon\\\"}\", Lore: [\"§r§7When eaten:\",\"§r§5 Become ethereal (0:06)\"]}}"
-            },
-            {
-              "function": "set_count",
-              "count": {"min": 6, "max": 12}
-            }
-          ]
+          "type": "loot_table",
+          "name": "bityard:relics/ethereal_bonbon",
+          "weight": 1
         },
         {
           "type": "item",
@@ -76,15 +66,9 @@
           ]
         },
         {
-          "type": "item",
-          "name": "minecraft:leather_boots",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{special_loot: \"relic\", relic: \"solomons_shoes\", Enchantments:[{id:\"minecraft:lure\"}], HideFlags: 1, display:{color: 16777215, Name: \"{\\\"italic\\\":\\\"false\\\", \\\"color\\\":\\\"light_purple\\\", \\\"text\\\":\\\"Solomon's Shoes\\\"}\", Lore: [\"§r§7When on feet & sneaking:\",\"§r§5 Creates a temporary block\"]}}"
-            }
-          ]
+          "type": "loot_table",
+          "name": "bityard:relics/voxel_socks",
+          "weight": 1
         },
         {
           "type": "item",
@@ -98,15 +82,14 @@
           ]
         },
         {
-          "type": "item",
-          "name": "minecraft:cookie",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{special_loot: \"relic\", relic: \"everlasting_cookie\", Enchantments:[{id:\"minecraft:lure\"}], HideFlags: 1, display:{Name: \"{\\\"italic\\\":\\\"false\\\", \\\"color\\\":\\\"light_purple\\\", \\\"text\\\":\\\"Everlasting Cookie\\\"}\", Lore: [\"§r§7When eaten:\",\"§r§5 +1 Everlasting Cookie\"]}}"
-            }
-          ]
+          "type": "loot_table",
+          "name": "bityard:relics/everlasting_cookie",
+          "weight": 1
+        },
+        {
+          "type": "loot_table",
+          "name": "bityard:relics/paladins_axe",
+          "weight": 1
         },
         {
           "type": "item",
@@ -138,17 +121,6 @@
             {
               "function": "set_nbt",
               "tag": "{special_loot: \"relic\", relic: \"hungry_pickaxe\", Enchantments:[{id:\"minecraft:lure\"}], HideFlags: 1, display:{Name: \"{\\\"italic\\\":\\\"false\\\", \\\"color\\\":\\\"light_purple\\\", \\\"text\\\":\\\"Hungry Pickaxe\\\"}\", Lore: [\"§r§7When mining Ore:\",\"§r§5 Haste I - III (1:00)\"]}}"
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "name": "minecraft:diamond_sword",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{special_loot: \"relic\", relic: \"vampire_fang\", Enchantments:[{id:\"minecraft:lure\"}], HideFlags: 1, display:{Name: \"{\\\"italic\\\":\\\"false\\\", \\\"color\\\":\\\"light_purple\\\", \\\"text\\\":\\\"Vampire Fang\\\"}\", Lore: [\"§r§7While inflicting damage:\",\"§r§5 Regeneration I (0:05)\"]}}"
             }
           ]
         },
