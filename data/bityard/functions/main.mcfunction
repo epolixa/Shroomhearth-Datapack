@@ -1,27 +1,18 @@
 ################################################################
-# Tick
+# Main
 # main game loop commands that run every tick
 ################################################################
 
-# Core objectives
+# Core operations
 function bityard:objectives
 
-# Advancement Triggers
-#function bityard:advancement_triggers
-
-# Core functions
-function bityard:modules
-
-# Speedy Paths - only run if a player is online
-execute if entity @p run function speedy_paths:main 
-
-# Color Names - execute if there is a sleeping player
-execute if entity @p[nbt={Sleeping:1b}] run function color_names:main
+# Speedy Paths for entities - disabled until we have entity tag definitions in 1.14
+#function speedy_paths:entities
 
 # Multi Sleep - execute if playerCount exceeds 1
 execute if score Env playerCount matches 2.. run function multi_sleep:main
 
-# Drop item - execute if theres a player
+# Drop item - execute every tick if theres a player
 execute if entity @p run function drop_item:main
 
 # End Crystal Ward - only run if an end crystal is loaded?

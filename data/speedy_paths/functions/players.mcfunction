@@ -2,4 +2,4 @@
 effect give @s minecraft:speed 1 0 true
 
 # revoke advancement
-advancement revoke @s only speedy_paths:path_block
+advancement revoke @s only speedy_paths:enter_path_block

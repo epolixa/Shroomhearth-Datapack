@@ -1,6 +1,6 @@
 {
 	"criteria": {
-		"path_block": {
+		"enter_path_block": {
 			"trigger": "minecraft:enter_block",
 			"conditions": {
 				"block": "minecraft:path_block"
@@ -8,6 +8,6 @@
 		}
 	},
 	"rewards": {
-		"function": "speedy_paths:adv_main"
+		"function": "speedy_paths:players"
 	} 
 }
