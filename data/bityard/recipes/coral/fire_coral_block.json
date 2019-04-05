@@ -2,9 +2,8 @@
   "type": "crafting_shaped",
   "group": "coral_block",
   "pattern": [
-    "###",
-    "###",
-    "###"
+    "##",
+    "##"
   ],
   "key": {
     "#": {
