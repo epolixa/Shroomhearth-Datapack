@@ -86,10 +86,6 @@ scoreboard objectives add bubbleBreath dummy
 scoreboard objectives remove bubbleSwim
 scoreboard objectives add bubbleSwim minecraft.custom:minecraft.swim_one_cm 
 
-# drop item sounds
-scoreboard objectives remove dropItem
-scoreboard objectives add dropItem minecraft.custom:minecraft.drop
-
 # item entity glint
 scoreboard objectives remove itemGlint
 scoreboard objectives add itemGlint dummy
@@ -124,8 +120,7 @@ scoreboard objectives add killDragon minecraft.killed:minecraft.ender_dragon
 
 
 ## Modules
-function end_crystal_ward:setup
-function multi_sleep:setup
+function bityard:setup
 
 
 ## Advancements
