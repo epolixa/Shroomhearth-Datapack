@@ -1,0 +1,10 @@
+{
+	"criteria": {
+		"drop_item": {
+			"trigger": "minecraft:inventory_changed"
+		}
+	},
+	"rewards": {
+		"function": "drop_item:main"
+	} 
+}
