@@ -1,0 +1,13 @@
+{
+	"criteria": {
+		"enter_grass_path": {
+			"trigger": "minecraft:enter_block",
+			"conditions": {
+				"block": "minecraft:grass_path"
+			}
+		}
+	},
+	"rewards": {
+		"function": "speedy_paths:players"
+	} 
+}
