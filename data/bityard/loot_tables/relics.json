@@ -83,12 +83,12 @@
         },
         {
           "type": "loot_table",
-          "name": "bityard:relics/everlasting_cookie",
+          "name": "everlasting_cookie:everlasting_cookie",
           "weight": 1
         },
         {
           "type": "loot_table",
-          "name": "bityard:relics/paladins_axe",
+          "name": "paladins_halberd:paladins_halberd",
           "weight": 1
         },
         {

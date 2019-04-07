@@ -5,7 +5,7 @@
 			"conditions": {
 				"damage": {
 					"source_entity": {
-						"nbt": "{SelectedItem:{tag:{relic:\"paladins_axe\"}}}"
+						"nbt": "{SelectedItem:{tag:{relic:\"paladins_halberd\"}}}"
 					},
 					"dealt": {
 						"min": 4
@@ -15,6 +15,6 @@
 		}
 	},
 	"rewards": {
-		"function": "paladins_axe:hit"
+		"function": "paladins_halberd:hit"
 	} 
 }

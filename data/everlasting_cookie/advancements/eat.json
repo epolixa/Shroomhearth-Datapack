@@ -1,0 +1,15 @@
+{
+	"criteria": {
+		"eat": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"nbt": "{relic:\"everlasting_cookie\"}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "everlasting_cookie:eat"
+	} 
+}
