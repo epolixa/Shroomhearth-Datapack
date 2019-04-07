@@ -112,16 +112,6 @@ scoreboard objectives add farmPotatoes minecraft.mined:minecraft.potatoes
 scoreboard objectives remove farmWarts
 scoreboard objectives add farmWarts minecraft.mined:minecraft.nether_wart
 
-# Boss announcements
-scoreboard objectives remove killWither
-scoreboard objectives add killWither minecraft.killed:minecraft.wither
-scoreboard objectives remove killDragon
-scoreboard objectives add killDragon minecraft.killed:minecraft.ender_dragon
-
-
-## Modules
-function bityard:setup
-
 
 ## Advancements
 
