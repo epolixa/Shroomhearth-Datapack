@@ -1,0 +1,20 @@
+{
+	"criteria": {
+		"hit": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"nbt": "{SelectedItem:{tag:{relic:\"paladins_axe\"}}}"
+					},
+					"dealt": {
+						"min": 4
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "paladins_axe:hit"
+	} 
+}

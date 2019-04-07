@@ -16,13 +16,8 @@
 #function bityard:modules/health_display
 #function bityard:modules/community_score
 #function bityard:modules/curse
-#function bityard:modules/boss_announcement
 #function bityard:modules/bleeding_particles
 #function bityard:modules/swimming_polish
-#function bityard:modules/multi_sleep
-#function bityard:modules/drop_item
-#function bityard:modules/color_names
-#function bityard:modules/color_names_2
 #function bityard:modules/farming_xp
 #function bityard:modules/item_glint
 
