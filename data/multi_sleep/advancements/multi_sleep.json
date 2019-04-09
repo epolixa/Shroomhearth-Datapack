@@ -1,0 +1,19 @@
+{
+	"parent": "bityard:root",
+	"display": {
+		"icon": {
+			"item": "minecraft:purple_bed"
+		},
+		"title": "Slumber Party",
+		"description": "Sleep while another player is sleeping",
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"multi_sleep": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

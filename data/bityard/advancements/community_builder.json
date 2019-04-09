@@ -6,10 +6,10 @@
 		},
 		"title": "Community Builder",
 		"description": "Reach 5000 community score (resets per project)",
-    "frame": "goal"
+		"frame": "goal"
 	},
 	"criteria": {
-		"mined_blocks": {
+		"reached_score": {
 			"trigger": "minecraft:impossible"
 		}
 	},

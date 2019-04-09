@@ -1,0 +1,19 @@
+{
+	"parent": "bityard:root",
+	"display": {
+		"icon": {
+			"item": "minecraft:lime_bed"
+		},
+		"title": "I use my bed to express myself!",
+		"description": "Color your name by laying in a colored bed",
+		"frame": "task",
+	"show_toast": true,
+	"announce_to_chat": true,
+	"hidden": false
+	},
+	"criteria": {
+		"colored_name": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

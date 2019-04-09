@@ -2,27 +2,27 @@
 	"parent": "bityard:root",
 	"display": {
 		"icon": {
-			"item": "minecraft:red_glazed_terracotta"
+			"item": "minecraft:cut_sandstone"
 		},
-		"title": "Candy canes and silver lanes",
-		"description": "Visit the Krsmas Village",
+		"title": "Highclerian Hospitality",
+		"description": "Visit the Highclere Mansion",
 		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false
 	},
 	"criteria": {
-		"visited_krsmas": {
+		"visited_highclere": {
 			"trigger": "minecraft:location",
 			"conditions": {
 				"position": {
 					"x": {
-						"min": -6240,
-						"max": -6158
+						"min": -819,
+						"max": -676
 					},
 					"z": {
-						"min": 1062,
-						"max": 1147
+						"min": 2441,
+						"max": 2560
 					}
 				}
 			}

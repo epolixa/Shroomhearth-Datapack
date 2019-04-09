@@ -1,6 +1,6 @@
 {
-  "parent": "bityard:zzz",
-  "display": {
+	"parent": "bityard:zzz",
+	"display": {
 		"icon": {
 			"item": "minecraft:stone"
 		},

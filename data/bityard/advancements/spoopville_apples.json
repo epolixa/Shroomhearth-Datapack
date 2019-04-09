@@ -1,15 +1,15 @@
 {
-	"parent": "bityard:zzz",
-  "display": {
+	"parent": "bityard:spoopville",
+	"display": {
 		"icon": {
 			"item": "minecraft:golden_apple"
 		},
 		"title": "Bobbing Queen",
 		"description": "Snag a Golden Apple at Apple Bobbing",
 		"frame": "challenge",
-    "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
 	},
 	"criteria": {
 		"snagged_apple": {
@@ -28,7 +28,7 @@
 								"min": -3392,
 								"max": -3340
 							}
-						}	
+						}
 					}
 				}
 			}
