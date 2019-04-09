@@ -1,6 +1,6 @@
 ################################################################
 # Item Glint
-# show a particle on item drops that is visible from far away
+# show particles on item drops that are far away or about to despawn
 ################################################################
 
 # tick up itemGlint for item entities
@@ -9,7 +9,7 @@ execute as @e[type=item] run scoreboard players add @s itemGlint 1
 # itemAge - store Age data for item entity
 execute as @e[type=item] store result score @s itemAge run data get entity @s Age
 
-# spawn particle
+# spawn particle only visible from far away
 execute as @e[type=item, scores={itemGlint=120}] at @s run particle minecraft:end_rod ~ ~0.5 ~ 0.1 0.1 0.1 0 1 force @a[distance=24..]
 
 # spawn particles on items that are about to despawn
