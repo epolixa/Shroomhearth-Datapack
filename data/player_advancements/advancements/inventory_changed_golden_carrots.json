@@ -1,0 +1,20 @@
+{
+	"criteria": {
+		"inventory_changed_golden_carrots": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:golden_carrot",
+						"count": {
+							"min": 64
+						}
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "player_advancements:mr_tori"
+	} 
+}

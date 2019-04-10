@@ -1,5 +1,5 @@
 {
-  "parent": "bityard:root",
+  "parent": "bityard:community_participator",
   "display": {
 		"icon": {
 			"item": "minecraft:carrot"
@@ -10,7 +10,7 @@
 	},
   "rewards": {
     "loot": [
-      "bityard:advancements/vegworm"
+      "player_advancements:vegworm"
     ]
   },
 	"criteria": {

@@ -1,0 +1,17 @@
+{
+	"criteria": {
+		"inventory_changed_stone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:stone"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "player_advancements:almightya"
+	} 
+}

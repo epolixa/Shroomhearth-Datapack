@@ -1,0 +1,17 @@
+{
+	"criteria": {
+		"inventory_changed_cobblestone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:cobblestone"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "player_advancements:almightya"
+	} 
+}

@@ -1,6 +1,6 @@
 {
-  "parent": "bityard:zzz",
-  "display": {
+	"parent": "bityard:community_participator",
+	"display": {
 		"icon": {
 			"item": "minecraft:golden_carrot"
 		},
@@ -10,7 +10,7 @@
 	},
 	"rewards": {
 		"loot": [
-			"bityard:advancements/mr_tori"
+			"player_advancements:depressus"
 		]
 	},
 	"criteria": {

@@ -1,5 +1,5 @@
 {
-	"parent": "bityard:zzz",
+	"parent": "bityard:community_participator",
 	"display": {
 		"icon": {
 			"item": "minecraft:stone"
@@ -10,7 +10,7 @@
 	},
 	"rewards": {
 		"loot": [
-			"bityard:advancements/almightya"
+			"player_advancements:almightya"
 		]
 	},
 	"criteria": {

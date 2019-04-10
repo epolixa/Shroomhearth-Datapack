@@ -1,6 +1,6 @@
 {
-  "parent": "bityard:root",
-  "display": {
+	"parent": "bityard:community_participator",
+	"display": {
 		"icon": {
 			"item": "minecraft:red_concrete"
 		},
@@ -10,7 +10,7 @@
 	},
 	"rewards": {
 		"loot": [
-			"bityard:advancements/the_redgear"
+			"player_advancements:the_redgear"
 		]
 	},
 	"criteria": {
