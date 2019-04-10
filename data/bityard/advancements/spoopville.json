@@ -1,5 +1,5 @@
 {
-	"parent": "bityard:root",
+	"parent": "bityard:community_portal",
 	"display": {
 		"icon": {
 			"item": "minecraft:skeleton_skull"

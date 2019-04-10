@@ -1,0 +1,13 @@
+{
+	"criteria": {
+		"used_gateway": {
+			"trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:end_gateway"
+      }
+		}
+	},
+	"rewards": {
+		"function": "bityard:modules/advancements/community_portal"
+	} 
+}

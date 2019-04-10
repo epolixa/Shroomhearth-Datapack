@@ -17,7 +17,7 @@
 			"conditions": {
 				"entity": {
 					"type": "item", 
-					"nbt": "{Item:{id:minecraft:golden_apple}}",
+					"nbt": "{Item:{id:\"minecraft:golden_apple\"}}",
 					"location": {
 						"position": {
 							"x": {
