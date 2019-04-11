@@ -1,5 +1,5 @@
 {
-  "parent": "bityard:zzz",
+  "parent": "community:community_portal",
   "display": {
 		"icon": {
 			"item": "minecraft:crafting_table"

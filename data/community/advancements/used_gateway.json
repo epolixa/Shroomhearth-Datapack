@@ -8,6 +8,6 @@
 		}
 	},
 	"rewards": {
-		"function": "bityard:modules/advancements/community_portal"
+		"function": "community:community_portal"
 	} 
 }

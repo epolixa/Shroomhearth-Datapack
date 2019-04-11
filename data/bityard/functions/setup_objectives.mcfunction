@@ -26,11 +26,6 @@ scoreboard objectives add playerSneak minecraft.custom:minecraft.sneak_time
 scoreboard objectives remove playerDamage
 scoreboard objectives add playerDamage minecraft.custom:minecraft.damage_dealt
 
-
-# playerGroup - flag for number of other players in group / nearby
-scoreboard objectives remove playerGroup
-scoreboard objectives add playerGroup dummy
-
 # viewPitch - used for name colors
 scoreboard objectives remove viewPitch
 scoreboard objectives add viewPitch dummy
@@ -50,12 +45,6 @@ scoreboard objectives add rng minecraft.custom:minecraft.play_one_minute
 # playerTicks - total played ticks
 scoreboard objectives remove playerTicks
 scoreboard objectives add playerTicks minecraft.custom:minecraft.play_one_minute
-
-# community - objectives for calculating community score
-scoreboard objectives remove communityTicks
-scoreboard objectives add communityTicks dummy
-scoreboard objectives remove community
-scoreboard objectives add community dummy
 
 # curse - flag for cursed player
 scoreboard objectives remove curse
