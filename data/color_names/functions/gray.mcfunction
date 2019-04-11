@@ -1,4 +1,4 @@
 team add gray "Gray"
 team modify gray color gray
 team join gray @s
-advancement grant @s only color_names:color_names
+execute as @s[advancements={color_names:color_names=false}] run function color_names:check_adv

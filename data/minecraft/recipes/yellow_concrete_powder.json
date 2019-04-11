@@ -3,7 +3,7 @@
   "group": "concrete_powder",
   "key": {
 	"d": {
-	  "item": "minecraft:dandelion_yellow"	
+	  "item": "minecraft:yellow_dye"	
 	},
     "g": {
       "item": "minecraft:gravel"

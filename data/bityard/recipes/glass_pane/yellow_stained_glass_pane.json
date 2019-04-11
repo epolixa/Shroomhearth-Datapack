@@ -3,7 +3,7 @@
   "group": "stained_glass",
   "key": {
     "d": {
-      "item": "minecraft:dandelion_yellow"
+      "item": "minecraft:yellow_dye"
     },
     "g": {
 		"tag": "bityard:glass_pane/not_yellow_glass_pane"

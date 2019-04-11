@@ -3,7 +3,7 @@
   "group": "stained_terracotta",
   "key": {
     "d": {
-      "item": "minecraft:rose_red"
+      "item": "minecraft:red_dye"
     },
     "t": {
 		"tag": "bityard:terracotta/not_red_terracotta"

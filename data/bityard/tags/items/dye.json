@@ -1,21 +1,21 @@
 {
   "replace": false,
   "values": [
-    "minecraft:bone_meal",
+    "minecraft:white_dye",
     "minecraft:orange_dye",
     "minecraft:magenta_dye",
     "minecraft:light_blue_dye",
-    "minecraft:dandelion_yellow",
+    "minecraft:yellow_dye",
     "minecraft:lime_dye",
     "minecraft:pink_dye",
     "minecraft:gray_dye",
     "minecraft:light_gray_dye",
     "minecraft:cyan_dye",
     "minecraft:purple_dye",
-    "minecraft:lapis_lazuli",
-    "minecraft:cocoa_beans",
-    "minecraft:cactus_green",
-    "minecraft:rose_red",
-    "minecraft:ink_sac"
+    "minecraft:blue_dye",
+    "minecraft:brown_dye",
+    "minecraft:green_dye",
+    "minecraft:red_dye",
+    "minecraft:black_dye"
   ]
 }

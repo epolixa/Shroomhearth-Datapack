@@ -3,7 +3,7 @@
   "group": "stained_glass",
   "key": {
     "d": {
-      "item": "minecraft:cactus_green"
+      "item": "minecraft:green_dye"
     },
     "g": {
 		"tag": "bityard:glass/not_green_glass"

@@ -4,8 +4,8 @@
 		"icon": {
 			"item": "minecraft:lime_bed"
 		},
-		"title": "I use my bed to express myself!",
-		"description": "Color your name by laying in a colored bed",
+		"title": "I Use My Bed to Express Myself!",
+		"description": "Change your name color several times by laying in colored beds",
 		"frame": "task",
 	"show_toast": true,
 	"announce_to_chat": true,

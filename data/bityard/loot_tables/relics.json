@@ -16,7 +16,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bityard:relics/pegasus_cuirass",
+          "name": "pegasus_cuirass:pegasus_cuirass",
           "weight": 1
         },
         {
@@ -51,7 +51,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bityard:relics/ethereal_bonbon",
+          "name": "ethereal_bonbon:ethereal_bonbon",
           "weight": 1
         },
         {
@@ -67,7 +67,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bityard:relics/voxel_socks",
+          "name": "voxel_socks:voxel_socks",
           "weight": 1
         },
         {

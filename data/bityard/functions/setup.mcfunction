@@ -19,3 +19,4 @@ function multi_sleep:setup
 function drop_item:setup
 function ethereal_bonbon:setup
 function player_advancements:setup
+function color_names:setup
