@@ -1,12 +1,12 @@
 {
-	"parent": "bityard:community_portal",
+	"parent": "community:community_portal",
 	"display": {
 		"icon": {
 			"item": "minecraft:skeleton_skull"
 		},
-		"title": "In this town of Halloween",
+		"title": "In This Town of Halloween",
 		"description": "Visit Spoopville",
-		"frame": "task",
+		"frame": "goal",
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false

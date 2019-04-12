@@ -18,3 +18,6 @@ scoreboard objectives add playerGroup dummy
 
 # Ensure that community score is shown in the tab list
 scoreboard objectives setdisplay list community
+
+# Revoke community advancements
+advancement revoke @a[advancements={community:community_builder=true}] only community:community_builder

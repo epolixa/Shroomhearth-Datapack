@@ -1,12 +1,12 @@
 {
-	"parent": "bityard:community_portal",
+	"parent": "community:community_portal",
 	"display": {
 		"icon": {
 			"item": "minecraft:red_glazed_terracotta"
 		},
-		"title": "Candy canes and silver lanes",
+		"title": "Candy Canes and Silver Lanes",
 		"description": "Visit the Krsmas Village",
-		"frame": "task",
+		"frame": "goal",
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false

@@ -5,8 +5,11 @@
 			"item": "minecraft:crafting_table"
 		},
 		"title": "Community Participator",
-		"description": "Group up with 5 other players (resets per project)",
-		"frame": "task"
+		"description": "Group up with 5 other players",
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
 	},
 	"criteria": {
 		"group_up": {

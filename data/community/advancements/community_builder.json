@@ -5,8 +5,11 @@
 			"item": "minecraft:chest"
 		},
 		"title": "Community Builder",
-		"description": "Reach 5000 community score (resets per project)",
-		"frame": "goal"
+		"description": [{"color":"dark_purple", "text":"Reach 5000 community score\n"}, {"color":"gray", "text":"Resets on rotation of Community Project\n"}, {"color":"green", "text":"Reward: Builder's Box"}],
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
 	},
 	"criteria": {
 		"reached_score": {

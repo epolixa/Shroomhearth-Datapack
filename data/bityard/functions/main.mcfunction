@@ -17,3 +17,6 @@ execute if entity @e[type=end_crystal,nbt={ShowBottom:0b},limit=1] run function 
 
 # Ethereal Bonbon - only run if there is a player in ethereal mode
 execute if entity @p[scores={etherealBonbon=1..}] run function ethereal_bonbon:main
+
+# Community - only run when more than one player is online
+execute if score Env playerCount matches 2.. run function community:main

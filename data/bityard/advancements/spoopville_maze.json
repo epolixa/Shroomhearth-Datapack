@@ -4,7 +4,7 @@
 		"icon": {
 			"item": "minecraft:dark_oak_leaves"
 		},
-		"title": "The Shadow... It's close now...",
+		"title": "The Shadow... It's Close Now...",
 		"description": "Discover the secret of the Maze",
 		"frame": "task",
     "show_toast": true,

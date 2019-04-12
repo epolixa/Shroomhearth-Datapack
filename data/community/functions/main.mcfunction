@@ -32,4 +32,4 @@ execute as @a[scores={playerGroup=1..}] run scoreboard players operation @s comm
 #execute if score Env playerCount matches 2.. as @a[scores={playerGroup=..0}] run scoreboard players add @s communityTicks 1
 
 # if not nearby a player, tick down communityTicks by one
-execute if score Env playerCount matches 2.. as @a[scores={playerGroup=..0}] at @s run scoreboard players remove @s communityTicks 1
+execute if score Env playerCount matches 2.. as @a[scores={playerGroup=..0}] run scoreboard players remove @s communityTicks 1

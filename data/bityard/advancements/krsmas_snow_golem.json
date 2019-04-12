@@ -7,7 +7,7 @@
 		},
 		"title": "Krsmas Helper",
 		"description": "Build a snow golem in the Krsmas Village",
-		"frame": "goal",
+		"frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

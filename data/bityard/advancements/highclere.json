@@ -1,12 +1,12 @@
 {
-	"parent": "bityard:community_portal",
+	"parent": "community:community_portal",
 	"display": {
 		"icon": {
 			"item": "minecraft:cut_sandstone"
 		},
 		"title": "Highclerian Hospitality",
 		"description": "Visit the Highclere Mansion",
-		"frame": "task",
+		"frame": "goal",
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false

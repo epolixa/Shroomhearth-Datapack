@@ -1,5 +1,5 @@
 {
-	"parent": "bityard:community_participator",
+	"parent": "community:community_participator",
 	"display": {
 		"icon": {
 			"item": "minecraft:red_concrete"
