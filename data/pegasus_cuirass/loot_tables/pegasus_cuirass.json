@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{special_loot: \"relic\", relic: \"pegasus_cuirass\", Enchantments:[{id:\"minecraft:lure\"}], HideFlags: 1, display:{Name: \"{\\\"italic\\\":\\\"false\\\", \\\"color\\\":\\\"light_purple\\\", \\\"text\\\":\\\"Pegasus Cuirass\\\"}\", Lore: [\"§r§7When worn:\",\"§r§5 Speed I\",\"§r§5 Jump Boost I\",\"§r§5 Slow Falling I\"]}}"
+              "tag": "{loot_type: \"relic\", relic: \"pegasus_cuirass\", Enchantments:[{id:\"minecraft:lure\"}], HideFlags: 1, display:{Name: \"{\\\"italic\\\":\\\"false\\\", \\\"color\\\":\\\"light_purple\\\", \\\"text\\\":\\\"Pegasus Cuirass\\\"}\", Lore: [\"§r§7When worn:\",\"§r§5 Speed I\",\"§r§5 Jump Boost I\",\"§r§5 Slow Falling I\"]}}"
             }
           ]
         }

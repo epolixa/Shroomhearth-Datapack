@@ -22,10 +22,6 @@ scoreboard objectives add playerJump minecraft.custom:minecraft.jump
 scoreboard objectives remove playerSneak
 scoreboard objectives add playerSneak minecraft.custom:minecraft.sneak_time
 
-# playerDamage - flag for a player inflicting damage
-scoreboard objectives remove playerDamage
-scoreboard objectives add playerDamage minecraft.custom:minecraft.damage_dealt
-
 # viewPitch - used for name colors
 scoreboard objectives remove viewPitch
 scoreboard objectives add viewPitch dummy
@@ -82,10 +78,6 @@ scoreboard objectives add farmWarts minecraft.mined:minecraft.nether_wart
 
 
 ## Relic Items
-
-# solomonsShoes - Solomon's Shoes
-scoreboard objectives remove solomonsShoes
-scoreboard objectives add solomonsShoes dummy
 
 # kinStone - Kin Stone
 scoreboard objectives remove kinStone

@@ -6,7 +6,10 @@
 		},
 		"title": "Headhunter",
 		"description": "Collect a head from every hostile mob",
-		"frame": "challenge"
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
 	},
 	"criteria": {
 		"blaze": {
@@ -245,6 +248,21 @@
 					}
 				]
 			}
+		},
+		"silverfish": {
+			"trigger": "minecraft:impossible"
+		},
+		"endermite": {
+			"trigger": "minecraft:impossible"
+		},
+		"ravager": {
+			"trigger": "minecraft:impossible"
+		},
+		"elder_guardian": {
+			"trigger": "minecraft:impossible"
+		},
+		"wither": {
+			"trigger": "minecraft:impossible"
 		}
 	}
 }

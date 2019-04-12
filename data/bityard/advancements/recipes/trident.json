@@ -2,26 +2,36 @@
 	"parent": "minecraft:recipes/root",
 	"rewards": {
 		"recipes": [
-			"bityard:coral/bubble_coral_block"
+			"bityard:trident"
 		]
 	},
 	"criteria": {
-		"has_coral_piece": {
+		"has_diamond": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
 					{
-						"tag": "bityard:coral_pieces/bubble_coral_piece"
+						"item": "minecraft:diamond"
 					}
 				]
 			}
 		},
-		"has_coral_block": {
+		"has_prismarine_shard": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
 					{
-						"item": "minecraft:bubble_coral_block"
+						"item": "minecraft:prismarine_shard"
+					}
+				]
+			}
+		},
+		"has_trident": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:trident"
 					}
 				]
 			}
@@ -29,14 +39,15 @@
 		"has_recipe": {
 			"trigger": "minecraft:recipe_unlocked",
 			"conditions": {
-				"recipe": "bityard:coral/bubble_coral_block"
+				"recipe": "bityard:trident"
 			}
 		}
 	},
 	"requirements": [
 		[
-			"has_coral_piece",
-			"has_coral_block",
+			"has_diamond",
+			"has_prismarine_shard",
+			"has_trident",
 			"has_recipe"
 		]
 	]

@@ -164,7 +164,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display: {Name: \"{ \\\"color\\\":\\\"aqua\\\", \\\"text\\\":\\\"Baileys\\\"}\"}, CustomPotionColor: 13281662, CustomPotionEffects:[{Id: 26, Amplifier: 2, Duration: 4800}, {Id: 23, Amplifier: 0, Duration: 1200}, {Id: 9, Amplifier: 0, Duration: 600}, {Id: 2, Amplifier: 0, Duration: 1200}], Potion:\"minecraft:water\"}"
+              "tag": "{display: {Name: \"{\\\"color\\\":\\\"aqua\\\", \\\"text\\\":\\\"Baileys\\\"}\"}, CustomPotionColor: 13281662, CustomPotionEffects:[{Id: 26, Amplifier: 2, Duration: 4800}, {Id: 23, Amplifier: 0, Duration: 1200}, {Id: 9, Amplifier: 0, Duration: 600}, {Id: 2, Amplifier: 0, Duration: 1200}], Potion:\"minecraft:water\"}"
             }
           ]
         },
@@ -175,7 +175,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display: {Name: \"{ \\\"color\\\":\\\"aqua\\\", \\\"text\\\":\\\"Cobalt Velvet\\\"}\"}, CustomPotionColor: 2482893, CustomPotionEffects:[{Id: 29, Amplifier: 0, Duration: 4800}, {Id: 30, Amplifier: 0, Duration: 4800}], Potion:\"minecraft:water\"}"
+              "tag": "{display: {Name: \"{\\\"color\\\":\\\"aqua\\\", \\\"text\\\":\\\"Cobalt Velvet\\\"}\"}, CustomPotionColor: 2482893, CustomPotionEffects:[{Id: 29, Amplifier: 0, Duration: 4800}, {Id: 30, Amplifier: 0, Duration: 4800}], Potion:\"minecraft:water\"}"
             }
           ]
         },
@@ -186,7 +186,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display: {Name: \"{ \\\"color\\\":\\\"aqua\\\", \\\"text\\\":\\\"Fluffy Dream\\\"}\"}, CustomPotionColor: 10673569, CustomPotionEffects:[{Id: 2, Amplifier: 0, Duration: 4800}, {Id: 8, Amplifier: 0, Duration: 4800}, {Id: 28, Amplifier: 0, Duration: 4800}], Potion:\"minecraft:water\"}"
+              "tag": "{display: {Name: \"{\\\"color\\\":\\\"aqua\\\", \\\"text\\\":\\\"Fluffy Dream\\\"}\"}, CustomPotionColor: 10673569, CustomPotionEffects:[{Id: 2, Amplifier: 0, Duration: 4800}, {Id: 8, Amplifier: 0, Duration: 4800}, {Id: 28, Amplifier: 0, Duration: 4800}], Potion:\"minecraft:water\"}"
             }
           ]
         },
@@ -197,7 +197,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display: {Name: \"{ \\\"color\\\":\\\"aqua\\\", \\\"text\\\":\\\"Gut Punch\\\"}\"}, CustomPotionColor: 16763268, CustomPotionEffects:[{Id: 5, Amplifier: 0, Duration: 4800}, {Id: 7, Amplifier: 0, Duration: 1}, {Id: 11, Amplifier: 0, Duration: 4800}], Potion:\"minecraft:water\"}"
+              "tag": "{display: {Name: \"{\\\"color\\\":\\\"aqua\\\", \\\"text\\\":\\\"Gut Punch\\\"}\"}, CustomPotionColor: 16763268, CustomPotionEffects:[{Id: 5, Amplifier: 0, Duration: 4800}, {Id: 7, Amplifier: 0, Duration: 1}, {Id: 11, Amplifier: 0, Duration: 4800}], Potion:\"minecraft:water\"}"
             }
           ]
         },
@@ -208,7 +208,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display: {Name: \"{ \\\"color\\\":\\\"aqua\\\", \\\"text\\\":\\\"Swammy Juice\\\"}\"}, CustomPotionColor: 16019232, CustomPotionEffects:[{Id: 1, Amplifier: 4, Duration: 600}, {Id: 9, Amplifier: 0, Duration: 600}], Potion:\"minecraft:water\"}"
+              "tag": "{display: {Name: \"{\\\"color\\\":\\\"aqua\\\", \\\"text\\\":\\\"Swammy Juice\\\"}\"}, CustomPotionColor: 16019232, CustomPotionEffects:[{Id: 1, Amplifier: 4, Duration: 600}, {Id: 9, Amplifier: 0, Duration: 600}], Potion:\"minecraft:water\"}"
             }
           ]
         },
@@ -219,10 +219,32 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display: {Name: \"{ \\\"color\\\":\\\"aqua\\\", \\\"text\\\":\\\"Nano Boost\\\"}\"}, CustomPotionColor: 5692391, CustomPotionEffects:[{Id: 6, Amplifier: 1, Duration: 1}, {Id: 5, Amplifier: 3, Duration: 400}, {Id: 11, Amplifier: 1, Duration: 400}, {Id: 1, Amplifier: 0, Duration: 400}], Potion:\"minecraft:water\"}"
+              "tag": "{display: {Name: \"{\\\"color\\\":\\\"aqua\\\", \\\"text\\\":\\\"Nano Boost\\\"}\"}, CustomPotionColor: 5692391, CustomPotionEffects:[{Id: 6, Amplifier: 1, Duration: 1}, {Id: 5, Amplifier: 3, Duration: 400}, {Id: 11, Amplifier: 1, Duration: 400}, {Id: 1, Amplifier: 0, Duration: 400}], Potion:\"minecraft:water\"}"
             }
           ]
-        }
+        },
+        {
+          "type": "item",
+          "name": "potion",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display: {Name: \"{\\\"color\\\":\\\"aqua\\\", \\\"text\\\":\\\"Po Chan Selor's Strongest Potion\\\"}\"}, CustomPotionColor: 8454379, CustomPotionEffects:[{Id: 1, Amplifier: 0, Duration: 600}, {Id: 3, Amplifier: 0, Duration: 600}, {Id: 5, Amplifier: 0, Duration: 600}, {Id: 8, Amplifier: 0, Duration: 600}, {Id: 11, Amplifier: 0, Duration: 600}, {Id: 12, Amplifier: 0, Duration: 600}, {Id: 13, Amplifier: 0, Duration: 600}, {Id: 16, Amplifier: 0, Duration: 600}, {Id: 20, Amplifier: 0, Duration: 600}], Potion:\"minecraft:water\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "potion",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{display: {Name: \"{\\\"color\\\":\\\"aqua\\\", \\\"text\\\":\\\"Haggler's Brew\\\"}\"}, CustomPotionColor: 2530816, CustomPotionEffects:[{Id: 26, Amplifier: 0, Duration: 600}, {Id: 32, Amplifier: 0, Duration: 600}], Potion:\"minecraft:water\"}"
+            }
+          ]
+        },
       ]
     }
   ]

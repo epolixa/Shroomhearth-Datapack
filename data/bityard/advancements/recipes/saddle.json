@@ -1,43 +1,43 @@
 {
-  "parent": "minecraft:recipes/root",
-  "rewards": {
-    "recipes": [
-      "bityard:saddle"
-    ]
-  },
-  "criteria": {
-    "has_leather": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "item": "minecraft:leather"
-          }
-        ]
-      }
-    },
-    "has_lead": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "item": "minecraft:lead"
-          }
-        ]
-      }
-    },
-    "has_recipe": {
-      "trigger": "minecraft:recipe_unlocked",
-      "conditions": {
-        "recipe": "bityard:saddle"
-      }
-    }
-  },
-  "requirements": [
-    [
-      "has_leather",
-      "has_lead",
-      "has_recipe"
-    ]
-  ]
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"bityard:saddle"
+		]
+	},
+	"criteria": {
+		"has_leather": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:leather"
+					}
+				]
+			}
+		},
+		"has_lead": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:lead"
+					}
+				]
+			}
+		},
+		"has_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "bityard:saddle"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_leather",
+			"has_lead",
+			"has_recipe"
+		]
+	]
 }

@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{special_loot: \"relic\", relic: \"super_ice_skates\", Enchantments:[{id:\"minecraft:lure\"}], HideFlags: 1, display:{Name: \"{\\\"italic\\\":\\\"false\\\", \\\"color\\\":\\\"light_purple\\\", \\\"text\\\":\\\"Super Ice Skates\\\"}\", Lore: [\"§r§7When on feet & walking over Ice:\",\"§r§5 Speed III\"]}}"
+              "tag": "{loot_type: \"relic\", relic: \"super_ice_skates\", Enchantments:[{id:\"minecraft:lure\"}], HideFlags: 1, display:{Name: \"{\\\"italic\\\":\\\"false\\\", \\\"color\\\":\\\"light_purple\\\", \\\"text\\\":\\\"Super Ice Skates\\\"}\", Lore: [\"§r§7When on feet & walking over Ice:\",\"§r§5 Speed III\"]}}"
             }
           ]
         },
@@ -26,7 +26,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{special_loot: \"relic\", relic: \"cursed_heart\", Enchantments:[{id:\"minecraft:lure\"}], HideFlags: 1, display:{Name: \"{\\\"italic\\\":\\\"false\\\", \\\"color\\\":\\\"light_purple\\\", \\\"text\\\":\\\"Cursed Heart\\\"}\", Lore: [\"§r§7When on body:\",\"§r§5 Wither II\",\"§r§5 Resistance IV\"]}}"
+              "tag": "{loot_type: \"relic\", relic: \"cursed_heart\", Enchantments:[{id:\"minecraft:lure\"}], HideFlags: 1, display:{Name: \"{\\\"italic\\\":\\\"false\\\", \\\"color\\\":\\\"light_purple\\\", \\\"text\\\":\\\"Cursed Heart\\\"}\", Lore: [\"§r§7When on body:\",\"§r§5 Wither II\",\"§r§5 Resistance IV\"]}}"
             },
             {
               "function": "set_attributes",
@@ -61,7 +61,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{special_loot: \"relic\", relic: \"hell_heels\", Enchantments:[{id:\"minecraft:lure\"}], HideFlags: 1, display:{Name: \"{\\\"italic\\\":\\\"false\\\", \\\"color\\\":\\\"light_purple\\\", \\\"text\\\":\\\"Hell Heels\\\"}\", Lore: [\"§r§7When on feet & over Lava:\",\"§r§5 Creates Magma\"]}}"
+              "tag": "{loot_type: \"relic\", relic: \"hell_heels\", Enchantments:[{id:\"minecraft:lure\"}], HideFlags: 1, display:{Name: \"{\\\"italic\\\":\\\"false\\\", \\\"color\\\":\\\"light_purple\\\", \\\"text\\\":\\\"Hell Heels\\\"}\", Lore: [\"§r§7When on feet & over Lava:\",\"§r§5 Creates Magma\"]}}"
             }
           ]
         },
@@ -77,7 +77,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{special_loot: \"relic\", relic: \"frog_rompers\", Enchantments:[{id:\"minecraft:lure\"}], HideFlags: 1, display:{color: 6928962, Name: \"{\\\"italic\\\":\\\"false\\\", \\\"color\\\":\\\"light_purple\\\", \\\"text\\\":\\\"Frog Rompers\\\"}\", Lore: [\"§r§7When on legs & sneaking:\",\"§r§5 Charges Jump Boost\"]}}"
+              "tag": "{loot_type: \"relic\", relic: \"frog_rompers\", Enchantments:[{id:\"minecraft:lure\"}], HideFlags: 1, display:{color: 6928962, Name: \"{\\\"italic\\\":\\\"false\\\", \\\"color\\\":\\\"light_purple\\\", \\\"text\\\":\\\"Frog Rompers\\\"}\", Lore: [\"§r§7When on legs & sneaking:\",\"§r§5 Charges Jump Boost\"]}}"
             }
           ]
         },
@@ -98,7 +98,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{special_loot: \"relic\", relic: \"reusable_ender_pearl\", Enchantments:[{id:\"minecraft:lure\"}], HideFlags: 1, display:{Name: \"{\\\"italic\\\":\\\"false\\\", \\\"color\\\":\\\"light_purple\\\", \\\"text\\\":\\\"Re-usable Ender Pearl\\\"}\", Lore: [\"§r§7When thrown:\",\"§r§5 +1 Re-usable Ender Pearl\"]}}"
+              "tag": "{loot_type: \"relic\", relic: \"reusable_ender_pearl\", Enchantments:[{id:\"minecraft:lure\"}], HideFlags: 1, display:{Name: \"{\\\"italic\\\":\\\"false\\\", \\\"color\\\":\\\"light_purple\\\", \\\"text\\\":\\\"Re-usable Ender Pearl\\\"}\", Lore: [\"§r§7When thrown:\",\"§r§5 +1 Re-usable Ender Pearl\"]}}"
             }
           ]
         },
@@ -109,7 +109,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{special_loot: \"relic\", relic: \"kin_stone\", Enchantments:[{id:\"minecraft:lure\"}], HideFlags: 1, display:{Name: \"{\\\"italic\\\":\\\"false\\\", \\\"color\\\":\\\"light_purple\\\", \\\"text\\\":\\\"Kin Stone\\\"}\", Lore: [\"§r§7When held:\",\"§r§5 Points to nearest Kin Stone holder\"]}}"
+              "tag": "{loot_type: \"relic\", relic: \"kin_stone\", Enchantments:[{id:\"minecraft:lure\"}], HideFlags: 1, display:{Name: \"{\\\"italic\\\":\\\"false\\\", \\\"color\\\":\\\"light_purple\\\", \\\"text\\\":\\\"Kin Stone\\\"}\", Lore: [\"§r§7When held:\",\"§r§5 Points to nearest Kin Stone holder\"]}}"
             }
           ]
         },
@@ -120,7 +120,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{special_loot: \"relic\", relic: \"hungry_pickaxe\", Enchantments:[{id:\"minecraft:lure\"}], HideFlags: 1, display:{Name: \"{\\\"italic\\\":\\\"false\\\", \\\"color\\\":\\\"light_purple\\\", \\\"text\\\":\\\"Hungry Pickaxe\\\"}\", Lore: [\"§r§7When mining Ore:\",\"§r§5 Haste I - III (1:00)\"]}}"
+              "tag": "{loot_type: \"relic\", relic: \"hungry_pickaxe\", Enchantments:[{id:\"minecraft:lure\"}], HideFlags: 1, display:{Name: \"{\\\"italic\\\":\\\"false\\\", \\\"color\\\":\\\"light_purple\\\", \\\"text\\\":\\\"Hungry Pickaxe\\\"}\", Lore: [\"§r§7When mining Ore:\",\"§r§5 Haste I - III (1:00)\"]}}"
             }
           ]
         },
@@ -131,7 +131,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{special_loot: \"relic\", relic: \"mojjagack\", Enchantments:[{id:\"minecraft:lure\"}], HideFlags: 1, display:{Name: \"{\\\"italic\\\":\\\"false\\\", \\\"color\\\":\\\"light_purple\\\", \\\"text\\\":\\\"Mojjagack\\\"}\", Lore: [\"§r§7While inflicting damage:\",\"§r§5 ???\"]}}"
+              "tag": "{loot_type: \"relic\", relic: \"mojjagack\", Enchantments:[{id:\"minecraft:lure\"}], HideFlags: 1, display:{Name: \"{\\\"italic\\\":\\\"false\\\", \\\"color\\\":\\\"light_purple\\\", \\\"text\\\":\\\"Mojjagack\\\"}\", Lore: [\"§r§7While inflicting damage:\",\"§r§5 ???\"]}}"
             }
           ]
         }

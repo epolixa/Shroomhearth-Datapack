@@ -1,11 +1,15 @@
 {
-  "display": {
+	"display": {
 		"icon": {
 			"item": "minecraft:red_mushroom_block"
 		},
 		"title": "Bityard",
 		"description": "Visit Spawn",
-		"background": "minecraft:textures/block/mushroom_stem.png"
+		"background": "minecraft:textures/block/mushroom_stem.png",
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
 	},
 	"criteria": {
 		"visited_spawn": {

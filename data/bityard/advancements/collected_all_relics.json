@@ -1,9 +1,9 @@
 {
-	"parent": "bityard:found_relic",
+	"parent": "bityard:found_unusual_item",
 	"display": {
 		"icon": {
 			"item": "minecraft:leather_boots",
-			"nbt": "{special_loot: \"relic\", relic: \"voxel_socks\", Enchantments:[{id:\"minecraft:lure\"}], HideFlags: 1, display:{color: 16777215, Name: \"{\\\"italic\\\":\\\"false\\\", \\\"color\\\":\\\"light_purple\\\", \\\"text\\\":\\\"Voxel Socks\\\"}\", Lore: [\"{\\\"italic\\\":\\\"false\\\", \\\"color\\\":\\\"gray\\\", \\\"text\\\":\\\"When on feet & sneaking:\\\"}\",\"{\\\"italic\\\":\\\"false\\\", \\\"color\\\":\\\"dark_purple\\\", \\\"text\\\":\\\" Summon temporary block\\\"}\"]}}"
+			"nbt": "{loot_type: \"relic\", relic: \"voxel_socks\", Enchantments:[{id:\"minecraft:lure\"}], HideFlags: 1, display:{color: 16777215, Name: \"{\\\"italic\\\":\\\"false\\\", \\\"color\\\":\\\"light_purple\\\", \\\"text\\\":\\\"Voxel Socks\\\"}\", Lore: [\"{\\\"italic\\\":\\\"false\\\", \\\"color\\\":\\\"gray\\\", \\\"text\\\":\\\"When on feet & sneaking:\\\"}\",\"{\\\"italic\\\":\\\"false\\\", \\\"color\\\":\\\"dark_purple\\\", \\\"text\\\":\\\" Summon temporary block\\\"}\"]}}"
 		},
 		"title": "The Master Artificer",
 		"description": "Find every Relic item",

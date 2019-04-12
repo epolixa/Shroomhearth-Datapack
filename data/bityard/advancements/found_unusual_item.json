@@ -1,0 +1,65 @@
+{
+	"parent": "bityard:root",
+	"display": {
+		"icon": {
+			"item": "minecraft:cookie",
+			"nbt": "{loot_type: \"relic\", relic: \"everlasting_cookie\", Enchantments:[{id:\"minecraft:lure\"}], HideFlags: 1, display:{Name: \"{\\\"italic\\\":\\\"false\\\", \\\"color\\\":\\\"light_purple\\\", \\\"text\\\":\\\"Everlasting Cookie\\\"}\", Lore: [\"{\\\"italic\\\":\\\"false\\\", \\\"color\\\":\\\"gray\\\", \\\"text\\\":\\\"When eaten:\\\"}\",\"{\\\"italic\\\":\\\"false\\\", \\\"color\\\":\\\"dark_purple\\\", \\\"text\\\":\\\" +1 Everlasting Cookie\\\"}\"]}}"
+		},
+		"title": "Treasure Trove",
+		"description": "Find an unusual item",
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"found_relic": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"nbt":"{loot_type:\"relic\"}"
+					}
+				]
+			}
+		},
+		"found_overenchanted_gear": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"nbt":"{loot_type:\"overenchanted_gear\"}"
+					}
+				]
+			}
+		},
+		"found_attribute_gear": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"nbt":"{loot_type:\"attribute_gear\"}"
+					}
+				]
+			}
+		},
+		"found_super_potion": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"nbt":"{loot_type:\"super_potion\"}"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"found_relic",
+			"found_overenchanted_gear",
+			"found_attribute_gear",
+			"found_super_potion"
+		]
+	]
+}

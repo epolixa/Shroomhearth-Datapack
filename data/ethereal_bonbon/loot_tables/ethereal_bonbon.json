@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{special_loot: \"relic\", relic: \"ethereal_bonbon\", Enchantments:[{id:\"minecraft:lure\"}], HideFlags: 1, display:{Name: \"{\\\"italic\\\":\\\"false\\\", \\\"color\\\":\\\"light_purple\\\", \\\"text\\\":\\\"Ethereal Bonbon\\\"}\", Lore: [\"§r§7When eaten:\",\"§r§5 Become ethereal (0:06)\"]}}"
+              "tag": "{loot_type: \"relic\", relic: \"ethereal_bonbon\", Enchantments:[{id:\"minecraft:lure\"}], HideFlags: 1, display:{Name: \"{\\\"italic\\\":\\\"false\\\", \\\"color\\\":\\\"light_purple\\\", \\\"text\\\":\\\"Ethereal Bonbon\\\"}\", Lore: [\"§r§7When eaten:\",\"§r§5 Become ethereal (0:06)\"]}}"
             },
             {
               "function": "set_count",
