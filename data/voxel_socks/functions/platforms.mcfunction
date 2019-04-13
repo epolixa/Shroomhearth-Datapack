@@ -1,5 +1,5 @@
 # Summon particles around platforms
-#execute as @s[type=shulker] run particle end_rod ~ ~0.5 ~ 0.25 0.25 0.25 0.02 1
+particle end_rod ~ ~1 ~ 0.25 0.25 0.25 0.02 1
 
 # Destroy platforms at the end of their life
 execute as @s[scores={voxelSocks=120}] run function voxel_socks:destroy_platform

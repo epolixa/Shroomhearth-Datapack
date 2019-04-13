@@ -1,5 +1,5 @@
 # grant advancement if another player is sleeping
-execute if entity @p[distance=1..,nbt={Sleeping:1b}] advancement grant @s[advancements={multi_sleep:multi_sleep=false}] only multi_sleep:multi_sleep
+execute if entity @p[distance=1..,nbt={Sleeping:1b}] run advancement grant @s[advancements={multi_sleep:multi_sleep=false}] only multi_sleep:multi_sleep
 
 # assert player has sleep delay score
 scoreboard players add @s playerSleep 0

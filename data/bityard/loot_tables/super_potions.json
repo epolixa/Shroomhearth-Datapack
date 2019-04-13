@@ -244,7 +244,7 @@
               "tag": "{display: {Name: \"{\\\"color\\\":\\\"aqua\\\", \\\"text\\\":\\\"Haggler's Brew\\\"}\"}, CustomPotionColor: 2530816, CustomPotionEffects:[{Id: 26, Amplifier: 0, Duration: 600}, {Id: 32, Amplifier: 0, Duration: 600}], Potion:\"minecraft:water\"}"
             }
           ]
-        },
+        }
       ]
     }
   ]
