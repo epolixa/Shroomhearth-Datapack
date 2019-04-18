@@ -25,6 +25,9 @@ execute as @a[scores={etherealBonbon=1..}] at @s run function ethereal_bonbon:ma
 # Pegasus Cuirass - run as horses wearing it
 execute as @e[type=horse,nbt={ArmorItem:{tag:{relic:"pegasus_cuirass"}}}] run function pegasus_cuirass:main
 
+# Gui Sounds - run as players
+execute as @a run function utility_sounds:main
+
 # Speedy Paths for entities - disabled until we have entity tag definitions in 1.14
 #execute if entity @e[type=#speedy_paths:mounts,limit=1] run function speedy_paths:entities
 
