@@ -6,14 +6,6 @@
 
 ## Flags/Trackers/Timers
 
-# entityHealth - tracking entity Health, displayed under nametag
-scoreboard objectives remove entityHealth
-scoreboard objectives add entityHealth dummy "\u00A74\u2764\u00A7r"
-
-# playerLevel - displayed under player nametag
-scoreboard objectives remove playerLevel
-scoreboard objectives add playerLevel level "\u00A7a\u272A\u00A7r"
-
 # playerJump - flag for jumping players
 scoreboard objectives remove playerJump
 scoreboard objectives add playerJump minecraft.custom:minecraft.jump
@@ -63,18 +55,6 @@ scoreboard objectives add itemAge dummy
 # entity ticks - increments every tick for mobs, used for spawn control
 scoreboard objectives remove entityTicks 
 scoreboard objectives add entityTicks dummy
-
-# farming xp
-scoreboard objectives remove farmWheat
-scoreboard objectives add farmWheat minecraft.mined:minecraft.wheat
-scoreboard objectives remove farmBeets
-scoreboard objectives add farmBeets minecraft.mined:minecraft.beetroots
-scoreboard objectives remove farmCarrots
-scoreboard objectives add farmCarrots minecraft.mined:minecraft.carrots
-scoreboard objectives remove farmPotatoes
-scoreboard objectives add farmPotatoes minecraft.mined:minecraft.potatoes
-scoreboard objectives remove farmWarts
-scoreboard objectives add farmWarts minecraft.mined:minecraft.nether_wart
 
 
 ## Relic Items

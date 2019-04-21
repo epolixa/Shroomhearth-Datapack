@@ -4,7 +4,7 @@
 ################################################################
 
 # perform actions when a player sleeps
-execute as @a[nbt={Sleeping:1b}] run function multi_sleep:sleep
+execute as @a[nbt={SleepTimer:100s}] run function multi_sleep:sleep
 
 # perform actions when a player wakes
-execute as @a[nbt={Sleeping:0b}, scores={playerSleep=1..}] run function multi_sleep:wake
+execute as @a[nbt={SleepTimer:0s}, scores={playerSleep=1..}] run function multi_sleep:wake
