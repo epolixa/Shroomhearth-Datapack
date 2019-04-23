@@ -1,18 +1,18 @@
 {
   "type": "crafting_shaped",
   "pattern": [
-    "  #",
-    " #X",
-    "# I"
+    "  l",
+    " ls",
+    "l n"
   ],
   "key": {
-    "#": {
+    "l": {
       "item": "minecraft:stick"
     },
-    "X": {
+    "s": {
       "item": "minecraft:string"
     },
-    "I": {
+    "n": {
       "item": "minecraft:iron_nugget"
     }
   },

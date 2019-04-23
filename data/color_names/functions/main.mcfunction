@@ -20,4 +20,9 @@ execute as @s[team=!dark_red] at @s if block ~ ~ ~ minecraft:brown_bed run funct
 execute as @s[team=!dark_green] at @s if block ~ ~ ~ minecraft:green_bed run function color_names:dark_green
 execute as @s[team=!red] at @s if block ~ ~ ~ minecraft:red_bed run function color_names:red
 execute as @s[team=!black] at @s if block ~ ~ ~ minecraft:black_bed run function color_names:black
+
+# play a sound
+execute at @s playsound minecraft:block.wool.step player @a ~ ~ ~ 1 0.5
+
+# revoke trigger advancement
 advancement revoke @s only color_names:slept_in_bed

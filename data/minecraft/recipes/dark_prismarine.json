@@ -1,15 +1,15 @@
 {
   "type": "crafting_shaped",
   "pattern": [
-    "SSS",
-    "SIS",
-    "SSS"
+    "sss",
+    "sis",
+    "sss"
   ],
   "key": {
-    "S": {
+    "s": {
       "item": "minecraft:prismarine"
     },
-    "I": {
+    "i": {
       "item": "minecraft:ink_sac"
     }
   },
