@@ -1,0 +1,20 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "ggg",
+    "gwg",
+    "ggg"
+  ],
+  "key": {
+    "g": {
+      "tag": "bityard:stained_glass"
+    },
+    "w": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "result": {
+    "item": "minecraft:glass",
+    "count": 8
+  }
+}
