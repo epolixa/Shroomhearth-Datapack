@@ -22,6 +22,9 @@ execute if entity @p run function end_crystal_ward:main
 # Speedy Paths for entities
 execute if entity @p as @e[type=#speedy_paths:mounts] at @s run function speedy_paths:entities
 
+# Wandering Trader announcement
+execute if entity @p as @e[type=wandering_trader,tag=!announced] at @s run function boss_announcements:wandering_trader
+
 # Voxel Socks - run as players wearing item and run as tagged platform entities
 execute as @a[nbt={Inventory: [{Slot:100b, tag:{relic:"voxel_socks"}}]}] at @s run function voxel_socks:players
 execute if entity @p as @e[type=area_effect_cloud, tag=voxelSocks] at @s run function voxel_socks:platforms

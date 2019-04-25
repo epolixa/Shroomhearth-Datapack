@@ -1,0 +1,10 @@
+{
+	"criteria": {
+		"completed_raid": {
+			"trigger": "minecraft:hero_of_the_village"
+		}
+	},
+	"rewards": {
+		"function": "boss_announcements:completed_raid"
+	} 
+}
