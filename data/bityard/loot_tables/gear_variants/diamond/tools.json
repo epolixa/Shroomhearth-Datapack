@@ -12,8 +12,8 @@
 					"name": "minecraft:diamond_sword",
 					"functions": [
 						{
-							"name": "minecraft:set_nbt",
-							"tag": "{CustomModelData:1, display:{Name:{\"Diamond Dagger\"}}}"
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:1, display:{Name:\"{\\\"text\\\":\\\"Diamond Dagger\\\",\\\"italic\\\":false}\"}}"
 						}
 					]
 				}

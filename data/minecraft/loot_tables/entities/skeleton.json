@@ -65,7 +65,7 @@
                 {
                     "condition": "location_check",
                     "predicate": {
-                        "dimension": "nether"
+                        "dimension": "the_nether"
                     }
                 }
             ],
