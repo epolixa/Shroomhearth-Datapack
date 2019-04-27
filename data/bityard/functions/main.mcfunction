@@ -19,8 +19,8 @@ execute if entity @e[type=item,nbt={Age:0s},limit=1] as @a run function farming_
 # End Crystal Ward - run if a player is online
 execute if entity @p run function end_crystal_ward:main
 
-# Speedy Paths for entities
-execute if entity @p as @e[type=#speedy_paths:mounts] at @s run function speedy_paths:entities
+# Speedy Paths for entities- DISABLED
+#execute if entity @p as @e[type=#speedy_paths:mounts] at @s run function speedy_paths:entities
 
 # Wandering Trader announcement
 execute if entity @p as @e[type=wandering_trader,tag=!announced] at @s run function boss_announcements:wandering_trader
