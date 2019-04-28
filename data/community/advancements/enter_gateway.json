@@ -1,11 +1,11 @@
 {
 	"criteria": {
-		"used_gateway": {
-			"trigger": "minecraft:enter_block",
+		"entered_end_gateway": {
+      "trigger": "minecraft:enter_block",
       "conditions": {
         "block": "minecraft:end_gateway"
       }
-		}
+    }
 	},
 	"rewards": {
 		"function": "community:community_portal"
