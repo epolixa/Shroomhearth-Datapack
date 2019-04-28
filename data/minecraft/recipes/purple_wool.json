@@ -6,16 +6,16 @@
       "item": "minecraft:purple_dye"
     },
     "w": {
-		"tag": "bityard:wool/not_purple_wool"
-	}
+      "tag": "bityard:wools"
+    }
   },
   "pattern": [
-	"www",
+    "www",
     "wdw",
     "www"
   ],
   "result": {
     "item": "minecraft:purple_wool",
-	"count": 8
+    "count": 8
   }
 }

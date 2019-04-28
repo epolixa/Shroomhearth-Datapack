@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "bityard:mob_heads/wither_skeleton_skull"
+    ]
+  },
+  "criteria": {
+    "has_head": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:wither_skeleton_skull"
+          }
+        ]
+      }
+    },
+    "has_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "bityard:mob_heads/wither_skeleton_skull"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_head",
+      "has_recipe"
+    ]
+  ]
+}

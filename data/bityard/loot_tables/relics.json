@@ -6,27 +6,27 @@
         {
           "type": "loot_table",
           "name": "pegasus_cuirass:pegasus_cuirass",
-          "weight": 1
+          "weight": 100
         },
         {
           "type": "loot_table",
           "name": "ethereal_bonbon:ethereal_bonbon",
-          "weight": 1
+          "weight": 100
         },
         {
           "type": "loot_table",
           "name": "voxel_socks:voxel_socks",
-          "weight": 1
+          "weight": 100
         },
         {
           "type": "loot_table",
           "name": "everlasting_cookie:everlasting_cookie",
-          "weight": 1
+          "weight": 100
         },
         {
           "type": "loot_table",
           "name": "paladins_halberd:paladins_halberd",
-          "weight": 1
+          "weight": 100
         }
       ]
     }

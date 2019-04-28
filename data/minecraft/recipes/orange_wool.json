@@ -6,16 +6,16 @@
       "item": "minecraft:orange_dye"
     },
     "w": {
-		"tag": "bityard:wool/not_orange_wool"
-	}
+      "tag": "bityard:wools"
+    }
   },
   "pattern": [
-	"www",
+    "www",
     "wdw",
     "www"
   ],
   "result": {
     "item": "minecraft:orange_wool",
-	"count": 8
+    "count": 8
   }
 }

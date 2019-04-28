@@ -3,19 +3,19 @@
   "group": "wool",
   "key": {
     "d": {
-      "item": "minecraft:cocoa_beans"
+      "item": "minecraft:brown_dye"
     },
     "w": {
-		"tag": "bityard:wool/not_brown_wool"
-	}
+      "tag": "bityard:wools"
+    }
   },
   "pattern": [
-	"www",
+    "www",
     "wdw",
     "www"
   ],
   "result": {
     "item": "minecraft:brown_wool",
-	"count": 8
+    "count": 8
   }
 }

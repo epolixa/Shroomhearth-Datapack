@@ -6,11 +6,11 @@
       "item": "minecraft:tripwire_hook"
     },
     "p": {
-	  "tag": "minecraft:planks"
-	}
+      "tag": "minecraft:planks"
+    }
   },
   "pattern": [
-	"ppp",
+    "ppp",
     "ptp",
     "ppp"
   ],

@@ -3,19 +3,19 @@
   "group": "wool",
   "key": {
     "d": {
-      "item": "minecraft:lapis_lazuli"
+      "item": "minecraft:blue_dye"
     },
     "w": {
-		"tag": "bityard:wool/not_blue_wool"
-	}
+      "tag": "bityard:wools"
+    }
   },
   "pattern": [
-	"www",
+    "www",
     "wdw",
     "www"
   ],
   "result": {
     "item": "minecraft:blue_wool",
-	"count": 8
+    "count": 8
   }
 }

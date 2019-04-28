@@ -2,23 +2,23 @@
   "type": "crafting_shaped",
   "group": "concrete_powder",
   "key": {
-	"d": {
-	  "item": "minecraft:light_gray_dye"	
-	},
+    "d": {
+      "item": "minecraft:light_gray_dye"
+    },
     "g": {
       "item": "minecraft:gravel"
     },
     "s": {
-		"tag": "minecraft:sand"
-	}
+      "tag": "minecraft:sand"
+    }
   },
   "pattern": [
-	"dss",
+    "dss",
     "ssg",
     "ggg"
   ],
   "result": {
     "item": "minecraft:light_gray_concrete_powder",
-	"count": 8
+    "count": 8
   }
 }

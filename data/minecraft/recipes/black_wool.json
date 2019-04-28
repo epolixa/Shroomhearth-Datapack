@@ -3,19 +3,19 @@
   "group": "wool",
   "key": {
     "d": {
-      "item": "minecraft:ink_sac"
-    },
+      "item": "minecraft:black_dye"
+    },  
     "w": {
-      "tag": "bityard:wool/not_black_wool"
-	}
+      "tag": "bityard:wools"
+    }
   },
   "pattern": [
-	"www",
+    "www",
     "wdw",
     "www"
   ],
   "result": {
     "item": "minecraft:black_wool",
-	"count": 8
+    "count": 8
   }
 }
