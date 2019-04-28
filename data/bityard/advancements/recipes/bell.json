@@ -1,0 +1,65 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"bityard:trident"
+		]
+	},
+	"criteria": {
+		"has_stick": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:stick"
+					}
+				]
+			}
+		},
+		"has_gold_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:gold_block"
+					}
+				]
+			}
+		},
+		"has_gold_nugget": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:gold_nugget"
+					}
+				]
+			}
+		},
+		"has_bell": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:bell"
+					}
+				]
+			}
+		},
+		"has_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "bityard:bell"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_stick",
+			"has_gold_block",
+			"has_gold_nugget",
+			"has_bell",
+			"has_recipe"
+		]
+	]
+}

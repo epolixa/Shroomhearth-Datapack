@@ -1,0 +1,22 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "s",
+    "b",
+    "n"
+  ],
+  "key": {
+    "s": {
+      "tag": "minecraft:stick"
+    },
+    "b": {
+      "item": "minecraft:gold_block"
+    },
+    "n": {
+      "item": "minecraft:gold_nugget"
+    }
+  },
+  "result": {
+    "item": "minecraft:bell"
+  }
+}
