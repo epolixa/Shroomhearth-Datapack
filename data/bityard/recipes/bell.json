@@ -7,7 +7,7 @@
   ],
   "key": {
     "s": {
-      "tag": "minecraft:stick"
+      "item": "minecraft:stick"
     },
     "b": {
       "item": "minecraft:gold_block"
