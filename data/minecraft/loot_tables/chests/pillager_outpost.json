@@ -1,0 +1,265 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 0.0,
+        "max": 1.0,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crossbow"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 2.0,
+        "max": 3.0,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3.0,
+                "max": 5.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:wheat",
+          "quality": 1
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2.0,
+                "max": 5.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:potato",
+          "quality": 1
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3.0,
+                "max": 5.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:carrot",
+          "quality": 1
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 1.0,
+        "max": 3.0,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2.0,
+                "max": 3.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:dark_oak_log",
+          "quality": 1
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 2.0,
+        "max": 3.0,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 7,
+          "name": "minecraft:experience_bottle",
+          "quality": 2
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 6.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:string",
+          "quality": 1
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2.0,
+                "max": 7.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:arrow",
+          "quality": 2
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 3.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:tripwire_hook",
+          "quality": 1
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 3.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:iron_ingot",
+          "quality": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly"
+            }
+          ],
+          "name": "minecraft:book",
+          "quality": 2
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 0.0,
+        "max": 2.0,
+        "type": "minecraft:uniform"
+      },
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:village/village_armorer",
+          "weight": 40,
+          "quality": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:village/village_butcher",
+          "weight": 48,
+          "quality": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:village/village_fisher",
+          "weight": 49,
+          "quality": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:village/village_fletcher",
+          "weight": 43,
+          "quality": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:village/village_mason",
+          "weight": 45,
+          "quality": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:village/village_shepard",
+          "weight": 47,
+          "quality": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:village/village_tannery",
+          "weight": 46,
+          "quality": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:village/village_temple",
+          "weight": 40,
+          "quality": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:village/village_toolsmith",
+          "weight": 41,
+          "quality": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:village/village_weaponsmith",
+          "weight": 42,
+          "quality": 2
+        },
+        {
+          "conditions": [
+            {
+              ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
