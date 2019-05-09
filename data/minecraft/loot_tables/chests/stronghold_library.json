@@ -23,7 +23,7 @@
                         }
                     ],
                     "weight": 15,
-                    "value": 2
+                    "quality": 2
                 },
                 {
                     "type": "item",
@@ -38,37 +38,37 @@
                         }
                     ],
                     "weight": 15,
-                    "value": 1
+                    "quality": 1
                 },
                 {
                     "type": "item",
                     "name": "minecraft:map",
                     "weight": 5,
-                    "value": 2
+                    "quality": 2
                 },
                 {
                     "type": "item",
                     "name": "minecraft:ender_pearl",
                     "weight": 5,
-                    "value": 1
+                    "quality": 1
                 },
                 {
                     "type": "item",
                     "name": "minecraft:apple",
                     "weight": 5,
-                    "value": 1
+                    "quality": 1
                 },
                 {
                     "type": "item",
                     "name": "minecraft:compass",
                     "weight": 5,
-                    "value": 1
+                    "quality": 1
                 },
                 {
                     "type": "item",
                     "name": "minecraft:book",
                     "weight": 5,
-                    "value": 4,
+                    "quality": 4,
                     "functions": [
                         {
                             "function": "enchant_with_levels",
@@ -81,7 +81,7 @@
                     "type": "item",
                     "name": "minecraft:book",
                     "weight": 10,
-                    "value": 3,
+                    "quality": 3,
                     "functions": [
                         {
                             "function": "enchant_randomly"

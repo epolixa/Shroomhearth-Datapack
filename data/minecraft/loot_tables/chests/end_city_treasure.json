@@ -14,127 +14,127 @@
                     "type": "loot_table",
                     "name": "bityard:super_gear",
                     "weight": 3,
-                    "value": 4
+                    "quality": 4
                 },
                 {
                     "type": "loot_table",
                     "name": "bityard:attribute_gear/iron",
                     "weight": 15,
-                    "value": 3
+                    "quality": 3
                 },
                 {
                     "type": "loot_table",
                     "name": "bityard:attribute_gear/golden",
                     "weight": 10,
-                    "value": 3
+                    "quality": 3
                 },
                 {
                     "type": "loot_table",
                     "name": "bityard:attribute_gear/diamond",
                     "weight": 5,
-                    "value": 3
+                    "quality": 3
                 },
                 {
                     "type": "item",
                     "name": "minecraft:golden_apple",
                     "weight": 15,
-                    "value": 2
+                    "quality": 2
                 },
                 {
                     "type": "item",
                     "name": "minecraft:enchanted_golden_apple",
                     "weight": 2,
-                    "value": 4
+                    "quality": 4
                 },
                 {
                     "type": "item",
                     "name": "minecraft:experience_bottle",
                     "weight": 15,
-                    "value": 2
+                    "quality": 2
                 },
                 {
                     "type": "item",
                     "name": "minecraft:totem_of_undying",
                     "weight": 2,
-                    "value": 4
+                    "quality": 4
                 },
                 {
                     "type": "loot_table",
                     "name": "bityard:mob_eggs_overworld",
                     "weight": 10,
-                    "value": 3
+                    "quality": 3
                 },
                 {
                     "type": "loot_table",
                     "name": "bityard:mob_eggs_nether",
                     "weight": 10,
-                    "value": 3
+                    "quality": 3
                 },
                 {
                     "type": "loot_table",
                     "name": "bityard:mob_eggs_end",
                     "weight": 10,
-                    "value": 3
+                    "quality": 3
                 },
                 {
                     "type": "loot_table",
                     "name": "bityard:records",
                     "weight": 15,
-                    "value": 3
+                    "quality": 3
                 },
                 {
                     "type": "loot_table",
                     "name": "bityard:decor_skulls",
                     "weight": 15,
-                    "value": 3
+                    "quality": 3
                 },
                 {
                     "type": "loot_table",
                     "name": "bityard:trading_cards",
                     "weight": 15,
-                    "value": 3
+                    "quality": 3
                 },
                 {
                     "type": "loot_table",
                     "name": "bityard:tipped_arrows",
                     "weight": 20,
-                    "value": 2
+                    "quality": 2
                 },
                 {
                     "type": "loot_table",
                     "name": "bityard:super_potions",
                     "weight": 5,
-                    "value": 3
+                    "quality": 3
                 },
                 {
                     "type": "item",
                     "name": "minecraft:name_tag",
                     "weight": 20,
-                    "value": 2
+                    "quality": 2
                 },
                 {
                     "type": "item",
                     "name": "minecraft:golden_horse_armor",
                     "weight": 10,
-                    "value": 3
+                    "quality": 3
                 },
                 {
                     "type": "item",
                     "name": "minecraft:iron_horse_armor",
                     "weight": 15,
-                    "value": 3
+                    "quality": 3
                 },
                 {
                     "type": "item",
                     "name": "minecraft:diamond_horse_armor",
                     "weight": 5,
-                    "value": 3
+                    "quality": 3
                 },
                 {
                     "type": "item",
                     "name": "minecraft:book",
                     "weight": 5,
-                    "value": 3,
+                    "quality": 3,
                     "functions": [
                         {
                             "function": "enchant_with_levels",
@@ -147,7 +147,7 @@
                     "type": "item",
                     "name": "minecraft:diamond_sword",
                     "weight": 5,
-                    "value": 3,
+                    "quality": 3,
                     "functions": [
                         {
                             "function": "enchant_with_levels",
@@ -160,7 +160,7 @@
                     "type": "item",
                     "name": "minecraft:diamond_pickaxe",
                     "weight": 5,
-                    "value": 3,
+                    "quality": 3,
                     "functions": [
                         {
                             "function": "enchant_with_levels",
@@ -173,7 +173,7 @@
                     "type": "item",
                     "name": "minecraft:diamond_axe",
                     "weight": 5,
-                    "value": 3,
+                    "quality": 3,
                     "functions": [
                         {
                             "function": "enchant_with_levels",
@@ -186,7 +186,7 @@
                     "type": "item",
                     "name": "minecraft:diamond_shovel",
                     "weight": 5,
-                    "value": 3,
+                    "quality": 3,
                     "functions": [
                         {
                             "function": "enchant_with_levels",
@@ -199,7 +199,7 @@
                     "type": "item",
                     "name": "minecraft:diamond_hoe",
                     "weight": 5,
-                    "value": 3,
+                    "quality": 3,
                     "functions": [
                         {
                             "function": "enchant_with_levels",
@@ -212,7 +212,7 @@
                     "type": "item",
                     "name": "minecraft:bow",
                     "weight": 5,
-                    "value": 3,
+                    "quality": 3,
                     "functions": [
                         {
                             "function": "enchant_with_levels",
@@ -225,7 +225,7 @@
                     "type": "item",
                     "name": "minecraft:fishing_rod",
                     "weight": 5,
-                    "value": 3,
+                    "quality": 3,
                     "functions": [
                         {
                             "function": "enchant_with_levels",
@@ -238,7 +238,7 @@
                     "type": "item",
                     "name": "minecraft:trident",
                     "weight": 5,
-                    "value": 3,
+                    "quality": 3,
                     "functions": [
                         {
                             "function": "enchant_with_levels",
@@ -251,7 +251,7 @@
                     "type": "item",
                     "name": "minecraft:diamond_helmet",
                     "weight": 5,
-                    "value": 3,
+                    "quality": 3,
                     "functions": [
                         {
                             "function": "enchant_with_levels",
@@ -264,7 +264,7 @@
                     "type": "item",
                     "name": "minecraft:diamond_chestplate",
                     "weight": 5,
-                    "value": 3,
+                    "quality": 3,
                     "functions": [
                         {
                             "function": "enchant_with_levels",
@@ -277,7 +277,7 @@
                     "type": "item",
                     "name": "minecraft:diamond_leggings",
                     "weight": 5,
-                    "value": 3,
+                    "quality": 3,
                     "functions": [
                         {
                             "function": "enchant_with_levels",
@@ -290,7 +290,7 @@
                     "type": "item",
                     "name": "minecraft:diamond_boots",
                     "weight": 5,
-                    "value": 3,
+                    "quality": 3,
                     "functions": [
                         {
                             "function": "enchant_with_levels",
@@ -318,13 +318,13 @@
                     "type": "item",
                     "name": "minecraft:end_crystal",
                     "weight": 1,
-                    "value": 3
+                    "quality": 3
                 },
                 {
                     "type": "item",
                     "name": "minecraft:diamond",
                     "weight": 2,
-                    "value": 5,
+                    "quality": 5,
                     "functions": [
                         {
                             "function": "set_count",
@@ -339,7 +339,7 @@
                     "type": "item",
                     "name": "minecraft:iron_ingot",
                     "weight": 10,
-                    "value": 2,
+                    "quality": 2,
                     "functions": [
                         {
                             "function": "set_count",
@@ -354,7 +354,7 @@
                     "type": "item",
                     "name": "minecraft:gold_ingot",
                     "weight": 10,
-                    "value": 3,
+                    "quality": 3,
                     "functions": [
                         {
                             "function": "set_count",
@@ -369,7 +369,7 @@
                     "type": "item",
                     "name": "minecraft:emerald",
                     "weight": 5,
-                    "value": 4,
+                    "quality": 4,
                     "functions": [
                         {
                             "function": "set_count",
@@ -384,7 +384,7 @@
                     "type": "item",
                     "name": "minecraft:lapis_lazuli",
                     "weight": 5,
-                    "value": 4,
+                    "quality": 4,
                     "functions": [
                         {
                             "function": "set_count",
@@ -399,7 +399,7 @@
                     "type": "item",
                     "name": "minecraft:redstone",
                     "weight": 15,
-                    "value": 2,
+                    "quality": 2,
                     "functions": [
                         {
                             "function": "set_count",
@@ -414,7 +414,7 @@
                     "type": "item",
                     "name": "minecraft:coal",
                     "weight": 15,
-                    "value": 1,
+                    "quality": 1,
                     "functions": [
                         {
                             "function": "set_count",
@@ -429,43 +429,43 @@
                     "type": "item",
                     "name": "minecraft:diamond_block",
                     "weight": 2,
-                    "value": 5
+                    "quality": 5
                 },
                 {
                     "type": "item",
                     "name": "minecraft:iron_block",
                     "weight": 10,
-                    "value": 2
+                    "quality": 2
                 },
                 {
                     "type": "item",
                     "name": "minecraft:gold_block",
                     "weight": 10,
-                    "value": 3
+                    "quality": 3
                 },
                 {
                     "type": "item",
                     "name": "minecraft:emerald_block",
                     "weight": 5,
-                    "value": 4
+                    "quality": 4
                 },
                 {
                     "type": "item",
                     "name": "minecraft:lapis_block",
                     "weight": 5,
-                    "value": 4
+                    "quality": 4
                 },
                 {
                     "type": "item",
                     "name": "minecraft:redstone_block",
                     "weight": 15,
-                    "value": 2
+                    "quality": 2
                 },
                 {
                     "type": "item",
                     "name": "minecraft:coal_block",
                     "weight": 15,
-                    "value": 1
+                    "quality": 1
                 }              
             ]
         }

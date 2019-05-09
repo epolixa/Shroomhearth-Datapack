@@ -1,0 +1,31 @@
+{
+	"parent": "community:highclere",
+	"display": {
+		"icon": {
+			"item": "minecraft:spruce_planks"
+		},
+		"title": "Highclerian Humility",
+		"description": "Visit a Village in the Highclere Outlands",
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"visited_village": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"position": {
+					"x": {
+						"min": -800,
+						"max": -800
+					},
+					"z": {
+						"min": 2000,
+						"max": 2000
+					}
+				}
+			}
+		}
+	}
+}

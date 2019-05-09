@@ -14,127 +14,127 @@
                     "type": "loot_table",
                     "name": "bityard:relics",
                     "weight": 1,
-                    "value": 1
+                    "quality": 1
                 },
                 {
                     "type": "loot_table",
                     "name": "bityard:super_gear",
                     "weight": 2,
-                    "value": 4
+                    "quality": 4
                 },
                 {
                     "type": "loot_table",
                     "name": "bityard:attribute_gear/iron",
                     "weight": 15,
-                    "value": 3
+                    "quality": 3
                 },
                 {
                     "type": "loot_table",
                     "name": "bityard:attribute_gear/golden",
                     "weight": 10,
-                    "value": 3
+                    "quality": 3
                 },
                 {
                     "type": "loot_table",
                     "name": "bityard:attribute_gear/diamond",
                     "weight": 5,
-                    "value": 3
+                    "quality": 3
                 },
                 {
                     "type": "item",
                     "name": "minecraft:saddle",
                     "weight": 20,
-                    "value": 1
+                    "quality": 1
                 },
                 {
                     "type": "item",
                     "name": "minecraft:golden_apple",
                     "weight": 15,
-                    "value": 2
+                    "quality": 2
                 },
                 {
                     "type": "item",
                     "name": "minecraft:enchanted_golden_apple",
                     "weight": 2,
-                    "value": 4
+                    "quality": 4
                 },
                 {
                     "type": "item",
                     "name": "minecraft:experience_bottle",
                     "weight": 15,
-                    "value": 2
+                    "quality": 2
                 },
                 {
                     "type": "item",
                     "name": "minecraft:totem_of_undying",
                     "weight": 2,
-                    "value": 4
+                    "quality": 4
                 },
                 {
                     "type": "loot_table",
                     "name": "bityard:mob_eggs_overworld",
                     "weight": 10,
-                    "value": 3
+                    "quality": 3
                 },
                 {
                     "type": "loot_table",
                     "name": "bityard:records",
                     "weight": 15,
-                    "value": 3
+                    "quality": 3
                 },
                 {
                     "type": "loot_table",
                     "name": "bityard:decor_skulls",
                     "weight": 15,
-                    "value": 3
+                    "quality": 3
                 },
                 {
                     "type": "loot_table",
                     "name": "bityard:trading_cards",
                     "weight": 15,
-                    "value": 3
+                    "quality": 3
                 },
                 {
                     "type": "loot_table",
                     "name": "bityard:tipped_arrows",
                     "weight": 20,
-                    "value": 2
+                    "quality": 2
                 },
                 {
                     "type": "loot_table",
                     "name": "bityard:super_potions",
                     "weight": 5,
-                    "value": 3
+                    "quality": 3
                 },
                 {
                     "type": "item",
                     "name": "minecraft:name_tag",
                     "weight": 20,
-                    "value": 2
+                    "quality": 2
                 },
                 {
                     "type": "item",
                     "name": "minecraft:golden_horse_armor",
                     "weight": 10,
-                    "value": 3
+                    "quality": 3
                 },
                 {
                     "type": "item",
                     "name": "minecraft:iron_horse_armor",
                     "weight": 15,
-                    "value": 3
+                    "quality": 3
                 },
                 {
                     "type": "item",
                     "name": "minecraft:diamond_horse_armor",
                     "weight": 5,
-                    "value": 3
+                    "quality": 3
                 },
                 {
                     "type": "item",
                     "name": "minecraft:book",
                     "weight": 5,
-                    "value": 3,
+                    "quality": 3,
                     "functions": [
                         {
                             "function": "enchant_with_levels",
@@ -147,7 +147,7 @@
                     "type": "item",
                     "name": "minecraft:book",
                     "weight": 10,
-                    "value": 2,
+                    "quality": 2,
                     "functions": [
                         {
                             "function": "enchant_randomly"
@@ -173,7 +173,7 @@
                     "type": "item",
                     "name": "minecraft:diamond",
                     "weight": 2,
-                    "value": 5,
+                    "quality": 5,
                     "functions": [
                         {
                             "function": "set_count",
@@ -188,7 +188,7 @@
                     "type": "item",
                     "name": "minecraft:iron_ingot",
                     "weight": 10,
-                    "value": 2,
+                    "quality": 2,
                     "functions": [
                         {
                             "function": "set_count",
@@ -203,7 +203,7 @@
                     "type": "item",
                     "name": "minecraft:gold_ingot",
                     "weight": 10,
-                    "value": 3,
+                    "quality": 3,
                     "functions": [
                         {
                             "function": "set_count",
@@ -218,7 +218,7 @@
                     "type": "item",
                     "name": "minecraft:emerald",
                     "weight": 5,
-                    "value": 4,
+                    "quality": 4,
                     "functions": [
                         {
                             "function": "set_count",
@@ -233,7 +233,7 @@
                     "type": "item",
                     "name": "minecraft:lapis_lazuli",
                     "weight": 5,
-                    "value": 4,
+                    "quality": 4,
                     "functions": [
                         {
                             "function": "set_count",
@@ -248,7 +248,7 @@
                     "type": "item",
                     "name": "minecraft:redstone",
                     "weight": 15,
-                    "value": 2,
+                    "quality": 2,
                     "functions": [
                         {
                             "function": "set_count",
@@ -263,7 +263,7 @@
                     "type": "item",
                     "name": "minecraft:coal",
                     "weight": 15,
-                    "value": 1,
+                    "quality": 1,
                     "functions": [
                         {
                             "function": "set_count",
@@ -286,7 +286,7 @@
                     "type": "item",
                     "name": "minecraft:wheat",
                     "weight": 10,
-                    "value": 1,
+                    "quality": 1,
                     "functions": [
                         {
                             "function": "set_count",
@@ -301,7 +301,7 @@
                     "type": "item",
                     "name": "minecraft:potato",
                     "weight": 10,
-                    "value": 2,
+                    "quality": 2,
                     "functions": [
                         {
                             "function": "set_count",
@@ -316,7 +316,7 @@
                     "type": "item",
                     "name": "minecraft:carrot",
                     "weight": 10,
-                    "value": 2,
+                    "quality": 2,
                     "functions": [
                         {
                             "function": "set_count",
@@ -331,7 +331,7 @@
                     "type": "item",
                     "name": "minecraft:melon_seeds",
                     "weight": 10,
-                    "value": 1,
+                    "quality": 1,
                     "functions": [
                         {
                             "function": "set_count",
@@ -346,7 +346,7 @@
                     "type": "item",
                     "name": "minecraft:pumpkin_seeds",
                     "weight": 10,
-                    "value": 1,
+                    "quality": 1,
                     "functions": [
                         {
                             "function": "set_count",
@@ -361,7 +361,7 @@
                     "type": "item",
                     "name": "minecraft:beetroot_seeds",
                     "weight": 10,
-                    "value": 1,
+                    "quality": 1,
                     "functions": [
                         {
                             "function": "set_count",
@@ -376,7 +376,7 @@
                     "type": "item",
                     "name": "minecraft:bone",
                     "weight": 10,
-                    "value": 2,
+                    "quality": 2,
                     "functions": [
                         {
                             "function": "set_count",
@@ -391,7 +391,7 @@
                     "type": "item",
                     "name": "minecraft:gunpowder",
                     "weight": 10,
-                    "value": 2,
+                    "quality": 2,
                     "functions": [
                         {
                             "function": "set_count",
@@ -406,7 +406,7 @@
                     "type": "item",
                     "name": "minecraft:arrow",
                     "weight": 10,
-                    "value": 3,
+                    "quality": 3,
                     "functions": [
                         {
                             "function": "set_count",
@@ -421,7 +421,7 @@
                     "type": "item",
                     "name": "minecraft:rotten_flesh",
                     "weight": 10,
-                    "value": 1,
+                    "quality": 1,
                     "functions": [
                         {
                             "function": "set_count",
@@ -436,7 +436,7 @@
                     "type": "item",
                     "name": "minecraft:leather",
                     "weight": 10,
-                    "value": 2,
+                    "quality": 2,
                     "functions": [
                         {
                             "function": "set_count",
@@ -451,7 +451,7 @@
                     "type": "item",
                     "name": "minecraft:string",
                     "weight": 10,
-                    "value": 1,
+                    "quality": 1,
                     "functions": [
                         {
                             "function": "set_count",

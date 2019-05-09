@@ -23,7 +23,7 @@
                         }
                     ],
                     "weight": 3,
-                    "value": 4
+                    "quality": 4
                 },
                 {
                     "type": "item",
@@ -38,7 +38,7 @@
                         }
                     ],
                     "weight": 10,
-                    "value": 2
+                    "quality": 2
                 },
                 {
                     "type": "item",
@@ -53,7 +53,7 @@
                         }
                     ],
                     "weight": 5,
-                    "value": 3
+                    "quality": 3
                 },
                 {
                     "type": "item",
@@ -68,7 +68,7 @@
                         }
                     ],
                     "weight": 15,
-                    "value": 1
+                    "quality": 1
                 },
                 {
                     "type": "item",
@@ -83,7 +83,7 @@
                         }
                     ],
                     "weight": 15,
-                    "value": 1
+                    "quality": 1
                 },
                 {
                     "type": "item",
@@ -98,25 +98,25 @@
                         }
                     ],
                     "weight": 10,
-                    "value": 2
+                    "quality": 2
                 },
                 {
                     "type": "loot_table",
                     "name": "bityard:attribute_gear/iron",
                     "weight": 5,
-                    "value": 3
+                    "quality": 3
                 },
                 {
                     "type": "item",
                     "name": "minecraft:iron_pickaxe",
                     "weight": 10,
-                    "value": 2
+                    "quality": 2
                 },
                 {
                     "type": "item",
                     "name": "minecraft:iron_pickaxe",
                     "weight": 5,
-                    "value": 3,
+                    "quality": 3,
                     "functions": [
                         {
                             "function": "enchant_randomly"
@@ -127,7 +127,7 @@
                     "type": "item",
                     "name": "minecraft:iron_pickaxe",
                     "weight": 3,
-                    "value": 4,
+                    "quality": 4,
                     "functions": [
                         {
                             "function": "enchant_with_levels",
@@ -140,13 +140,13 @@
                     "type": "item",
                     "name": "minecraft:iron_sword",
                     "weight": 10,
-                    "value": 2
+                    "quality": 2
                 },
                 {
                     "type": "item",
                     "name": "minecraft:iron_sword",
                     "weight": 5,
-                    "value": 3,
+                    "quality": 3,
                     "functions": [
                         {
                             "function": "enchant_randomly"
@@ -157,7 +157,7 @@
                     "type": "item",
                     "name": "minecraft:iron_sword",
                     "weight": 3,
-                    "value": 4,
+                    "quality": 4,
                     "functions": [
                         {
                             "function": "enchant_with_levels",
@@ -170,13 +170,13 @@
                     "type": "item",
                     "name": "minecraft:iron_chestplate",
                     "weight": 10,
-                    "value": 2
+                    "quality": 2
                 },
                 {
                     "type": "item",
                     "name": "minecraft:iron_chestplate",
                     "weight": 5,
-                    "value": 3,
+                    "quality": 3,
                     "functions": [
                         {
                             "function": "enchant_randomly"
@@ -187,7 +187,7 @@
                     "type": "item",
                     "name": "minecraft:iron_chestplate",
                     "weight": 3,
-                    "value": 4,
+                    "quality": 4,
                     "functions": [
                         {
                             "function": "enchant_with_levels",
@@ -200,13 +200,13 @@
                     "type": "item",
                     "name": "minecraft:iron_helmet",
                     "weight": 10,
-                    "value": 2
+                    "quality": 2
                 },
                 {
                     "type": "item",
                     "name": "minecraft:iron_helmet",
                     "weight": 5,
-                    "value": 3,
+                    "quality": 3,
                     "functions": [
                         {
                             "function": "enchant_randomly"
@@ -217,7 +217,7 @@
                     "type": "item",
                     "name": "minecraft:iron_helmet",
                     "weight": 3,
-                    "value": 4,
+                    "quality": 4,
                     "functions": [
                         {
                             "function": "enchant_with_levels",
@@ -230,13 +230,13 @@
                     "type": "item",
                     "name": "minecraft:iron_leggings",
                     "weight": 10,
-                    "value": 2
+                    "quality": 2
                 },
                 {
                     "type": "item",
                     "name": "minecraft:iron_leggings",
                     "weight": 5,
-                    "value": 3,
+                    "quality": 3,
                     "functions": [
                         {
                             "function": "enchant_randomly"
@@ -247,7 +247,7 @@
                     "type": "item",
                     "name": "minecraft:iron_leggings",
                     "weight": 3,
-                    "value": 4,
+                    "quality": 4,
                     "functions": [
                         {
                             "function": "enchant_with_levels",
@@ -260,13 +260,13 @@
                     "type": "item",
                     "name": "minecraft:iron_boots",
                     "weight": 10,
-                    "value": 2
+                    "quality": 2
                 },
                 {
                     "type": "item",
                     "name": "minecraft:iron_boots",
                     "weight": 5,
-                    "value": 3,
+                    "quality": 3,
                     "functions": [
                         {
                             "function": "enchant_randomly"
@@ -277,7 +277,7 @@
                     "type": "item",
                     "name": "minecraft:iron_boots",
                     "weight": 3,
-                    "value": 4,
+                    "quality": 4,
                     "functions": [
                         {
                             "function": "enchant_with_levels",
@@ -290,13 +290,13 @@
                     "type": "item",
                     "name": "minecraft:chainmail_chestplate",
                     "weight": 10,
-                    "value": 2
+                    "quality": 2
                 },
                 {
                     "type": "item",
                     "name": "minecraft:chainmail_chestplate",
                     "weight": 5,
-                    "value": 3,
+                    "quality": 3,
                     "functions": [
                         {
                             "function": "enchant_randomly"
@@ -307,7 +307,7 @@
                     "type": "item",
                     "name": "minecraft:chainmail_chestplate",
                     "weight": 3,
-                    "value": 4,
+                    "quality": 4,
                     "functions": [
                         {
                             "function": "enchant_with_levels",
@@ -320,13 +320,13 @@
                     "type": "item",
                     "name": "minecraft:chainmail_helmet",
                     "weight": 10,
-                    "value": 2
+                    "quality": 2
                 },
                 {
                     "type": "item",
                     "name": "minecraft:chainmail_helmet",
                     "weight": 5,
-                    "value": 3,
+                    "quality": 3,
                     "functions": [
                         {
                             "function": "enchant_randomly"
@@ -337,7 +337,7 @@
                     "type": "item",
                     "name": "minecraft:chainmail_helmet",
                     "weight": 3,
-                    "value": 4,
+                    "quality": 4,
                     "functions": [
                         {
                             "function": "enchant_with_levels",
@@ -350,13 +350,13 @@
                     "type": "item",
                     "name": "minecraft:chainmail_leggings",
                     "weight": 10,
-                    "value": 2
+                    "quality": 2
                 },
                 {
                     "type": "item",
                     "name": "minecraft:chainmail_leggings",
                     "weight": 5,
-                    "value": 3,
+                    "quality": 3,
                     "functions": [
                         {
                             "function": "enchant_randomly"
@@ -367,7 +367,7 @@
                     "type": "item",
                     "name": "minecraft:chainmail_leggings",
                     "weight": 3,
-                    "value": 4,
+                    "quality": 4,
                     "functions": [
                         {
                             "function": "enchant_with_levels",
@@ -380,13 +380,13 @@
                     "type": "item",
                     "name": "minecraft:chainmail_boots",
                     "weight": 10,
-                    "value": 2
+                    "quality": 2
                 },
                 {
                     "type": "item",
                     "name": "minecraft:chainmail_boots",
                     "weight": 5,
-                    "value": 3,
+                    "quality": 3,
                     "functions": [
                         {
                             "function": "enchant_randomly"
@@ -397,7 +397,7 @@
                     "type": "item",
                     "name": "minecraft:chainmail_boots",
                     "weight": 3,
-                    "value": 4,
+                    "quality": 4,
                     "functions": [
                         {
                             "function": "enchant_with_levels",
@@ -419,7 +419,7 @@
                         }
                     ],
                     "weight": 5,
-                    "value": 2
+                    "quality": 2
                 },
                 {
                     "type": "item",
@@ -434,19 +434,19 @@
                         }
                     ],
                     "weight": 5,
-                    "value": 1
+                    "quality": 1
                 },
                 {
                     "type": "item",
                     "name": "minecraft:saddle",
                     "weight": 3,
-                    "value": 1
+                    "quality": 1
                 },
                 {
                     "type": "item",
                     "name": "minecraft:iron_horse_armor",
                     "weight": 1,
-                    "value": 2
+                    "quality": 2
                 }
             ]
         }

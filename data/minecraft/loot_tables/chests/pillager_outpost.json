@@ -10,7 +10,9 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:crossbow"
+          "name": "minecraft:crossbow",
+          "weight": 100,
+          "quality": 3
         }
       ]
     },
@@ -23,7 +25,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 7,
+          "weight": 70,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -39,7 +41,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
+          "weight": 50,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -55,7 +57,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
+          "weight": 50,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -91,6 +93,7 @@
             }
           ],
           "name": "minecraft:dark_oak_log",
+          "weight": 100,
           "quality": 1
         }
       ]
@@ -104,13 +107,13 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 7,
+          "weight": 70,
           "name": "minecraft:experience_bottle",
-          "quality": 2
+          "quality": 3
         },
         {
           "type": "minecraft:item",
-          "weight": 4,
+          "weight": 40,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -126,7 +129,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 4,
+          "weight": 40,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -142,7 +145,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 3,
+          "weight": 30,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -158,7 +161,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 3,
+          "weight": 30,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -169,7 +172,7 @@
               }
             }
           ],
-          "name": "minecraft:iron_ingot",
+          "name": "minecraft:emerald",
           "quality": 2
         },
         {
@@ -180,7 +183,7 @@
             }
           ],
           "name": "minecraft:book",
-          "quality": 2
+          "quality": 3
         }
       ]
     },
@@ -251,13 +254,6 @@
           "name": "minecraft:village/village_weaponsmith",
           "weight": 42,
           "quality": 2
-        },
-        {
-          "conditions": [
-            {
-              ""
-            }
-          ]
         }
       ]
     }

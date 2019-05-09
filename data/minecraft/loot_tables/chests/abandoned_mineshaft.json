@@ -7,25 +7,25 @@
                     "type": "item",
                     "name": "minecraft:golden_apple",
                     "weight": 20,
-                    "value": 2
+                    "quality": 3
                 },
                 {
                     "type": "item",
                     "name": "minecraft:enchanted_golden_apple",
                     "weight": 1,
-                    "value": 4
+                    "quality": 4
                 },
                 {
                     "type": "item",
                     "name": "minecraft:name_tag",
                     "weight": 30,
-                    "value": 2
+                    "quality": 2
                 },
                 {
                     "type": "item",
                     "name": "minecraft:iron_pickaxe",
                     "weight": 10,
-                    "value": 3,
+                    "quality": 3,
                     "functions": [
                         {
                             "function": "enchant_with_levels",
@@ -38,7 +38,7 @@
                     "type": "item",
                     "name": "minecraft:iron_pickaxe",
                     "weight": 15,
-                    "value": 2,
+                    "quality": 2,
                     "functions": [
                         {
                             "function": "enchant_randomly"
@@ -49,7 +49,7 @@
                     "type": "item",
                     "name": "minecraft:diamond_pickaxe",
                     "weight": 5,
-                    "value": 4,
+                    "quality": 4,
                     "functions": [
                         {
                             "function": "enchant_with_levels",
@@ -62,7 +62,7 @@
                     "type": "item",
                     "name": "minecraft:diamond_pickaxe",
                     "weight": 10,
-                    "value": 3,
+                    "quality": 3,
                     "functions": [
                         {
                             "function": "enchant_randomly"
@@ -73,7 +73,7 @@
                     "type": "item",
                     "name": "potion",
                     "weight": 15,
-                    "value": 2,
+                    "quality": 2,
                     "functions": [
                         {
                           "function": "set_nbt",
@@ -85,7 +85,7 @@
                     "type": "item",
                     "name": "potion",
                     "weight": 15,
-                    "value": 3,
+                    "quality": 3,
                     "functions": [
                         {
                           "function": "set_nbt",
@@ -97,7 +97,7 @@
                     "type": "item",
                     "name": "potion",
                     "weight": 15,
-                    "value": 3,
+                    "quality": 3,
                     "functions": [
                         {
                           "function": "set_nbt",
@@ -124,43 +124,43 @@
                     "type": "item",
                     "name": "minecraft:iron_block",
                     "weight": 3,
-                    "value": 5
+                    "quality": 5
                 },
                 {
                     "type": "item",
                     "name": "minecraft:gold_block",
                     "weight": 3,
-                    "value": 5
+                    "quality": 5
                 },
                 {
                     "type": "item",
                     "name": "minecraft:redstone_block",
                     "weight": 2,
-                    "value": 5
+                    "quality": 5
                 },
                 {
                     "type": "item",
                     "name": "minecraft:lapis_block",
                     "weight": 2,
-                    "value": 5
+                    "quality": 5
                 },
                 {
                     "type": "item",
                     "name": "minecraft:diamond_block",
                     "weight": 1,
-                    "value": 5
+                    "quality": 5
                 },
                 {
                     "type": "item",
                     "name": "minecraft:emerald_block",
                     "weight": 1,
-                    "value": 5
+                    "quality": 5
                 },
                 {
                     "type": "item",
                     "name": "minecraft:coal_block",
                     "weight": 4,
-                    "value": 5
+                    "quality": 5
                 },
                 {
                     "type": "item",
@@ -175,7 +175,7 @@
                         }
                     ],
                     "weight": 10,
-                    "value": 2
+                    "quality": 2
                 },
                 {
                     "type": "item",
@@ -190,7 +190,7 @@
                         }
                     ],
                     "weight": 5,
-                    "value": 2
+                    "quality": 2
                 },
                 {
                     "type": "item",
@@ -205,7 +205,7 @@
                         }
                     ],
                     "weight": 5,
-                    "value": 2
+                    "quality": 2
                 },
                 {
                     "type": "item",
@@ -220,7 +220,7 @@
                         }
                     ],
                     "weight": 5,
-                    "value": 3
+                    "quality": 3
                 },
                 {
                     "type": "item",
@@ -235,7 +235,7 @@
                         }
                     ],
                     "weight": 3,
-                    "value": 4
+                    "quality": 4
                 },
                 {
                     "type": "item",
@@ -250,7 +250,7 @@
                         }
                     ],
                     "weight": 5,
-                    "value": 3
+                    "quality": 3
                 },
                 {
                     "type": "item",
@@ -265,7 +265,7 @@
                         }
                     ],
                     "weight": 10,
-                    "value": 1
+                    "quality": 1
                 }
             ]
         },
@@ -289,7 +289,7 @@
                         }
                     ],
                     "weight": 15,
-                    "value": 1
+                    "quality": 1
                 },
                 {
                     "type": "item",
@@ -304,7 +304,7 @@
                         }
                     ],
                     "weight": 20,
-                    "value": 2
+                    "quality": 2
                 },
                 {
                     "type": "item",
@@ -319,7 +319,7 @@
                         }
                     ],
                     "weight": 5,
-                    "value": 3
+                    "quality": 3
                 },
                 {
                     "type": "item",
@@ -334,7 +334,7 @@
                         }
                     ],
                     "weight": 5,
-                    "value": 3
+                    "quality": 3
                 },
                 {
                     "type": "item",
@@ -349,7 +349,7 @@
                         }
                     ],
                     "weight": 5,
-                    "value": 2
+                    "quality": 2
                 },
                 {
                     "type": "item",
@@ -364,7 +364,7 @@
                         }
                     ],
                     "weight": 15,
-                    "value": 1
+                    "quality": 1
                 }
             ]
         }

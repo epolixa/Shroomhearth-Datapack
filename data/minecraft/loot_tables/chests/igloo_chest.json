@@ -20,7 +20,7 @@
                             }
                         }
                     ],
-                    "value": 1
+                    "quality": 1
                 },
                 {
                     "type": "item",
@@ -35,7 +35,7 @@
                             }
                         }
                     ],
-                    "value": 2
+                    "quality": 2
                 },
                 {
                     "type": "item",
@@ -50,13 +50,13 @@
                             }
                         }
                     ],
-                    "value": 3
+                    "quality": 3
                 },
                 {
                     "type": "item",
                     "name": "minecraft:stone_axe",
                     "weight": 2,
-                    "value": 1
+                    "quality": 1
                 },
                 {
                     "type": "item",
@@ -71,7 +71,7 @@
                             }
                         }
                     ],
-                    "value": 0
+                    "quality": 0
                 },
                 {
                     "type": "item",
@@ -86,7 +86,7 @@
                             }
                         }
                     ],
-                    "value": 0
+                    "quality": 0
                 },
                 {
                     "type": "item",
@@ -101,7 +101,7 @@
                             }
                         }
                     ],
-                    "value": 3
+                    "quality": 3
                 },
                 {
                     "type": "item",
@@ -116,7 +116,7 @@
                             }
                         }
                     ],
-                    "value": 1
+                    "quality": 1
                 },
                 {
                     "type": "item",
@@ -131,13 +131,13 @@
                             }
                         }
                     ],
-                    "value": 1
+                    "quality": 1
                 },
                 {
                     "type": "loot_table",
                     "name": "bityard:tipped_arrows",
                     "weight": 2,
-                    "value": 3
+                    "quality": 3
                 }
             ]
         },
