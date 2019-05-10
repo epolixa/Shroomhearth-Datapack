@@ -1,8 +1,8 @@
 {
-	"parent": "community:highclere",
+	"parent": "bityard:highclere",
 	"display": {
 		"icon": {
-			"item": "minecraft:spruce_planks"
+			"item": "minecraft:dark_oak_planks"
 		},
 		"title": "Highclerian Humility",
 		"description": "Visit a Village in the Highclere Outlands",
@@ -17,12 +17,12 @@
 			"conditions": {
 				"position": {
 					"x": {
-						"min": -800,
-						"max": -800
+						"min": -1430,
+						"max": -1344
 					},
 					"z": {
-						"min": 2000,
-						"max": 2000
+						"min": 2415,
+						"max": 2482
 					}
 				}
 			}

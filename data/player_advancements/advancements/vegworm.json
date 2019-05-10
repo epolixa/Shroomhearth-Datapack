@@ -2,7 +2,8 @@
   "parent": "community:community_participator",
   "display": {
 		"icon": {
-			"item": "minecraft:carrot"
+			"item": "minecraft:player_head",
+      "nbt": "{SkullOwner:\"vegworm\"}"
 		},
 		"title": "vegworm",
 		"description": "Eat every kind of fruit & vegetable",

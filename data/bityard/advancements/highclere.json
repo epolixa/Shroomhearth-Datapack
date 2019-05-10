@@ -2,7 +2,8 @@
 	"parent": "community:community_portal",
 	"display": {
 		"icon": {
-			"item": "minecraft:cut_sandstone"
+			"item": "minecraft:red_banner",
+			"nbt": "{BlockEntityTag:{Patterns:[{Pattern:\"sc\",Color:1},{Pattern:\"bri\",Color:14},{Pattern:\"flo\",Color:4},{Pattern:\"tt\",Color:14},{Pattern:\"gru\",Color:1}]}}"
 		},
 		"title": "Highclerian Hospitality",
 		"description": "Visit the Highclere Mansion",
