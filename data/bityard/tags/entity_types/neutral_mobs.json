@@ -1,0 +1,14 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:dolphin",
+        "minecraft:iron_golem",
+        "minecraft:llama",
+        "minecraft:polar_bear",
+        "minecraft:snow_golem",
+        "minecraft:trader_llama",
+        "minecraft:wolf",
+        "minecraft:enderman",
+        "minecraft:zombie_pigman"
+    ]
+}

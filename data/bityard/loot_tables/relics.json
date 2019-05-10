@@ -27,6 +27,11 @@
           "type": "loot_table",
           "name": "paladins_halberd:paladins_halberd",
           "weight": 100
+        },
+        {
+          "type": "loot_table",
+          "name": "mojjagack:mojjagack",
+          "weight": 100
         }
       ]
     }

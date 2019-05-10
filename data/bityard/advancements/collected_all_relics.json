@@ -62,6 +62,16 @@
 					}
 				]
 			}
+		},
+		"mojjagack": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"nbt":"{relic:\"mojjagack\"}"
+					}
+				]
+			}
 		}
 	}
 }

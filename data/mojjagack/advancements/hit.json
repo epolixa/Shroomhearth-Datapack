@@ -1,0 +1,20 @@
+{
+	"criteria": {
+		"hit": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"nbt": "{SelectedItem:{tag:{relic:\"mojjagack\"}}}"
+					},
+					"dealt": {
+						"min": 3
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "mojjagack:hit"
+	} 
+}
