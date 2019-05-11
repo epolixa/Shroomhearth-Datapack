@@ -3,6 +3,6 @@
     "values": [
         "#bityard:passive_mobs",
         "#bityard:neutral_mobs",
-        "#bityard:hostile_mobs",
+        "#bityard:hostile_mobs"
     ]
 }

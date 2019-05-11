@@ -197,61 +197,61 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:village/village_armorer",
+          "name": "minecraft:chests/village/village_armorer",
           "weight": 40,
           "quality": 2
         },
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:village/village_butcher",
+          "name": "minecraft:chests/village/village_butcher",
           "weight": 48,
           "quality": 2
         },
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:village/village_fisher",
+          "name": "minecraft:chests/village/village_fisher",
           "weight": 49,
           "quality": 2
         },
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:village/village_fletcher",
+          "name": "minecraft:chests/village/village_fletcher",
           "weight": 43,
           "quality": 2
         },
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:village/village_mason",
+          "name": "minecraft:chests/village/village_mason",
           "weight": 45,
           "quality": 2
         },
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:village/village_shepard",
+          "name": "minecraft:chests/village/village_shepherd",
           "weight": 47,
           "quality": 2
         },
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:village/village_tannery",
+          "name": "minecraft:chests/village/village_tannery",
           "weight": 46,
           "quality": 2
         },
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:village/village_temple",
+          "name": "minecraft:chests/village/village_temple",
           "weight": 40,
           "quality": 2
         },
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:village/village_toolsmith",
+          "name": "minecraft:chests/village/village_toolsmith",
           "weight": 41,
           "quality": 2
         },
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:village/village_weaponsmith",
+          "name": "minecraft:chests/village/village_weaponsmith",
           "weight": 42,
           "quality": 2
         }

@@ -2,7 +2,7 @@
     "replace": false,
     "values": [
         "minecraft:bat",
-        "minecraft:brown_mooshroom",
+        "minecraft:mooshroom",
         "minecraft:chicken",
         "minecraft:cat",
         "minecraft:cod",
@@ -10,7 +10,6 @@
         "minecraft:donkey",
         "minecraft:fox",
         "minecraft:horse",
-        "minecraft:red_mooshroom",
         "minecraft:mule",
         "minecraft:ocelot",
         "minecraft:panda",
