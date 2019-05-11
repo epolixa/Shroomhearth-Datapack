@@ -8,7 +8,7 @@
 						"nbt": "{SelectedItem:{tag:{relic:\"mojjagack\"}}}"
 					},
 					"dealt": {
-						"min": 3
+						"min": 1
 					}
 				}
 			}

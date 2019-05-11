@@ -1,11 +1,11 @@
 # get entity closest to average attack range of attacker
-execute positioned ^ ^ ^1 run tag @e[type=#bityard:living,sort=nearest,limit=1] add mojjagack_victim
+tag @e[type=#bityard:living,sort=nearest,limit=1,distance=0.1..,nbt={HurtTime:10s}] add mojjagack_victim
 
 # play a sound on attacker
-playsound minecraft:entity.vex.idle player @a ~ ~ ~ 0.3 1.7
+playsound minecraft:entity.vex.charge player @a ~ ~ ~ 0.7 1.3
 
 # play particles on victim
-execute at @e[tag=mojjagack_victim,sort=nearest,limit=1] run particle minecraft:effect ~ ~0.5 ~ 0.5 0.3 0.5 0 5
+execute at @e[tag=mojjagack_victim,sort=nearest,limit=1] run particle minecraft:witch ~ ~0.5 ~ 0.5 0.3 0.5 0 5
 
 # apply random effect on victim
 execute as @s[scores={rng=0}] run effect give @e[tag=mojjagack_victim,sort=nearest,limit=1] minecraft:slowness 10
@@ -23,4 +23,4 @@ execute as @s[scores={rng=9}] run effect give @e[tag=mojjagack_victim,sort=neare
 tag @e[tag=mojjagack_victim,sort=nearest,limit=1] remove mojjagack_victim
 
 # revoke trigger
-advancement revoke @s only paladins_halberd:hit
+advancement revoke @s only mojjagack:hit
