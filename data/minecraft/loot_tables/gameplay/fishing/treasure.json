@@ -4,6 +4,19 @@
             "rolls": 1,
             "entries": [
                 {
+                    "conditions": [
+                        {
+                            "condition": "minecraft:alternative",
+                            "terms": [
+                                {
+                                    "condition": "location_check",
+                                    "predicate": {
+                                        "biome": "deep_ocean"
+                                    }
+                                }
+                            ]
+                        }
+                    ],
                     "type": "item",
                     "name": "minecraft:prismarine_shard",
                     "weight": 1,
@@ -14,6 +27,19 @@
                     }
                 },
                 {
+                    "conditions": [
+                        {
+                            "condition": "minecraft:alternative",
+                            "terms": [
+                                {
+                                    "condition": "location_check",
+                                    "predicate": {
+                                        "biome": "deep_ocean"
+                                    }
+                                }
+                            ]
+                        }
+                    ],
                     "type": "item",
                     "name": "minecraft:prismarine_crystals",
                     "weight": 2,

@@ -4,42 +4,223 @@
             "rolls": 1,
             "entries": [
                 {
+                    "conditions": [
+                        {
+                            "condition": "minecraft:alternative",
+                            "terms": [
+                                {
+                                    "condition": "location_check",
+                                    "predicate": {
+                                        "biome": "ocean"
+                                    }
+                                },
+                                {
+                                    "condition": "location_check",
+                                    "predicate": {
+                                        "biome": "deep_ocean"
+                                    }
+                                },
+                                {
+                                    "condition": "location_check",
+                                    "predicate": {
+                                        "biome": "cold_ocean"
+                                    }
+                                },
+                                {
+                                    "condition": "location_check",
+                                    "predicate": {
+                                        "biome": "deep_cold_ocean"
+                                    }
+                                },
+                                {
+                                    "condition": "location_check",
+                                    "predicate": {
+                                        "biome": "lukewarm_ocean"
+                                    }
+                                },
+                                {
+                                    "condition": "location_check",
+                                    "predicate": {
+                                        "biome": "deep_lukewarm_ocean"
+                                    }
+                                }
+                            ]
+                        }
+                    ],
                     "type": "item",
                     "name": "minecraft:cod",
                     "weight": 60,
                     "quality": 1
                 },
                 {
+                    "conditions": [
+                        {
+                            "condition": "minecraft:alternative",
+                            "terms": [
+                                {
+                                    "condition": "location_check",
+                                    "predicate": {
+                                        "biome": "cold_ocean"
+                                    }
+                                },
+                                {
+                                    "condition": "location_check",
+                                    "predicate": {
+                                        "biome": "deep_cold_ocean"
+                                    }
+                                },
+                                {
+                                    "condition": "location_check",
+                                    "predicate": {
+                                        "biome": "frozen_ocean"
+                                    }
+                                },
+                                {
+                                    "condition": "location_check",
+                                    "predicate": {
+                                        "biome": "deep_frozen_ocean"
+                                    }
+                                },
+                                {
+                                    "condition": "location_check",
+                                    "predicate": {
+                                        "biome": "river"
+                                    }
+                                },
+                                {
+                                    "condition": "location_check",
+                                    "predicate": {
+                                        "biome": "frozen_river"
+                                    }
+                                }
+                            ]
+                        }
+                    ],
                     "type": "item",
                     "name": "minecraft:salmon",
                     "weight": 25,
                     "quality": 2
                 },
                 {
+                    "conditions": [
+                        {
+                            "condition": "minecraft:alternative",
+                            "terms": [
+                                {
+                                    "condition": "location_check",
+                                    "predicate": {
+                                        "biome": "lukewarm_ocean"
+                                    }
+                                },
+                                {
+                                    "condition": "location_check",
+                                    "predicate": {
+                                        "biome": "deep_lukewarm_ocean"
+                                    }
+                                },
+                                {
+                                    "condition": "location_check",
+                                    "predicate": {
+                                        "biome": "warm_ocean"
+                                    }
+                                }
+                            ]
+                        }
+                    ],
                     "type": "item",
                     "name": "minecraft:tropical_fish",
                     "weight": 2,
                     "quality": 3
                 },
                 {
+                    "conditions": [
+                        {
+                            "condition": "minecraft:alternative",
+                            "terms": [
+                                {
+                                    "condition": "location_check",
+                                    "predicate": {
+                                        "biome": "lukewarm_ocean"
+                                    }
+                                },
+                                {
+                                    "condition": "location_check",
+                                    "predicate": {
+                                        "biome": "deep_lukewarm_ocean"
+                                    }
+                                },
+                                {
+                                    "condition": "location_check",
+                                    "predicate": {
+                                        "biome": "warm_ocean"
+                                    }
+                                }
+                            ]
+                        }
+                    ],
                     "type": "item",
                     "name": "minecraft:pufferfish",
                     "weight": 13,
                     "quality": 2
                 },
                 {
+                    "conditions": [
+                        {
+                            "condition": "minecraft:alternative",
+                            "terms": [
+                                {
+                                    "condition": "location_check",
+                                    "predicate": {
+                                        "biome": "deep_ocean"
+                                    }
+                                }
+                            ]
+                        }
+                    ],
                     "type": "item",
                     "name": "minecraft:sponge",
                     "weight": 2,
                     "quality": 2
                 },
                 {
+                    "conditions": [
+                        {
+                            "condition": "minecraft:alternative",
+                            "terms": [
+                                {
+                                    "condition": "location_check",
+                                    "predicate": {
+                                        "biome": "lukewarm_ocean"
+                                    }
+                                },
+                                {
+                                    "condition": "location_check",
+                                    "predicate": {
+                                        "biome": "warm_ocean"
+                                    }
+                                }
+                            ]
+                        }
+                    ],
                     "type": "item",
                     "name": "minecraft:sea_pickle",
                     "weight": 9,
                     "quality": 1
                 },
                 {
+                    "conditions": [
+                        {
+                            "condition": "minecraft:alternative",
+                            "terms": [
+                                {
+                                    "condition": "location_check",
+                                    "predicate": {
+                                        "biome": "warm_ocean"
+                                    }
+                                }
+                            ]
+                        }
+                    ],
                     "type": "loot_table",
                     "name": "bityard:coral",
                     "weight": 11,
