@@ -41,6 +41,83 @@
                 {
                   "condition": "minecraft:weather_check",
                   "raining": true
+                },
+                {
+                  "condition": "minecraft:alternative",
+                  "terms": [
+                    {
+                      "condition": "location_check",
+                      "predicate": {
+                          "biome": "ocean"
+                      }
+                    },
+                    {
+                      "condition": "location_check",
+                      "predicate": {
+                          "biome": "deep_ocean"
+                      }
+                    },
+                    {
+                      "condition": "location_check",
+                      "predicate": {
+                          "biome": "cold_ocean"
+                      }
+                    },
+                    {
+                      "condition": "location_check",
+                      "predicate": {
+                          "biome": "deep_cold_ocean"
+                      }
+                    },
+                    {
+                      "condition": "location_check",
+                      "predicate": {
+                          "biome": "frozen_ocean"
+                      }
+                    },
+                    {
+                      "condition": "location_check",
+                      "predicate": {
+                          "biome": "deep_frozen_ocean"
+                      }
+                    },
+                    {
+                      "condition": "location_check",
+                      "predicate": {
+                          "biome": "lukewarm_ocean"
+                      }
+                    },
+                    {
+                      "condition": "location_check",
+                      "predicate": {
+                          "biome": "deep_lukewarm_ocean"
+                      }
+                    },
+                    {
+                      "condition": "location_check",
+                      "predicate": {
+                          "biome": "warm_ocean"
+                      }
+                    },
+                    {
+                      "condition": "location_check",
+                      "predicate": {
+                          "biome": "deep_warm_ocean"
+                      }
+                    },
+                    {
+                      "condition": "location_check",
+                      "predicate": {
+                          "biome": "river"
+                      }
+                    },
+                    {
+                      "condition": "location_check",
+                      "predicate": {
+                          "biome": "frozen_river"
+                      }
+                    }
+                  ]
                 }
               ],
               "type": "minecraft:loot_table",
@@ -48,11 +125,108 @@
               "quality": -1,
               "name": "minecraft:gameplay/fishing/fish"
             },
-            {              
+            {
+              "conditions": [
+                {
+                  "condition": "minecraft:alternative",
+                  "terms": [
+                    {
+                      "condition": "location_check",
+                      "predicate": {
+                          "biome": "ocean"
+                      }
+                    },
+                    {
+                      "condition": "location_check",
+                      "predicate": {
+                          "biome": "deep_ocean"
+                      }
+                    },
+                    {
+                      "condition": "location_check",
+                      "predicate": {
+                          "biome": "cold_ocean"
+                      }
+                    },
+                    {
+                      "condition": "location_check",
+                      "predicate": {
+                          "biome": "deep_cold_ocean"
+                      }
+                    },
+                    {
+                      "condition": "location_check",
+                      "predicate": {
+                          "biome": "frozen_ocean"
+                      }
+                    },
+                    {
+                      "condition": "location_check",
+                      "predicate": {
+                          "biome": "deep_frozen_ocean"
+                      }
+                    },
+                    {
+                      "condition": "location_check",
+                      "predicate": {
+                          "biome": "lukewarm_ocean"
+                      }
+                    },
+                    {
+                      "condition": "location_check",
+                      "predicate": {
+                          "biome": "deep_lukewarm_ocean"
+                      }
+                    },
+                    {
+                      "condition": "location_check",
+                      "predicate": {
+                          "biome": "warm_ocean"
+                      }
+                    },
+                    {
+                      "condition": "location_check",
+                      "predicate": {
+                          "biome": "deep_warm_ocean"
+                      }
+                    },
+                    {
+                      "condition": "location_check",
+                      "predicate": {
+                          "biome": "river"
+                      }
+                    },
+                    {
+                      "condition": "location_check",
+                      "predicate": {
+                          "biome": "frozen_river"
+                      }
+                    }
+                  ]
+                }
+              ],              
               "type": "minecraft:loot_table",
               "weight": 85,
               "quality": -1,
               "name": "minecraft:gameplay/fishing/fish"
+            },
+            {
+              "conditions": [
+                {
+                  "condition": "minecraft:weather_check",
+                  "raining": true
+                }
+              ],
+              "type": "item",
+              "name": "minecraft:cod",
+              "weight": 95,
+              "quality": 1
+            },
+            {
+              "type": "item",
+              "name": "minecraft:cod",
+              "weight": 85,
+              "quality": 1
             }
           ]
         }
