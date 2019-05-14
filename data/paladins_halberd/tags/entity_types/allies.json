@@ -3,6 +3,7 @@
     "values": [
         "minecraft:player",
         "minecraft:wolf",
-        "minecraft:cat"
+        "minecraft:cat",
+        "minecraft:villager"
     ]
 }

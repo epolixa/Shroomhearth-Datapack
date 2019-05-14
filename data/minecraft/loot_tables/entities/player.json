@@ -1,3 +1,40 @@
 {
-  "type": "minecraft:entity"
+  "type": "minecraft:entity",
+  "pools": [
+  	{
+  		"rolls": 1,
+  		"entries": [
+  			{
+  				"conditions": [
+  					{
+  						"condition": "location_check",
+  						"predicate": {
+  							"position": {
+  								"x": {
+  									"min": 10000,
+  									"max": 10000
+  								},
+  								"y": {
+  									"min": 10000,
+  									"max": 10000
+  								},
+  								"z": {
+  									"min": 10000,
+  									"max": 10000
+  								}
+  							}
+  						}
+  					}
+  				],
+  				"type": "minecraft:player_head",
+  				"functions": [
+  					{
+  						"function": "minecraft:fill_player_head",
+  						"entity": "this"
+  					}
+  				]
+  			}
+  		]
+  	}
+  ]
 }

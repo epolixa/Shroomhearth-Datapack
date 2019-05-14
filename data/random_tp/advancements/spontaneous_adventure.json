@@ -1,0 +1,19 @@
+{
+	"parent": "community:community_portal",
+	"display": {
+		"icon": {
+			"item": "minecraft:chorus_fruit"
+		},
+		"title": "Spontaneous Adventure",
+		"description": "Eat a Chorus Fruit at the Spawn Pedestal",
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"multi_sleep": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

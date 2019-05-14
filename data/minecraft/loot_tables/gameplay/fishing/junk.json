@@ -22,19 +22,19 @@
                     "type": "item",
                     "name": "minecraft:rabbit_hide",
                     "weight": 8,
-                    "quality": 2
+                    "quality": 1
                 },
                 {
                     "type": "item",
                     "name": "minecraft:bone",
                     "weight": 9,
-                    "quality": 2
+                    "quality": 1
                 },
                 {
                     "type": "item",
                     "name": "minecraft:potion",
                     "weight": 10,
-                    "quality": 2,
+                    "quality": 1,
                     "functions": [
                         {
                             "function": "set_nbt",
@@ -52,7 +52,7 @@
                     "type": "item",
                     "name": "minecraft:fishing_rod",
                     "weight": 2,
-                    "quality": 3,
+                    "quality": 1,
                     "functions": [
                         {
                             "function": "set_damage",
@@ -82,6 +82,49 @@
                     "quality": 1
                 },
                 {
+                    "conditions": [
+                        {
+                            "condition": "minecraft:alternative",
+                            "terms": [
+                                {
+                                    "condition": "location_check",
+                                    "predicate": {
+                                        "biome": "ocean"
+                                    }
+                                },
+                                {
+                                    "condition": "location_check",
+                                    "predicate": {
+                                        "biome": "deep_ocean"
+                                    }
+                                },
+                                {
+                                    "condition": "location_check",
+                                    "predicate": {
+                                        "biome": "cold_ocean"
+                                    }
+                                },
+                                {
+                                    "condition": "location_check",
+                                    "predicate": {
+                                        "biome": "deep_cold_ocean"
+                                    }
+                                },
+                                {
+                                    "condition": "location_check",
+                                    "predicate": {
+                                        "biome": "lukewarm_ocean"
+                                    }
+                                },
+                                {
+                                    "condition": "location_check",
+                                    "predicate": {
+                                        "biome": "deep_lukewarm_ocean"
+                                    }
+                                }
+                            ]
+                        }
+                    ],
                     "type": "item",
                     "name": "minecraft:kelp",
                     "weight": 10,
@@ -91,7 +134,7 @@
                     "type": "item",
                     "name": "minecraft:ink_sac",
                     "weight": 7,
-                    "quality": 2,
+                    "quality": 1,
                     "functions": [
                         {
                             "function": "set_count",
@@ -112,29 +155,210 @@
                     "type": "item",
                     "name": "minecraft:rotten_flesh",
                     "weight": 10,
-                    "quality": 0
+                    "quality": 1
                 },
                 {
+                    "conditions": [
+                        {
+                            "condition": "minecraft:alternative",
+                            "terms": [
+                                {
+                                    "condition": "location_check",
+                                    "predicate": {
+                                        "biome": "swamp"
+                                    }
+                                },
+                                {
+                                    "condition": "location_check",
+                                    "predicate": {
+                                        "biome": "swamp_hills"
+                                    }
+                                }
+                            ]
+                        }
+                    ],
                     "type": "item",
                     "name": "minecraft:lily_pad",
                     "weight": 9,
                     "quality": 1
                 },
                 {
+                    "conditions": [
+                        {
+                            "condition": "minecraft:alternative",
+                            "terms": [
+                                {
+                                    "condition": "location_check",
+                                    "predicate": {
+                                        "biome": "swamp"
+                                    }
+                                },
+                                {
+                                    "condition": "location_check",
+                                    "predicate": {
+                                        "biome": "swamp_hills"
+                                    }
+                                }
+                            ]
+                        }
+                    ],
                     "type": "item",
-                    "name": "minecraft:gold_nugget",
-                    "weight": 1,
-                    "quality": 3,
-                    "count": {
-                        "min": 1,
-                        "max": 3
-                    }
+                    "name": "minecraft:clay",
+                    "weight": 8,
+                    "quality": 1
+                },
+                {
+                    "conditions": [
+                        {
+                            "condition": "minecraft:alternative",
+                            "terms": [
+                                {
+                                    "condition": "location_check",
+                                    "predicate": {
+                                        "biome": "mushroom_fields"
+                                    }
+                                },
+                                {
+                                    "condition": "location_check",
+                                    "predicate": {
+                                        "biome": "mushroom_field_shore"
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "type": "item",
+                    "name": "minecraft:brown_mushroom",
+                    "weight": 9,
+                    "quality": 1
+                },
+                {
+                    "conditions": [
+                        {
+                            "condition": "minecraft:alternative",
+                            "terms": [
+                                {
+                                    "condition": "location_check",
+                                    "predicate": {
+                                        "biome": "mushroom_fields"
+                                    }
+                                },
+                                {
+                                    "condition": "location_check",
+                                    "predicate": {
+                                        "biome": "mushroom_field_shore"
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "type": "item",
+                    "name": "minecraft:red_mushroom",
+                    "weight": 9,
+                    "quality": 1
+                },
+                {
+                    "type": "minecraft:alternatives",
+                    "children": [
+                        {
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:alternative",
+                                    "terms": [
+                                        {
+                                            "condition": "location_check",
+                                            "predicate": {
+                                                "biome": "badlands"
+                                            }
+                                        },
+                                        {
+                                            "condition": "location_check",
+                                            "predicate": {
+                                                "biome": "badlands_plateau"
+                                            }
+                                        },
+                                        {
+                                            "condition": "location_check",
+                                            "predicate": {
+                                                "biome": "modified_badlands_plateau"
+                                            }
+                                        },
+                                        {
+                                            "condition": "location_check",
+                                            "predicate": {
+                                                "biome": "wooded_badlands_plateau"
+                                            }
+                                        },
+                                        {
+                                            "condition": "location_check",
+                                            "predicate": {
+                                                "biome": "modified_wooded_badlands_plateau"
+                                            }
+                                        },
+                                        {
+                                            "condition": "location_check",
+                                            "predicate": {
+                                                "biome": "eroded_badlands"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ],
+                            "type": "item",
+                            "name": "minecraft:gold_nugget",
+                            "weight": 21,
+                            "quality": 2,
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        },
+                        {
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:alternative",
+                                    "terms": [
+                                        {
+                                            "condition": "location_check",
+                                            "predicate": {
+                                                "biome": "river"
+                                            }
+                                        },
+                                        {
+                                            "condition": "location_check",
+                                            "predicate": {
+                                                "biome": "frozen_river"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ],
+                            "type": "item",
+                            "name": "minecraft:gold_nugget",
+                            "weight": 11,
+                            "quality": 2,
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        },
+                        {
+                            "type": "item",
+                            "name": "minecraft:gold_nugget",
+                            "weight": 1,
+                            "quality": 2,
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        },
+                    ]
                 },
                 {
                     "type": "item",
                     "name": "minecraft:iron_nugget",
                     "weight": 2,
-                    "quality": 3,
+                    "quality": 2,
                     "count": {
                         "min": 1,
                         "max": 3

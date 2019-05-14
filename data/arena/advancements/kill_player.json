@@ -1,0 +1,29 @@
+{
+	"criteria": {
+		"kill_player": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:player",
+					"location": {
+						"x": {
+							"min": 10000,
+							"max": 10000,
+						},
+						"y": {
+							"min": 10000,
+							"max": 10000,
+						},
+						"z": {
+							"min": 10000,
+							"max": 10000,
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "arena:kill_player"
+	}
+}

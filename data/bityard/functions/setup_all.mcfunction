@@ -17,3 +17,4 @@ function ethereal_bonbon:setup
 function player_advancements:setup
 function color_names:setup
 function stat_display:setup
+function arena:setup
