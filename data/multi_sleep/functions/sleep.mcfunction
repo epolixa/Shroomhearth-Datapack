@@ -8,7 +8,7 @@ execute as @s[scores={playerSleep=1}] run tellraw @a [{"selector":"@s"},{"text":
 execute as @s[scores={playerSleep=1..},advancements={multi_sleep:multi_sleep=false}] if entity @p[scores={playerSleep=1..}, distance=1..] run advancement grant @s only multi_sleep:multi_sleep
 
 # make night pass faster for sleeping players
-execute as @s[scores={playerSleep=1..}] run time add 8
+execute as @s[scores={playerSleep=1..}] run time add 10
 
-# increment sleep delay
+# increment sleep flag
 execute as @s[scores={playerSleep=..1}] run scoreboard players add @s playerSleep 1

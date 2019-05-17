@@ -18,3 +18,6 @@ function player_advancements:setup
 function color_names:setup
 function stat_display:setup
 function arena:setup
+
+# Gamerules
+function bityard:setup_gamerules

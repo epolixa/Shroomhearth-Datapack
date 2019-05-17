@@ -1,4 +1,4 @@
-spreadplayers -543 262 0 10000 false @s
+spreadplayers ~ ~ 0 10000 false @s
 
 advancement grant @s[advancements={random_tp:spontaneous_adventure=false}] only random_tp:spontaneous_adventure
 

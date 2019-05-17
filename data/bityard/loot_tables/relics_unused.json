@@ -98,17 +98,6 @@
               "tag": "{loot_type: \"relic\", relic: \"hungry_pickaxe\", Enchantments:[{id:\"minecraft:lure\"}], HideFlags: 1, display:{Name: \"{\\\"italic\\\":\\\"false\\\", \\\"color\\\":\\\"light_purple\\\", \\\"text\\\":\\\"Hungry Pickaxe\\\"}\", Lore: [\"§r§7When mining Ore:\",\"§r§5 Haste I - III (1:00)\"]}}"
             }
           ]
-        },
-        {
-          "type": "item",
-          "name": "minecraft:diamond_hoe",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{loot_type: \"relic\", relic: \"mojjagack\", Enchantments:[{id:\"minecraft:lure\"}], HideFlags: 1, display:{Name: \"{\\\"italic\\\":\\\"false\\\", \\\"color\\\":\\\"light_purple\\\", \\\"text\\\":\\\"Mojjagack\\\"}\", Lore: [\"§r§7While inflicting damage:\",\"§r§5 ???\"]}}"
-            }
-          ]
         }
       ]
     }
