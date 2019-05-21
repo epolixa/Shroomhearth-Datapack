@@ -1,0 +1,17 @@
+{
+	"criteria": {
+		"ate_melon_slice": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"items": [
+					{
+						"tag": "player_advancements:not_melon_slice"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "player_advancements:epolixa_ate_not_melon_slice"
+	} 
+}

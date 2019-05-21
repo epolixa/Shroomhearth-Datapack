@@ -1,0 +1,21 @@
+{
+  "type": "crafting_shaped",
+  "group": "concrete",
+  "key": {
+    "b": {
+      "item": "minecraft:water_bucket"
+    },
+    "p": {
+      "item": "minecraft:magenta_concrete_powder"
+    }
+  },
+  "pattern": [
+    "ppp",
+    "pbp",
+    "ppp"
+  ],
+  "result": {
+    "item": "minecraft:magenta_concrete",
+    "count": 8
+  }
+}
