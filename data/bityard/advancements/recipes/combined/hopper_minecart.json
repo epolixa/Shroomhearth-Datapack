@@ -1,0 +1,16 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"bityard:combined/hopper_minecart"
+		]
+	},
+	"criteria": {
+		"has_root_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "minecraft:hopper_minecart"
+			}
+		}
+	}
+}

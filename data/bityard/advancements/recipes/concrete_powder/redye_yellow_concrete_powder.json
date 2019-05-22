@@ -1,0 +1,54 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "bityard:yellowye_yellow_concrete_powder"
+    ]
+  },
+  "criteria": {
+    "has_concrete_powder": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "bityard:concrete_powder"
+          }
+        ]
+      }
+    },
+    "has_dye": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:yellow_dye"
+          }
+        ]
+      }
+    },
+    "has_yellow_concrete_powder": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:yellow_concrete_powder"
+          }
+        ]
+      }
+    },
+    "has_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "bityard:yellowye_yellow_concrete_powder"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_concrete_powder",
+      "has_dye",
+      "has_yellow_concrete_powder",
+      "has_recipe"
+    ]
+  ]
+}

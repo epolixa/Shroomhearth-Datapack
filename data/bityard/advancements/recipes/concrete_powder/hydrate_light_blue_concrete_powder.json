@@ -1,0 +1,54 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "bityard:hydrate_light_blue_concrete_powder"
+    ]
+  },
+  "criteria": {
+    "has_concrete_powder": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:light_blue_concrete_powder"
+          }
+        ]
+      }
+    },
+    "has_water_bucket": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:water_bucket"
+          }
+        ]
+      }
+    },
+    "has_concrete": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:light_blue_concrete"
+          }
+        ]
+      }
+    },
+    "has_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "bityard:hydrate_light_blue_concrete_powder"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_concrete_powder",
+      "has_water_bucket",
+      "has_concrete",
+      "has_recipe"
+    ]
+  ]
+}

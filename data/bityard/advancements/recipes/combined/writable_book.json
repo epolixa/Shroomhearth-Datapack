@@ -1,0 +1,16 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"bityard:combined/writable_book"
+		]
+	},
+	"criteria": {
+		"has_root_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "minecraft:writable_book"
+			}
+		}
+	}
+}

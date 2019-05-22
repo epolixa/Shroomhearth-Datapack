@@ -2,32 +2,31 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "minecraft:chest_minecart",
-      "bityard:combined/chest_minecart"
+      "bityard:stonecutting/brick_from_terracotta"
     ]
   },
   "criteria": {
-    "has_minecart": {
+    "has_terracotta": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:minecart"
+            "item": "minecraft:terracotta"
           }
         ]
       }
     },
-    "has_default_recipe": {
+    "has_brick_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "minecraft:chest_minecart"
+        "recipe": "bityard:stonecutting/brick_from_terracotta"
       }
     }
   },
   "requirements": [
     [
-      "has_minecart",
-      "has_default_recipe"
+      "has_terracotta",
+      "has_brick_recipe"
     ]
   ]
 }

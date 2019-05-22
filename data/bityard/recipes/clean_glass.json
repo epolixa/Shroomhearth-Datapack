@@ -1,5 +1,6 @@
 {
   "type": "crafting_shaped",
+  "group": "glass",
   "pattern": [
     "ggg",
     "gwg",
