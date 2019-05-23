@@ -2,7 +2,7 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "bityard:stonecutting/sandstone/red_sand_from_smooth_red_sandstone"
+      "bityard:stonecutting/birch/birch_stairs_from_stripped_birch_wood"
     ]
   },
   "criteria": {
@@ -11,7 +11,7 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:smooth_red_sandstone"
+            "item": "minecraft:stripped_birch_wood"
           }
         ]
       }
@@ -19,7 +19,7 @@
     "has_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "bityard:stonecutting/sandstone/red_sand_from_smooth_red_sandstone"
+        "recipe": "bityard:stonecutting/birch/birch_stairs_from_stripped_birch_wood"
       }
     }
   },
