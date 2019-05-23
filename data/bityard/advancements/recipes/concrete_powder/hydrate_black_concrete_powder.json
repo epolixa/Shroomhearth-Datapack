@@ -2,7 +2,7 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "bityard:hydrate_black_concrete_powder"
+      "bityard:concrete_powder/hydrate_black_concrete_powder"
     ]
   },
   "criteria": {
@@ -39,7 +39,7 @@
     "has_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "bityard:hydrate_black_concrete_powder"
+        "recipe": "bityard:concrete_powder/hydrate_black_concrete_powder"
       }
     }
   },

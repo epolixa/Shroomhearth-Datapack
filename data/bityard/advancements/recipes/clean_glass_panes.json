@@ -26,12 +26,12 @@
         ]
       }
     },
-    "has_glass_panes": {
+    "has_glass_pane": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:glass_panes"
+            "item": "minecraft:glass_pane"
           }
         ]
       }
@@ -47,7 +47,7 @@
     [
       "has_stained_glass_panes",
       "has_water_bucket",
-      "has_glass_panes",
+      "has_glass_pane",
       "has_recipe"
     ]
   ]

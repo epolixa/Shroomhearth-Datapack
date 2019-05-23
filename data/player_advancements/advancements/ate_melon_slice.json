@@ -3,11 +3,9 @@
 		"ate_melon_slice": {
 			"trigger": "minecraft:consume_item",
 			"conditions": {
-				"items": [
-					{
-						"item": "minecraft:melon_slice"
-					}
-				]
+				"item": {
+					"item": "minecraft:melon_slice"
+				}
 			}
 		}
 	},

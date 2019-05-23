@@ -10,4 +10,4 @@ advancement grant @s[scores={craftedCarrots=64..}, advancements={player_advancem
 scoreboard players set @s[scores={craftedCarrots=1..}, advancements={player_advancements:depressus=false}] craftedCarrots 0
 
 # revoke trigger if advancement is not yet made
-advancement revoke @s[advancements={player_advancements:depressus=false}] only player_advancements:inventory_changed_golden_carrots
+advancement revoke @s only player_advancements:inventory_changed_golden_carrots

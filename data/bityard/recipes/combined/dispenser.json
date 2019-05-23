@@ -1,13 +1,17 @@
 {
-  "type": "crafting_shapeless",
+  "type": "crafting_shaped",
   "group": "dispenser",
-  "ingredients": [
-    {
+  "key": {
+    "b": {
       "item": "minecraft:bow"
     },
-    {
+    "d": {
       "item": "minecraft:dropper"
     }
+  },
+  "pattern": [
+    "d",
+    "b"
   ],
   "result": {
     "item": "minecraft:dispenser"

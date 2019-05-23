@@ -1,18 +1,19 @@
 {
-  "type": "crafting_shaped",
+  "type": "minecraft:crafting_shaped",
   "group": "fletching_table",
+  "pattern": [
+    "@@",
+    "##",
+    "##"
+  ],
   "key": {
-    "c": {
-      "item": "minecraft:crafting_table"
+    "#": {
+      "tag": "minecraft:planks"
     },
-    "f": {
+    "@": {
       "item": "minecraft:flint"
     }
   },
-  "pattern": [
-    "ff",
-    "c "
-  ],
   "result": {
     "item": "minecraft:fletching_table"
   }

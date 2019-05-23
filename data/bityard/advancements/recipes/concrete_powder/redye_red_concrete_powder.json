@@ -2,7 +2,7 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "bityard:redye_red_concrete_powder"
+      "bityard:concrete_powder/redye_red_concrete_powder"
     ]
   },
   "criteria": {
@@ -39,7 +39,7 @@
     "has_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "bityard:redye_red_concrete_powder"
+        "recipe": "bityard:concrete_powder/redye_red_concrete_powder"
       }
     }
   },
