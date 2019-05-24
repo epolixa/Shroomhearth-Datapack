@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"text\\\":\\\"Lucky Iron Helmet\\\"}\"}}"
+              "tag": "{loot_type:\"attribute_gear\", display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"text\\\":\\\"Lucky Iron Helmet\\\"}\"}}"
             },
             {
               "function": "set_attributes",
@@ -40,7 +40,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"text\\\":\\\"Lucky Iron Chestplate\\\"}\"}}"
+              "tag": "{loot_type:\"attribute_gear\", display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"text\\\":\\\"Lucky Iron Chestplate\\\"}\"}}"
             },
             {
               "function": "set_attributes",
@@ -70,7 +70,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"text\\\":\\\"Lucky Iron Leggings\\\"}\"}}"
+              "tag": "{loot_type:\"attribute_gear\", display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"text\\\":\\\"Lucky Iron Leggings\\\"}\"}}"
             },
             {
               "function": "set_attributes",
@@ -100,7 +100,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"text\\\":\\\"Lucky Iron Boots\\\"}\"}}"
+              "tag": "{loot_type:\"attribute_gear\", display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"text\\\":\\\"Lucky Iron Boots\\\"}\"}}"
             },
             {
               "function": "set_attributes",

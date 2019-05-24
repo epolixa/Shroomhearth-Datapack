@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"text\\\":\\\"Healthy Iron Sword\\\"}\"}}"
+              "tag": "{loot_type:\"attribute_gear\", display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"text\\\":\\\"Healthy Iron Sword\\\"}\"}}"
             },
             {
               "function": "set_attributes",
@@ -47,7 +47,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"text\\\":\\\"Healthy Iron Pickaxe\\\"}\"}}"
+              "tag": "{loot_type:\"attribute_gear\", display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"text\\\":\\\"Healthy Iron Pickaxe\\\"}\"}}"
             },
             {
               "function": "set_attributes",
@@ -84,7 +84,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"text\\\":\\\"Healthy Iron Axe\\\"}\"}}"
+              "tag": "{loot_type:\"attribute_gear\", display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"text\\\":\\\"Healthy Iron Axe\\\"}\"}}"
             },
             {
               "function": "set_attributes",
@@ -121,7 +121,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"text\\\":\\\"Healthy Iron Shovel\\\"}\"}}"
+              "tag": "{loot_type:\"attribute_gear\", display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"text\\\":\\\"Healthy Iron Shovel\\\"}\"}}"
             },
             {
               "function": "set_attributes",
@@ -158,7 +158,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"text\\\":\\\"Healthy Iron Hoe\\\"}\"}}"
+              "tag": "{loot_type:\"attribute_gear\", display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"text\\\":\\\"Healthy Iron Hoe\\\"}\"}}"
             },
             {
               "function": "set_attributes",

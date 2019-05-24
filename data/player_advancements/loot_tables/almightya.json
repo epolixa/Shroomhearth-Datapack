@@ -1,4 +1,5 @@
 {
+  "type": "advancement_reward",
   "pools": [
     {
       "rolls": 1,
@@ -6,7 +7,7 @@
         {
           "type": "item",
           "name": "minecraft:player_head",
-          "weight": 1,
+          "weight": 100,
           "functions": [
             {
               "function": "set_nbt",

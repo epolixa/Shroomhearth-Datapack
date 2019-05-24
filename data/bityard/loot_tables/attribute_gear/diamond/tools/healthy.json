@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"text\\\":\\\"Healthy Diamond Sword\\\"}\"}}"
+              "tag": "{loot_type:\"attribute_gear\", display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"text\\\":\\\"Healthy Diamond Sword\\\"}\"}}"
             },
             {
               "function": "set_attributes",
@@ -47,7 +47,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"text\\\":\\\"Healthy Diamond Pickaxe\\\"}\"}}"
+              "tag": "{loot_type:\"attribute_gear\", display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"text\\\":\\\"Healthy Diamond Pickaxe\\\"}\"}}"
             },
             {
               "function": "set_attributes",
@@ -84,7 +84,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"text\\\":\\\"Healthy Diamond Axe\\\"}\"}}"
+              "tag": "{loot_type:\"attribute_gear\", display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"text\\\":\\\"Healthy Diamond Axe\\\"}\"}}"
             },
             {
               "function": "set_attributes",
@@ -121,7 +121,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"text\\\":\\\"Healthy Diamond Shovel\\\"}\"}}"
+              "tag": "{loot_type:\"attribute_gear\", display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"text\\\":\\\"Healthy Diamond Shovel\\\"}\"}}"
             },
             {
               "function": "set_attributes",
@@ -158,7 +158,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"text\\\":\\\"Healthy Diamond Hoe\\\"}\"}}"
+              "tag": "{loot_type:\"attribute_gear\", display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"text\\\":\\\"Healthy Diamond Hoe\\\"}\"}}"
             },
             {
               "function": "set_attributes",

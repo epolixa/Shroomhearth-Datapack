@@ -5,32 +5,37 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "pegasus_cuirass:pegasus_cuirass",
+          "name": "pegasus_cuirass:item",
           "weight": 100
         },
         {
           "type": "loot_table",
-          "name": "ethereal_bonbon:ethereal_bonbon",
+          "name": "ethereal_bonbon:item",
           "weight": 100
         },
         {
           "type": "loot_table",
-          "name": "voxel_socks:voxel_socks",
+          "name": "voxel_socks:item",
           "weight": 100
         },
         {
           "type": "loot_table",
-          "name": "everlasting_cookie:everlasting_cookie",
+          "name": "everlasting_cookie:item",
           "weight": 100
         },
         {
           "type": "loot_table",
-          "name": "paladins_halberd:paladins_halberd",
+          "name": "paladins_halberd:item",
           "weight": 100
         },
         {
           "type": "loot_table",
-          "name": "mojjagack:mojjagack",
+          "name": "mojjagack:item",
+          "weight": 100
+        },
+        {
+          "type": "loot_table",
+          "name": "hungry_pickaxe:item",
           "weight": 100
         }
       ]

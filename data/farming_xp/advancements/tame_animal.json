@@ -1,0 +1,10 @@
+{
+	"criteria": {
+		"tame_animal": {
+			"trigger": "minecraft:tame_animal"
+		}
+	},
+	"rewards": {
+		"function": "farming_xp:tame_animal"
+	} 
+}

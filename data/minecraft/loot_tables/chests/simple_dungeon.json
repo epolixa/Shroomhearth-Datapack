@@ -1,24 +1,35 @@
 {
     "pools": [
         {
+            "rolls": 1,
+            "bonus_rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "bityard:relics",
+                    "weight": 1,
+                    "quality": 2
+                },
+                {
+                    "type": "minecraft:empty",
+                    "weight": 100,
+                    "quality": 0
+                }
+            ]
+        },
+        {
             "rolls": {
                 "min": 1,
                 "max": 3
             },
             "bonus_rolls": {
                 "min": 1,
-                "max": 3
+                "max": 2
             },
             "entries": [
                 {
                     "type": "loot_table",
-                    "name": "bityard:relics",
-                    "weight": 1,
-                    "quality": 1
-                },
-                {
-                    "type": "loot_table",
-                    "name": "bityard:super_gear",
+                    "name": "bityard:overenchanted_gear",
                     "weight": 2,
                     "quality": 4
                 },
@@ -85,7 +96,7 @@
                 {
                     "type": "loot_table",
                     "name": "bityard:decor_skulls",
-                    "weight": 15,
+                    "weight": 20,
                     "quality": 3
                 },
                 {
@@ -273,14 +284,17 @@
                             }
                         }
                     ]
-                }                
+                }
             ]
         },
 
 
-        
         {
-            "rolls": 3,
+            "rolls": {
+                "min": 2,
+                "max": 3
+            },
+            "bonus_rolls": 1,
             "entries": [
                 {
                     "type": "item",

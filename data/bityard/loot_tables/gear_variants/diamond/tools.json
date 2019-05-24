@@ -5,7 +5,13 @@
 			"entries": [
 				{
 					"type": "item",
-					"name": "minecraft:diamond_sword"
+					"name": "minecraft:diamond_sword",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:1}"
+						}
+					]
 				},
 				{
 					"type": "item",
@@ -13,7 +19,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:1, display:{Name:\"{\\\"text\\\":\\\"Diamond Dagger\\\",\\\"italic\\\":false}\"}}"
+							"tag": "{CustomModelData:2}"
 						}
 					]
 				}

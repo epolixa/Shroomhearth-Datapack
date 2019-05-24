@@ -6,7 +6,7 @@
 			"nbt": "{SkullOwner:\"epolixa\"}"
 		},
 		"title": "epolixa",
-		"description": "Eat an entire stack of consecutive melon slices",
+		"description": "Eat 64 consecutive melon slices",
 		"frame": "challenge"
 	},
 	"rewards": {

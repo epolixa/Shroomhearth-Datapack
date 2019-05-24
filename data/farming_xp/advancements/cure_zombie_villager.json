@@ -1,0 +1,10 @@
+{
+	"criteria": {
+		"cure_zombie_vilager": {
+			"trigger": "minecraft:cure_zombie_vilager"
+		}
+	},
+	"rewards": {
+		"function": "farming_xp:cure_zombie_vilager"
+	} 
+}

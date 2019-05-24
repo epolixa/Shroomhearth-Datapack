@@ -4,8 +4,8 @@
 ################################################################
 
 # grant advancement if stat is reached
-advancement grant @s[scores={minedStone=50000..}, advancements={player_advancements:almightya=false}] only player_advancements:almightya
+advancement grant @s[scores={minedStone=50000..}] only player_advancements:almightya
 
-# revoke triggers if advancement is not yet made
+# revoke triggers
 advancement revoke @s only player_advancements:inventory_changed_stone
 advancement revoke @s only player_advancements:inventory_changed_cobblestone

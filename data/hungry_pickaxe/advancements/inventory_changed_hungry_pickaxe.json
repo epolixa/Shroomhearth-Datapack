@@ -1,0 +1,207 @@
+{
+	"criteria": {
+		"coal": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:coal"
+					},
+					{
+						"nbt": "{relic:\"hungry_pickaxe\"}"
+					}
+				]
+			}
+		},
+		"coal_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:coal_ore"
+					},
+					{
+						"nbt": "{relic:\"hungry_pickaxe\"}"
+					}
+				]
+			}
+		},
+		"iron_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:iron_ore"
+					},
+					{
+						"nbt": "{relic:\"hungry_pickaxe\"}"
+					}
+				]
+			}
+		},
+		"gold_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:gold_ore"
+					},
+					{
+						"nbt": "{relic:\"hungry_pickaxe\"}"
+					}
+				]
+			}
+		},
+		"redstone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:redstone"
+					},
+					{
+						"nbt": "{relic:\"hungry_pickaxe\"}"
+					}
+				]
+			}
+		},
+		"redstone_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:redstone_ore"
+					},
+					{
+						"nbt": "{relic:\"hungry_pickaxe\"}"
+					}
+				]
+			}
+		},
+		"lapis_lazuli": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:lapis_lazuli"
+					},
+					{
+						"nbt": "{relic:\"hungry_pickaxe\"}"
+					}
+				]
+			}
+		},
+		"lapis_lazuli_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:lapis_lazuli_ore"
+					},
+					{
+						"nbt": "{relic:\"hungry_pickaxe\"}"
+					}
+				]
+			}
+		},
+		"emerald": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:emerald"
+					},
+					{
+						"nbt": "{relic:\"hungry_pickaxe\"}"
+					}
+				]
+			}
+		},
+		"emerald_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:emerald_ore"
+					},
+					{
+						"nbt": "{relic:\"hungry_pickaxe\"}"
+					}
+				]
+			}
+		},
+		"diamond": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:diamond"
+					},
+					{
+						"nbt": "{relic:\"hungry_pickaxe\"}"
+					}
+				]
+			}
+		},
+		"diamond_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:diamond_ore"
+					},
+					{
+						"nbt": "{relic:\"hungry_pickaxe\"}"
+					}
+				]
+			}
+		},
+		"nether_quartz": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:nether_quartz"
+					},
+					{
+						"nbt": "{relic:\"hungry_pickaxe\"}"
+					}
+				]
+			}
+		},
+		"nether_quartz_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:nether_quartz_ore"
+					},
+					{
+						"nbt": "{relic:\"hungry_pickaxe\"}"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"coal",
+			"coal_ore",
+			"iron_ore",
+			"gold_ore",
+			"redstone",
+			"redstone_ore",
+			"lapis_lazuli",
+			"lapis_lazuli_ore",
+			"emerald",
+			"emerald_ore",
+			"diamond",
+			"diamond_ore",
+			"nether_quartz",
+			"nether_quartz_ore"
+		]
+	],
+	"rewards": {
+		"function": "hungry_pickaxe:inventory_changed_hungry_pickaxe"
+	} 
+}

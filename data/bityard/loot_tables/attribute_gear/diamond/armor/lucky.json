@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"text\\\":\\\"Lucky Diamond Helmet\\\"}\"}}"
+              "tag": "{loot_type:\"attribute_gear\", display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"text\\\":\\\"Lucky Diamond Helmet\\\"}\"}}"
             },
             {
               "function": "set_attributes",
@@ -47,7 +47,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"text\\\":\\\"Lucky Diamond Chestplate\\\"}\"}}"
+              "tag": "{loot_type:\"attribute_gear\", display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"text\\\":\\\"Lucky Diamond Chestplate\\\"}\"}}"
             },
             {
               "function": "set_attributes",
@@ -84,7 +84,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"text\\\":\\\"Lucky Diamond Leggings\\\"}\"}}"
+              "tag": "{loot_type:\"attribute_gear\", display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"text\\\":\\\"Lucky Diamond Leggings\\\"}\"}}"
             },
             {
               "function": "set_attributes",
@@ -121,7 +121,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"text\\\":\\\"Lucky Diamond Boots\\\"}\"}}"
+              "tag": "{loot_type:\"attribute_gear\", display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"text\\\":\\\"Lucky Diamond Boots\\\"}\"}}"
             },
             {
               "function": "set_attributes",

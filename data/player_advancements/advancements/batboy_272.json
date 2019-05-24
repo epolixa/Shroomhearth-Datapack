@@ -1,0 +1,22 @@
+{
+	"parent": "community:community_participator",
+	"display": {
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner:\"BatBoy_272\"}"
+		},
+		"title": "BatBoy_272",
+		"description": "Wear black dyed Leather Armor, Elytra, and a Wither Skeleton Skull",
+		"frame": "challenge"
+	},
+	"rewards": {
+		"loot": [
+			"player_advancements:batboy_272"
+		]
+	},
+	"criteria": {
+		"mined_blocks": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

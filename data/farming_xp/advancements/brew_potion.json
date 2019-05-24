@@ -1,0 +1,10 @@
+{
+	"criteria": {
+		"brew_potion": {
+			"trigger": "minecraft:brew_potion"
+		}
+	},
+	"rewards": {
+		"function": "farming_xp:brew_potion"
+	} 
+}

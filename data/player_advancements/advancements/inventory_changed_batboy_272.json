@@ -1,0 +1,28 @@
+{
+	"criteria": {
+		"inventory_changed_batboy_272": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:wither_skeleton_skull"
+					},
+					{
+						"item": "minecraft:elytra"
+					},
+					{
+						"item": "minecraft:leather_leggings",
+						"nbt": "{display:{color:000000}}"
+					},
+					{
+						"item": "minecraft:leather_boots",
+						"nbt": "{display:{color:000000}}"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "player_advancements:batboy_272"
+	} 
+}

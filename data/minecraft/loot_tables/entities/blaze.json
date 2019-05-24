@@ -1,4 +1,5 @@
 {
+    "type": "minecraft:entity",
     "pools": [
         {
             "rolls": 1,
@@ -6,7 +7,8 @@
                 {
                     "type": "item",
                     "name": "minecraft:blaze_rod",
-                    "weight": 1,
+                    "weight": 100,
+                    "quality": 2,
                     "functions": [
                         {
                             "function": "set_count",
@@ -53,7 +55,8 @@
                             "tag": "{display:{Name:\"{\\\"text\\\":\\\"Blaze Head\\\",\\\"italic\\\":false}\"},SkullOwner:\"MHF_Blaze\"}"
                         }
                     ],
-                    "weight": 1
+                    "weight": 100,
+                    "quality": 3
                 }
             ]
         }

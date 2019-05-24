@@ -10,37 +10,56 @@
                 {
                     "type": "loot_table",
                     "name": "minecraft:chests/simple_dungeon",
+                    "weight": 50,
                     "quality": 3
                 },
                 {
                     "type": "loot_table",
                     "name": "minecraft:chests/abandoned_mineshaft",
+                    "weight": 45,
                     "quality": 1
                 },
                 {
                     "type": "loot_table",
                     "name": "minecraft:chests/desert_pyramid",
+                    "weight": 35,
                     "quality": 2
                 },
                 {
                     "type": "loot_table",
                     "name": "minecraft:chests/igloo_chest",
+                    "weight": 40,
                     "quality": 1
                 },
                 {
                     "type": "loot_table",
                     "name": "minecraft:chests/jungle_temple",
+                    "weight": 35,
                     "quality": 2
                 },
                 {
                     "type": "loot_table",
                     "name": "minecraft:chests/stronghold_crossing",
+                    "weight": 30,
+                    "quality": 2
+                },
+                {
+                    "type": "loot_table",
+                    "name": "minecraft:chests/nether_bridge",
+                    "weight": 20,
                     "quality": 3
                 },
                 {
                     "type": "loot_table",
-                    "name": "minecraft:chests/village_blacksmith",
+                    "name": "minecraft:chests/pillager_outpost",
+                    "weight": 75,
                     "quality": 1
+                },
+                {
+                    "type": "loot_table",
+                    "name": "minecraft:chests/end_city_treasure",
+                    "weight": 5,
+                    "quality": 4
                 }
             ]
         }
