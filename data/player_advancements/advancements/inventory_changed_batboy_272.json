@@ -12,11 +12,11 @@
 					},
 					{
 						"item": "minecraft:leather_leggings",
-						"nbt": "{display:{color:000000}}"
+						"nbt": "{display:{color:1908001}}"
 					},
 					{
 						"item": "minecraft:leather_boots",
-						"nbt": "{display:{color:000000}}"
+						"nbt": "{display:{color:1908001}}"
 					}
 				]
 			}

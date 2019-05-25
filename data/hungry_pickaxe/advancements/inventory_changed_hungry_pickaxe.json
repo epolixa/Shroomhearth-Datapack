@@ -91,12 +91,12 @@
 				]
 			}
 		},
-		"lapis_lazuli_ore": {
+		"lapis_ore": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
 					{
-						"item": "minecraft:lapis_lazuli_ore"
+						"item": "minecraft:lapis_ore"
 					},
 					{
 						"nbt": "{relic:\"hungry_pickaxe\"}"
@@ -156,12 +156,12 @@
 				]
 			}
 		},
-		"nether_quartz": {
+		"quartz": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
 					{
-						"item": "minecraft:nether_quartz"
+						"item": "minecraft:quartz"
 					},
 					{
 						"nbt": "{relic:\"hungry_pickaxe\"}"
@@ -192,12 +192,12 @@
 			"redstone",
 			"redstone_ore",
 			"lapis_lazuli",
-			"lapis_lazuli_ore",
+			"lapis_ore",
 			"emerald",
 			"emerald_ore",
 			"diamond",
 			"diamond_ore",
-			"nether_quartz",
+			"quartz",
 			"nether_quartz_ore"
 		]
 	],
