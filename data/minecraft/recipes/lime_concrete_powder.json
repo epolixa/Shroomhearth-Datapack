@@ -1,21 +1,34 @@
 {
-  "type": "crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
   "group": "concrete_powder",
-  "key": {
-    "d": {
+  "ingredients": [
+    {
       "item": "minecraft:lime_dye"
     },
-    "g": {
-      "item": "minecraft:gravel"
+    {
+      "tag": "bityard:sand_concrete_mix"
     },
-    "s": {
-      "tag": "minecraft:sand"
+    {
+      "tag": "bityard:sand_concrete_mix"
+    },
+    {
+      "tag": "bityard:sand_concrete_mix"
+    },
+    {
+      "tag": "bityard:sand_concrete_mix"
+    },
+    {
+      "tag": "bityard:gravel_concrete_mix"
+    },
+    {
+      "tag": "bityard:gravel_concrete_mix"
+    },
+    {
+      "tag": "bityard:gravel_concrete_mix"
+    },
+    {
+      "tag": "bityard:gravel_concrete_mix"
     }
-  },
-  "pattern": [
-    "dss",
-    "ssg",
-    "ggg"
   ],
   "result": {
     "item": "minecraft:lime_concrete_powder",
