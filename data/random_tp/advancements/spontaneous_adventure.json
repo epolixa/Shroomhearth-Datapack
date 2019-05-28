@@ -1,5 +1,5 @@
 {
-	"parent": "community:community_portal",
+	"parent": "bityard:root",
 	"display": {
 		"icon": {
 			"item": "minecraft:chorus_fruit"

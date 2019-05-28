@@ -1,5 +1,5 @@
 {
-	"parent": "bityard:krsmas",
+	"parent": "krsmas:krsmas",
 	"display": {
 		"icon": {
 			"item": "minecraft:player_head",

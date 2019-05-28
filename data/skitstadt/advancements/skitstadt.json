@@ -1,0 +1,31 @@
+{
+	"parent": "bityard:root",
+	"display": {
+		"icon": {
+			"item": "minecraft:anvil"
+		},
+		"title": "Together, We Are Strong",
+		"description": "Visit Skitstadt",
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"visited_skitville": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"position": {
+					"x": {
+						"min": -5069,
+						"max": -5009
+					},
+					"z": {
+						"min": 1122,
+						"max": 1182
+					}
+				}
+			}
+		}
+	}
+}

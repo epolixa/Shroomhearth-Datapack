@@ -1,28 +1,28 @@
 {
-	"parent": "community:community_portal",
+	"parent": "bityard:root",
 	"display": {
 		"icon": {
-			"item": "minecraft:anvil"
+			"item": "minecraft:oak_sign"
 		},
-		"title": "Together, We Are Strong",
-		"description": "Visit Skitstadt",
+		"title": "Living Off the Land",
+		"description": "Visit Pelican Town",
 		"frame": "goal",
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false
 	},
 	"criteria": {
-		"visited_skitville": {
+		"visited_pelican_town": {
 			"trigger": "minecraft:location",
 			"conditions": {
 				"position": {
 					"x": {
-						"min": -5069,
-						"max": -5009
+						"min": 10000,
+						"max": 10000
 					},
 					"z": {
-						"min": 1122,
-						"max": 1182
+						"min": 10000,
+						"max": 10000
 					}
 				}
 			}

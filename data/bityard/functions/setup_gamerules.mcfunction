@@ -12,7 +12,7 @@ gamerule doWeatherCycle true
 gamerule keepInventory false
 gamerule logAdminCommands true
 gamerule maxCommandChainLength 65536
-gamerule maxEntityCramming 128
+gamerule maxEntityCramming 24
 gamerule mobGriefing true
 gamerule naturalRegeneration true
 gamerule randomTickSpeed 3

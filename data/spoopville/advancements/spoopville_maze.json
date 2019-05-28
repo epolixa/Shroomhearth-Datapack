@@ -1,5 +1,5 @@
 {
-	"parent": "bityard:spoopville",
+	"parent": "spoopville:spoopville",
   "display": {
 		"icon": {
 			"item": "minecraft:dark_oak_leaves"
