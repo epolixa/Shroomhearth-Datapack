@@ -3,8 +3,7 @@
 # main game loop commands that run every tick
 ################################################################
 
-# Reset  and recalculate flags and objectives every tick
-function bityard:reset_objectives
+# Recalculate flags and objectives every tick
 function bityard:calculate_objectives
 
 # Community - only run when more than one player is online
@@ -34,3 +33,6 @@ execute as @a[scores={etherealBonbon=1..}] at @s run function ethereal_bonbon:ma
 
 # Pegasus Cuirass - run as horses wearing it
 execute if entity @p as @e[type=horse,nbt={ArmorItem:{tag:{relic:"pegasus_cuirass"}}}] run function pegasus_cuirass:main
+
+# Reset objectives
+function bityard:reset_objectives
