@@ -1,0 +1,37 @@
+{
+	"parent": "pelican_town:pelican_town",
+	"display": {
+		"icon": {
+			"item": "minecraft:fishing_rod"
+		},
+		"title": "Willy's Apprentice",
+		"description": "Reel in something unusual at Pelican Town",
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"fished_item": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"entity": {
+					"type": "item", 
+					"nbt": "{Item:{id:\"minecraft:gold_ore\"}}",
+					"location": {
+						"position": {
+							"x": {
+								"min": 10000,
+								"max": 10000
+							},
+							"z": {
+								"min": -30000,
+								"max": -30000
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
