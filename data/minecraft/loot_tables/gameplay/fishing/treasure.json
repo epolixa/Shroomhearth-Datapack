@@ -62,6 +62,19 @@
                     "quality": 1
                 },
                 {
+                    "conditions": [
+                        {
+                            "condition": "minecraft:alternative",
+                            "terms": [
+                                {
+                                    "condition": "location_check",
+                                    "predicate": {
+                                        "biome": "deep_ocean"
+                                    }
+                                }
+                            ]
+                        }
+                    ],
                     "type": "item",
                     "name": "minecraft:trident",
                     "weight": 1,
@@ -115,6 +128,19 @@
                     ]
                 },
                 {
+                    "conditions": [
+                        {
+                            "condition": "minecraft:alternative",
+                            "terms": [
+                                {
+                                    "condition": "location_check",
+                                    "predicate": {
+                                        "biome": "deep_ocean"
+                                    }
+                                }
+                            ]
+                        }
+                    ],
                     "type": "item",
                     "name": "minecraft:nautilus_shell",
                     "weight": 1,

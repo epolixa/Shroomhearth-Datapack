@@ -1,9 +1,0 @@
-{
-    "replace": false,
-    "values": [
-        "minecraft:player",
-        "minecraft:wolf",
-        "minecraft:cat",
-        "minecraft:villager"
-    ]
-}

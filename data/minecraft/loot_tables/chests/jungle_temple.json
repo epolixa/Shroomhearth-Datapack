@@ -1,23 +1,6 @@
 {
     "pools": [
         {
-            "rolls": 1,
-            "bonus_rolls": 1,
-            "entries": [
-                {
-                    "type": "loot_table",
-                    "name": "bityard:relics",
-                    "weight": 1,
-                    "quality": 2
-                },
-                {
-                    "type": "minecraft:empty",
-                    "weight": 100,
-                    "quality": 0
-                }
-            ]
-        },
-        {
             "rolls": {
                 "min": 2,
                 "max": 6

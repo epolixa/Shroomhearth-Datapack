@@ -18,18 +18,6 @@
                 },
                 {
                     "type": "loot_table",
-                    "name": "bityard:attribute_gear/iron",
-                    "weight": 15,
-                    "quality": 3
-                },
-                {
-                    "type": "loot_table",
-                    "name": "bityard:attribute_gear/golden",
-                    "weight": 10,
-                    "quality": 3
-                },
-                {
-                    "type": "loot_table",
                     "name": "bityard:attribute_gear/diamond",
                     "weight": 5,
                     "quality": 3
@@ -60,24 +48,6 @@
                 },
                 {
                     "type": "loot_table",
-                    "name": "bityard:mob_eggs_overworld",
-                    "weight": 10,
-                    "quality": 3
-                },
-                {
-                    "type": "loot_table",
-                    "name": "bityard:mob_eggs_nether",
-                    "weight": 10,
-                    "quality": 3
-                },
-                {
-                    "type": "loot_table",
-                    "name": "bityard:mob_eggs_end",
-                    "weight": 10,
-                    "quality": 3
-                },
-                {
-                    "type": "loot_table",
                     "name": "bityard:records",
                     "weight": 15,
                     "quality": 3
@@ -85,12 +55,6 @@
                 {
                     "type": "loot_table",
                     "name": "bityard:decor_skulls",
-                    "weight": 15,
-                    "quality": 3
-                },
-                {
-                    "type": "loot_table",
-                    "name": "bityard:trading_cards",
                     "weight": 15,
                     "quality": 3
                 },
@@ -237,6 +201,19 @@
                 {
                     "type": "item",
                     "name": "minecraft:trident",
+                    "weight": 5,
+                    "quality": 3,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": 30
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:crossbow",
                     "weight": 5,
                     "quality": 3,
                     "functions": [

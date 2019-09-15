@@ -12,8 +12,8 @@ function end_crystal_ward:setup
 function multi_sleep:setup
 function drop_item:setup
 function farming_xp:setup
-function voxel_socks:setup
-function ethereal_bonbon:setup
+#function voxel_socks:setup
+#function ethereal_bonbon:setup
 function player_advancements:setup
 function color_names:setup
 function stat_display:setup

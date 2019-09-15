@@ -1,9 +1,0 @@
-# check for mined ore stats
-execute as @s[scores={hungryCoal=1..}] run function hungry_pickaxe:mine_coal
-execute as @s[scores={hungryIron=1..}] run function hungry_pickaxe:mine_iron
-execute as @s[scores={hungryGold=1..}] run function hungry_pickaxe:mine_gold
-execute as @s[scores={hungryRedstone=1..}] run function hungry_pickaxe:mine_redstone
-execute as @s[scores={hungryLapis=1..}] run function hungry_pickaxe:mine_lapis
-execute as @s[scores={hungryEmerald=1..}] run function hungry_pickaxe:mine_emerald
-execute as @s[scores={hungryDiamond=1..}] run function hungry_pickaxe:mine_diamond
-execute as @s[scores={hungryQuartz=1..}] run function hungry_pickaxe:mine_quartz

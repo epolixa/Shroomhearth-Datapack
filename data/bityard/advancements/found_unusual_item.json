@@ -13,16 +13,6 @@
 		"hidden": false
 	},
 	"criteria": {
-		"found_relic": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"nbt":"{loot_type:\"relic\"}"
-					}
-				]
-			}
-		},
 		"found_overenchanted_gear": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
@@ -56,7 +46,6 @@
 	},
 	"requirements": [
 		[
-			"found_relic",
 			"found_overenchanted_gear",
 			"found_attribute_gear",
 			"found_super_potion"
