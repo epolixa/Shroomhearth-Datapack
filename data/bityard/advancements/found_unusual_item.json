@@ -3,7 +3,7 @@
 	"display": {
 		"icon": {
 			"item": "minecraft:cookie",
-			"nbt": "{loot_type: \"relic\", relic: \"everlasting_cookie\", Enchantments:[{id:\"minecraft:lure\"}], HideFlags: 1, display:{Name: \"{\\\"italic\\\":\\\"false\\\", \\\"color\\\":\\\"light_purple\\\", \\\"text\\\":\\\"Everlasting Cookie\\\"}\", Lore: [\"{\\\"italic\\\":\\\"false\\\", \\\"color\\\":\\\"gray\\\", \\\"text\\\":\\\"When eaten:\\\"}\",\"{\\\"italic\\\":\\\"false\\\", \\\"color\\\":\\\"dark_purple\\\", \\\"text\\\":\\\" +1 Everlasting Cookie\\\"}\"]}}"
+			"nbt": "{loot_type:\"gear_variant\",CustomModelData:1,display:{Name:\"{\\\"italic\\\":\\\"false\\\",\\\"text\\\":\\\"Diamond Scimitar\\\"}\"}}"
 		},
 		"title": "Treasure Trove",
 		"description": "Find an unusual item",
@@ -33,6 +33,16 @@
 				]
 			}
 		},
+		"found_gear_variant": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"nbt":"{loot_type:\"gear_variant\"}"
+					}
+				]
+			}
+		},
 		"found_super_potion": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
@@ -46,6 +56,7 @@
 	},
 	"requirements": [
 		[
+			"found_gear_variant",
 			"found_overenchanted_gear",
 			"found_attribute_gear",
 			"found_super_potion"

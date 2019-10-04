@@ -1,0 +1,29 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:diamond_sword",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{loot_type:\"gear_variant\",CustomModelData:1,display:{Name:\"{\\\"italic\\\":\\\"false\\\",\\\"text\\\":\\\"Diamond Scimitar\\\"}\"}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:diamond_sword",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{loot_type:\"gear_variant\",CustomModelData:2,display:{Name:\"{\\\"italic\\\":\\\"false\\\",\\\"text\\\":\\\"Diamond Rapier\\\"}\"}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
