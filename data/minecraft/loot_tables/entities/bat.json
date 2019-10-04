@@ -17,7 +17,7 @@
             },
             {
             	"function": "minecraft:set_nbt",
-            	"tag": "{display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"text\\\":\\\"Bat Wing\\\"}\"}, CustomModelData:1}"
+            	"tag": "{display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"translate\\\":\\\"item.minecraft.bat_wing\\\"}\"}, CustomModelData:1}"
             }
           ],
           "name": "minecraft:rabbit_hide"
