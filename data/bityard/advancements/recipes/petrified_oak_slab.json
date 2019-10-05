@@ -35,7 +35,8 @@
   },
   "requirements": [
     [
-      "has_ingredient",
+      "has_oak_log",
+      "has_stone_slab",
       "has_recipe"
     ]
   ]
