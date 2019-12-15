@@ -5,23 +5,15 @@
 			"item": "minecraft:end_crystal"
 		},
 		"title": "Mob Zapper",
-		"description": "Place an End Crystal in the Overworld",
+		"description": "Use an End Crystal to ward a mob",
 		"frame": "task",
 	"show_toast": true,
 	"announce_to_chat": true,
 	"hidden": false
 	},
 	"criteria": {
-		"place_crystal": {
-			"trigger": "minecraft:placed_block",
-			"conditions": {
-				"item": {
-					"item": "minecraft:end_crystal"
-				},
-				"location": {
-					"dimension": "overworld"
-				}
-			}
+		"zap_mob": {
+			"trigger": "minecraft:impossible"
 		}
 	}
 }
