@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "bityard:mob_heads/experience_from_mob_head"
+    ]
+  },
+  "criteria": {
+    "has_head": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "bityard:mob_head"
+          }
+        ]
+      }
+    },
+    "has_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "bityard:mob_heads/experience_from_mob_head"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_head",
+      "has_recipe"
+    ]
+  ]
+}
