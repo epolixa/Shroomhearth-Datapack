@@ -57,7 +57,7 @@
 		"minecraft:glistering_melon_slice",
 
 		"minecraft:cooked_cod",
-		"minecraft:bucket_of_cod",
+		"minecraft:cod_bucket",
 		"minecraft:cooked_salmon",
 		"minecraft:campfire",
 		"minecraft:fishing_rod",
@@ -68,9 +68,9 @@
 		"minecraft:crossbow",
 		"minecraft:tipped_arrow",
 
-		"minecraft:leather_pants",
-		"minecraft:leather_tunic",
-		"minecraft:leather_cap",
+		"minecraft:leather_leggings",
+		"minecraft:leather_chestplate",
+		"minecraft:leather_helmet",
 		"minecraft:leather_boots",
 		"minecraft:leather_horse_armor",
 		"minecraft:saddle",
