@@ -30,7 +30,8 @@
 							"min": 74,
 							"max": 126
 						}
-					}
+					},
+					"dimension": "overworld"
 				}
 			}
 		}

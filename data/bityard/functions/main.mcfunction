@@ -25,7 +25,7 @@ execute as @a[gamemode=survival,scores={playerHealth=1..10}] run function stat_d
 execute if entity @p run function end_crystal_ward:main
 
 # Wandering Trader announcement - run if a new wandering trader appears
-execute if entity @p as @e[type=wandering_trader,tag=!announced] at @s run function boss_announcements:wandering_trader
+execute if entity @p as @e[type=wandering_trader,tag=!announced] at @s run function wandering_trader:wandering_trader
 
 # Voxel Socks - run as players wearing item and run as tagged platform entities
 #execute as @a[nbt={Inventory: [{Slot:100b, tag:{relic:"voxel_socks"}}]}] at @s run function voxel_socks:players

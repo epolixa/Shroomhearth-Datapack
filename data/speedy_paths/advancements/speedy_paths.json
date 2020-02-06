@@ -4,7 +4,7 @@
 		"icon": {
 			"item": "minecraft:grass_path"
 		},
-		"title": "A Path Well Traveled",
+		"title": "Well Traveled",
 		"description": "Gain Speed on a Grass Path",
 		"frame": "task",
 		"show_toast": true,

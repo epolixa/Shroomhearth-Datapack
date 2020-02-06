@@ -1,5 +1,5 @@
 {
-  "parent": "bityard:root",
+  "parent": "end_crystal_ward:end_crystal_ward",
   "display": {
 		"icon": {
 			"item": "minecraft:creeper_head"

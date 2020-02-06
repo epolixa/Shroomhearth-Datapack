@@ -1,5 +1,5 @@
 {
-	"parent": "bityard:root",
+	"parent": "wandering_trader:exotic_wares",
 	"display": {
 		"icon": {
 			"item": "minecraft:chorus_fruit"
@@ -12,7 +12,7 @@
 		"hidden": false
 	},
 	"criteria": {
-		"multi_sleep": {
+		"impossible": {
 			"trigger": "minecraft:impossible"
 		}
 	}
