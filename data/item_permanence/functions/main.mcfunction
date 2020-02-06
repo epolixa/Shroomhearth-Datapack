@@ -45,4 +45,4 @@ tag @e[type=minecraft:item,nbt={Item:{id:"minecraft:black_shulker_box"}}] add eq
 execute as @e[type=minecraft:item,tag=equipment] if data entity @s Item.tag.display.Name run function item_permanence:reset_item
 
 # re-schedule
-schedule function item_permanence:main 8s
+schedule function item_permanence:main 6s
