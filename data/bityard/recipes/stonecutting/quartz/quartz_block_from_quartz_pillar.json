@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:smooth_pillar"
+  },
+  "result": "minecraft:quartz_block",
+  "count": 1
+}
