@@ -2,8 +2,8 @@
   "type": "minecraft:stonecutting",
   "group": "nether_brick",
   "ingredient": {
-    "item": "minecraft:nether_brick_fence"
+    "item": "minecraft:nether_brick_wall"
   },
   "result": "minecraft:nether_brick",
-  "count": 3
+  "count": 4
 }
