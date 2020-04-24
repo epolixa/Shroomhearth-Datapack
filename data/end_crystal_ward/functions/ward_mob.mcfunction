@@ -10,5 +10,5 @@ data merge entity @s {DeathTime:19, HandItems:[], DeathLootTable:"minecraft:empt
 # this kills the mob instantly
 kill @s
 
-# grant advancement to nearby players
-advancement grant @p[distance=..48] only end_crystal_ward:end_crystal_ward
+# grant advancement to players near enough to witness the madness
+advancement grant @p[distance=..20] only end_crystal_ward:end_crystal_ward
