@@ -13,9 +13,9 @@
     }
   },
   "pattern": [
-    "s/",
+    "s/ ",
     "sd/",
-    "s/"
+    "s/ "
   ],
   "result": {
     "item": "minecraft:dispenser"
