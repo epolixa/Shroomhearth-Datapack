@@ -16,14 +16,14 @@
               "function": "set_attributes",
               "modifiers": [
                 {
-                  "attribute": "generic.attackSpeed",
+                  "attribute": "generic.attack_speed",
                   "name": "Attack Speed",
                   "amount": -2.4,
                   "operation": "addition",
                   "slot": "mainhand"
                 },
                 {
-                  "attribute": "generic.attackDamage",
+                  "attribute": "generic.attack_damage",
                   "name": "Attack Damage",
                   "amount": 7.0,
                   "operation": "addition",
@@ -46,14 +46,14 @@
               "function": "set_attributes",
               "modifiers": [
                 {
-                  "attribute": "generic.attackSpeed",
+                  "attribute": "generic.attack_speed",
                   "name": "Attack Speed",
                   "amount": -2.8,
                   "operation": "addition",
                   "slot": "mainhand"
                 },
                 {
-                  "attribute": "generic.attackDamage",
+                  "attribute": "generic.attack_damage",
                   "name": "Attack Damage",
                   "amount": 5.0,
                   "operation": "addition",
@@ -76,14 +76,14 @@
               "function": "set_attributes",
               "modifiers": [
                 {
-                  "attribute": "generic.attackSpeed",
+                  "attribute": "generic.attack_speed",
                   "name": "Attack Speed",
                   "amount": -3.0,
                   "operation": "addition",
                   "slot": "mainhand"
                 },
                 {
-                  "attribute": "generic.attackDamage",
+                  "attribute": "generic.attack_damage",
                   "name": "Attack Damage",
                   "amount": 9.0,
                   "operation": "addition",
@@ -106,14 +106,14 @@
               "function": "set_attributes",
               "modifiers": [
                 {
-                  "attribute": "generic.attackSpeed",
+                  "attribute": "generic.attack_speed",
                   "name": "Attack Speed",
                   "amount": -3.0,
                   "operation": "addition",
                   "slot": "mainhand"
                 },
                 {
-                  "attribute": "generic.attackDamage",
+                  "attribute": "generic.attack_damage",
                   "name": "Attack Damage",
                   "amount": 5.5,
                   "operation": "addition",
@@ -136,7 +136,7 @@
               "function": "set_attributes",
               "modifiers": [
                 {
-                  "attribute": "generic.attackDamage",
+                  "attribute": "generic.attack_damage",
                   "name": "Attack Damage",
                   "amount": 1.0,
                   "operation": "addition",

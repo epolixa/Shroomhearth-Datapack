@@ -4,15 +4,15 @@
 	CanPickUpLoot:0b,
 	Attributes:[
 		{
-			Name:"generic.followRange",
+			Name:"generic.follow_range‌",
 			Base:113
 		},
 		{
-			Name:"generic.knockbackResistance",
+			Name:"generic.knockback_resistance",
 			Base:1f
 		},
 		{
-			Name:"generic.movementSpeed",
+			Name:"generic.movement_speed",
 			Base:0.3f
 		}
 	],

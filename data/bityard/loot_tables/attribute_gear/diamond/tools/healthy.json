@@ -16,21 +16,21 @@
               "function": "set_attributes",
               "modifiers": [
                 {
-                  "attribute": "generic.attackSpeed",
+                  "attribute": "generic.attack_speed",
                   "name": "Attack Speed",
                   "amount": -2.4,
                   "operation": "addition",
                   "slot": "mainhand"
                 },
                 {
-                  "attribute": "generic.attackDamage",
+                  "attribute": "generic.attack_damage",
                   "name": "Attack Damage",
                   "amount": 6.0,
                   "operation": "addition",
                   "slot": "mainhand"
                 },
                 {
-                  "attribute": "generic.maxHealth",
+                  "attribute": "generic.max_health",
                   "name": "Max Health",
                   "amount": 2.0,
                   "operation": "addition",
@@ -53,21 +53,21 @@
               "function": "set_attributes",
               "modifiers": [
                 {
-                  "attribute": "generic.attackSpeed",
+                  "attribute": "generic.attack_speed",
                   "name": "Attack Speed",
                   "amount": -2.8,
                   "operation": "addition",
                   "slot": "mainhand"
                 },
                 {
-                  "attribute": "generic.attackDamage",
+                  "attribute": "generic.attack_damage",
                   "name": "Attack Damage",
                   "amount": 4.0,
                   "operation": "addition",
                   "slot": "mainhand"
                 },
                 {
-                  "attribute": "generic.maxHealth",
+                  "attribute": "generic.max_health",
                   "name": "Max Health",
                   "amount": 2.0,
                   "operation": "addition",
@@ -90,21 +90,21 @@
               "function": "set_attributes",
               "modifiers": [
                 {
-                  "attribute": "generic.attackSpeed",
+                  "attribute": "generic.attack_speed",
                   "name": "Attack Speed",
                   "amount": -3.0,
                   "operation": "addition",
                   "slot": "mainhand"
                 },
                 {
-                  "attribute": "generic.attackDamage",
+                  "attribute": "generic.attack_damage",
                   "name": "Attack Damage",
                   "amount": 8.0,
                   "operation": "addition",
                   "slot": "mainhand"
                 },
                 {
-                  "attribute": "generic.maxHealth",
+                  "attribute": "generic.max_health",
                   "name": "Max Health",
                   "amount": 2.0,
                   "operation": "addition",
@@ -127,21 +127,21 @@
               "function": "set_attributes",
               "modifiers": [
                 {
-                  "attribute": "generic.attackSpeed",
+                  "attribute": "generic.attack_speed",
                   "name": "Attack Speed",
                   "amount": -3.0,
                   "operation": "addition",
                   "slot": "mainhand"
                 },
                 {
-                  "attribute": "generic.attackDamage",
+                  "attribute": "generic.attack_damage",
                   "name": "Attack Damage",
                   "amount": 4.5,
                   "operation": "addition",
                   "slot": "mainhand"
                 },
                 {
-                  "attribute": "generic.maxHealth",
+                  "attribute": "generic.max_health",
                   "name": "Max Health",
                   "amount": 2.0,
                   "operation": "addition",
@@ -164,7 +164,7 @@
               "function": "set_attributes",
               "modifiers": [
                 {
-                  "attribute": "generic.maxHealth",
+                  "attribute": "generic.max_health",
                   "name": "Max Health",
                   "amount": 2.0,
                   "operation": "addition",

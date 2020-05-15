@@ -1,11 +1,51 @@
 {
   "pools": [
     {
-      "rolls": 16,
+      "rolls": 1,
       "entries": [
         {
-          "type": "loot_table",
-          "name": "minecraft:chests/simple_dungeon"
+          "type": "item",
+          "name": "minecraft:diamond_sword",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{loot_type:\"attribute_gear\", HideFlags: 2}"
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "generic.attack_speed",
+                  "name": "Attack Speed",
+                  "amount": -2.4,
+                  "operation": "addition",
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "generic.attack_damage",
+                  "name": "Attack Damage",
+                  "amount": 6.0,
+                  "operation": "addition",
+                  "slot": "mainhand"
+                },
+                {
+                  "attribute": "generic.max_health",
+                  "name": "Max Health",
+                  "amount": 2.0,
+                  "operation": "addition",
+                  "slot": "mainhand"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {"text": "When in main hand:"},
+                {"text": " 7 Attack Damage"}
+              ]
+            }
+          ]
         }
       ]
     }

@@ -23,7 +23,7 @@
                   "slot": "head"
                 },
                 {
-                  "attribute": "generic.armorToughness",
+                  "attribute": "generic.armor_toughness",
                   "name": "Armor Toughness",
                   "amount": 2.0,
                   "operation": "addition",
@@ -60,7 +60,7 @@
                   "slot": "chest"
                 },
                 {
-                  "attribute": "generic.armorToughness",
+                  "attribute": "generic.armor_toughness",
                   "name": "Armor Toughness",
                   "amount": 2.0,
                   "operation": "addition",
@@ -97,7 +97,7 @@
                   "slot": "legs"
                 },
                 {
-                  "attribute": "generic.armorToughness",
+                  "attribute": "generic.armor_toughness",
                   "name": "Armor Toughness",
                   "amount": 2.0,
                   "operation": "addition",
@@ -134,7 +134,7 @@
                   "slot": "feet"
                 },
                 {
-                  "attribute": "generic.armorToughness",
+                  "attribute": "generic.armor_toughness",
                   "name": "Armor Toughness",
                   "amount": 2.0,
                   "operation": "addition",
