@@ -5,35 +5,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "bityard:gear_variants/tools/axe"
-        },
-        {
-          "type": "loot_table",
-          "name": "bityard:gear_variants/tools/bow"
-        },
-        {
-          "type": "loot_table",
-          "name": "bityard:gear_variants/tools/fishing_rod"
-        },
-        {
-          "type": "loot_table",
-          "name": "bityard:gear_variants/tools/hoe"
-        },
-        {
-          "type": "loot_table",
-          "name": "bityard:gear_variants/tools/pickaxe"
-        },
-        {
-          "type": "loot_table",
-          "name": "bityard:gear_variants/tools/shovel"
-        },
-        {
-          "type": "loot_table",
           "name": "bityard:gear_variants/tools/sword"
-        },
-        {
-          "type": "loot_table",
-          "name": "bityard:gear_variants/tools/trident"
         }
       ]
     }
