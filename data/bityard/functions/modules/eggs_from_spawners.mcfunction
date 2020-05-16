@@ -8,7 +8,7 @@ execute at @s[nbt={Item: {tag: {BlockEntityTag: {SpawnData: {id: "minecraft:spid
 execute at @s[nbt={Item: {tag: {BlockEntityTag: {SpawnData: {id: "minecraft:cave_spider"}}}}}] run summon minecraft:item ~ ~ ~ {Item:{id:"minecraft:cave_spider_spawn_egg", Count:1b}, PickupDelay:10}
 execute at @s[nbt={Item: {tag: {BlockEntityTag: {SpawnData: {id: "minecraft:silverfish"}}}}}] run summon minecraft:item ~ ~ ~ {Item:{id:"minecraft:silverfish_spawn_egg", Count:1b}, PickupDelay:10}
 execute at @s[nbt={Item: {tag: {BlockEntityTag: {SpawnData: {id: "minecraft:blaze"}}}}}] run summon minecraft:item ~ ~ ~ {Item:{id:"minecraft:blaze_spawn_egg", Count:1b}, PickupDelay:10}
-
+execute at @s[nbt={Item: {tag: {BlockEntityTag: {SpawnData: {id: "minecraft:magma_cube"}}}}}] run summon minecraft:item ~ ~ ~ {Item:{id:"minecraft:magma_cube_spawn_egg", Count:1b}, PickupDelay:10}
 
 # remove any unnatural (other) spawner item entities
 kill @s
