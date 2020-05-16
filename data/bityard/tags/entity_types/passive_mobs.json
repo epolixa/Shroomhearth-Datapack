@@ -23,6 +23,7 @@
         "minecraft:turtle",
         "minecraft:tropical_fish",
         "minecraft:villager",
-        "minecraft:wandering_trader"
+        "minecraft:wandering_trader",
+        "minecraft:strider"
     ]
 }

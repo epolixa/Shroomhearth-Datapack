@@ -9,6 +9,7 @@
         "minecraft:trader_llama",
         "minecraft:wolf",
         "minecraft:enderman",
+        "minecraft:piglin",
         "minecraft:zombified_piglin"
     ]
 }

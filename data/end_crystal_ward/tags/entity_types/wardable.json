@@ -1,22 +1,22 @@
 {
     "replace": false,
     "values": [
-        "minecraft:zombie",
-        "minecraft:husk",
-        "minecraft:drowned",
-        "minecraft:zombie_villager",
-        "minecraft:skeleton",
-        "minecraft:stray",
-        "minecraft:creeper",
-        "minecraft:spider",
-        "minecraft:cave_spider",
-        "minecraft:silverfish",
-        "minecraft:slime",
-        "minecraft:witch",
-        "minecraft:phantom",
-        "minecraft:ghast",
-        "minecraft:magma_cube",
         "minecraft:blaze",
-        "minecraft:wither_skeleton"
+        "minecraft:creeper",
+        "minecraft:drowned",
+        "minecraft:ghast",
+        "minecraft:husk",
+        "minecraft:magma_cube",
+        "minecraft:phantom",
+        "minecraft:silverfish",
+        "minecraft:skeleton",
+        "minecraft:slime",
+        "minecraft:stray",
+        "minecraft:witch",
+        "minecraft:wither_skeleton",
+        "minecraft:zombie",
+        "minecraft:zombie_villager",
+        "minecraft:hoglin",
+        "minecraft:zoglin"
     ]
 }
