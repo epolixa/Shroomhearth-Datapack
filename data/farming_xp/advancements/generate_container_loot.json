@@ -1,0 +1,291 @@
+{
+  "criteria": {
+    "loot_village_armorer": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/village/village_armorer"
+      }
+    },
+    "loot_village_butcher": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/village/village_butcher"
+      }
+    },
+    "loot_village_cartographer": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/village/village_cartographer"
+      }
+    },
+    "loot_village_desert_house": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/village/village_desert_house"
+      }
+    },
+    "loot_village_fisher": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/village/village_fisher"
+      }
+    },
+    "loot_village_fletcher": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/village/village_fletcher"
+      }
+    },
+    "loot_village_mason": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/village/village_mason"
+      }
+    },
+    "loot_village_plains_house": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/village/village_plains_house"
+      }
+    },
+    "loot_village_savanna_house": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/village/village_savanna_house"
+      }
+    },
+    "loot_village_shepherd": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/village/village_shepherd"
+      }
+    },
+    "loot_village_snowy_house": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/village/village_snowy_house"
+      }
+    },
+    "loot_village_taiga_house": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/village/village_taiga_house"
+      }
+    },
+    "loot_village_tannery": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/village/village_tannery"
+      }
+    },
+    "loot_village_temple": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/village/village_temple"
+      }
+    },
+    "loot_village_toolsmith": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/village/village_toolsmith"
+      }
+    },
+    "loot_village_weaponsmith": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/village/village_weaponsmith"
+      }
+    },
+    "loot_abandoned_mineshaft": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/abandoned_mineshaft"
+      }
+    },
+    "loot_bastion_other": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/bastion_other"
+      }
+    },
+    "loot_bastion_treasure": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/bastion_treasure"
+      }
+    },
+    "loot_bastion_hoglin_stable": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/bastion_hoglin_stable"
+      }
+    },
+    "loot_bastion_bridge": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/bastion_bridge"
+      }
+    },
+    "loot_buried_treasure": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/buried_treasure"
+      }
+    },
+    "loot_desert_pyramid": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/desert_pyramid"
+      }
+    },
+    "loot_end_city_treasure": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/end_city_treasure"
+      }
+    },
+    "loot_igloo_chest": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/igloo_chest"
+      }
+    },
+    "loot_jungle_temple": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/jungle_temple"
+      }
+    },
+    "loot_jungle_temple_dispenser": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/jungle_temple_dispenser"
+      }
+    },
+    "loot_nether_bridge": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/nether_bridge"
+      }
+    },
+    "loot_pillager_outpost": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/pillager_outpost"
+      }
+    },
+    "loot_ruined_portal": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/ruined_portal"
+      }
+    },
+    "loot_shipwreck_map": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/shipwreck_map"
+      }
+    },
+    "loot_shipwreck_supply": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/shipwreck_supply"
+      }
+    },
+    "loot_shipwreck_treasure": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/shipwreck_treasure"
+      }
+    },
+    "loot_simple_dungeon": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/simple_dungeon"
+      }
+    },
+    "loot_stronghold_corridor": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/stronghold_corridor"
+      }
+    },
+    "loot_stronghold_crossing": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/stronghold_crossing"
+      }
+    },
+    "loot_stronghold_library": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/stronghold_library"
+      }
+    },
+    "loot_underwater_ruin_big": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/underwater_ruin_big"
+      }
+    },
+    "loot_underwater_ruin_small": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/underwater_ruin_small"
+      }
+    },
+    "loot_woodland_mansion": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/woodland_mansion"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "loot_village_armorer",
+      "loot_village_butcher",
+      "loot_village_cartographer",
+      "loot_village_desert_house",
+      "loot_village_fisher",
+      "loot_village_fletcher",
+      "loot_village_mason",
+      "loot_village_plains_house",
+      "loot_village_savanna_house",
+      "loot_village_shepherd",
+      "loot_village_snowy_house",
+      "loot_village_taiga_house",
+      "loot_village_tannery",
+      "loot_village_temple",
+      "loot_village_toolsmith",
+      "loot_village_weaponsmith",
+      "loot_abandoned_mineshaft",
+      "loot_bastion_other",
+      "loot_bastion_treasure",
+      "loot_bastion_hoglin_stable",
+      "loot_bastion_bridge",
+      "loot_buried_treasure",
+      "loot_desert_pyramid",
+      "loot_end_city_treasure",
+      "loot_igloo_chest",
+      "loot_jungle_temple",
+      "loot_jungle_temple_dispenser",
+      "loot_nether_bridge",
+      "loot_pillager_outpost",
+      "loot_ruined_portal",
+      "loot_shipwreck_map",
+      "loot_shipwreck_supply",
+      "loot_shipwreck_treasure",
+      "loot_simple_dungeon",
+      "loot_stronghold_corridor",
+      "loot_stronghold_crossing",
+      "loot_stronghold_library",
+      "loot_underwater_ruin_big",
+      "loot_underwater_ruin_small",
+      "loot_woodland_mansion"
+    ]
+  ],
+  "rewards": {
+    "function": "farming_xp:generate_container_loot"
+  } 
+}
