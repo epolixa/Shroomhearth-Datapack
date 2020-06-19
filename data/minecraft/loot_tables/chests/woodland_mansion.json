@@ -1,67 +1,373 @@
 {
-    "pools": [
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 1.0,
+        "max": 3.0,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
         {
-            "rolls": {
-                "min": 1,
-                "max": 3
-            },
-            "bonus_rolls": 1,
-            "entries": [
-                {
-                    "type": "loot_table",
-                    "name": "minecraft:chests/simple_dungeon",
-                    "weight": 50,
-                    "quality": 3
-                },
-                {
-                    "type": "loot_table",
-                    "name": "minecraft:chests/abandoned_mineshaft",
-                    "weight": 45,
-                    "quality": 1
-                },
-                {
-                    "type": "loot_table",
-                    "name": "minecraft:chests/desert_pyramid",
-                    "weight": 35,
-                    "quality": 2
-                },
-                {
-                    "type": "loot_table",
-                    "name": "minecraft:chests/igloo_chest",
-                    "weight": 40,
-                    "quality": 1
-                },
-                {
-                    "type": "loot_table",
-                    "name": "minecraft:chests/jungle_temple",
-                    "weight": 35,
-                    "quality": 2
-                },
-                {
-                    "type": "loot_table",
-                    "name": "minecraft:chests/stronghold_crossing",
-                    "weight": 30,
-                    "quality": 2
-                },
-                {
-                    "type": "loot_table",
-                    "name": "minecraft:chests/nether_bridge",
-                    "weight": 20,
-                    "quality": 3
-                },
-                {
-                    "type": "loot_table",
-                    "name": "minecraft:chests/pillager_outpost",
-                    "weight": 75,
-                    "quality": 1
-                },
-                {
-                    "type": "loot_table",
-                    "name": "minecraft:chests/end_city_treasure",
-                    "weight": 5,
-                    "quality": 4
-                }
-            ]
+          "type": "minecraft:item",
+          "weight": 20,
+          "quality": 2,
+          "name": "minecraft:lead"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "quality": 3,
+          "name": "minecraft:golden_apple"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "quality": 4,
+          "name": "minecraft:enchanted_golden_apple"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "quality": 4,
+          "name": "minecraft:music_disc_13"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "quality": 4,
+          "name": "minecraft:music_disc_cat"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "quality": 2,
+          "name": "minecraft:name_tag"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": 3,
+          "name": "minecraft:chainmail_chestplate"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "quality": 3,
+          "name": "minecraft:diamond_hoe"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "quality": 3,
+          "name": "minecraft:diamond_chestplate"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": 3,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly"
+            }
+          ],
+          "name": "minecraft:book"
         }
-    ]
+      ]
+    },
+    {
+      "rolls": {
+        "min": 1.0,
+        "max": 4.0,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 4.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:iron_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "quality": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 4.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:gold_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "quality": 1,
+          "name": "minecraft:bread"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 4.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:wheat"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": 2,
+          "name": "minecraft:bucket"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "quality": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 4.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:redstone"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "quality": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 4.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:coal"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2.0,
+                "max": 4.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:melon_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2.0,
+                "max": 4.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:pumpkin_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2.0,
+                "max": 4.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:beetroot_seeds"
+        }
+      ]
+    },
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 8.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:bone"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 8.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:gunpowder"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 8.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:rotten_flesh"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 8.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:string"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "minecraft:chests/abandoned_mineshaft",
+          "weight": 100
+        },
+        {
+          "type": "loot_table",
+          "name": "bityard:structures/bastion",
+          "weight": 100
+        },
+        {
+          "type": "loot_table",
+          "name": "minecraft:chests/buried_treasure",
+          "weight": 100
+        },
+        {
+          "type": "loot_table",
+          "name": "minecraft:chests/desert_pyramid",
+          "weight": 100
+        },
+        {
+          "type": "loot_table",
+          "name": "minecraft:chests/end_city_treasure",
+          "weight": 100
+        },
+        {
+          "type": "loot_table",
+          "name": "minecraft:chests/igloo_chest",
+          "weight": 100
+        },
+        {
+          "type": "loot_table",
+          "name": "bityard:structures/jungle",
+          "weight": 100
+        },
+        {
+          "type": "loot_table",
+          "name": "minecraft:chests/nether_bridge",
+          "weight": 100
+        },
+        {
+          "type": "loot_table",
+          "name": "minecraft:chests/pillager_outpost",
+          "weight": 100
+        },
+        {
+          "type": "loot_table",
+          "name": "minecraft:chests/ruined_portal",
+          "weight": 100
+        },
+        {
+          "type": "loot_table",
+          "name": "bityard:structures/shipwreck",
+          "weight": 100
+        },
+        {
+          "type": "loot_table",
+          "name": "minecraft:chests/simple_dungeon",
+          "weight": 100
+        },
+        {
+          "type": "loot_table",
+          "name": "bityard:structures/stronghold",
+          "weight": 100
+        },
+        {
+          "type": "loot_table",
+          "name": "bityard:structures/underwater_ruin",
+          "weight": 100
+        }
+      ]
+    }
+  ]
 }
