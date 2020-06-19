@@ -164,6 +164,36 @@
 					}
 				]
 			}
+		},
+		"crimson_nylium": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item":"minecraft:crimson_nylium"
+					}
+				]
+			}
+		},
+		"crimson_stem": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item":"minecraft:crimson_stem"
+					}
+				]
+			}
+		},
+		"crimson_hyphae": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item":"minecraft:crimson_hyphae"
+					}
+				]
+			}
 		}
 	}
 }
