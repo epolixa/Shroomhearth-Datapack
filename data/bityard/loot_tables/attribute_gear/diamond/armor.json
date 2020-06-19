@@ -17,10 +17,6 @@
 				},
 				{
 					"type": "loot_table",
-					"name": "bityard:attribute_gear/diamond/armor/sturdy"
-				},
-				{
-					"type": "loot_table",
 					"name": "bityard:attribute_gear/diamond/armor/swift"
 				}
 			]
