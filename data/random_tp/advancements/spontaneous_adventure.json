@@ -1,5 +1,5 @@
 {
-	"parent": "wandering_trader:exotic_wares",
+	"parent": "speedy_paths:speedy_paths",
 	"display": {
 		"icon": {
 			"item": "minecraft:chorus_fruit"

@@ -1,5 +1,5 @@
 {
-	"parent": "bityard:root",
+	"parent": "wandering_trader:exotic_wares",
 	"display": {
 		"icon": {
 			"item": "minecraft:cookie",

@@ -1,5 +1,5 @@
 {
-	"parent": "speedy_paths:speedy_paths",
+	"parent": "bityard:root",
 	"display": {
 		"icon": {
 			"item": "minecraft:player_head",
