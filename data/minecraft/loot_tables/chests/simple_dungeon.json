@@ -34,9 +34,9 @@
         },
         {
           "type": "loot_table",
-          "name": "bityard:music_discs",
           "weight": 15,
-          "quality": 1
+          "quality": 1,
+          "name": "bityard:music_discs"
         },
         {
           "type": "minecraft:item",
@@ -101,6 +101,7 @@
         {
           "type": "minecraft:item",
           "weight": 5,
+          "quality": 2,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -116,11 +117,13 @@
         {
           "type": "minecraft:item",
           "weight": 20,
+          "quality": 0,
           "name": "minecraft:bread"
         },
         {
           "type": "minecraft:item",
           "weight": 20,
+          "quality": -1,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -136,11 +139,13 @@
         {
           "type": "minecraft:item",
           "weight": 10,
+          "quality": 0,
           "name": "minecraft:bucket"
         },
         {
           "type": "minecraft:item",
           "weight": 15,
+          "quality": 2,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -156,6 +161,7 @@
         {
           "type": "minecraft:item",
           "weight": 15,
+          "quality": 1,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -171,6 +177,7 @@
         {
           "type": "minecraft:item",
           "weight": 10,
+          "quality": -2,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -186,6 +193,7 @@
         {
           "type": "minecraft:item",
           "weight": 10,
+          "quality": -2,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -201,6 +209,7 @@
         {
           "type": "minecraft:item",
           "weight": 10,
+          "quality": -2,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -221,6 +230,7 @@
         {
           "type": "minecraft:item",
           "weight": 10,
+          "quality": 1,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -236,6 +246,7 @@
         {
           "type": "minecraft:item",
           "weight": 10,
+          "quality": 2,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -251,6 +262,7 @@
         {
           "type": "minecraft:item",
           "weight": 10,
+          "quality": -2,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -266,6 +278,7 @@
         {
           "type": "minecraft:item",
           "weight": 10,
+          "quality": -1,
           "functions": [
             {
               "function": "minecraft:set_count",
