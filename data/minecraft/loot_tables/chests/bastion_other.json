@@ -103,7 +103,7 @@
         {
           "type": "minecraft:empty",
           "weight": 50,
-          "quality": -2,
+          "quality": -2
         }
       ]
     },
@@ -247,7 +247,7 @@
         {
           "type": "minecraft:empty",
           "weight": 2,
-          "quality": -2,
+          "quality": -2
         }
       ]
     },
