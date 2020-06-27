@@ -1,168 +1,114 @@
 {
-    "pools": [
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 2.0,
+        "max": 8.0,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
         {
-            "rolls": {
-                "min": 2,
-                "max": 8
-            },
-            "bonus_rolls": 1,
-            "entries": [
-                {
-                    "type": "item",
-                    "name": "minecraft:apple",
-                    "weight": 15,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 3
-                            }
-                        }
-                    ],
-                    "quality": 1
-                },
-                {
-                    "type": "item",
-                    "name": "minecraft:coal",
-                    "weight": 15,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 8
-                            }
-                        }
-                    ],
-                    "quality": 2
-                },
-                {
-                    "type": "item",
-                    "name": "minecraft:gold_nugget",
-                    "weight": 10,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 9
-                            }
-                        }
-                    ],
-                    "quality": 3
-                },
-                {
-                    "type": "item",
-                    "name": "minecraft:stone_axe",
-                    "weight": 2,
-                    "quality": 1
-                },
-                {
-                    "type": "item",
-                    "name": "minecraft:rotten_flesh",
-                    "weight": 10,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_count",
-                            "count": {
-                                "min": 2,
-                                "max": 3
-                            }
-                        }
-                    ],
-                    "quality": 0
-                },
-                {
-                    "type": "item",
-                    "name": "minecraft:bone",
-                    "weight": 5,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_count",
-                            "count": {
-                                "min": 2,
-                                "max": 3
-                            }
-                        }
-                    ],
-                    "quality": 0
-                },
-                {
-                    "type": "item",
-                    "name": "minecraft:emerald",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 3
-                            }
-                        }
-                    ],
-                    "quality": 3
-                },
-                {
-                    "type": "item",
-                    "name": "minecraft:wheat",
-                    "weight": 10,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_count",
-                            "count": {
-                                "min": 2,
-                                "max": 4
-                            }
-                        }
-                    ],
-                    "quality": 1
-                },
-                {
-                    "type": "item",
-                    "name": "minecraft:packed_ice",
-                    "weight": 15,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_count",
-                            "count": {
-                                "min": 3,
-                                "max": 9
-                            }
-                        }
-                    ],
-                    "quality": 1
-                },
-                {
-                    "type": "loot_table",
-                    "name": "bityard:tipped_arrows",
-                    "weight": 2,
-                    "quality": 3
-                }
-            ]
+          "type": "minecraft:item",
+          "weight": 15,
+          "quality": 0,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 3.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:apple"
         },
         {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "item",
-                    "name": "minecraft:golden_apple",
-                    "weight": 1
-                }
-            ]
+          "type": "minecraft:item",
+          "weight": 15,
+          "quality": 0,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 4.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:coal"
         },
         {
-            "rolls": {
-                "min": 1,
-                "max": 2
-            },
-            "entries": [
-                {
-                    "type": "loot_table",
-                    "name": "bityard:super_potions",
-                    "weight": 1
-                }
-            ]
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": 0,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 3.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:gold_nugget"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "quality": -1,
+          "name": "minecraft:stone_axe"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": -2,
+          "name": "minecraft:rotten_flesh"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "quality": 2,
+          "name": "minecraft:emerald"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "quality": -1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2.0,
+                "max": 3.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:wheat"
         }
-    ]
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_apple"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "bityard:super_potions"
+        }
+      ]
+    }
+  ]
 }
