@@ -265,6 +265,12 @@
           "name": "minecraft:arrow"
         },
         {
+          "type": "loot_table",
+          "weight": 1,
+          "quality": 2,
+          "name": "bityard:tipped_arrows"
+        },
+        {
           "type": "minecraft:item",
           "weight": 1,
           "quality": 2,

@@ -40,6 +40,16 @@ tag @e[type=minecraft:item,nbt={Item:{id:"minecraft:green_shulker_box"}}] add eq
 tag @e[type=minecraft:item,nbt={Item:{id:"minecraft:red_shulker_box"}}] add equipment
 tag @e[type=minecraft:item,nbt={Item:{id:"minecraft:black_shulker_box"}}] add equipment
 
+tag @e[type=minecraft:item,nbt={Item:{id:"minecraft:netherite_shovel"}}] add equipment
+tag @e[type=minecraft:item,nbt={Item:{id:"minecraft:netherite_pickaxe"}}] add equipment
+tag @e[type=minecraft:item,nbt={Item:{id:"minecraft:netherite_axe"}}] add equipment
+tag @e[type=minecraft:item,nbt={Item:{id:"minecraft:netherite_hoe"}}] add equipment
+tag @e[type=minecraft:item,nbt={Item:{id:"minecraft:netherite_sword"}}] add equipment
+tag @e[type=minecraft:item,nbt={Item:{id:"minecraft:netherite_helmet"}}] add equipment
+tag @e[type=minecraft:item,nbt={Item:{id:"minecraft:netherite_chestplate"}}] add equipment
+tag @e[type=minecraft:item,nbt={Item:{id:"minecraft:netherite_leggings"}}] add equipment
+tag @e[type=minecraft:item,nbt={Item:{id:"minecraft:netherite_boots"}}] add equipment
+
 
 # Reset Age property on tagged entities
 execute as @e[type=minecraft:item,tag=equipment] if data entity @s Item.tag.display.Name run function item_permanence:reset_item

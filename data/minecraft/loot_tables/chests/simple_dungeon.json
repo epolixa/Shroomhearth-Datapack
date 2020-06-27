@@ -12,7 +12,7 @@
           "type": "loot_table",
           "weight": 20,
           "quality": 2,
-          "name": "bityard:decor_skulls"
+          "name": "bityard:player_heads"
         },
         {
           "type": "minecraft:item",

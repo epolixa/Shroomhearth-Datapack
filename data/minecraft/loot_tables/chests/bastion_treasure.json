@@ -57,6 +57,18 @@
           "name": "minecraft:ancient_debris"
         },
         {
+          "type": "loot_table",
+          "weight": 2,
+          "quality": 2,
+          "name": "bityard:overenchanted"
+        },
+        {
+          "type": "loot_table",
+          "weight": 2,
+          "quality": 2,
+          "name": "bityard:attribute/diamond"
+        },
+        {
           "type": "minecraft:item",
           "weight": 10,
           "quality": 1,

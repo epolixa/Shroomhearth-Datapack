@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{loot_type:\"attribute_gear\", attribute:\"latent\"}"
+              "tag": "{loot_type:\"attribute\", attribute:\"latent\"}"
             },
             {
               "function": "set_lore",

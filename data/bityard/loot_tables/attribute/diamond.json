@@ -1,0 +1,17 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "loot_table",
+					"name": "bityard:attribute/diamond/armor"
+				},
+				{
+					"type": "loot_table",
+					"name": "bityard:attribute/diamond/tools"
+				}
+			]
+		}
+	]
+}

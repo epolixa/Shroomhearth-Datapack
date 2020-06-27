@@ -13,32 +13,22 @@
 		"hidden": false
 	},
 	"criteria": {
-		"found_overenchanted_gear": {
+		"found_overenchanted": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
 					{
-						"nbt":"{loot_type:\"overenchanted_gear\"}"
+						"nbt":"{loot_type:\"overenchanted\"}"
 					}
 				]
 			}
 		},
-		"found_attribute_gear": {
+		"found_attribute": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
 					{
-						"nbt":"{loot_type:\"attribute_gear\"}"
-					}
-				]
-			}
-		},
-		"found_gear_variant": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"nbt":"{loot_type:\"gear_variant\"}"
+						"nbt":"{loot_type:\"attribute\"}"
 					}
 				]
 			}
@@ -56,9 +46,8 @@
 	},
 	"requirements": [
 		[
-			"found_gear_variant",
-			"found_overenchanted_gear",
-			"found_attribute_gear",
+			"found_overenchanted",
+			"found_attribute",
 			"found_super_potion"
 		]
 	]
