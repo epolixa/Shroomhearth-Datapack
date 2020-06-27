@@ -1,11 +1,25 @@
 {
   "pools": [
     {
-      "rolls": 16,
+      "rolls": 1,
       "entries": [
         {
-          "type": "loot_table",
-          "name": "minecraft:chests/simple_dungeon"
+          "type": "item",
+          "name": "minecraft:diamond_helmet",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{loot_type:\"attribute\", attribute:\"latent\"}"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {"text": "When on head:", "color": "gray", "italic": false, "obfuscated": true},
+                {"text": "+1 Attribute", "color": "blue", "italic": false, "obfuscated": true}
+              ]
+            }
+          ]
         }
       ]
     }

@@ -4,7 +4,7 @@
 		"icon": {
 			"item": "minecraft:oak_sign"
 		},
-		"title": "Living Off the Land",
+		"title": "Living off the Land",
 		"description": "Visit Pelican Town",
 		"frame": "goal",
 		"show_toast": true,

@@ -1,0 +1,28 @@
+{
+  "rolls": {
+    "min": 1,
+    "max": 4
+  },
+  "entries": [
+    {
+      "type": "loot_table",
+      "name": "minecraft:chests/bastion_bridge",
+      "weight": 100
+    },
+    {
+      "type": "loot_table",
+      "name": "minecraft:chests/bastion_hoglin_stable",
+      "weight": 100
+    },
+    {
+      "type": "loot_table",
+      "name": "minecraft:chests/bastion_other",
+      "weight": 100
+    },
+    {
+      "type": "loot_table",
+      "name": "minecraft:chests/bastion_treasure",
+      "weight": 100
+    }
+  ]
+}

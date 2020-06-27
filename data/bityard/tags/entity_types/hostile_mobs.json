@@ -26,6 +26,8 @@
         "minecraft:wither",
         "minecraft:wither_skeleton",
         "minecraft:zombie",
-        "minecraft:zombie_villager"
+        "minecraft:zombie_villager",
+        "minecraft:hoglin",
+        "minecraft:zoglin"
     ]
 }

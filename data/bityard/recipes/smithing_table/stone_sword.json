@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:wooden_sword"
+  },
+  "addition": {
+    "tag": "minecraft:stone_tool_materials"
+  },
+  "result": {
+    "item": "minecraft:stone_sword"
+  }
+}
