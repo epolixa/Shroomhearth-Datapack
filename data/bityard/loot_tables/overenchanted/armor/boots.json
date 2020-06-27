@@ -101,6 +101,17 @@
               "tag": "{loot_type:\"overenchanted\", Enchantments: [{id: \"minecraft:thorns\", lvl: 4}]}"
             }
           ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:diamond_boots",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{loot_type:\"overenchanted\", Enchantments: [{id: \"minecraft:soul_speed\", lvl: 4}]}"
+            }
+          ]
         }
       ]
   	}
