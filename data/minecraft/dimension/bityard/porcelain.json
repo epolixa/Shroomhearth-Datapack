@@ -1,0 +1,81 @@
+{
+	"type": "bityard:porcelain",
+	"generator": {
+		"type": "minecraft:flat",
+		"settings": {
+			"layers": [
+				{
+					"height": 4,
+					"block": "minecraft:bedrock"
+				},
+				{
+					"height": 4,
+					"block": "minecraft:light_gray_concrete"
+				},
+				{
+					"height": 4,
+					"block": "minecraft:white_concrete"
+				},
+				{
+					"height": 4,
+					"block": "minecraft:light_gray_concrete"
+				},
+				{
+					"height": 4,
+					"block": "minecraft:gray_concrete"
+				},
+				{
+					"height": 4,
+					"block": "minecraft:black_concrete"
+				},
+				{
+					"height": 4,
+					"block": "minecraft:gray_concrete"
+				},
+				{
+					"height": 4,
+					"block": "minecraft:light_gray_concrete"
+				},
+				{
+					"height": 4,
+					"block": "minecraft:white_concrete"
+				},
+				{
+					"height": 4,
+					"block": "minecraft:light_gray_concrete"
+				},
+				{
+					"height": 4,
+					"block": "minecraft:gray_concrete"
+				},
+				{
+					"height": 4,
+					"block": "minecraft:black_concrete"
+				},
+				{
+					"height": 4,
+					"block": "minecraft:gray_concrete"
+				},
+				{
+					"height": 4,
+					"block": "minecraft:light_gray_concrete"
+				},
+				{
+					"height": 4,
+					"block": "minecraft:white_concrete"
+				}				
+			],
+			"biome": "bityard:porcelain",
+			"lakes": false,
+			"features": false,
+			"structures": {
+				"stronghold": {
+					"distance": 32,
+					"spread": 3,
+					"count": 0
+				},
+				"structures": {}
+			}
+		}
+	}
+}
