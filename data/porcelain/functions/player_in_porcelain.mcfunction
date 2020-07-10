@@ -11,4 +11,4 @@ clear @s minecraft:experience_bottle
 effect give @s minecraft:night_vision 11 0 true
 
 # activate porcelain item in porcelain
-execute as @s[nbt={SelectedItem:{id:"minecraft:warped_fungus_on_a_stick", tag:{CustomModelData:1}}}, scores={porcelainItem=1..}] run function porcelain:exit_porcelain
+execute as @s[nbt={SelectedItem:{id:"minecraft:warped_fungus_on_a_stick", tag:{CustomModelData:1}}}, scores={usePorcelain=1..}] run function porcelain:exit_porcelain

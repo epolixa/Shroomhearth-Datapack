@@ -4,7 +4,7 @@
 ################################################################
 
 # remove score
-scoreboard players reset @s porcelainItem
+scoreboard players reset @s usePorcelain
 
 # if inventory is not clear, show command
 execute if data entity @s Inventory[1] run function porcelain:beckon_inventory

@@ -4,7 +4,7 @@
 ################################################################
 
 # remove score
-scoreboard players reset @s porcelainItem
+scoreboard players reset @s usePorcelain
 
 # destroy anchor in porcelain
 kill @e[type=minecraft:armor_stand,tag=porcelain_anchor,sort=nearest,limit=1]
