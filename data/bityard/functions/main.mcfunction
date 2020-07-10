@@ -27,5 +27,8 @@ execute if entity @p run function end_crystal_ward:main
 # Wandering Trader announcement - run if a new wandering trader appears
 execute if entity @p as @e[type=wandering_trader,tag=!announced] at @s run function wandering_trader:wandering_trader
 
+# various Porcelain mechanics
+execute if entity @p run function porcelain:main
+
 # Reset objectives
 function bityard:reset_objectives

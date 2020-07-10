@@ -3,8 +3,12 @@
 # manage entry passage to the porcelain
 ################################################################
 
+# summon armor stand in overworld
+execute at @s run summon minecraft:armor_stand ~ ~ ~ {Tags:["porcelain_overworld_anchor"],Marker:true,Invisible:true}
+
 # teleport to porcelain
-execute in bityard:porcelain run teleport @s ~ 60 ~
+execute in bityard:porcelain run teleport @s ~ 64 ~
+execute in bityard:porcelain run spreadplayers ~ ~ 0 1 false @s
 
 # set gamemode to creative
 gamemode creative @s
@@ -13,5 +17,7 @@ gamemode creative @s
 advancement revoke @s only porcelain:exit_porcelain
 
 # play effects
-particle minecraft:end_rod ~ ~1.2 ~ 0.4 0.8 0.4 0.04 8
-playsound minecraft:block.respawn_anchor.charge ambient @a ~ ~ ~ 1 0.1
+function porcelain:travel_effects
+
+# summon armor stand in porcelain
+execute at @s run summon minecraft:armor_stand ~ ~ ~ {Tags:["porcelain_anchor"],Marker:true,Invisible:true}

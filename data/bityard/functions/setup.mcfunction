@@ -27,26 +27,3 @@ scoreboard objectives remove itemGlint
 scoreboard objectives add itemGlint dummy
 scoreboard objectives remove itemAge
 scoreboard objectives add itemAge dummy
-
-
-## Relic Items
-
-# kinStone - Kin Stone
-#scoreboard objectives remove kinStone
-#scoreboard objectives add kinStone dummy
-
-# reusablePearl - Reusable Ender Pearl
-#scoreboard objectives remove reusablePearl
-#scoreboard objectives add reusablePearl dummy
-#scoreboard objectives remove usedPearl
-#scoreboard objectives add usedPearl minecraft.used:minecraft.ender_pearl
-
-# frogRompers - Frog Rompers
-#scoreboard objectives remove frogRompers
-#scoreboard objectives add frogRompers dummy
-#scoreboard objectives remove frogRompersSneak
-#scoreboard objectives add frogRompersSneak minecraft.custom:minecraft.sneak_time
-
-# motionY - value of vertical movement, used for frog rompers
-#scoreboard objectives remove motionY
-#scoreboard objectives add motionY dummy
