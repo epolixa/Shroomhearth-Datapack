@@ -16,8 +16,12 @@ gamemode creative @s
 # revoke exit trigger, let them leave
 advancement revoke @s only porcelain:exit_porcelain
 
+# potion effects
+effect give @s minecraft:slow_falling 1
+effect give @s minecraft:blindness 1
+
 # play effects
-function porcelain:travel_effects
+playsound minecraft:block.respawn_anchor.charge ambient @s ~ ~ ~ 1 0.1 1
 
 # summon armor stand in porcelain
 execute at @s run summon minecraft:armor_stand ~ ~ ~ {Tags:["porcelain_anchor"],Marker:true,Invisible:true}
