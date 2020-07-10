@@ -3,11 +3,11 @@
 # manage leaving the porcelain
 ################################################################
 
+# remove score
+scoreboard players reset @s porcelainItem
+
 # destroy anchor in porcelain
 kill @e[type=minecraft:armor_stand,tag=porcelain_anchor,sort=nearest,limit=1]
-
-# remove score
-scoreboard players set @s porcelainItem 0
 
 # clear inventory
 clear @s
@@ -16,15 +16,13 @@ clear @s
 loot give @s loot porcelain:porcelain
 
 # teleport to overworld
-execute in minecraft:overworld run teleport @s ~ 64 ~
-execute in minecraft:overworld run spreadplayers ~ ~ 0 1 false @s
+execute in minecraft:overworld positioned ~ ~ ~ unless entity @e[type=minecraft:armor_stand,tag=overworld_anchor] run function porcelain:teleport_without_anchor
+
+# teleport to overworld anchor
+execute in minecraft:overworld positioned ~ ~ ~ if entity @e[type=minecraft:armor_stand,tag=overworld_anchor] run function porcelain:teleport_player_to_anchor
 
 # set gamemode to survival
 gamemode survival @s
-
-# setup exit effects
-effect give @s minecraft:slow_falling 999999
-effect give @s minecraft:blindness 999999
 
 # give overworld anchor delay score to player
 scoreboard players set @s porcelainAnchor 1

@@ -2,6 +2,6 @@
 scoreboard objectives remove porcelainItem
 scoreboard objectives add porcelainItem minecraft.used:minecraft.warped_fungus_on_a_stick
 
-# porcelainAnchor - delay for teleporting back to porcelain anchor in overworld
+# porcelainAnchor - flag for teleporting back to porcelain anchor in overworld
 scoreboard objectives remove porcelainAnchor
 scoreboard objectives add porcelainAnchor dummy

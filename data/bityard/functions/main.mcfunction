@@ -25,7 +25,7 @@ execute as @a[gamemode=survival,scores={playerHealth=1..10}] run function stat_d
 execute if entity @p run function end_crystal_ward:main
 
 # Wandering Trader announcement - run if a new wandering trader appears
-execute if entity @p as @e[type=wandering_trader,tag=!announced] at @s run function wandering_trader:wandering_trader
+execute if entity @p in minecraft:overworld as @e[type=wandering_trader,distance=0..,tag=!announced] at @s run function wandering_trader:wandering_trader
 
 # various Porcelain mechanics
 execute if entity @p run function porcelain:main

@@ -1,10 +1,13 @@
 ################################################################
-# beckon
-# let the player know how to enter the porcelain
+# beckon dissonance
+# show warning for wrong dimension
 ################################################################
+
+# remove score
+scoreboard players reset @s porcelainItem
 
 # whisper
 playsound minecraft:particle.soul_escape ambient @s ~ ~ ~ 1 1 1
 
 # inform
-title @s actionbar {"color":"white","text":"Empty your mind"}
+title @s actionbar {"color":"white","obfuscated":true,"text":"DISSONANCE"}
