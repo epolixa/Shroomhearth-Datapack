@@ -6,6 +6,9 @@
 # remove score
 scoreboard players reset @s usePorcelain
 
+# burst particles at porcelain anchor
+execute at @e[type=minecraft:armor_stand,tag=porcelain_anchor,sort=nearest,limit=1] run particle minecraft:end_rod ~ ~1.2 ~ 0.2 0.4 0.2 0.1 16
+
 # destroy anchor in porcelain
 kill @e[type=minecraft:armor_stand,tag=porcelain_anchor,sort=nearest,limit=1]
 
@@ -24,5 +27,8 @@ execute in minecraft:overworld positioned ~ ~ ~ if entity @e[type=minecraft:armo
 # set gamemode to survival
 gamemode survival @s
 
-# give overworld anchor delay score to player
-scoreboard players set @s porcelainAnchor 1
+# travel effects
+function porcelain:travel_effects
+
+# burst particles in overworld
+execute at @s run particle minecraft:end_rod ~ ~1.2 ~ 0.2 0.4 0.2 0.1 16

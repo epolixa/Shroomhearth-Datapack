@@ -16,9 +16,3 @@ forceload remove all
 
 # remove all prior effects from player
 effect clear @s
-
-# travel effects
-function porcelain:travel_effects
-
-# remove porcelainAnchor flag from player
-scoreboard players set @s porcelainAnchor 0

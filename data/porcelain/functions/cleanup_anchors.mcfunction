@@ -12,4 +12,3 @@ execute in minecraft:overworld run forceload remove all
 
 # remove scores
 scoreboard players reset @a usePorcelain
-scoreboard players reset @a porcelainAnchor

@@ -11,4 +11,4 @@ title @p[distance=140..160] actionbar {"color":"white","text":"Vision fading"}
 execute as @p[distance=144..160] run advancement grant @s only porcelain:exit_porcelain
 
 # particles around anchor
-particle minecraft:end_rod ~ ~1.2 ~ 0.4 0.8 0.4 0.005 1 force
+particle minecraft:end_rod ~ ~1.2 ~ 0.2 0.4 0.2 0.005 1 force
