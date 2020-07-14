@@ -4,8 +4,8 @@
 ################################################################
 
 # kill all anchor armor stands
-kill @e[type=minecraft:armor_stand,tag=overworld_anchor]
-kill @e[type=minecraft:armor_stand,tag=porcelain_anchor]
+execute in minecraft:overworld run kill @e[type=minecraft:armor_stand,tag=overworld_anchor]
+execute in bityard:porcelain run kill @e[type=minecraft:armor_stand,tag=porcelain_anchor]
 
 # unload all forced chunks
 execute in minecraft:overworld run forceload remove all

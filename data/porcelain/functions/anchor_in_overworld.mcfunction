@@ -4,4 +4,4 @@
 ################################################################
 
 # play particles
-particle minecraft:end_rod ^ ^2.7 ^-0.3 0 0 0 0.005 1
+particle minecraft:end_rod ~ ~0.8 ~ 0 0 0 0.005 1

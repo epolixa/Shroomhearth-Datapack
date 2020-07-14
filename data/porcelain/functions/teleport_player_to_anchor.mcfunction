@@ -6,8 +6,8 @@
 # copy rotation of player to nearest anchor in overworld
 data modify entity @e[type=minecraft:armor_stand,tag=overworld_anchor,sort=nearest,limit=1] Rotation set from entity @s Rotation
 
-# teleport player to position offset up from anchor in overworld
-execute in minecraft:overworld at @e[type=minecraft:armor_stand,tag=overworld_anchor,sort=nearest,limit=1] run teleport ~ ~1.9 ~
+# teleport player to overworld anchor
+execute in minecraft:overworld run teleport @e[type=minecraft:armor_stand,tag=overworld_anchor,sort=nearest,limit=1]
 
 # destroy nearest anchor in overworld
 kill @e[type=minecraft:armor_stand,tag=overworld_anchor,sort=nearest,limit=1]
