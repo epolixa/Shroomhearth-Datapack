@@ -9,7 +9,6 @@
     "monster": []
   },
   "spawn_costs": {},
-  "sky_color": 16777215,
   "surface_builder": "minecraft:nope",
   "carvers": {},
   "features": [],
@@ -34,6 +33,7 @@
       "max_delay": 24000,
       "replace_current_music": false
     },
+    "sky_color": 16777215,
     "fog_color": 16777215,
     "water_color": 4159204,
     "water_fog_color": 329011,
