@@ -6,6 +6,7 @@
 # prevent exploits
 clear @s minecraft:ender_chest
 clear @s minecraft:experience_bottle
+clear @s minecraft:ender_pearl
 
 # constant night vision
 effect give @s minecraft:night_vision 11 0 true

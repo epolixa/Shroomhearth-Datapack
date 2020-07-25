@@ -1,5 +1,5 @@
 # play particles on nearby mob
-particle minecraft:dragon_breath ~ ~0.9 ~ 0.2 0.3 0.2 0 3
+particle minecraft:dragon_breath ~ ~0.5 ~ 0.2 0.3 0.2 0.01 4
 
 # play vwoomp sound on mob
 playsound minecraft:entity.enderman.teleport player @a ~ ~ ~ 0.3 1.1

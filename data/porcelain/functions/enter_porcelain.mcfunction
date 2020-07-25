@@ -13,9 +13,6 @@ summon minecraft:armor_stand ~ ~ ~ {CustomName:'{"text":"Overworld Anchor"}', Ta
 data modify entity @e[type=minecraft:armor_stand,tag=overworld_anchor,sort=nearest,limit=1] Rotation[0] set from entity @s Rotation[0]
 data modify entity @e[type=minecraft:armor_stand,tag=overworld_anchor,sort=nearest,limit=1] Rotation[2] set from entity @s Rotation[2]
 
-# burst particles in overworld
-particle minecraft:end_rod ~ ~1.2 ~ 0.2 0.4 0.2 0.1 16
-
 # teleport to porcelain
 execute in bityard:porcelain run teleport @s ~ 64 ~
 execute at @s run spreadplayers ~ ~ 0 1 false @s
@@ -31,6 +28,3 @@ execute at @s run summon minecraft:armor_stand ~ ~ ~ {CustomName:'{"text":"Porce
 
 # travel effects
 function porcelain:travel_effects
-
-# burst particles in porcelain
-execute at @s run particle minecraft:end_rod ~ ~1.2 ~ 0.2 0.4 0.2 0.1 16

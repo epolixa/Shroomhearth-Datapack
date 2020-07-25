@@ -1,5 +1,5 @@
 # tag target mob(s)
-tag @e[type=#end_crystal_ward:wardable,tag=!ward_target,scores={ward=1},distance=..50] add ward_target
+tag @e[type=#end_crystal_ward:wardable,tag=!ward_target,scores={ward=1..20},distance=..50] add ward_target
 
 # play effects on crystal if mob is nearby
 execute if entity @e[tag=ward_target,limit=1] run function end_crystal_ward:crystal_ward
