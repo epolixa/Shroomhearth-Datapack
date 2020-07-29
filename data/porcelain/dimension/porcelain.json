@@ -1,5 +1,5 @@
 {
-	"type": "bityard:porcelain",
+	"type": "porcelain:porcelain",
 	"generator": {
 		"type": "minecraft:flat",
 		"settings": {
@@ -65,7 +65,7 @@
 					"block": "minecraft:white_concrete"
 				}				
 			],
-			"biome": "bityard:porcelain",
+			"biome": "porcelain:porcelain",
 			"lakes": false,
 			"features": false,
 			"structures": {

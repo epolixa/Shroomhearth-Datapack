@@ -4,7 +4,7 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"location": {
-					"dimension": "bityard:porcelain",
+					"dimension": "porcelain:porcelain",
 					"position": {
 						"y": {
 							"max": 0
@@ -17,7 +17,7 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"location": {
-					"dimension": "bityard:porcelain",
+					"dimension": "porcelain:porcelain",
 					"position": {
 						"y": {
 							"min": 256

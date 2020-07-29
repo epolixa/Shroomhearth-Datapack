@@ -16,7 +16,7 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"location": {
-					"dimension": "bityard:porcelain"
+					"dimension": "porcelain:porcelain"
 				}
 			}
 		}
