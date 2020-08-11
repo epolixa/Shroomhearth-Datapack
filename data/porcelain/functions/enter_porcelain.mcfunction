@@ -28,3 +28,6 @@ execute at @s run summon minecraft:armor_stand ~ ~ ~ {CustomName:'{"text":"Porce
 
 # travel effects
 function porcelain:travel_effects
+
+# if inventory is clear, give porcelain item
+execute unless data entity @s Inventory[0] run loot give @s loot porcelain:porcelain
