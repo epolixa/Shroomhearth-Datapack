@@ -2,7 +2,7 @@
 	"name": "porcelain:porcelain",
 	"ultrawarm": false,
 	"natural": false,
-	"shrunk": false,
+	"coordinate_scale": 1.0,
 	"has_skylight": true,
 	"has_ceiling": false,
 	"ambient_light": 1.0,
