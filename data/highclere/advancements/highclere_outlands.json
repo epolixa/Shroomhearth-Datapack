@@ -1,5 +1,5 @@
 {
-	"parent": "highclere:highclere",
+	"parent": "bityard:xxx",
 	"display": {
 		"icon": {
 			"item": "minecraft:dark_oak_planks"
