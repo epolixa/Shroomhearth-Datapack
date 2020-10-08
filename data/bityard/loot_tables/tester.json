@@ -15,8 +15,7 @@
             {
               "function": "set_lore",
               "lore": [
-                {"text": "When on head:", "color": "gray", "italic": false, "obfuscated": true},
-                {"text": "+1 Attribute", "color": "blue", "italic": false, "obfuscated": true}
+                {"text": "Latent Attributes", "color": "dark_purple", "italic": false, "obfuscated": true}
               ]
             }
           ]

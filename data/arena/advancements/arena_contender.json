@@ -18,20 +18,22 @@
 				"entity": {
 					"type": "minecraft:player",
 					"location": {
-						"x": {
+						"dimension": "overworld",
+						"position": {
+							"x": {
 							"min": -727,
 							"max": -675
-						},
-						"y": {
-							"min": 119,
-							"max": 256
-						},
-						"z": {
-							"min": 74,
-							"max": 126
+							},
+							"y": {
+								"min": 119,
+								"max": 256
+							},
+							"z": {
+								"min": 74,
+								"max": 126
+							}
 						}
-					},
-					"dimension": "overworld"
+					}
 				}
 			}
 		}
