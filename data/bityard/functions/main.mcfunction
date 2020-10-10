@@ -12,8 +12,8 @@ execute if score Env playerCount matches 2.. run function community:main
 # Multi Sleep - only run when more than one player is online
 execute if score Env playerCount matches 2.. run function multi_sleep:main
 
-# Farming XP - execute as players if a crop item entity just appeared
-execute if entity @e[type=item,nbt={Age:0s},limit=1] as @a run function farming_xp:main
+# Misc XP - execute as players if a crop item entity just appeared (main function is just for crops)
+execute if entity @e[type=item,nbt={Age:0s},limit=1] as @a run function misc_xp:main
 
 # Spawn Eggs from Mob Spawners - execute if a mob spawner item entity exists
 execute as @e[type=item,nbt={Item:{id:"minecraft:spawner"}}] run function bityard:modules/eggs_from_spawners
@@ -28,7 +28,7 @@ execute if entity @p run function end_crystal_ward:main
 execute if entity @p in minecraft:overworld as @e[type=wandering_trader,distance=0..,tag=!announced] at @s run function wandering_trader:wandering_trader
 
 # various Porcelain mechanics
-execute if entity @p run function porcelain:main
+#execute if entity @p run function porcelain:main
 
 # Reset objectives
 function bityard:reset_objectives

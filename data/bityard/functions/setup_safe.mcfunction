@@ -9,7 +9,7 @@ scoreboard players set Env playerCount 0
 function end_crystal_ward:setup
 function multi_sleep:setup
 function drop_item:setup
-function farming_xp:setup
+function misc_xp:setup
 function color_names:setup
 function stat_display:setup
 function porcelain:setup

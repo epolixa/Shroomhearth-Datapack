@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "harvest": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "tag": "minecraft:beehives"
+          }
+        },
+        "item": {
+          "tag": "misc_xp:bee_tools"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "misc_xp:harvest_bee"
+  } 
+}

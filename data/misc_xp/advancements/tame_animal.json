@@ -5,6 +5,6 @@
 		}
 	},
 	"rewards": {
-		"function": "farming_xp:tame_animal"
+		"function": "misc_xp:tame_animal"
 	} 
 }
