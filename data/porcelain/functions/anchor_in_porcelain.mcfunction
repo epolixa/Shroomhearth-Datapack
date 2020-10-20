@@ -4,7 +4,7 @@
 ################################################################
 
 # give player effect if they stray far enough
-execute as @p[distance=140..160] run effect give @s minecraft:blindness 2
+execute as @p[distance=140..160] run effect give @s minecraft:blindness 2 1 true
 title @p[distance=140..160] actionbar {"color":"white","text":"Vision fading"}
 
 # make player exit if they stray too far

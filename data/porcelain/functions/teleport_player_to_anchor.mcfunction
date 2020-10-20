@@ -3,8 +3,8 @@
 # overworld porcelain anchor control
 ################################################################
 
-# copy rotation of player to nearest anchor in overworld
-data modify entity @e[type=minecraft:armor_stand,tag=overworld_anchor,sort=nearest,limit=1] Rotation set from entity @s Rotation
+# copy rotation of overworld anchor to player
+data modify entity @s Rotation set from entity @e[type=minecraft:armor_stand,tag=overworld_anchor,sort=nearest,limit=1] Rotation
 
 # teleport player to overworld anchor
 execute in minecraft:overworld run teleport @e[type=minecraft:armor_stand,tag=overworld_anchor,sort=nearest,limit=1]
