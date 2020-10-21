@@ -53,6 +53,8 @@ tag @e[type=minecraft:item,nbt={Item:{id:"minecraft:netherite_chestplate"}}] add
 tag @e[type=minecraft:item,nbt={Item:{id:"minecraft:netherite_leggings"}}] add equipment
 tag @e[type=minecraft:item,nbt={Item:{id:"minecraft:netherite_boots"}}] add equipment
 
+tag @e[type=minecraft:item,nbt={Item:{id:"minecraft:compass"}}] add equipment
+
 
 # Reset Age property on tagged entities
 execute as @e[type=minecraft:item,tag=equipment] if data entity @s Item.tag.display.Name run function item_permanence:reset_item
