@@ -42,9 +42,54 @@
     },
     {
       "item": "minecraft:chainmail_boots"
+    },
+    {
+      "item": "minecraft:anvil"
+    },
+    {
+      "item": "minecraft:bucket"
+    },
+    {
+      "item": "minecraft:cauldron"
+    },
+    {
+      "item": "minecraft:chain"
+    },
+    {
+      "item": "minecraft:heavy_weighted_pressure_plate"
+    },
+    {
+      "item": "minecraft:iron_trapdoor"
+    },
+    {
+      "item": "minecraft:hopper"
+    },
+    {
+      "item": "minecraft:iron_bars"
+    },
+    {
+      "item": "minecraft:iron_door"
+    },
+    {
+      "item": "minecraft:minecart"
+    },
+    {
+      "item": "minecraft:rail"
+    },
+    {
+      "item": "minecraft:shears"
+    },
+    {
+      "item": "minecraft:shield"
+    },
+    {
+      "item": "minecraft:smithing_table"
+    },
+    {
+      "item": "minecraft:tripwire_hook"
     }
   ],
-  "result": "minecraft:iron_ingot",
+  "result": "minecraft:iron_nugget",
   "experience": 0.1,
   "cookingtime": 200
 }
