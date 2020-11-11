@@ -24,6 +24,7 @@ tag @e[type=minecraft:item,nbt={Item:{id:"minecraft:crossbow"}}] add equipment
 
 tag @e[type=minecraft:item,nbt={Item:{id:"minecraft:writable_book"}}] add equipment
 tag @e[type=minecraft:item,nbt={Item:{id:"minecraft:written_book"}}] add equipment
+tag @e[type=minecraft:item,nbt={Item:{id:"minecraft:filled_map"}}] add equipment
 
 tag @e[type=minecraft:item,nbt={Item:{id:"minecraft:shulker_box"}}] add equipment
 tag @e[type=minecraft:item,nbt={Item:{id:"minecraft:white_shulker_box"}}] add equipment

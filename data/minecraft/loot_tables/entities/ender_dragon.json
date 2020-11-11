@@ -37,27 +37,6 @@
                     "quality": 4
                 }
             ]
-        },
-        {
-            "rolls": 1,
-            "conditions": [
-                {
-                    "condition": "killed_by_player"
-                },
-                {
-                    "condition": "random_chance_with_looting",
-                    "chance": 0.025,
-                    "looting_multiplier": 0.01
-                }
-            ],
-            "entries": [
-                {
-                    "type": "item",
-                    "name": "minecraft:dragon_egg",
-                    "weight": 100,
-                    "quality": 4
-                }
-            ]
         }
     ]
 }

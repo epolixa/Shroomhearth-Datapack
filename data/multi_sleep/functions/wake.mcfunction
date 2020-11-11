@@ -1,5 +1,5 @@
 # announce player woke up
-execute as @s[scores={playerSleep=2}] run tellraw @a [{"color":"yellow"},{"selector":"@s"},{"text":" woke up"}]
+execute as @s[scores={playerSleep=2}] run tellraw @a [{"selector":"@s"},{"text":" woke up","color":"white"}]
 
 # clear weather if morning
 execute store result score @s wakeTime run time query daytime
