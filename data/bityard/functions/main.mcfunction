@@ -28,7 +28,7 @@ execute if entity @p run function end_crystal_ward:main
 execute if entity @p in minecraft:overworld as @e[type=wandering_trader,distance=0..,tag=!announced] at @s run function wandering_trader:wandering_trader
 
 # various Porcelain mechanics
-#execute if entity @p run function porcelain:main
+execute if entity @p run function porcelain:main
 
 # Reset objectives
 function bityard:reset_objectives

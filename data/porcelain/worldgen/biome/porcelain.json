@@ -16,18 +16,7 @@
   "temperature": 0.5,
   "downfall": 0.5,
   "effects": {
-    "ambient_sound": "minecraft:ambient.soul_sand_valley.loop",
-    "mood_sound": {
-      "sound": "minecraft:ambient.soul_sand_valley.mood",
-      "tick_delay": 6000,
-      "block_search_extent": 8,
-      "offset": 2.0
-    },
-    "additions_sound": {
-      "sound": "minecraft:ambient.warped_forest.additions",
-      "tick_chance": 0.0111
-    },
-     "music": {
+    "music": {
       "sound": "minecraft:music.creative",
       "min_delay": 12000,
       "max_delay": 24000,
@@ -43,7 +32,7 @@
       "options": {
         "type": "minecraft:end_rod"
       },
-      "probability": 0.0004
+      "probability": 0.001785
     }
   },
   "precipitation": "none",

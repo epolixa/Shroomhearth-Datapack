@@ -5,63 +5,11 @@
 		"settings": {
 			"layers": [
 				{
-					"height": 4,
+					"height": 1,
 					"block": "minecraft:bedrock"
 				},
 				{
-					"height": 4,
-					"block": "minecraft:light_gray_concrete"
-				},
-				{
-					"height": 4,
-					"block": "minecraft:white_concrete"
-				},
-				{
-					"height": 4,
-					"block": "minecraft:light_gray_concrete"
-				},
-				{
-					"height": 4,
-					"block": "minecraft:gray_concrete"
-				},
-				{
-					"height": 4,
-					"block": "minecraft:black_concrete"
-				},
-				{
-					"height": 4,
-					"block": "minecraft:gray_concrete"
-				},
-				{
-					"height": 4,
-					"block": "minecraft:light_gray_concrete"
-				},
-				{
-					"height": 4,
-					"block": "minecraft:white_concrete"
-				},
-				{
-					"height": 4,
-					"block": "minecraft:light_gray_concrete"
-				},
-				{
-					"height": 4,
-					"block": "minecraft:gray_concrete"
-				},
-				{
-					"height": 4,
-					"block": "minecraft:black_concrete"
-				},
-				{
-					"height": 4,
-					"block": "minecraft:gray_concrete"
-				},
-				{
-					"height": 4,
-					"block": "minecraft:light_gray_concrete"
-				},
-				{
-					"height": 4,
+					"height": 31,
 					"block": "minecraft:white_concrete"
 				}				
 			],
