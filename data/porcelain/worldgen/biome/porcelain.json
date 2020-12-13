@@ -22,12 +22,12 @@
       "max_delay": 24000,
       "replace_current_music": false
     },
-    "sky_color": 16777215,
-    "fog_color": 16777215,
+    "sky_color": 16383998,
+    "fog_color": 16383998,
     "water_color": 4159204,
     "water_fog_color": 329011,
-    "grass_color": 5622079,
-    "foliage_color": 5622079,
+    "grass_color": 9353585,
+    "foliage_color": 7448397,
     "particle": {
       "options": {
         "type": "minecraft:end_rod"

@@ -1,5 +1,5 @@
 {
-	"type": "porcelain:porcelain",
+	"type": "porcelain:the_porcelain",
 	"generator": {
 		"type": "minecraft:flat",
 		"settings": {

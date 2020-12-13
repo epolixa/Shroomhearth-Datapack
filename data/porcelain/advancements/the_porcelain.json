@@ -1,0 +1,25 @@
+{
+	"parent": "speedy_paths:speedy_paths",
+	"display": {
+		"icon": {
+			"item": "minecraft:warped_fungus_on_a_stick",
+			"nbt": "{display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"translate\\\":\\\"item.minecraft.porcelain\\\"}\"}, CustomModelData:1, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1}"
+		},
+		"title": "The Porcelain",
+		"description": "Enter the Porcelain",
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"entered_porcelain": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"location": {
+					"dimension": "porcelain:the_porcelain"
+				}
+			}
+		}
+	}
+}

@@ -7,7 +7,7 @@
 scoreboard players reset @s usePorcelain
 
 # whisper
-playsound minecraft:particle.soul_escape ambient @s ~ ~ ~ 1 1 1
+#playsound minecraft:particle.soul_escape ambient @s ~ ~ ~ 1 1 1
 
 # inform
-title @s actionbar {"color":"white","obfuscated":true,"text":"DISSONANCE"}
+title @s actionbar {"color":"white","translate":"item.minecraft.porcelain.beckon_dissonance"}
