@@ -4,9 +4,7 @@
 ################################################################
 
 # prevent exploits
-clear @s minecraft:ender_chest
-clear @s minecraft:experience_bottle
-clear @s minecraft:ender_pearl
+clear @s #porcelain:blacklist
 
 # activate porcelain item in porcelain
 execute as @s[nbt={SelectedItem:{id:"minecraft:warped_fungus_on_a_stick", tag:{CustomModelData:1}}}, scores={usePorcelain=1..}] run function porcelain:exit_porcelain
