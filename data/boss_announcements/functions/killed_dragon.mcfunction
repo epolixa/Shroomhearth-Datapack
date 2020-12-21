@@ -1,5 +1,5 @@
 # announcement
-tellraw @a [{"text":"The "}, {"color":"purple","text":"Ender Dragon"}, {"text":" was slain by "}, {"selector": "@s"}]
+tellraw @a [{"text":"The "}, {"color":"dark_purple","text":"Ender Dragon"}, {"text":" was slain by "}, {"selector": "@s"}]
 advancement revoke @s only boss_announcements:killed_dragon
 
 # grant all players in range with dragon buff
