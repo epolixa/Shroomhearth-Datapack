@@ -1,0 +1,11 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:knowledge_book"
+    }
+  ],
+  "result": {
+    "item": "minecraft:air"
+  }
+}

@@ -24,6 +24,7 @@ tag @e[type=minecraft:item,nbt={Item:{id:"minecraft:crossbow"}}] add equipment
 
 tag @e[type=minecraft:item,nbt={Item:{id:"minecraft:writable_book"}}] add equipment
 tag @e[type=minecraft:item,nbt={Item:{id:"minecraft:written_book"}}] add equipment
+tag @e[type=minecraft:item,nbt={Item:{id:"minecraft:filled_map"}}] add equipment
 
 tag @e[type=minecraft:item,nbt={Item:{id:"minecraft:shulker_box"}}] add equipment
 tag @e[type=minecraft:item,nbt={Item:{id:"minecraft:white_shulker_box"}}] add equipment
@@ -60,4 +61,4 @@ tag @e[type=minecraft:item,nbt={Item:{id:"minecraft:compass"}}] add equipment
 execute as @e[type=minecraft:item,tag=equipment] if data entity @s Item.tag.display.Name run function item_permanence:reset_item
 
 # re-schedule
-schedule function item_permanence:main 6s
+schedule function item_permanence:main 8s

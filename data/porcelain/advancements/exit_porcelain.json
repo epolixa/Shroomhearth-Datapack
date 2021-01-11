@@ -4,7 +4,7 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"location": {
-					"dimension": "porcelain:porcelain",
+					"dimension": "porcelain:the_porcelain",
 					"position": {
 						"y": {
 							"max": 0
@@ -17,7 +17,7 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"location": {
-					"dimension": "porcelain:porcelain",
+					"dimension": "porcelain:the_porcelain",
 					"position": {
 						"y": {
 							"min": 256

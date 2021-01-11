@@ -1,0 +1,29 @@
+{
+	"type": "porcelain:the_porcelain",
+	"generator": {
+		"type": "minecraft:flat",
+		"settings": {
+			"layers": [
+				{
+					"height": 1,
+					"block": "minecraft:bedrock"
+				},
+				{
+					"height": 31,
+					"block": "minecraft:white_concrete"
+				}				
+			],
+			"biome": "porcelain:porcelain",
+			"lakes": false,
+			"features": false,
+			"structures": {
+				"stronghold": {
+					"distance": 32,
+					"spread": 3,
+					"count": 0
+				},
+				"structures": {}
+			}
+		}
+	}
+}
