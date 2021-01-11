@@ -7,10 +7,10 @@
 function bityard:calculate_objectives
 
 # Community - only run when more than one player is online
-execute if score Env playerCount matches 2.. run function community:main
+execute if score bityard playerCount matches 2.. run function community:main
 
 # Multi Sleep - only run when more than one player is online
-execute if score Env playerCount matches 2.. run function multi_sleep:main
+execute if score bityard playerCount matches 2.. run function multi_sleep:main
 
 # Misc XP - execute as players if a crop item entity just appeared (main function is just for crops)
 execute if entity @e[type=item,nbt={Age:0s},limit=1] as @a run function misc_xp:main

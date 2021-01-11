@@ -3,6 +3,9 @@
 # things relative to player anchor in porcelain
 ################################################################
 
+# initialize porcelain anchor ID and armor
+execute unless score @s porcelainID matches 0.. run function porcelain:initialize_porcelain_anchor
+
 # give player effect if they stray too far
 execute as @p[distance=96..106] run effect give @s minecraft:blindness 2 1 true
 title @p[distance=96..106] actionbar {"color":"white","translate":"item.minecraft.porcelain.fading"}

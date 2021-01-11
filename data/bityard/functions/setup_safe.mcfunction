@@ -1,9 +1,9 @@
-## SETUP SAFE - only sets up objectives that are reset and re-calculated every tick + gamerules
+## SETUP SAFE - only sets up objectives that are reset and re-calculated every tick or non-volatile + gamerules
 
-# Setup dummy "Env" player & core objectives
+# Setup dummy bityard player & core objectives
 scoreboard objectives remove playerCount
 scoreboard objectives add playerCount dummy
-scoreboard players set Env playerCount 0
+scoreboard players set bityard playerCount 0
 
 # Call modules setup functions
 function end_crystal_ward:setup

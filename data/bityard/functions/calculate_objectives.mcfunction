@@ -4,4 +4,4 @@
 ################################################################
 
 # playerCount - number of online players
-execute as @a run scoreboard players add Env playerCount 1
+execute as @a run scoreboard players add bityard playerCount 1

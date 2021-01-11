@@ -13,6 +13,3 @@ title @s actionbar {"color":"white","translate":"item.minecraft.porcelain.anchor
 
 # cleanup force-loaded chunks
 forceload remove all
-
-# remove all prior effects from player
-effect clear @s

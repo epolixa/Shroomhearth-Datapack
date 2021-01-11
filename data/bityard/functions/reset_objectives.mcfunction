@@ -1,5 +1,5 @@
 # playerCount - number of online players
-scoreboard players set Env playerCount 0
+scoreboard players set bityard playerCount 0
 
 # playerSneak - reset to 0 every tick while sneaking
 execute as @a[scores={playerSneak=1..}] run scoreboard players set @s playerSneak 0
