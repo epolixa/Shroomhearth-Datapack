@@ -1,9 +1,9 @@
 {
 	"criteria": {
-		"enter_grass_path": {
+		"enter_dirt_path": {
 			"trigger": "minecraft:enter_block",
 			"conditions": {
-				"block": "minecraft:grass_path"
+				"block": "minecraft:dirt_path"
 			}
 		}
 	},
