@@ -13,8 +13,10 @@
   "carvers": {},
   "features": [],
   "scale": 0.2,
-  "temperature": 0.5,
-  "downfall": 0.5,
+  "temperature": 0.2,
+  "temperature_modifier": "none",
+  "player_spawn_friendly": false,
+  "downfall": 0.0,
   "effects": {
     "music": {
       "sound": "minecraft:music.creative",

@@ -6,8 +6,8 @@
 # remove score
 scoreboard players reset @s usePorcelain
 
-# teleport to porcelain anchor
-teleport @e[type=minecraft:armor_stand,tag=porcelain_anchor,sort=nearest,limit=1]
+# teleport to porcelain anchor matching player ID
+execute at @e[type=minecraft:armor_stand,tag=porcelain_anchor] if score @e[type=minecraft:armor_stand,tag=porcelain_anchor,sort=nearest,limit=1] porcelainID = @s porcelainID run teleport @e[type=minecraft:armor_stand,tag=porcelain_anchor,sort=nearest,limit=1]
 
 # destroy anchor in porcelain
 kill @e[type=minecraft:armor_stand,tag=porcelain_anchor,sort=nearest,limit=1]
