@@ -1,9 +1,9 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "GGG",
     "GEG",
-    "GSG"
+    "GSG",
+    "GAG"
   ],
   "key": {
     "S": {
@@ -14,10 +14,12 @@
     },
     "G": {
       "item": "minecraft:glass"
+    },
+    "A": {
+      "item": "minecraft:amethyst_block"
     }
   },
   "result": {
-    "item": "minecraft:end_crystal",
-    "count": 4
+    "item": "minecraft:end_crystal"
   }
 }
