@@ -1,0 +1,31 @@
+{
+	"parent": "bityard:root",
+	"display": {
+		"icon": {
+			"item": "minecraft:dirt_path"
+		},
+		"title": "Well Traveled",
+		"description": "Gain Speed by standing on a Dirt Path",
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"on_dirt_path": {
+			"trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "tag": "speedy_paths:paths"
+              }
+            }
+          }
+        ]
+      }
+		}
+	}
+}

@@ -2,4 +2,4 @@
 effect give @s minecraft:speed 1 0 true
 
 # revoke trigger advancement
-advancement revoke @s only speedy_paths:enter_dirt_path
+advancement revoke @s only speedy_paths:on_dirt_path
