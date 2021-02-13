@@ -21,9 +21,3 @@ scoreboard objectives add rng minecraft.custom:minecraft.play_one_minute
 # playerTicks - total played ticks
 scoreboard objectives remove playerTicks
 scoreboard objectives add playerTicks minecraft.custom:minecraft.play_one_minute
-
-# item entity glint
-scoreboard objectives remove itemGlint
-scoreboard objectives add itemGlint dummy
-scoreboard objectives remove itemAge
-scoreboard objectives add itemAge dummy

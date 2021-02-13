@@ -1,9 +1,5 @@
-################################################################
-# Setup Carpet
-# sets default carpet configuration
-################################################################
-
-
+# setup default carpet configuration
+# this will throw errors if not running carpet mod, can be ignored
 carpet setDefault antiCheatDisabled          true
 carpet setDefault carpets                    false
 carpet setDefault chainStone                 true

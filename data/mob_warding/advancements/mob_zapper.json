@@ -1,0 +1,19 @@
+{
+	"parent": "bityard:root",
+	"display": {
+		"icon": {
+			"item": "minecraft:end_crystal"
+		},
+		"title": "Mob Zapper",
+		"description": "Place an End Crystal to prevent natural monsters from spawning",
+		"frame": "task",
+	"show_toast": true,
+	"announce_to_chat": true,
+	"hidden": false
+	},
+	"criteria": {
+		"zap_mob": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

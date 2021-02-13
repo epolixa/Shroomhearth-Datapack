@@ -6,11 +6,10 @@ scoreboard objectives add playerCount dummy
 scoreboard players set bityard playerCount 0
 
 # Call modules setup functions
-function end_crystal_ward:setup
-function multi_sleep:setup
-function drop_item:setup
+function end_crystals:setup
+function sleeping:setup
+function item_interactions:setup
 function misc_xp:setup
-function color_names:setup
 function stat_display:setup
 function porcelain:setup
 

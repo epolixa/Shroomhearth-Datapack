@@ -1,5 +1,5 @@
-## LOAD
-## Reset scheduled functions
-
+# initialize stat display (self-re-schedules)
 function stat_display:health
-function item_permanence:main
+
+# initialize item persistance
+function item_interactions:item_persistance

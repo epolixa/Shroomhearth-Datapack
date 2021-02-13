@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:zombie_spawn_egg",
+    "minecraft:skeleton_spawn_egg",
+    "minecraft:spider_spawn_egg",
+    "minecraft:cave_spider_spawn_egg",
+    "minecraft:silverfish_spawn_egg",
+    "minecraft:blaze_spawn_egg",
+    "minecraft:magma_cube_spawn_egg"
+  ]
+}

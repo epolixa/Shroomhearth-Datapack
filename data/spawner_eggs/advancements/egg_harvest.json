@@ -1,0 +1,23 @@
+{
+	"parent": "mob_warding:mob_zapper",
+	"display": {
+		"icon": {
+			"item": "minecraft:creeper_spawn_egg"
+		},
+		"title": "Egg Harvest",
+		"description": "Collect a Spawn Egg from a Spawner",
+		"frame": "task"
+	},
+	"criteria": {
+		"collect_spawn_egg": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"tag":"spawner_eggs:spawn_eggs"
+					}
+				]
+			}
+		}
+	}
+}
