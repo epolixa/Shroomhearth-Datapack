@@ -4,7 +4,7 @@
 		"icon": {
 			"item": "minecraft:crafting_table"
 		},
-		"title": "Community Participator",
+		"title": "Community Cooperator",
 		"description": "Group up with 5 other players",
 		"frame": "goal",
 		"show_toast": true,

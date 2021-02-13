@@ -5,7 +5,7 @@
 			"item": "minecraft:ender_pearl"
 		},
 		"title": "Community Convenience",
-		"description": "Use the End Gateway at Town Hall",
+		"description": "Use the Community Gateway at Spawn",
 		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,

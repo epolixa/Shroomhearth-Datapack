@@ -7,6 +7,7 @@
         "minecraft:skeleton_horse",
         "minecraft:zombie_horse",
         "minecraft:llama",
-        "minecraft:pig"
+        "minecraft:pig",
+        "minecraft:strider"
     ]
 }
