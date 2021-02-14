@@ -164,6 +164,6 @@
     ]
   ],
   "rewards": {
-    "function": "misc_xp:bartering"
+    "function": "extra_xp:bartering"
   } 
 }

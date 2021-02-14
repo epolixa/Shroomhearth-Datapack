@@ -10,4 +10,4 @@ execute as @s[scores={rng=8}] at @e[type=minecraft:piglin,limit=1,sort=nearest] 
 execute as @s[scores={rng=9}] at @e[type=minecraft:piglin,limit=1,sort=nearest] run summon minecraft:experience_orb ~ ~ ~ {Value:11}
 
 # revoke trigger
-advancement revoke @s only misc_xp:bartering
+advancement revoke @s only extra_xp:bartering

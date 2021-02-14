@@ -9,12 +9,12 @@
           }
         },
         "item": {
-          "tag": "misc_xp:bee_tools"
+          "tag": "extra_xp:bee_tools"
         }
       }
     }
   },
   "rewards": {
-    "function": "misc_xp:harvest_bee"
+    "function": "extra_xp:harvest_bee"
   } 
 }

@@ -10,4 +10,4 @@ execute as @s[scores={rng=8}] at @e[type=!minecraft:player,limit=1,sort=nearest]
 execute as @s[scores={rng=9}] at @e[type=!minecraft:player,limit=1,sort=nearest] run summon minecraft:experience_orb ~ ~ ~ {Value:7}
 
 # revoke trigger
-advancement revoke @s only misc_xp:tame_animal
+advancement revoke @s only extra_xp:tame_animal

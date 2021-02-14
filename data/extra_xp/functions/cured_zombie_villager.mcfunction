@@ -2,4 +2,4 @@
 summon minecraft:experience_orb ~ ~ ~ {Value:10}
 
 # revoke trigger
-advancement revoke @s only misc_xp:cured_zombie_villager
+advancement revoke @s only extra_xp:cured_zombie_villager

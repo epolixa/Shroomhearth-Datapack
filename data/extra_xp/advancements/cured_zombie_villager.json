@@ -5,6 +5,6 @@
 		}
 	},
 	"rewards": {
-		"function": "misc_xp:cured_zombie_villager"
+		"function": "extra_xp:cured_zombie_villager"
 	} 
 }

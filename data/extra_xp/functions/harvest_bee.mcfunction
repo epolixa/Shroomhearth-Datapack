@@ -10,4 +10,4 @@ execute as @s[scores={rng=8}] run summon minecraft:experience_orb ~ ~ ~ {Value:3
 execute as @s[scores={rng=9}] run summon minecraft:experience_orb ~ ~ ~ {Value:3}
 
 # revoke trigger
-advancement revoke @s only misc_xp:harvest_bee
+advancement revoke @s only extra_xp:harvest_bee

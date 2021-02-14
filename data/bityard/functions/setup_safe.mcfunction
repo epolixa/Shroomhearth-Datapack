@@ -7,7 +7,7 @@ scoreboard players set bityard playerCount 0
 function end_crystals:setup
 function sleeping:setup
 function item_interactions:setup
-function misc_xp:setup
+function extra_xp:setup
 function stat_display:setup
 function porcelain:setup
 

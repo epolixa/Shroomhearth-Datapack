@@ -13,7 +13,7 @@ execute if score bityard playerCount matches 2.. run function community:main
 execute if score bityard playerCount matches 2.. run function sleeping:main
 
 # Misc XP - execute as players if a crop item entity just appeared (main function is just for crops)
-execute if entity @e[type=item,nbt={Age:0s},limit=1] as @a run function misc_xp:main
+execute if entity @e[type=item,nbt={Age:0s},limit=1] as @a run function extra_xp:main
 
 # Spawn Eggs from Mob Spawners - execute if a mob spawner item entity exists
 execute as @e[type=item,nbt={Item:{id:"minecraft:spawner"}}] run function spawner_eggs:main

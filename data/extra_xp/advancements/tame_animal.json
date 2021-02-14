@@ -5,6 +5,6 @@
 		}
 	},
 	"rewards": {
-		"function": "misc_xp:tame_animal"
+		"function": "extra_xp:tame_animal"
 	} 
 }
