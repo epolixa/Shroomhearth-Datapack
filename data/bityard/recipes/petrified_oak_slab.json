@@ -1,20 +1,18 @@
 {
   "type": "crafting_shaped",
   "pattern": [
-    "s",
-    "o",
-    "s"
+    "SOS"
   ],
   "key": {
-    "o": {
+    "O": {
       "item": "minecraft:oak_log"
     },
-    "s": {
-      "item": "minecraft:stone_slab"
+    "S": {
+      "item": "minecraft:stone"
     }
   },
   "result": {
     "item": "minecraft:petrified_oak_slab",
-    "count": 2
+    "count": 6
   }
 }
