@@ -1,3 +1,4 @@
+# setup default gamerules
 gamerule announceAdvancements true
 gamerule commandBlockOutput false
 gamerule disableElytraMovementCheck true

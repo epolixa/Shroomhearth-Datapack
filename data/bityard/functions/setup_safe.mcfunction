@@ -1,5 +1,3 @@
-## SETUP SAFE - only sets up objectives that are reset and re-calculated every tick or non-volatile + gamerules
-
 # Setup dummy bityard player & core objectives
 scoreboard objectives remove playerCount
 scoreboard objectives add playerCount dummy

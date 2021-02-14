@@ -1,11 +1,3 @@
-################################################################
-# Reset Objectives
-# creates all necessary objectives used by modules, etc
-################################################################
-
-
-## Flags/Trackers/Timers
-
 # playerJump - flag for jumping players
 scoreboard objectives remove playerJump
 scoreboard objectives add playerJump minecraft.custom:minecraft.jump
