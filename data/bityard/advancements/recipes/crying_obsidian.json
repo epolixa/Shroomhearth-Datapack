@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "bityard:crying_obsidian"
+    ]
+  },
+  "criteria": {
+    "has_dragon_breath": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:dragon_breath"
+          }
+        ]
+      }
+    },
+    "has_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "bityard:crying_obsidian"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_dragon_breath",
+      "has_recipe"
+    ]
+  ]
+}
