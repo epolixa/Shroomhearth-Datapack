@@ -1,7 +1,7 @@
 {
 	"criteria": {
-		"killed_dragon": {
-			"trigger": "minecraft:player_killed_entity",
+		"summoned_dragon": {
+			"trigger": "minecraft:summoned_entity",
 			"conditions": {
 				"entity": {
 					"type": "minecraft:ender_dragon"
@@ -10,6 +10,6 @@
 		}
 	},
 	"rewards": {
-		"function": "boss_announcements:killed_dragon"
+		"function": "boss_fight:summoned_dragon"
 	} 
 }

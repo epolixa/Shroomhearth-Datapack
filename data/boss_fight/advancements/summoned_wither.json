@@ -10,6 +10,6 @@
 		}
 	},
 	"rewards": {
-		"function": "boss_announcements:summoned_wither"
+		"function": "boss_fight:summoned_wither"
 	} 
 }

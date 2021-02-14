@@ -10,6 +10,6 @@
 		}
 	},
 	"rewards": {
-		"function": "boss_announcements:killed_wither"
+		"function": "boss_fight:killed_wither"
 	} 
 }

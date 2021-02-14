@@ -5,6 +5,6 @@
 		}
 	},
 	"rewards": {
-		"function": "boss_announcements:completed_raid"
+		"function": "boss_fight:completed_raid"
 	} 
 }
