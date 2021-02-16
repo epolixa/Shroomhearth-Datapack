@@ -1,9 +1,7 @@
-# Setup dummy bityard player & core objectives
-scoreboard objectives remove playerCount
-scoreboard objectives add playerCount dummy
-scoreboard players set bityard playerCount 0
+# core setup
+function bityard:setup
 
-# Call modules setup functions
+# call modules setup functions
 function end_crystals:setup
 function sleeping:setup
 function item_interactions:setup

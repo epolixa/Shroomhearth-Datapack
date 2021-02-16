@@ -1,11 +1,3 @@
-################################################################
-# Main
-# main game loop commands that run every tick
-################################################################
-
-# Recalculate flags and objectives every tick
-function bityard:calculate_objectives
-
 # Community - only run when more than one player is online
 execute if score bityard playerCount matches 2.. run function community:main
 
@@ -30,5 +22,5 @@ execute if entity @p in minecraft:overworld as @e[type=wandering_trader,distance
 # Porcelain mechanics
 execute if entity @p run function porcelain:main
 
-# Reset objectives
-function bityard:reset_objectives
+# rng - reset to 0 after 9 ticks
+execute as @a[scores={rng=9..}] at @s run scoreboard players set @s rng 0
