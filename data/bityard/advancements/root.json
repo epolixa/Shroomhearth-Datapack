@@ -5,7 +5,7 @@
 		},
 		"title": "Bityard",
 		"description": "Visit Spawn",
-		"background": "minecraft:textures/block/mushroom_stem.png",
+		"background": "minecraft:textures/block/flowering_azalea_top.png",
 		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,
