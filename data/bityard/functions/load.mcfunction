@@ -1,3 +1,6 @@
+# re-seed lcg
+function bityard:lcg/setup
+
 # initialize functions to run every second
 function bityard:second
 
