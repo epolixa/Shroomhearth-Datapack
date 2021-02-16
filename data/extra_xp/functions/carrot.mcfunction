@@ -1,8 +1,12 @@
-# as a player who just harvested crop and rng is between 0 and 5, from their perspective, summon an xp orb at the dropped crop's position
-execute as @s[scores={rng=0..5}] at @e[type=item,nbt={Age:0s,Item:{Count:2b,id:"minecraft:carrot"}},distance=..5,limit=1] run summon minecraft:experience_orb ~ ~ ~ {Value:1}
-execute as @s[scores={rng=0..5}] at @e[type=item,nbt={Age:0s,Item:{Count:3b,id:"minecraft:carrot"}},distance=..5,limit=1] run summon minecraft:experience_orb ~ ~ ~ {Value:1}
-execute as @s[scores={rng=0..5}] at @e[type=item,nbt={Age:0s,Item:{Count:4b,id:"minecraft:carrot"}},distance=..5,limit=1] run summon minecraft:experience_orb ~ ~ ~ {Value:1}
-execute as @s[scores={rng=0..5}] at @e[type=item,nbt={Age:0s,Item:{Count:5b,id:"minecraft:carrot"}},distance=..5,limit=1] run summon minecraft:experience_orb ~ ~ ~ {Value:1}
+# set lcg
+scoreboard players set bityard lcgModulus 3
+function bityard:lcg/random
+
+# store the count of the dropped item in score
+execute as @e[type=item,nbt={Age:0s,Item:{id:"minecraft:carrot"}},distance=..6,sort=nearest] run scoreboard players add @p[scores={farmCarrot=1..}] farmCarrot 1
+
+# as a player who just harvested mature crop and lcg, from their perspective, summon an xp orb worth 1 at the dropped crop's position
+execute if score @s farmCarrot matches 3.. at @e[type=item,nbt={Age:0s,Item:{id:"minecraft:carrot"}},distance=..6,limit=1,sort=nearest] run summon minecraft:experience_orb ~ ~ ~ {Value:1}
 
 # reset score
-scoreboard players set @s farmCarrot 0 
+scoreboard players set @s farmCarrot 0
