@@ -9,8 +9,5 @@ execute if score bityard playerCount matches 2.. run function sleeping:main
 # needs to happen every tick to track exactly when a player harvested a crop
 execute as @e[type=item,nbt={Age:0s},limit=1] at @s as @a[distance=..6] run function extra_xp:tick
 
-# Wandering Trader announcement - run if a new wandering trader appears
-execute as @e[type=wandering_trader,tag=!announced] at @s run function wandering_trader:wandering_trader
-
 # Porcelain mechanics
 execute if entity @p run function porcelain:main
