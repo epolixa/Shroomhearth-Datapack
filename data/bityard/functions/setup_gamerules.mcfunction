@@ -25,4 +25,4 @@ gamerule spectatorsGenerateChunks false
 gamerule forgiveDeadPlayers true
 gamerule universalAnger false
 gamerule freezeDamage true
-gamerule playersSleepingPercentage 0
+gamerule playersSleepingPercentage 100
