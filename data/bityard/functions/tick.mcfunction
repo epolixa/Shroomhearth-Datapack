@@ -11,9 +11,6 @@ execute as @e[type=item,nbt={Age:0s},limit=1] at @s as @a[distance=..6] run func
 # Spawn Eggs from Mob Spawners - execute if a mob spawner item entity exists
 execute as @e[type=item,nbt={Item:{id:"minecraft:spawner"}}] run function spawner_eggs:main
 
-# End Crystal Ward - run if a player is online
-execute if entity @p run function mob_warding:main
-
 # Wandering Trader announcement - run if a new wandering trader appears
 execute if entity @p in minecraft:overworld as @e[type=wandering_trader,distance=0..,tag=!announced] at @s run function wandering_trader:wandering_trader
 
