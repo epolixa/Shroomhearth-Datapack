@@ -8,6 +8,3 @@ function item_interactions:setup
 function extra_xp:setup
 function stat_display:setup
 function porcelain:setup
-
-# Gamerules
-function bityard:setup_gamerules

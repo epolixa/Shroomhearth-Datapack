@@ -13,7 +13,16 @@
 	},
 	"criteria": {
 		"used_gateway_in_overworld": {
-			"trigger": "minecraft:impossible"
+			"trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:end_gateway",
+        "player": {
+        	"condition": "minecraft:location_check",
+        	"predicate": {
+        		"dimension": "minecraft:overworld"
+        	}
+        }
+      }
 		}
 	}
 }

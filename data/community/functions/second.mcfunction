@@ -1,8 +1,3 @@
-################################################################
-# Community Score
-# controls community score calculation
-################################################################
-
 # reset playerGroup for recalculation
 scoreboard players set @a playerGroup 0
 
@@ -13,13 +8,13 @@ execute as @a[gamemode=survival] at @s run scoreboard players add @a[gamemode=su
 execute as @a[scores={playerGroup=1..}] run scoreboard players operation @s communityTicks += @s playerGroup 
 
 # grant advancement if nearby enough players
-advancement grant @a[scores={playerGroup=5..}, advancements={community:community_participator=false}] only community:community_participator
+advancement grant @a[scores={playerGroup=5..}] only community:community_cooperator
 
 # if not nearby a player, tick down communityTicks by one
 execute as @a[scores={playerGroup=0}] run scoreboard players remove @s communityTicks 1
 
-# increase community when ticks reach 6000
-execute as @a[scores={communityTicks=6000..}] at @s run function community:increase_community
+# increase community when ticks reach 300
+execute as @a[scores={communityTicks=300..}] at @s run function community:increase_community
 
-# decrease community when communityTicks reaches -6000
-execute as @a[scores={communityTicks=..-6000}] run function community:decrease_community
+# decrease community when communityTicks reaches -300
+execute as @a[scores={communityTicks=..-300}] run function community:decrease_community

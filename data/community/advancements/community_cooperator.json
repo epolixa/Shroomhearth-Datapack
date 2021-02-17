@@ -1,11 +1,11 @@
 {
-  "parent": "community:community_portal",
+  "parent": "community:community_convenience",
   "display": {
 		"icon": {
-			"item": "minecraft:crafting_table"
+			"item": "minecraft:bell"
 		},
 		"title": "Community Cooperator",
-		"description": "Group up with 5 other players",
+		"description": "Group up with 5 or more players",
 		"frame": "goal",
 		"show_toast": true,
 		"announce_to_chat": true,
