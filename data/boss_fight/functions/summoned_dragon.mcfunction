@@ -1,2 +1,5 @@
-tellraw @a [{"text":"The "}, {"color":"purple","text":"Ender Dragon"}, {"text":" was summoned by "}, {"selector": "@p"}]
+# announce
+tellraw @a [{"text":"The "}, {"color":"#cc00fa","text":"Ender Dragon"}, {"text":" was summoned by "}, {"selector": "@p"}]
+
+# revoke trigger
 advancement revoke @s only boss_fight:summoned_dragon

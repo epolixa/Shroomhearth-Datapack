@@ -9,7 +9,7 @@ particle minecraft:happy_villager ~ ~1 ~ 0.5 0.5 0.5 1 8
 playsound minecraft:entity.wandering_trader.reappeared neutral @a[distance=..48] ~ ~ ~ 1.0 1.1 0.5 
 
 # announce appearance
-tellraw @a [{"text":"The "}, {"color":"blue","text":"Wandering Trader"}, {"text":" is visiting "}, {"selector": "@p"}]
+tellraw @a [{"text":"The "}, {"color":"#435f91","text":"Wandering Trader"}, {"text":" is visiting "}, {"selector": "@p"}]
 
 # make him glow briefly so players can find him
 effect give @s minecraft:glowing 8
