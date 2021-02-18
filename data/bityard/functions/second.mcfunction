@@ -2,6 +2,9 @@
 scoreboard players set bityard playerCount 0
 execute as @a run scoreboard players add bityard playerCount 1
 
+# Boss fight - run as boss mobs if a player is online
+execute if entity @p in minecraft:the_end as @e[type=ender_dragon] at @s run function boss_fight:second_dragon
+
 # End Crystal Ward - run if player is online and there is a loaded end crystal
 execute if entity @p if entity @e[type=minecraft:end_crystal,nbt={ShowBottom:0b}] run function mob_warding:second
 

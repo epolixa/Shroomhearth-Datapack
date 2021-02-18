@@ -1,0 +1,18 @@
+# powerCooldown - timer for boss mod cooldown abilities
+scoreboard objectives remove powerCooldown
+scoreboard objectives add powerCooldown dummy
+
+# dragonPhase - track dragon's phase
+scoreboard objectives remove dragonPhase
+scoreboard objectives add dragonPhase dummy
+
+# bossHealth - track dragon's phase
+scoreboard objectives remove bossHealth
+scoreboard objectives add bossHealth dummy
+
+# dragon team
+team remove dragon
+team add dragon "Dragon"
+team modify dragon color dark_purple
+team modify dragon friendlyFire false
+team modify dragon collisionRule pushOtherTeams
