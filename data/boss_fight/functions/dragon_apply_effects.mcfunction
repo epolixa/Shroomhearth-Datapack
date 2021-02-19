@@ -1,6 +1,9 @@
 # play sound
 playsound minecraft:entity.elder_guardian.curse hostile @a ~ ~ ~ 12 0.7
 
+# show actionbar
+execute positioned 0 64 0 run title @a[distance=..200] actionbar {"color":"dark_purple","font":"minecraft:alt","bold":"true","text":"DISTORT"}
+
 # set lcg
 scoreboard players set bityard lcgModulus 13
 function bityard:lcg/random
