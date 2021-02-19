@@ -1,6 +1,9 @@
 # announce
 tellraw @a [{"text":"The "}, {"color":"#cc00fa","text":"Ender Dragon"}, {"text":" was summoned by "}, {"selector": "@p"}]
 
+# reset dragonSlain
+scoreboard players set bityard dragonSlain 0
+
 # summon end crystal marker armor stands
 # 90y is average height of obsidian spikes
 summon minecraft:armor_stand -34 90 -25 {Tags:["crystal_marker"],Invulnerable:1b,Marker:1b,Invisible:1b}

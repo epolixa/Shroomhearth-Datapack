@@ -1,6 +1,9 @@
 # announcement
 tellraw @a [{"text":"The "}, {"color":"#cc00fa","text":"Ender Dragon"}, {"text":" was slain by "}, {"selector": "@s"}]
 
+# set dragonSlain
+scoreboard players set bityard dragonSlain 1
+
 # revoke advancement
 advancement revoke @s only boss_fight:killed_dragon
 

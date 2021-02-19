@@ -11,10 +11,10 @@ execute positioned 0 64 0 run advancement revoke @a[distance=..200] only boss_fi
 scoreboard players add @s[scores={bossHealth=81..199,dragonPhase=0..2}] powerCooldown 1
 
 # always increment powerCooldown if health is getting low
-scoreboard players add @s[scores={bossHealth=1..80}] powerCooldown 1
+scoreboard players add @s[scores={bossHealth=2..80}] powerCooldown 1
 
 # execute powers on cooldowns depending on health
-execute as @s[scores={bossHealth=1..40,powerCooldown=5..}] run function boss_fight:dragon_power
+execute as @s[scores={bossHealth=2..40,powerCooldown=5..}] run function boss_fight:dragon_power
 execute as @s[scores={bossHealth=41..80,powerCooldown=10..}] run function boss_fight:dragon_power
 execute as @s[scores={bossHealth=81..120,powerCooldown=15..}] run function boss_fight:dragon_power
 execute as @s[scores={bossHealth=121..160,powerCooldown=20..}] run function boss_fight:dragon_power

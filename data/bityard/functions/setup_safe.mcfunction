@@ -2,8 +2,7 @@
 function bityard:setup
 
 # call modules setup functions
-function boss_fight:setup
-function end_crystals:setup
+function mob_warding:setup
 function sleeping:setup
 function item_interactions:setup
 function extra_xp:setup

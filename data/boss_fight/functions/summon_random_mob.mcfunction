@@ -42,6 +42,9 @@ scoreboard players set bityard lcg -1
 execute as @e[type=#boss_fight:dragon_summon,limit=1,sort=nearest,tag=!dragon_summon] run tag @s add dragon_summon
 execute as @e[type=#boss_fight:dragon_summon,limit=1,sort=nearest,tag=!new_summon] run tag @s add new_summon
 
+# join mob to dragon team so kill message has color
+team join dragon @e[tag=new_summon,limit=1,sort=nearest]
+
 # give persistance tag so mobs dont just despawn
 execute as @e[tag=new_summon,limit=1,sort=nearest] run data merge entity @s {PersistenceRequired:1b}
 
