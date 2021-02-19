@@ -1,8 +1,5 @@
-# play effects
-particle minecraft:witch ~ ~1 ~ 3 1 3 0 64 force
-
 # play sound
-playsound minecraft:entity.elder_guardian.curse hostile @a[distance=0..] ~ ~ ~ 13 0.8
+playsound minecraft:entity.elder_guardian.curse hostile @a ~ ~ ~ 12 0.7
 
 # set lcg
 scoreboard players set bityard lcgModulus 13
@@ -22,3 +19,6 @@ execute if score bityard lcg matches 9 positioned 0 64 0 run effect give @e[type
 execute if score bityard lcg matches 10 positioned 0 64 0 run effect give @e[type=!ender_dragon,distance=..200] minecraft:absorption 10
 execute if score bityard lcg matches 11 positioned 0 64 0 run effect give @e[type=!ender_dragon,distance=..200] minecraft:levitation 10
 execute if score bityard lcg matches 12 positioned 0 64 0 run effect give @e[type=!ender_dragon,distance=..200] minecraft:slow_falling 10
+
+# unset lcg
+scoreboard players set bityard lcg -1
