@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:ender_dragon",
+    "minecraft:end_crystal",
+    "minecraft:item"
+  ]
+}
