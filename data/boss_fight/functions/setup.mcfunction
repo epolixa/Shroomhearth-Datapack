@@ -11,6 +11,14 @@ scoreboard objectives add powerCooldown dummy
 scoreboard objectives remove dragonPhase
 scoreboard objectives add dragonPhase dummy
 
+# dragonPlayers - track number of players involved in dragon fight
+scoreboard objectives remove dragonPlayers
+scoreboard objectives add dragonPlayers dummy
+
+# summonMarkers - track number of markers created for players
+scoreboard objectives remove summonMarkers
+scoreboard objectives add summonMarkers dummy
+
 # bossHealth - track dragon's phase
 scoreboard objectives remove bossHealth
 scoreboard objectives add bossHealth dummy

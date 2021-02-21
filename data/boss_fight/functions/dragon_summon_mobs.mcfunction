@@ -7,5 +7,8 @@ execute positioned 0 64 0 run title @a[distance=..200] actionbar {"color":"dark_
 # spread out markers
 execute in minecraft:the_end run spreadplayers 0 0 6 36 false @e[type=minecraft:armor_stand,tag=summon_marker]
 
+# adapt marker count
+function boss_fight:dragon_adapt_markers
+
 # summon mobs from markers
 execute as @e[type=minecraft:armor_stand,tag=summon_marker] at @s run function boss_fight:summon_random_mob

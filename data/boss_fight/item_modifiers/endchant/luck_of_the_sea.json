@@ -1,0 +1,6 @@
+{
+	"function": "minecraft:set_enchantments",
+	"enchantments": {
+		"minecraft:luck_of_the_sea": 4
+	}
+}

@@ -50,9 +50,13 @@ execute as @e[tag=new_summon,limit=1,sort=nearest] run data merge entity @s {Per
 
 # fix data for certain mobs
 execute as @e[type=#boss_fight:piglins,tag=new_summon,limit=1,sort=nearest] run data merge entity @s {IsImmuneToZombification:1b}
+execute as @e[type=#boss_fight:babies,tag=new_summon,limit=1,sort=nearest] run data merge entity @s {IsBaby:0b}
 
 # play particles on summoned mobs
-execute as @e[tag=new_summon,limit=1,sort=nearest] at @s run particle minecraft:dragon_breath ~ ~1 ~ 0.1 0 0.1 0.05 40 force
+execute as @e[tag=new_summon,limit=1,sort=nearest] at @s run particle minecraft:dragon_breath ~ ~1 ~ 0.1 0 0.1 0.05 20 force
+
+# play sound on summoned mobs
+execute as @e[tag=new_summon,limit=1,sort=nearest] at @s run playsound minecraft:entity.enderman.teleport hostile @a ~ ~ ~ 1 0.9
 
 # remove new spawn tags
 tag @e[tag=dragon_summon,limit=1,sort=nearest] remove new_summon

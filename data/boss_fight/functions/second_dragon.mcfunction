@@ -14,8 +14,8 @@ scoreboard players add @s[scores={bossHealth=81..199,dragonPhase=0..2}] powerCoo
 scoreboard players add @s[scores={bossHealth=2..80}] powerCooldown 1
 
 # execute powers on cooldowns depending on health
-execute as @s[scores={bossHealth=2..40,powerCooldown=5..}] run function boss_fight:dragon_power
-execute as @s[scores={bossHealth=41..80,powerCooldown=10..}] run function boss_fight:dragon_power
-execute as @s[scores={bossHealth=81..120,powerCooldown=15..}] run function boss_fight:dragon_power
-execute as @s[scores={bossHealth=121..160,powerCooldown=20..}] run function boss_fight:dragon_power
-execute as @s[scores={bossHealth=161..199,powerCooldown=25..}] run function boss_fight:dragon_power
+execute as @s[scores={bossHealth=2..60,powerCooldown=5..}] run function boss_fight:dragon_power
+execute as @s[scores={bossHealth=61..100,powerCooldown=10..}] run function boss_fight:dragon_power
+execute as @s[scores={bossHealth=101..140,powerCooldown=15..}] run function boss_fight:dragon_power
+execute as @s[scores={bossHealth=141..180,powerCooldown=20..}] run function boss_fight:dragon_power
+execute as @s[scores={bossHealth=181..199,powerCooldown=25..}] run function boss_fight:dragon_power

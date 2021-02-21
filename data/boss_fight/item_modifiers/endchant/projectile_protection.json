@@ -1,0 +1,6 @@
+{
+	"function": "minecraft:set_enchantments",
+	"enchantments": {
+		"minecraft:projectile_protection": 5
+	}
+}
