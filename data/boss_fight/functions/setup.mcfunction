@@ -15,6 +15,10 @@ scoreboard objectives add dragonPhase dummy
 scoreboard objectives remove dragonPlayers
 scoreboard objectives add dragonPlayers dummy
 
+# dragonDeaths - track player deaths since summoning dragon
+scoreboard objectives remove dragonDeaths
+scoreboard objectives add dragonDeaths deathCount
+
 # summonMarkers - track number of markers created for players
 scoreboard objectives remove summonMarkers
 scoreboard objectives add summonMarkers dummy

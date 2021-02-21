@@ -4,6 +4,9 @@ tellraw @a [{"text":"The "}, {"color":"#cc00fa","text":"Ender Dragon"}, {"text":
 # reset dragonSlain
 scoreboard players set bityard dragonSlain 0
 
+# reset dragonDeaths for all involved players
+execute positioned 0 64 0 run scoreboard players set @a[distance=..200] dragonDeaths 0
+
 # summon end crystal marker armor stands
 # 90y is average height of obsidian spikes
 summon minecraft:armor_stand -34 90 -25 {Tags:["crystal_marker"],Invulnerable:1b,Marker:1b,Invisible:1b}

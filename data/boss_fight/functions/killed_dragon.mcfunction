@@ -32,7 +32,7 @@ execute positioned 0 64 0 as @a[distance=..200] run function boss_fight:dragon_b
 function boss_fight:endchant/attune
 
 # grant solo kill advancement
-execute unless entity @p[distance=1..] if score bityard summonMarkers matches ..2 run advancement grant @s only boss_fight:legendary_battle
+execute unless entity @p[distance=1..] if score @s dragonDeaths matches 0 if score bityard summonMarkers matches ..2 run advancement grant @s only boss_fight:legendary_battle
 
 # revoke advancement
 advancement revoke @s only boss_fight:killed_dragon
