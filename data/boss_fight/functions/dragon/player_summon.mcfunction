@@ -28,4 +28,4 @@ execute positioned 0 64 0 as @a[distance=..200] at @s run summon minecraft:armor
 execute positioned 0 64 0 as @r[distance=..200] at @s run summon minecraft:armor_stand ~ ~ ~ {Tags:["summon_marker"],Marker:1b,Invulnerable:1b,Invisible:1b}
 
 # revoke trigger
-advancement revoke @s only boss_fight:summoned_dragon
+advancement revoke @s only boss_fight:dragon/player_summon

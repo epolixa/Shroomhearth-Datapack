@@ -30,4 +30,4 @@ tag @e[type=minecraft:end_crystal] remove new_summon
 tag @e[type=minecraft:armor_stand,tag=crystal_marker] remove restorable
 
 # schedule highlighter removal
-schedule function boss_fight:kill_highlighter 8s
+schedule function boss_fight:dragon/kill_highlighter 8s

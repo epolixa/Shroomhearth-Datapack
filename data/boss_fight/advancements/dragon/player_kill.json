@@ -10,6 +10,6 @@
 		}
 	},
 	"rewards": {
-		"function": "boss_fight:killed_dragon"
+		"function": "boss_fight:dragon/player_kill"
 	} 
 }

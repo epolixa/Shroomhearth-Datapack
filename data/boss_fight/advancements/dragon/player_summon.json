@@ -10,6 +10,6 @@
 		}
 	},
 	"rewards": {
-		"function": "boss_fight:summoned_dragon"
+		"function": "boss_fight:dragon/player_summon"
 	} 
 }

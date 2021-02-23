@@ -10,6 +10,6 @@
 		}
 	},
 	"rewards": {
-		"function": "boss_fight:damage_dragon"
+		"function": "boss_fight:dragon/player_damage"
 	} 
 }
