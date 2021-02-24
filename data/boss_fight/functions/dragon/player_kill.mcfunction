@@ -31,5 +31,11 @@ execute positioned 0 64 0 as @a[distance=..200] run function boss_fight:endchant
 # grant solo kill advancement
 execute unless entity @p[distance=1..] if score @s dragonDeaths matches 0 if score bityard summonMarkers matches ..2 run advancement grant @s only boss_fight:dragon/legendary_battle
 
+# remove all summoned crying obsidian
+execute positioned 0 64 0 run fill ~ ~-6 ~ ~40 ~10 ~40 minecraft:air replace minecraft:crying_obsidian
+execute positioned 0 64 0 run fill ~ ~-6 ~ ~40 ~10 ~-40 minecraft:air replace minecraft:crying_obsidian
+execute positioned 0 64 0 run fill ~ ~-6 ~ ~-40 ~10 ~40 minecraft:air replace minecraft:crying_obsidian
+execute positioned 0 64 0 run fill ~ ~-6 ~ ~-40 ~10 ~-40 minecraft:air replace minecraft:crying_obsidian
+
 # revoke advancement
 advancement revoke @s only boss_fight:dragon/player_kill

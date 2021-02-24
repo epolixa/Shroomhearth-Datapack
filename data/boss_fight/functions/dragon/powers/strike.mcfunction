@@ -7,5 +7,8 @@ execute positioned 0 64 0 run title @a[distance=..200] actionbar {"color":"dark_
 # adapt marker count
 function boss_fight:dragon/adapt_markers
 
-# summon lighting on random entities for each summon marker
-execute positioned 0 64 0 as @e[type=armor_stand,tag=summon_marker] at @e[type=!#boss_fight:dragon_immune,limit=1,sort=random,distance=..200] run summon minecraft:lightning_bolt ~ ~ ~
+# spread summon markers
+execute in minecraft:the_end run spreadplayers 0 0 1 40 under 64 false @e[type=minecraft:armor_stand,tag=summon_marker]
+
+# summon lighting at summon markers
+execute as @e[type=armor_stand,tag=summon_marker] at @s run summon minecraft:lightning_bolt ~ ~ ~
