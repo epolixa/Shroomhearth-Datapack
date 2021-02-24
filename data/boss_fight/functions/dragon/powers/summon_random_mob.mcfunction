@@ -46,7 +46,7 @@ execute as @e[type=#boss_fight:dragon_summon,limit=1,sort=nearest,tag=!new_summo
 team join dragon @e[tag=new_summon,limit=1,sort=nearest]
 
 # give persistance tag so mobs dont just despawn
-execute as @e[tag=new_summon,limit=1,sort=nearest] run data merge entity @s {PersistenceRequired:1b}
+execute as @e[type=!#boss_fight:flying,tag=new_summon,limit=1,sort=nearest] run data merge entity @s {PersistenceRequired:1b}
 
 # fix data for certain mobs
 execute as @e[type=#boss_fight:piglins,tag=new_summon,limit=1,sort=nearest] run data merge entity @s {IsImmuneToZombification:1b}
