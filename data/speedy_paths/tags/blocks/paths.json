@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "minecraft:dirt_path"
+    "minecraft:dirt_path",
+    "minecraft:frosted_ice"
   ]
 }

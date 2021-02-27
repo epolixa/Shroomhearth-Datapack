@@ -1,0 +1,36 @@
+{
+  "criteria": {
+    "on_path": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:alternative",
+            "terms": [
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "block": {
+                    "tag": "speedy_paths:paths"
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "offsetY": -1,
+                "predicate": {
+                  "block": {
+                    "tag": "speedy_paths:paths"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "speedy_paths:players"
+  }
+}
