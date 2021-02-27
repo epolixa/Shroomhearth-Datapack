@@ -3,9 +3,12 @@ scoreboard players set bityard lcgModulus 3
 function bityard:lcg/random
 
 # run item modifiers based on lcg result
-execute if score bityard lcg matches 0 run item entity @s weapon.mainhand modify boss_fight:endchant/piercing
-execute if score bityard lcg matches 1 run item entity @s weapon.mainhand modify boss_fight:endchant/quick_charge
-execute if score bityard lcg matches 2 run item entity @s weapon.mainhand modify boss_fight:endchant/unbreaking
+execute if score bityard lcg matches 0 run item entity @s weapon.mainhand modify boss_fight:endchant/quick_charge
+execute if score bityard lcg matches 1 run item entity @s weapon.mainhand modify boss_fight:endchant/unbreaking
+
+# piercing - gets unbreaking if multishot is present
+execute if score bityard lcg matches 2 unless predicate boss_fight:enchanted/mainhand/multishot run item entity @s weapon.mainhand modify boss_fight:endchant/piercing
+execute if score bityard lcg matches 2 if predicate boss_fight:enchanted/mainhand/multishot run item entity @s weapon.mainhand modify boss_fight:endchant/unbreaking
 
 # unset lcg
 scoreboard players set bityard lcg -1

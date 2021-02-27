@@ -3,9 +3,12 @@ scoreboard players set bityard lcgModulus 3
 function bityard:lcg/random
 
 # run item modifiers based on lcg result
-execute if score bityard lcg matches 0 run item entity @s weapon.offhand modify boss_fight:endchant/fortune
-execute if score bityard lcg matches 1 run item entity @s weapon.offhand modify boss_fight:endchant/efficiency
-execute if score bityard lcg matches 2 run item entity @s weapon.offhand modify boss_fight:endchant/unbreaking
+execute if score bityard lcg matches 0 run item entity @s weapon.offhand modify boss_fight:endchant/efficiency
+execute if score bityard lcg matches 1 run item entity @s weapon.offhand modify boss_fight:endchant/unbreaking
+
+# fortune - gets unbreaking instead if silk touch is present
+execute if score bityard lcg matches 2 unless predicate boss_fight:enchanted/offhand/silk_touch run item entity @s weapon.offhand modify boss_fight:endchant/fortune
+execute if score bityard lcg matches 2 if predicate boss_fight:enchanted/offhand/silk_touch run item entity @s weapon.offhand modify boss_fight:endchant/unbreaking
 
 # unset lcg
 scoreboard players set bityard lcg -1

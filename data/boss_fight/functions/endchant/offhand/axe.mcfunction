@@ -3,12 +3,27 @@ scoreboard players set bityard lcgModulus 6
 function bityard:lcg/random
 
 # run item modifiers based on lcg result
-execute if score bityard lcg matches 0 run item entity @s weapon.offhand modify boss_fight:endchant/sharpness
-execute if score bityard lcg matches 1 run item entity @s weapon.offhand modify boss_fight:endchant/smite
-execute if score bityard lcg matches 2 run item entity @s weapon.offhand modify boss_fight:endchant/bane_of_arthropods
-execute if score bityard lcg matches 3 run item entity @s weapon.offhand modify boss_fight:endchant/fortune
-execute if score bityard lcg matches 4 run item entity @s weapon.offhand modify boss_fight:endchant/efficiency
-execute if score bityard lcg matches 5 run item entity @s weapon.offhand modify boss_fight:endchant/unbreaking
+execute if score bityard lcg matches 0 run item entity @s weapon.offhand modify boss_fight:endchant/efficiency
+execute if score bityard lcg matches 1 run item entity @s weapon.offhand modify boss_fight:endchant/unbreaking
+
+# fortune - gets unbreaking instead if silk touch is present
+execute if score bityard lcg matches 2 unless predicate boss_fight:enchanted/offhand/silk_touch run item entity @s weapon.offhand modify boss_fight:endchant/fortune
+execute if score bityard lcg matches 2 if predicate boss_fight:enchanted/offhand/silk_touch run item entity @s weapon.offhand modify boss_fight:endchant/unbreaking
+
+# sharpness
+execute if score bityard lcg matches 3 unless predicate boss_fight:enchanted/offhand/smite unless predicate boss_fight:enchanted/offhand/bane_of_arthropods run item entity @s weapon.offhand modify boss_fight:endchant/sharpness
+execute if score bityard lcg matches 3 if predicate boss_fight:enchanted/offhand/smite run item entity @s weapon.offhand modify boss_fight:endchant/smite
+execute if score bityard lcg matches 3 if predicate boss_fight:enchanted/offhand/bane_of_arthropods run item entity @s weapon.offhand modify boss_fight:endchant/bane_of_arthropods
+
+# smite
+execute if score bityard lcg matches 4 unless predicate boss_fight:enchanted/offhand/sharpness unless predicate boss_fight:enchanted/offhand/bane_of_arthropods run item entity @s weapon.offhand modify boss_fight:endchant/smite
+execute if score bityard lcg matches 4 if predicate boss_fight:enchanted/offhand/sharpness run item entity @s weapon.offhand modify boss_fight:endchant/sharpness
+execute if score bityard lcg matches 4 if predicate boss_fight:enchanted/offhand/bane_of_arthropods run item entity @s weapon.offhand modify boss_fight:endchant/bane_of_arthropods
+
+# bane of arthropods
+execute if score bityard lcg matches 5 unless predicate boss_fight:enchanted/offhand/smite unless predicate boss_fight:enchanted/offhand/sharpness run item entity @s weapon.offhand modify boss_fight:endchant/bane_of_arthropods
+execute if score bityard lcg matches 5 if predicate boss_fight:enchanted/offhand/smite run item entity @s weapon.offhand modify boss_fight:endchant/smite
+execute if score bityard lcg matches 5 if predicate boss_fight:enchanted/offhand/sharpness run item entity @s weapon.offhand modify boss_fight:endchant/sharpness
 
 # unset lcg
 scoreboard players set bityard lcg -1
