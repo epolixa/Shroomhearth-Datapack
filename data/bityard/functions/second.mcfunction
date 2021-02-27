@@ -11,5 +11,8 @@ execute if entity @p if score bityard dragonSlain matches 1 if entity @e[type=mi
 # Wandering Trader announcement - run for unnannounced traders
 execute as @e[type=wandering_trader,tag=!announced] at @s run function wandering_trader:wandering_trader
 
+# Item Skins - run for unrolled mobs
+execute as @e[type=#item_skins:equipped,tag=!item_skin] run function item_skins:second
+
 # Community - only run when more than one player is online
 execute if score bityard playerCount matches 2.. run function community:second
