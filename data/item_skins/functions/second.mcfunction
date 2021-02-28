@@ -3,5 +3,8 @@
 # pillager - soul crossbow
 execute as @s[type=minecraft:pillager] if predicate item_skins:soul_crossbow run data modify entity @s HandItems[0].tag.CustomModelData set value 1
 
+# piglin brute - firebrand
+execute as @s[type=minecraft:piglin_brute] if predicate item_skins:firebrand run data modify entity @s HandItems[0].tag.CustomModelData set value 1
+
 # set tag so not targeted again
 tag @s add item_skin
