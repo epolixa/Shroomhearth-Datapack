@@ -2,19 +2,22 @@
   "type": "porcelain:the_porcelain",
   "generator": {
     "type": "minecraft:flat",
+    "seed": 413,
     "settings": {
+      "biome": "porcelain:porcelain",
       "layers": [
         {
-          "height": 1,
-          "block": "minecraft:bedrock"
+          "block": "minecraft:bedrock",
+          "height": 1
         },
         {
-          "height": 31,
-          "block": "minecraft:white_concrete"
+          "block": "minecraft:white_concrete",
+          "height": 31
         }
       ],
-      "biome": "porcelain:porcelain",
-      "structures": {}
+      "structures": {
+        "structures": {}
+      }
     }
   }
 }
