@@ -16,7 +16,7 @@ execute as @e[type=minecraft:armor_stand,tag=overworld_anchor,sort=nearest,limit
 kill @e[type=minecraft:armor_stand,tag=overworld_anchor,sort=nearest,limit=1]
 
 # unload chunk in overworld
-#execute at @s run forceload remove ~ ~
+execute at @s run forceload remove ~ ~
 
 # make sure chunks are still loaded for nearby remaining anchors
-#execute as @e[type=minecraft:armor_stand,tag=overworld_anchor,sort=nearest,limit=1] at @s run forceload add ~ ~
+execute as @e[type=minecraft:armor_stand,tag=overworld_anchor,sort=nearest,limit=1] at @s run forceload add ~ ~

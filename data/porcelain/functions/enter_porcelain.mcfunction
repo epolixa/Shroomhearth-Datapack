@@ -4,7 +4,7 @@
 ################################################################
 
 # keep chunk loaded in overworld
-#forceload add ~ ~
+forceload add ~ ~
 
 # summon armor stand in overworld
 summon minecraft:armor_stand ~ ~ ~ {CustomName: '{"text":"Overworld Anchor"}', Tags: ["overworld_anchor"], Marker: true, Invisible: true, ArmorItems:[{id:"minecraft:white_shulker_box", Count:1b, tag:{BlockEntityTag:{Items:[]}}},{id:"minecraft:white_shulker_box", Count:1b, tag:{BlockEntityTag:{Items:[]}}},{},{id:"minecraft:warped_fungus_on_a_stick", Count:1b, tag: {CustomModelData: 1, Enchantments:[{id:"minecraft:infinity",lvl:1}]}}]}
