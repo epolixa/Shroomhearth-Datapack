@@ -6,11 +6,8 @@ execute as @e[type=item,nbt={Age:0s,Item:{id:"minecraft:spawner"}}] run function
 execute if score bityard playerCount matches 2.. run function sleeping:tick
 
 # Misc XP - execute as item entities that have just appeared, at those items, as players within 6 blocks of those items
-# needs to happen every tick to track exactly when a player harvested a crop
+# keeping this disabled for now, in case we ever get a mined_block trigger
 #execute as @e[type=item,nbt={Age:0s},limit=1] at @s as @a[distance=..6] run function extra_xp:tick
-
-# boss fight tick
-#execute if entity @p run function boss_fight:tick 
 
 # Porcelain mechanics
 execute if entity @p run function porcelain:tick

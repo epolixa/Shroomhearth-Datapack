@@ -52,4 +52,4 @@ tag @e[type=minecraft:item,nbt={Item:{id:"minecraft:spyglass"}}] add persistant
 execute as @e[type=minecraft:item,tag=persistant] if data entity @s Item.tag.display.Name run function item_interactions:reset_item_age
 
 # re-schedule
-schedule function item_interactions:item_persistance 8s
+schedule function item_interactions:8s 8s

@@ -2,7 +2,7 @@
 function bityard:lcg/setup
 
 # functions to run every second
-function bityard:cps
+schedule function bityard:1s 1s
 
 # initialize item persistance, runs every 8 seconds
-function item_interactions:item_persistance
+schedule function item_interactions:8s 8s
