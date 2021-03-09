@@ -19,5 +19,11 @@ execute as @s[team=!black] at @s if block ~ ~ ~ minecraft:black_bed run function
 # play a sound
 execute at @s run playsound minecraft:block.wool.step player @a ~ ~ ~ 1 0.5
 
+# announce when players start sleeping
+tellraw @a [{"selector":"@s"},{"text":" fell asleep","color":"white"}]
+
+# give slept_in_bed tag
+tag @s add sleeping
+
 # revoke trigger advancement
 advancement revoke @s only sleeping:slept_in_bed

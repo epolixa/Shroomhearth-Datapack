@@ -1,5 +1,8 @@
+# capture SleepTimer
+execute store result score @s sleepTimer run data get entity @s SleepTimer
+
 # perform actions when a player sleeps
-execute as @a[nbt={SleepTimer:100s}] at @s run function sleeping:player_sleeping
+execute as @s[scores={sleepTimer=100}] run function sleeping:player_sleeping
 
 # perform actions when a player wakes
-execute as @a[nbt={SleepTimer:0s},scores={playerSleep=1..}] at @s run function sleeping:player_wake_up
+execute as @s[scores={sleepTimer=101..}] run function sleeping:player_wake_up
