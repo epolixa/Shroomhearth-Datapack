@@ -1,8 +1,6 @@
-# increment ward score on wardable mobs each second - mobs with ward=1 (had recently spawned) are targetable
-execute as @e[type=#mob_warding:wardable,tag=!ward_target] unless score @s ward matches 2.. run scoreboard players add @s ward 1
+# tag mobs that are safe
+# rules for wardable mobs: must be a naturally-spawning hostile mob that is not tied to a structure or other special circumstances
+execute positioned ~-50 ~-256 ~-50 unless entity @e[type=minecraft:end_crystal,nbt={ShowBottom:0b},dx=100,dy=306,dz=100] run tag @s add unwardable
 
-# witches can be warded if they are not part of a raid
-execute as @e[type=minecraft:witch,tag=!ward_target,nbt={Wave:0}] unless score @s ward matches 2.. run scoreboard players add @s ward 1
-
-# run crystal actions if there are wardable mobs 
-execute if entity @e[scores={ward=1}] as @e[type=minecraft:end_crystal,nbt={ShowBottom:0b}] at @s positioned ~-50 ~-50 ~-50 run function mob_warding:crystal
+# remove wardable mobs
+execute as @s[tag=!unwardable] run function mob_warding:ward_mob
