@@ -1,9 +1,5 @@
-################################################################
-# enter porcelain
-# manage entry passage to the porcelain
-################################################################
-
 # keep chunk loaded in overworld
+# this is needed so that the player can teleport back to the anchor instantly
 forceload add ~ ~
 
 # summon armor stand in overworld
@@ -34,6 +30,9 @@ advancement revoke @s only porcelain:exit_porcelain
 
 # summon armor stand in porcelain
 execute at @s run summon minecraft:armor_stand ~ ~ ~ {CustomName: '{"text":"Porcelain Anchor"}', Tags: ["porcelain_anchor"], Marker: true, Invisible: true}
+
+# initialize porcelain anchor
+#execute at @s as @e[tag=porcelain_anchor,limit=1,sort=nearest] at @s run function porcelain:initialize_porcelain_anchor
 
 # increment next porcelain ID
 scoreboard players add bityard nextPorcelainID 1

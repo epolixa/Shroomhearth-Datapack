@@ -1,8 +1,3 @@
-################################################################
-# teleport without anchor
-# handle exiting porcelain if no overworld anchor is present
-################################################################
-
 # teleport to overworld and find nearest ground
 execute in minecraft:overworld run teleport @s ~ 64 ~
 spreadplayers ~ ~ 0 4 false @s

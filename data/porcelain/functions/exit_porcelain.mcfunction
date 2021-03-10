@@ -1,8 +1,3 @@
-################################################################
-# exit porcelain
-# manage leaving the porcelain
-################################################################
-
 # remove score
 scoreboard players reset @s usePorcelain
 

@@ -1,10 +1,5 @@
-################################################################
-# travel effects
-# common effects when entering/exiting porcelain
-################################################################
-
 # potion effects
-effect give @s minecraft:slow_falling 1 0 true
+effect give @s minecraft:levitation 1 255 true
 effect give @s minecraft:blindness 1 0 true
 effect give @s minecraft:invisibility 1 0 true
 

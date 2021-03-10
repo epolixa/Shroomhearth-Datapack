@@ -1,8 +1,3 @@
-################################################################
-# anchor in porcelain
-# things relative to player anchor in porcelain
-################################################################
-
 # initialize porcelain anchor ID and armor
 execute unless score @s porcelainID matches 0.. run function porcelain:initialize_porcelain_anchor
 
@@ -17,4 +12,4 @@ execute at @a[distance=104..] if score @p porcelainID = @s porcelainID run advan
 execute unless entity @p[distance=..164] run kill @s
 
 # particles around anchor
-particle minecraft:end_rod ~ ~1.2 ~ 0.2 0.4 0.2 0.005 1 force
+particle minecraft:end_rod ~ ~1.2 ~ 0.2 0.4 0.2 0.05 8 force
