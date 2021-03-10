@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "inventory_changed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "dimension": "porcelain:the_porcelain"
+            }
+          }
+        ],
+        "items": [
+          {
+            "tag": "porcelain:blacklist"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "porcelain:clear_blacklist"
+  }
+}
