@@ -12,7 +12,6 @@
         "minecraft:stray",
         "minecraft:spider",
         "minecraft:zombie",
-        "minecraft:zombie_villager",
         "minecraft:zombified_piglin"
     ]
 }

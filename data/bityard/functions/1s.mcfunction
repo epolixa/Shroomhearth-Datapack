@@ -2,6 +2,9 @@
 scoreboard players set bityard playerCount 0
 execute as @a run scoreboard players add bityard playerCount 1
 
+# Porcelain 1s functions
+execute if entity @p run function porcelain:1s
+
 # Boss fight - run as boss mobs if a player is online
 execute as @e[type=ender_dragon] at @s run function boss_fight:dragon/1s
 

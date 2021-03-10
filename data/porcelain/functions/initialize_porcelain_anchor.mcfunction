@@ -9,10 +9,3 @@ loot replace entity @s armor.head kill @p
 item entity @s armor.feet copy entity @p armor.feet
 item entity @s armor.legs copy entity @p armor.legs
 item entity @s armor.chest copy entity @p armor.chest
-#item entity @s armor.head copy entity @p armor.head
-
-# clear player inventory
-clear @p
-
-# give player porcelain item
-loot give @p loot porcelain:porcelain

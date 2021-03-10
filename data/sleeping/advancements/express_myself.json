@@ -1,19 +1,19 @@
 {
-	"parent": "bityard:root",
-	"display": {
-		"icon": {
-			"item": "minecraft:lime_bed"
-		},
-		"title": "I Use My Bed to Express Myself!",
-		"description": "Change your name color several times by laying in colored beds",
-		"frame": "task",
-	"show_toast": true,
-	"announce_to_chat": true,
-	"hidden": false
-	},
-	"criteria": {
-		"express_myself": {
-			"trigger": "minecraft:impossible"
-		}
-	}
+  "parent": "bityard:root",
+  "display": {
+    "icon": {
+      "item": "minecraft:lime_bed"
+    },
+    "title": "I Use My Bed to Express Myself!",
+    "description": "Change your name color several times by laying in colored beds",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "express_myself": {
+      "trigger": "minecraft:impossible"
+    }
+  }
 }
