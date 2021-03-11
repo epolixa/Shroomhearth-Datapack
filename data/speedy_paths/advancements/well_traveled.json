@@ -2,7 +2,7 @@
 	"parent": "bityard:root",
 	"display": {
 		"icon": {
-			"item": "minecraft:dirt_path"
+			"item": "minecraft:grass_path"
 		},
 		"title": "Well Traveled",
 		"description": "Gain Speed by standing on a Dirt Path",

@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "minecraft:dirt_path",
+    "minecraft:grass_path",
     "minecraft:frosted_ice"
   ]
 }

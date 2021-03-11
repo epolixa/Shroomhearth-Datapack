@@ -9,7 +9,8 @@
             "entity": "this",
             "scores": {
               "playerLevel": {
-                "min": 30
+                "min": 30,
+                "max": 10000
               }
             }
           }
