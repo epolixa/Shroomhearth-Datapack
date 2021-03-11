@@ -1,9 +1,9 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
+    "GGG",
     "GEG",
-    "GSG",
-    "GAG"
+    "GSG"
   ],
   "key": {
     "S": {
@@ -14,12 +14,10 @@
     },
     "G": {
       "item": "minecraft:glass"
-    },
-    "A": {
-      "item": "minecraft:crying_obsidian"
     }
   },
   "result": {
-    "item": "minecraft:end_crystal"
+    "item": "minecraft:end_crystal",
+    "count": 4
   }
 }
