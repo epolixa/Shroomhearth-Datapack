@@ -1,5 +1,5 @@
 {
-	"parent": "speedy_paths:speedy_paths",
+	"parent": "speedy_paths:well_traveled",
 	"display": {
 		"icon": {
 			"item": "minecraft:warped_fungus_on_a_stick",

@@ -1,18 +1,9 @@
-## SETUP SAFE - only sets up objectives that are reset and re-calculated every tick + gamerules
+# core setup
+function bityard:setup
 
-# Setup dummy "Env" player & core objectives
-scoreboard objectives remove playerCount
-scoreboard objectives add playerCount dummy
-scoreboard players set Env playerCount 0
-
-# Call modules setup functions
-function end_crystal_ward:setup
-function multi_sleep:setup
-function drop_item:setup
-function misc_xp:setup
-function color_names:setup
+# call modules setup functions
+function sleeping:setup
+function item_interactions:setup
+function extra_xp:setup
 function stat_display:setup
 function porcelain:setup
-
-# Gamerules
-function bityard:setup_gamerules

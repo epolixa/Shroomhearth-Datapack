@@ -1,11 +1,11 @@
 {
-	"parent": "speedy_paths:speedy_paths",
+	"parent": "speedy_paths:well_traveled",
 	"display": {
 		"icon": {
 			"item": "minecraft:chorus_fruit"
 		},
 		"title": "Spontaneous Adventure",
-		"description": "Eat a Chorus Fruit at the Spawn Pedestal",
+		"description": "Eat a Chorus Fruit at the world spawn to teleport somewhere randomly",
 		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,

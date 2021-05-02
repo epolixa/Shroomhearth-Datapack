@@ -1,14 +1,8 @@
-################################################################
-# Reset Community Score
-# re-creates community objectives for rotation of project
-# also revokes "Community" goal advancement
-################################################################
-
 # community - main community value displayed in scoreboard
 scoreboard objectives remove community
 scoreboard objectives add community dummy
 
-# communityTicks - added or removed every tick, increases community after a certain amount of ticks
+# communityTicks - added or removed every second, increases community after a certain amount of ticks
 scoreboard objectives remove communityTicks
 scoreboard objectives add communityTicks dummy
 
@@ -18,6 +12,3 @@ scoreboard objectives add playerGroup dummy
 
 # Ensure that community score is shown in the tab list
 scoreboard objectives setdisplay list community
-
-# Revoke community advancements
-advancement revoke @a[advancements={community:community_builder=true}] only community:community_builder

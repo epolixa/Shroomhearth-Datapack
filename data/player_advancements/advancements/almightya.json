@@ -1,5 +1,5 @@
 {
-	"parent": "community:community_participator",
+	"parent": "community:community_cooperator",
 	"display": {
 		"icon": {
 			"item": "minecraft:player_head",

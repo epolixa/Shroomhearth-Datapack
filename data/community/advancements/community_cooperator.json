@@ -1,0 +1,19 @@
+{
+  "parent": "community:community_convenience",
+  "display": {
+		"icon": {
+			"item": "minecraft:bell"
+		},
+		"title": "Community Cooperator",
+		"description": "Group up with 5 or more players",
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"group_up": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

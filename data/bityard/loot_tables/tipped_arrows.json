@@ -8,12 +8,14 @@
 					"name": "minecraft:spectral_arrow",
 					"functions": [
 						{
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 8
-                            }
-                        }
+              "function": "set_count",
+              "count": {
+              	"type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 8.0
+              },
+              "add": false
+            }
 					]					
 				},
 				{
@@ -25,12 +27,14 @@
 							"tag": "{Potion: \"minecraft:long_night_vision\"}"
 						},
 						{
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 8
-                            }
-                        }
+              "function": "set_count",
+              "count": {
+              	"type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 8.0
+              },
+              "add": false
+	          }
 					]					
 				},
 				{
@@ -42,12 +46,14 @@
 							"tag": "{Potion: \"minecraft:long_invisibility\"}"
 						},
 						{
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 8
-                            }
-                        }
+              "function": "set_count",
+              "count": {
+              	"type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 8.0
+              },
+              "add": false
+            }
 					]					
 				},
 				{
@@ -59,12 +65,14 @@
 							"tag": "{Potion: \"minecraft:strong_leaping\"}"
 						},
 						{
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 8
-                            }
-                        }
+              "function": "set_count",
+              "count": {
+              	"type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 8.0
+              },
+              "add": false
+            }
 					]					
 				},
 				{
@@ -76,12 +84,14 @@
 							"tag": "{Potion: \"minecraft:long_fire_resistance\"}"
 						},
 						{
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 8
-                            }
-                        }
+              "function": "set_count",
+              "count": {
+              	"type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 8.0
+              },
+              "add": false
+	          }
 					]					
 				},
 				{
@@ -93,12 +103,14 @@
 							"tag": "{Potion: \"minecraft:strong_swiftness\"}"
 						},
 						{
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 8
-                            }
-                        }
+              "function": "set_count",
+              "count": {
+              	"type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 8.0
+              },
+              "add": false
+            }
 					]					
 				},
 				{
@@ -110,12 +122,14 @@
 							"tag": "{Potion: \"minecraft:long_slowness\"}"
 						},
 						{
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 8
-                            }
-                        }
+              "function": "set_count",
+              "count": {
+              	"type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 8.0
+              },
+              "add": false
+            }
 					]					
 				},
 				{
@@ -127,12 +141,14 @@
 							"tag": "{Potion: \"minecraft:long_water_breathing\"}"
 						},
 						{
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 8
-                            }
-                        }
+              "function": "set_count",
+              "count": {
+              	"type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 8.0
+              },
+              "add": false
+            }
 					]					
 				},
 				{
@@ -144,12 +160,14 @@
 							"tag": "{Potion: \"minecraft:strong_healing\"}"
 						},
 						{
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 8
-                            }
-                        }
+              "function": "set_count",
+              "count": {
+              	"type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 8.0
+              },
+              "add": false
+            }
 					]					
 				},
 				{
@@ -161,12 +179,14 @@
 							"tag": "{Potion: \"minecraft:strong_harming\"}"
 						},
 						{
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 8
-                            }
-                        }
+              "function": "set_count",
+              "count": {
+              	"type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 8.0
+              },
+              "add": false
+            }
 					]					
 				},				
 				{
@@ -178,12 +198,14 @@
 							"tag": "{Potion: \"minecraft:strong_poison\"}"
 						},
 						{
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 8
-                            }
-                        }
+              "function": "set_count",
+              "count": {
+              	"type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 8.0
+              },
+              "add": false
+            }
 					]					
 				},
 				{
@@ -195,12 +217,14 @@
 							"tag": "{Potion: \"minecraft:strong_regeneration\"}"
 						},
 						{
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 8
-                            }
-                        }
+              "function": "set_count",
+              "count": {
+              	"type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 8.0
+              },
+              "add": false
+            }
 					]					
 				},
 				{
@@ -212,12 +236,14 @@
 							"tag": "{Potion: \"minecraft:strong_strength\"}"
 						},
 						{
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 8
-                            }
-                        }
+              "function": "set_count",
+              "count": {
+              	"type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 8.0
+              },
+              "add": false
+            }
 					]					
 				},
 				{
@@ -229,12 +255,14 @@
 							"tag": "{Potion: \"minecraft:long_weakness\"}"
 						},
 						{
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 8
-                            }
-                        }
+              "function": "set_count",
+              "count": {
+              	"type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 8.0
+              },
+              "add": false
+            }
 					]					
 				},
 				{
@@ -246,12 +274,14 @@
 							"tag": "{Potion: \"minecraft:long_slow_falling\"}"
 						},
 						{
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 8
-                            }
-                        }
+              "function": "set_count",
+              "count": {
+              	"type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 8.0
+              },
+              "add": false
+            }
 					]					
 				}
 			]

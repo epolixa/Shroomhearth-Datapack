@@ -12,6 +12,7 @@
                         {
                             "function": "set_damage",
                             "damage": {
+                                "type": "minecraft:uniform",
                                 "min": 0,
                                 "max": 0.90
                             }
@@ -57,6 +58,7 @@
                         {
                             "function": "set_damage",
                             "damage": {
+                                "type": "minecraft:uniform",
                                 "min": 0,
                                 "max": 0.90
                             }
@@ -139,6 +141,7 @@
                         {
                             "function": "set_count",
                             "count": {
+                                "type": "minecraft:uniform",
                                 "min": 1,
                                 "max": 3
                             }
@@ -309,6 +312,7 @@
                             "weight": 21,
                             "quality": 2,
                             "count": {
+                                "type": "minecraft:uniform",
                                 "min": 1,
                                 "max": 3
                             }
@@ -338,6 +342,7 @@
                             "weight": 11,
                             "quality": 2,
                             "count": {
+                                "type": "minecraft:uniform",
                                 "min": 1,
                                 "max": 3
                             }
@@ -348,6 +353,7 @@
                             "weight": 1,
                             "quality": 2,
                             "count": {
+                                "type": "minecraft:uniform",
                                 "min": 1,
                                 "max": 3
                             }
@@ -360,6 +366,7 @@
                     "weight": 2,
                     "quality": 2,
                     "count": {
+                        "type": "minecraft:uniform",
                         "min": 1,
                         "max": 3
                     }

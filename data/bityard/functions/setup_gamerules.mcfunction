@@ -1,3 +1,4 @@
+# setup default gamerules
 gamerule announceAdvancements true
 gamerule commandBlockOutput false
 gamerule disableElytraMovementCheck true
@@ -23,3 +24,5 @@ gamerule spawnRadius 10
 gamerule spectatorsGenerateChunks false
 gamerule forgiveDeadPlayers true
 gamerule universalAnger false
+#gamerule freezeDamage true
+#gamerule playersSleepingPercentage 100

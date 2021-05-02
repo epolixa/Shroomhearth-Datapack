@@ -1,0 +1,28 @@
+{
+	"parent": "bityard:root",
+	"display": {
+		"icon": {
+			"item": "minecraft:ender_pearl"
+		},
+		"title": "Community Convenience",
+		"description": "Use the Community Gateway at Spawn",
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"used_gateway_in_overworld": {
+			"trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:end_gateway",
+        "player": {
+        	"condition": "minecraft:location_check",
+        	"predicate": {
+        		"dimension": "minecraft:overworld"
+        	}
+        }
+      }
+		}
+	}
+}

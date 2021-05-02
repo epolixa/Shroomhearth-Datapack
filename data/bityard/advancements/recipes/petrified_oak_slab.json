@@ -16,12 +16,12 @@
         ]
       }
     },
-    "has_stone_slab": {
+    "has_stone": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:stone_slab"
+            "item": "minecraft:stone"
           }
         ]
       }
@@ -36,7 +36,7 @@
   "requirements": [
     [
       "has_oak_log",
-      "has_stone_slab",
+      "has_stone",
       "has_recipe"
     ]
   ]

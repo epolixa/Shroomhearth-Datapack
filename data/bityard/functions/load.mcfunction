@@ -1,5 +1,8 @@
-## LOAD
-## Reset scheduled functions
+# re-seed lcg
+function bityard:lcg/setup
 
-function stat_display:health
-function item_permanence:main
+# functions to run every second
+schedule function bityard:1s 1s
+
+# initialize item persistance, runs every 8 seconds
+schedule function item_interactions:8s 8s

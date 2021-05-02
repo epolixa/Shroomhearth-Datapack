@@ -1,0 +1,10 @@
+{
+	"criteria": {
+		"cured_zombie_villager": {
+			"trigger": "minecraft:cured_zombie_villager"
+		}
+	},
+	"rewards": {
+		"function": "extra_xp:cured_zombie_villager"
+	} 
+}

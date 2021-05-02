@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "low_health": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "playerHealth": {
+                "min": 1,
+                "max": 10
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "stat_display:low_health"
+  }
+}

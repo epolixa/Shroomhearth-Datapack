@@ -1,9 +1,8 @@
-# Setup all safe stuff
+# setup all volatile objectives
 function bityard:setup_safe
 
-# Call modules setup functions
+# setups that reset preserved objectives
+function community:setup
+#function boss_fight:setup
 function player_advancements:setup
 function arena:setup
-
-# Misc/old stuff
-function bityard:setup

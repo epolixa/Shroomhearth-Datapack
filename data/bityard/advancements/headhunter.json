@@ -1,5 +1,5 @@
 {
-  "parent": "end_crystal_ward:end_crystal_ward",
+  "parent": "mob_warding:mob_zapper",
   "display": {
 		"icon": {
 			"item": "minecraft:creeper_head"
