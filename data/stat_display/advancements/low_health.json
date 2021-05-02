@@ -1,7 +1,7 @@
 {
-	"criteria": {
-		"on_dirt_path": {
-			"trigger": "minecraft:location",
+  "criteria": {
+    "low_health": {
+      "trigger": "minecraft:location",
       "conditions": {
         "player": [
           {
@@ -16,9 +16,9 @@
           }
         ]
       }
-		}
-	},
-	"rewards": {
-		"function": "stat_display:low_health"
-	} 
+    }
+  },
+  "rewards": {
+    "function": "stat_display:low_health"
+  }
 }
