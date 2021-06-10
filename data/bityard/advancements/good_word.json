@@ -1,0 +1,40 @@
+{
+	"parent": "community:community_convenience",
+	"display": {
+		"icon": {
+			"item": "minecraft:oak_sign"
+		},
+		"title": "The Good Word",
+		"description": "Place a sign on the MOTD board at Town Hall",
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"placed_sign": {
+			"trigger": "minecraft:placed_block",
+            "conditions": {
+                "item": {
+                    "tag": "minecraft:signs"
+                },
+                "location": {
+                    "position": {
+                        "x": {
+                            "min": -346,
+                            "max": -346
+                        },
+                        "y": {
+                            "min": 67,
+                            "max": 73
+                        },
+                        "z": {
+                            "min": 259,
+                            "max": 264
+                        }
+                    }
+                }
+            }
+		}
+	}
+}

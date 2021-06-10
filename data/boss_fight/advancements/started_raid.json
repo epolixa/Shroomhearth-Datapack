@@ -1,0 +1,10 @@
+{
+	"criteria": {
+		"started_raid": {
+			"trigger": "minecraft:voluntary_exile"
+		}
+	},
+	"rewards": {
+		"function": "boss_fight:started_raid"
+	} 
+}

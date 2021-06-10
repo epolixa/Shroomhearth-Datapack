@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "weathered_cut_copper_stairs",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:weathered_cut_copper"
+    }
+  },
+  "result": {
+    "item": "minecraft:weathered_cut_copper_stairs",
+    "count": 4
+  }
+}

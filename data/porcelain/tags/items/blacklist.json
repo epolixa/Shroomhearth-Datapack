@@ -4,6 +4,11 @@
     "minecraft:ender_chest",
     "minecraft:experience_bottle",
     "minecraft:ender_pearl",
+    "minecraft:ender_eye",
+    "minecraft:end_portal_frame",
+    "minecraft:potion",
+    "minecraft:splash_potion",
+    "minecraft:lingering_potion",
     "minecraft:apple",
     "minecraft:mushroom_stew",
     "minecraft:bread",
@@ -40,6 +45,7 @@
     "minecraft:beetroot",
     "minecraft:beetroot_soup",
     "minecraft:sweet_berries",
-    "minecraft:honey_bottle"
+    "minecraft:honey_bottle",
+    "minecraft:glow_berries"
   ]
 }

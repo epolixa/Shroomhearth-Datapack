@@ -3,6 +3,7 @@
     "values": [
         "minecraft:blaze",
         "minecraft:creeper",
+        "minecraft:cave_spider",
         "minecraft:drowned",
         "minecraft:elder_guardian",
         "minecraft:ender_dragon",
@@ -10,9 +11,11 @@
         "minecraft:evoker",
         "minecraft:ghast",
         "minecraft:guardian",
+        "minecraft:hoglin",
         "minecraft:husk",
         "minecraft:magma_cube",
         "minecraft:phantom",
+        "minecraft:piglin_brute",
         "minecraft:pillager",
         "minecraft:ravager",
         "minecraft:shulker",
@@ -27,7 +30,6 @@
         "minecraft:wither_skeleton",
         "minecraft:zombie",
         "minecraft:zombie_villager",
-        "minecraft:hoglin",
-        "minecraft:zoglin"
+        "minecraft:zoglin"        
     ]
 }

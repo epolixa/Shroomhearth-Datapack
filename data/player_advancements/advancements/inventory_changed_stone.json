@@ -5,9 +5,25 @@
 			"conditions": {
 				"items": [
 					{
-						"item": "minecraft:stone"
+						"items": [
+							"minecraft:stone",
+							"minecraft:cobblestone",
+							"minecraft:granite",
+							"minecraft:diorite",
+							"minecraft:andesite",
+							"minecraft:tuff",
+							"minecraft:deepslate",
+							"minecraft:cobbled_deepslate"
+						]
 					}
-				]
+				],
+				"player": {
+					"player": {
+						"advancements": {
+							"player_advancements:almightya": false
+						}
+					}
+				}
 			}
 		}
 	},

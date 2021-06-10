@@ -1,23 +1,25 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "GGG",
     "GEG",
-    "GSG"
+    "GAG",
+    "GTG"
   ],
   "key": {
-    "S": {
-      "item": "minecraft:nether_star"
-    },
     "E": {
       "item": "minecraft:ender_eye"
     },
     "G": {
       "item": "minecraft:glass"
+    },
+    "T": {
+      "item": "minecraft:ghast_tear"
+    },
+    "A": {
+      "item": "minecraft:amethyst_block"
     }
   },
   "result": {
-    "item": "minecraft:end_crystal",
-    "count": 4
+    "item": "minecraft:end_crystal"
   }
 }

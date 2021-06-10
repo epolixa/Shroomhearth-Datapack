@@ -14,7 +14,10 @@
                             }
                         }
                     }
-                ]
+                ],
+                "location": {
+                    "dimension": "minecraft:overworld"
+                }
             }
         }
     },

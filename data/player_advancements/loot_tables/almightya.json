@@ -11,7 +11,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{SkullOwner:\"AlmightyA\"}"
+              "tag": "{SkullOwner:\"AlMightyA\"}"
             }
           ]
         }

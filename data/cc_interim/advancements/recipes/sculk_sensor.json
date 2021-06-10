@@ -1,0 +1,32 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+        "recipes": [
+            "bityard:sculk_sensor"
+        ]
+    },
+    "criteria": {
+        "has_redstone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:redstone"
+                    }
+                ]
+            }
+        },
+        "has_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "bityard:sculk_sensor"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_redstone",
+            "has_recipe"
+        ]
+    ]
+}

@@ -5,7 +5,10 @@ setblock ~ ~ ~ minecraft:lectern[has_book=false,facing=south]{}
 loot spawn ~ ~1 ~ loot town_hall:knowledge_book
 
 # play particles
-particle minecraft:happy_villager ~ ~1 ~ 0.2 0.2 0.2 0.01 4
+particle minecraft:happy_villager ~ ~0.5 ~ 0.2 0 0.2 0 4
 
 # play sounds
 playsound minecraft:block.enchantment_table.use block @a ~ ~1 ~ 1 1.1
+
+# grant advancement
+advancement grant @p only town_hall:learning_curve

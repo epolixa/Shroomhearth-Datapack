@@ -75,7 +75,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Ghast Head\\\",\\\"italic\\\":false}\"},SkullOwner:\"MHF_Ghast\"}"
+                            "tag": "{display:{Name:'{\"text\":\"Ghast Head\",\"italic\":false}'},SkullOwner:\"MHF_Ghast\"}"
                         }
                     ],
                     "weight": 1

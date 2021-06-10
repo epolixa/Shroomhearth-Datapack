@@ -1,0 +1,19 @@
+{
+	"parent": "wandering_trader:exotic_wares",
+	"display": {
+		"icon": {
+			"item": "minecraft:cauldron"
+		},
+		"title": "Wash Around the Block",
+		"description": "Use a cauldron to wash a stack of items",
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"wash_items": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

@@ -1,0 +1,6 @@
+{
+	"function": "minecraft:set_enchantments",
+	"enchantments": {
+		"minecraft:soul_speed": 4
+	}
+}

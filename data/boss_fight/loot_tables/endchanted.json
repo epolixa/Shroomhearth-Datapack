@@ -1,0 +1,37 @@
+{
+    "pools": [
+        {
+            "rolls": 1.0,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "boss_fight:helmet"
+                },
+                {
+                    "type": "loot_table",
+                    "name": "boss_fight:chestplate"
+                },
+                {
+                    "type": "loot_table",
+                    "name": "boss_fight:leggings"
+                },
+                {
+                    "type": "loot_table",
+                    "name": "boss_fight:boots"
+                },
+                {
+                    "type": "loot_table",
+                    "name": "boss_fight:pickaxe"
+                },
+                {
+                    "type": "loot_table",
+                    "name": "boss_fight:shovel"
+                },
+                {
+                    "type": "loot_table",
+                    "name": "boss_fight:sword"
+                }
+            ]
+        }
+    ]
+}

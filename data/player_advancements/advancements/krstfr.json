@@ -1,0 +1,22 @@
+{
+	"parent": "community:community_coordinator",
+	"display": {
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner:\"Krstfr\"}"
+		},
+		"title": "Krstfr",
+		"description": "Wear a carved pumpkin whilst in the viscinity of a dozen Skeleton Horses",
+		"frame": "challenge"
+	},
+	"rewards": {
+		"loot": [
+			"player_advancements:krstfr"
+		]
+	},
+	"criteria": {
+		"nearby_horses": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

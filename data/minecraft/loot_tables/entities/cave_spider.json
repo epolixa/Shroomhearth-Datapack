@@ -80,7 +80,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Cave Spider Head\\\",\\\"italic\\\":false}\"},SkullOwner:\"MHF_CaveSpider\"}"
+                            "tag": "{display:{Name:'{\"text\":\"Cave Spider Head\",\"italic\":false}'},SkullOwner:\"MHF_CaveSpider\"}"
                         }
                     ],
                     "weight": 1

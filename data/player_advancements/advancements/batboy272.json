@@ -1,0 +1,56 @@
+{
+	"parent": "community:community_coordinator",
+	"display": {
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner:\"Batboy272\"}"
+		},
+		"title": "Batboy272",
+		"description": "Wear netherite boots, black-dyed leather leggings, elytra, and a Wither Skeleton skull",
+		"frame": "challenge"
+	},
+	"rewards": {
+		"loot": [
+			"player_advancements:batboy272"
+		]
+	},
+	"criteria": {
+		"inventory_changed_batboy272": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:wither_skeleton_skull"]
+					},
+					{
+						"items": ["minecraft:elytra"]
+					},
+					{
+						"items": ["minecraft:leather_leggings"],
+						"nbt": "{display:{color:1908001}}"
+					},
+					{
+						"items": ["minecraft:netherite_boots"]
+					}
+				],
+				"player": {
+					"equipment": {
+						"head": {
+							"items": ["minecraft:wither_skeleton_skull"]
+						},
+						"chest": {
+							"items": ["minecraft:elytra"]
+						},
+						"legs": {
+							"items": ["minecraft:leather_leggings"],
+							"nbt": "{display:{color:1908001}}"
+						},
+						"feet": {
+							"items": ["minecraft:netherite_boots"]
+						} 
+					}
+				}
+			}
+		}
+	}
+}

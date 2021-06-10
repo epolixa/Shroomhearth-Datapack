@@ -1,0 +1,65 @@
+[
+  {
+    "condition": "minecraft:alternative",
+    "terms": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "tag": "porcelain:porcelain",
+              "enchantments": [
+                {
+                  "enchantment": "minecraft:infinity"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "offhand": {
+              "tag": "porcelain:porcelain",
+              "enchantments": [
+                {
+                  "enchantment": "minecraft:infinity"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "condition": "minecraft:entity_scores",
+    "entity": "this",
+    "scores": {
+      "usePorcelain": {
+        "min": 1
+      }
+    }
+  },
+  {
+    "condition": "minecraft:alternative",
+    "terms": [
+      {
+        "condition": "minecraft:location_check",
+        "predicate": {
+          "dimension": "minecraft:the_nether"
+        }
+      },
+      {
+        "condition": "minecraft:location_check",
+        "predicate": {
+          "dimension": "minecraft:the_end"
+        }
+      }
+    ]
+  }
+]

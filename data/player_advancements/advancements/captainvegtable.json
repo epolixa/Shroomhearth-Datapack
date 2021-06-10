@@ -1,5 +1,5 @@
 {
-	"parent": "community:community_cooperator",
+	"parent": "community:community_coordinator",
 	"display": {
 		"icon": {
 			"item": "minecraft:player_head",
@@ -20,7 +20,7 @@
 			"conditions": {
 				"items": [
 					{
-						"item":"minecraft:dandelion"
+						"items":["minecraft:dandelion"]
 					}
 				]
 			}
@@ -30,7 +30,7 @@
 			"conditions": {
 				"items": [
 					{
-						"item":"minecraft:poppy"
+						"items":["minecraft:poppy"]
 					}
 				]
 			}
@@ -40,7 +40,7 @@
 			"conditions": {
 				"items": [
 					{
-						"item":"minecraft:blue_orchid"
+						"items":["minecraft:blue_orchid"]
 					}
 				]
 			}
@@ -50,7 +50,7 @@
 			"conditions": {
 				"items": [
 					{
-						"item":"minecraft:allium"
+						"items":["minecraft:allium"]
 					}
 				]
 			}
@@ -60,7 +60,7 @@
 			"conditions": {
 				"items": [
 					{
-						"item":"minecraft:azure_bluet"
+						"items":["minecraft:azure_bluet"]
 					}
 				]
 			}
@@ -70,7 +70,7 @@
 			"conditions": {
 				"items": [
 					{
-						"item":"minecraft:red_tulip"
+						"items":["minecraft:red_tulip"]
 					}
 				]
 			}
@@ -80,7 +80,7 @@
 			"conditions": {
 				"items": [
 					{
-						"item":"minecraft:orange_tulip"
+						"items":["minecraft:orange_tulip"]
 					}
 				]
 			}
@@ -90,7 +90,7 @@
 			"conditions": {
 				"items": [
 					{
-						"item":"minecraft:white_tulip"
+						"items":["minecraft:white_tulip"]
 					}
 				]
 			}
@@ -100,7 +100,7 @@
 			"conditions": {
 				"items": [
 					{
-						"item":"minecraft:pink_tulip"
+						"items":["minecraft:pink_tulip"]
 					}
 				]
 			}
@@ -110,7 +110,7 @@
 			"conditions": {
 				"items": [
 					{
-						"item":"minecraft:oxeye_daisy"
+						"items":["minecraft:oxeye_daisy"]
 					}
 				]
 			}
@@ -120,7 +120,7 @@
 			"conditions": {
 				"items": [
 					{
-						"item":"minecraft:cornflower"
+						"items":["minecraft:cornflower"]
 					}
 				]
 			}
@@ -130,7 +130,7 @@
 			"conditions": {
 				"items": [
 					{
-						"item":"minecraft:lily_of_the_valley"
+						"items":["minecraft:lily_of_the_valley"]
 					}
 				]
 			}
@@ -140,7 +140,7 @@
 			"conditions": {
 				"items": [
 					{
-						"item":"minecraft:wither_rose"
+						"items":["minecraft:wither_rose"]
 					}
 				]
 			}
@@ -150,7 +150,7 @@
 			"conditions": {
 				"items": [
 					{
-						"item":"minecraft:sunflower"
+						"items":["minecraft:sunflower"]
 					}
 				]
 			}
@@ -160,7 +160,7 @@
 			"conditions": {
 				"items": [
 					{
-						"item":"minecraft:lilac"
+						"items":["minecraft:lilac"]
 					}
 				]
 			}
@@ -170,7 +170,7 @@
 			"conditions": {
 				"items": [
 					{
-						"item":"minecraft:rose_bush"
+						"items":["minecraft:rose_bush"]
 					}
 				]
 			}
@@ -180,7 +180,7 @@
 			"conditions": {
 				"items": [
 					{
-						"item":"minecraft:peony"
+						"items":["minecraft:peony"]
 					}
 				]
 			}
@@ -190,7 +190,7 @@
 			"conditions": {
 				"items": [
 					{
-						"item":"minecraft:wheat"
+						"items":["minecraft:wheat"]
 					}
 				]
 			}
@@ -200,7 +200,7 @@
 			"conditions": {
 				"items": [
 					{
-						"item":"minecraft:melon"
+						"items":["minecraft:melon"]
 					}
 				]
 			}
@@ -210,7 +210,7 @@
 			"conditions": {
 				"items": [
 					{
-						"item":"minecraft:pumpkin"
+						"items":["minecraft:pumpkin"]
 					}
 				]
 			}
@@ -220,7 +220,7 @@
 			"conditions": {
 				"items": [
 					{
-						"item":"minecraft:sugar_cane"
+						"items":["minecraft:sugar_cane"]
 					}
 				]
 			}
@@ -230,7 +230,7 @@
 			"conditions": {
 				"items": [
 					{
-						"item":"minecraft:potato"
+						"items":["minecraft:potato"]
 					}
 				]
 			}
@@ -240,7 +240,7 @@
 			"conditions": {
 				"items": [
 					{
-						"item":"minecraft:poisonous_potato"
+						"items":["minecraft:poisonous_potato"]
 					}
 				]
 			}
@@ -250,7 +250,7 @@
 			"conditions": {
 				"items": [
 					{
-						"item":"minecraft:carrot"
+						"items":["minecraft:carrot"]
 					}
 				]
 			}
@@ -260,7 +260,7 @@
 			"conditions": {
 				"items": [
 					{
-						"item":"minecraft:cocoa_beans"
+						"items":["minecraft:cocoa_beans"]
 					}
 				]
 			}
@@ -270,7 +270,7 @@
 			"conditions": {
 				"items": [
 					{
-						"item":"minecraft:beetroot"
+						"items":["minecraft:beetroot"]
 					}
 				]
 			}
@@ -280,7 +280,67 @@
 			"conditions": {
 				"items": [
 					{
-						"item":"minecraft:nether_wart"
+						"items":["minecraft:nether_wart"]
+					}
+				]
+			}
+		},
+		"chorus_fruit": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items":["minecraft:chorus_fruit"]
+					}
+				]
+			}
+		},
+		"sweet_berries": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items":["minecraft:sweet_berries"]
+					}
+				]
+			}
+		},
+		"glow_berries": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items":["minecraft:glow_berries"]
+					}
+				]
+			}
+		},
+		"spore_blossom": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items":["minecraft:spore_blossom"]
+					}
+				]
+			}
+		},
+		"flowering_azalea": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items":["minecraft:flowering_azalea"]
+					}
+				]
+			}
+		},
+		"flowering_azalea_leaves": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items":["minecraft:flowering_azalea_leaves"]
 					}
 				]
 			}

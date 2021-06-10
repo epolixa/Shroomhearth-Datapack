@@ -1,8 +1,3 @@
-################################################################
-# Depressus
-# craft a stack of golden carrots
-################################################################
-
 # grant the advancement when they craft a full stack of 64
 advancement grant @s[scores={craftedCarrots=64..}] only player_advancements:depressus
 

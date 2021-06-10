@@ -1,25 +1,27 @@
 {
-  "parent": "community:community_cooperator",
+  "parent": "community:community_coordinator",
   "display": {
-		"icon": {
-			"item": "minecraft:player_head",
+    "icon": {
+      "item": "minecraft:player_head",
       "nbt": "{SkullOwner:\"vegworm\"}"
-		},
-		"title": "vegworm",
-		"description": "Eat every kind of fruit & vegetable",
+    },
+    "title": "vegworm",
+    "description": "Eat every kind of fruit and vegetable",
     "frame": "challenge"
-	},
+  },
   "rewards": {
     "loot": [
       "player_advancements:vegworm"
     ]
   },
-	"criteria": {
+  "criteria": {
     "apple": {
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "item": "minecraft:apple"
+          "items": [
+            "minecraft:apple"
+          ]
         }
       }
     },
@@ -27,7 +29,9 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "item": "minecraft:mushroom_stew"
+          "items": [
+            "minecraft:mushroom_stew"
+          ]
         }
       }
     },
@@ -35,7 +39,9 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "item": "minecraft:golden_apple"
+          "items": [
+            "minecraft:golden_apple"
+          ]
         }
       }
     },
@@ -43,7 +49,9 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "item": "minecraft:enchanted_golden_apple"
+          "items": [
+            "minecraft:enchanted_golden_apple"
+          ]
         }
       }
     },
@@ -51,7 +59,9 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "item": "minecraft:melon_slice"
+          "items": [
+            "minecraft:melon_slice"
+          ]
         }
       }
     },
@@ -59,7 +69,9 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "item": "minecraft:carrot"
+          "items": [
+            "minecraft:carrot"
+          ]
         }
       }
     },
@@ -67,7 +79,9 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "item": "minecraft:potato"
+          "items": [
+            "minecraft:potato"
+          ]
         }
       }
     },
@@ -75,7 +89,9 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "item": "minecraft:baked_potato"
+          "items": [
+            "minecraft:baked_potato"
+          ]
         }
       }
     },
@@ -83,7 +99,9 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "item": "minecraft:poisonous_potato"
+          "items": [
+            "minecraft:poisonous_potato"
+          ]
         }
       }
     },
@@ -91,7 +109,9 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "item": "minecraft:golden_carrot"
+          "items": [
+            "minecraft:golden_carrot"
+          ]
         }
       }
     },
@@ -99,7 +119,9 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "item": "minecraft:chorus_fruit"
+          "items": [
+            "minecraft:chorus_fruit"
+          ]
         }
       }
     },
@@ -107,7 +129,9 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "item": "minecraft:beetroot"
+          "items": [
+            "minecraft:beetroot"
+          ]
         }
       }
     },
@@ -115,7 +139,9 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "item": "minecraft:beetroot_soup"
+          "items": [
+            "minecraft:beetroot_soup"
+          ]
         }
       }
     },
@@ -123,7 +149,9 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "item": "minecraft:dried_kelp"
+          "items": [
+            "minecraft:dried_kelp"
+          ]
         }
       }
     },
@@ -131,7 +159,9 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "item": "minecraft:sweet_berries"
+          "items": [
+            "minecraft:sweet_berries"
+          ]
         }
       }
     },
@@ -139,59 +169,21 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "item": "minecraft:suspicious_stew"
+          "items": [
+            "minecraft:suspicious_stew"
+          ]
+        }
+      }
+    },
+    "glow_berries": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:glow_berries"
+          ]
         }
       }
     }
-  },
-  "requirements": [
-    [
-      "apple"
-    ],
-    [
-      "mushroom_stew"
-    ],
-    [
-      "golden_apple"
-    ],
-    [
-      "enchanted_golden_apple"
-    ],
-    [
-      "melon_slice"
-    ],
-    [
-      "carrot"
-    ],
-    [
-      "potato"
-    ],
-    [
-      "baked_potato"
-    ],
-    [
-      "poisonous_potato"
-    ],
-    [
-      "golden_carrot"
-    ],
-    [
-      "chorus_fruit"
-    ],
-    [
-      "beetroot"
-    ],
-    [
-      "beetroot_soup"
-    ],
-    [
-      "dried_kelp"
-    ],
-    [
-      "sweet_berries"
-    ],
-    [
-      "suspicious_stew"
-    ]
-  ]
+  }
 }

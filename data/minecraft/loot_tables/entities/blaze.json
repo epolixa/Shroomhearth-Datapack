@@ -54,7 +54,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Blaze Head\\\",\\\"italic\\\":false}\"},SkullOwner:\"MHF_Blaze\"}"
+                            "tag": "{display:{Name:'{\"text\":\"Blaze Head\",\"italic\":false}'},SkullOwner:\"MHF_Blaze\"}"
                         }
                     ],
                     "weight": 100,

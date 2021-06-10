@@ -2,7 +2,7 @@
   "type": "minecraft:entity",
   "pools": [
     {
-      "rolls": 1,
+      "rolls": 1.0,
       "entries": [
         {
           "type": "minecraft:item",
@@ -14,10 +14,6 @@
                 "max": 2.0,
                 "type": "minecraft:uniform"
               }
-            },
-            {
-            	"function": "minecraft:set_nbt",
-            	"tag": "{display: {Name: \"{\\\"italic\\\":\\\"false\\\", \\\"translate\\\":\\\"item.minecraft.bat_wing\\\"}\"}, CustomModelData:1}"
             }
           ],
           "name": "minecraft:rabbit_hide"

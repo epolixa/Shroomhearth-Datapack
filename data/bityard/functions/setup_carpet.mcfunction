@@ -70,3 +70,4 @@ carpet setDefault tntPrimerMomentumRemoved   false
 carpet setDefault tntRandomRange             -1.0
 carpet setDefault viewDistance               0
 carpet setDefault xpNoCooldown               false
+carpet setDefault movableAmethyst            false

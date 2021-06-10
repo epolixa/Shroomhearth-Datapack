@@ -47,7 +47,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Slime Core\\\",\\\"italic\\\":false}\"},SkullOwner:\"MHF_Slime\"}"
+                            "tag": "{display:{Name:'{\"text\":\"Slime Core\",\"italic\":false}'},SkullOwner:\"MHF_Slime\"}"
                         }
                     ],
                     "weight": 1

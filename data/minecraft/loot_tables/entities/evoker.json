@@ -61,7 +61,7 @@
                 "functions": [
                     {
                         "function": "set_nbt",
-                        "tag": "{display:{Name:\"{\\\"text\\\":\\\"Evoker Head\\\",\\\"italic\\\":false}\"},SkullOwner:{Id:[I;-17612447,-1953806226,-1654419791,-89666527],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDk1NDEzNWRjODIyMTM5NzhkYjQ3ODc3OGFlMTIxMzU5MWI5M2QyMjhkMzZkZDU0ZjFlYTFkYTQ4ZTdjYmE2In19fQ==\"}]}}}"
+                        "tag": "{display:{Name:'{\"text\":\"Evoker Head\",\"italic\":false}'},SkullOwner:{Id:[I;-17612447,-1953806226,-1654419791,-89666527],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDk1NDEzNWRjODIyMTM5NzhkYjQ3ODc3OGFlMTIxMzU5MWI5M2QyMjhkMzZkZDU0ZjFlYTFkYTQ4ZTdjYmE2In19fQ==\"}]}}}"
                     }
                 ],
                 "weight": 1

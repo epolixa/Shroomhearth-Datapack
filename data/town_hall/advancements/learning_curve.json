@@ -1,0 +1,19 @@
+{
+	"parent": "community:community_convenience",
+	"display": {
+		"icon": {
+			"item": "minecraft:knowledge_book"
+		},
+		"title": "Learning Curve",
+		"description": "Print a Knowledge Book at Town Hall",
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"print": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

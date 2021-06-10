@@ -1,10 +1,13 @@
 {
     "replace": false,
     "values": [
+        "minecraft:bee",
         "minecraft:dolphin",
+        "minecraft:goat",
         "minecraft:iron_golem",
         "minecraft:llama",
         "minecraft:polar_bear",
+        "minecraft:pufferfish",
         "minecraft:snow_golem",
         "minecraft:trader_llama",
         "minecraft:wolf",

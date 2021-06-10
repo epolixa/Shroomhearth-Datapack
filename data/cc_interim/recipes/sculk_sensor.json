@@ -1,0 +1,25 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "WWW",
+        "DED",
+        "DRD"
+    ],
+    "key": {
+        "W": {
+            "item": "minecraft:warped_wart_block"
+        },
+        "D": {
+            "item": "minecraft:deepslate"
+        },
+        "E": {
+            "item": "minecraft:ender_eye"
+        },
+        "R": {
+            "item": "minecraft:redstone"
+        }
+    },
+    "result": {
+        "item": "minecraft:sculk_sensor"
+    }
+}

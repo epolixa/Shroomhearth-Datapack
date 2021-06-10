@@ -1,5 +1,5 @@
 {
-	"parent": "community:community_cooperator",
+	"parent": "community:community_coordinator",
 	"display": {
 		"icon": {
 			"item": "minecraft:player_head",
@@ -15,8 +15,22 @@
 		]
 	},
 	"criteria": {
-		"mined_blocks": {
-			"trigger": "minecraft:impossible"
+		"eat_final_melon": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"items": ["minecraft:melon_slice"]
+				},
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"melonEaten": 64
+						}
+					}
+				]
+			}
 		}
 	}
 }

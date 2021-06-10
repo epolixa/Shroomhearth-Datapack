@@ -1,0 +1,32 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+      "recipes": [
+        "bityard:blast_furnace/copper_block_from_raw_copper_block"
+      ]
+    },
+    "criteria": {
+      "has_material": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "item": "minecraft:raw_copper_block"
+            }
+          ]
+        }
+      },
+      "has_recipe": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "bityard:blast_furnace/copper_block_from_raw_copper_block"
+        }
+      }
+    },
+    "requirements": [
+      [
+        "has_material",
+        "has_recipe"
+      ]
+    ]
+  }

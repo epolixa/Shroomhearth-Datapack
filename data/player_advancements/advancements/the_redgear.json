@@ -1,12 +1,12 @@
 {
-	"parent": "community:community_cooperator",
+	"parent": "community:community_coordinator",
 	"display": {
 		"icon": {
 			"item": "minecraft:player_head",
 			"nbt": "{SkullOwner:\"The_RedGear\"}"
 		},
 		"title": "The_RedGear",
-		"description": "Collect every red block",
+		"description": "Collect every red solid block",
 		"frame": "challenge"
 	},
 	"rewards": {
@@ -20,7 +20,7 @@
 			"conditions": {
 				"items": [
 					{
-						"item":"minecraft:red_wool"
+						"items":["minecraft:red_wool"]
 					}
 				]
 			}
@@ -30,7 +30,7 @@
 			"conditions": {
 				"items": [
 					{
-						"item":"minecraft:bricks"
+						"items":["minecraft:bricks"]
 					}
 				]
 			}
@@ -40,7 +40,7 @@
 			"conditions": {
 				"items": [
 					{
-						"item":"minecraft:tnt"
+						"items":["minecraft:tnt"]
 					}
 				]
 			}
@@ -50,7 +50,7 @@
 			"conditions": {
 				"items": [
 					{
-						"item":"minecraft:netherrack"
+						"items":["minecraft:netherrack"]
 					}
 				]
 			}
@@ -60,7 +60,7 @@
 			"conditions": {
 				"items": [
 					{
-						"item":"minecraft:red_mushroom_block"
+						"items":["minecraft:red_mushroom_block"]
 					}
 				]
 			}
@@ -70,7 +70,7 @@
 			"conditions": {
 				"items": [
 					{
-						"item":"minecraft:redstone_block"
+						"items":["minecraft:redstone_block"]
 					}
 				]
 			}
@@ -80,7 +80,7 @@
 			"conditions": {
 				"items": [
 					{
-						"item":"minecraft:red_terracotta"
+						"items":["minecraft:red_terracotta"]
 					}
 				]
 			}
@@ -90,7 +90,7 @@
 			"conditions": {
 				"items": [
 					{
-						"item":"minecraft:red_stained_glass"
+						"items":["minecraft:red_stained_glass"]
 					}
 				]
 			}
@@ -100,7 +100,7 @@
 			"conditions": {
 				"items": [
 					{
-						"item":"minecraft:nether_wart_block"
+						"items":["minecraft:nether_wart_block"]
 					}
 				]
 			}
@@ -110,7 +110,7 @@
 			"conditions": {
 				"items": [
 					{
-						"item":"minecraft:red_nether_bricks"
+						"items":["minecraft:red_nether_bricks"]
 					}
 				]
 			}
@@ -120,7 +120,7 @@
 			"conditions": {
 				"items": [
 					{
-						"item":"minecraft:red_shulker_box"
+						"items":["minecraft:red_shulker_box"]
 					}
 				]
 			}
@@ -130,7 +130,7 @@
 			"conditions": {
 				"items": [
 					{
-						"item":"minecraft:red_glazed_terracotta"
+						"items":["minecraft:red_glazed_terracotta"]
 					}
 				]
 			}
@@ -140,7 +140,7 @@
 			"conditions": {
 				"items": [
 					{
-						"item":"minecraft:red_concrete"
+						"items":["minecraft:red_concrete"]
 					}
 				]
 			}
@@ -150,7 +150,7 @@
 			"conditions": {
 				"items": [
 					{
-						"item":"minecraft:red_concrete_powder"
+						"items":["minecraft:red_concrete_powder"]
 					}
 				]
 			}
@@ -160,7 +160,7 @@
 			"conditions": {
 				"items": [
 					{
-						"item":"minecraft:fire_coral_block"
+						"items":["minecraft:fire_coral_block"]
 					}
 				]
 			}
@@ -170,7 +170,7 @@
 			"conditions": {
 				"items": [
 					{
-						"item":"minecraft:crimson_nylium"
+						"items":["minecraft:crimson_nylium"]
 					}
 				]
 			}
@@ -180,7 +180,7 @@
 			"conditions": {
 				"items": [
 					{
-						"item":"minecraft:crimson_stem"
+						"items":["minecraft:crimson_stem"]
 					}
 				]
 			}
@@ -190,7 +190,7 @@
 			"conditions": {
 				"items": [
 					{
-						"item":"minecraft:crimson_hyphae"
+						"items":["minecraft:crimson_hyphae"]
 					}
 				]
 			}

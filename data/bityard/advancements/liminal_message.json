@@ -1,0 +1,19 @@
+{
+	"parent": "wandering_trader:exotic_wares",
+	"display": {
+		"icon": {
+			"item": "minecraft:beacon"
+		},
+		"title": "Liminal Message",
+		"description": "Place a sign above a beacon to receive a subtitle",
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"receive_message": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

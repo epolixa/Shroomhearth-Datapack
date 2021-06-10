@@ -1,0 +1,38 @@
+{
+	"parent": "community:community_coordinator",
+	"display": {
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner:\"PolarisPlume\"}"
+		},
+		"title": "PolarisPlume",
+		"description": "Place a blue flower at the bottom of the world",
+		"frame": "challenge"
+	},
+	"rewards": {
+		"loot": [
+			"player_advancements:polarisplume"
+		]
+	},
+	"criteria": {
+		"placed_block": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:blue_orchid",
+                        "minecraft:cornflower"
+                    ]
+                },
+                "location": {
+                    "position": {
+                        "y": {
+                            "min": 0,
+                            "max": 6
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

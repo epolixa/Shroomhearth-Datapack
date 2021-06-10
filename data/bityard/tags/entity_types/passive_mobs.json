@@ -1,6 +1,7 @@
 {
     "replace": false,
     "values": [
+        "minecraft:axolotl",
         "minecraft:bat",
         "minecraft:mooshroom",
         "minecraft:chicken",
@@ -9,6 +10,7 @@
         "minecraft:cow",
         "minecraft:donkey",
         "minecraft:fox",
+        "minecraft:glow_squid",
         "minecraft:horse",
         "minecraft:mule",
         "minecraft:ocelot",
@@ -24,6 +26,7 @@
         "minecraft:tropical_fish",
         "minecraft:villager",
         "minecraft:wandering_trader",
-        "minecraft:strider"
+        "minecraft:strider",
+        "minecraft:zombie_horse"
     ]
 }

@@ -13,5 +13,5 @@ scoreboard objectives add farmPotato minecraft.mined:minecraft.potatoes
 scoreboard objectives remove farmWart
 scoreboard objectives add farmWart minecraft.mined:minecraft.nether_wart
 
-#scoreboard objectives remove farmAmethyst
-#scoreboard objectives add farmAmethyst minecraft.mined:minecraft.amethyst_cluster
+scoreboard objectives remove farmAmethyst
+scoreboard objectives add farmAmethyst minecraft.mined:minecraft.amethyst_cluster

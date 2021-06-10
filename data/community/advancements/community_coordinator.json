@@ -1,12 +1,12 @@
 {
-  "parent": "community:community_convenience",
+  "parent": "community:community_cooperator",
   "display": {
 		"icon": {
 			"item": "minecraft:dragon_egg"
 		},
 		"title": "Community Coordinator",
 		"description": "Relocate the Community Gateway by tossing an Ender Pearl at a Dragon Egg",
-		"frame": "task",
+		"frame": "challenge",
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false
