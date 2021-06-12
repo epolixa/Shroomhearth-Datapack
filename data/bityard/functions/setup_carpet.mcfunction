@@ -41,8 +41,8 @@ carpet setDefault language                   none
 carpet setDefault leadFix                    true
 carpet setDefault maxEntityCollisions        0
 carpet setDefault mergeTNT                   false
-carpet setDefault missingTools               true
-carpet setDefault movableBlockEntities       true
+carpet setDefault missingTools               false
+carpet setDefault movableBlockEntities       false
 carpet setDefault onePlayerSleeping          false
 carpet setDefault optimizedTNT               true
 carpet setDefault persistentParrots          true
