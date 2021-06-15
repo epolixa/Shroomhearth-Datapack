@@ -1,5 +1,5 @@
 # set lcg
-scoreboard players set bityard lcgModulus 31
+scoreboard players set bityard lcgModulus 29
 function bityard:lcg/random
 
 # summon a random mob
@@ -19,21 +19,19 @@ execute if score bityard lcg matches 12 run summon minecraft:witch ~ ~ ~
 execute if score bityard lcg matches 13 run summon minecraft:vindicator ~ ~ ~
 execute if score bityard lcg matches 14 run summon minecraft:pillager ~ ~ ~
 execute if score bityard lcg matches 15 run summon minecraft:illusioner ~ ~ ~
-execute if score bityard lcg matches 16 run summon minecraft:evoker ~ ~ ~
-execute if score bityard lcg matches 17 run summon minecraft:ravager ~ ~ ~
-execute if score bityard lcg matches 18 run summon minecraft:phantom ~ ~ ~
-execute if score bityard lcg matches 19 run summon minecraft:guardian ~ ~ ~
-execute if score bityard lcg matches 20 run summon minecraft:elder_guardian ~ ~ ~
-execute if score bityard lcg matches 21 run summon minecraft:hoglin ~ ~ ~
-execute if score bityard lcg matches 22 run summon minecraft:zoglin ~ ~ ~
-execute if score bityard lcg matches 23 run summon minecraft:piglin ~ ~ ~
-execute if score bityard lcg matches 24 run summon minecraft:zombified_piglin ~ ~ ~
-execute if score bityard lcg matches 25 run summon minecraft:piglin_brute ~ ~ ~
-execute if score bityard lcg matches 26 run summon minecraft:magma_cube ~ ~ ~
-execute if score bityard lcg matches 27 run summon minecraft:blaze ~ ~ ~
-execute if score bityard lcg matches 28 run summon minecraft:ghast ~ ~ ~
-execute if score bityard lcg matches 29 run summon minecraft:endermite ~ ~ ~
-execute if score bityard lcg matches 30 run summon minecraft:shulker ~ ~ ~
+execute if score bityard lcg matches 16 run summon minecraft:ravager ~ ~ ~
+execute if score bityard lcg matches 17 run summon minecraft:phantom ~ ~8 ~
+execute if score bityard lcg matches 18 run summon minecraft:guardian ~ ~ ~
+execute if score bityard lcg matches 19 run summon minecraft:hoglin ~ ~ ~
+execute if score bityard lcg matches 20 run summon minecraft:zoglin ~ ~ ~
+execute if score bityard lcg matches 21 run summon minecraft:piglin ~ ~ ~
+execute if score bityard lcg matches 22 run summon minecraft:zombified_piglin ~ ~ ~
+execute if score bityard lcg matches 23 run summon minecraft:piglin_brute ~ ~ ~
+execute if score bityard lcg matches 24 run summon minecraft:magma_cube ~ ~ ~
+execute if score bityard lcg matches 25 run summon minecraft:blaze ~ ~ ~
+execute if score bityard lcg matches 26 run summon minecraft:ghast ~ ~8 ~
+execute if score bityard lcg matches 27 run summon minecraft:endermite ~ ~ ~
+execute if score bityard lcg matches 28 run summon minecraft:shulker ~ ~ ~
 
 # unset lcg
 scoreboard players set bityard lcg -1
@@ -50,7 +48,7 @@ execute as @e[type=!#boss_fight:flying,tag=new_summon,limit=1,sort=nearest] run 
 
 # fix data for certain mobs
 execute as @e[type=#boss_fight:piglins,tag=new_summon,limit=1,sort=nearest] run data merge entity @s {IsImmuneToZombification:1b}
-execute as @e[type=#boss_fight:babies,tag=new_summon,limit=1,sort=nearest] run data merge entity @s {Age:0}
+execute as @e[type=#boss_fight:babies,tag=new_summon,limit=1,sort=nearest] run data merge entity @s {Age:0,IsBaby:0b}
 
 # play particles on summoned mobs
 execute as @e[tag=new_summon,limit=1,sort=nearest] at @s run particle minecraft:dragon_breath ~ ~1 ~ 0.1 0 0.1 0.05 20 force
