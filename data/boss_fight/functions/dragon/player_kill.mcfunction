@@ -13,6 +13,9 @@ execute store result score bityard summonMarkers if entity @e[type=minecraft:arm
 # kill summon markers
 kill @e[type=minecraft:armor_stand,tag=summon_marker]
 
+# fix for slimes that didn't inherit tags
+tag @e[type=#boss_fight:slimes,distance=..200] add dragon_summon
+
 # fix for slimes so they don't make smaller ones when they die
 execute as @e[type=#boss_fight:slimes,tag=dragon_summon] run data merge entity @s {Size:0}
 
