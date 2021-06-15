@@ -25,9 +25,6 @@ kill @e[tag=dragon_summon]
 # setblock dragon egg at pedestal
 setblock 0 64 0 minecraft:dragon_egg
 
-# grant all players in range with dragon buff
-execute positioned 0 64 0 as @a[distance=..200] run function boss_fight:dragon/buff_players
-
 # grant endchantments for all players in range to equipment in priority: mainhand, offhand, helmet, chestplate, leggings, boots
 execute positioned 0 64 0 as @a[distance=..200] run function boss_fight:endchant/attune
 
