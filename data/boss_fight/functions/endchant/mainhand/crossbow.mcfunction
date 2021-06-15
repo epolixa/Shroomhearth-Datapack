@@ -22,3 +22,6 @@ tellraw @s [{"color":"white","text":"Your Crossbow attunes to the "},{"color":"#
 # play sounds & effects
 execute at @s run particle minecraft:witch ~ ~0.9 ~ 0.2 0.45 0.2 0.01 20
 execute at @s run playsound minecraft:item.trident.return player @s ~ ~ ~ 1 0.5
+
+# grant advancement
+advancement grant @s only boss_fight:dragon/endchanted
