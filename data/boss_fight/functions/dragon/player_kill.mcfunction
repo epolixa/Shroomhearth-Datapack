@@ -34,5 +34,8 @@ execute unless entity @p[distance=1..] if score @s dragonDeaths matches 0 if sco
 # remove all summoned crying obsidian pillars
 function boss_fight:dragon/cleanup_pillars
 
+# remove all transmuted blocks
+function boss_fight:dragon/cleanup_transmutes
+
 # revoke advancement
 advancement revoke @s only boss_fight:dragon/player_kill

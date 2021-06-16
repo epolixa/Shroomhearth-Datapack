@@ -2,7 +2,7 @@
 particle minecraft:witch ~ ~1 ~ 3 1 3 0 64 force
 
 # set lcg
-scoreboard players set bityard lcgModulus 8
+scoreboard players set bityard lcgModulus 9
 function bityard:lcg/random
 
 # run a random power...
@@ -27,8 +27,11 @@ execute if score bityard lcg matches 5 run function boss_fight:dragon/powers/war
 # summon lighting - always uncommon
 execute if score bityard lcg matches 6 run function boss_fight:dragon/powers/strike
 
-# create blocks - always uncommon
+# create pillars - always uncommon
 execute if score bityard lcg matches 7 run function boss_fight:dragon/powers/pillar
+
+# create blocks - always uncommon
+execute if score bityard lcg matches 8 run function boss_fight:dragon/powers/transmute
 
 # unset lcg
 scoreboard players set bityard lcg -1
