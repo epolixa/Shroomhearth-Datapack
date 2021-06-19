@@ -6,7 +6,7 @@
       "item": "minecraft:light_blue_dye"
     },
     "w": {
-      "tag": "bityard:wools"
+      "tag": "minecraft:wool"
     }
   },
   "pattern": [
