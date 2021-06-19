@@ -1,15 +1,15 @@
 {
 	"criteria": {
-		"eat": {
+		"eat_glow_berries": {
 			"trigger": "minecraft:consume_item",
 			"conditions": {
 				"item": {
-					"items": ["minecraft:chorus_fruit"]
+					"items": ["minecraft:glow_berries"]
 				}
 			}
 		}
 	},
 	"rewards": {
-		"function": "random_tp:main"
+		"function": "cc_interim:eat_glow_berries"
 	} 
 }
