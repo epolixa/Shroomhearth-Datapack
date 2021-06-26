@@ -1,0 +1,19 @@
+{
+	"parent": "bityard:wash_block",
+	"display": {
+		"icon": {
+			"item": "minecraft:glowstone_dust"
+		},
+		"title": "Let There Be Light!",
+		"description": "Use glowstone dust to place light",
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"wash_items": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}
