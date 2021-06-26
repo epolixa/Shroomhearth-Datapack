@@ -12,7 +12,7 @@
 		"hidden": false
 	},
 	"criteria": {
-		"receive_message": {
+		"impossible": {
 			"trigger": "minecraft:impossible"
 		}
 	}
