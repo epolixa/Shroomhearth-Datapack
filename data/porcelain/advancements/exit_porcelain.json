@@ -1,39 +1,39 @@
 {
-	"criteria": {
-		"enter_void": {
-			"trigger": "minecraft:location",
-			"conditions": {
-				"location": {
-					"dimension": "porcelain:the_porcelain",
-					"position": {
-						"y": {
-							"max": 0
-						}
-					}
-				}
-			}
-		},
-		"enter_sky": {
-			"trigger": "minecraft:location",
-			"conditions": {
-				"location": {
-					"dimension": "porcelain:the_porcelain",
-					"position": {
-						"y": {
-							"min": 256
-						}
-					}
-				}
-			}
-		}
-	},
-	"requirements": [
-    [
-      "enter_void",
-      "enter_sky"
-    ]
-  ],
-	"rewards": {
-		"function": "porcelain:exit_porcelain"
-	} 
+    "criteria": {
+        "below_one": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "dimension": "porcelain:the_porcelain",
+                    "position": {
+                        "y": {
+                            "max": 1
+                        }
+                    }
+                }
+            }
+        },
+        "above_max": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "dimension": "porcelain:the_porcelain",
+                    "position": {
+                        "y": {
+                            "min": 256
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "below_one",
+            "above_max"
+        ]
+    ],
+    "rewards": {
+        "function": "porcelain:exit_porcelain"
+    }
 }

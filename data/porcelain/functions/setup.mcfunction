@@ -10,3 +10,7 @@ scoreboard objectives add porcelainID dummy
 scoreboard objectives remove nextPorcelainID
 scoreboard objectives add nextPorcelainID dummy
 scoreboard players set bityard nextPorcelainID 0
+
+# hasPorcelain - check if player has porcelain while in the porcelain
+scoreboard objectives remove hasPorcelain
+scoreboard objectives add hasPorcelain dummy

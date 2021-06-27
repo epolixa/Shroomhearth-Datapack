@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "location": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "dimension": "porcelain:the_porcelain"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "porcelain:restore_porcelain"
+  }
+}
