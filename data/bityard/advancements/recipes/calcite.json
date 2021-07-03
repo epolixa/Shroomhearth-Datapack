@@ -1,0 +1,43 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+      "recipes": [
+        "bityard:calcite"
+      ]
+    },
+    "criteria": {
+      "has_calcite": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": ["minecraft:calcite"]
+            }
+          ]
+        }
+      },
+      "has_amethyst_shard": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": ["minecraft:amethyst_shard"]
+            }
+          ]
+        }
+      },
+      "has_recipe": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "bityard:blackstone"
+        }
+      }
+    },
+    "requirements": [
+      [
+        "has_calcite",
+        "has_amethyst_shard",
+        "has_recipe"
+      ]
+    ]
+  }

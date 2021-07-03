@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "DA",
+      "AD"
+    ],
+    "key": {
+      "D": {
+        "item": "minecraft:diorite"
+      },
+      "A": {
+        "item": "minecraft:amethyst_shard"
+      }
+    },
+    "result": {
+      "item": "minecraft:calcite",
+      "count": 2
+    }
+  }

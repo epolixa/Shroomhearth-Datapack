@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "SSS",
+      "SLS",
+      "SSS"
+    ],
+    "key": {
+      "S": {
+        "tag": "minecraft:stone_crafting_materials"
+      },
+      "L": {
+        "item": "minecraft:lava_bucket"
+      }
+    },
+    "result": {
+      "item": "minecraft:tuff",
+      "count": 8
+    }
+  }
