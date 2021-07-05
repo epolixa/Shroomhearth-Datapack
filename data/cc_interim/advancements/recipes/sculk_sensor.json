@@ -2,7 +2,7 @@
     "parent": "minecraft:recipes/root",
     "rewards": {
         "recipes": [
-            "bityard:sculk_sensor"
+            "cc_interim:sculk_sensor"
         ]
     },
     "criteria": {
@@ -19,7 +19,7 @@
         "has_recipe": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "bityard:sculk_sensor"
+                "recipe": "cc_interim:sculk_sensor"
             }
         }
     },
