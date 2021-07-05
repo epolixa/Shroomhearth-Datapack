@@ -1,10 +1,5 @@
 {
   "parent": "minecraft:recipes/root",
-  "rewards": {
-    "recipes": [
-      "town_hall:knowledge_book_dummy"
-    ]
-  },
   "criteria": {
     "has_recipe": {
       "trigger": "minecraft:recipe_unlocked",
