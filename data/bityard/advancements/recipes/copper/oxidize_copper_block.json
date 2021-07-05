@@ -11,7 +11,7 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:copper_block"
+            "items": ["minecraft:copper_block"]
           }
         ]
       }
@@ -21,7 +21,7 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:magma_cream"
+            "items": ["minecraft:magma_cream"]
           }
         ]
       }

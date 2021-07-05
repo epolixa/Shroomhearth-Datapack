@@ -11,7 +11,7 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:red_sandstone_wall"
+            "items": ["minecraft:red_sandstone_wall"]
           }
         ]
       }

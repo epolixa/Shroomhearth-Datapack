@@ -11,7 +11,7 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:smooth_sandstone_stairs"
+            "items": ["minecraft:smooth_sandstone_stairs"]
           }
         ]
       }

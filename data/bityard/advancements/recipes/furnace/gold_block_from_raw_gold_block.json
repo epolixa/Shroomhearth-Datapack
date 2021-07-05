@@ -11,7 +11,7 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:raw_gold_block"
+            "items": ["minecraft:raw_gold_block"]
           }
         ]
       }
