@@ -15,7 +15,7 @@ execute in the_end positioned 0 64 0 as @p[distance=..200] unless entity @e[type
 # Mob Warding - run as a mobs that can be warded
 execute as @e[type=#mob_warding:wardable,tag=!unwardable] at @s run function mob_warding:1s_mob
 
-# End Crystal range vision - run as players holding an End Crystal
+# End Crystal range vision - run as players wearing a mob head
 execute as @a[predicate=mob_warding:end_crystal_vision] at @s run function mob_warding:1s_player
 
 # Wandering Trader announcement - run for unnannounced traders

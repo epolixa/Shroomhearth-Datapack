@@ -1,44 +1,11 @@
 {
-  "condition": "minecraft:alternative",
-  "terms": [
-    {
-      "condition": "minecraft:entity_properties",
-      "entity": "this",
-      "predicate": {
-        "equipment": {
-          "mainhand": {
-            "items": [
-              "minecraft:end_crystal"
-            ]
-          }
-        }
-      }
-    },
-    {
-      "condition": "minecraft:entity_properties",
-      "entity": "this",
-      "predicate": {
-        "equipment": {
-          "offhand": {
-            "items": [
-              "minecraft:end_crystal"
-            ]
-          }
-        }
-      }
-    },
-    {
-      "condition": "minecraft:entity_properties",
-      "entity": "this",
-      "predicate": {
-        "equipment": {
-          "head": {
-            "items": [
-              "minecraft:dragon_head"
-            ]
-          }
-        }
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "head": {
+        "tag": "bityard:mob_head"
       }
     }
-  ]
+  }
 }
