@@ -2,7 +2,7 @@
     "parent": "minecraft:recipes/root",
     "rewards": {
       "recipes": [
-        "bityard:calcite"
+        "cc_interim:calcite"
       ]
     },
     "criteria": {
@@ -29,7 +29,7 @@
       "has_recipe": {
         "trigger": "minecraft:recipe_unlocked",
         "conditions": {
-          "recipe": "bityard:blackstone"
+          "recipe": "cc_interim:calcite"
         }
       }
     },

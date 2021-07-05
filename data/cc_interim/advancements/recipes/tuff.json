@@ -2,7 +2,7 @@
     "parent": "minecraft:recipes/root",
     "rewards": {
         "recipes": [
-            "bityard:tuff"
+            "cc_interim:tuff"
         ]
     },
     "criteria": {
@@ -21,7 +21,7 @@
         "has_recipe": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "bityard:tuff"
+                "recipe": "cc_interim:tuff"
             }
         }
     },

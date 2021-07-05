@@ -2,7 +2,7 @@
     "parent": "minecraft:recipes/root",
     "rewards": {
         "recipes": [
-            "bityard:rooted_dirt"
+            "cc_interim:rooted_dirt"
         ]
     },
     "criteria": {
@@ -29,7 +29,7 @@
         "has_recipe": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "bityard:rooted_dirt"
+                "recipe": "cc_interim:rooted_dirt"
             }
         }
     },
