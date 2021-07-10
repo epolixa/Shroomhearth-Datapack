@@ -1,35 +1,25 @@
 {
-  "starts": [],
-  "spawners": {
-    "water_ambient": [],
-    "ambient": [],
-    "misc": [],
-    "water_creature": [],
-    "creature": [],
-    "monster": []
-  },
-  "spawn_costs": {},
   "surface_builder": "minecraft:nope",
-  "carvers": {},
-  "features": [],
-  "scale": 0.2,
-  "temperature": 0.2,
-  "temperature_modifier": "none",
+  "depth": 0,
+  "scale": 0,
+  "temperature": 0,
+  "downfall": 0,
+  "precipitation": "none",
+  "category": "none",
   "player_spawn_friendly": false,
-  "downfall": 0.0,
   "effects": {
-    "music": {
-      "sound": "minecraft:music.creative",
-      "min_delay": 12000,
-      "max_delay": 24000,
-      "replace_current_music": false
-    },
     "sky_color": 16383998,
     "fog_color": 16383998,
     "water_color": 4159204,
     "water_fog_color": 329011,
     "grass_color": 9353585,
     "foliage_color": 7448397,
+    "music": {
+      "sound": "minecraft:music.creative",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": false
+    },
     "particle": {
       "options": {
         "type": "minecraft:end_rod"
@@ -37,7 +27,9 @@
       "probability": 0.001785
     }
   },
-  "precipitation": "none",
-  "category": "none",
-  "depth": 0.1
+  "starts": [],
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": {},
+  "features": []
 }
