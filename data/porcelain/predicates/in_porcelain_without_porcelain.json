@@ -48,7 +48,7 @@
     {
       "condition": "minecraft:location_check",
       "predicate": {
-        "dimension": "porcelain:the_porcelain"
+        "dimension": "minecraft:the_porcelain"
       }
     }
   ]

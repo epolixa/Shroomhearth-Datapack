@@ -1,10 +1,10 @@
 {
-  "type": "porcelain:the_porcelain",
+  "type": "minecraft:the_porcelain",
   "generator": {
     "type": "minecraft:flat",
     "seed": 413,
     "settings": {
-      "biome": "porcelain:porcelain",
+      "biome": "minecraft:porcelain",
       "layers": [
         {
           "block": "minecraft:bedrock",

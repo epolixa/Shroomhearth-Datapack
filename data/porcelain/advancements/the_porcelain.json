@@ -17,7 +17,7 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"location": {
-					"dimension": "porcelain:the_porcelain"
+					"dimension": "minecraft:the_porcelain"
 				}
 			}
 		}

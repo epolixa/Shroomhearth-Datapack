@@ -19,7 +19,7 @@ data modify entity @e[type=minecraft:armor_stand,tag=overworld_anchor,sort=neare
 data modify entity @e[type=minecraft:armor_stand,tag=overworld_anchor,sort=nearest,limit=1] Rotation[2] set from entity @s Rotation[2]
 
 # teleport to porcelain
-execute in porcelain:the_porcelain run teleport @s ~ 64 ~
+execute in minecraft:the_porcelain run teleport @s ~ 64 ~
 execute at @s run spreadplayers ~ ~ 0 1 false @s
 
 # set gamemode to creative
