@@ -3,7 +3,7 @@
 	"display": {
 		"icon": {
 			"item": "minecraft:warped_fungus_on_a_stick",
-			"nbt": "{display: {Name: '{\"italic\":\"false\", \"translate\":\"item.minecraft.porcelain\"}'}, CustomModelData:1, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1}"
+			"nbt": "{display: {Name: '{\"italic\":false, \"translate\":\"item.minecraft.porcelain\"}'}, CustomModelData:1, Enchantments:[{id:\"minecraft:infinity\",lvl:1}], HideFlags:1}"
 		},
 		"title": "The Porcelain",
 		"description": "Enter the Porcelain",
