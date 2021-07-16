@@ -21,3 +21,7 @@ scoreboard objectives add hasPorcelain dummy
 # 1  = the_end
 scoreboard objectives remove porcelainDimID
 scoreboard objectives add porcelainDimID dummy
+
+# nearbyMonster - track nearby hostile mobs and prevent porcelain usage
+scoreboard objectives remove nearbyMonster
+scoreboard objectives add nearbyMonster dummy
