@@ -1,22 +1,27 @@
-# keep chunk loaded in overworld
+# assign dim id to player based on dimension they are in
+execute if predicate porcelain:in_overworld run scoreboard players set @s porcelainDimID 0
+execute if predicate porcelain:in_nether run scoreboard players set @s porcelainDimID -1
+execute if predicate porcelain:in_end run scoreboard players set @s porcelainDimID 1
+
+# keep chunk loaded in source dimension
 # this is needed so that the player can teleport back to the anchor instantly
 forceload add ~ ~
 
-# summon armor stand in overworld
-summon minecraft:armor_stand ~ ~ ~ {CustomName: '{"text":"Overworld Anchor"}', Tags: ["overworld_anchor"], Marker: true, Invisible: true, ArmorItems:[{id:"minecraft:white_shulker_box", Count:1b, tag:{BlockEntityTag:{Items:[]}}},{id:"minecraft:white_shulker_box", Count:1b, tag:{BlockEntityTag:{Items:[]}}},{},{id:"minecraft:warped_fungus_on_a_stick", Count:1b, tag: {CustomModelData: 1, Enchantments:[{id:"minecraft:infinity",lvl:1}]}}]}
+# summon armor stand in source dimension
+summon minecraft:armor_stand ~ ~ ~ {Tags:["source_anchor"], Marker:true, Invisible:true, ArmorItems:[{id:"minecraft:white_shulker_box", Count:1b, tag:{BlockEntityTag:{Items:[]}}},{id:"minecraft:white_shulker_box", Count:1b, tag:{BlockEntityTag:{Items:[]}}},{},{id:"minecraft:warped_fungus_on_a_stick", Count:1b, tag: {CustomModelData: 1, Enchantments:[{id:"minecraft:infinity",lvl:1}]}}]}
 
-# assign porcelain ID to overworld anchor and player
+# assign porcelain ID to source anchor and player
 scoreboard players set @s porcelainID 0
 scoreboard players operation @s porcelainID = bityard nextPorcelainID
-scoreboard players set @e[type=minecraft:armor_stand,tag=overworld_anchor,sort=nearest,limit=1] porcelainID 0
-scoreboard players operation @e[type=minecraft:armor_stand,tag=overworld_anchor,sort=nearest,limit=1] porcelainID = @s porcelainID
+scoreboard players set @e[tag=source_anchor,sort=nearest,limit=1] porcelainID 0
+scoreboard players operation @e[tag=source_anchor,sort=nearest,limit=1] porcelainID = @s porcelainID
 
-# copy player inventory to overworld anchor
-execute as @e[type=minecraft:armor_stand,tag=overworld_anchor,sort=nearest,limit=1] at @s run function porcelain:copy_inv_p_to_a
+# copy player inventory to source anchor
+execute as @e[tag=source_anchor,sort=nearest,limit=1] at @s run function porcelain:copy_inv_p_to_a
 
 # copy rotation of player to nearest anchor in overworld
-data modify entity @e[type=minecraft:armor_stand,tag=overworld_anchor,sort=nearest,limit=1] Rotation[0] set from entity @s Rotation[0]
-data modify entity @e[type=minecraft:armor_stand,tag=overworld_anchor,sort=nearest,limit=1] Rotation[2] set from entity @s Rotation[2]
+data modify entity @e[tag=source_anchor,sort=nearest,limit=1] Rotation[0] set from entity @s Rotation[0]
+data modify entity @e[tag=source_anchor,sort=nearest,limit=1] Rotation[2] set from entity @s Rotation[2]
 
 # teleport to porcelain
 execute in minecraft:the_porcelain run teleport @s ~ 64 ~
@@ -28,8 +33,8 @@ gamemode creative @s
 # revoke exit trigger, let them leave
 advancement revoke @s only porcelain:exit_porcelain
 
-# summon armor stand in porcelain
-execute at @s run summon minecraft:armor_stand ~ ~ ~ {CustomName: '{"text":"Porcelain Anchor"}', Tags: ["porcelain_anchor"], Marker: true, Invisible: true}
+# summon marker anchor entity in porcelain
+execute at @s run summon minecraft:marker ~ ~ ~ {Tags:["porcelain_anchor"]}
 
 # clear player inventory
 clear @s

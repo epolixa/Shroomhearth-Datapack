@@ -14,3 +14,10 @@ scoreboard players set bityard nextPorcelainID 0
 # hasPorcelain - check if player has porcelain while in the porcelain
 scoreboard objectives remove hasPorcelain
 scoreboard objectives add hasPorcelain dummy
+
+# porcelainDimID - identifier for dimension porcelain was used in
+# 0  = overworld (default)
+# -1 = the_nether
+# 1  = the_end
+scoreboard objectives remove porcelainDimID
+scoreboard objectives add porcelainDimID dummy
