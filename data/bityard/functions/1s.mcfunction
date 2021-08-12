@@ -1,6 +1,6 @@
 # recalculate playerCount - number of online players
-scoreboard players set bityard playerCount 0
-execute as @a run scoreboard players add bityard playerCount 1
+scoreboard players set playerCount bityard 0
+execute as @a run scoreboard players add playerCount bityard 1
 
 # Porcelain 1s functions
 execute if entity @p run function porcelain:1s
@@ -25,7 +25,7 @@ execute as @e[type=wandering_trader,tag=!announced] at @s run function wandering
 execute as @e[type=#item_skins:equipped,tag=!item_skin] run function item_skins:1s
 
 # Community - only run when more than one player is online
-execute if score bityard playerCount matches 2.. run function community:1s
+execute if score playerCount bityard matches 2.. run function community:1s
 
 # re-schedule
 schedule function bityard:1s 1s

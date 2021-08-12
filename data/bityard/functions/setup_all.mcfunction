@@ -1,4 +1,4 @@
-# setup all volatile objectives
+# setup all volatile objectives (variables that do not need to persist through restarts)
 function bityard:setup_safe
 
 # setups that reset preserved objectives

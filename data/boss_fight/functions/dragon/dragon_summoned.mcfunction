@@ -1,5 +1,5 @@
 # reset dragonSlain
-scoreboard players set bityard dragonSlain 0
+scoreboard players set dragonSlain bityard 0
 
 # reset dragonDeaths for all involved players
 execute positioned 0 64 0 run scoreboard players set @a[distance=..200] dragonDeaths 0

@@ -1,40 +1,40 @@
 # set lcg
-scoreboard players set bityard lcgModulus 29
+scoreboard players set lcgModulus bityard 29
 function bityard:lcg/random
 
 # summon a random mob
-execute if score bityard lcg matches 0 run summon minecraft:zombie ~ ~ ~
-execute if score bityard lcg matches 1 run summon minecraft:zombie_villager ~ ~ ~
-execute if score bityard lcg matches 2 run summon minecraft:husk ~ ~ ~
-execute if score bityard lcg matches 3 run summon minecraft:drowned ~ ~ ~
-execute if score bityard lcg matches 4 run summon minecraft:skeleton ~ ~ ~
-execute if score bityard lcg matches 5 run summon minecraft:stray ~ ~ ~
-execute if score bityard lcg matches 6 run summon minecraft:wither_skeleton ~ ~ ~
-execute if score bityard lcg matches 7 run summon minecraft:creeper ~ ~ ~
-execute if score bityard lcg matches 8 run summon minecraft:spider ~ ~ ~
-execute if score bityard lcg matches 9 run summon minecraft:cave_spider ~ ~ ~
-execute if score bityard lcg matches 10 run summon minecraft:silverfish ~ ~ ~
-execute if score bityard lcg matches 11 run summon minecraft:slime ~ ~ ~
-execute if score bityard lcg matches 12 run summon minecraft:witch ~ ~ ~
-execute if score bityard lcg matches 13 run summon minecraft:vindicator ~ ~ ~
-execute if score bityard lcg matches 14 run summon minecraft:pillager ~ ~ ~
-execute if score bityard lcg matches 15 run summon minecraft:illusioner ~ ~ ~
-execute if score bityard lcg matches 16 run summon minecraft:ravager ~ ~ ~
-execute if score bityard lcg matches 17 run summon minecraft:phantom ~ ~8 ~
-execute if score bityard lcg matches 18 run summon minecraft:guardian ~ ~ ~
-execute if score bityard lcg matches 19 run summon minecraft:hoglin ~ ~ ~
-execute if score bityard lcg matches 20 run summon minecraft:zoglin ~ ~ ~
-execute if score bityard lcg matches 21 run summon minecraft:piglin ~ ~ ~
-execute if score bityard lcg matches 22 run summon minecraft:zombified_piglin ~ ~ ~
-execute if score bityard lcg matches 23 run summon minecraft:piglin_brute ~ ~ ~
-execute if score bityard lcg matches 24 run summon minecraft:magma_cube ~ ~ ~
-execute if score bityard lcg matches 25 run summon minecraft:blaze ~ ~ ~
-execute if score bityard lcg matches 26 run summon minecraft:ghast ~ ~8 ~
-execute if score bityard lcg matches 27 run summon minecraft:endermite ~ ~ ~
-execute if score bityard lcg matches 28 run summon minecraft:shulker ~ ~ ~
+execute if score lcg bityard matches 0 run summon minecraft:zombie ~ ~ ~
+execute if score lcg bityard matches 1 run summon minecraft:zombie_villager ~ ~ ~
+execute if score lcg bityard matches 2 run summon minecraft:husk ~ ~ ~
+execute if score lcg bityard matches 3 run summon minecraft:drowned ~ ~ ~
+execute if score lcg bityard matches 4 run summon minecraft:skeleton ~ ~ ~
+execute if score lcg bityard matches 5 run summon minecraft:stray ~ ~ ~
+execute if score lcg bityard matches 6 run summon minecraft:wither_skeleton ~ ~ ~
+execute if score lcg bityard matches 7 run summon minecraft:creeper ~ ~ ~
+execute if score lcg bityard matches 8 run summon minecraft:spider ~ ~ ~
+execute if score lcg bityard matches 9 run summon minecraft:cave_spider ~ ~ ~
+execute if score lcg bityard matches 10 run summon minecraft:silverfish ~ ~ ~
+execute if score lcg bityard matches 11 run summon minecraft:slime ~ ~ ~
+execute if score lcg bityard matches 12 run summon minecraft:witch ~ ~ ~
+execute if score lcg bityard matches 13 run summon minecraft:vindicator ~ ~ ~
+execute if score lcg bityard matches 14 run summon minecraft:pillager ~ ~ ~
+execute if score lcg bityard matches 15 run summon minecraft:illusioner ~ ~ ~
+execute if score lcg bityard matches 16 run summon minecraft:ravager ~ ~ ~
+execute if score lcg bityard matches 17 run summon minecraft:phantom ~ ~8 ~
+execute if score lcg bityard matches 18 run summon minecraft:guardian ~ ~ ~
+execute if score lcg bityard matches 19 run summon minecraft:hoglin ~ ~ ~
+execute if score lcg bityard matches 20 run summon minecraft:zoglin ~ ~ ~
+execute if score lcg bityard matches 21 run summon minecraft:piglin ~ ~ ~
+execute if score lcg bityard matches 22 run summon minecraft:zombified_piglin ~ ~ ~
+execute if score lcg bityard matches 23 run summon minecraft:piglin_brute ~ ~ ~
+execute if score lcg bityard matches 24 run summon minecraft:magma_cube ~ ~ ~
+execute if score lcg bityard matches 25 run summon minecraft:blaze ~ ~ ~
+execute if score lcg bityard matches 26 run summon minecraft:ghast ~ ~8 ~
+execute if score lcg bityard matches 27 run summon minecraft:endermite ~ ~ ~
+execute if score lcg bityard matches 28 run summon minecraft:shulker ~ ~ ~
 
 # unset lcg
-scoreboard players set bityard lcg -1
+scoreboard players set lcg bityard -1
 
 # tag mob that just spawned
 execute as @e[type=#boss_fight:dragon_summon,limit=1,sort=nearest,tag=!dragon_summon] run tag @s add dragon_summon
