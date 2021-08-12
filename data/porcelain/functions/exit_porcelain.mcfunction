@@ -18,7 +18,7 @@ execute if score @s porcelainDimID matches -1 in minecraft:the_nether positioned
 execute if score @s porcelainDimID matches 1 in minecraft:the_end positioned ~ ~ ~ if entity @e[tag=source_anchor] positioned as @e[tag=source_anchor] if score @e[tag=source_anchor,sort=nearest,limit=1] porcelainID = @s porcelainID run function porcelain:teleport_player_to_anchor
 
 # remove all prior effects from player
-effect clear @s
+#effect clear @s
 
 # set gamemode to survival
 gamemode survival @s
