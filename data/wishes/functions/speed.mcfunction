@@ -1,5 +1,5 @@
 # announce wish
-tellraw @a [{"selector":"@s"}, {"text":" wished for "}, {"color":"#7CAFC6","text":"Speed"}]
+execute as @p run tellraw @a [{"selector":"@s"}, {"color":"white", "text":" wished for "}, {"color":"#7CAFC6","text":"Speed"}]
 
 # grant advancement
 advancement grant @p only wishes:upon_a_star
