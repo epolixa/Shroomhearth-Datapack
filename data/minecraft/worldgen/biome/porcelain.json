@@ -2,7 +2,7 @@
   "surface_builder": "minecraft:nope",
   "depth": 0,
   "scale": 0,
-  "temperature": 0.1,
+  "temperature": 1.0,
   "downfall": 0,
   "precipitation": "none",
   "category": "none",
