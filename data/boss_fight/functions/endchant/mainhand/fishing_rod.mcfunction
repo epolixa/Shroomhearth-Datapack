@@ -1,14 +1,14 @@
 # set lcg
-scoreboard players set bityard lcgModulus 3
+scoreboard players set lcgModulus bityard 3
 function bityard:lcg/random
 
 # run item modifiers based on lcg result
-execute if score bityard lcg matches 0 run item modify entity @s weapon.mainhand boss_fight:endchant/lure
-execute if score bityard lcg matches 1 run item modify entity @s weapon.mainhand boss_fight:endchant/luck_of_the_sea
-execute if score bityard lcg matches 2 run item modify entity @s weapon.mainhand boss_fight:endchant/unbreaking
+execute if score lcg bityard matches 0 run item modify entity @s weapon.mainhand boss_fight:endchant/lure
+execute if score lcg bityard matches 1 run item modify entity @s weapon.mainhand boss_fight:endchant/luck_of_the_sea
+execute if score lcg bityard matches 2 run item modify entity @s weapon.mainhand boss_fight:endchant/unbreaking
 
 # unset lcg
-scoreboard players set bityard lcg -1
+scoreboard players set lcg bityard -1
 
 # tag player
 tag @s add endchant

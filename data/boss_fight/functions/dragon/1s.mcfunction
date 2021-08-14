@@ -16,6 +16,15 @@ scoreboard players add @s[scores={bossHealth=81..199,dragonPhase=0..2}] powerCoo
 # always increment powerCooldown if health is getting low
 scoreboard players add @s[scores={bossHealth=2..80}] powerCooldown 1
 
+# update bossbar
+execute positioned 0 64 0 run bossbar set boss_fight:dragon_power players @a[distance=..200]
+execute as @s[scores={bossHealth=2..60,powerCooldown=5..}] run bossbar set boss_fight:dragon_power max 5
+execute as @s[scores={bossHealth=61..100,powerCooldown=10..}] run bossbar set boss_fight:dragon_power max 10
+execute as @s[scores={bossHealth=101..140,powerCooldown=15..}] run bossbar set boss_fight:dragon_power max 15
+execute as @s[scores={bossHealth=141..180,powerCooldown=20..}] run bossbar set boss_fight:dragon_power max 20
+execute as @s[scores={bossHealth=181..199,powerCooldown=25..}] run bossbar set boss_fight:dragon_power max 25
+execute store result bossbar boss_fight:dragon_power value run scoreboard players get @s powerCooldown
+
 # execute powers on cooldowns depending on health
 execute as @s[scores={bossHealth=2..60,powerCooldown=5..}] run function boss_fight:dragon/powers/cast
 execute as @s[scores={bossHealth=61..100,powerCooldown=10..}] run function boss_fight:dragon/powers/cast

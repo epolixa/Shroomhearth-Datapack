@@ -1,10 +1,10 @@
-# get first int from AEC UUID int array
+# get first int from marker UUID int array
 
-# summon new AEC
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags:["lcg_seed"]}
+# summon new marker
+summon minecraft:marker ~ ~ ~ {Tags:["lcg_seed"]}
 
-# store int
-execute store result score bityard lcgSeed run data get entity @e[type=minecraft:area_effect_cloud,tag=lcg_seed,distance=0,limit=1] UUID[0]
+# store UUID as new seed
+execute store result score lcgSeed bityard run data get entity @e[tag=lcg_seed,sort=nearest,limit=1] UUID[0]
 
-# remove AEC
-kill @e[type=area_effect_cloud,tag=lcg_seed,distance=0,limit=1]
+# remove marker
+kill @e[tag=lcg_seed]
