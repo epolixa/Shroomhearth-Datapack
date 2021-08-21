@@ -6,10 +6,8 @@ scoreboard objectives add usePorcelain minecraft.used:minecraft.warped_fungus_on
 scoreboard objectives remove porcelainID
 scoreboard objectives add porcelainID dummy
 
-# nextPorcelainID - next ID to use for new anchor
-scoreboard objectives remove nextPorcelainID
-scoreboard objectives add nextPorcelainID dummy
-scoreboard players set bityard nextPorcelainID 0
+# nextPorcelainID - global, next ID to use for new anchor
+scoreboard players set nextPorcelainID bityard 0
 
 # hasPorcelain - check if player has porcelain while in the porcelain
 scoreboard objectives remove hasPorcelain

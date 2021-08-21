@@ -1,23 +1,23 @@
 # generate a new random number
 
 # take the seed
-scoreboard players operation bityard lcg = bityard lcgSeed
+scoreboard players operation lcg bityard = lcgSeed bityard
 
 # do operations to get raw number
-scoreboard players operation bityard lcg *= bityard lcgMultiplier
-scoreboard players operation bityard lcg += bityard lcgIncrement
+scoreboard players operation lcg bityard *= lcgMultiplier bityard
+scoreboard players operation lcg bityard += lcgIncrement bityard
 
 # use int overflow to get next seed
-scoreboard players operation bityard lcgSeed = bityard lcg
+scoreboard players operation lcgSeed bityard = lcg bityard
 
 # if there isn't a modulus override, use the default one
-execute unless score bityard lcgModulus = bityard lcgModulus run scoreboard players operation bityard lcg %= bityard lcgDefModulus
+execute unless score lcgModulus bityard = lcgModulus bityard run scoreboard players operation lcg bityard %= lcgDefModulus bityard
 
 # if there is a modulus override, use it instead
-execute if score bityard lcgModulus = bityard lcgModulus run scoreboard players operation bityard lcg %= bityard lcgModulus
+execute if score lcgModulus bityard = lcgModulus bityard run scoreboard players operation lcg bityard %= lcgModulus bityard
 
 # reset the override
-scoreboard players reset bityard lcgModulus
+scoreboard players reset lcgModulus bityard
 
 # check bityard score for result, for instance: 
-# execute if score bityard lcg matches 1..100 run ...
+# execute if score lcg bityard matches 1..100 run ...

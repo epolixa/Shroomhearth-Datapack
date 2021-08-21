@@ -11,4 +11,4 @@ execute as @s[scores={witherInvul=1..100}] unless entity @e[tag=wither_fallout,d
 scoreboard players add @s[scores={bossHealth=1..150}] powerCooldown 1
 
 # execute powers on cooldowns depending on health
-execute as @s[scores={bossHealth=1..150,powerCooldown=20..}] run function boss_fight:wither/powers/cast
+execute as @s[scores={bossHealth=1..150,powerCooldown=16..}] run function boss_fight:wither/powers/cast
