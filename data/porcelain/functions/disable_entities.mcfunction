@@ -5,4 +5,4 @@ execute as @e[type=#bityard:mobs,distance=0..] run data merge entity @s {DeathLo
 kill @e[type=wither,distance=0..]
 
 # remove item entities
-kill @e[type=item,distance=0..]
+#kill @e[type=item,distance=0..]
