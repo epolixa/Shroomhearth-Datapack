@@ -34,7 +34,7 @@ gamemode creative @s
 advancement revoke @s only porcelain:exit_porcelain
 
 # summon marker anchor entity in porcelain
-execute at @s run summon minecraft:armor_stand ~ ~ ~ {Tags:["porcelain_anchor"]}
+execute at @s run summon minecraft:armor_stand ~ ~ ~ {Tags:["porcelain_anchor"], Marker:true, Invisible:true}
 
 # clear player inventory
 clear @s
