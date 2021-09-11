@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:honeycomb_block",
+        "minecraft:cactus"
+    ]
+}
