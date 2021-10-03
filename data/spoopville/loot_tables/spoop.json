@@ -10,7 +10,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{display:{Name:'{\"italic\":false,\"text\":\"Jack\"}'},CustomModelData:800}"
+                            "tag": "{display:{Name:'{\"italic\":false,\"translate\":\"item.minecraft.spoop\"}'},CustomModelData:800}"
                         }
                     ]
                 }
