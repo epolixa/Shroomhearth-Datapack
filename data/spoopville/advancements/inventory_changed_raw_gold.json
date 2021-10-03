@@ -1,0 +1,17 @@
+{
+	"criteria": {
+		"inventory_changed_raw_gold": {
+			"trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:raw_gold"]
+                    }
+                ]
+            }
+		}
+	},
+    "rewards": {
+        "function": "spoopville:inventory_changed_raw_gold"
+    }
+}
