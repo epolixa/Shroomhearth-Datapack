@@ -1,4 +1,22 @@
-{
-  "condition": "minecraft:random_chance",
-  "chance": 0.5
-}
+[
+  {
+    "condition": "minecraft:random_chance",
+    "chance": 0.2
+  },
+  {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "equipment": {
+        "mainhand": {
+          "items": [
+            "minecraft:crossbow"
+          ]
+        }
+      },
+      "location": {
+        "dimension": "minecraft:overworld"
+      }
+    }
+  }
+]

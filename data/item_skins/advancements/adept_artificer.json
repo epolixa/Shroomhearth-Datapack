@@ -1,36 +1,69 @@
 {
-	"parent": "item_skins:amateur_artificer",
+	"parent": "mob_warding:mob_zapper",
 	"display": {
 		"icon": {
 			"item": "minecraft:golden_axe",
-			"nbt": "{CustomModelData:1}"
+			"nbt": "{CustomModelData:850}"
 		},
 		"title": "Adept Artificer",
-		"description": "Find every unique item",
+		"description": "Find every item variant",
 		"frame": "challenge",
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false
 	},
 	"criteria": {
-		"found_soul_crossbow": {
+		"soul_crossbow": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
 					{
 						"items": ["minecraft:crossbow"],
-						"nbt": "{CustomModelData:1}"
+						"nbt": "{CustomModelData:411}"
 					}
 				]
 			}
 		},
-		"found_firebrand": {
+		"soul_knife": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
 					{
-						"tag": "item_skins:firebrand",
-						"nbt": "{CustomModelData:1}"
+						"items": ["minecraft:iron_sword"],
+						"nbt": "{CustomModelData:738}"
+					}
+				]
+			}
+		},
+		"broken_sawblade": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:golden_sword"],
+						"nbt": "{CustomModelData:416}"
+					}
+				]
+			}
+		},
+		"cog_crossbow": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:crossbow"],
+						"nbt": "{CustomModelData:416}"
+					}
+				]
+			}
+		},
+		"firebrand": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:crossbow"],
+						"nbt": "{CustomModelData:850}"
 					}
 				]
 			}
