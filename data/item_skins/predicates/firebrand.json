@@ -13,9 +13,6 @@
             "minecraft:golden_axe"
           ]
         }
-      },
-      "location": {
-        "dimension": "minecraft:the_nether"
       }
     }
   }

@@ -5,7 +5,7 @@
 			"item": "minecraft:golden_axe",
 			"nbt": "{CustomModelData:850}"
 		},
-		"title": "Adept Artificer",
+		"title": "Accomplished Artificer",
 		"description": "Find every item variant",
 		"frame": "challenge",
 		"show_toast": true,
@@ -62,7 +62,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:crossbow"],
+						"items": ["minecraft:golden_axe"],
 						"nbt": "{CustomModelData:850}"
 					}
 				]

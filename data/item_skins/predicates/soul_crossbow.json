@@ -13,9 +13,6 @@
             "minecraft:crossbow"
           ]
         }
-      },
-      "location": {
-        "dimension": "minecraft:overworld"
       }
     }
   }

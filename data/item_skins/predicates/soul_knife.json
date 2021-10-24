@@ -13,9 +13,6 @@
                         "minecraft:iron_sword"
                     ]
                 }
-            },
-            "location": {
-                "dimension": "minecraft:overworld"
             }
         }
     }
