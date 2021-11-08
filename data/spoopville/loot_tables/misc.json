@@ -2,12 +2,11 @@
     "type": "minecraft:generic",
     "pools": [
         {
-            "rolls": {"min": 1, "max": 2},
+            "rolls": 1,
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:rotten_flesh",
-                    "weight": 100,
+                    "name": "minecraft:bone",
                     "functions": [
                         {
                             "function": "minecraft:set_count",
@@ -20,8 +19,7 @@
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:spider_eye",
-                    "weight": 100,
+                    "name": "minecraft:dead_bush",
                     "functions": [
                         {
                             "function": "minecraft:set_count",
@@ -34,19 +32,7 @@
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:beetroot_soup",
-                    "weight": 90,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_name",
-                            "name": {"text":"Bowl of Blood","italic":false}
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:chorus_fruit",
-                    "weight": 100,
+                    "name": "minecraft:slime_ball",
                     "functions": [
                         {
                             "function": "minecraft:set_count",
@@ -59,8 +45,7 @@
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:cobweb",
-                    "weight": 80,
+                    "name": "minecraft:chain",
                     "functions": [
                         {
                             "function": "minecraft:set_count",
@@ -73,57 +58,81 @@
                 },
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:wither_rose",
-                    "weight": 80
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:bat_spawn_egg",
-                    "weight": 50
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:carved_pumpkin",
-                    "weight": 70,
+                    "name": "minecraft:candle",
                     "functions": [
                         {
-                            "function": "minecraft:set_enchantments",
-                            "enchantments": {"minecraft:binding_curse":1}
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:sculk_sensor",
-                    "weight": 80
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:enchanted_book",
-                    "weight": 10,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_enchantments",
-                            "enchantments": {"minecraft:binding_curse":1}
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:enchanted_book",
-                    "weight": 10,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_enchantments",
-                            "enchantments": {
-                                "minecraft:vanishing_curse": 1
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
                             }
                         }
                     ]
                 },
                 {
-                    "type": "minecraft:loot_table",
-                    "name": "spoopville:splash_potions"
+                    "type": "minecraft:item",
+                    "name": "minecraft:soul_sand",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:orange_dye",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:black_dye",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:purple_dye",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:lime_dye",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ]
                 }
             ]
         }

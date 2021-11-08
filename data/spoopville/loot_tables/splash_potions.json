@@ -1,0 +1,59 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:splash_potion",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Potion:\"minecraft:water\",CustomPotionEffects:[{Id:15,Duration:666}],display:{Name:\"{\\\"text\\\":\\\"Potion of Blindness\\\",\\\"italic\\\":false}\"}}"                            
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:splash_potion",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Potion:\"minecraft:water\",CustomPotionEffects:[{Id:14,Duration:666}],display:{Name:\"{\\\"text\\\":\\\"Potion of Invisibility\\\",\\\"italic\\\":false}\"}}"                            
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:splash_potion",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Potion:\"minecraft:water\",CustomPotionEffects:[{Id:25,Duration:666}],display:{Name:\"{\\\"text\\\":\\\"Potion of Levitation\\\",\\\"italic\\\":false}\"}}"                            
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:splash_potion",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Potion:\"minecraft:water\",CustomPotionEffects:[{Id:2,Duration:666}],display:{Name:\"{\\\"text\\\":\\\"Potion of Slowness\\\",\\\"italic\\\":false}\"}}"                            
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:splash_potion",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Potion:\"minecraft:water\",CustomPotionEffects:[{Id:9,Duration:666}],display:{Name:\"{\\\"text\\\":\\\"Potion of Nausea\\\",\\\"italic\\\":false}\"}}"                            
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

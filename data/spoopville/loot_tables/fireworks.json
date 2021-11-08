@@ -1,0 +1,94 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:firework_rocket",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Night Shade\\\"}\"},Fireworks:{Explosions:[{Type:1,Trail:1,Colors:[I;1973019],FadeColors:[I;4408131]}],Flight:2}}"
+                        },
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:firework_rocket",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Warden Breath\\\"}\"},Fireworks:{Explosions:[{Type:2,Flicker:1,Trail:1,Colors:[I;1973019],FadeColors:[I;2437522,2651799]}],Flight:2}}"
+                        },
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:firework_rocket",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Pumpkin Smash\\\"}\"},Fireworks:{Explosions:[{Type:4,Trail:1,Colors:[I;15435844],FadeColors:[I;14602026,15435844]}],Flight:2}}"
+                        },
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:firework_rocket",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Haunted Creeper\\\"}\"},Fireworks:{Explosions:[{Type:3,Colors:[I;3887386,4312372],FadeColors:[I;11250603,15790320]}],Flight:2}}"
+                        },
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:firework_rocket",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Will o' Wisp\\\"}\"},Fireworks:{Explosions:[{Type:2,Flicker:1,Trail:1,Colors:[I;11743532,15435844],FadeColors:[I;8073150,14602026,12801229]}],Flight:2}}"
+                        },
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,288 @@
+{
+    "type": "minecraft:generic",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:skeleton_skull"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:zombie_head"
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:player_head",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Trick or Treat Basket\\\"}\"},SkullOwner:{Id:[I;-450758658,970737164,-1625020478,-496761723],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOThhY2JkMTMxNzgyZWY2ZDIyZmU0MTg3YWQ0NjlhMjNmYjc0OGMyNzAyMWQ5NjVhMDEyMWFkNjQ4MWRmNGQzOCJ9fX0=\"}]}}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:player_head",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Shakespeare Bust\\\"}\"},SkullOwner:{Id:[I;-2123728230,1747535722,-1297375492,960356090],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTM1NzE3ZmZjZDg0MTkzNGZiYjgxZjQ5NWU0YmM4M2RlNDgxMTkyMTI1NTA2MGU0OGZkNWQyOTNiNjI4YzIxZCJ9fX0=\"}]}}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:player_head",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Crow\\\"}\"},SkullOwner:{Id:[I;134099178,-674478740,-1582477851,719973026],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzc3OWI2NDM4MzFmODM4ZmI1ZWZkMmJhZmE0YzZlYTk3YmIyNTY4Mzk3NjE1ODg1MjU0OThkNjI5NGZjNDcifX19\"}]}}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:player_head",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Scarecrow\\\"}\"},SkullOwner:{Id:[I;-1585203759,82922942,-1573463407,189075013],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzg2YTU1YzU4YTdjNzZlMTNlZTY2MTAzYWRiNTMyYTg4YWRkOTZkMTYwNTM0OTg5ZTE1MDExNTE1ZjBhMGIzNCJ9fX0=\"}]}}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:player_head",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Insect\\\"}\"},SkullOwner:{Id:[I;188923083,1511071338,-766505464,1092163309],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWE0MzI1NTMxNzFiMTE1OGRiNDViZTNhNzcyZDk5MTRkZjg1YmNlZWUxNThhZDFlNTZlOTg5ODdiYTJjMTUzOCJ9fX0=\"}]}}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:player_head",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Bottle o' Zombie\\\"}\"},SkullOwner:{Id:[I;-1989586471,1065176843,-1476717168,1641219256],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTYxMjhlM2VjNDQwZDBjZmU1MjQxYTQyZjI3NjFmM2U1Yjg0NjZiOGY5MTM4YzRiZGQyYmQzN2E2Njg4MzY0NiJ9fX0=\"}]}}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:player_head",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Urn\\\"}\"},SkullOwner:{Id:[I;1059540138,-1717616377,-1368524868,-167307783],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzJjNzg4MzQ1MjY4YjdiYzM0NmU4ZDJiZWIyZmUyYTk5YzQ5ZTA2ODlhMzNjNzI0NGYwNzEzYmQyOSJ9fX0=\"}]}}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:player_head",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Swamp Thing\\\"}\"},SkullOwner:{Id:[I;-1789174978,507465722,112572184,1768405482],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGY3ZWRlOWM4OGYxYzMzYzk1NGJiYzgxYzhkYTg3MWNhYmZjYzIzZDU1ZjhiNDkzYTU4OWY4MjM5ZDZjMzkifX19\"}]}}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:player_head",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Pig Skull\\\"}\"},SkullOwner:{Id:[I;-2108319131,-1089583880,-1753471665,1625063809],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2NlYjAxMmVkZDJiNjk1ODRhMWYyZGM1NWFkMTMwMjc1MGFhZmY3OTUwOGE5M2E1ZjRkYjNlOWNlMGU5NDIifX19\"}]}}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:player_head",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Vial of Blood\\\"}\"},SkullOwner:{Id:[I;-1644201773,-365868014,-2041027557,2076257254],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWJmMzQ3NTI0N2VkMTNkN2VlNjQwODFhMmMwNzFkNjJkMzc4ZTY3ZjljNTM5NjQyNDRkYTVjZDNlOGNhY2FmIn19fQ==\"}]}}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:player_head",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Satanic Books\\\"}\"},SkullOwner:{Id:[I;-391108414,-2080879375,-1306784319,-908638880],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGM2ODU5MWI5MTE5OGU2ZTEzODQ4NjBjZjczMTZmMjllMDM4YjY5ZGVhOTg0YzczZjZjMWNiOTUwYTE0ZCJ9fX0=\"}]}}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:player_head",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Tombstone\\\"}\"},SkullOwner:{Id:[I;-1429548324,512574224,-1318889998,1728188297],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2YzYmU2NDAxNjczNmJlNDRiMWQ1YTVmM2FkYWI2ZDRjMDQzNzgyYzE3ZGQyOWMzYjhjNGNiNmU3M2Y5ODk4In19fQ==\"}]}}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:player_head",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Little Cauldron\\\"}\"},SkullOwner:{Id:[I;-1322751497,-268612304,-1176681791,1850834285],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTZjMGEyMjU3Y2UwMzQyMjA5NTg2MWMzMTE0NTUwYzg5YmQzYzkyMzk5NmExMzc1NDdlMDY3MjMyZGU1ZDU2MiJ9fX0=\"}]}}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:player_head",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Abomination\\\"}\"},SkullOwner:{Id:[I;28991140,175523726,-1986648859,331468908],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzc3Y2Q1ZWQzYWQwYjgwMDczODc1Y2ZjMmE2OTk1NDAyZWEwZTExNDVhNzg4YTVjYTY2NjZhNjZlZGE4ZGM4YyJ9fX0=\"}]}}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:player_head",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Mummy\\\"}\"},SkullOwner:{Id:[I;-1887695781,1913604420,-2071875337,-1826672577],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2U5MWU5NTgyMmZlOThjYzVhNTY1OGU4MjRiMWI4Y2YxNGQ0ZGU5MmYwZTFhZjI0ODE1MzcyNDM1YzllYWI2In19fQ==\"}]}}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:player_head",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Little Jack O'Lantern\\\"}\"},SkullOwner:{Id:[I;-1136136984,1523600937,-1461406966,-1097708017],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzYxM2U2NWVkZWZlNTY2MzgwOTE0M2RmZThhMmRlNjNiNzUwYTQ1NDc5OTRiNzllN2I5MmJhOTdiZWFlYWU0YyJ9fX0=\"}]}}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:player_head",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Clown\\\"}\"},SkullOwner:{Id:[I;-778738409,-1706212835,-2042155628,231097624],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODZkYmMxZGViYzU3NDM4YTVkZTRiYTkxNTE1MTM4MmFiYzNkOGYxMzE4ZTJhMzVlNzhkZmIzMGYwNGJjNDY3In19fQ==\"}]}}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:player_head",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Haunted Doll\\\"}\"},SkullOwner:{Id:[I;-1873702973,-2080944487,-1908244998,-1347543288],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWU2NGU2YTg2NjcwOGZlNmM1MDA2OGJiMzEyZGQwNGZkNzc4NGQyY2ViNGQyNzFhZGM4MGE5NzU5YWQyZDYwYSJ9fX0=\"}]}}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:player_head",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Zombee\\\"}\"},SkullOwner:{Id:[I;-1376450936,-1142009884,-1755864740,-1744308234],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTk0YTg4MjEzYzc2ZmJiMjBiNWFlZTU2MzQ0OGVmYzE1MGM5ZDIyNTZiM2NkMjhmM2U4NTgzN2JkYWJhODlkZSJ9fX0=\"}]}}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:player_head",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Ghost\\\"}\"},SkullOwner:{Id:[I;622507235,-973708827,-1234937353,-1894574012],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWJlZGI4ZDRiMDZlZWI5NzllZTUxNWY3NzhmMzFiM2RlZWY5MmZiNTgxN2YzNDUyZjUxZmM1OGQ0ODEzNCJ9fX0=\"}]}}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:player_head",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Owl\\\"}\"},SkullOwner:{Id:[I;1963653261,-637645464,-1661111114,-473339296],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjY0Njk0YjY4MTY1YmI5YWFiZTc5ZTEzYmM4ODdlODhmZjNiMGRmYmYzNGNjYWFjYzJhM2FkNGE5ZGRmOWUyIn19fQ==\"}]}}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:player_head",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Twisted Wolf\\\"}\"},SkullOwner:{Id:[I;1689025104,756698675,-2031675758,-1471707806],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWEwZmRlYTYyZjNiNTFjYzQyNjZmMTc4MDZhNjg3NjEyNjA3NDlhOWEzYmVlZDdhNTlkZTI3NjEyNTMwYmVhIn19fQ==\"}]}}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:player_head",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Frankensteins Monster\\\"}\"},SkullOwner:{Id:[I;894723770,-2036707367,-1776455889,1641716800],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGFmNjYyNzBhODg1NmQ3N2Y0NzM1MzkxYWRkN2EzNjg5N2ZmYjc5YzcyYzNlM2EyZmE2NzEyODI5M2NkYzkzZCJ9fX0=\"}]}}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:player_head",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Freddy\\\"}\"},SkullOwner:{Id:[I;1960628457,-749190190,-1226612512,82147944],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTgxYzQ4Mzg1MzZiNmY5MTI1OWY1NzgyZTE1MzQxNmY1MGUzZGY4YzVmNGY4ZDRiYjBmY2RjYzU3ODVlNjk1In19fQ==\"}]}}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:player_head",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Michael\\\"}\"},SkullOwner:{Id:[I;-200033418,347359048,-1302951582,1350406878],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTNiZDgyNThlZDA5OTk4ZWI5NTUxZjA0MmY5OGFmNTQ1MTJmYmYxNTBlYjk5NjAyYzQxYTcwZjVkNTlkN2VlMyJ9fX0=\"}]}}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:player_head",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Demon\\\"}\"},SkullOwner:{Id:[I;1830089733,-1548663482,-2049005169,-1811970044],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWNiMzNkOTY1NDM5YzM4YTg3NWU4NTllNGVlZTc3ODVhOWE2ZGFkOTc5YmYxMWJiNmZiOTU4NDllZGUyODQxIn19fQ==\"}]}}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:player_head",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Vampire\\\"}\"},SkullOwner:{Id:[I;2047556325,-1919856657,-1282560630,-1854597153],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDdkZWRiNzAwYjExZjk3Mjg4MzkxMjE1ODY1NzU3YjA0MjE4Zjk2NDUxNWQxMTYyNzEwNjJhMmI2NmYxNzNlYSJ9fX0=\"}]}}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,5 +1,5 @@
 # set lcg
-scoreboard players set lcgModulus bityard 15
+scoreboard players set lcgModulus bityard 16
 function bityard:lcg/random
 
 # play random sound on player
@@ -18,6 +18,7 @@ execute if score lcg bityard matches 11 run playsound entity.vex.charge player @
 execute if score lcg bityard matches 12 run playsound entity.wolf.growl player @s ~ ~ ~ 2 1.1
 execute if score lcg bityard matches 13 run playsound entity.zoglin.angry player @s ~ ~ ~ 2 1.1
 execute if score lcg bityard matches 14 run playsound entity.ender_dragon.growl player @s ~ ~ ~ 2 1.1
+execute if score lcg bityard matches 15 run playsound entity.wither.ambient player @s ~ ~ ~ 2 1.1
 
 # unset lcg
 scoreboard players set lcg bityard -1
