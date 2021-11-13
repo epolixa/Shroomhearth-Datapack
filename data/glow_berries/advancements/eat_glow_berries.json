@@ -10,6 +10,6 @@
 		}
 	},
 	"rewards": {
-		"function": "cc_interim:eat_glow_berries"
+		"function": "glow_berries:eat_glow_berries"
 	} 
 }
