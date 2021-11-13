@@ -27,8 +27,8 @@
                 "location": {
                     "position": {
                         "y": {
-                            "min": 0,
-                            "max": 6
+                            "min": -64,
+                            "max": -58
                         }
                     }
                 }
