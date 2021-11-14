@@ -1,0 +1,59 @@
+{
+	"criteria": {
+		"x_negative": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"position": {
+					"x": {
+						"min": -9999999999,
+						"max": -10001
+					}
+				}
+			}
+		},
+		"x_positive": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"position": {
+					"x": {
+						"min": 10001,
+						"max": 9999999999
+					}
+				}
+			}
+		},
+		"z_negative": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"position": {
+					"z": {
+						"min": -9999999999,
+						"max": -10001
+					}
+				}
+			}
+		},
+		"z_positive": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"position": {
+					"z": {
+						"min": 10001,
+						"max": 9999999999
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"x_negative",
+			"x_positive",
+			"z_negative",
+			"z_positive"
+		]
+	],
+    "rewards": {
+        "function": "wilderness:enter_wilderness"
+    }
+}
