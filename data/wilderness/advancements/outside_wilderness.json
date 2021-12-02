@@ -1,0 +1,22 @@
+{
+	"criteria": {
+		"location": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"position": {
+					"x": {
+						"min": -10000,
+						"max": 10000
+					},
+					"z": {
+						"min": -10000,
+						"max": 10000
+					}
+				}
+			}
+		}
+	},
+    "rewards": {
+        "function": "wilderness:leave_wilderness"
+    }
+}
