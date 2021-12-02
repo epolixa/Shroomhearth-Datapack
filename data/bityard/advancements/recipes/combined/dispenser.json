@@ -2,8 +2,8 @@
 	"parent": "minecraft:recipes/root",
 	"rewards": {
 		"recipes": [
-			"bityard:combined/dispenser",
-			"bityard:combined/dispenser_no_bow"
+			"shroomhearth:combined/dispenser",
+			"shroomhearth:combined/dispenser_no_bow"
 		]
 	},
 	"criteria": {

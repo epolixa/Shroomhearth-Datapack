@@ -2,7 +2,7 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "bityard:stonecutting/concrete/light_blue_concrete_powder_from_light_blue_concrete"
+      "shroomhearth:stonecutting/concrete/light_blue_concrete_powder_from_light_blue_concrete"
     ]
   },
   "criteria": {
@@ -19,7 +19,7 @@
     "has_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "bityard:stonecutting/concrete/light_blue_concrete_powder_from_light_blue_concrete"
+        "recipe": "shroomhearth:stonecutting/concrete/light_blue_concrete_powder_from_light_blue_concrete"
       }
     }
   },

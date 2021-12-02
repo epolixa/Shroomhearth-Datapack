@@ -1,5 +1,5 @@
 {
-	"parent": "bityard:root",
+	"parent": "shroomhearth:root",
 	"display": {
 		"icon": {
 			"item": "minecraft:end_crystal"

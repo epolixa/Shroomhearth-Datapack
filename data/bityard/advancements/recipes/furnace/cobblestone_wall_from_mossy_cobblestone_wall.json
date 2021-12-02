@@ -2,7 +2,7 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "bityard:furnace/cobblestone_wall_from_mossy_cobblestone_wall"
+      "shroomhearth:furnace/cobblestone_wall_from_mossy_cobblestone_wall"
     ]
   },
   "criteria": {
@@ -19,7 +19,7 @@
     "has_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "bityard:furnace/cobblestone_wall_from_mossy_cobblestone_wall"
+        "recipe": "shroomhearth:furnace/cobblestone_wall_from_mossy_cobblestone_wall"
       }
     }
   },

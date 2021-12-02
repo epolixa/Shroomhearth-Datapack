@@ -2,7 +2,7 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "bityard:furnace/stone_brick_stairs_from_mossy_stone_brick_stairs"
+      "shroomhearth:furnace/stone_brick_stairs_from_mossy_stone_brick_stairs"
     ]
   },
   "criteria": {
@@ -19,7 +19,7 @@
     "has_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "bityard:furnace/stone_brick_stairs_from_mossy_stone_brick_stairs"
+        "recipe": "shroomhearth:furnace/stone_brick_stairs_from_mossy_stone_brick_stairs"
       }
     }
   },

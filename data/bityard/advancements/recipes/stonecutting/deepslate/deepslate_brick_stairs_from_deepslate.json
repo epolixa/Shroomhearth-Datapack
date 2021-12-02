@@ -2,7 +2,7 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "bityard:stonecutting/deepslate/deepslate_brick_stairs_from_deepslate"
+      "shroomhearth:stonecutting/deepslate/deepslate_brick_stairs_from_deepslate"
     ]
   },
   "criteria": {
@@ -21,7 +21,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "bityard:stonecutting/deepslate/deepslate_brick_stairs_from_deepslate"
+        "recipe": "shroomhearth:stonecutting/deepslate/deepslate_brick_stairs_from_deepslate"
       }
     }
   },

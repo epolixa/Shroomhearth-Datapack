@@ -2,7 +2,7 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "bityard:blast_furnace/smooth_sandstone_from_sandstone"
+      "shroomhearth:blast_furnace/smooth_sandstone_from_sandstone"
     ]
   },
   "criteria": {
@@ -19,7 +19,7 @@
     "has_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "bityard:blast_furnace/smooth_sandstone_from_sandstone"
+        "recipe": "shroomhearth:blast_furnace/smooth_sandstone_from_sandstone"
       }
     }
   },

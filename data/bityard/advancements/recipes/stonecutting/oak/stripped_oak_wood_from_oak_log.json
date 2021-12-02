@@ -2,7 +2,7 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "bityard:stonecutting/oak/stripped_oak_wood_from_oak_log"
+      "shroomhearth:stonecutting/oak/stripped_oak_wood_from_oak_log"
     ]
   },
   "criteria": {
@@ -19,7 +19,7 @@
     "has_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "bityard:stonecutting/oak/stripped_oak_wood_from_oak_log"
+        "recipe": "shroomhearth:stonecutting/oak/stripped_oak_wood_from_oak_log"
       }
     }
   },

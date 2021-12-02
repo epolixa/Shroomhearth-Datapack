@@ -1,5 +1,5 @@
 # core setup
-function bityard:setup
+function shroomhearth:setup
 
 # call modules setup functions
 function sleeping:setup

@@ -301,7 +301,7 @@
         },
         {
             "type": "loot_table",
-            "name": "bityard:structures/bastion"
+            "name": "shroomhearth:structures/bastion"
         },
         {
             "type": "loot_table",
@@ -321,7 +321,7 @@
         },
         {
             "type": "loot_table",
-            "name": "bityard:structures/jungle"
+            "name": "shroomhearth:structures/jungle"
         },
         {
             "type": "loot_table",
@@ -337,7 +337,7 @@
         },
         {
             "type": "loot_table",
-            "name": "bityard:structures/shipwreck"
+            "name": "shroomhearth:structures/shipwreck"
         },
         {
             "type": "loot_table",
@@ -345,11 +345,11 @@
         },
         {
             "type": "loot_table",
-            "name": "bityard:structures/stronghold"
+            "name": "shroomhearth:structures/stronghold"
         },
         {
             "type": "loot_table",
-            "name": "bityard:structures/underwater_ruin"
+            "name": "shroomhearth:structures/underwater_ruin"
         }
       ]
     }

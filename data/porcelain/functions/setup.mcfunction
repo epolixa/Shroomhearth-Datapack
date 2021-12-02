@@ -7,7 +7,7 @@ scoreboard objectives remove porcelainID
 scoreboard objectives add porcelainID dummy
 
 # nextPorcelainID - global, next ID to use for new anchor
-scoreboard players set nextPorcelainID bityard 0
+scoreboard players set nextPorcelainID shroomhearth 0
 
 # hasPorcelain - check if player has porcelain while in the porcelain
 scoreboard objectives remove hasPorcelain

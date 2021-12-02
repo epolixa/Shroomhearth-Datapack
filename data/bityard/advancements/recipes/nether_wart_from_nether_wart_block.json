@@ -2,7 +2,7 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "bityard:nether_wart_from_nether_wart_block"
+      "shroomhearth:nether_wart_from_nether_wart_block"
     ]
   },
   "criteria": {
@@ -19,7 +19,7 @@
     "has_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "bityard:nether_wart_from_nether_wart_block"
+        "recipe": "shroomhearth:nether_wart_from_nether_wart_block"
       }
     }
   },

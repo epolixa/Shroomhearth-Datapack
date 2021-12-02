@@ -2,7 +2,7 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "bityard:stonecutting/concrete/brown_concrete_powder_from_brown_concrete"
+      "shroomhearth:stonecutting/concrete/brown_concrete_powder_from_brown_concrete"
     ]
   },
   "criteria": {
@@ -19,7 +19,7 @@
     "has_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "bityard:stonecutting/concrete/brown_concrete_powder_from_brown_concrete"
+        "recipe": "shroomhearth:stonecutting/concrete/brown_concrete_powder_from_brown_concrete"
       }
     }
   },

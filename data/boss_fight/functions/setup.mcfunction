@@ -1,5 +1,5 @@
 # dragonSlain - flag for if the dragon is alive or has been killed
-scoreboard players set dragonSlain bityard 1
+scoreboard players set dragonSlain shroomhearth 1
 
 # powerCooldown - timer for boss mod cooldown abilities
 scoreboard objectives remove powerCooldown

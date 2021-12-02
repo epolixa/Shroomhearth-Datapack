@@ -2,7 +2,7 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "bityard:blast_furnace/cracked_stone_bricks_from_stone_bricks"
+      "shroomhearth:blast_furnace/cracked_stone_bricks_from_stone_bricks"
     ]
   },
   "criteria": {
@@ -19,7 +19,7 @@
     "has_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "bityard:blast_furnace/cracked_stone_bricks_from_stone_bricks"
+        "recipe": "shroomhearth:blast_furnace/cracked_stone_bricks_from_stone_bricks"
       }
     }
   },

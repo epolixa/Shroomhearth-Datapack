@@ -7,7 +7,7 @@
 					"type": "minecraft:wandering_trader"
 				},
 				"item": {
-					"tag": "bityard:villager_wares"
+					"tag": "shroomhearth:villager_wares"
 				}
 			}
 		}

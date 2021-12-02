@@ -2,7 +2,7 @@
 	"parent": "minecraft:recipes/root",
 	"rewards": {
 		"recipes": [
-			"bityard:combined/fletching_table"
+			"shroomhearth:combined/fletching_table"
 		]
 	},
 	"criteria": {

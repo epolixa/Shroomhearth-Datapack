@@ -1,14 +1,14 @@
 # set lcg
-scoreboard players set lcgModulus bityard 3
-function bityard:lcg/random
+scoreboard players set lcgModulus shroomhearth 3
+function shroomhearth:lcg/random
 
 # run item modifiers based on lcg result
-execute if score lcg bityard matches 0 run item modify entity @s weapon.mainhand boss_fight:endchant/punch
-execute if score lcg bityard matches 1 run item modify entity @s weapon.mainhand boss_fight:endchant/power
-execute if score lcg bityard matches 2 run item modify entity @s weapon.mainhand boss_fight:endchant/unbreaking
+execute if score lcg shroomhearth matches 0 run item modify entity @s weapon.mainhand boss_fight:endchant/punch
+execute if score lcg shroomhearth matches 1 run item modify entity @s weapon.mainhand boss_fight:endchant/power
+execute if score lcg shroomhearth matches 2 run item modify entity @s weapon.mainhand boss_fight:endchant/unbreaking
 
 # unset lcg
-scoreboard players set lcg bityard -1
+scoreboard players set lcg shroomhearth -1
 
 # tag player
 tag @s add endchant

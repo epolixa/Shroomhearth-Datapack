@@ -2,7 +2,7 @@
 execute if entity @p run function porcelain:tick
 
 # Multiplayer sleep - only run when more than one player is online
-execute if score playerCount bityard matches 2.. as @a[tag=sleeping] run function sleeping:tick
+execute if score playerCount shroomhearth matches 2.. as @a[tag=sleeping] run function sleeping:tick
 
 # Spawn Eggs from Mob Spawners - execute if a mob spawner item entity exists
 execute as @e[type=item,nbt={Age:0s,Item:{id:"minecraft:spawner"}}] run function spawner_eggs:tick

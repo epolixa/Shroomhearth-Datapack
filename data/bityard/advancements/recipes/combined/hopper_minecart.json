@@ -2,7 +2,7 @@
 	"parent": "minecraft:recipes/root",
 	"rewards": {
 		"recipes": [
-			"bityard:combined/hopper_minecart"
+			"shroomhearth:combined/hopper_minecart"
 		]
 	},
 	"criteria": {

@@ -1,11 +1,11 @@
 # gamerules
-function bityard:setup_gamerules
+function shroomhearth:setup_gamerules
 
-# bityard - shared objective for dummy global variables
-scoreboard objectives add bityard dummy
+# shroomhearth - shared objective for dummy global variables
+scoreboard objectives add shroomhearth dummy
 
 # lcg - pseudo random number generator
-function bityard:lcg/setup
+function shroomhearth:lcg/setup
 
 # setup playerCount variable
-scoreboard players set playerCount bityard 0
+scoreboard players set playerCount shroomhearth 0

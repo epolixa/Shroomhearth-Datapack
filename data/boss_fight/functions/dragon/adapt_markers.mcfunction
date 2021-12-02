@@ -2,10 +2,10 @@
 execute unless entity @e[type=minecraft:armor_stand,tag=summon_marker] at @a[distance=..200] run summon minecraft:armor_stand ~ ~ ~ {Tags:["summon_marker"],Marker:1b,Invulnerable:1b,Invisible:1b}
 
 # capture number of players
-execute store result score dragonPlayers bityard if entity @a[distance=..200]
+execute store result score dragonPlayers shroomhearth if entity @a[distance=..200]
 
 # capture number of markers
-execute store result score summonMarkers bityard if entity @e[type=minecraft:armor_stand,tag=summon_marker]
+execute store result score summonMarkers shroomhearth if entity @e[type=minecraft:armor_stand,tag=summon_marker]
 
 # summon extra marker if there are more players
-execute if score dragonPlayers bityard >= summonMarkers bityard at @e[type=minecraft:armor_stand,tag=summon_marker,limit=1,sort=random] run summon minecraft:armor_stand ~ ~ ~ {Tags:["summon_marker"],Marker:1b,Invulnerable:1b,Invisible:1b}
+execute if score dragonPlayers shroomhearth >= summonMarkers shroomhearth at @e[type=minecraft:armor_stand,tag=summon_marker,limit=1,sort=random] run summon minecraft:armor_stand ~ ~ ~ {Tags:["summon_marker"],Marker:1b,Invulnerable:1b,Invisible:1b}

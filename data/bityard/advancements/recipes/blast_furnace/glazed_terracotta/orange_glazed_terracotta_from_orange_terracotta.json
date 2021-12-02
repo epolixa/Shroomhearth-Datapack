@@ -2,7 +2,7 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "bityard:blast_furnace/glazed_terracotta/orange_glazed_terracotta_from_orange_terracotta"
+      "shroomhearth:blast_furnace/glazed_terracotta/orange_glazed_terracotta_from_orange_terracotta"
     ]
   },
   "criteria": {
@@ -19,7 +19,7 @@
     "has_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "bityard:blast_furnace/glazed_terracotta/orange_glazed_terracotta_from_orange_terracotta"
+        "recipe": "shroomhearth:blast_furnace/glazed_terracotta/orange_glazed_terracotta_from_orange_terracotta"
       }
     }
   },

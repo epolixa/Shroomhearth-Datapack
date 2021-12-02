@@ -2,7 +2,7 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "bityard:furnace/gold_block_from_raw_gold_block"
+      "shroomhearth:furnace/gold_block_from_raw_gold_block"
     ]
   },
   "criteria": {
@@ -19,7 +19,7 @@
     "has_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "bityard:furnace/gold_block_from_raw_gold_block"
+        "recipe": "shroomhearth:furnace/gold_block_from_raw_gold_block"
       }
     }
   },

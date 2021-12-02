@@ -1,5 +1,5 @@
 {
-	"parent": "bityard:headhunter",
+	"parent": "shroomhearth:headhunter",
 	"display": {
 		"icon": {
 			"item": "minecraft:netherite_sword",

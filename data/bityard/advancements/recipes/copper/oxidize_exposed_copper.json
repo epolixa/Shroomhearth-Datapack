@@ -2,7 +2,7 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "bityard:copper/oxidize_exposed_copper"
+      "shroomhearth:copper/oxidize_exposed_copper"
     ]
   },
   "criteria": {
@@ -29,7 +29,7 @@
     "has_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "bityard:copper/oxidize_exposed_copper"
+        "recipe": "shroomhearth:copper/oxidize_exposed_copper"
       }
     }
   },

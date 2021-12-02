@@ -2,7 +2,7 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "bityard:mob_heads/experience_from_mob_head"
+      "shroomhearth:mob_heads/experience_from_mob_head"
     ]
   },
   "criteria": {
@@ -11,7 +11,7 @@
       "conditions": {
         "items": [
           {
-            "tag": "bityard:mob_head"
+            "tag": "shroomhearth:mob_head"
           }
         ]
       }
@@ -19,7 +19,7 @@
     "has_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "bityard:mob_heads/experience_from_mob_head"
+        "recipe": "shroomhearth:mob_heads/experience_from_mob_head"
       }
     }
   },

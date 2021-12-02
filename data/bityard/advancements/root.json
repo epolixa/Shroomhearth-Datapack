@@ -3,7 +3,7 @@
 		"icon": {
 			"item": "minecraft:red_mushroom_block"
 		},
-		"title": "Bityard",
+		"title": "Shroomhearth",
 		"description": "Visit Spawn",
 		"background": "minecraft:textures/block/flowering_azalea_top.png",
 		"frame": "task",

@@ -1,17 +1,17 @@
 # set lcg
-scoreboard players set lcgModulus bityard 3
-function bityard:lcg/random
+scoreboard players set lcgModulus shroomhearth 3
+function shroomhearth:lcg/random
 
 # run item modifiers based on lcg result
-execute if score lcg bityard matches 0 run item modify entity @s weapon.offhand boss_fight:endchant/efficiency
-execute if score lcg bityard matches 1 run item modify entity @s weapon.offhand boss_fight:endchant/unbreaking
+execute if score lcg shroomhearth matches 0 run item modify entity @s weapon.offhand boss_fight:endchant/efficiency
+execute if score lcg shroomhearth matches 1 run item modify entity @s weapon.offhand boss_fight:endchant/unbreaking
 
 # fortune - gets unbreaking instead if silk touch is present
-execute if score lcg bityard matches 2 unless predicate boss_fight:enchanted/offhand/silk_touch run item modify entity @s weapon.offhand boss_fight:endchant/fortune
-execute if score lcg bityard matches 2 if predicate boss_fight:enchanted/offhand/silk_touch run item modify entity @s weapon.offhand boss_fight:endchant/unbreaking
+execute if score lcg shroomhearth matches 2 unless predicate boss_fight:enchanted/offhand/silk_touch run item modify entity @s weapon.offhand boss_fight:endchant/fortune
+execute if score lcg shroomhearth matches 2 if predicate boss_fight:enchanted/offhand/silk_touch run item modify entity @s weapon.offhand boss_fight:endchant/unbreaking
 
 # unset lcg
-scoreboard players set lcg bityard -1
+scoreboard players set lcg shroomhearth -1
 
 # tag player
 tag @s add endchant

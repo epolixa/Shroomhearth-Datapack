@@ -1,8 +1,8 @@
 {
     "replace": false,
     "values": [
-        "#bityard:passive_mobs",
-        "#bityard:neutral_mobs",
-        "#bityard:hostile_mobs"
+        "#shroomhearth:passive_mobs",
+        "#shroomhearth:neutral_mobs",
+        "#shroomhearth:hostile_mobs"
     ]
 }

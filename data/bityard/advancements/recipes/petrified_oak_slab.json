@@ -2,7 +2,7 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "bityard:petrified_oak_slab"
+      "shroomhearth:petrified_oak_slab"
     ]
   },
   "criteria": {
@@ -29,7 +29,7 @@
     "has_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "bityard:petrified_oak_slab"
+        "recipe": "shroomhearth:petrified_oak_slab"
       }
     }
   },

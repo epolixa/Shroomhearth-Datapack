@@ -2,7 +2,7 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "bityard:mob_heads/skeleton_skull"
+      "shroomhearth:mob_heads/skeleton_skull"
     ]
   },
   "criteria": {
@@ -19,7 +19,7 @@
     "has_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "bityard:mob_heads/skeleton_skull"
+        "recipe": "shroomhearth:mob_heads/skeleton_skull"
       }
     }
   },

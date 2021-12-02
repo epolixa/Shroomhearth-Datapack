@@ -1,37 +1,37 @@
 # set lcg
-scoreboard players set lcgModulus bityard 6
-function bityard:lcg/random
+scoreboard players set lcgModulus shroomhearth 6
+function shroomhearth:lcg/random
 
 # run item modifiers based on lcg result
-execute if score lcg bityard matches 0 run item modify entity @s weapon.mainhand boss_fight:endchant/thorns
-execute if score lcg bityard matches 1 run item modify entity @s weapon.mainhand boss_fight:endchant/unbreaking
+execute if score lcg shroomhearth matches 0 run item modify entity @s weapon.mainhand boss_fight:endchant/thorns
+execute if score lcg shroomhearth matches 1 run item modify entity @s weapon.mainhand boss_fight:endchant/unbreaking
 
 # protection
-execute if score lcg bityard matches 2 unless predicate boss_fight:enchanted/mainhand/projectile_protection unless predicate boss_fight:enchanted/mainhand/fire_protection unless predicate boss_fight:enchanted/mainhand/blast_protection run item modify entity @s weapon.mainhand boss_fight:endchant/protection
-execute if score lcg bityard matches 2 if predicate boss_fight:enchanted/mainhand/projectile_protection run item modify entity @s weapon.mainhand boss_fight:endchant/projectile_protection
-execute if score lcg bityard matches 2 if predicate boss_fight:enchanted/mainhand/fire_protection run item modify entity @s weapon.mainhand boss_fight:endchant/fire_protection
-execute if score lcg bityard matches 2 if predicate boss_fight:enchanted/mainhand/blast_protection run item modify entity @s weapon.mainhand boss_fight:endchant/blast_protection
+execute if score lcg shroomhearth matches 2 unless predicate boss_fight:enchanted/mainhand/projectile_protection unless predicate boss_fight:enchanted/mainhand/fire_protection unless predicate boss_fight:enchanted/mainhand/blast_protection run item modify entity @s weapon.mainhand boss_fight:endchant/protection
+execute if score lcg shroomhearth matches 2 if predicate boss_fight:enchanted/mainhand/projectile_protection run item modify entity @s weapon.mainhand boss_fight:endchant/projectile_protection
+execute if score lcg shroomhearth matches 2 if predicate boss_fight:enchanted/mainhand/fire_protection run item modify entity @s weapon.mainhand boss_fight:endchant/fire_protection
+execute if score lcg shroomhearth matches 2 if predicate boss_fight:enchanted/mainhand/blast_protection run item modify entity @s weapon.mainhand boss_fight:endchant/blast_protection
 
 # projectile protection
-execute if score lcg bityard matches 3 unless predicate boss_fight:enchanted/mainhand/protection unless predicate boss_fight:enchanted/mainhand/fire_protection unless predicate boss_fight:enchanted/mainhand/blast_protection run item modify entity @s weapon.mainhand boss_fight:endchant/projectile_protection
-execute if score lcg bityard matches 3 if predicate boss_fight:enchanted/mainhand/protection run item modify entity @s weapon.mainhand boss_fight:endchant/protection
-execute if score lcg bityard matches 3 if predicate boss_fight:enchanted/mainhand/fire_protection run item modify entity @s weapon.mainhand boss_fight:endchant/fire_protection
-execute if score lcg bityard matches 3 if predicate boss_fight:enchanted/mainhand/blast_protection run item modify entity @s weapon.mainhand boss_fight:endchant/blast_protection
+execute if score lcg shroomhearth matches 3 unless predicate boss_fight:enchanted/mainhand/protection unless predicate boss_fight:enchanted/mainhand/fire_protection unless predicate boss_fight:enchanted/mainhand/blast_protection run item modify entity @s weapon.mainhand boss_fight:endchant/projectile_protection
+execute if score lcg shroomhearth matches 3 if predicate boss_fight:enchanted/mainhand/protection run item modify entity @s weapon.mainhand boss_fight:endchant/protection
+execute if score lcg shroomhearth matches 3 if predicate boss_fight:enchanted/mainhand/fire_protection run item modify entity @s weapon.mainhand boss_fight:endchant/fire_protection
+execute if score lcg shroomhearth matches 3 if predicate boss_fight:enchanted/mainhand/blast_protection run item modify entity @s weapon.mainhand boss_fight:endchant/blast_protection
 
 # fire protection
-execute if score lcg bityard matches 4 unless predicate boss_fight:enchanted/mainhand/protection unless predicate boss_fight:enchanted/mainhand/projectile_protection unless predicate boss_fight:enchanted/mainhand/blast_protection run item modify entity @s weapon.mainhand boss_fight:endchant/fire_protection
-execute if score lcg bityard matches 4 if predicate boss_fight:enchanted/mainhand/projectile_protection run item modify entity @s weapon.mainhand boss_fight:endchant/projectile_protection
-execute if score lcg bityard matches 4 if predicate boss_fight:enchanted/mainhand/protection run item modify entity @s weapon.mainhand boss_fight:endchant/protection
-execute if score lcg bityard matches 4 if predicate boss_fight:enchanted/mainhand/blast_protection run item modify entity @s weapon.mainhand boss_fight:endchant/blast_protection
+execute if score lcg shroomhearth matches 4 unless predicate boss_fight:enchanted/mainhand/protection unless predicate boss_fight:enchanted/mainhand/projectile_protection unless predicate boss_fight:enchanted/mainhand/blast_protection run item modify entity @s weapon.mainhand boss_fight:endchant/fire_protection
+execute if score lcg shroomhearth matches 4 if predicate boss_fight:enchanted/mainhand/projectile_protection run item modify entity @s weapon.mainhand boss_fight:endchant/projectile_protection
+execute if score lcg shroomhearth matches 4 if predicate boss_fight:enchanted/mainhand/protection run item modify entity @s weapon.mainhand boss_fight:endchant/protection
+execute if score lcg shroomhearth matches 4 if predicate boss_fight:enchanted/mainhand/blast_protection run item modify entity @s weapon.mainhand boss_fight:endchant/blast_protection
 
 # blast protection
-execute if score lcg bityard matches 5 unless predicate boss_fight:enchanted/mainhand/protection unless predicate boss_fight:enchanted/mainhand/fire_protection unless predicate boss_fight:enchanted/mainhand/projectile_protection run item modify entity @s weapon.mainhand boss_fight:endchant/blast_protection
-execute if score lcg bityard matches 5 if predicate boss_fight:enchanted/mainhand/projectile_protection run item modify entity @s weapon.mainhand boss_fight:endchant/projectile_protection
-execute if score lcg bityard matches 5 if predicate boss_fight:enchanted/mainhand/fire_protection run item modify entity @s weapon.mainhand boss_fight:endchant/fire_protection
-execute if score lcg bityard matches 5 if predicate boss_fight:enchanted/mainhand/protection run item modify entity @s weapon.mainhand boss_fight:endchant/protection
+execute if score lcg shroomhearth matches 5 unless predicate boss_fight:enchanted/mainhand/protection unless predicate boss_fight:enchanted/mainhand/fire_protection unless predicate boss_fight:enchanted/mainhand/projectile_protection run item modify entity @s weapon.mainhand boss_fight:endchant/blast_protection
+execute if score lcg shroomhearth matches 5 if predicate boss_fight:enchanted/mainhand/projectile_protection run item modify entity @s weapon.mainhand boss_fight:endchant/projectile_protection
+execute if score lcg shroomhearth matches 5 if predicate boss_fight:enchanted/mainhand/fire_protection run item modify entity @s weapon.mainhand boss_fight:endchant/fire_protection
+execute if score lcg shroomhearth matches 5 if predicate boss_fight:enchanted/mainhand/protection run item modify entity @s weapon.mainhand boss_fight:endchant/protection
 
 # unset lcg
-scoreboard players set lcg bityard -1
+scoreboard players set lcg shroomhearth -1
 
 # tag player
 tag @s add endchant

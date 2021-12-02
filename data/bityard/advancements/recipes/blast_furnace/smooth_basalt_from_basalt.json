@@ -2,7 +2,7 @@
     "parent": "minecraft:recipes/root",
     "rewards": {
       "recipes": [
-        "bityard:blast_furnace/smooth_basalt_from_basalt"
+        "shroomhearth:blast_furnace/smooth_basalt_from_basalt"
       ]
     },
     "criteria": {
@@ -19,7 +19,7 @@
       "has_recipe": {
         "trigger": "minecraft:recipe_unlocked",
         "conditions": {
-          "recipe": "bityard:blast_furnace/smooth_basalt_from_basalt"
+          "recipe": "shroomhearth:blast_furnace/smooth_basalt_from_basalt"
         }
       }
     },

@@ -2,7 +2,7 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "bityard:stonecutting/dark_oak/dark_oak_planks_from_dark_oak_wood"
+      "shroomhearth:stonecutting/dark_oak/dark_oak_planks_from_dark_oak_wood"
     ]
   },
   "criteria": {
@@ -19,7 +19,7 @@
     "has_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "bityard:stonecutting/dark_oak/dark_oak_planks_from_dark_oak_wood"
+        "recipe": "shroomhearth:stonecutting/dark_oak/dark_oak_planks_from_dark_oak_wood"
       }
     }
   },

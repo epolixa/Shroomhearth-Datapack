@@ -2,7 +2,7 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "bityard:stonecutting/acacia/acacia_slab_from_stripped_acacia_log"
+      "shroomhearth:stonecutting/acacia/acacia_slab_from_stripped_acacia_log"
     ]
   },
   "criteria": {
@@ -19,7 +19,7 @@
     "has_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "bityard:stonecutting/acacia/acacia_slab_from_stripped_acacia_log"
+        "recipe": "shroomhearth:stonecutting/acacia/acacia_slab_from_stripped_acacia_log"
       }
     }
   },

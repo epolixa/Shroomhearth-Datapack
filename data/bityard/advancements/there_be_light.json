@@ -1,5 +1,5 @@
 {
-	"parent": "bityard:wash_block",
+	"parent": "shroomhearth:wash_block",
 	"display": {
 		"icon": {
 			"item": "minecraft:glowstone_dust"

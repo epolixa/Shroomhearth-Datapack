@@ -2,7 +2,7 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "bityard:copper/oxidize_cut_copper_stairs"
+      "shroomhearth:copper/oxidize_cut_copper_stairs"
     ]
   },
   "criteria": {
@@ -29,7 +29,7 @@
     "has_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "bityard:copper/oxidize_cut_copper_stairs"
+        "recipe": "shroomhearth:copper/oxidize_cut_copper_stairs"
       }
     }
   },

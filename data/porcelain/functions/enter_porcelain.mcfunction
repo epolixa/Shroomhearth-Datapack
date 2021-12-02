@@ -12,7 +12,7 @@ summon minecraft:armor_stand ~ ~ ~ {Tags:["source_anchor"], Marker:true, Invisib
 
 # assign porcelain ID to source anchor and player
 scoreboard players set @s porcelainID 0
-scoreboard players operation @s porcelainID = nextPorcelainID bityard
+scoreboard players operation @s porcelainID = nextPorcelainID shroomhearth
 scoreboard players set @e[tag=source_anchor,sort=nearest,limit=1] porcelainID 0
 scoreboard players operation @e[tag=source_anchor,sort=nearest,limit=1] porcelainID = @s porcelainID
 
@@ -43,7 +43,7 @@ clear @s
 item replace entity @s weapon.mainhand with minecraft:warped_fungus_on_a_stick{display:{Name:'{"italic":false,"translate":"item.minecraft.porcelain"}'},CustomModelData:1,Enchantments:[{id:"minecraft:infinity",lvl:1s}],HideFlags:1}
 
 # increment next porcelain ID
-scoreboard players add nextPorcelainID bityard 1
+scoreboard players add nextPorcelainID shroomhearth 1
 
 # travel effects
 function porcelain:travel_effects

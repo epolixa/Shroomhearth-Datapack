@@ -2,7 +2,7 @@
 	"parent": "minecraft:recipes/root",
 	"rewards": {
 		"recipes": [
-			"bityard:combined/cartography_table"
+			"shroomhearth:combined/cartography_table"
 		]
 	},
 	"criteria": {

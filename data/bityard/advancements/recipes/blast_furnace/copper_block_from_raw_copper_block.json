@@ -2,7 +2,7 @@
     "parent": "minecraft:recipes/root",
     "rewards": {
       "recipes": [
-        "bityard:blast_furnace/copper_block_from_raw_copper_block"
+        "shroomhearth:blast_furnace/copper_block_from_raw_copper_block"
       ]
     },
     "criteria": {
@@ -19,7 +19,7 @@
       "has_recipe": {
         "trigger": "minecraft:recipe_unlocked",
         "conditions": {
-          "recipe": "bityard:blast_furnace/copper_block_from_raw_copper_block"
+          "recipe": "shroomhearth:blast_furnace/copper_block_from_raw_copper_block"
         }
       }
     },

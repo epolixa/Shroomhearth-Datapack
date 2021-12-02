@@ -2,7 +2,7 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "bityard:stonecutting/sandstone/sand_from_sandstone_wall"
+      "shroomhearth:stonecutting/sandstone/sand_from_sandstone_wall"
     ]
   },
   "criteria": {
@@ -19,7 +19,7 @@
     "has_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "bityard:stonecutting/sandstone/sand_from_sandstone_wall"
+        "recipe": "shroomhearth:stonecutting/sandstone/sand_from_sandstone_wall"
       }
     }
   },

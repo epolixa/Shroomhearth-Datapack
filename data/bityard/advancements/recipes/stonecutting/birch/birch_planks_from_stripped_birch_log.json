@@ -2,7 +2,7 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "bityard:stonecutting/birch/birch_planks_from_stripped_birch_log"
+      "shroomhearth:stonecutting/birch/birch_planks_from_stripped_birch_log"
     ]
   },
   "criteria": {
@@ -19,7 +19,7 @@
     "has_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "bityard:stonecutting/birch/birch_planks_from_stripped_birch_log"
+        "recipe": "shroomhearth:stonecutting/birch/birch_planks_from_stripped_birch_log"
       }
     }
   },

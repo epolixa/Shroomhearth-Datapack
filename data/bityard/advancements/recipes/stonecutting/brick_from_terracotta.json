@@ -2,7 +2,7 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "bityard:stonecutting/brick_from_terracotta"
+      "shroomhearth:stonecutting/brick_from_terracotta"
     ]
   },
   "criteria": {
@@ -19,7 +19,7 @@
     "has_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "bityard:stonecutting/brick_from_terracotta"
+        "recipe": "shroomhearth:stonecutting/brick_from_terracotta"
       }
     }
   },
