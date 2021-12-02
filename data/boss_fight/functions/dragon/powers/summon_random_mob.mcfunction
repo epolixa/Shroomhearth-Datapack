@@ -31,10 +31,10 @@ execute if score lcg shroomhearth matches 24 run summon minecraft:blaze ~ ~ ~
 execute if score lcg shroomhearth matches 25 run summon minecraft:ghast ~ ~8 ~
 execute if score lcg shroomhearth matches 26 run summon minecraft:endermite ~ ~ ~
 execute if score lcg shroomhearth matches 27 run summon minecraft:shulker ~ ~ ~
-shroomhearth
+
 # unset lcg
 scoreboard players set lcg shroomhearth -1
-shroomhearth
+
 # tag mob that just spawned
 execute as @e[type=#boss_fight:dragon_summon,limit=1,sort=nearest,tag=!dragon_summon] run tag @s add dragon_summon
 execute as @e[type=#boss_fight:dragon_summon,limit=1,sort=nearest,tag=!new_summon] run tag @s add new_summon
