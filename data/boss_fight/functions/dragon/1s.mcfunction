@@ -8,7 +8,7 @@ execute store result score @s dragonPhase run data get entity @s DragonPhase
 execute store result score @s bossHealth run data get entity @s Health
 
 # revoke trigger for damage bonus
-execute positioned 0 64 0 run advancement revoke @a[distance=..200] only boss_fight:dragon/player_damage
+execute positioned 0 64 0 run advancement revoke @a[distance=..190] only boss_fight:dragon/player_damage
 
 # increment powerCooldown for dragon if phase is not landed and not at full health or low health
 scoreboard players add @s[scores={bossHealth=81..199,dragonPhase=0..2}] powerCooldown 1
@@ -17,7 +17,7 @@ scoreboard players add @s[scores={bossHealth=81..199,dragonPhase=0..2}] powerCoo
 scoreboard players add @s[scores={bossHealth=2..80}] powerCooldown 1
 
 # update bossbar
-execute positioned 0 64 0 run bossbar set boss_fight:dragon_power players @a[distance=..200]
+execute positioned 0 64 0 run bossbar set boss_fight:dragon_power players @a[distance=..190]
 execute as @s[scores={bossHealth=2..60,powerCooldown=5..}] run bossbar set boss_fight:dragon_power max 5
 execute as @s[scores={bossHealth=61..100,powerCooldown=10..}] run bossbar set boss_fight:dragon_power max 10
 execute as @s[scores={bossHealth=101..140,powerCooldown=15..}] run bossbar set boss_fight:dragon_power max 15
