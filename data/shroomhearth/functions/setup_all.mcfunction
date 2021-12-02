@@ -5,4 +5,4 @@ function shroomhearth:setup_safe
 function community:setup
 function boss_fight:setup
 function player_advancements:setup
-function arena:setup
+#function arena:setup
