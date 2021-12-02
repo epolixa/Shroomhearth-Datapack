@@ -1,7 +1,7 @@
 # re-seed lcg
-function shroomhearth:lcg/setup
+function shroomhearth:lcg/seed
 
-# functions to run every second
+# kick off functions to run every second
 schedule function shroomhearth:1s 1s
 
 # initialize item persistance, runs every 8 seconds
