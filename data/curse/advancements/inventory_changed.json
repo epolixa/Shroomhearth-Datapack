@@ -8,12 +8,7 @@
 						"condition": "reference",
 						"name": "curse:inside_curse"
 					}
-				],
-				"player": {
-					"player": {
-						"gamemode": "survival"
-					}
-				}
+				]
 			}
 		}
 	},
