@@ -5,7 +5,7 @@
 			"item": "minecraft:knowledge_book"
 		},
 		"title": "Learning Curve",
-		"description": "Print a Knowledge Book at Town Hall",
+		"description": "Print a Knowledge Book at the World Hall",
 		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,

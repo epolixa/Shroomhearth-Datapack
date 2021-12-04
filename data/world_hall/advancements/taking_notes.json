@@ -1,11 +1,11 @@
 {
-	"parent": "town_hall:learning_curve",
+	"parent": "world_hall:learning_curve",
 	"display": {
 		"icon": {
 			"item": "minecraft:writable_book"
 		},
 		"title": "Taking Notes",
-		"description": "Print Lore onto an item at Town Hall",
+		"description": "Print Lore onto an item at the World Hall",
 		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,

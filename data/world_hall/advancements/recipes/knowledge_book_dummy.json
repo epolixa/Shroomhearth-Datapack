@@ -4,11 +4,11 @@
     "has_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "town_hall:knowledge_book_dummy"
+        "recipe": "world_hall:knowledge_book_dummy"
       }
     }
   },
   "rewards": {
-    "function": "town_hall:use_knowledge_book"
+    "function": "world_hall:use_knowledge_book"
   } 
 }

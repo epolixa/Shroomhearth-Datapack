@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{Recipes:[\"town_hall:knowledge_book_dummy\"]}"
+              "tag": "{Recipes:[\"world_hall:knowledge_book_dummy\"]}"
             }
           ]
         }

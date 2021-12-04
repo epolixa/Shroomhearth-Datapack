@@ -11,4 +11,4 @@ particle minecraft:witch ~ ~0.5 ~ 0.2 0 0.2 0 4
 playsound minecraft:block.enchantment_table.use block @a ~ ~1 ~ 1 1.1
 
 # grant advancement
-advancement grant @p only town_hall:taking_notes
+advancement grant @p only world_hall:taking_notes
