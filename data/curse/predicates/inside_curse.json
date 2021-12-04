@@ -2,6 +2,7 @@
     "condition": "location_check",
     "predicate": {
         "dimension": "minecraft:overworld",
+        "biome": "minecraft:mushroom_fields",
         "position": {
             "x": {
                 "min": -388,
