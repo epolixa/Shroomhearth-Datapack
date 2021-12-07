@@ -6,7 +6,7 @@
       "item": "minecraft:light_blue_dye"
     },
     "w": {
-      "tag": "minecraft:wool"
+      "tag": "shroomhearth:wool/without_light_blue"
     }
   },
   "pattern": [

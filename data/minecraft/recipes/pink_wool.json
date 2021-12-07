@@ -6,7 +6,7 @@
       "item": "minecraft:pink_dye"
     },
     "w": {
-      "tag": "minecraft:wool"
+      "tag": "shroomhearth:wool/without_pink"
     }
   },
   "pattern": [

@@ -6,7 +6,7 @@
       "item": "minecraft:brown_dye"
     },
     "w": {
-      "tag": "minecraft:wool"
+      "tag": "shroomhearth:wool/without_brown"
     }
   },
   "pattern": [

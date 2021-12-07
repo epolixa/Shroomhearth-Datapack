@@ -6,7 +6,7 @@
       "item": "minecraft:orange_dye"
     },
     "w": {
-      "tag": "minecraft:wool"
+      "tag": "shroomhearth:wool/without_orange"
     }
   },
   "pattern": [
