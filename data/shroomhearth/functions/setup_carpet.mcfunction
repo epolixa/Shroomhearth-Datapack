@@ -4,7 +4,6 @@ carpet setDefault antiCheatDisabled          true
 carpet setDefault carpets                    false
 carpet setDefault chainStone                 true
 carpet setDefault cleanLogs                  false
-carpet setDefault combineXPOrbs              true
 carpet setDefault commandDistance            ops
 carpet setDefault commandDraw                ops
 carpet setDefault commandInfo                ops
