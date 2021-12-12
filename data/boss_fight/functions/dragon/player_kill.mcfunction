@@ -26,7 +26,7 @@ execute as @e[type=#boss_fight:slimes,tag=dragon_summon] run data merge entity @
 kill @e[tag=dragon_summon]
 
 # setblock dragon egg at pedestal
-setblock 0 64 0 minecraft:dragon_egg
+execute unless block 0 64 0 minecraft:dragon_egg run setblock 0 64 0 minecraft:dragon_egg
 
 # grant endchantments for all players in range to equipment in priority: mainhand, offhand, helmet, chestplate, leggings, boots
 execute positioned 0 64 0 as @a[distance=..190] run function boss_fight:endchant/attune
