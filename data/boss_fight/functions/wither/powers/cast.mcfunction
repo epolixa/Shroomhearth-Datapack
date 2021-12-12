@@ -4,5 +4,5 @@
 # summon wither skeletons - more common until low health, much more common at high health
 function boss_fight:wither/powers/summon
 
-# reset powerCooldown
-scoreboard players set @s powerCooldown 0
+# reset rage
+scoreboard players set @s rage 0

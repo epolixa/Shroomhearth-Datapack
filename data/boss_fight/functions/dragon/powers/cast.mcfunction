@@ -1,5 +1,5 @@
 # play effects
-particle minecraft:dragon_breath ~ ~1 ~ 3 1 3 0 64 force
+particle minecraft:dust 0.808 1 1 3 ~ ~1 ~ 3 1 3 0 32 force
 
 # set lcg
 scoreboard players set lcgModulus shroomhearth 7
@@ -34,5 +34,5 @@ execute if score lcg shroomhearth matches 6 run function boss_fight:dragon/power
 # unset lcg
 scoreboard players set lcg shroomhearth -1
 
-# reset powerCooldown
-scoreboard players set @s powerCooldown 0
+# reset rage
+scoreboard players set @s rage 0

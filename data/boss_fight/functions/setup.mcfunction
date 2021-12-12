@@ -1,9 +1,9 @@
 # dragonSlain - flag for if the dragon is alive or has been killed
 scoreboard players set dragonSlain shroomhearth 1
 
-# powerCooldown - timer for boss mod cooldown abilities
-scoreboard objectives remove powerCooldown
-scoreboard objectives add powerCooldown dummy
+# rage - timer for boss mod cooldown abilities
+scoreboard objectives remove rage
+scoreboard objectives add rage dummy
 
 # warpThreshold - buffers players getting warped
 scoreboard objectives remove warpThreshold
