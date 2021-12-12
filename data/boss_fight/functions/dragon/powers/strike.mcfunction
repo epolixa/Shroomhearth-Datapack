@@ -15,3 +15,6 @@ execute positioned 0 64 0 run effect give @a[distance=..190] minecraft:night_vis
 
 # summon lighting at summon markers
 execute as @e[type=armor_stand,tag=summon_marker] at @s run summon minecraft:lightning_bolt ~ ~ ~
+
+# expend rage
+scoreboard players remove @s rage 32

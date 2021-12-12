@@ -2,7 +2,7 @@
 tellraw @a [{"text":"The "}, {"color":"#cc00fa","text":"Ender Dragon"}, {"text":" was slain by "}, {"selector": "@s"}]
 
 # remove bossbar
-bossbar remove boss_fight:dragon_power
+bossbar remove boss_fight:dragon_rage
 
 # set dragonSlain
 scoreboard players set shroomhearth dragonSlain 1

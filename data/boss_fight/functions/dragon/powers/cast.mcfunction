@@ -33,6 +33,3 @@ execute if score lcg shroomhearth matches 6 run function boss_fight:dragon/power
 
 # unset lcg
 scoreboard players set lcg shroomhearth -1
-
-# reset rage
-scoreboard players set @s rage 0

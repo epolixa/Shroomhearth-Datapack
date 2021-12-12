@@ -22,3 +22,6 @@ tag @e[type=minecraft:end_crystal] remove new_summon
 
 # remove tag from markers
 tag @e[type=minecraft:armor_stand,tag=crystal_marker] remove restorable
+
+# expend rage
+scoreboard players remove @s rage 64

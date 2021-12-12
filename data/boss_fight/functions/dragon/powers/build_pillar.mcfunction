@@ -14,4 +14,4 @@ summon minecraft:armor_stand ~ ~ ~ {Marker:true,Invisible:true,Tags:["pillar_mar
 particle minecraft:dragon_breath ~ ~2 ~ 0.5 2 0.5 0.05 20 force
 
 # play sound on pillars
-playsound minecraft:entity.enderman.hurt hostile @a ~ ~ ~ 3 0.01
+playsound minecraft:entity.enderman.death hostile @a ~ ~ ~ 1 0.7

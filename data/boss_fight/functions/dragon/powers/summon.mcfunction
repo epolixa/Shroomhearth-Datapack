@@ -12,3 +12,6 @@ function boss_fight:dragon/adapt_markers
 
 # summon mobs from markers
 execute as @e[type=minecraft:armor_stand,tag=summon_marker] at @s run function boss_fight:dragon/powers/summon_random_mob
+
+# expend rage
+scoreboard players remove @s rage 48

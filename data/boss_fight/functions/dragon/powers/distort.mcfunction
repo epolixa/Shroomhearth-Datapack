@@ -25,3 +25,6 @@ execute if score lcg shroomhearth matches 12 positioned 0 64 0 run effect give @
 
 # unset lcg
 scoreboard players set lcg shroomhearth -1
+
+# expend rage
+scoreboard players remove @s rage 48

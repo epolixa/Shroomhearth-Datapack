@@ -12,3 +12,6 @@ execute in minecraft:the_end run spreadplayers 0 0 1 40 under 64 false @e[type=m
 
 # summon mobs from markers
 execute as @e[type=minecraft:armor_stand,tag=summon_marker] at @s run function boss_fight:dragon/powers/transmute_random_blocks
+
+# expend rage
+scoreboard players remove @s rage 48
