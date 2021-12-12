@@ -1,0 +1,22 @@
+{
+	"criteria": {
+		"killed_dragon": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:ender_dragon"
+				},
+                "damage": {
+                    "type": {
+                        "direct_entity": {
+                            "type": "minecraft:spectral_arrow"
+                        }
+                    }
+                }
+			}
+		}
+	},
+	"rewards": {
+		"function": "boss_fight:dragon/player_damage_spectral"
+	} 
+}
