@@ -1,8 +1,8 @@
 # play effects
-particle minecraft:witch ~ ~1 ~ 3 1 3 0 64 force
+particle minecraft:dragon_breath ~ ~1 ~ 3 1 3 0 64 force
 
 # set lcg
-scoreboard players set lcgModulus shroomhearth 8
+scoreboard players set lcgModulus shroomhearth 7
 function shroomhearth:lcg/random
 
 # run a random power...
@@ -21,14 +21,11 @@ execute as @s[scores={bossHealth=181..199}] if score lcg shroomhearth matches 3 
 execute as @s[scores={bossHealth=2..60}] if score lcg shroomhearth matches 2..4 run function boss_fight:dragon/powers/restore
 execute as @s[scores={bossHealth=61..199}] if score lcg shroomhearth matches 4 run function boss_fight:dragon/powers/restore
 
-# warp players - always uncommon
-execute if score lcg shroomhearth matches 5 run function boss_fight:dragon/powers/warp
-
 # summon lighting - always uncommon
-execute if score lcg shroomhearth matches 6 run function boss_fight:dragon/powers/strike
+execute if score lcg shroomhearth matches 5 run function boss_fight:dragon/powers/strike
 
 # create pillars - always uncommon
-execute if score lcg shroomhearth matches 7 run function boss_fight:dragon/powers/pillar
+execute if score lcg shroomhearth matches 6 run function boss_fight:dragon/powers/pillar
 
 # transmute blocks - always uncommon
 # disabling this for now, may revisit when end has some kind of hazard block

@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "dragon_hit_player": {
+            "trigger": "entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "source_entity": {
+                        "type": "ender_dragon"
+                    },
+                    "type": {
+                        "direct_entity": {
+                            "type": "area_effect_cloud"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "boss_fight:dragon/dragon_breath_hit_player"
+    }
+}

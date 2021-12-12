@@ -5,6 +5,10 @@ scoreboard players set dragonSlain shroomhearth 1
 scoreboard objectives remove powerCooldown
 scoreboard objectives add powerCooldown dummy
 
+# warpThreshold - buffers players getting warped
+scoreboard objectives remove warpThreshold
+scoreboard objectives add warpThreshold minecraft.custom:minecraft.play_time
+
 # dragonPhase - track dragon's phase
 scoreboard objectives remove dragonPhase
 scoreboard objectives add dragonPhase dummy
