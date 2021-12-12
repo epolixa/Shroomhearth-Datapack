@@ -7,6 +7,12 @@ execute store result score @s dragonPhase run data get entity @s DragonPhase
 # capture dragon health
 execute store result score @s bossHealth run data get entity @s Health
 
+# summon short duration negative levitation aec behind dragon during flight phase
+#execute if score @s dragonPhase matches 0..1 run function boss_fight:dragon/make_wake
+
+# play particles on pillar gravity
+execute as @e[tag=pillar_gravity] at @s run particle dragon_breath ~ ~2 ~ 0 1 0 0.05 4
+
 # revoke trigger for damage bonus
 execute positioned 0 64 0 run advancement revoke @a[distance=..190] only boss_fight:dragon/player_damage
 
