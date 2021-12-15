@@ -5,7 +5,7 @@
 			"item": "minecraft:oak_sign"
 		},
 		"title": "The Good Word",
-		"description": "Place a sign on the MOTD board at Town Hall",
+		"description": "Place a sign on the MOTD board",
 		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,
@@ -21,16 +21,16 @@
                 "location": {
                     "position": {
                         "x": {
-                            "min": -346,
-                            "max": -346
+                            "min": -154,
+                            "max": -154
                         },
                         "y": {
-                            "min": 67,
-                            "max": 73
+                            "min": 79,
+                            "max": 82
                         },
                         "z": {
-                            "min": 259,
-                            "max": 264
+                            "min": 67,
+                            "max": 72
                         }
                     }
                 }
