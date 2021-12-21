@@ -2,7 +2,7 @@
 playsound minecraft:entity.wither.spawn hostile @a ~ ~ ~ 12 2
 
 # show actionbar
-execute positioned 0 64 0 run title @a[distance=..128] actionbar {"color":"dark_purple","font":"minecraft:alt","bold":true,"text":"PILLAR"}
+execute positioned 0 64 0 run title @a[distance=..128] actionbar {"color":"dark_purple","font":"minecraft:illageralt","bold":true,"text":"PILLAR"}
 
 # adapt marker count
 function boss_fight:dragon/adapt_markers

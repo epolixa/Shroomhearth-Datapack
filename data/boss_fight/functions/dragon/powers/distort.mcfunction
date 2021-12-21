@@ -2,7 +2,7 @@
 playsound minecraft:entity.elder_guardian.curse hostile @a ~ ~ ~ 12 0.7
 
 # show actionbar
-execute positioned 0 64 0 run title @a[distance=..128] actionbar {"color":"dark_purple","font":"minecraft:alt","bold":true,"text":"DISTORT"}
+execute positioned 0 64 0 run title @a[distance=..128] actionbar {"color":"dark_purple","font":"minecraft:illageralt","bold":true,"text":"DISTORT"}
 
 # set lcg
 scoreboard players set lcgModulus shroomhearth 13

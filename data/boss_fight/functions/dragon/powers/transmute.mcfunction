@@ -2,7 +2,7 @@
 playsound minecraft:block.beacon.power_select hostile @a ~ ~ ~ 12 1.6
 
 # show actionbar
-execute positioned 0 64 0 run title @a[distance=..128] actionbar {"color":"dark_purple","font":"minecraft:alt","bold":true,"text":"TRANSMUTE"}
+execute positioned 0 64 0 run title @a[distance=..128] actionbar {"color":"dark_purple","font":"minecraft:illageralt","bold":true,"text":"TRANSMUTE"}
 
 # adapt marker count
 function boss_fight:dragon/adapt_markers

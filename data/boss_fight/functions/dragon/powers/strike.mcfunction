@@ -2,7 +2,7 @@
 playsound minecraft:item.trident.thunder hostile @a ~ ~ ~ 12 0.7
 
 # show actionbar
-execute positioned 0 64 0 run title @a[distance=..128] actionbar {"color":"dark_purple","font":"minecraft:alt","bold":true,"text":"STRIKE"}
+execute positioned 0 64 0 run title @a[distance=..128] actionbar {"color":"dark_purple","font":"minecraft:illageralt","bold":true,"text":"STRIKE"}
 
 # adapt marker count
 function boss_fight:dragon/adapt_markers
