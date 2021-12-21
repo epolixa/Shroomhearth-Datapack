@@ -1,5 +1,5 @@
 # set lcg
-scoreboard players set lcgModulus shroomhearth 28
+scoreboard players set lcgModulus shroomhearth 27
 function shroomhearth:lcg/random
 
 # summon a random mob
@@ -18,19 +18,18 @@ execute if score lcg shroomhearth matches 11 run summon minecraft:slime ~ ~ ~
 execute if score lcg shroomhearth matches 12 run summon minecraft:witch ~ ~ ~
 execute if score lcg shroomhearth matches 13 run summon minecraft:vindicator ~ ~ ~
 execute if score lcg shroomhearth matches 14 run summon minecraft:pillager ~ ~ ~
-execute if score lcg shroomhearth matches 15 run summon minecraft:ravager ~ ~ ~
-execute if score lcg shroomhearth matches 16 run summon minecraft:phantom ~ ~8 ~
-execute if score lcg shroomhearth matches 17 run summon minecraft:guardian ~ ~ ~
-execute if score lcg shroomhearth matches 18 run summon minecraft:hoglin ~ ~ ~
-execute if score lcg shroomhearth matches 19 run summon minecraft:zoglin ~ ~ ~
-execute if score lcg shroomhearth matches 20 run summon minecraft:piglin ~ ~ ~
-execute if score lcg shroomhearth matches 21 run summon minecraft:zombified_piglin ~ ~ ~
-execute if score lcg shroomhearth matches 22 run summon minecraft:piglin_brute ~ ~ ~
-execute if score lcg shroomhearth matches 23 run summon minecraft:magma_cube ~ ~ ~
-execute if score lcg shroomhearth matches 24 run summon minecraft:blaze ~ ~ ~
-execute if score lcg shroomhearth matches 25 run summon minecraft:ghast ~ ~8 ~
-execute if score lcg shroomhearth matches 26 run summon minecraft:endermite ~ ~ ~
-execute if score lcg shroomhearth matches 27 run summon minecraft:shulker ~ ~ ~
+execute if score lcg shroomhearth matches 15 run summon minecraft:phantom ~ ~8 ~
+execute if score lcg shroomhearth matches 16 run summon minecraft:guardian ~ ~ ~
+execute if score lcg shroomhearth matches 17 run summon minecraft:hoglin ~ ~ ~
+execute if score lcg shroomhearth matches 18 run summon minecraft:zoglin ~ ~ ~
+execute if score lcg shroomhearth matches 19 run summon minecraft:piglin ~ ~ ~
+execute if score lcg shroomhearth matches 20 run summon minecraft:zombified_piglin ~ ~ ~
+execute if score lcg shroomhearth matches 21 run summon minecraft:piglin_brute ~ ~ ~
+execute if score lcg shroomhearth matches 22 run summon minecraft:magma_cube ~ ~ ~
+execute if score lcg shroomhearth matches 23 run summon minecraft:blaze ~ ~ ~
+execute if score lcg shroomhearth matches 24 run summon minecraft:ghast ~ ~8 ~
+execute if score lcg shroomhearth matches 25 run summon minecraft:endermite ~ ~ ~
+execute if score lcg shroomhearth matches 26 run summon minecraft:shulker ~ ~ ~
 
 # unset lcg
 scoreboard players set lcg shroomhearth -1

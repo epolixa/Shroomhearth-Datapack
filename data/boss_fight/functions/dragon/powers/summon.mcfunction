@@ -2,7 +2,7 @@
 playsound minecraft:entity.evoker.cast_spell hostile @a ~ ~ ~ 12 0.7
 
 # show actionbar
-execute positioned 0 64 0 run title @a[distance=..190] actionbar {"color":"dark_purple","font":"minecraft:alt","bold":true,"text":"SUMMON"}
+execute positioned 0 64 0 run title @a[distance=..128] actionbar {"color":"dark_purple","font":"minecraft:alt","bold":true,"text":"SUMMON"}
 
 # spread out markers
 execute in minecraft:the_end run spreadplayers 0 0 1 40 under 64 false @e[type=minecraft:armor_stand,tag=summon_marker]

@@ -2,7 +2,7 @@
 advancement revoke @s only boss_fight:dragon/dragon_hit_player
 
 # play chomp sound
-playsound minecraft:entity.phantom.bite hostile @a ~ ~ ~ 1 0.6
+playsound minecraft:entity.phantom.bite hostile @a ~ ~ ~ 1 0.5
 
 # apply effects
 effect give @s slow_falling 1 0 true

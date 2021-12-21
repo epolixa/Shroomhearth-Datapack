@@ -6,11 +6,8 @@ execute as @a run scoreboard players add playerCount shroomhearth 1
 execute if entity @p run function porcelain:1s
 
 # Boss fight - run as boss mobs if a player is online
-execute as @e[type=minecraft:ender_dragon] at @s run function boss_fight:dragon/1s
+execute if score dragonSlain shroomhearth matches 0 in minecraft:the_end positioned 0 64 0 run function boss_fight:dragon/1s
 execute as @e[type=minecraft:wither] at @s run function boss_fight:wither/1s
-
-# Dragon kill fix - if a player is near the main end island and there is no dragon and dragonSlain is 0 then manually run dragon slain function
-execute in the_end positioned 0 64 0 as @p[distance=..190] unless entity @e[type=ender_dragon] if score shroomhearth dragonSlain matches 0 run function boss_fight:dragon/player_kill
 
 # Mob Warding - run as a mobs that can be warded
 execute as @e[type=#mob_warding:wardable,tag=!unwardable] at @s run function mob_warding:1s_mob

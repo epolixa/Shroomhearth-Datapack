@@ -1,5 +1,5 @@
 # play effects
-particle minecraft:dust 0.808 1 1 3 ~ ~1 ~ 3 1 3 0 32 force
+particle minecraft:dust 0.8 0 0.98 3 ~ ~1 ~ 3 1 3 0 32 force
 
 # set lcg
 scoreboard players set lcgModulus shroomhearth 7
