@@ -17,7 +17,8 @@ scoreboard players set @e[tag=source_anchor,sort=nearest,limit=1] porcelainID 0
 scoreboard players operation @e[tag=source_anchor,sort=nearest,limit=1] porcelainID = @s porcelainID
 
 # copy player inventory to source anchor
-execute as @e[tag=source_anchor,sort=nearest,limit=1] at @s run function porcelain:copy_inv_p_to_a
+execute if predicate porcelain:in_overworld as @e[tag=source_anchor,sort=nearest,limit=1] at @s run function porcelain:copy_inv_p_to_a_overworld
+execute unless predicate porcelain:in_overworld as @e[tag=source_anchor,sort=nearest,limit=1] at @s run function porcelain:copy_inv_p_to_a
 
 # copy rotation of player to nearest anchor in overworld
 data modify entity @e[tag=source_anchor,sort=nearest,limit=1] Rotation[0] set from entity @s Rotation[0]

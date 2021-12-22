@@ -6,7 +6,8 @@ execute if score @s porcelainDimID matches -1 in minecraft:the_nether run telepo
 execute if score @s porcelainDimID matches 1 in minecraft:the_end run teleport @e[tag=source_anchor,sort=nearest,limit=1]
 
 # copy stored inventory from source anchor
-execute as @e[tag=source_anchor,sort=nearest,limit=1] at @s run function porcelain:copy_inv_a_to_p
+execute if predicate porcelain:in_overworld as @e[tag=source_anchor,sort=nearest,limit=1] at @s run function porcelain:copy_inv_a_to_p_overworld
+execute unless predicate porcelain:in_overworld as @e[tag=source_anchor,sort=nearest,limit=1] at @s run function porcelain:copy_inv_a_to_p
 
 # unload chunk in source
 execute as @e[tag=source_anchor,sort=nearest,limit=1] at @s run forceload remove ~ ~
