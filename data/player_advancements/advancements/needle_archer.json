@@ -1,0 +1,22 @@
+{
+	"parent": "community:community_coordinator",
+	"display": {
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner:\"Needle_Archer\"}"
+		},
+		"title": "Needle_Archer",
+		"description": "Place 5,000 blocks in The Nether",
+		"frame": "challenge"
+	},
+	"rewards": {
+		"loot": [
+			"player_advancements:needle_archer"
+		]
+	},
+	"criteria": {
+		"placed_blocks": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

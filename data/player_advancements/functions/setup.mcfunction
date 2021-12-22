@@ -25,3 +25,7 @@ scoreboard objectives add melonEaten minecraft.used:minecraft.melon_slice
 # nearbyHorses - used by krstfr
 scoreboard objectives remove nearbyHorses
 scoreboard objectives add nearbyHorses dummy
+
+# nearbyHorses - used by Needle_Archer
+scoreboard objectives remove placeBlockInNether
+scoreboard objectives add placeBlockInNether dummy

@@ -1,0 +1,22 @@
+{
+	"criteria": {
+		"place_block_in_nether": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"player": {
+					"player": {
+						"advancements": {
+							"player_advancements:needle_archer": false
+						}
+					},
+                    "location": {
+                        "dimension": "minecraft:the_nether"
+                    }
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "player_advancements:needle_archer"
+	} 
+}
