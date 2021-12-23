@@ -1,0 +1,22 @@
+{
+	"criteria": {
+		"place_rail": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"player": {
+					"player": {
+						"advancements": {
+							"player_advancements:omega825": false
+						}
+					}
+				},
+				"item": {
+					"tag": "minecraft:rails"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "player_advancements:omega825"
+	} 
+}
