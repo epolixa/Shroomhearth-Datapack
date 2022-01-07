@@ -2,8 +2,8 @@
 playsound minecraft:entity.wither.spawn hostile @a ~ ~ ~ 1 2
 
 # summon two wither skeletons
-summon minecraft:wither_skeleton ~2 ~ ~
-summon minecraft:wither_skeleton ~-2 ~ ~
+summon minecraft:wither_skeleton ~1 ~ ~
+summon minecraft:wither_skeleton ~-1 ~ ~
 
 # tag mob that just spawned
 execute as @e[type=minecraft:wither_skeleton,limit=2,sort=nearest,tag=!wither_summon] run tag @s add wither_summon
@@ -16,7 +16,7 @@ team join wither @e[tag=new_summon,limit=2,sort=nearest]
 execute as @e[tag=new_summon,limit=2,sort=nearest] run data merge entity @s {PersistenceRequired:1b}
 
 # spread them
-spreadplayers ~ ~ 1 10 false @e[tag=wither_summon,tag=new_summon,limit=2,sort=nearest]
+#spreadplayers ~ ~ 1 3 false @e[tag=wither_summon,tag=new_summon,limit=2,sort=nearest]
 
 # play particles on summoned mobs
 execute as @e[tag=new_summon,limit=2,sort=nearest] at @s run particle minecraft:soul_fire_flame ~ ~1 ~ 0.1 0 0.1 0.05 20 force
