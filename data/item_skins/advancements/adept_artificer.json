@@ -24,6 +24,17 @@
 				]
 			}
 		},
+		"highland_axe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:iron_axe"],
+						"nbt": "{CustomModelData:712}"
+					}
+				]
+			}
+		},
 		"soul_knife": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
@@ -64,6 +75,17 @@
 					{
 						"items": ["minecraft:golden_axe"],
 						"nbt": "{CustomModelData:850}"
+					}
+				]
+			}
+		},
+		"claymore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:stone_sword"],
+						"nbt": "{CustomModelData:317}"
 					}
 				]
 			}

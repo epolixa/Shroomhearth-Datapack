@@ -2,8 +2,10 @@
   "replace": false,
   "values": [
     "minecraft:pillager",
+    "minecraft:vindicator",
     "minecraft:vex",
     "minecraft:piglin",
-    "minecraft:piglin_brute"
+    "minecraft:piglin_brute",
+    "minecraft:wither_skeleton"
   ]
 }
