@@ -27,7 +27,7 @@ execute as @s[type=minecraft:piglin] if predicate item_skins:cog_crossbow run da
 execute as @s[type=minecraft:piglin_brute] if predicate item_skins:firebrand run data modify entity @s HandItems[0].tag.CustomModelData set value 850
 
 # wither skeleton - claymore
-execute as @s[type=minecraft:wither_skeleton] if predicate item_skins:claymore run data modify entity @s HandItems[0].tag.CustomModelData set value 317
+execute as @s[type=minecraft:wither_skeleton] if predicate item_skins:heartstealer run data modify entity @s HandItems[0].tag.CustomModelData set value 317
 
 # set tag so not targeted again
 tag @s add item_skin

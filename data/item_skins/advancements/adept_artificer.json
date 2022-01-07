@@ -79,7 +79,7 @@
 				]
 			}
 		},
-		"claymore": {
+		"heartstealer": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
