@@ -5,7 +5,7 @@ data merge entity @s {DeathTime:19, DeathLootTable:"minecraft:empty", Silent:tru
 kill @s
 
 # create pillar of crying obsidian at enderman position
-fill ~ ~ ~ ~ ~3 ~ minecraft:crying_obsidian replace minecraft:air
+fill ~ ~ ~ ~ ~3 ~ minecraft:crying_obsidian
 
 # create pillar marker
 summon minecraft:armor_stand ~ ~ ~ {Marker:true,Invisible:true,Tags:["pillar_marker"],Passengers:[{id:"minecraft:slime",Size:11,Tags:["pillar_gravity"],NoAI:true,NoGravity:true,Invulnerable:true,Silent:true,DeathTime:19,DeathLootTable:"minecraft:empty",ActiveEffects:[{Id:14,Duration:1000000,ShowParticles:false}]}]}
