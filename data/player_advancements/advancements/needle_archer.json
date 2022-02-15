@@ -6,7 +6,7 @@
 			"nbt": "{SkullOwner:\"Needle_Archer\"}"
 		},
 		"title": "Needle_Archer",
-		"description": "Place 5,000 blocks in The Nether",
+		"description": "Place 25,000 blocks in The Nether",
 		"frame": "challenge"
 	},
 	"rewards": {
