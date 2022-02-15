@@ -22,11 +22,11 @@
                 "projectile": {
                     "type": "minecraft:arrow"
                 },
-                "shooter": {
-                    "flags": {
-                        "is_on_fire": true
-                    }
-                }
+                "player": {
+					"flags": {
+						"is_on_fire": true
+					}
+				}
             }
         }
     }
