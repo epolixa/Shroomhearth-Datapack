@@ -33,3 +33,7 @@ scoreboard objectives add placeBlockInNether dummy
 # placedRails - used by Omega825
 scoreboard objectives remove placedRails
 scoreboard objectives add placedRails dummy
+
+# placedSandstone - used by _TheBman_
+scoreboard objectives remove placedSandstone
+scoreboard objectives add placedSandstone dummy

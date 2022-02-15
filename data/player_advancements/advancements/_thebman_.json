@@ -1,0 +1,22 @@
+{
+	"parent": "community:community_coordinator",
+	"display": {
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner:\"_TheBman_\"}"
+		},
+		"title": "_TheBman_",
+		"description": "Place 1,679 sandstone blocks",
+		"frame": "challenge"
+	},
+	"rewards": {
+		"loot": [
+			"player_advancements:_thebman_"
+		]
+	},
+	"criteria": {
+		"placed_blocks": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

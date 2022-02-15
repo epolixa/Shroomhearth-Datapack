@@ -1,0 +1,22 @@
+{
+	"criteria": {
+		"place_rail": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"player": {
+					"player": {
+						"advancements": {
+							"player_advancements:_thebman_": false
+						}
+					}
+				},
+				"item": {
+					"tag": "player_advancements:sandstone_blocks"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "player_advancements:_thebman_"
+	} 
+}
