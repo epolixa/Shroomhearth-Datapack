@@ -6,7 +6,7 @@
 			"nbt": "{SkullOwner:\"Depressus\"}"
 		},
 		"title": "Depressus",
-		"description": "Craft an entire stack of golden carrots in one sitting",
+		"description": "Produce 64 golden carrots at once",
 		"frame": "challenge"
 	},
 	"rewards": {
