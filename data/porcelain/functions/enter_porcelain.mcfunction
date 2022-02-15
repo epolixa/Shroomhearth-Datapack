@@ -8,7 +8,7 @@ execute if predicate porcelain:in_end run scoreboard players set @s porcelainDim
 forceload add ~ ~
 
 # summon armor stand in source dimension
-summon minecraft:armor_stand ~ ~ ~ {Tags:["source_anchor"], Marker:true, Invisible:true, ArmorItems:[{id:"minecraft:white_shulker_box", Count:1b, tag:{BlockEntityTag:{Items:[]}}},{id:"minecraft:white_shulker_box", Count:1b, tag:{BlockEntityTag:{Items:[]}}},{},{id:"minecraft:warped_fungus_on_a_stick", Count:1b, tag: {CustomModelData: 1, Enchantments:[{id:"minecraft:infinity",lvl:1}]}}]}
+summon minecraft:armor_stand ~ ~ ~ {Tags:["source_anchor"], CustomNameVisible:true, Marker:true, Invisible:true, ArmorItems:[{id:"minecraft:white_shulker_box", Count:1b, tag:{BlockEntityTag:{Items:[]}}},{id:"minecraft:white_shulker_box", Count:1b, tag:{BlockEntityTag:{Items:[]}}},{},{id:"minecraft:warped_fungus_on_a_stick", Count:1b, tag: {CustomModelData: 1, Enchantments:[{id:"minecraft:infinity",lvl:1}]}}]}
 
 # assign porcelain ID to source anchor and player
 scoreboard players set @s porcelainID 0

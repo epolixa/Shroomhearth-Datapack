@@ -55,5 +55,14 @@ item replace block ~ -64 ~ container.18 from entity @p weapon.offhand
 # copy shulker box Items to anchor hand 2
 data modify entity @s ArmorItems[1].tag.BlockEntityTag.Items set from block ~ -64 ~ Items
 
-# remove temporary shulker box
+# set temporary sign
+setblock ~ -64 ~ minecraft:oak_sign
+
+# copy player name to sign
+data modify block ~ -64 ~ Text1 set value '{"selector":"@p"}'
+
+# copy player name from sign to anchor
+data modify entity @s CustomName set from block ~ -64 ~ Text1
+
+# replace bedrock
 setblock ~ -64 ~ minecraft:bedrock
