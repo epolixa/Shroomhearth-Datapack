@@ -404,6 +404,19 @@
                     }
                 }
             }
+        },
+        "glow_lichen": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "item": {
+                    "items": ["minecraft:bone_meal"]
+                },
+                "location": {
+                    "block": {
+                        "blocks": ["minecraft:glow_lichen"]
+                    }
+                }
+            }
         }
 	}
 }
