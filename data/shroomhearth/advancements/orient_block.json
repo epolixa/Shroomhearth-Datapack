@@ -1,0 +1,19 @@
+{
+	"parent": "shroomhearth:wash_block",
+	"display": {
+		"icon": {
+			"item": "minecraft:compass"
+		},
+		"title": "I'm Using Tilt Controls!",
+		"description": "Use a compass to orient a block",
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"impossible": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}
