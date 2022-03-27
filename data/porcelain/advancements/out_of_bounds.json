@@ -34,6 +34,6 @@
         ]
     ],
     "rewards": {
-        "function": "porcelain:exit_porcelain"
+        "function": "porcelain:out_of_bounds"
     }
 }

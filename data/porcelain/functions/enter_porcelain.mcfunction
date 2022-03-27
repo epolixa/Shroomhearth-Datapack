@@ -31,9 +31,6 @@ execute at @s run spreadplayers ~ ~ 0 1 false @s
 # set gamemode to creative
 gamemode creative @s
 
-# revoke exit trigger, let them leave
-advancement revoke @s only porcelain:exit_porcelain
-
 # summon marker anchor entity in porcelain
 execute at @s run summon minecraft:armor_stand ~ ~ ~ {Tags:["porcelain_anchor"], Marker:true, Invisible:true}
 
