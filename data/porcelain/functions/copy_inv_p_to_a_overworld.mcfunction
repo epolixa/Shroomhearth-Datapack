@@ -56,13 +56,15 @@ item replace block ~ -64 ~ container.18 from entity @p weapon.offhand
 data modify entity @s ArmorItems[1].tag.BlockEntityTag.Items set from block ~ -64 ~ Items
 
 # set temporary sign
-setblock ~ -64 ~ minecraft:oak_sign
+#setblock ~ -64 ~ minecraft:oak_sign
 
+# this is bugged since the @p is resolved from the sign's position, not the function context
+# potential fix would be to set the sign at player position instead of bedrock level
 # copy player name to sign
-data modify block ~ -64 ~ Text1 set value '{"selector":"@p"}'
+#data modify block ~ -64 ~ Text1 set value '{"selector":"@p"}' 
 
 # copy player name from sign to anchor
-data modify entity @s CustomName set from block ~ -64 ~ Text1
+#data modify entity @s CustomName set from block ~ -64 ~ Text1
 
 # replace bedrock
 setblock ~ -64 ~ minecraft:bedrock
