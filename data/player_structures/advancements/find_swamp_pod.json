@@ -1,0 +1,33 @@
+{
+    "parent": "random_tp:spontaneous_adventure",
+    "display": {
+        "icon": {
+            "item": "minecraft:green_terracotta"
+        },
+        "title": {
+            "translate": "Stinky Situation"
+        },
+        "description": {
+            "translate": "Find a Swamp Pod"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "swamp_pod": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "feature": "player_structures:swamp_pod"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "swamp_pod"
+        ]
+    ]
+}
