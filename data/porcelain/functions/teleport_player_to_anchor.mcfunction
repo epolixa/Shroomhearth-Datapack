@@ -10,7 +10,7 @@ execute if predicate porcelain:in_overworld as @e[tag=source_anchor,sort=nearest
 execute unless predicate porcelain:in_overworld as @e[tag=source_anchor,sort=nearest,limit=1] at @s run function porcelain:copy_inv_a_to_p
 
 # unload chunk in source
-execute as @e[tag=source_anchor,sort=nearest,limit=1] at @s run forceload remove ~ ~
+execute at @s run forceload remove ~ ~
 
 # destroy nearest anchor in source
 kill @e[tag=source_anchor,sort=nearest,limit=1]
