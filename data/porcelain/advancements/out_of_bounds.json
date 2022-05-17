@@ -3,11 +3,13 @@
         "below_one": {
             "trigger": "minecraft:location",
             "conditions": {
-                "location": {
-                    "dimension": "minecraft:the_porcelain",
-                    "position": {
-                        "y": {
-                            "max": 1
+                "player": {
+                    "location": {
+                        "dimension": "minecraft:the_porcelain",
+                        "position": {
+                            "y": {
+                                "max": 1
+                            }
                         }
                     }
                 }
@@ -16,11 +18,13 @@
         "above_max": {
             "trigger": "minecraft:location",
             "conditions": {
-                "location": {
-                    "dimension": "minecraft:the_porcelain",
-                    "position": {
-                        "y": {
-                            "min": 256
+                "player": {
+                    "location": {
+                        "dimension": "minecraft:the_porcelain",
+                        "position": {
+                            "y": {
+                                "min": 256
+                            }
                         }
                     }
                 }

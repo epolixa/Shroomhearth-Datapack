@@ -3,14 +3,18 @@
 		"location": {
 			"trigger": "minecraft:location",
 			"conditions": {
-				"position": {
-					"x": {
-						"min": -10000,
-						"max": 10000
-					},
-					"z": {
-						"min": -10000,
-						"max": 10000
+				"player": {
+					"location": {
+						"position": {
+							"x": {
+								"min": -10000,
+								"max": 10000
+							},
+							"z": {
+								"min": -10000,
+								"max": 10000
+							}
+						}
 					}
 				}
 			}

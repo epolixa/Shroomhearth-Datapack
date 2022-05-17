@@ -13,11 +13,14 @@
                                 "max": 1000000000
                             }
                         }
+                    },
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "dimension": "minecraft:overworld"
+                        }
                     }
-                ],
-                "location": {
-                    "dimension": "minecraft:overworld"
-                }
+                ]
             }
         }
     },

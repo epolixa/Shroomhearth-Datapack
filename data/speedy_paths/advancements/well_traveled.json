@@ -14,18 +14,18 @@
 	"criteria": {
 		"on_dirt_path": {
 			"trigger": "minecraft:location",
-      "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:location_check",
-            "predicate": {
-              "block": {
-                "tag": "speedy_paths:paths"
-              }
-            }
-          }
-        ]
-      }
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"tag": "speedy_paths:paths"
+							}
+						}
+					}
+				]
+			}
 		}
 	}
 }
