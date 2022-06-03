@@ -1,0 +1,20 @@
+{
+	"criteria": {
+		"spread_moss": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "item": {
+                    "items": ["minecraft:bone_meal"]
+                },
+                "location": {
+                    "block": {
+                        "blocks": ["minecraft:moss_block"]
+                    }
+                }
+            }
+        }
+	},
+	"rewards": {
+		"function": "player_advancements:clown_professor"
+	} 
+}

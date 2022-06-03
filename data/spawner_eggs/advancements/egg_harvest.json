@@ -2,7 +2,7 @@
 	"parent": "mob_warding:mob_zapper",
 	"display": {
 		"icon": {
-			"item": "minecraft:creeper_spawn_egg"
+			"item": "minecraft:zombie_spawn_egg"
 		},
 		"title": "Egg Harvest",
 		"description": "Collect a Spawn Egg from a Spawner",
