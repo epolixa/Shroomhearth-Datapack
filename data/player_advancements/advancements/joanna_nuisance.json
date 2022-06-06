@@ -1,0 +1,31 @@
+{
+	"parent": "community:community_coordinator",
+	"display": {
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner:\"joanna_nuisance\"}"
+		},
+		"title": "joanna_nuisance",
+		"description": "Go lava fishing",
+		"frame": "challenge"
+	},
+	"rewards": {
+		"loot": [
+			"player_advancements:joanna_nuisance"
+		]
+	},
+	"criteria": {
+		"lava_fishing": {
+            "trigger": "minecraft:fishing_rod_hooked",
+            "conditions": {
+                "entity": {
+                    "location": {
+                        "fluid": {
+                            "fluid": "minecraft:lava"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
