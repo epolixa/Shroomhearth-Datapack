@@ -3,8 +3,8 @@
   "entity": "this",
   "predicate": {
     "equipment": {
-      "offhand": {
-        "tag": "boss_fight:endchant/armor"
+      "mainhand": {
+        "tag": "boss_fight:endchant/chestplate"
       }
     }
   }

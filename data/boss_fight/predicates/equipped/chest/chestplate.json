@@ -3,8 +3,8 @@
   "entity": "this",
   "predicate": {
     "equipment": {
-      "legs": {
-        "tag": "boss_fight:endchant/armor"
+      "chest": {
+        "tag": "boss_fight:endchant/chestplate"
       }
     }
   }

@@ -15,16 +15,18 @@
 		"visited_spawn": {
 			"trigger": "minecraft:location",
 			"conditions": {
-				"location": {
-					"dimension": "minecraft:overworld",
-					"position": {
-						"x": {
-							"min": 110,
-							"max": 114
-						},
-						"z": {
-							"min": -2,
-							"max": 2
+				"player": {
+					"location": {
+						"dimension": "minecraft:overworld",
+						"position": {
+							"x": {
+								"min": 110,
+								"max": 114
+							},
+							"z": {
+								"min": -2,
+								"max": 2
+							}
 						}
 					}
 				}

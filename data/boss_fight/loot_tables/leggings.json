@@ -74,6 +74,18 @@
               }
             }
           ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:diamond_leggings",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:swift_sneak": 4
+              }
+            }
+          ]
         }
       ]
   	}

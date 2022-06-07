@@ -14,7 +14,7 @@ execute if score lcg shroomhearth matches 1 positioned 0 64 0 run effect give @e
 execute if score lcg shroomhearth matches 2 positioned 0 64 0 run effect give @e[type=!#boss_fight:dragon_immune,distance=..128] minecraft:jump_boost 10 3
 execute if score lcg shroomhearth matches 3 positioned 0 64 0 run effect give @e[type=!#boss_fight:dragon_immune,distance=..128] minecraft:nausea 15
 execute if score lcg shroomhearth matches 4 positioned 0 64 0 run effect give @e[type=!#boss_fight:dragon_immune,distance=..128] minecraft:invisibility 15
-execute if score lcg shroomhearth matches 5 positioned 0 64 0 run effect give @e[type=!#boss_fight:dragon_immune,distance=..128] minecraft:blindness 15
+execute if score lcg shroomhearth matches 5 positioned 0 64 0 run effect give @e[type=!#boss_fight:dragon_immune,distance=..128] minecraft:darkness 15
 execute if score lcg shroomhearth matches 6 positioned 0 64 0 run effect give @e[type=!#boss_fight:dragon_immune,distance=..128] minecraft:hunger 15
 execute if score lcg shroomhearth matches 7 positioned 0 64 0 run effect give @e[type=!#boss_fight:dragon_immune,distance=..128] minecraft:weakness 10 1
 execute if score lcg shroomhearth matches 8 positioned 0 64 0 run effect give @e[type=!#boss_fight:dragon_immune,distance=..128] minecraft:poison 10

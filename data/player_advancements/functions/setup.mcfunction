@@ -37,3 +37,7 @@ scoreboard objectives add placedRails dummy
 # placedSandstone - used by _TheBman_
 scoreboard objectives remove placedSandstone
 scoreboard objectives add placedSandstone dummy
+
+# spreadMoss - used by clown_professor
+scoreboard objectives remove spreadMoss
+scoreboard objectives add spreadMoss dummy

@@ -37,7 +37,7 @@ scoreboard players set lcg shroomhearth -1
 tag @s add endchant
 
 # show actionbar
-tellraw @s [{"color":"white","text":"Your Armor attunes to the "},{"color":"#cc00fa","text":"Ender Dragon"}]
+tellraw @s [{"color":"white","text":"Your Chestplate attunes to the "},{"color":"#cc00fa","text":"Ender Dragon"}]
 
 # play sounds & effects
 execute at @s run particle minecraft:witch ~ ~0.9 ~ 0.2 0.45 0.2 0.01 20

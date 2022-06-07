@@ -522,6 +522,24 @@
           }
         }
       }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "legs": {
+            "enchantments": [
+              {
+                "enchantment": "minecraft:swift_sneak",
+                "levels": {
+                  "min": 4
+                }
+              }
+            ]
+          }
+        }
+      }
     }
   ]
 }

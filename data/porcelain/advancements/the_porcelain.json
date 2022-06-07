@@ -16,8 +16,10 @@
 		"entered_porcelain": {
 			"trigger": "minecraft:location",
 			"conditions": {
-				"location": {
-					"dimension": "minecraft:the_porcelain"
+				"player": {
+					"location": {
+						"dimension": "minecraft:the_porcelain"
+					}
 				}
 			}
 		}
