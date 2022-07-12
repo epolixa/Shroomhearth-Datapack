@@ -1,0 +1,30 @@
+on:
+  push:
+    branches:
+      - live
+name: Deploy to Server
+jobs:
+  web-deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    steps:
+    - name: Get latest code
+      uses: actions/checkout@v2
+      with:
+        ref: live
+
+    - name: Sync files
+      uses: SamKirkland/FTP-Deploy-Action@4.3.0
+      with:
+        server: ${{ secrets.SFTP_SERVER_ADDRESS }}
+        username: ${{ secrets.SFTP_USERNAME }}
+        password: ${{ secrets.SFTP_PASSWORD }}
+        protocol: ftps
+        port: ${{ secrets.SFTP_SERVER_PORT }}
+        server-dir: world/datapacks/Shroomhearth-Datapack/
+        exclude: |
+          **/.git*
+          **/.git*/**
+          **/node_modules/**
+          LICENSE.txt
+          README.md
