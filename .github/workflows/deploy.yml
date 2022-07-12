@@ -14,17 +14,12 @@ jobs:
         ref: live
 
     - name: Sync files
-      uses: SamKirkland/FTP-Deploy-Action@4.3.0
+      uses: wangyucode/sftp-upload-action@v1.3.3
       with:
-        server: ${{ secrets.SFTP_SERVER_ADDRESS }}
+        host: ${{ secrets.SFTP_SERVER_ADDRESS }}
         username: ${{ secrets.SFTP_USERNAME }}
         password: ${{ secrets.SFTP_PASSWORD }}
-        protocol: ftps
         port: ${{ secrets.SFTP_SERVER_PORT }}
-        server-dir: world/datapacks/Shroomhearth-Datapack/
-        exclude: |
-          **/.git*
-          **/.git*/**
-          **/node_modules/**
-          LICENSE.txt
-          README.md
+        remoteDir: '/world/datapacks/Shroomhearth-Datapack/'
+        exclude: '**/.git*,**/.git*/**,**/node_modules/**,LICENSE.txt,README.md'
+        forceUpload: true
