@@ -1,8 +1,5 @@
-on:
-  push:
-    branches:
-      - live
-name: Deploy to Server
+on: workflow_dispatch
+name: Deploy to Shroomhearth
 jobs:
   web-deploy:
     name: Deploy
