@@ -1,5 +1,5 @@
 on: workflow_dispatch
-name: Deploy to Shroomhearth
+name: Deploy to Shroomhearth (USA-NY-05-3900X)
 jobs:
   web-deploy:
     name: Deploy
@@ -7,8 +7,6 @@ jobs:
     steps:
     - name: Get latest code
       uses: actions/checkout@v2
-      with:
-        ref: live
 
     - name: Sync files
       uses: wangyucode/sftp-upload-action@v1.3.3
