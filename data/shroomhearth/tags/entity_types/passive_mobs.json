@@ -1,6 +1,7 @@
 {
     "replace": false,
     "values": [
+        "minecraft:allay",
         "minecraft:axolotl",
         "minecraft:bat",
         "minecraft:mooshroom",
