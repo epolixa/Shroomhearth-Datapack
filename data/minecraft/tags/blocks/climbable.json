@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "minecraft:chain"
+    "minecraft:chain",
+    "mangrove_roots"
   ]
 }
