@@ -15,8 +15,8 @@ execute as @e[type=#mob_warding:wardable,tag=!unwardable] at @s run function mob
 # End Crystal range vision - run as players wearing a mob head
 execute as @a[predicate=mob_warding:end_crystal_vision] at @s run function mob_warding:1s_player
 
-# Wandering Trader announcement - run for unnannounced traders
-execute as @e[type=wandering_trader,tag=!announced] at @s run function wandering_trader:1s
+# Wandering Trader announcement - run for unnannounced traders in the overworld
+execute in minecraft:overworld as @e[type=wandering_trader,distance=0..,tag=!announced] at @s run function wandering_trader:1s
 
 # Item Skins - run for unrolled mobs
 execute as @e[type=#item_skins:armed,tag=!item_skin] run function item_skins:1s
