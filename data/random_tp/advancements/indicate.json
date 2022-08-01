@@ -1,0 +1,22 @@
+{
+	"criteria": {
+		"location": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "shroomhearth:at_spawn_pedestal"
+                    },
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "random_tp:holding_tp_item"
+                    }
+                ]
+			}
+		}
+	},
+    "rewards": {
+        "function": "random_tp:indicate"
+    }
+}
