@@ -1,0 +1,34 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+        "recipes": [
+            "shroomhearth:stonecutting/packed_mud/mud_brick_wall_from_packed_mud"
+        ]
+    },
+    "criteria": {
+        "has_material": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:packed_mud"
+                        ]
+                    }
+                ]
+            }
+        },
+        "has_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "shroomhearth:stonecutting/packed_mud/mud_brick_wall_from_packed_mud"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_material",
+            "has_recipe"
+        ]
+    ]
+}
