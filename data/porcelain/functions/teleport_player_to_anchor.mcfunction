@@ -9,12 +9,12 @@ execute if score @s porcelainDimID matches 1 in minecraft:the_end run teleport @
 execute if predicate porcelain:in_overworld as @e[tag=source_anchor,sort=nearest,limit=1] at @s run function porcelain:copy_inv_a_to_p_overworld
 execute unless predicate porcelain:in_overworld as @e[tag=source_anchor,sort=nearest,limit=1] at @s run function porcelain:copy_inv_a_to_p
 
-# unload chunk in source
-execute at @s run forceload remove ~ ~
+# create cleanup marker to unload chunk after 15s
+# keepChunk - 0/1 flag to determine whether chunk should be removed from forceloading or kept, depending on nearby anchors, default to 0
+execute at @s run summon minecraft:marker ~ ~ ~ {Tags:["source_cleanup"], data:{keepChunk:0}}
 
 # destroy nearest anchor in source
 kill @e[tag=source_anchor,sort=nearest,limit=1]
 
-# make sure chunks are still loaded for nearby remaining anchors
-# delay this slightly to ensure not targetting killed anchor
-schedule function porcelain:forceload_source_anchors 1s
+# schedule function to process cleanup markers
+schedule function porcelain:cleanup_marked_chunks 15s

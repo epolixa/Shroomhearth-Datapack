@@ -417,6 +417,32 @@
                     }
                 }
             }
+        },
+        "mangrove_leaves": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "item": {
+                    "items": ["minecraft:bone_meal"]
+                },
+                "location": {
+                    "block": {
+                        "blocks": ["minecraft:mangrove_leaves"]
+                    }
+                }
+            }
+        },
+        "mangrove_propagule": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "item": {
+                    "items": ["minecraft:bone_meal"]
+                },
+                "location": {
+                    "block": {
+                        "blocks": ["minecraft:mangrove_propagule"]
+                    }
+                }
+            }
         }
 	}
 }

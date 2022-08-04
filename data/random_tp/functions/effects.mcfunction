@@ -1,4 +1,4 @@
-particle minecraft:portal ~ ~1 ~ 0.2 0.5 0.2 2 64
-particle minecraft:end_rod ~ ~1 ~ 0.2 0.5 0.2 0.2 32
+particle minecraft:dragon_breath ~ ~1 ~ 0.2 0.5 0.2 0.1 32
+particle minecraft:end_rod ~ ~1 ~ 0.2 0.5 0.2 0.1 32
 
-playsound minecraft:block.portal.travel player @a ~ ~ ~ 1 1.5
+playsound minecraft:block.portal.travel player @a ~ ~ ~ 0.5 1.5

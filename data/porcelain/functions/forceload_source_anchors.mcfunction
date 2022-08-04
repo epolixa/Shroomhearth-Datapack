@@ -1,1 +1,0 @@
-execute as @e[tag=source_anchor] at @s run forceload add ~ ~

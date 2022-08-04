@@ -344,6 +344,16 @@
 					}
 				]
 			}
+		},
+		"mangrove_propagule": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items":["minecraft:mangrove_propagule"]
+					}
+				]
+			}
 		}
 	}
 }
