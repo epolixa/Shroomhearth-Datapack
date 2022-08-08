@@ -1,7 +1,15 @@
 {
 	"criteria": {
 		"completed_raid": {
-			"trigger": "minecraft:hero_of_the_village"
+			"trigger": "minecraft:hero_of_the_village",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:reference",
+						"name": "boss_fight:40_minutes_since_raid_end"
+					}
+				]
+			}
 		}
 	},
 	"rewards": {
