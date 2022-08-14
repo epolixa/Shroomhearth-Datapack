@@ -11,6 +11,6 @@
 		}
 	},
 	"rewards": {
-		"function": "random_tp:follow"
+		"function": "random_tp:touch_link"
 	} 
 }
