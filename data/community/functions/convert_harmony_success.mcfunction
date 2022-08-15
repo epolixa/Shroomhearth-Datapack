@@ -3,6 +3,9 @@
 # Reduce player's harmony by 100
 scoreboard players remove @s harmony 100
 
+# Clear 1 catalyst item
+clear @s #community:memento_catalyst 1
+
 # Give a memento to the player
 loot give @s loot community:memento
 
