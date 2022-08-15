@@ -1,20 +1,22 @@
-# reset playerGroup for recalculation
+# Reset playerGroup for every player so that it may be re-calculated.
 scoreboard players set @a playerGroup 0
 
-# set playerGroup for each player to the number of players within range
+# Set playerGroup for every player to the number of other players within range.
+# Max range is 128 blocks, or 8 chunks, 2 chunks less than the default Minecraft server render distance.
 execute as @a[gamemode=survival] at @s run scoreboard players add @a[gamemode=survival,distance=1..128] playerGroup 1
 
-# if nearby a player, tick up communityTicks based on how many players are nearby
-execute as @a[scores={playerGroup=1..}] run scoreboard players operation @s communityTicks += @s playerGroup 
-
-# grant advancement if nearby enough players
+# Grant Community Cooperator advancement to any player who is near 5 or more other players.
 advancement grant @a[scores={playerGroup=5..}] only community:community_cooperator
 
-# if not nearby a player, tick down communityTicks by one
-execute as @a[scores={playerGroup=0}] run scoreboard players remove @s communityTicks 1
+# For every player who is near another player, increase presence by the number of other players.
+execute as @a[scores={playerGroup=1..}] run scoreboard players operation @s presence += @s playerGroup 
 
-# increase community when ticks reach 300
-execute as @a[scores={communityTicks=300..}] at @s run function community:increase_community
+# For any player who is not near another player, decrease presence by 1.
+execute as @a[scores={playerGroup=0}] run scoreboard players remove @s presence 1
 
-# decrease community when communityTicks reaches -300
-execute as @a[scores={communityTicks=..-300}] run function community:decrease_community
+# Increase a player's harmony when their presence exceeds the positive threshold.
+# The threshold is set to 180 so that any player who is near 5 other players for about 1 hour should have about 100 harmony. ((5 players * 60 seconds * 60 minutes)) / 100 harmony)
+execute as @a[scores={presence=180..}] at @s run function community:increase_harmony
+
+# Decrease harmony when presence exceeds negative threshold.
+execute as @a[scores={presence=..-180}] run function community:decrease_harmony

@@ -1,14 +1,14 @@
-# community - main community value displayed in scoreboard
-scoreboard objectives remove community
-scoreboard objectives add community dummy
+# harmony - The main Harmony value displayed in scoreboard
+scoreboard objectives remove harmony
+scoreboard objectives add harmony dummy "Harmony"
 
-# communityTicks - added or removed every second, increases community after a certain amount of ticks
-scoreboard objectives remove communityTicks
-scoreboard objectives add communityTicks dummy
+# presence - added or removed every second, increases harmony after a certain threshold
+scoreboard objectives remove presence
+scoreboard objectives add presence dummy
 
 # playerGroup - flag for number of other players in group / nearby
 scoreboard objectives remove playerGroup
 scoreboard objectives add playerGroup dummy
 
-# Ensure that community score is shown in the tab list
-scoreboard objectives setdisplay list community
+# Ensure that Harmony is shown in the tab list
+scoreboard objectives setdisplay list harmony
