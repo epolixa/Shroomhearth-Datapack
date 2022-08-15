@@ -1,3 +1,6 @@
+# Clear 1 memento
+clear @s minecraft:ghast_tear{display:{Name:'{"italic":false,"translate":"item.minecraft.memento"}'},CustomModelData:1,Enchantments:[{id:"minecraft:infinity",lvl:1s}],HideFlags:1} 1
+
 # update gamerule
 gamerule keepInventory true
 
