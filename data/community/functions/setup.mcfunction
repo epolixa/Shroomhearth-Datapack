@@ -16,3 +16,8 @@ scoreboard objectives add hasMementoCatalyst dummy
 
 # Ensure that Harmony is shown in the tab list
 scoreboard objectives setdisplay list harmony
+
+
+# Setup dummy players for ordinance status
+scoreboard players set ordRegeneration shroomhearth 0
+scoreboard players set ordKeepInventory shroomhearth 0
