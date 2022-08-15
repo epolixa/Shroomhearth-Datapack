@@ -14,4 +14,7 @@ bossbar set community:ordinance/keepinventory value 3600
 bossbar set community:ordinance/keepinventory visible true
 
 # announce activation
-tellraw @a "The Keep Inventory ordinance was activated by <player>"
+tellraw @a [{"translate":"community.ordinance.keepinventory_activate"}, {"text":" "}, {"selector":"@s"}]
+
+# play sound 
+execute as @a at @s run playsound block.beacon.power_select player @s ~ ~ ~ 1 1.8
