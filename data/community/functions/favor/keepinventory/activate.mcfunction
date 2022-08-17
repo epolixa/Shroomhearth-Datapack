@@ -4,12 +4,15 @@ clear @s minecraft:ghast_tear{display:{Name:'{"italic":false,"translate":"item.m
 # update gamerule
 gamerule keepInventory true
 
-# add value 
+# update active favors if favor is not already active
+execute if score favKeepInventory shroomhearth matches 0 run scoreboard players add favActive shroomhearth 1
+
+# add value - 3600 seconds in an hour
 scoreboard players add favKeepInventory shroomhearth 3600
 execute if score favKeepInventory shroomhearth matches 3601.. run scoreboard players set favKeepInventory shroomhearth 3600
 
 # create bossbar
-bossbar add community:favor/keepinventory "Keep Inventory"
+bossbar add community:favor/keepinventory [{"text":"Keep Inventory - "},{"selector": "@s"}]
 bossbar set community:favor/keepinventory max 3600
 bossbar set community:favor/keepinventory style progress
 bossbar set community:favor/keepinventory value 3600

@@ -25,6 +25,9 @@ scoreboard objectives setdisplay list harmony
 scoreboard objectives remove showFavorProgress
 scoreboard objectives add showFavorProgress dummy
 
+# Dummy player to track any active showFavorProgress
+scoreboard players set favActive shroomhearth 0
+
 # Setup dummy players for favor status
 scoreboard players set favRegeneration shroomhearth 0
 scoreboard players set favKeepInventory shroomhearth 0
