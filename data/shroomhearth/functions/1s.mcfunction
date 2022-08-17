@@ -24,8 +24,8 @@ execute as @e[type=#item_skins:armed,tag=!item_skin] run function item_skins:1s
 # Community - only run when more than one player is online
 execute if score playerCount shroomhearth matches 2.. run function community:1s
 
-# Ordinances - ALWAYS EXECUTE
-function community:ordinance/1s
+# favors - ALWAYS EXECUTE
+function community:favor/1s
 
 # re-schedule
 schedule function shroomhearth:1s 1s

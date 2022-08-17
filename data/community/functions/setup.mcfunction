@@ -21,7 +21,10 @@ scoreboard objectives add hasMemento dummy
 # Ensure that Harmony is shown in the tab list
 scoreboard objectives setdisplay list harmony
 
+# showFavorProgress - flag to allow players to see bossbars for favor timers/progress. off by default.
+scoreboard objectives remove showFavorProgress
+scoreboard objectives add showFavorProgress dummy
 
-# Setup dummy players for ordinance status
-scoreboard players set ordRegeneration shroomhearth 0
-scoreboard players set ordKeepInventory shroomhearth 0
+# Setup dummy players for favor status
+scoreboard players set favRegeneration shroomhearth 0
+scoreboard players set favKeepInventory shroomhearth 0
