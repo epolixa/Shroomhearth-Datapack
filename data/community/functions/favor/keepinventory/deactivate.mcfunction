@@ -5,7 +5,7 @@ gamerule keepInventory false
 bossbar remove community:favor/keepinventory
 
 # announce expiration
-tellraw @a [{"translate":"community.favor.keepinventory_deactivate"}]
+tellraw @a [{"text":"The "},{"color":"#c6c6c6","translate":"community.favor.keepinventory"},{"color":"white","text":" favor has expired "}]
 
 # play sound 
 execute as @a at @s run playsound block.beacon.deactivate player @s ~ ~ ~ 1 1.8
