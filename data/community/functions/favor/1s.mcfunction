@@ -8,3 +8,6 @@ execute if score favKeepInventory shroomhearth matches 1.. run function communit
 
 # Process "Regeneration" favor
 execute if score favRegeneration shroomhearth matches 1.. run function community:favor/regeneration/process
+
+# Process "Haste" favor
+execute if score favHaste shroomhearth matches 1.. run function community:favor/haste/process

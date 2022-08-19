@@ -29,5 +29,14 @@ scoreboard objectives add showFavorProgress dummy
 scoreboard players set favActive shroomhearth 0
 
 # Setup dummy players for favor status
+scoreboard players set favHaste shroomhearth 0
+scoreboard players set favJumpBoost shroomhearth 0
 scoreboard players set favRegeneration shroomhearth 0
+scoreboard players set favResistance shroomhearth 0
+scoreboard players set favSpeed shroomhearth 0
+scoreboard players set favStrength shroomhearth 0
 scoreboard players set favKeepInventory shroomhearth 0
+scoreboard players set favDoubleTime shroomhearth 0
+scoreboard players set favNoInsomnia shroomhearth 0
+scoreboard players set favDisableRaids shroomhearth 0
+scoreboard players set favDisableWardens shroomhearth 0
