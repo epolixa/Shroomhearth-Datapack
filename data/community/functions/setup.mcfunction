@@ -10,13 +10,13 @@ scoreboard objectives add presence dummy
 scoreboard objectives remove playerGroup
 scoreboard objectives add playerGroup dummy
 
-# hasMementoCatalyst - flag for if player has a memento catalyst in their inventory
-scoreboard objectives remove hasMementoCatalyst
-scoreboard objectives add hasMementoCatalyst dummy
+# hasCharmCatalyst - flag for if player has a charm catalyst in their inventory
+scoreboard objectives remove hasCharmCatalyst
+scoreboard objectives add hasCharmCatalyst dummy
 
-# hasMemento - flag for if player has a memento in their inventory
-scoreboard objectives remove hasMemento
-scoreboard objectives add hasMemento dummy
+# hasCharm - flag for if player has a charm in their inventory
+scoreboard objectives remove hasCharm
+scoreboard objectives add hasCharm dummy
 
 # Ensure that Harmony is shown in the tab list
 scoreboard objectives setdisplay list harmony

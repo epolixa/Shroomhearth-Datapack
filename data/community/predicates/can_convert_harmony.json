@@ -5,7 +5,7 @@
         "harmony": {
             "min": 100
         },
-        "hasMementoCatalyst": {
+        "hasCharmCatalyst": {
             "min": 1
         }
     }
