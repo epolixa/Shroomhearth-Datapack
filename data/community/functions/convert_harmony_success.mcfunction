@@ -11,6 +11,7 @@ loot give @s loot community:charm
 
 # Play a sound
 execute at @s run playsound minecraft:item.bottle.fill_dragonbreath player @a ~ ~ ~ 1 0.8
+execute at @s run playsound minecraft:block.amethyst_block.chime player @a ~ ~ ~ 1 1.2
 
 # Send a friendly success message to the player
 tellraw @s {"translate":"community.converted_harmony","hoverEvent":{"action":"show_text","contents":{"translate":"community.converted_harmony_tooltip"}}}
