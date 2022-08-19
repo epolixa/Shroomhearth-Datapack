@@ -9,5 +9,8 @@ clear @s #community:charm_catalyst 1
 # Give a charm to the player
 loot give @s loot community:charm
 
+# Play a sound
+execute at @s run playsound minecraft:item.bottle.fill_dragonbreath player @a ~ ~ ~ 1 0.8
+
 # Send a friendly success message to the player
 tellraw @s {"translate":"community.converted_harmony","hoverEvent":{"action":"show_text","contents":{"translate":"community.converted_harmony_tooltip"}}}
