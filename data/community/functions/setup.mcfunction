@@ -2,6 +2,9 @@
 scoreboard objectives remove harmony
 scoreboard objectives add harmony dummy "Harmony"
 
+# Ensure that Harmony is shown in the tab list
+scoreboard objectives setdisplay list harmony
+
 # presence - added or removed every second, increases harmony after a certain threshold
 scoreboard objectives remove presence
 scoreboard objectives add presence dummy
@@ -18,15 +21,16 @@ scoreboard objectives add hasCharmCatalyst dummy
 scoreboard objectives remove hasCharm
 scoreboard objectives add hasCharm dummy
 
-# Ensure that Harmony is shown in the tab list
-scoreboard objectives setdisplay list harmony
-
 # showFavorProgress - flag to allow players to see bossbars for favor timers/progress. off by default.
 scoreboard objectives remove showFavorProgress
 scoreboard objectives add showFavorProgress dummy
 
-# Dummy player to track any active showFavorProgress
+# favActive - dummy player to track any active showFavorProgress
 scoreboard players set favActive shroomhearth 0
+
+# playerLeft - tracks when the player leaves the server, useful to know when to inform active favors next login
+scoreboard objectives remove playerLeft
+scoreboard objectives add playerLeft minecraft.custom:minecraft.leave_game
 
 # Setup dummy players for favor status
 scoreboard players set favHaste shroomhearth 0
