@@ -24,3 +24,6 @@ tellraw @a [{"text":"The "},{"color":"#c6c6c6","translate":"community.favor.keep
 
 # play sound 
 execute as @a at @s run playsound block.beacon.power_select player @s ~ ~ ~ 1 1.8
+
+# grant advancement
+advancement grant @s only community:activate_favor
