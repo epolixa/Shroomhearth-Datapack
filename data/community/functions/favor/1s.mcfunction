@@ -4,7 +4,7 @@
 execute as @a[scores={playerLeft=1..}] run function community:inform_favors
 
 # Process "Keep Inventory" favor
-execute if score favKeepInventory shroomhearth matches 1.. run function community:favor/keepinventory/process
+execute if score favKeepInventory shroomhearth matches 1.. run function community:favor/keep_inventory/process
 
 # Process "Regeneration" favor
 execute if score favRegeneration shroomhearth matches 1.. run function community:favor/regeneration/process
