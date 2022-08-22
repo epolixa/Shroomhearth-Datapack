@@ -29,3 +29,6 @@ execute if score favInsomnia shroomhearth matches 1.. run function community:fav
 
 # Process "Uptick" favor
 execute if score favUptick shroomhearth matches 1.. run function community:favor/uptick/process
+
+# Process "Disable Raids" favor
+execute if score favDisableRaids shroomhearth matches 1.. run function community:favor/disable_raids/process
