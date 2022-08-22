@@ -2,7 +2,7 @@
 bossbar remove community:favor/resistance
 
 # announce expiration
-tellraw @a [{"text":"The "},{"color":"#99453A","translate":"community.favor.resistance"},{"color":"white","text":" favor has expired "}]
+tellraw @a [{"text":"The "},{"color":"#99453A","translate":"community.favor.resistance","hoverEvent":{"action":"show_text","contents":{"translate":"community.favor.resistance.tooltip"}}},{"color":"white","text":" favor has expired "}]
 
 # play sound 
 execute as @a at @s run playsound block.beacon.deactivate player @s ~ ~ ~ 1 1.8

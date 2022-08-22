@@ -5,7 +5,7 @@ gamerule randomTickSpeed 3
 bossbar remove community:favor/uptick
 
 # announce expiration
-tellraw @a [{"text":"The "},{"color":"#8b3fc5","translate":"community.favor.uptick"},{"color":"white","text":" favor has expired "}]
+tellraw @a [{"text":"The "},{"color":"#8b3fc5","translate":"community.favor.uptick","hoverEvent":{"action":"show_text","contents":{"translate":"community.favor.uptick.tooltip"}}},{"color":"white","text":" favor has expired "}]
 
 # play sound 
 execute as @a at @s run playsound block.beacon.deactivate player @s ~ ~ ~ 1 1.8

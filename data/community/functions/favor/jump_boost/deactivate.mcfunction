@@ -2,7 +2,7 @@
 bossbar remove community:favor/jump_boost
 
 # announce expiration
-tellraw @a [{"text":"The "},{"color":"#22FF4C","translate":"community.favor.jump_boost"},{"color":"white","text":" favor has expired "}]
+tellraw @a [{"text":"The "},{"color":"#22FF4C","translate":"community.favor.jump_boost","hoverEvent":{"action":"show_text","contents":{"translate":"community.favor.jump_boost.tooltip"}}},{"color":"white","text":" favor has expired "}]
 
 # play sound 
 execute as @a at @s run playsound block.beacon.deactivate player @s ~ ~ ~ 1 1.8
