@@ -32,6 +32,10 @@ scoreboard players set favActive shroomhearth 0
 scoreboard objectives remove playerLeft
 scoreboard objectives add playerLeft minecraft.custom:minecraft.leave_game
 
+# regenerationDuration - tracks remaining regeneration effect, workaround for issue where regen doesn't actually restore health if it's reset every second
+scoreboard objectives remove regenerationDuration
+scoreboard objectives add regenerationDuration dummy
+
 # Setup dummy players for favor status
 scoreboard players set favHaste shroomhearth 0
 scoreboard players set favJumpBoost shroomhearth 0

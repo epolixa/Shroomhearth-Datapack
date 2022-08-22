@@ -1,8 +1,11 @@
 # tick value
 scoreboard players remove favRegeneration shroomhearth 1
 
-# apply effect
-effect give @a minecraft:regeneration 2 0 true
+# check regeneration duration
+execute as @a store result score @s regenerationDuration run data get entity @s ActiveEffects[{Id:10}].Duration
+
+# apply effect if regen is less than 1 second
+execute as @a if score @s regenerationDuration matches ..20 run effect give @s minecraft:regeneration 11 0 true
 
 # update bossbar
 execute store result bossbar community:favor/regeneration value run scoreboard players get favRegeneration shroomhearth
