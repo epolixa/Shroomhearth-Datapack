@@ -1,0 +1,15 @@
+{
+    "criteria": {
+      "interrupted": {
+        "trigger": "minecraft:entity_hurt_player",
+        "conditions": {
+            "player": {
+                "nbt": "{Tags:[\"recalling\"]}"
+            }
+        }
+      }
+    },
+    "rewards": {
+      "function": "tphome:interrupted"
+    }
+  }
