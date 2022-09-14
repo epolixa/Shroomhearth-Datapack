@@ -14,6 +14,5 @@ summon minecraft:marker ~ ~ ~ {Tags: ["recall_marker"]}
 # run some commands as the marker...
 execute as @e[type=minecraft:marker, tag=recall_marker] run function tphome:set_teleport_marker
 
-    
-
+# remove cast tag
 tag @s remove cast_recall

@@ -1,7 +1,14 @@
 tellraw @s "cast recall"
 
+# check if player has spawn point set
+execute if data entity @s SpawnX if data entity @s SpawnY if data entity @s SpawnZ if data entity @s SpawnDimension run tag @s add has_spawn
+
 # execute the teleportation
-function tphome:teleport_player_to_spawn
+execute as @s[tag=has_spawn] run function tphome:teleport_player_to_spawn
+execute as @s[tag=!has_spawn] run function tphome:teleport_player_to_world_spawn
+
+# remove has_spawn tag
+tag @s remove has_spawn
 
 # center player on block
 execute at @s align xz run tp @s ~.5 ~ ~.5
