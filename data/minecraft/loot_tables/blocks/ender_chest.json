@@ -1,25 +1,40 @@
 {
-  "type": "minecraft:block",
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "type": "minecraft:block",
+    "pools": [
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:copy_name",
-              "source": "block_entity"
-            }
-          ],
-          "name": "minecraft:ender_chest"
+            "rolls": 1.0,
+            "bonus_rolls": 0.0,
+            "entries": [
+                {
+                    "type": "minecraft:alternatives",
+                    "children": [
+                        {
+                            "type": "minecraft:item",
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:reference",
+                                    "name": "shroomhearth:obsidian_from_ender_chest"
+                                }
+                            ],
+                            "functions": [
+                                {
+                                    "add": false,
+                                    "count": 8.0,
+                                    "function": "minecraft:set_count"
+                                },
+                                {
+                                    "function": "minecraft:explosion_decay"
+                                }
+                            ],
+                            "name": "minecraft:obsidian"
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "name": "minecraft:ender_chest"
+                        }
+                    ]
+                }
+            ]
         }
-      ],
-      "conditions": [
-        {
-          "condition": "minecraft:survives_explosion"
-        }
-      ]
-    }
-  ]
+    ]
 }

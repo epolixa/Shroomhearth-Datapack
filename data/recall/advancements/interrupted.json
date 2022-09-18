@@ -1,0 +1,15 @@
+{
+    "criteria": {
+      "took_damage": {
+        "trigger": "minecraft:entity_hurt_player",
+        "conditions": {
+            "player": {
+                "nbt": "{Tags:[\"recalling\"]}"
+            }
+        }
+      }
+    },
+    "rewards": {
+      "function": "recall:interrupted"
+    }
+  }

@@ -1,0 +1,20 @@
+{
+	"parent": "sleeping:slumber_party",
+	"display": {
+		"icon": {
+			"item": "minecraft:warped_fungus_on_a_stick",
+            "nbt": "{display:{Name:'{\"italic\":false,\"translate\":\"item.minecraft.recall_whistle\"}'},CustomModelData:2,Enchantments:[{id:\"minecraft:infinity\",lvl:1s}],HideFlags:1}"
+		},
+		"title": "Recall",
+		"description": "Use a Recall Whistle to return to your spawn point",
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"activate_favor": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

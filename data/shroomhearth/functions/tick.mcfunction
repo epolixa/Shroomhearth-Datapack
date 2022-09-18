@@ -1,3 +1,6 @@
+# warped fungus trigger detection
+execute as @a[scores={useWarpedFungusStick=1..}] at @s run function shroomhearth:use_warped_fungus_stick
+
 # porcelain ticking functions
 execute if entity @p run function porcelain:tick
 

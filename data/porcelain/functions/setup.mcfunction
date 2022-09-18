@@ -1,6 +1,6 @@
-# usePorcelain - flag for using Porcelain Key
+# usePorcelain - flag for using Porcelain
 scoreboard objectives remove usePorcelain
-scoreboard objectives add usePorcelain minecraft.used:minecraft.warped_fungus_on_a_stick
+scoreboard objectives add usePorcelain dummy
 
 # porcelainID - identifier to match players with their anchors
 scoreboard objectives remove porcelainID

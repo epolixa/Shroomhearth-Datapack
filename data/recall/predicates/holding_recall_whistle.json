@@ -1,0 +1,29 @@
+{
+    "condition": "minecraft:alternative",
+    "terms": [
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "equipment": {
+                    "mainhand": {
+                        "tag": "recall:recall_whistle",
+                        "nbt": "{display:{Name:'{\"italic\":false,\"translate\":\"item.minecraft.recall_whistle\"}'},CustomModelData:2,Enchantments:[{id:\"minecraft:infinity\",lvl:1s}],HideFlags:1}"
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "equipment": {
+                    "offhand": {
+                        "tag": "recall:recall_whistle",
+                        "nbt": "{display:{Name:'{\"italic\":false,\"translate\":\"item.minecraft.recall_whistle\"}'},CustomModelData:2,Enchantments:[{id:\"minecraft:infinity\",lvl:1s}],HideFlags:1}"
+                    }
+                }
+            }
+        }
+    ]
+}
