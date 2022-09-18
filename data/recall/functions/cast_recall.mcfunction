@@ -1,5 +1,3 @@
-tellraw @s "cast recall"
-
 # check if player has spawn point set
 execute if data entity @s SpawnX if data entity @s SpawnY if data entity @s SpawnZ if data entity @s SpawnDimension run tag @s add has_spawn
 
@@ -7,7 +5,7 @@ execute if data entity @s SpawnX if data entity @s SpawnY if data entity @s Spaw
 execute at @e[tag=recall_marker] unless block ~ ~ ~ #recall:spawn_blocks run tag @s remove has_spawn
 
 # execute the teleportation
-execute as @s[tag=has_spawn] run function recall:teleport_player_to_spawn
+execute as @s[tag=has_spawn] as @e[tag=recall_marker] run function recall:teleport_to_marker
 execute as @s[tag=!has_spawn] run function recall:teleport_player_to_world_spawn
 
 # cleanup the marker

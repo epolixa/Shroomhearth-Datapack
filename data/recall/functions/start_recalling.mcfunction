@@ -1,5 +1,3 @@
-tellraw @s "start recalling"
-
 # add tag
 tag @s add recalling
 
