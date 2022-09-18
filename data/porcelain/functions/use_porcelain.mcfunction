@@ -2,7 +2,7 @@
 execute store result score @s nearbyMonster if entity @e[type=#porcelain:monsters,distance=..8]
 
 # interrupt recall
-function recall:interrupted
+execute as @s[tag=recalling] run function recall:interrupted
 
 # relative to player using porcelain in other dimensions
 execute if predicate porcelain:use_porcelain_in_other if score @s nearbyMonster matches 0 run function porcelain:enter_porcelain
