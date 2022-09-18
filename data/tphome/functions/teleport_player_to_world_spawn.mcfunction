@@ -1,2 +1,2 @@
 # tp to world spawn
-tp @s 112 75 0
+execute in minecraft:overworld run tp @s 112 75 0
