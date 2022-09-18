@@ -10,6 +10,6 @@
       }
     },
     "rewards": {
-      "function": "tphome:interrupted"
+      "function": "recall:interrupted"
     }
   }

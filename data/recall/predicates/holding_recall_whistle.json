@@ -7,7 +7,7 @@
             "predicate": {
                 "equipment": {
                     "mainhand": {
-                        "tag": "tphome:recall_whistle",
+                        "tag": "recall:recall_whistle",
                         "nbt": "{display:{Name:'{\"italic\":false,\"translate\":\"item.minecraft.recall_whistle\"}'},CustomModelData:2,Enchantments:[{id:\"minecraft:infinity\",lvl:1s}],HideFlags:1}"
                     }
                 }
@@ -19,7 +19,7 @@
             "predicate": {
                 "equipment": {
                     "offhand": {
-                        "tag": "tphome:recall_whistle",
+                        "tag": "recall:recall_whistle",
                         "nbt": "{display:{Name:'{\"italic\":false,\"translate\":\"item.minecraft.recall_whistle\"}'},CustomModelData:2,Enchantments:[{id:\"minecraft:infinity\",lvl:1s}],HideFlags:1}"
                     }
                 }

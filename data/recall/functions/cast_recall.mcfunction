@@ -4,11 +4,11 @@ tellraw @s "cast recall"
 execute if data entity @s SpawnX if data entity @s SpawnY if data entity @s SpawnZ if data entity @s SpawnDimension run tag @s add has_spawn
 
 # check if the player has a bed at the set spawn point
-execute at @e[tag=recall_marker] unless block ~ ~ ~ #tphome:spawn_blocks run tag @s remove has_spawn
+execute at @e[tag=recall_marker] unless block ~ ~ ~ #recall:spawn_blocks run tag @s remove has_spawn
 
 # execute the teleportation
-execute as @s[tag=has_spawn] run function tphome:teleport_player_to_spawn
-execute as @s[tag=!has_spawn] run function tphome:teleport_player_to_world_spawn
+execute as @s[tag=has_spawn] run function recall:teleport_player_to_spawn
+execute as @s[tag=!has_spawn] run function recall:teleport_player_to_world_spawn
 
 # cleanup the marker
 execute as @e[tag=recall_marker] at @s run function porcelain:cleanup_marked_chunk
@@ -20,7 +20,7 @@ tag @s remove has_spawn
 execute at @s align xz run tp @s ~.5 ~ ~.5
 
 # fix position if needed
-execute at @s unless block ~ ~ ~ minecraft:air run function tphome:fix_position
+execute at @s unless block ~ ~ ~ minecraft:air run function recall:fix_position
 
 # play sound
 execute at @s run playsound minecraft:item.chorus_fruit.teleport player @a ~ ~ ~ 1 1.1
@@ -32,7 +32,7 @@ xp add @s[gamemode=survival] -1 levels
 effect clear @s minecraft:slowness
 
 # grant advancement
-advancement grant @s only tphome:recall
+advancement grant @s only recall:recall
 
 # clear the casting tag
 tag @s remove recalling

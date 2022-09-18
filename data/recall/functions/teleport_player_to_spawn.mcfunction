@@ -2,7 +2,7 @@
 tag @s add cast_recall
 
 # run some commands as the marker...
-execute as @e[tag=recall_marker] run function tphome:teleport_to_marker
+execute as @e[tag=recall_marker] run function recall:teleport_to_marker
 
 # remove cast tag
 tag @s remove cast_recall

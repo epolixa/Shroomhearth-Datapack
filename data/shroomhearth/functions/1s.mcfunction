@@ -28,7 +28,7 @@ execute if score playerCount shroomhearth matches 2.. run function community:1s
 execute if score favActive shroomhearth matches 1.. run function community:favor/1s
 
 # recall whistle - process cast time
-execute as @a[tag=recalling] at @s run function tphome:recalling
+execute as @a[tag=recalling] at @s run function recall:recalling
 
 # re-schedule
 schedule function shroomhearth:1s 1s
