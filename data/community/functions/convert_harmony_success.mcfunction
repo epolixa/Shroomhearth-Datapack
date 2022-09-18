@@ -14,6 +14,3 @@ summon minecraft:experience_orb ~ ~ ~ {Value:20}
 
 # Play a sound
 execute at @s run playsound minecraft:item.bottle.fill_dragonbreath player @a ~ ~ ~ 1 0.8
-
-# Send a friendly success message to the player
-tellraw @s {"translate":"community.converted_harmony","hoverEvent":{"action":"show_text","contents":{"translate":"community.converted_harmony.tooltip"}}}
