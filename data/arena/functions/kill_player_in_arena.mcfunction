@@ -8,7 +8,7 @@ advancement grant @s only arena:arena_challenger
 execute as @p[distance=0.1..] at @s run summon minecraft:experience_orb ~ ~ ~ {Value:5}
 
 # grant additional harmony if more than one player is involved?
-execute at @a[distance=0.1..100,predicate=arena:in_arena] run scoreboard players add @s harmony 1
+execute as @a[distance=0.1..128,predicate=arena:in_arena] run scoreboard players add @a[distance=0.1..128,predicate=arena:in_arena] harmony 1
 
 
 # play sound or particles?
