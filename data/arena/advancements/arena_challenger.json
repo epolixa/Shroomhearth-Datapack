@@ -1,0 +1,19 @@
+{
+	"parent": "shroomhearth:root",
+	"display": {
+		"icon": {
+			"item": "minecraft:iron_sword"
+		},
+		"title": "Arena Challenger",
+		"description": "Kill another Player in an Arena",
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"kill_player_in_arena": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"criteria": {
+		"enter_arena": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "arena:in_arena"
+                    }
+                ]
+			}
+		}
+	},
+    "rewards": {
+        "function": "arena:enter_arena"
+    }
+}

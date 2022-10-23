@@ -7,35 +7,8 @@
         {
           "conditions": [
             {
-              "condition": "minecraft:alternative",
-              "terms": [
-                {
-                  "condition": "minecraft:location_check",
-                  "predicate": {
-                    "dimension": "minecraft:the_porcelain"
-                  }
-                },
-                {
-                  "condition": "minecraft:location_check",
-                  "predicate": {
-                    "dimension": "minecraft:overworld",
-                    "position": {
-                      "x": {
-                        "min": -724,
-                        "max": -678
-                      },
-                      "y": {
-                        "min": 119,
-                        "max": 256
-                      },
-                      "z": {
-                        "min": 77,
-                        "max": 123
-                      }
-                    }
-                  }
-                }
-              ]
+              "condition": "minecraft:reference",
+              "name": "arena:in_arena"
             }
           ],
           "type": "item",
