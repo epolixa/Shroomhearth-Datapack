@@ -1,0 +1,17 @@
+{
+    "condition": "minecraft:alternative",
+    "terms": [
+        {
+            "condition": "minecraft:reference",
+            "name": "arena:on_hollow_vale_slab"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "arena:in_wondermere_arena"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "arena:in_moss_cathedral_shrine"
+        }
+    ]
+}

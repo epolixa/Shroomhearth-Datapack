@@ -1,0 +1,21 @@
+{
+	"criteria": {
+		"enter_arena": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:reference",
+                            "name": "arena:in_arena"
+                        }
+                    }
+                ]
+			}
+		}
+	},
+    "rewards": {
+        "function": "arena:leave_arena"
+    }
+}
