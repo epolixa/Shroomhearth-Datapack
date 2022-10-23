@@ -9,6 +9,19 @@
             {
               "condition": "minecraft:reference",
               "name": "arena:in_arena"
+            },
+            {
+              "condition": "minecraft:damage_source_properties",
+              "predicate": {
+                "source_entity": {
+                  "distance": {
+                    "absolute": {
+                      "min": 0.1
+                    }
+                  },
+                  "type": "minecraft:player"
+                }
+              }
             }
           ],
           "type": "item",
