@@ -1,0 +1,19 @@
+{
+	"parent": "haberdasher:face_painter",
+	"display": {
+		"icon": {
+			"item": "minecraft:end_rod"
+        },
+		"title": "Haberdasher",
+		"description": "Equip an item in your head slot at the World Hall",
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"fill_head": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}
