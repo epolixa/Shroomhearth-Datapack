@@ -5,7 +5,7 @@
 			"item": "minecraft:dirt_path"
 		},
 		"title": "Well Traveled",
-		"description": "Gain Speed by standing on a Dirt Path",
+		"description": "Walk faster on a Dirt Path",
 		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,
