@@ -1,0 +1,41 @@
+{
+	"parent": "community:community_coordinator",
+	"display": {
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner:\"CocoaMix\"}"
+		},
+		"title": "CocoaMix",
+		"description": "Get killed by a Wither skull above y250",
+		"frame": "challenge"
+	},
+	"rewards": {
+		"loot": [
+			"player_advancements:cocoamix86"
+		]
+	},
+	"criteria": {
+		"killed_by_wither_skull": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "killing_blow": {
+                    "direct_entity": {
+                        "type": "minecraft:wither_skull"
+                    }
+                },
+                "player": [
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "position": {
+                                "y": {
+                                    "min": 250
+                                }
+                            }
+                        }
+                    }
+                ]
+            }            
+        }
+    }
+}
