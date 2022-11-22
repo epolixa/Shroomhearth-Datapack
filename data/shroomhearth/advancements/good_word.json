@@ -5,7 +5,7 @@
 			"item": "minecraft:oak_sign"
 		},
 		"title": "The Good Word",
-		"description": "Place a sign on the MOTD board",
+		"description": "Place a sign on the MOTD board at the World Hall",
 		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,

@@ -1,5 +1,5 @@
 # merge NoAI and other NBT
-execute as @e[type=#shroomhearth:mobs,distance=0..] run data merge entity @s {DeathLootTable:"minecraft:empty",Silent:true,Health:1}
+execute as @e[type=#shroomhearth:mobs,distance=0..,tag=!vitrified] run data merge entity @s {Tags:["vitrified"],DeathLootTable:"minecraft:empty",Silent:true,Health:1}
 
 # remove boss mobs
 kill @e[type=wither,distance=0..]
