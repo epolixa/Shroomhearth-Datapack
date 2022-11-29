@@ -1,6 +1,6 @@
 {
     "criteria": {
-        "below_one": {
+        "below_zero": {
             "trigger": "minecraft:location",
             "conditions": {
                 "player": {
@@ -8,7 +8,7 @@
                         "dimension": "minecraft:the_porcelain",
                         "position": {
                             "y": {
-                                "max": 1
+                                "max": 0
                             }
                         }
                     }
@@ -33,7 +33,7 @@
     },
     "requirements": [
         [
-            "below_one",
+            "below_zero",
             "above_max"
         ]
     ],
