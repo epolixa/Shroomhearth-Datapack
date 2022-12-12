@@ -12,6 +12,10 @@
         {
             "condition": "minecraft:reference",
             "name": "arena:in_moss_cathedral_shrine"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "arena:in_upper_tramway_colosseum"
         }
     ]
 }
