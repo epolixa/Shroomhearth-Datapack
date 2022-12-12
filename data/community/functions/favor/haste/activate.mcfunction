@@ -2,11 +2,11 @@
 clear @s minecraft:ghast_tear{display:{Name:'{"italic":false,"translate":"item.minecraft.charm"}'},CustomModelData:1,Enchantments:[{id:"minecraft:infinity",lvl:1s}],HideFlags:1} 1
 
 # update active favors if favor is not already active
-execute if score favHaste shroomhearth matches 0 run scoreboard players add favActive shroomhearth 1
+scoreboard players add favActive shroomhearth 1
 
 # add value - 3600 seconds in an hour
 scoreboard players add favHaste shroomhearth 3600
-execute if score favHaste shroomhearth matches 3601.. run scoreboard players set favHaste shroomhearth 3600
+#execute if score favHaste shroomhearth matches 3601.. run scoreboard players set favHaste shroomhearth 3600
 
 # create bossbar
 bossbar add community:favor/haste [{"color":"#D9C043","translate":"community.favor.haste"},{"color":"white","text":" - "},{"selector": "@s"}]
