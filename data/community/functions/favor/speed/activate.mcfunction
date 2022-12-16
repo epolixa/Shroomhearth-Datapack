@@ -6,7 +6,6 @@ execute if score favSpeed shroomhearth matches 0 run scoreboard players add favA
 
 # add value - 3600 seconds in an hour
 scoreboard players add favSpeed shroomhearth 3600
-execute if score favSpeed shroomhearth matches 3601.. run scoreboard players set favSpeed shroomhearth 3600
 
 # create bossbar
 bossbar add community:favor/speed [{"color":"#7CAFC6","translate":"community.favor.speed"},{"color":"white","text":" - "},{"selector": "@s"}]
@@ -23,4 +22,4 @@ tellraw @a [{"text":"The "},{"color":"#7CAFC6","translate":"community.favor.spee
 execute as @a at @s run playsound block.beacon.power_select player @s ~ ~ ~ 1 1.8
 
 # grant advancement
-advancement grant @s only community:activate_favor
+advancement grant @s only community:community_contributor

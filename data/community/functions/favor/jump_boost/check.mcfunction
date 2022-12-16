@@ -7,4 +7,5 @@ execute store result score @s hasCharm run clear @s minecraft:ghast_tear{display
 execute unless predicate community:has_charm run tellraw @s {"translate":"community.missing_charm","hoverEvent":{"action":"show_text","contents":{"translate":"community.missing_charm.tooltip"}}}
 
 # If the player has charm, activate
-execute if predicate community:has_charm run function community:favor/jump_boost/activate
+execute if predicate community:has_charm if score favJumpBoost shroomhearth matches 1.. run function community:favor/jump_boost/extend
+execute if predicate community:has_charm if score favJumpBoost shroomhearth matches 0 run function community:favor/jump_boost/activate

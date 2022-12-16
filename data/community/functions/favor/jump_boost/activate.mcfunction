@@ -6,7 +6,6 @@ execute if score favJumpBoost shroomhearth matches 0 run scoreboard players add 
 
 # add value - 3600 seconds in an hour
 scoreboard players add favJumpBoost shroomhearth 3600
-execute if score favJumpBoost shroomhearth matches 3601.. run scoreboard players set favJumpBoost shroomhearth 3600
 
 # create bossbar
 bossbar add community:favor/jump_boost [{"color":"#22FF4C","translate":"community.favor.jump_boost"},{"color":"white","text":" - "},{"selector": "@s"}]
@@ -23,4 +22,4 @@ tellraw @a [{"text":"The "},{"color":"#22FF4C","translate":"community.favor.jump
 execute as @a at @s run playsound block.beacon.power_select player @s ~ ~ ~ 1 1.8
 
 # grant advancement
-advancement grant @s only community:activate_favor
+advancement grant @s only community:community_contributor

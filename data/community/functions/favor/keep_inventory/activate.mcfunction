@@ -9,7 +9,6 @@ execute if score favKeepInventory shroomhearth matches 0 run scoreboard players 
 
 # add value - 3600 seconds in an hour
 scoreboard players add favKeepInventory shroomhearth 3600
-execute if score favKeepInventory shroomhearth matches 3601.. run scoreboard players set favKeepInventory shroomhearth 3600
 
 # create bossbar
 bossbar add community:favor/keep_inventory [{"color":"#c6c6c6","translate":"community.favor.keep_inventory"},{"color":"white","text":" - "},{"selector": "@s"}]
@@ -26,4 +25,4 @@ tellraw @a [{"text":"The "},{"color":"#c6c6c6","translate":"community.favor.keep
 execute as @a at @s run playsound block.beacon.power_select player @s ~ ~ ~ 1 1.8
 
 # grant advancement
-advancement grant @s only community:activate_favor
+advancement grant @s only community:community_contributor
