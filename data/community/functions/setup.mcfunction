@@ -47,3 +47,4 @@ scoreboard players set favKeepInventory shroomhearth 0
 scoreboard players set favUptick shroomhearth 0
 scoreboard players set favInsomnia shroomhearth 0
 scoreboard players set favDisableRaids shroomhearth 0
+scoreboard players set favEasy shroomhearth 0
