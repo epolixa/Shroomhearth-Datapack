@@ -24,6 +24,9 @@ execute if score favStrength shroomhearth matches 1.. run function community:fav
 # Process "Resistance" favor
 execute if score favResistance shroomhearth matches 1.. run function community:favor/resistance/process
 
+# Process "Fire Resistance" favor
+execute if score favFireResistance shroomhearth matches 1.. run function community:favor/fire_resistance/process
+
 # Process "Insomnia" favor
 execute if score favInsomnia shroomhearth matches 1.. run function community:favor/insomnia/process
 
@@ -32,3 +35,6 @@ execute if score favUptick shroomhearth matches 1.. run function community:favor
 
 # Process "Disable Raids" favor
 execute if score favDisableRaids shroomhearth matches 1.. run function community:favor/disable_raids/process
+
+# Process "Easy" favor
+execute if score favEasy shroomhearth matches 1.. run function community:favor/easy/process
