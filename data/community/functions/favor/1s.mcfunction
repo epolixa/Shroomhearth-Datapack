@@ -30,6 +30,9 @@ execute if score favFireResistance shroomhearth matches 1.. run function communi
 # Process "Water Breathing" favor
 execute if score favWaterBreathing shroomhearth matches 1.. run function community:favor/water_breathing/process
 
+# Process "Night Vision" favor
+execute if score favNightVision shroomhearth matches 1.. run function community:favor/night_vision/process
+
 # Process "Insomnia" favor
 execute if score favInsomnia shroomhearth matches 1.. run function community:favor/insomnia/process
 
