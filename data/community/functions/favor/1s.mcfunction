@@ -27,6 +27,9 @@ execute if score favResistance shroomhearth matches 1.. run function community:f
 # Process "Fire Resistance" favor
 execute if score favFireResistance shroomhearth matches 1.. run function community:favor/fire_resistance/process
 
+# Process "Water Breathing" favor
+execute if score favWaterBreathing shroomhearth matches 1.. run function community:favor/water_breathing/process
+
 # Process "Insomnia" favor
 execute if score favInsomnia shroomhearth matches 1.. run function community:favor/insomnia/process
 
