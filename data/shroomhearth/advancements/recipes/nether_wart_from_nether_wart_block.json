@@ -26,7 +26,7 @@
   "requirements": [
     [
       "has_nether_wart_block",
-      "has_recipe"
+      "has_the_recipe"
     ]
   ]
 }
