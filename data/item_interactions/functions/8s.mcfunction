@@ -47,6 +47,8 @@ tag @e[type=minecraft:item,nbt={Item:{id:"minecraft:netherite_boots"}}] add pers
 tag @e[type=minecraft:item,nbt={Item:{id:"minecraft:compass"}}] add persistant
 tag @e[type=minecraft:item,nbt={Item:{id:"minecraft:bundle"}}] add persistant
 tag @e[type=minecraft:item,nbt={Item:{id:"minecraft:spyglass"}}] add persistant
+tag @e[type=minecraft:item,nbt={Item:{id:"minecraft:carrot_on_a_stick"}}] add persistant
+tag @e[type=minecraft:item,nbt={Item:{id:"minecraft:warped_fungus_on_a_stick"}}] add persistant
 
 # reset Age property on tagged entities
 execute as @e[type=minecraft:item,tag=persistant] if data entity @s Item.tag.display.Name run function item_interactions:reset_item_age
