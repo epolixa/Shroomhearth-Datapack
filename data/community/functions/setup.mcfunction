@@ -43,7 +43,11 @@ scoreboard players set favRegeneration shroomhearth 0
 scoreboard players set favResistance shroomhearth 0
 scoreboard players set favSpeed shroomhearth 0
 scoreboard players set favStrength shroomhearth 0
+scoreboard players set favFireResistance shroomhearth 0
+scoreboard players set favWaterBreathing shroomhearth 0
+scoreboard players set favNightVision shroomhearth 0
 scoreboard players set favKeepInventory shroomhearth 0
 scoreboard players set favUptick shroomhearth 0
 scoreboard players set favInsomnia shroomhearth 0
 scoreboard players set favDisableRaids shroomhearth 0
+scoreboard players set favEasy shroomhearth 0

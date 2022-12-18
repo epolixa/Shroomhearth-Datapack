@@ -10,6 +10,9 @@ scoreboard players set dragonSlain shroomhearth 1
 # kill end crystal marker armor stands
 kill @e[type=minecraft:armor_stand,tag=crystal_marker]
 
+# capture number of players
+execute positioned 0 64 0 store result score dragonPlayers shroomhearth if entity @a[distance=..128]
+
 # capture number of summon markers
 execute store result score shroomhearth summonMarkers if entity @e[type=minecraft:armor_stand,tag=summon_marker]
 
@@ -31,8 +34,11 @@ execute unless block 0 65 0 minecraft:dragon_egg run setblock 0 65 0 minecraft:d
 # grant endchantments for all players in range to equipment in priority: mainhand, offhand, helmet, chestplate, leggings, boots
 execute positioned 0 64 0 as @a[distance=..128] run function boss_fight:endchant/attune
 
+# give 10*n harmony to each player in a group
+execute if score dragonPlayers shroomhearth matches 2.. positioned 0 64 0 as @a[distance=..128] run scoreboard players add @a[distance=..128] harmony 10
+
 # grant solo kill advancement
-execute unless entity @p[distance=1..] if score @s dragonDeaths matches 0 if score shroomhearth summonMarkers matches ..2 run advancement grant @s only boss_fight:dragon/legendary_battle
+execute unless entity @p[distance=1..] if score @s dragonDeaths matches 0 if score shroomhearth dragonPlayers matches ..1 run advancement grant @s only boss_fight:dragon/legendary_battle
 
 # remove all summoned crying obsidian pillars
 function boss_fight:dragon/cleanup_pillars

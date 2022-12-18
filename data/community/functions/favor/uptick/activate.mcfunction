@@ -9,7 +9,6 @@ execute if score favUptick shroomhearth matches 0 run scoreboard players add fav
 
 # add value - 3600 seconds in an hour
 scoreboard players add favUptick shroomhearth 3600
-execute if score favUptick shroomhearth matches 3601.. run scoreboard players set favUptick shroomhearth 3600
 
 # create bossbar
 bossbar add community:favor/uptick [{"color":"#8b3fc5","translate":"community.favor.uptick"},{"color":"white","text":" - "},{"selector": "@s"}]
@@ -26,4 +25,4 @@ tellraw @a [{"text":"The "},{"color":"#8b3fc5","translate":"community.favor.upti
 execute as @a at @s run playsound block.beacon.power_select player @s ~ ~ ~ 1 1.8
 
 # grant advancement
-advancement grant @s only community:activate_favor
+advancement grant @s only community:community_contributor
