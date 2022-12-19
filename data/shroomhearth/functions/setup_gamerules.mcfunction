@@ -26,3 +26,5 @@ gamerule forgiveDeadPlayers true
 gamerule universalAnger false
 gamerule freezeDamage true
 gamerule playersSleepingPercentage 100
+gamerule blockExplosionDropDecay false
+gamerule mobExplosionDropDecay false
