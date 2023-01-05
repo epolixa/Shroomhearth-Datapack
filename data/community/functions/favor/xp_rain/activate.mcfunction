@@ -8,7 +8,7 @@ execute if score favXPRain shroomhearth matches 0 run scoreboard players add fav
 scoreboard players add favXPRain shroomhearth 3600
 
 # create bossbar
-bossbar add community:favor/xp_rain [{"color":"#007900","translate":"community.favor.xp_rain"},{"color":"white","text":" - "},{"selector": "@s"}]
+bossbar add community:favor/xp_rain [{"color":"#00ff00","translate":"community.favor.xp_rain"},{"color":"white","text":" - "},{"selector": "@s"}]
 bossbar set community:favor/xp_rain max 3600
 bossbar set community:favor/xp_rain style progress
 bossbar set community:favor/xp_rain value 3600
@@ -16,7 +16,7 @@ bossbar set community:favor/xp_rain visible true
 bossbar set community:favor/xp_rain players @a[scores={showFavorProgress=1}]
 
 # announce activation
-tellraw @a [{"text":"The "},{"color":"#007900","translate":"community.favor.xp_rain","hoverEvent":{"action":"show_text","contents":{"translate":"community.favor.xp_rain.tooltip"}}},{"color":"white","text":" favor was activated by "},{"selector":"@s"}]
+tellraw @a [{"text":"The "},{"color":"#00ff00","translate":"community.favor.xp_rain","hoverEvent":{"action":"show_text","contents":{"translate":"community.favor.xp_rain.tooltip"}}},{"color":"white","text":" favor was activated by "},{"selector":"@s"}]
 
 # play sound 
 execute as @a at @s run playsound block.beacon.power_select player @s ~ ~ ~ 1 1.8
