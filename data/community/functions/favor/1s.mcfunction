@@ -44,3 +44,6 @@ execute if score favDisableRaids shroomhearth matches 1.. run function community
 
 # Process "Easy" favor
 execute if score favEasy shroomhearth matches 1.. run function community:favor/easy/process
+
+# Process "XP Rain" favor
+execute if score favXPRain shroomhearth matches 1.. run function community:favor/xp_rain/process
