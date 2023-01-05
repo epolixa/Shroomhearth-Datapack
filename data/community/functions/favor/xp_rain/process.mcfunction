@@ -8,7 +8,7 @@ execute as @a at @s run summon minecraft:chicken ~ 320 ~ {Tags:["xp_rain","xp_ra
 schedule function community:favor/xp_rain/reposition_xp_rain_drops 10t
 
 # check if orbs have fallen
-execute as @e[type=minecraft:chicken,tag=xp_rain_falling] at @s unless block ~ ~-0.6 ~ minecraft:air run function community:favor/xp_rain/remove_harness
+execute as @e[type=minecraft:chicken,tag=xp_rain_falling] at @s unless block ~ ~-0.6 ~ minecraft:air run function community:favor/xp_rain/remove_harness_and_replace
 execute as @e[type=minecraft:chicken,tag=xp_rain_falling] at @s unless entity @e[type=experience_orb,tag=xp_rain,distance=..1] run function community:favor/xp_rain/remove_harness
 
 # summon particles on falling orbs
