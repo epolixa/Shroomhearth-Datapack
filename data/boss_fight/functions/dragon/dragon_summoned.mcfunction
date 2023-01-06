@@ -21,5 +21,13 @@ execute as @e[type=minecraft:armor_stand,tag=crystal_marker] at @s run tp @s @e[
 execute positioned 0 64 0 as @a[distance=..128] at @s run summon minecraft:armor_stand ~ ~ ~ {Tags:["summon_marker"],Marker:1b,Invulnerable:1b,Invisible:1b}
 execute positioned 0 64 0 as @r[distance=..128] at @s run summon minecraft:armor_stand ~ ~ ~ {Tags:["summon_marker"],Marker:1b,Invulnerable:1b,Invisible:1b}
 
+# initialize dragon health...
+# capture number of players
+execute store result score dragonPlayers shroomhearth if entity @a[distance=..128]
+# adapt max health to 200+((N-1)*50)
+function boss_fight:dragon/adapt_max_health
+# copy max health to health
+data modify entity @s Health set from entity @s Attributes[{"Name":"minecraft:generic.max_health"}].Base
+
 # tag dragon when done
 tag @s add summoned

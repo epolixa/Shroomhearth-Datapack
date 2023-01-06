@@ -28,6 +28,10 @@ scoreboard objectives add summonMarkers dummy
 # bossHealth - track dragon's phase
 scoreboard objectives remove bossHealth
 scoreboard objectives add bossHealth dummy
+scoreboard objectives remove bossMaxHealth
+scoreboard objectives add bossMaxHealth dummy
+scoreboard objectives remove bossHealthPercent
+scoreboard objectives add bossHealthPercent dummy
 
 # witherInvul - track wither's invul period after being initially created
 scoreboard objectives remove witherInvul
