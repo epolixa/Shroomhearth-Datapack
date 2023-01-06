@@ -8,12 +8,7 @@ execute store result score @s dragonPhase run data get entity @s DragonPhase
 execute store result score dragonPlayers shroomhearth if entity @a[distance=..128]
 
 # adapt max health to 200+((N-1)*50)
-scoreboard players set @s bossMaxHealth 50
-scoreboard players operation @s bossMaxHealth *= dragonPlayers shroomhearth
-scoreboard players add @s bossMaxHealth 150
-data modify storage boss_fight dragon.max_health.Name set value "minecraft:generic.max_health"
-execute store result storage boss_fight dragon.max_health.Base double 1 run scoreboard players get @s bossMaxHealth
-data modify entity @s Attributes[{"Name":"minecraft:generic.max_health"}] set from storage boss_fight dragon.max_health
+function boss_fight:dragon/adapt_max_health
 
 # capture dragon health
 execute store result score @s bossHealth run data get entity @s Health
