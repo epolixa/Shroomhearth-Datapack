@@ -38,7 +38,7 @@ execute positioned 0 64 0 as @a[distance=..128] run function boss_fight:endchant
 execute if score dragonPlayers shroomhearth matches 2.. positioned 0 64 0 as @a[distance=..128] run scoreboard players add @a[distance=..128] harmony 10
 
 # grant solo kill advancement
-execute unless entity @p[distance=1..] if score @s dragonDeaths matches 0 if score shroomhearth dragonPlayers matches ..1 run advancement grant @s only boss_fight:dragon/legendary_battle
+execute unless entity @p[distance=1..] if score @s dragonDeaths matches 0 if score dragonPlayers shroomhearth matches ..1 run advancement grant @s only boss_fight:dragon/legendary_battle
 
 # remove all summoned crying obsidian pillars
 function boss_fight:dragon/cleanup_pillars

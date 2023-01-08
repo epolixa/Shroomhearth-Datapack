@@ -13,10 +13,6 @@ scoreboard objectives add warpThreshold minecraft.custom:minecraft.play_time
 scoreboard objectives remove dragonPhase
 scoreboard objectives add dragonPhase dummy
 
-# dragonPlayers - track number of players involved in dragon fight
-scoreboard objectives remove dragonPlayers
-scoreboard objectives add dragonPlayers dummy
-
 # dragonDeaths - track player deaths since summoning dragon
 scoreboard objectives remove dragonDeaths
 scoreboard objectives add dragonDeaths deathCount
