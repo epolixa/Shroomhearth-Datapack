@@ -36,7 +36,7 @@ carpet setDefault hopperCounters             false
 carpet setDefault huskSpawningInTemples      true
 carpet setDefault interactionUpdates         true
 carpet setDefault lagFreeSpawning            true
-carpet setDefault language                   none
+carpet setDefault language                   en_us
 carpet setDefault leadFix                    true
 carpet setDefault maxEntityCollisions        0
 carpet setDefault mergeTNT                   false
