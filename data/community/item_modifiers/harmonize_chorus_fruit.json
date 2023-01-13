@@ -1,0 +1,16 @@
+[
+    {
+        "function": "minecraft:set_name",
+        "name": {"text":"Harmonized Chorus Fruit","italic":false}
+    },
+    {
+        "function": "minecraft:set_lore",
+        "entity": "this",
+        "lore": [{"selector":"@p"}],
+        "replace": true
+    },
+    {
+        "function": "set_nbt",
+        "tag": "{bityard:\"harmonized_chorus_fruit\",CustomModelData:1,Enchantments:[{id:\"minecraft:infinity\",lvl:1s}],HideFlags:1}"
+    }
+]
