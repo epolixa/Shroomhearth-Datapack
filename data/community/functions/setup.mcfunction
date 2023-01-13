@@ -32,6 +32,12 @@ scoreboard players set favActive shroomhearth 0
 scoreboard objectives remove regenerationDuration
 scoreboard objectives add regenerationDuration dummy
 
+# setup hcfUUID component scores
+scoreboard objectives add hcfUUID1 dummy
+scoreboard objectives add hcfUUID2 dummy
+scoreboard objectives add hcfUUID3 dummy
+scoreboard objectives add hcfUUID4 dummy
+
 # Setup dummy players for favor status
 scoreboard players set favHaste shroomhearth 0
 scoreboard players set favJumpBoost shroomhearth 0
