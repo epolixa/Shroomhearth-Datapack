@@ -16,3 +16,13 @@ scoreboard players set playerCount shroomhearth 0
 # setup general useWarpedFungusStick flag
 scoreboard objectives remove useWarpedFungusStick
 scoreboard objectives add useWarpedFungusStick minecraft.used:minecraft.warped_fungus_on_a_stick
+
+# playerLeft - tracks when the player leaves the server
+scoreboard objectives remove playerLeft
+scoreboard objectives add playerLeft minecraft.custom:minecraft.leave_game
+
+# setup UUID component scores
+scoreboard objectives add UUID1 dummy
+scoreboard objectives add UUID2 dummy
+scoreboard objectives add UUID3 dummy
+scoreboard objectives add UUID4 dummy
