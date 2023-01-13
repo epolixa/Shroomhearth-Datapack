@@ -1,2 +1,4 @@
-# Capture UUID for first time
-function shroomhearth:capture_uuid
+# relog functions
+function shroomhearth:player_relog
+
+# potentially other things for new player?
