@@ -20,7 +20,7 @@ gamerule randomTickSpeed 3
 gamerule reducedDebugInfo false
 gamerule sendCommandFeedback true
 gamerule showDeathMessages true
-gamerule spawnRadius 10
+gamerule spawnRadius 0
 gamerule spectatorsGenerateChunks false
 gamerule forgiveDeadPlayers true
 gamerule universalAnger false

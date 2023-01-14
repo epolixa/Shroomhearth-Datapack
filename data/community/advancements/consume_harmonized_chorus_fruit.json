@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "using_harmonized_chorus_fruit": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "tag": "community:harmonized_chorus_fruit",
+                    "nbt": "{bityard:\"harmonized_chorus_fruit\"}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "community:hcf/consume_harmonized_chorus_fruit"
+    }
+}

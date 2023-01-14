@@ -32,5 +32,8 @@
 				}
 			}
 		}
+	},
+	"rewards": {
+		"function": "shroomhearth:new_player"
 	}
 }
