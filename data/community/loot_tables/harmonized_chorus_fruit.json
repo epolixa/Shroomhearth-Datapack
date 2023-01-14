@@ -9,6 +9,10 @@
                     "weight": 1,
                     "functions": [
                         {
+                            "function": "minecraft:set_count",
+                            "count": 3
+                        },
+                        {
                             "function": "minecraft:set_name",
                             "name": {
                                 "text": "Harmonized Chorus Fruit",
@@ -18,11 +22,7 @@
                         {
                             "function": "minecraft:set_lore",
                             "entity": "this",
-                            "lore": [
-                                {
-                                    "selector": "@s"
-                                }
-                            ],
+                            "lore": [{"selector":"@s","color":"gray","italic":false}],
                             "replace": true
                         },
                         {

@@ -11,6 +11,6 @@
         }
     },
     "rewards": {
-        "function": "community:using_harmonized_chorus_fruit"
+        "function": "community:hcf/using_harmonized_chorus_fruit"
     }
 }
