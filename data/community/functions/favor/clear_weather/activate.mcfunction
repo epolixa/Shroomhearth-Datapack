@@ -3,7 +3,7 @@ clear @s minecraft:ghast_tear{display:{Name:'{"italic":false,"translate":"item.m
 
 # run commands
 weather clear
-gamerule doWeatherCycle false
+gamerule doWeatherCycle true
 
 # update active favors if favor is not already active
 execute if score favClearWeather shroomhearth matches 0 run scoreboard players add favActive shroomhearth 1
