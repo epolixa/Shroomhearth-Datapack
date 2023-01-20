@@ -45,4 +45,7 @@ execute if score favEasy shroomhearth matches 1.. run function community:favor/e
 # Process "XP Rain" favor
 execute if score favXPRain shroomhearth matches 1.. run function community:favor/xp_rain/process
 # Cleanup lingering chickens
-execute unless score favXPRain shroomhearth matches 1.. as @e[type=minecraft:chicken,tag=xp_rain] at @s run function community:favor/xp_rain/remove_harness 
+execute unless score favXPRain shroomhearth matches 1.. as @e[type=minecraft:chicken,tag=xp_rain] at @s run function community:favor/xp_rain/remove_harness
+
+# Process "Clear Weather" favor
+execute if score favClearWeather shroomhearth matches 1.. run function community:favor/clear_weather/process
