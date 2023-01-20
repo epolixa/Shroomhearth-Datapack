@@ -1,5 +1,5 @@
 on: workflow_dispatch
-name: Deploy to Shroomhearth (USA-NY-05-3900X)
+name: Deploy to Bityard (Bloom Host 864e253d)
 jobs:
   web-deploy:
     name: Deploy
