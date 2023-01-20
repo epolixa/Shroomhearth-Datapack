@@ -1,5 +1,5 @@
-# update gamerule
-gamerule doWeatherCycle false
+# allow the weather to be chaotic again
+gamerule doWeatherCycle true
 
 # remove bossbar
 bossbar remove community:favor/clear_weather

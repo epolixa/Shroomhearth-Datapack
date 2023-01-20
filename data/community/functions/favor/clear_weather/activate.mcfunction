@@ -1,9 +1,9 @@
 # Clear 1 charm
 clear @s minecraft:ghast_tear{display:{Name:'{"italic":false,"translate":"item.minecraft.charm"}'},CustomModelData:1,Enchantments:[{id:"minecraft:infinity",lvl:1s}],HideFlags:1} 1
 
-# run commands
+# clear the weather and stop it from cycling
 weather clear
-gamerule doWeatherCycle true
+gamerule doWeatherCycle false
 
 # update active favors if favor is not already active
 execute if score favClearWeather shroomhearth matches 0 run scoreboard players add favActive shroomhearth 1
