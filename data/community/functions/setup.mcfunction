@@ -61,3 +61,4 @@ scoreboard players set favInsomnia shroomhearth 0
 scoreboard players set favDisableRaids shroomhearth 0
 scoreboard players set favEasy shroomhearth 0
 scoreboard players set favXPRain shroomhearth 0
+scoreboard players set favClearWeather shroomhearth 0
