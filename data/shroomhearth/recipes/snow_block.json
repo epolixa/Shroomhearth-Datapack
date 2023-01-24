@@ -1,12 +1,33 @@
 {
     "type": "crafting_shapeless",
     "ingredients": [
-      {
-        "item": "minecraft:snow",
-        "count": 8
-      }
+        {
+            "item": "minecraft:snow"
+        },
+        {
+            "item": "minecraft:snow"
+        },
+        {
+            "item": "minecraft:snow"
+        },
+        {
+            "item": "minecraft:snow"
+        },
+        {
+            "item": "minecraft:snow"
+        },
+        {
+            "item": "minecraft:snow"
+        },
+        {
+            "item": "minecraft:snow"
+        },
+        {
+            "item": "minecraft:snow"
+        }
     ],
     "result": {
-      "item": "minecraft:snow_block"
+        "item": "minecraft:snow_block",
+        "count": 1
     }
-  }
+}
