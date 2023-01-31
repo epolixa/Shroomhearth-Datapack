@@ -33,5 +33,8 @@ execute if score favActive shroomhearth matches 1.. run function community:favor
 # recall whistle - process cast time
 execute as @a[tag=recalling] at @s run function recall:recalling
 
+# sitting - clean up empty seats
+execute if entity @e[tag=seat] run function sitting:1s
+
 # re-schedule
 schedule function shroomhearth:1s 1s

@@ -1,0 +1,31 @@
+{
+    "criteria": {
+        "player_interacted_with_item_frame": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "vehicle": {}
+                            }
+                        }
+                    }
+                ],
+                "entity": {
+                    "type": "minecraft:item_frame",
+                    "nbt": "{Facing:1b}"
+                },
+                "item": {
+                    "items": ["minecraft:air"]
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "sitting:player_interacted_with_item_frame"
+    }
+}
