@@ -1,0 +1,32 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+      "recipes": [
+        "shroomhearth:smoker/popped_chorus_fruit_from_chorus_fruit"
+      ]
+    },
+    "criteria": {
+      "has_material": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": ["minecraft:chorus_fruit"]
+            }
+          ]
+        }
+      },
+      "has_recipe": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "shroomhearth:smoker/popped_chorus_fruit_from_chorus_fruit"
+        }
+      }
+    },
+    "requirements": [
+      [
+        "has_material",
+        "has_recipe"
+      ]
+    ]
+  }
