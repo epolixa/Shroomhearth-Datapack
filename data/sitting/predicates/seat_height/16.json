@@ -5,6 +5,10 @@
         "terms": [
             {
                 "condition": "minecraft:reference",
+                "name": "sitting:seat_height/3"
+            },
+            {
+                "condition": "minecraft:reference",
                 "name": "sitting:seat_height/8"
             },
             {

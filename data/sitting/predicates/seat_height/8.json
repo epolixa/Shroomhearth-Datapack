@@ -13,7 +13,7 @@
             "condition": "location_check",
             "predicate": {
                 "block": {
-                    "tag": "sitting:half_bottom",
+                    "tag": "sitting:8_half_bottom",
                     "state": {"half": "bottom"}
                 }
             }
@@ -22,7 +22,7 @@
             "condition": "location_check",
             "predicate": {
                 "block": {
-                    "tag": "sitting:type_bottom",
+                    "tag": "sitting:8_type_bottom",
                     "state": {"type": "bottom"}
                 }
             }
