@@ -5,6 +5,14 @@
             "condition": "location_check",
             "predicate": {
                 "block": {
+                    "tag": "sitting:11"
+                }
+            }
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
                     "tag": "sitting:11_hanging_false",
                     "state": {"hanging": "false"}
                 }
