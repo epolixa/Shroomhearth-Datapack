@@ -6,5 +6,3 @@ execute as @e[tag=seat,predicate=sitting:empty_seat] at @s run data modify entit
 
 # kill seats that don't have players riding them 
 execute as @e[tag=seat,predicate=sitting:empty_seat] run kill @s
-
-say checking seats

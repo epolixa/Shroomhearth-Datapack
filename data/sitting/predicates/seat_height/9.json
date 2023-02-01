@@ -13,6 +13,15 @@
             "condition": "location_check",
             "predicate": {
                 "block": {
+                    "tag": "sitting:9_hanging_false",
+                    "state": {"hanging": "false"}
+                }
+            }
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
                     "tag": "sitting:9_axis_x_z",
                     "state": {"axis": "x"}
                 }
