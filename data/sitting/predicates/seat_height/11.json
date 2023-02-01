@@ -1,0 +1,14 @@
+{
+    "condition": "minecraft:alternative",
+    "terms": [
+        {
+            "condition": "location_check",
+            "predicate": {
+                "block": {
+                    "tag": "sitting:hanging_false",
+                    "state": {"hanging": "false"}
+                }
+            }
+        }
+    ]
+}

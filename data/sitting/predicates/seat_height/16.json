@@ -1,0 +1,20 @@
+{
+    "condition": "minecraft:inverted",
+    "term": {
+        "condition": "minecraft:alternative",
+        "terms": [
+            {
+                "condition": "minecraft:reference",
+                "name": "sitting:seat_height/8"
+            },
+            {
+                "condition": "minecraft:reference",
+                "name": "sitting:seat_height/9"
+            },
+            {
+                "condition": "minecraft:reference",
+                "name": "sitting:seat_height/11"
+            }
+        ]
+    }
+}

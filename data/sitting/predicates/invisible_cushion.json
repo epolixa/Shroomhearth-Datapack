@@ -1,0 +1,9 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "type": "minecraft:item_frame",
+        "distance": {"absolute": {"max":2}},
+        "nbt": "{Facing:1b,Invisible:true}"
+    }
+}

@@ -1,6 +1,6 @@
 {
     "criteria": {
-        "player_interacted_with_item_frame": {
+        "player_interacted_with_cushion": {
             "trigger": "minecraft:player_interacted_with_entity",
             "conditions": {
                 "player": [
@@ -17,7 +17,8 @@
                 ],
                 "entity": {
                     "type": "minecraft:item_frame",
-                    "nbt": "{Facing:1b}"
+                    "distance": {"absolute": {"max":2}},
+                    "nbt": "{Facing:1b,Invisible:false}"
                 },
                 "item": {
                     "items": ["minecraft:air"]
@@ -26,6 +27,6 @@
         }
     },
     "rewards": {
-        "function": "sitting:player_interacted_with_item_frame"
+        "function": "sitting:player_interacted_with_cushion"
     }
 }
