@@ -15,9 +15,6 @@ execute as @e[type=minecraft:wither_skeleton,limit=3,sort=nearest,tag=!new] run 
 # join mob to wither team so kill message has color
 team join wither @e[tag=wither_thrall,tag=new,limit=3,sort=nearest]
 
-# give persistance tag so mobs dont just despawn
-execute as @e[tag=wither_thrall,tag=new,limit=3,sort=nearest] run data merge entity @s {PersistenceRequired:1b}
-
 # play particles on summoned mobs
 execute as @e[tag=wither_thrall,tag=new,limit=3,sort=nearest] at @s run particle minecraft:soul_fire_flame ~ ~1 ~ 0.1 0 0.1 0.05 20
 
