@@ -1,12 +1,12 @@
 {
-	"parent": "shroomhearth_fabric:community_coordinator",
+	"parent": "community:harmonize",
 	"display": {
 		"icon": {
 			"item": "minecraft:player_head",
 			"nbt": "{SkullOwner:\"Batboy272\"}"
 		},
 		"title": "Batboy272",
-		"description": "Wear netherite boots, black-dyed leather leggings, elytra, and a Wither Skeleton skull",
+		"description": "Wear Netherite Boots, black-dyed Leather Leggings, Elytra, and a Wither Skeleton Skull",
 		"frame": "challenge"
 	},
 	"rewards": {

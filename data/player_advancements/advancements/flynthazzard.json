@@ -1,12 +1,12 @@
 {
-	"parent": "shroomhearth_fabric:community_coordinator",
+	"parent": "community:harmonize",
 	"display": {
 		"icon": {
 			"item": "minecraft:player_head",
 			"nbt": "{SkullOwner:\"FlyntHazzard\"}"
 		},
 		"title": "FlyntHazzard",
-		"description": "Shoot the center of a target block while on fire",
+		"description": "Shoot the center of a Target while on fire",
 		"frame": "challenge"
 	},
 	"rewards": {

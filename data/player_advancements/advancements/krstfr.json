@@ -1,12 +1,12 @@
 {
-	"parent": "shroomhearth_fabric:community_coordinator",
+	"parent": "community:harmonize",
 	"display": {
 		"icon": {
 			"item": "minecraft:player_head",
 			"nbt": "{SkullOwner:\"Krstfr\"}"
 		},
 		"title": "Krstfr",
-		"description": "Wear a carved pumpkin whilst in the viscinity of a dozen Skeleton Horses",
+		"description": "Wear a Carved Pumpkin whilst in the viscinity of a dozen Skeleton Horses",
 		"frame": "challenge"
 	},
 	"rewards": {
