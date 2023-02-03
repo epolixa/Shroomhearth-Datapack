@@ -65,4 +65,5 @@ scoreboard objectives add dragStatSlayTimeSec dummy
 scoreboard objectives add dragStatTotalSlain dummy
 scoreboard objectives add dragStatHits dummy
 scoreboard objectives add dragStatMobs dummy
+scoreboard objectives add dragStatEndermen dummy
 scoreboard objectives add dragStatCrystals dummy

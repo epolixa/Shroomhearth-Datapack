@@ -1,6 +1,7 @@
 # reset fight scores for all involved players
 execute positioned 0 64 0 run scoreboard players set @a[distance=..128] dragonDeaths 0
 execute positioned 0 64 0 run scoreboard players set @a[distance=..128] dragStatMobs 0
+execute positioned 0 64 0 run scoreboard players set @a[distance=..128] dragStatEndermen 0
 execute positioned 0 64 0 run scoreboard players set @a[distance=..128] dragStatCrystals 0
 execute positioned 0 64 0 run scoreboard players set @a[distance=..128] dragStatHits 0
 execute positioned 0 64 0 run scoreboard players set shroomhearth dragStatSlayTime 0

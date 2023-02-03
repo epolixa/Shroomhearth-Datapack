@@ -3,6 +3,7 @@
 
 tellraw @s {"text":"YOUR ENDER DRAGON STATS"}
 
+tellraw @s [{"text": "- Endermen killed: "},{"score":{"name":"@s","objective":"dragStatEndermen"}}]
 tellraw @s [{"text": "- Thrall mobs killed: "},{"score":{"name":"@s","objective":"dragStatMobs"}}]
 #tellraw @s [{"text": "- End Crystals broken: "},{"score":{"name":"@s","objective":"dragStatCrystals"}}]
 # MC-117824 :(
