@@ -28,3 +28,4 @@ gamerule freezeDamage true
 gamerule playersSleepingPercentage 100
 gamerule blockExplosionDropDecay false
 gamerule mobExplosionDropDecay false
+gamerule globalSoundEvents false

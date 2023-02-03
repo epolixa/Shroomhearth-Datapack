@@ -1,7 +1,7 @@
 {
 	"criteria": {
-		"killed_wither": {
-			"trigger": "minecraft:player_killed_entity",
+		"player_hurt_wither": {
+			"trigger": "minecraft:player_hurt_entity",
 			"conditions": {
 				"entity": {
 					"type": "minecraft:wither"
@@ -10,6 +10,6 @@
 		}
 	},
 	"rewards": {
-		"function": "boss_fight:wither/player_kill"
+		"function": "wither:player_hurt_wither"
 	} 
 }

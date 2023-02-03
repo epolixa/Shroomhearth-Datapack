@@ -48,6 +48,6 @@
 		]
 	],	  
 	"rewards": {
-		"function": "boss_fight:wither/player_summon"
+		"function": "wither:summoned_wither"
 	}
 }
