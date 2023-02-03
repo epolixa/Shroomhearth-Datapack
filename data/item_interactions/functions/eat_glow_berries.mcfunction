@@ -2,4 +2,4 @@
 effect give @s glowing 6
 
 # revoke trigger
-advancement revoke @s only glow_berries:eat_glow_berries
+advancement revoke @s only item_interactions:eat_glow_berries
