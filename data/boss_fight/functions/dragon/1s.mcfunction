@@ -1,5 +1,5 @@
 # update bossbar player visibility
-bossbar set boss_fight:dragon_rage players @a[distance=..128]
+bossbar set boss_fight:dragon_rage players @a[predicate=boss_fight:on_main_end_island]
 
 # run dragon functions
 execute as @e[type=minecraft:ender_dragon] at @s run function boss_fight:dragon/1s_dragon

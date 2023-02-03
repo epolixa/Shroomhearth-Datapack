@@ -1,11 +1,11 @@
 # reset fight scores for all involved players
-execute positioned 0 64 0 run scoreboard players set @a[distance=..128] dragonDeaths 0
-execute positioned 0 64 0 run scoreboard players set @a[distance=..128] dragStatMobs 0
-execute positioned 0 64 0 run scoreboard players set @a[distance=..128] dragStatEndermen 0
-execute positioned 0 64 0 run scoreboard players set @a[distance=..128] dragStatCrystals 0
-execute positioned 0 64 0 run scoreboard players set @a[distance=..128] dragStatHits 0
-execute positioned 0 64 0 run scoreboard players set shroomhearth dragStatSlayTime 0
-execute positioned 0 64 0 run scoreboard players set @a[distance=..128] dragonDeaths 0
+scoreboard players set @a[predicate=boss_fight:on_main_end_island] dragonDeaths 0
+scoreboard players set @a[predicate=boss_fight:on_main_end_island] dragStatMobs 0
+scoreboard players set @a[predicate=boss_fight:on_main_end_island] dragStatEndermen 0
+scoreboard players set @a[predicate=boss_fight:on_main_end_island] dragStatCrystals 0
+scoreboard players set @a[predicate=boss_fight:on_main_end_island] dragStatHits 0
+scoreboard players set shroomhearth dragStatSlayTime 0
+scoreboard players set @a[predicate=boss_fight:on_main_end_island] dragonDeaths 0
 
 # summon end crystal marker armor stands
 # 90y is average height of obsidian spikes
@@ -24,12 +24,12 @@ summon minecraft:armor_stand -42 90 -1 {Tags:["crystal_marker"],Invulnerable:1b,
 execute as @e[type=minecraft:armor_stand,tag=crystal_marker] at @s run tp @s @e[type=minecraft:end_crystal,limit=1,sort=nearest]
 
 # summon mob summon armor stands for player count + 1
-execute positioned 0 64 0 as @a[distance=..128] at @s run summon minecraft:armor_stand ~ ~ ~ {Tags:["summon_marker"],Marker:1b,Invulnerable:1b,Invisible:1b}
-execute positioned 0 64 0 as @r[distance=..128] at @s run summon minecraft:armor_stand ~ ~ ~ {Tags:["summon_marker"],Marker:1b,Invulnerable:1b,Invisible:1b}
+execute as @a[predicate=boss_fight:on_main_end_island] at @s run summon minecraft:armor_stand ~ ~ ~ {Tags:["summon_marker"],Marker:1b,Invulnerable:1b,Invisible:1b}
+execute as @r[predicate=boss_fight:on_main_end_island] at @s run summon minecraft:armor_stand ~ ~ ~ {Tags:["summon_marker"],Marker:1b,Invulnerable:1b,Invisible:1b}
 
 # initialize dragon health...
 # capture number of players
-execute store result score dragonPlayers shroomhearth if entity @a[distance=..128]
+execute store result score dragonPlayers shroomhearth if entity @a[predicate=boss_fight:on_main_end_island]
 # adapt max health to 200+((N-1)*50)
 function boss_fight:dragon/adapt_max_health
 # copy max health to health

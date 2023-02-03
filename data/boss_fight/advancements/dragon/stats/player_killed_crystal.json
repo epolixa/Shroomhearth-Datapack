@@ -10,12 +10,12 @@
                         "dimension": "minecraft:the_end",
                         "position": {
                             "x": {
-                                "min": -128,
-                                "max": 128
+                                "min": -200,
+                                "max": 200
                             },
                             "z": {
-                                "min": -128,
-                                "max": 128
+                                "min": -200,
+                                "max": 200
                             }
                         }
                     }

@@ -5,7 +5,7 @@ execute as @s[tag=!summoned] run function boss_fight:dragon/dragon_summoned
 execute store result score @s dragonPhase run data get entity @s DragonPhase
 
 # capture number of players
-execute store result score dragonPlayers shroomhearth if entity @a[distance=..128]
+execute store result score dragonPlayers shroomhearth if entity @a[predicate=boss_fight:on_main_end_island]
 
 # adapt max health to 200+((N-1)*50)
 function boss_fight:dragon/adapt_max_health

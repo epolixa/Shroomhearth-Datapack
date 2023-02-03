@@ -2,7 +2,7 @@
 playsound minecraft:entity.zombie_villager.converted hostile @a ~ ~ ~ 12 1.7
 
 # show actionbar
-execute positioned 0 64 0 run title @a[distance=..128] actionbar {"color":"dark_purple","font":"minecraft:illageralt","bold":true,"text":"RESTORE"}
+title @a[predicate=boss_fight:on_main_end_island] actionbar {"color":"dark_purple","font":"minecraft:illageralt","bold":true,"text":"RESTORE"}
 
 # tag markers that can have crystals
 execute as @e[type=minecraft:armor_stand,tag=crystal_marker] at @s if block ~ ~ ~ minecraft:air unless entity @e[type=minecraft:end_crystal,distance=..3] run tag @s add restorable
