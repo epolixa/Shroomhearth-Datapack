@@ -45,7 +45,7 @@ kill @e[tag=dragon_summon]
 execute unless block 0 65 0 minecraft:dragon_egg run setblock 0 65 0 minecraft:dragon_egg
 
 # grant endchantments for all players in range to equipment in priority: mainhand, offhand, helmet, chestplate, leggings, boots
-execute as @a[predicate=boss_fight:on_main_end_island] run function boss_fight:endchant/attune
+execute as @a[predicate=boss_fight:on_main_end_island] run function endchant:attune
 
 # give 10*n harmony to each player in a group
 execute if score dragonPlayers shroomhearth matches 2.. as @a[predicate=boss_fight:on_main_end_island] run scoreboard players add @a[predicate=boss_fight:on_main_end_island] harmony 10
