@@ -1,18 +1,18 @@
 {
 	"criteria": {
-		"started_raid": {
+		"started": {
 			"trigger": "minecraft:voluntary_exile",
 			"conditions": {
 				"player": [
 					{
 						"condition": "minecraft:reference",
-						"name": "boss_fight:40_minutes_since_raid_start"
+						"name": "pillager_raid:40_minutes_since_raid_start"
 					}
 				]
 			}
 		}
 	},
 	"rewards": {
-		"function": "boss_fight:started_raid"
+		"function": "pillager_raid:started"
 	} 
 }
