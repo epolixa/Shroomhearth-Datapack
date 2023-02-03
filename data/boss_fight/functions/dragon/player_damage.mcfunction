@@ -7,3 +7,6 @@ execute as @e[type=minecraft:ender_dragon,limit=1,sort=nearest,scores={bossHealt
 execute as @e[type=minecraft:ender_dragon,limit=1,sort=nearest,scores={bossHealthPercent=51..70}] run scoreboard players add @s rage 11
 execute as @e[type=minecraft:ender_dragon,limit=1,sort=nearest,scores={bossHealthPercent=71..90}] run scoreboard players add @s rage 7
 execute as @e[type=minecraft:ender_dragon,limit=1,sort=nearest,scores={bossHealthPercent=91..}] run scoreboard players add @s rage 3
+
+# increment hit stat
+scoreboard players add @s dragStatHits 1

@@ -31,3 +31,6 @@ execute store result bossbar boss_fight:dragon_rage value run scoreboard players
 
 # execute powers at max rage
 execute as @s[scores={rage=64..,bossHealthPercent=1..99}] run function boss_fight:dragon/powers/cast
+
+# increment dragStatSlayTime
+scoreboard players add shroomhearth dragStatSlayTime 1

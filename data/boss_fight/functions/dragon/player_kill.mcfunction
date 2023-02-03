@@ -1,6 +1,19 @@
 # announcement
 tellraw @a [{"text":"The "}, {"color":"#cc00fa","text":"Ender Dragon"}, {"text":" was slain by "}, {"selector": "@s"}]
 
+# increment total dragons slain for each player involved
+execute positioned 0 64 0 as @a[distance=..128] run scoreboard players add @s dragStatTotalSlain 1
+
+# capture stats for slay time
+scoreboard players set shroomhearth dragStatSlayTimeSec 60
+scoreboard players operation shroomhearth dragStatSlayTimeMin = shroomhearth dragStatSlayTime
+scoreboard players operation shroomhearth dragStatSlayTimeMin /= shroomhearth dragStatSlayTimeSec
+scoreboard players operation shroomhearth dragStatSlayTimeSec *= shroomhearth dragStatSlayTimeMin
+scoreboard players operation shroomhearth dragStatSlayTime -= shroomhearth dragStatSlayTimeSec
+
+# tell stats to enabled players
+execute positioned 0 64 0 as @a[distance=..128,scores={dragStatEnabled=1..}] run function boss_fight:dragon/stats/tell_stats
+
 # remove bossbar
 bossbar remove boss_fight:dragon_rage
 

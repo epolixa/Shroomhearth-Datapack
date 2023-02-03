@@ -56,3 +56,13 @@ scoreboard objectives add timeSinceLastRaidStart minecraft.custom:minecraft.play
 # timeSinceLastRaidEnd - cooldown for raid announcements per player
 scoreboard objectives remove timeSinceLastRaidEnd
 scoreboard objectives add timeSinceLastRaidEnd minecraft.custom:minecraft.play_time
+
+# ENDER DRAGON FIGHT STATS
+scoreboard objectives add dragStatEnabled dummy
+scoreboard objectives add dragStatSlayTime dummy
+scoreboard objectives add dragStatSlayTimeMin dummy
+scoreboard objectives add dragStatSlayTimeSec dummy
+scoreboard objectives add dragStatTotalSlain dummy
+scoreboard objectives add dragStatHits dummy
+scoreboard objectives add dragStatMobs dummy
+scoreboard objectives add dragStatCrystals dummy

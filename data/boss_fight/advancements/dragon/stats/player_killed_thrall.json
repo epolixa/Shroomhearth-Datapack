@@ -1,0 +1,29 @@
+{
+    "criteria": {
+        "player_killed_thrall": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "team": "dragon",
+                    "type": "#boss_fight:dragon_summon",
+                    "location": {
+                        "dimension": "minecraft:the_end",
+                        "position": {
+                            "x": {
+                                "min": -128,
+                                "max": 128
+                            },
+                            "z": {
+                                "min": -128,
+                                "max": 128
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "boss_fight:dragon/stats/player_killed_thrall"
+    }
+}
