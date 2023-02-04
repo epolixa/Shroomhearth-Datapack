@@ -48,6 +48,9 @@ execute as @e[type=!#ender_dragon:flying,tag=dragon_thrall,tag=new,limit=1,sort=
 execute as @e[type=#ender_dragon:piglins,tag=dragon_thrall,tag=new,limit=1,sort=nearest] run data merge entity @s {IsImmuneToZombification:1b}
 execute as @e[type=#ender_dragon:babies,tag=dragon_thrall,tag=new,limit=1,sort=nearest] run data merge entity @s {Age:0,IsBaby:0b}
 
+# small chance to apply random effect
+execute if predicate shroomhearth:random_chance_20 as @e[tag=dragon_thrall,tag=new,limit=1,sort=nearest] run function ender_dragon:powers/summon/apply_random_effect
+
 # play particles on summoned mobs
 execute as @e[tag=dragon_thrall,tag=new,limit=1,sort=nearest] at @s run particle minecraft:dragon_breath ~ ~1 ~ 0.1 0 0.1 0.05 20 force
 
@@ -58,4 +61,4 @@ execute as @e[tag=dragon_thrall,tag=new,limit=1,sort=nearest] at @s run playsoun
 tag @e[tag=dragon_thrall,limit=1,sort=nearest] remove new
 
 # small chance to summon rider
-execute positioned ~ ~1 ~ run function ender_dragon:powers/summon/summon_random_thrall_rider
+execute if predicate shroomhearth:random_chance_20 positioned ~ ~1 ~ run function ender_dragon:powers/summon/summon_random_thrall_rider

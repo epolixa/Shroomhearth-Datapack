@@ -48,6 +48,9 @@ execute as @e[type=!#ender_dragon:flying,tag=dragon_thrall,tag=new,limit=1,sort=
 execute as @e[type=#ender_dragon:piglins,tag=dragon_thrall,tag=new,limit=1,sort=nearest] run data merge entity @s {IsImmuneToZombification:1b}
 execute as @e[type=#ender_dragon:babies,tag=dragon_thrall,tag=new,limit=1,sort=nearest] run data merge entity @s {Age:0,IsBaby:0b}
 
+# small chance to apply random effect
+execute if predicate shroomhearth:random_chance_20 as @e[tag=dragon_thrall,tag=new,limit=1,sort=nearest] run function ender_dragon:powers/summon/apply_random_effect
+
 # start riding nearest dragon thrall without passenger
 ride @e[tag=dragon_thrall,tag=new,limit=1,sort=nearest] mount @e[tag=dragon_thrall,predicate=ender_dragon:thrall_without_rider,limit=1,sort=nearest,distance=0.1..]
 
