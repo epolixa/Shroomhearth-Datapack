@@ -33,4 +33,4 @@ execute store result bossbar ender_dragon:dragon_rage value run scoreboard playe
 execute as @s[scores={rage=64..,bossHealthPercent=1..99}] run function ender_dragon:powers/cast
 
 # increment dragStatSlayTime
-scoreboard players add shroomhearth dragStatSlayTime 1
+scoreboard players add dragStatSlayTime shroomhearth 1

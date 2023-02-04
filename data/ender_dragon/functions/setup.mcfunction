@@ -31,9 +31,6 @@ scoreboard objectives add bossHealthPercent dummy
 
 # battle stats
 scoreboard objectives add dragStatEnabled dummy
-scoreboard objectives add dragStatSlayTime dummy
-scoreboard objectives add dragStatSlayTimeMin dummy
-scoreboard objectives add dragStatSlayTimeSec dummy
 scoreboard objectives add dragStatTotalSlain dummy
 scoreboard objectives add dragStatHits dummy
 scoreboard objectives add dragStatMobs dummy

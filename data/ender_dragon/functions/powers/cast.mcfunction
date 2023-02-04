@@ -22,7 +22,7 @@ execute as @s[scores={bossHealthPercent=..30}] if score lcg shroomhearth matches
 execute as @s[scores={bossHealthPercent=31..}] if score lcg shroomhearth matches 4 run function ender_dragon:powers/restore
 
 # summon lighting - always uncommon
-execute if score lcg shroomhearth matches 5 run function ender_dragon:powers/strike
+execute if score lcg shroomhearth matches 5 run function ender_dragon:powers/strike/start_sequence
 
 # create pillars - always uncommon
 execute if score lcg shroomhearth matches 6 run function ender_dragon:powers/pillar

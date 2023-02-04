@@ -5,11 +5,11 @@ tellraw @a [{"text":"The "}, {"color":"#cc00fa","text":"Ender Dragon"}, {"text":
 scoreboard players add @a[predicate=ender_dragon:on_main_end_island] dragStatTotalSlain 1
 
 # capture stats for slay time
-scoreboard players set shroomhearth dragStatSlayTimeSec 60
-scoreboard players operation shroomhearth dragStatSlayTimeMin = shroomhearth dragStatSlayTime
-scoreboard players operation shroomhearth dragStatSlayTimeMin /= shroomhearth dragStatSlayTimeSec
-scoreboard players operation shroomhearth dragStatSlayTimeSec *= shroomhearth dragStatSlayTimeMin
-scoreboard players operation shroomhearth dragStatSlayTime -= shroomhearth dragStatSlayTimeSec
+scoreboard players set dragStatSlayTimeSec shroomhearth 60
+scoreboard players operation dragStatSlayTimeMin shroomhearth = dragStatSlayTime shroomhearth
+scoreboard players operation dragStatSlayTimeMin shroomhearth /= dragStatSlayTimeSec shroomhearth
+scoreboard players operation dragStatSlayTimeSec shroomhearth *= dragStatSlayTimeMin shroomhearth
+scoreboard players operation dragStatSlayTime shroomhearth -= dragStatSlayTimeSec shroomhearth
 
 # tell stats to enabled players
 execute as @a[predicate=ender_dragon:on_main_end_island,scores={dragStatEnabled=1..}] run function ender_dragon:tell_stats
