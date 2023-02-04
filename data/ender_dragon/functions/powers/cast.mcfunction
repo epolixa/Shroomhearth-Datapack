@@ -13,13 +13,13 @@ execute as @s[scores={bossHealthPercent=31..90}] if score lcg shroomhearth match
 execute as @s[scores={bossHealthPercent=91..}] if score lcg shroomhearth matches 0..2 run function ender_dragon:powers/summon/start_sequence
 
 # apply effects - more common at medium health
-execute as @s[scores={bossHealthPercent=..30}] if score lcg shroomhearth matches 1 run function ender_dragon:powers/distort
-execute as @s[scores={bossHealthPercent=31..90}] if score lcg shroomhearth matches 2..3 run function ender_dragon:powers/distort
-execute as @s[scores={bossHealthPercent=91..}] if score lcg shroomhearth matches 3 run function ender_dragon:powers/distort
+execute as @s[scores={bossHealthPercent=..30}] if score lcg shroomhearth matches 1 run function ender_dragon:powers/distort/start_sequence
+execute as @s[scores={bossHealthPercent=31..90}] if score lcg shroomhearth matches 2..3 run function ender_dragon:powers/distort/start_sequence
+execute as @s[scores={bossHealthPercent=91..}] if score lcg shroomhearth matches 3 run function ender_dragon:powers/distort/start_sequence
 
 # restore crystal - much more common at low health
-execute as @s[scores={bossHealthPercent=..30}] if score lcg shroomhearth matches 2..4 run function ender_dragon:powers/restore
-execute as @s[scores={bossHealthPercent=31..}] if score lcg shroomhearth matches 4 run function ender_dragon:powers/restore
+execute as @s[scores={bossHealthPercent=..30}] if score lcg shroomhearth matches 2..4 run function ender_dragon:powers/restore/restore
+execute as @s[scores={bossHealthPercent=31..}] if score lcg shroomhearth matches 4 run function ender_dragon:powers/restore/restore
 
 # summon lighting - always uncommon
 execute if score lcg shroomhearth matches 5 run function ender_dragon:powers/strike/start_sequence
