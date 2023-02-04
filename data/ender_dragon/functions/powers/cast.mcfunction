@@ -8,9 +8,9 @@ function shroomhearth:lcg/random
 # run a random power...
 
 # summon mobs - more common until low health, much more common at high health
-execute as @s[scores={bossHealthPercent=..30}] if score lcg shroomhearth matches 0 run function ender_dragon:powers/summon
-execute as @s[scores={bossHealthPercent=31..90}] if score lcg shroomhearth matches 0..1 run function ender_dragon:powers/summon
-execute as @s[scores={bossHealthPercent=91..}] if score lcg shroomhearth matches 0..2 run function ender_dragon:powers/summon
+execute as @s[scores={bossHealthPercent=..30}] if score lcg shroomhearth matches 0 run function ender_dragon:powers/summon/start_sequence
+execute as @s[scores={bossHealthPercent=31..90}] if score lcg shroomhearth matches 0..1 run function ender_dragon:powers/summon/start_sequence
+execute as @s[scores={bossHealthPercent=91..}] if score lcg shroomhearth matches 0..2 run function ender_dragon:powers/summon/start_sequence
 
 # apply effects - more common at medium health
 execute as @s[scores={bossHealthPercent=..30}] if score lcg shroomhearth matches 1 run function ender_dragon:powers/distort

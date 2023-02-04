@@ -11,7 +11,7 @@ execute as @e[type=minecraft:armor_stand,tag=crystal_marker] at @s if block ~ ~ 
 execute at @e[type=minecraft:armor_stand,tag=crystal_marker,tag=restorable,limit=1,sort=random] run summon minecraft:end_crystal ~ ~ ~ {Tags:["new_summon"],ShowBottom:1b}
 
 # sometimes build a cage around crystal
-execute as @e[type=minecraft:end_crystal,tag=new_summon] at @s if predicate ender_dragon:random_chance_20 run function ender_dragon:powers/build_cage
+execute as @e[type=minecraft:end_crystal,tag=new_summon] at @s if predicate shroomhearth:random_chance_20 run function ender_dragon:powers/build_cage
 
 # play particles and sound at end crystal location
 execute as @e[type=minecraft:end_crystal,tag=new_summon] at @s run particle minecraft:explosion ~ ~ ~ 2.5 2.5 2.5 0 16

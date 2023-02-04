@@ -52,7 +52,7 @@ execute as @e[type=#ender_dragon:babies,tag=new_summon,limit=1,sort=nearest] run
 execute as @e[tag=new_summon,limit=1,sort=nearest] at @s run particle minecraft:dragon_breath ~ ~1 ~ 0.1 0 0.1 0.05 20 force
 
 # play sound on summoned mobs
-execute as @e[tag=new_summon,limit=1,sort=nearest] at @s run playsound minecraft:entity.enderman.teleport hostile @a ~ ~ ~ 1 0.9
+execute as @e[tag=new_summon,limit=1,sort=nearest] at @s run playsound minecraft:entity.enderman.teleport hostile @a ~ ~ ~ 2 1.2
 
 # remove new spawn tags
 tag @e[tag=dragon_summon,limit=1,sort=nearest] remove new_summon
