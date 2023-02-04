@@ -42,17 +42,14 @@ execute as @e[type=#ender_dragon:dragon_summon,limit=1,sort=nearest,tag=!new_sum
 team join dragon @e[tag=new_summon,limit=1,sort=nearest]
 
 # give persistance tag so mobs dont just despawn
-execute as @e[type=!#ender_dragon:flying,tag=new_summon,limit=1,sort=nearest] run data merge entity @s {PersistenceRequired:1b}
+execute as @e[type=!#ender_dragon:flying,tag=dragon_thrall,tag=new,limit=1,sort=nearest] run data merge entity @s {PersistenceRequired:1b}
 
 # fix data for certain mobs
-execute as @e[type=#ender_dragon:piglins,tag=new_summon,limit=1,sort=nearest] run data merge entity @s {IsImmuneToZombification:1b}
-execute as @e[type=#ender_dragon:babies,tag=new_summon,limit=1,sort=nearest] run data merge entity @s {Age:0,IsBaby:0b}
+execute as @e[type=#ender_dragon:piglins,tag=dragon_thrall,tag=new,limit=1,sort=nearest] run data merge entity @s {IsImmuneToZombification:1b}
+execute as @e[type=#ender_dragon:babies,tag=dragon_thrall,tag=new,limit=1,sort=nearest] run data merge entity @s {Age:0,IsBaby:0b}
 
-# play particles on summoned mobs
-execute as @e[tag=new_summon,limit=1,sort=nearest] at @s run particle minecraft:dragon_breath ~ ~1 ~ 0.1 0 0.1 0.05 20 force
-
-# play sound on summoned mobs
-execute as @e[tag=new_summon,limit=1,sort=nearest] at @s run playsound minecraft:entity.enderman.teleport hostile @a ~ ~ ~ 2 1.2
+# start riding nearest dragon thrall without passenger
+ride @e[tag=dragon_thrall,tag=new,limit=1,sort=nearest] mount @e[tag=dragon_thrall,predicate=ender_dragon:thrall_without_rider,limit=1,sort=nearest,distance=0.1..]
 
 # remove new spawn tags
-tag @e[tag=dragon_summon,limit=1,sort=nearest] remove new_summon
+tag @e[tag=dragon_thrall,limit=1,sort=nearest] remove new

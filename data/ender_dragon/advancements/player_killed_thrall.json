@@ -5,7 +5,7 @@
             "conditions": {
                 "entity": {
                     "team": "dragon",
-                    "type": "#ender_dragon:dragon_summon",
+                    "type": "#ender_dragon:dragon_thralls",
                     "location": {
                         "dimension": "minecraft:the_end",
                         "position": {

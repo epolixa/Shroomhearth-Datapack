@@ -5,8 +5,7 @@ execute as @s[tag=!summoned] run function ender_dragon:setup_dragon
 execute store result score @s dragonPhase run data get entity @s DragonPhase
 
 # capture number of players
-#execute store result score dragonPlayers shroomhearth if entity @a[predicate=ender_dragon:on_main_end_island]
-scoreboard players set dragonPlayers shroomhearth 5
+execute store result score dragonPlayers shroomhearth if entity @a[predicate=ender_dragon:on_main_end_island]
 
 # adapt max health to 200+((N-1)*50)
 function ender_dragon:adapt_max_health

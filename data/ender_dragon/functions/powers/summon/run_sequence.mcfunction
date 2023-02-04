@@ -2,7 +2,7 @@
 execute as @e[tag=summon] at @s run function ender_dragon:powers/juggle_power_target
 
 # summon mob at marker
-execute as @e[tag=summon] at @s run function ender_dragon:powers/summon/summon_random_mob
+execute as @e[tag=summon] at @s run function ender_dragon:powers/summon/summon_random_thrall
 
 # decrement sequence score
 scoreboard players remove summonSequence shroomhearth 1
