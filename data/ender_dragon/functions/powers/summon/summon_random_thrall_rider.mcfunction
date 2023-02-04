@@ -35,8 +35,8 @@ execute if score lcg shroomhearth matches 26 run summon minecraft:shulker ~ ~ ~
 scoreboard players set lcg shroomhearth -1
 
 # tag mob that just spawned
-execute as @e[type=#ender_dragon:dragon_thrall,limit=1,sort=nearest,tag=!dragon_thrall] run tag @s add dragon_thrall
-execute as @e[type=#ender_dragon:dragon_thrall,limit=1,sort=nearest,tag=!new] run tag @s add new
+execute as @e[type=#ender_dragon:dragon_thralls,limit=1,sort=nearest,tag=!dragon_thrall] run tag @s add dragon_thrall
+execute as @e[type=#ender_dragon:dragon_thralls,limit=1,sort=nearest,tag=!new] run tag @s add new
 
 # join mob to dragon team so kill message has color
 team join dragon @e[tag=dragon_thrall,tag=new,limit=1,sort=nearest]
