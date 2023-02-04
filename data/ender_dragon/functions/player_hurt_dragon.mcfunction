@@ -10,3 +10,6 @@ execute as @e[type=minecraft:ender_dragon,limit=1,sort=nearest,scores={bossHealt
 
 # increment hit stat
 scoreboard players add @s dragStatHits 1
+
+# cause any riding players to dismount
+execute as @e[type=ender_dragon] at @s as @p[predicate=ender_dragon:player_without_vehicle] run ride @s dismount
