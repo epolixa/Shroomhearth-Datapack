@@ -33,13 +33,13 @@ execute store result score shroomhearth summonMarkers if entity @e[type=minecraf
 kill @e[type=minecraft:armor_stand,tag=summon_marker]
 
 # fix for slimes that didn't inherit tags
-tag @e[type=#ender_dragon:slimes,predicate=ender_dragon:on_main_end_island] add dragon_summon
+tag @e[type=#ender_dragon:slimes,predicate=ender_dragon:on_main_end_island] add dragon_thrall
 
 # fix for slimes so they don't make smaller ones when they die
-execute as @e[type=#ender_dragon:slimes,tag=dragon_summon] run data merge entity @s {Size:0}
+execute as @e[type=#ender_dragon:slimes,tag=dragon_thrall] run data merge entity @s {Size:0}
 
 # kill all dragon summons
-kill @e[tag=dragon_summon]
+kill @e[tag=dragon_thrall]
 
 # setblock dragon egg at pedestal
 execute unless block 0 65 0 minecraft:dragon_egg run setblock 0 65 0 minecraft:dragon_egg

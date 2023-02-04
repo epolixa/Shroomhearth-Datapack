@@ -35,11 +35,11 @@ execute if score lcg shroomhearth matches 26 run summon minecraft:shulker ~ ~ ~
 scoreboard players set lcg shroomhearth -1
 
 # tag mob that just spawned
-execute as @e[type=#ender_dragon:dragon_summon,limit=1,sort=nearest,tag=!dragon_summon] run tag @s add dragon_summon
-execute as @e[type=#ender_dragon:dragon_summon,limit=1,sort=nearest,tag=!new_summon] run tag @s add new_summon
+execute as @e[type=#ender_dragon:dragon_thrall,limit=1,sort=nearest,tag=!dragon_thrall] run tag @s add dragon_thrall
+execute as @e[type=#ender_dragon:dragon_thrall,limit=1,sort=nearest,tag=!new] run tag @s add new
 
 # join mob to dragon team so kill message has color
-team join dragon @e[tag=new_summon,limit=1,sort=nearest]
+team join dragon @e[tag=dragon_thrall,tag=new,limit=1,sort=nearest]
 
 # give persistance tag so mobs dont just despawn
 execute as @e[type=!#ender_dragon:flying,tag=dragon_thrall,tag=new,limit=1,sort=nearest] run data merge entity @s {PersistenceRequired:1b}
