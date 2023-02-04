@@ -19,11 +19,10 @@ scoreboard players operation @s bossHealthPercent /= @s bossMaxHealth
 # play particles on pillar gravity
 execute as @e[tag=pillar_gravity] at @s run particle dragon_breath ~ ~2 ~ 0 1 0 0.05 4
 
-# increment rage by 1 if below half health
-scoreboard players add @s[scores={bossHealthPercent=1..50}] rage 1
-
-# increment rage by 1 extra if critically low
-scoreboard players add @s[scores={bossHealth=1..20}] rage 1
+# passive rage gain at health levels
+scoreboard players add @s[scores={bossHealthPercent=51..75}] rage 1
+scoreboard players add @s[scores={bossHealthPercent=26..50}] rage 2
+scoreboard players add @s[scores={bossHealthPercent=1..25}] rage 3
 
 # update bossbar
 bossbar set ender_dragon:dragon_rage max 64
