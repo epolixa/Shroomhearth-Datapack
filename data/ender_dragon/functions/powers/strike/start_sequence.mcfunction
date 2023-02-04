@@ -12,7 +12,7 @@ scoreboard players operation strikeSequence shroomhearth += dragonPlayers shroom
 scoreboard players add strikeSequence shroomhearth 1
 
 # setup target armor stand
-execute unless entity @e[tag=strike] run summon minecraft:armor_stand ~ ~ ~ {Tags:["power_target","strike"],Marker:1b,Invulnerable:1b,Invisible:1b}
+execute unless entity @e[tag=strike_target] run summon minecraft:armor_stand ~ ~ ~ {Tags:["power_target","strike_target"],Marker:1b,Invulnerable:1b,Invisible:1b}
 
 # kickoff sequence
 function ender_dragon:powers/strike/run_sequence

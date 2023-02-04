@@ -25,7 +25,7 @@ execute as @s[scores={bossHealthPercent=31..}] if score lcg shroomhearth matches
 execute if score lcg shroomhearth matches 5 run function ender_dragon:powers/strike/start_sequence
 
 # create pillars - always uncommon
-execute if score lcg shroomhearth matches 6 run function ender_dragon:powers/pillar
+execute if score lcg shroomhearth matches 6 run function ender_dragon:powers/pillar/start_sequence
 
 # transmute blocks - always uncommon
 # disabling this for now, may revisit when end has some kind of hazard block

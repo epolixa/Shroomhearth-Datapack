@@ -12,7 +12,7 @@ scoreboard players operation summonSequence shroomhearth += dragonPlayers shroom
 scoreboard players add summonSequence shroomhearth 1
 
 # setup target armor stand
-execute unless entity @e[tag=summon] run summon minecraft:armor_stand ~ ~ ~ {Tags:["power_target","summon"],Marker:1b,Invulnerable:1b,Invisible:1b}
+execute unless entity @e[tag=summon_target] run summon minecraft:armor_stand ~ ~ ~ {Tags:["power_target","summon_target"],Marker:1b,Invulnerable:1b,Invisible:1b}
 
 # kickoff sequence
 function ender_dragon:powers/summon/run_sequence

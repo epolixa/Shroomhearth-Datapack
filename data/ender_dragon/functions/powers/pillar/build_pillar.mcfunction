@@ -1,5 +1,5 @@
 # merge data to enderman
-data merge entity @s {DeathTime:19, DeathLootTable:"minecraft:empty", Silent:true}
+data merge entity @s {DeathTime:19,DeathLootTable:"minecraft:empty",Silent:true}
 
 # kill enderman
 kill @s
@@ -14,4 +14,4 @@ summon minecraft:armor_stand ~ ~ ~ {Marker:true,Invisible:true,Tags:["pillar_mar
 particle minecraft:dragon_breath ~ ~2 ~ 0.5 2 0.5 0.05 20 force
 
 # play sound on pillars
-playsound minecraft:entity.enderman.death hostile @a ~ ~ ~ 1 0.7
+playsound minecraft:entity.enderman.hurt hostile @a ~ ~ ~ 4 0.8
