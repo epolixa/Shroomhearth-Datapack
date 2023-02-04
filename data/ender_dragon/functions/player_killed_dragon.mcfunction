@@ -23,14 +23,11 @@ scoreboard players set dragonSlain shroomhearth 1
 # kill end crystal marker armor stands
 kill @e[type=minecraft:armor_stand,tag=crystal_marker]
 
+# kill all power targets (if any remain)
+kill @e[tag=power_target]
+
 # capture number of players
 execute store result score dragonPlayers shroomhearth if entity @a[predicate=ender_dragon:on_main_end_island]
-
-# capture number of summon markers
-execute store result score shroomhearth summonMarkers if entity @e[type=minecraft:armor_stand,tag=summon_marker]
-
-# kill summon markers
-kill @e[type=minecraft:armor_stand,tag=summon_marker]
 
 # fix for slimes that didn't inherit tags
 tag @e[type=#ender_dragon:slimes,predicate=ender_dragon:on_main_end_island] add dragon_thrall
@@ -57,7 +54,7 @@ execute unless entity @p[predicate=ender_dragon:on_main_end_island,distance=0.1.
 function ender_dragon:powers/pillar/cleanup_pillars
 
 # remove all transmuted blocks
-function ender_dragon:cleanup_transmutes
+function ender_dragon:powers/transmute/cleanup_transmutes
 
 # revoke advancement
 advancement revoke @s only ender_dragon:player_killed_dragon
