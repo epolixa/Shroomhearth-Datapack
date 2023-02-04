@@ -12,9 +12,6 @@ scoreboard players set dragonSlain shroomhearth 1
 # rage - timer for boss mod cooldown abilities
 scoreboard objectives add rage dummy
 
-# warpThreshold - buffers players getting warped
-scoreboard objectives add warpThreshold minecraft.custom:minecraft.play_time
-
 # dragonPhase - track dragon's phase
 scoreboard objectives add dragonPhase dummy
 
