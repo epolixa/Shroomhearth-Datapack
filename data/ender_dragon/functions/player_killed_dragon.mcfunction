@@ -45,7 +45,7 @@ execute unless block 0 65 0 minecraft:dragon_egg run setblock 0 65 0 minecraft:d
 execute as @a[predicate=ender_dragon:on_main_end_island] run function endchant:attune
 
 # give 10*n harmony to each player in a group
-execute if score dragonPlayers shroomhearth matches 2.. as @a[predicate=ender_dragon:on_main_end_island] run scoreboard players add @a[predicate=ender_dragon:on_main_end_island] harmony 10
+execute if score dragonPlayers shroomhearth matches 2.. as @a[predicate=ender_dragon:on_main_end_island] at @s run scoreboard players add @a[predicate=ender_dragon:on_main_end_island,distance=0.1..] harmony 10
 
 # grant solo kill advancement
 execute unless entity @p[predicate=ender_dragon:on_main_end_island,distance=0.1..] if score dragonPlayers shroomhearth matches ..1 run advancement grant @s[scores={dragonDeaths=0}] only ender_dragon:legendary_battle
