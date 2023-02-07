@@ -18,9 +18,6 @@ scoreboard objectives add dragonPhase dummy
 # dragonDeaths - track player deaths since summoning dragon
 scoreboard objectives add dragonDeaths deathCount
 
-# summonMarkers - track number of markers created for players
-scoreboard objectives add summonMarkers dummy
-
 # bossHealth - track dragon's phase
 scoreboard objectives add bossHealth dummy
 scoreboard objectives add bossMaxHealth dummy
