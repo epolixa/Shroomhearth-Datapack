@@ -2,7 +2,7 @@
 title @a[predicate=ender_dragon:on_main_end_island] actionbar {"color":"dark_purple","font":"minecraft:illageralt","bold":true,"text":"STRIKE"}
 
 # play sound
-playsound minecraft:item.trident.thunder hostile @a ~ ~ ~ 12 0.7
+playsound minecraft:item.trident.thunder hostile @a[predicate=ender_dragon:on_main_end_island] ~ ~ ~ 12 0.7
 
 # expend rage
 scoreboard players remove @s rage 32

@@ -1,5 +1,5 @@
 # play sound
-playsound minecraft:block.beacon.power_select hostile @a ~ ~ ~ 12 1.6
+playsound minecraft:block.beacon.power_select hostile @a[predicate=ender_dragon:on_main_end_island] ~ ~ ~ 12 1.6
 
 # show actionbar
 title @a[predicate=ender_dragon:on_main_end_island] actionbar {"color":"dark_purple","font":"minecraft:illageralt","bold":true,"text":"TRANSMUTE"}

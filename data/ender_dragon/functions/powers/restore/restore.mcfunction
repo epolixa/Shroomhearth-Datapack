@@ -1,5 +1,5 @@
 # play sound
-playsound minecraft:entity.zombie_villager.converted hostile @a ~ ~ ~ 12 1.7
+playsound minecraft:entity.zombie_villager.converted hostile @a[predicate=ender_dragon:on_main_end_island] ~ ~ ~ 12 1.7
 
 # show actionbar
 title @a[predicate=ender_dragon:on_main_end_island] actionbar {"color":"dark_purple","font":"minecraft:illageralt","bold":true,"text":"RESTORE"}

@@ -2,7 +2,7 @@
 title @a[predicate=ender_dragon:on_main_end_island] actionbar {"color":"dark_purple","font":"minecraft:illageralt","bold":true,"text":"DISTORT"}
 
 # play sound
-playsound minecraft:entity.elder_guardian.curse hostile @a ~ ~ ~ 12 0.7
+playsound minecraft:entity.elder_guardian.curse hostile @a[predicate=ender_dragon:on_main_end_island] ~ ~ ~ 12 0.7
 
 # expend rage
 scoreboard players remove @s rage 48
