@@ -1,3 +1,6 @@
+# revoke advancement
+advancement revoke @s only ender_dragon:player_killed_dragon
+
 # announcement
 tellraw @a [{"text":"The "}, {"color":"#cc00fa","text":"Ender Dragon"}, {"text":" was slain by "}, {"selector": "@s"}]
 
@@ -38,14 +41,8 @@ execute as @e[type=#ender_dragon:slimes,tag=dragon_thrall] run data merge entity
 # kill all dragon summons
 kill @e[tag=dragon_thrall]
 
-# setblock dragon egg at pedestal
-execute unless block 0 65 0 minecraft:dragon_egg run setblock 0 65 0 minecraft:dragon_egg
-
-# grant endchantments for all players in range to equipment in priority: mainhand, offhand, helmet, chestplate, leggings, boots
-execute as @a[predicate=ender_dragon:on_main_end_island] run function endchant:attune
-
-# give 10*n harmony to each player in a group
-execute if score dragonPlayers shroomhearth matches 2.. as @a[predicate=ender_dragon:on_main_end_island] at @s run scoreboard players add @a[predicate=ender_dragon:on_main_end_island,distance=0.1..] harmony 10
+# give 10 harmony to each other player in a group
+execute as @a[predicate=ender_dragon:on_main_end_island] at @s run scoreboard players add @a[predicate=ender_dragon:on_main_end_island,distance=0.1..] harmony 10
 
 # grant solo kill advancement
 execute unless entity @p[predicate=ender_dragon:on_main_end_island,distance=0.1..] if score dragonPlayers shroomhearth matches ..1 run advancement grant @s[scores={dragonDeaths=0}] only ender_dragon:legendary_battle
@@ -56,5 +53,5 @@ function ender_dragon:powers/pillar/cleanup_pillars
 # remove all transmuted blocks
 function ender_dragon:powers/transmute/cleanup_transmutes
 
-# revoke advancement
-advancement revoke @s only ender_dragon:player_killed_dragon
+# kickoff checks for dissolve
+function ender_dragon:check_dissolved

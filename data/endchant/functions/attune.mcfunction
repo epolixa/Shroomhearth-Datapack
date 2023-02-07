@@ -41,5 +41,8 @@ execute unless entity @s[tag=endchant] unless predicate endchant:endchanted/legs
 # feet
 execute unless entity @s[tag=endchant] unless predicate endchant:endchanted/feet if predicate endchant:equipped/feet/boots run function endchant:feet/boots
 
+# show a message if player did not receive an endchant
+execute unless entity @s[tag=endchant] run tellraw @s [{"color":"white","text":"The "},{"color":"#cc00fa","text":"Ender Dragon"},{"color":"white","text":"'s power dissipates"}]
+
 # remove tag
 tag @s remove endchant
