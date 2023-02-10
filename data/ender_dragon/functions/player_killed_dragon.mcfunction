@@ -4,6 +4,9 @@ advancement revoke @s only ender_dragon:player_killed_dragon
 # announcement
 tellraw @a [{"text":"The "}, {"color":"#cc00fa","text":"Ender Dragon"}, {"text":" was slain by "}, {"selector": "@s"}]
 
+# increment hit stat
+scoreboard players add @s dragStatHits 1
+
 # increment total dragons slain for each player involved
 scoreboard players add @a[predicate=ender_dragon:on_main_end_island] dragStatTotalSlain 1
 
