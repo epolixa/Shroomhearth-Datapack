@@ -23,10 +23,6 @@ summon minecraft:armor_stand -42 90 -1 {Tags:["crystal_marker"],Invulnerable:1b,
 # set armor stands to end crystal positions
 execute as @e[type=minecraft:armor_stand,tag=crystal_marker] at @s run tp @s @e[type=minecraft:end_crystal,limit=1,sort=nearest]
 
-# summon mob summon armor stands for player count + 1
-execute as @a[predicate=ender_dragon:on_main_end_island] at @s run summon minecraft:armor_stand ~ ~ ~ {Tags:["summon_marker"],Marker:1b,Invulnerable:1b,Invisible:1b}
-execute as @r[predicate=ender_dragon:on_main_end_island] at @s run summon minecraft:armor_stand ~ ~ ~ {Tags:["summon_marker"],Marker:1b,Invulnerable:1b,Invisible:1b}
-
 # initialize dragon health...
 # capture number of players
 execute store result score dragonPlayers shroomhearth if entity @a[predicate=ender_dragon:on_main_end_island]
