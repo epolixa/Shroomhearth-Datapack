@@ -5,4 +5,4 @@ execute in minecraft:the_end positioned 0 60 0 as @e[type=minecraft:enderman,lim
 scoreboard players remove pillarSequence shroomhearth 1
 
 # re-schedule if value remains
-execute if score pillarSequence shroomhearth matches 1.. run schedule function ender_dragon:powers/pillar/run_sequence 7t
+execute if score pillarSequence shroomhearth matches 1.. run schedule function ender_dragon:powers/pillar/run_sequence 10t

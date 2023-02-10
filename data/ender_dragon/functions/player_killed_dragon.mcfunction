@@ -40,6 +40,7 @@ execute as @e[type=#ender_dragon:slimes,tag=dragon_thrall] run data merge entity
 
 # kill all dragon summons
 kill @e[tag=dragon_thrall]
+kill @e[tag=dragon_distortion]
 
 # give 10 harmony to each other player in a group
 execute as @a[predicate=ender_dragon:on_main_end_island] at @s run scoreboard players add @a[predicate=ender_dragon:on_main_end_island,distance=0.1..] harmony 10

@@ -12,4 +12,7 @@ execute as @e[type=minecraft:ender_dragon,limit=1,sort=nearest,scores={bossHealt
 scoreboard players add @s dragStatHits 1
 
 # cause any riding players to dismount
-execute as @e[type=ender_dragon] at @s as @p[predicate=ender_dragon:player_without_vehicle] run ride @s dismount
+execute as @e[type=ender_dragon,limit=1,sort=nearest] at @s as @p[predicate=ender_dragon:player_without_vehicle] run ride @s dismount
+
+# small chance to teleport dragon
+execute as @e[type=ender_dragon,limit=1,sort=nearest] at @s if predicate ender_dragon:circling if predicate shroomhearth:random_chance_20 run function ender_dragon:warp_dragon_out

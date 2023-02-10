@@ -11,4 +11,4 @@ scoreboard players remove summonSequence shroomhearth 1
 execute if score summonSequence shroomhearth matches ..0 run kill @e[tag=summon_target]
 
 # re-schedule if value remains
-execute if score summonSequence shroomhearth matches 1.. run schedule function ender_dragon:powers/summon/run_sequence 7t
+execute if score summonSequence shroomhearth matches 1.. run schedule function ender_dragon:powers/summon/run_sequence 10t
