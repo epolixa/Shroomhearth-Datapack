@@ -1,8 +1,8 @@
 # Clear 1 charm
 clear @s minecraft:ghast_tear{display:{Name:'{"italic":false,"translate":"item.minecraft.charm"}'},CustomModelData:1,Enchantments:[{id:"minecraft:infinity",lvl:1s}],HideFlags:1} 1
 
-# add value - 3600 seconds in an hour
-scoreboard players add favNightVision shroomhearth 3600
+# add value
+scoreboard players add favNightVision shroomhearth 2400
 
 # update the new max value for bossbar
 execute store result bossbar community:favor/night_vision max run scoreboard players get favNightVision shroomhearth

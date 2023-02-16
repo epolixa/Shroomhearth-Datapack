@@ -4,14 +4,14 @@ clear @s minecraft:ghast_tear{display:{Name:'{"italic":false,"translate":"item.m
 # update active favors if favor is not already active
 scoreboard players add favActive shroomhearth 1
 
-# add value - 3600 seconds in an hour
-scoreboard players add favHaste shroomhearth 3600
+# add value
+scoreboard players add favHaste shroomhearth 2400
 
 # create bossbar
 bossbar add community:favor/haste [{"color":"#D9C043","translate":"community.favor.haste"},{"color":"white","text":" - "},{"selector": "@s"}]
-bossbar set community:favor/haste max 3600
+bossbar set community:favor/haste max 2400
 bossbar set community:favor/haste style progress
-bossbar set community:favor/haste value 3600
+bossbar set community:favor/haste value 2400
 bossbar set community:favor/haste visible true
 bossbar set community:favor/haste players @a[scores={showFavorProgress=1}]
 

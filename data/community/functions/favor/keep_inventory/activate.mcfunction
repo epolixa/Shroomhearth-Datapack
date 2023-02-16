@@ -7,14 +7,14 @@ gamerule keepInventory true
 # update active favors if favor is not already active
 execute if score favKeepInventory shroomhearth matches 0 run scoreboard players add favActive shroomhearth 1
 
-# add value - 3600 seconds in an hour
-scoreboard players add favKeepInventory shroomhearth 3600
+# add value
+scoreboard players add favKeepInventory shroomhearth 2400
 
 # create bossbar
 bossbar add community:favor/keep_inventory [{"color":"#c6c6c6","translate":"community.favor.keep_inventory"},{"color":"white","text":" - "},{"selector": "@s"}]
-bossbar set community:favor/keep_inventory max 3600
+bossbar set community:favor/keep_inventory max 2400
 bossbar set community:favor/keep_inventory style progress
-bossbar set community:favor/keep_inventory value 3600
+bossbar set community:favor/keep_inventory value 2400
 bossbar set community:favor/keep_inventory visible true
 bossbar set community:favor/keep_inventory players @a[scores={showFavorProgress=1}]
 

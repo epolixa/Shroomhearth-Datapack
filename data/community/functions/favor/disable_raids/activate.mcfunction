@@ -8,14 +8,14 @@ gamerule disableRaids true
 # update active favors if favor is not already active
 execute if score favDisableRaids shroomhearth matches 0 run scoreboard players add favActive shroomhearth 1
 
-# add value - 3600 seconds in an hour
-scoreboard players add favDisableRaids shroomhearth 3600
+# add value
+scoreboard players add favDisableRaids shroomhearth 2400
 
 # create bossbar
 bossbar add community:favor/disable_raids [{"color":"#5a2f38","translate":"community.favor.disable_raids"},{"color":"white","text":" - "},{"selector": "@s"}]
-bossbar set community:favor/disable_raids max 3600
+bossbar set community:favor/disable_raids max 2400
 bossbar set community:favor/disable_raids style progress
-bossbar set community:favor/disable_raids value 3600
+bossbar set community:favor/disable_raids value 2400
 bossbar set community:favor/disable_raids visible true
 bossbar set community:favor/disable_raids players @a[scores={showFavorProgress=1}]
 

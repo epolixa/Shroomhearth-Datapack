@@ -4,14 +4,14 @@ clear @s minecraft:ghast_tear{display:{Name:'{"italic":false,"translate":"item.m
 # update active favors if favor is not already active
 scoreboard players add favActive shroomhearth 1
 
-# add value - 3600 seconds in an hour
-scoreboard players add favWaterBreathing shroomhearth 3600
+# add value
+scoreboard players add favWaterBreathing shroomhearth 2400
 
 # create bossbar
 bossbar add community:favor/water_breathing [{"color":"#2E5299","translate":"community.favor.water_breathing"},{"color":"white","text":" - "},{"selector": "@s"}]
-bossbar set community:favor/water_breathing max 3600
+bossbar set community:favor/water_breathing max 2400
 bossbar set community:favor/water_breathing style progress
-bossbar set community:favor/water_breathing value 3600
+bossbar set community:favor/water_breathing value 2400
 bossbar set community:favor/water_breathing visible true
 bossbar set community:favor/water_breathing players @a[scores={showFavorProgress=1}]
 

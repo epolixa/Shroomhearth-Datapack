@@ -7,14 +7,14 @@ gamerule doInsomnia false
 # update active favors if favor is not already active
 execute if score favInsomnia shroomhearth matches 0 run scoreboard players add favActive shroomhearth 1
 
-# add value - 3600 seconds in an hour
-scoreboard players add favInsomnia shroomhearth 3600
+# add value
+scoreboard players add favInsomnia shroomhearth 2400
 
 # create bossbar
 bossbar add community:favor/insomnia [{"color":"#43538d","translate":"community.favor.insomnia"},{"color":"white","text":" - "},{"selector": "@s"}]
-bossbar set community:favor/insomnia max 3600
+bossbar set community:favor/insomnia max 2400
 bossbar set community:favor/insomnia style progress
-bossbar set community:favor/insomnia value 3600
+bossbar set community:favor/insomnia value 2400
 bossbar set community:favor/insomnia visible true
 bossbar set community:favor/insomnia players @a[scores={showFavorProgress=1}]
 

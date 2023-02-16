@@ -4,14 +4,14 @@ clear @s minecraft:ghast_tear{display:{Name:'{"italic":false,"translate":"item.m
 # update active favors if favor is not already active
 execute if score favXPRain shroomhearth matches 0 run scoreboard players add favActive shroomhearth 1
 
-# add value - 3600 seconds in an hour
-scoreboard players add favXPRain shroomhearth 3600
+# add value
+scoreboard players add favXPRain shroomhearth 2400
 
 # create bossbar
 bossbar add community:favor/xp_rain [{"color":"#00ff00","translate":"community.favor.xp_rain"},{"color":"white","text":" - "},{"selector": "@s"}]
-bossbar set community:favor/xp_rain max 3600
+bossbar set community:favor/xp_rain max 2400
 bossbar set community:favor/xp_rain style progress
-bossbar set community:favor/xp_rain value 3600
+bossbar set community:favor/xp_rain value 2400
 bossbar set community:favor/xp_rain visible true
 bossbar set community:favor/xp_rain players @a[scores={showFavorProgress=1}]
 

@@ -4,14 +4,14 @@ clear @s minecraft:ghast_tear{display:{Name:'{"italic":false,"translate":"item.m
 # update active favors if favor is not already active
 scoreboard players add favActive shroomhearth 1
 
-# add value - 3600 seconds in an hour
-scoreboard players add favFireResistance shroomhearth 3600
+# add value
+scoreboard players add favFireResistance shroomhearth 2400
 
 # create bossbar
 bossbar add community:favor/fire_resistance [{"color":"#E49A3A","translate":"community.favor.fire_resistance"},{"color":"white","text":" - "},{"selector": "@s"}]
-bossbar set community:favor/fire_resistance max 3600
+bossbar set community:favor/fire_resistance max 2400
 bossbar set community:favor/fire_resistance style progress
-bossbar set community:favor/fire_resistance value 3600
+bossbar set community:favor/fire_resistance value 2400
 bossbar set community:favor/fire_resistance visible true
 bossbar set community:favor/fire_resistance players @a[scores={showFavorProgress=1}]
 
