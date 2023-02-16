@@ -2,7 +2,7 @@
 scoreboard players remove favHaste shroomhearth 1
 
 # apply effect
-effect give @a minecraft:haste 2 0 true
+effect give @a minecraft:haste 2 1 true
 
 # update bossbar
 execute store result bossbar community:favor/haste value run scoreboard players get favHaste shroomhearth

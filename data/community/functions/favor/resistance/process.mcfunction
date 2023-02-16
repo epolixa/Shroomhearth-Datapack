@@ -2,7 +2,7 @@
 scoreboard players remove favResistance shroomhearth 1
 
 # apply effect
-effect give @a minecraft:resistance 2 0 true
+effect give @a minecraft:resistance 2 1 true
 
 # update bossbar
 execute store result bossbar community:favor/resistance value run scoreboard players get favResistance shroomhearth

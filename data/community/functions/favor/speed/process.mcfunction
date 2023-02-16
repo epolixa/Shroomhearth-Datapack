@@ -2,7 +2,7 @@
 scoreboard players remove favSpeed shroomhearth 1
 
 # apply effect
-effect give @a minecraft:speed 2 0 true
+effect give @a minecraft:speed 2 1 true
 
 # update bossbar
 execute store result bossbar community:favor/speed value run scoreboard players get favSpeed shroomhearth

@@ -2,7 +2,7 @@
 scoreboard players remove favStrength shroomhearth 1
 
 # apply effect
-effect give @a minecraft:strength 2 0 true
+effect give @a minecraft:strength 2 1 true
 
 # update bossbar
 execute store result bossbar community:favor/strength value run scoreboard players get favStrength shroomhearth
