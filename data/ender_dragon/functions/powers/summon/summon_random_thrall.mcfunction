@@ -47,6 +47,7 @@ execute as @e[type=!#ender_dragon:flying,tag=dragon_thrall,tag=new,limit=1,sort=
 # fix data for certain mobs
 execute as @e[type=#ender_dragon:piglins,tag=dragon_thrall,tag=new,limit=1,sort=nearest] run data merge entity @s {IsImmuneToZombification:1b}
 execute as @e[type=#ender_dragon:babies,tag=dragon_thrall,tag=new,limit=1,sort=nearest] run data merge entity @s {Age:0,IsBaby:0b}
+execute as @e[type=#ender_dragon:patrol_leaders,tag=dragon_thrall,tag=new,limit=1,sort=nearest] run data merge entity @s {PatrolLeader:0b}
 
 # small chance to apply random effect
 execute if predicate shroomhearth:random_chance_20 as @e[tag=dragon_thrall,tag=new,limit=1,sort=nearest] run function ender_dragon:powers/summon/apply_random_effect
