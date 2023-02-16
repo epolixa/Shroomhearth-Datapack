@@ -52,7 +52,7 @@ kill @e[tag=dragon_distortion]
 execute as @a[predicate=ender_dragon:on_main_end_island] at @s run scoreboard players add @a[predicate=ender_dragon:on_main_end_island,distance=0.1..] harmony 8
 
 # grant solo kill advancement
-execute unless entity @p[predicate=ender_dragon:on_main_end_island,distance=0.1..] if score dragonPlayers shroomhearth matches ..1 run advancement grant @s[scores={dragonDeaths=0}] only ender_dragon:legendary_battle
+execute if score dragonPlayers shroomhearth matches 1 if score favActive shroomhearth matches 0 run advancement grant @s[scores={dragonDeaths=0}] only ender_dragon:legendary_battle
 
 # remove all summoned crying obsidian pillars
 function ender_dragon:powers/pillar/cleanup_pillars
