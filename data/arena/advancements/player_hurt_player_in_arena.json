@@ -1,0 +1,28 @@
+{
+	"criteria": {
+		"player_hurt_player_in_arena": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:reference",
+						"name": "arena:player_in_arena"
+					}
+				],
+				"damage": {
+					"source_entity": {
+						"type": "minecraft:player",
+						"distance": {
+							"absolute": {
+								"min": 0.1
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "arena:player_hurt_player_in_arena"
+	}
+}

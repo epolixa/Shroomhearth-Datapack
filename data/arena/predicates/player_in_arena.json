@@ -1,0 +1,11 @@
+[
+    {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {"type": "minecraft:player"}
+    },
+    {
+        "condition": "minecraft:reference",
+        "name": "arena:in_arena"
+    }
+]
