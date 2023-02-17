@@ -17,12 +17,8 @@
 			"conditions": {
 				"player": [
 					{
-						"condition": "minecraft:location_check",
-						"predicate": {
-							"block": {
-								"tag": "speedy_paths:paths"
-							}
-						}
+						"condition": "minecraft:reference",
+						"name": "speedy_paths:player_on_path"
 					}
 				]
 			}

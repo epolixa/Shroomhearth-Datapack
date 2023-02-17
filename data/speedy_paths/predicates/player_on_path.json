@@ -1,0 +1,33 @@
+[
+    {
+        "condition": "minecraft:alternative",
+        "terms": [
+            {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                    "block": {
+                        "tag": "speedy_paths:paths"
+                    }
+                }
+            },
+            {
+                "condition": "minecraft:location_check",
+                "offsetY": -1,
+                "predicate": {
+                    "block": {
+                        "tag": "speedy_paths:paths"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+            "flags": {
+                "is_sprinting": true
+            }
+        }
+    }
+]
