@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "player_killed_threat": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "#shroomhearth:threat_mobs"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "community:player_killed_threat"
+    }
+}

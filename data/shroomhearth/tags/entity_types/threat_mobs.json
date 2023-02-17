@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+        "#shroomhearth:neutral_mobs",
+        "#shroomhearth:hostile_mobs"
+    ]
+}
