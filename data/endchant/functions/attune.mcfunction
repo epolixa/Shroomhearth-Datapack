@@ -29,7 +29,19 @@ execute unless entity @s[tag=endchant] unless predicate endchant:endchanted/offh
 execute unless entity @s[tag=endchant] unless predicate endchant:endchanted/offhand if predicate endchant:equipped/offhand/boots run function endchant:offhand/boots
 
 # head
+execute unless entity @s[tag=endchant] unless predicate endchant:endchanted/head if predicate endchant:equipped/head/sword run function endchant:head/sword
+execute unless entity @s[tag=endchant] unless predicate endchant:endchanted/head if predicate endchant:equipped/head/axe run function endchant:head/axe
+execute unless entity @s[tag=endchant] unless predicate endchant:endchanted/head if predicate endchant:equipped/head/tool run function endchant:head/tool
+execute unless entity @s[tag=endchant] unless predicate endchant:endchanted/head if predicate endchant:equipped/head/bow run function endchant:head/bow
+execute unless entity @s[tag=endchant] unless predicate endchant:endchanted/head if predicate endchant:equipped/head/crossbow run function endchant:head/crossbow
+execute unless entity @s[tag=endchant] unless predicate endchant:endchanted/head if predicate endchant:equipped/head/trident run function endchant:head/trident
+execute unless entity @s[tag=endchant] unless predicate endchant:endchanted/head if predicate endchant:equipped/head/fishing_rod run function endchant:head/fishing_rod
+execute unless entity @s[tag=endchant] unless predicate endchant:endchanted/head if predicate endchant:equipped/head/shears run function endchant:head/shears
+execute unless entity @s[tag=endchant] unless predicate endchant:endchanted/head if predicate endchant:equipped/head/generic run function endchant:head/generic
 execute unless entity @s[tag=endchant] unless predicate endchant:endchanted/head if predicate endchant:equipped/head/helmet run function endchant:head/helmet
+execute unless entity @s[tag=endchant] unless predicate endchant:endchanted/head if predicate endchant:equipped/head/chestplate run function endchant:head/chestplate
+execute unless entity @s[tag=endchant] unless predicate endchant:endchanted/head if predicate endchant:equipped/head/leggings run function endchant:head/leggings
+execute unless entity @s[tag=endchant] unless predicate endchant:endchanted/head if predicate endchant:equipped/head/boots run function endchant:head/boots
 
 # chest
 execute unless entity @s[tag=endchant] unless predicate endchant:endchanted/chest if predicate endchant:equipped/chest/chestplate run function endchant:chest/chestplate
