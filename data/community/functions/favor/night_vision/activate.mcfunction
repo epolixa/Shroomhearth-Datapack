@@ -4,14 +4,14 @@ clear @s minecraft:ghast_tear{display:{Name:'{"italic":false,"translate":"item.m
 # update active favors if favor is not already active
 scoreboard players add favActive shroomhearth 1
 
-# add value
-scoreboard players add favNightVision shroomhearth 2400
+# add value - 3600 seconds in an hour
+scoreboard players add favNightVision shroomhearth 3600
 
 # create bossbar
 bossbar add community:favor/night_vision [{"color":"#1F1FA1","translate":"community.favor.night_vision"},{"color":"white","text":" - "},{"selector": "@s"}]
-bossbar set community:favor/night_vision max 2400
+bossbar set community:favor/night_vision max 3600
 bossbar set community:favor/night_vision style progress
-bossbar set community:favor/night_vision value 2400
+bossbar set community:favor/night_vision value 3600
 bossbar set community:favor/night_vision visible true
 bossbar set community:favor/night_vision players @a[scores={showFavorProgress=1}]
 

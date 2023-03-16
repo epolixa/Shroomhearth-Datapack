@@ -4,14 +4,14 @@ clear @s minecraft:ghast_tear{display:{Name:'{"italic":false,"translate":"item.m
 # update active favors if favor is not already active
 execute if score favJumpBoost shroomhearth matches 0 run scoreboard players add favActive shroomhearth 1
 
-# add value
-scoreboard players add favJumpBoost shroomhearth 2400
+# add value - 3600 seconds in an hour
+scoreboard players add favJumpBoost shroomhearth 3600
 
 # create bossbar
 bossbar add community:favor/jump_boost [{"color":"#22FF4C","translate":"community.favor.jump_boost"},{"color":"white","text":" - "},{"selector": "@s"}]
-bossbar set community:favor/jump_boost max 2400
+bossbar set community:favor/jump_boost max 3600
 bossbar set community:favor/jump_boost style progress
-bossbar set community:favor/jump_boost value 2400
+bossbar set community:favor/jump_boost value 3600
 bossbar set community:favor/jump_boost visible true
 bossbar set community:favor/jump_boost players @a[scores={showFavorProgress=1}]
 

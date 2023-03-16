@@ -4,14 +4,14 @@ clear @s minecraft:ghast_tear{display:{Name:'{"italic":false,"translate":"item.m
 # update active favors if favor is not already active
 execute if score favSpeed shroomhearth matches 0 run scoreboard players add favActive shroomhearth 1
 
-# add value
-scoreboard players add favSpeed shroomhearth 2400
+# add value - 3600 seconds in an hour
+scoreboard players add favSpeed shroomhearth 3600
 
 # create bossbar
 bossbar add community:favor/speed [{"color":"#7CAFC6","translate":"community.favor.speed"},{"color":"white","text":" - "},{"selector": "@s"}]
-bossbar set community:favor/speed max 2400
+bossbar set community:favor/speed max 3600
 bossbar set community:favor/speed style progress
-bossbar set community:favor/speed value 2400
+bossbar set community:favor/speed value 3600
 bossbar set community:favor/speed visible true
 bossbar set community:favor/speed players @a[scores={showFavorProgress=1}]
 

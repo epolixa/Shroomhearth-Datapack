@@ -4,14 +4,14 @@ clear @s minecraft:ghast_tear{display:{Name:'{"italic":false,"translate":"item.m
 # update active favors if favor is not already active
 execute if score favRegeneration shroomhearth matches 0 run scoreboard players add favActive shroomhearth 1
 
-# add value
-scoreboard players add favRegeneration shroomhearth 2400
+# add value - 3600 seconds in an hour
+scoreboard players add favRegeneration shroomhearth 3600
 
 # create bossbar
 bossbar add community:favor/regeneration [{"color":"#CD5CAB","translate":"community.favor.regeneration"},{"color":"white","text":" - "},{"selector": "@s"}]
-bossbar set community:favor/regeneration max 2400
+bossbar set community:favor/regeneration max 3600
 bossbar set community:favor/regeneration style progress
-bossbar set community:favor/regeneration value 2400
+bossbar set community:favor/regeneration value 3600
 bossbar set community:favor/regeneration visible true
 bossbar set community:favor/regeneration players @a[scores={showFavorProgress=1}]
 

@@ -1,8 +1,8 @@
 # Clear 1 charm
 clear @s minecraft:ghast_tear{display:{Name:'{"italic":false,"translate":"item.minecraft.charm"}'},CustomModelData:1,Enchantments:[{id:"minecraft:infinity",lvl:1s}],HideFlags:1} 1
 
-# add value
-scoreboard players add favKeepInventory shroomhearth 2400
+# add value - 3600 seconds in an hour
+scoreboard players add favKeepInventory shroomhearth 3600
 
 # update the new max value for bossbar
 execute store result bossbar community:favor/keep_inventory max run scoreboard players get favKeepInventory shroomhearth

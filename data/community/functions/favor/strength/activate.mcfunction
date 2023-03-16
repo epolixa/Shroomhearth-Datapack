@@ -4,14 +4,14 @@ clear @s minecraft:ghast_tear{display:{Name:'{"italic":false,"translate":"item.m
 # update active favors if favor is not already active
 execute if score favStrength shroomhearth matches 0 run scoreboard players add favActive shroomhearth 1
 
-# add value
-scoreboard players add favStrength shroomhearth 2400
+# add value - 3600 seconds in an hour
+scoreboard players add favStrength shroomhearth 3600
 
 # create bossbar
 bossbar add community:favor/strength [{"color":"#932423","translate":"community.favor.strength"},{"color":"white","text":" - "},{"selector": "@s"}]
-bossbar set community:favor/strength max 2400
+bossbar set community:favor/strength max 3600
 bossbar set community:favor/strength style progress
-bossbar set community:favor/strength value 2400
+bossbar set community:favor/strength value 3600
 bossbar set community:favor/strength visible true
 bossbar set community:favor/strength players @a[scores={showFavorProgress=1}]
 
