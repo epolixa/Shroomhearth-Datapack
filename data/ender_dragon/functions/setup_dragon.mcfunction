@@ -1,11 +1,10 @@
 # reset fight scores for all involved players
-scoreboard players set @a[predicate=ender_dragon:on_main_end_island] dragonDeaths 0
+scoreboard players set @a[predicate=ender_dragon:on_main_end_island] dragStatDeaths 0
 scoreboard players set @a[predicate=ender_dragon:on_main_end_island] dragStatMobs 0
 scoreboard players set @a[predicate=ender_dragon:on_main_end_island] dragStatEndermen 0
 scoreboard players set @a[predicate=ender_dragon:on_main_end_island] dragStatCrystals 0
 scoreboard players set @a[predicate=ender_dragon:on_main_end_island] dragStatHits 0
 scoreboard players set shroomhearth dragStatSlayTime 0
-scoreboard players set @a[predicate=ender_dragon:on_main_end_island] dragonDeaths 0
 
 # summon end crystal marker armor stands
 # 90y is average height of obsidian spikes

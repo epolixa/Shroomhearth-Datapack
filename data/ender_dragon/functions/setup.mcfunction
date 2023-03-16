@@ -15,9 +15,6 @@ scoreboard objectives add rage dummy
 # dragonPhase - track dragon's phase
 scoreboard objectives add dragonPhase dummy
 
-# dragonDeaths - track player deaths since summoning dragon
-scoreboard objectives add dragonDeaths deathCount
-
 # bossHealth - track dragon's phase
 scoreboard objectives add bossHealth dummy
 scoreboard objectives add bossMaxHealth dummy
@@ -26,6 +23,7 @@ scoreboard objectives add bossHealthPercent dummy
 # battle stats
 scoreboard objectives add dragStatEnabled dummy
 scoreboard objectives add dragStatTotalSlain dummy
+scoreboard objectives add dragStatDeaths deathCount
 scoreboard objectives add dragStatHits dummy
 scoreboard objectives add dragStatMobs dummy
 scoreboard objectives add dragStatEndermen dummy
