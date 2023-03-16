@@ -8,10 +8,10 @@ scoreboard players add favJumpBoost shroomhearth 3600
 execute store result bossbar community:favor/jump_boost max run scoreboard players get favJumpBoost shroomhearth
 
 # update the attribution for bossbar
-bossbar set community:favor/jump_boost name [{"color":"#22FF4C","translate":"community.favor.jump_boost"},{"color":"white","text":" - "},{"selector": "@s"}]
+bossbar set community:favor/jump_boost name [{"color":"#FDFF84","translate":"community.favor.jump_boost"},{"color":"white","text":" - "},{"selector": "@s"}]
 
 # announce extension
-tellraw @a [{"text":"The "},{"color":"#22FF4C","translate":"community.favor.jump_boost","hoverEvent":{"action":"show_text","contents":{"translate":"community.favor.jump_boost.tooltip"}}},{"color":"white","text":" favor was extended by "},{"selector":"@s"}]
+tellraw @a [{"text":"The "},{"color":"#FDFF84","translate":"community.favor.jump_boost","hoverEvent":{"action":"show_text","contents":{"translate":"community.favor.jump_boost.tooltip"}}},{"color":"white","text":" favor was extended by "},{"selector":"@s"}]
 
 # play sound 
 execute as @a at @s run playsound block.beacon.power_select player @s ~ ~ ~ 1 1.9

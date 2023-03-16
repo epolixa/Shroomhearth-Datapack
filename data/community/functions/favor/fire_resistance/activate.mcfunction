@@ -8,7 +8,7 @@ scoreboard players add favActive shroomhearth 1
 scoreboard players add favFireResistance shroomhearth 3600
 
 # create bossbar
-bossbar add community:favor/fire_resistance [{"color":"#E49A3A","translate":"community.favor.fire_resistance"},{"color":"white","text":" - "},{"selector": "@s"}]
+bossbar add community:favor/fire_resistance [{"color":"#FF9900","translate":"community.favor.fire_resistance"},{"color":"white","text":" - "},{"selector": "@s"}]
 bossbar set community:favor/fire_resistance max 3600
 bossbar set community:favor/fire_resistance style progress
 bossbar set community:favor/fire_resistance value 3600
@@ -16,7 +16,7 @@ bossbar set community:favor/fire_resistance visible true
 bossbar set community:favor/fire_resistance players @a[scores={showFavorProgress=1}]
 
 # announce activation
-tellraw @a [{"text":"The "},{"color":"#E49A3A ","translate":"community.favor.fire_resistance","hoverEvent":{"action":"show_text","contents":{"translate":"community.favor.fire_resistance.tooltip"}}},{"color":"white","text":" favor was activated by "},{"selector":"@s"}]
+tellraw @a [{"text":"The "},{"color":"#FF9900 ","translate":"community.favor.fire_resistance","hoverEvent":{"action":"show_text","contents":{"translate":"community.favor.fire_resistance.tooltip"}}},{"color":"white","text":" favor was activated by "},{"selector":"@s"}]
 
 # play sound 
 execute as @a at @s run playsound block.beacon.power_select player @s ~ ~ ~ 1 1.8

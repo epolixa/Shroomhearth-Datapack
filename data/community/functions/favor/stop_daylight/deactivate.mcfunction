@@ -5,7 +5,7 @@ gamerule doDaylightCycle true
 bossbar remove community:favor/stop_daylight
 
 # announce expiration
-tellraw @a [{"text":"The "},{"color":"#c6c6c6","translate":"community.favor.stop_daylight","hoverEvent":{"action":"show_text","contents":{"translate":"community.favor.stop_daylight.tooltip"}}},{"color":"white","text":" favor has expired "}]
+tellraw @a [{"text":"The "},{"color":"#ffff00","translate":"community.favor.stop_daylight","hoverEvent":{"action":"show_text","contents":{"translate":"community.favor.stop_daylight.tooltip"}}},{"color":"white","text":" favor has expired "}]
 
 # play sound 
 execute as @a at @s run playsound block.beacon.deactivate player @s ~ ~ ~ 1 1.8
