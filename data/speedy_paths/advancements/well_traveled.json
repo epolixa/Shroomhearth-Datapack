@@ -5,7 +5,7 @@
 			"item": "minecraft:dirt_path"
 		},
 		"title": "Well Traveled",
-		"description": "Walk faster on a Dirt Path",
+		"description": "Sprint faster on a Dirt Path",
 		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,
@@ -17,12 +17,8 @@
 			"conditions": {
 				"player": [
 					{
-						"condition": "minecraft:location_check",
-						"predicate": {
-							"block": {
-								"tag": "speedy_paths:paths"
-							}
-						}
+						"condition": "minecraft:reference",
+						"name": "speedy_paths:player_on_path"
 					}
 				]
 			}

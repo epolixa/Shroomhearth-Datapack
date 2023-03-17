@@ -1,0 +1,22 @@
+{
+	"parent": "community:harmonize",
+	"display": {
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner:\"lalalauraaaa\"}"
+		},
+		"title": "lalalauraaaa",
+		"description": "Slay 20 Ender Dragons",
+		"frame": "challenge"
+	},
+	"rewards": {
+		"loot": [
+			"player_advancements:lalalauraaaa"
+		]
+	},
+	"criteria": {
+		"slay_ender_dragons": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

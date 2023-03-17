@@ -111,12 +111,23 @@
         
         {
           "type": "minecraft:loot_table",
-          "weight": 3,
-          "name": "boss_fight:endchanted"
+          "weight": 1,
+          "name": "endchant:endchanted"
+        },
+        {
+          "type": "item",
+          "name": "minecraft:elytra",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_damage",
+              "damage": 0.001
+            }
+          ]
         },
         {
           "type": "minecraft:item",
-          "weight": 3,
+          "weight": 2,
           "name": "minecraft:end_crystal"
         },
 

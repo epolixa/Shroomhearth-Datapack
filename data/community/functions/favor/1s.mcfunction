@@ -49,3 +49,6 @@ execute unless score favXPRain shroomhearth matches 1.. as @e[type=minecraft:chi
 
 # Process "Clear Weather" favor
 execute if score favClearWeather shroomhearth matches 1.. run function community:favor/clear_weather/process
+
+# Process "Stop Daylight" favor
+execute if score favStopDaylight shroomhearth matches 1.. run function community:favor/stop_daylight/process

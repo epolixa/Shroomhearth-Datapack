@@ -1,0 +1,15 @@
+{
+	"criteria": {
+		"player_hurt_wither": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:wither"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "wither:player_hurt_wither"
+	} 
+}

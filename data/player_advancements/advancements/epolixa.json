@@ -1,12 +1,12 @@
 {
-	"parent": "shroomhearth_fabric:community_coordinator",
+	"parent": "community:harmonize",
 	"display": {
 		"icon": {
 			"item": "minecraft:player_head",
 			"nbt": "{SkullOwner:\"epolixa\"}"
 		},
 		"title": "epolixa",
-		"description": "Eat 64 consecutive melon slices",
+		"description": "Eat 64 consecutive Melon Slices",
 		"frame": "challenge"
 	},
 	"rewards": {

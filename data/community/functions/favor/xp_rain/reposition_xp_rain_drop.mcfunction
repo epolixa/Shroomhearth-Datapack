@@ -1,5 +1,5 @@
 # reposition the entity
-spreadplayers ~ ~ 0 32 false @s
+spreadplayers ~ ~ 0 16 false @s
 execute at @s run tp @s ~ 320 ~
 
 # untag and retag the entity

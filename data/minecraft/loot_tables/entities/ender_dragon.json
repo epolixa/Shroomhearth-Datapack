@@ -2,21 +2,6 @@
     "pools": [
         {
             "rolls": 1.0,
-            "entries": [
-                {
-                    "type": "item",
-                    "name": "minecraft:elytra",
-                    "functions": [
-                        {
-                            "function": "set_damage",
-                            "damage": 0.001
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "rolls": 1.0,
             "conditions": [
                 {
                     "condition": "killed_by_player"

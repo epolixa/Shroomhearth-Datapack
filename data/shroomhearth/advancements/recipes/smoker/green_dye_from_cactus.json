@@ -1,0 +1,34 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+        "recipes": [
+            "shroomhearth:smoker/green_dye_from_cactus"
+        ]
+    },
+    "criteria": {
+        "has_material": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:cactus"
+                        ]
+                    }
+                ]
+            }
+        },
+        "has_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "shroomhearth:smoker/green_dye_from_cactus"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_material",
+            "has_recipe"
+        ]
+    ]
+}

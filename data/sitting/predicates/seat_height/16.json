@@ -1,0 +1,68 @@
+{
+    "condition": "minecraft:inverted",
+    "term": {
+        "condition": "minecraft:alternative",
+        "terms": [
+            {
+                "condition": "minecraft:reference",
+                "name": "sitting:seat_height/1"
+            },
+            {
+                "condition": "minecraft:reference",
+                "name": "sitting:seat_height/2"
+            },
+            {
+                "condition": "minecraft:reference",
+                "name": "sitting:seat_height/3"
+            },
+            {
+                "condition": "minecraft:reference",
+                "name": "sitting:seat_height/4"
+            },
+            {
+                "condition": "minecraft:reference",
+                "name": "sitting:seat_height/5"
+            },
+            {
+                "condition": "minecraft:reference",
+                "name": "sitting:seat_height/6"
+            },
+            {
+                "condition": "minecraft:reference",
+                "name": "sitting:seat_height/7"
+            },
+            {
+                "condition": "minecraft:reference",
+                "name": "sitting:seat_height/8"
+            },
+            {
+                "condition": "minecraft:reference",
+                "name": "sitting:seat_height/9"
+            },
+            {
+                "condition": "minecraft:reference",
+                "name": "sitting:seat_height/10"
+            },
+            {
+                "condition": "minecraft:reference",
+                "name": "sitting:seat_height/11"
+            },
+            {
+                "condition": "minecraft:reference",
+                "name": "sitting:seat_height/12"
+            },
+            {
+                "condition": "minecraft:reference",
+                "name": "sitting:seat_height/13"
+            },
+            {
+                "condition": "minecraft:reference",
+                "name": "sitting:seat_height/14"
+            },
+            {
+                "condition": "minecraft:reference",
+                "name": "sitting:seat_height/15"
+            }
+        ]
+    }
+}

@@ -1,0 +1,18 @@
+{
+	"criteria": {
+		"completed": {
+			"trigger": "minecraft:hero_of_the_village",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:reference",
+						"name": "pillager_raid:40_minutes_since_raid_end"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "pillager_raid:completed"
+	} 
+}

@@ -1,0 +1,37 @@
+{
+    "pools": [
+        {
+            "rolls": 1.0,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "endchant:helmet"
+                },
+                {
+                    "type": "loot_table",
+                    "name": "endchant:chestplate"
+                },
+                {
+                    "type": "loot_table",
+                    "name": "endchant:leggings"
+                },
+                {
+                    "type": "loot_table",
+                    "name": "endchant:boots"
+                },
+                {
+                    "type": "loot_table",
+                    "name": "endchant:pickaxe"
+                },
+                {
+                    "type": "loot_table",
+                    "name": "endchant:shovel"
+                },
+                {
+                    "type": "loot_table",
+                    "name": "endchant:sword"
+                }
+            ]
+        }
+    ]
+}

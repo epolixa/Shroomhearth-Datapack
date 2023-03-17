@@ -1,0 +1,53 @@
+{
+	"criteria": {
+		"summoned_wither_overworld": {
+			"trigger": "minecraft:summoned_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:wither"
+				},
+				"player": {
+					"location": {
+						"dimension": "minecraft:overworld"
+					}
+				}
+			}
+		},
+		"summoned_wither_nether": {
+			"trigger": "minecraft:summoned_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:wither"
+				},
+				"player": {
+					"location": {
+						"dimension": "minecraft:the_nether"
+					}
+				}
+			}
+		},
+		"summoned_wither_end": {
+			"trigger": "minecraft:summoned_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:wither"
+				},
+				"player": {
+					"location": {
+						"dimension": "minecraft:the_end"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"summoned_wither_overworld",
+			"summoned_wither_nether",
+			"summoned_wither_end"
+		]
+	],	  
+	"rewards": {
+		"function": "wither:summoned_wither"
+	}
+}

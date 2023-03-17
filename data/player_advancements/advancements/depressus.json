@@ -1,12 +1,12 @@
 {
-	"parent": "shroomhearth_fabric:community_coordinator",
+	"parent": "community:harmonize",
 	"display": {
 		"icon": {
 			"item": "minecraft:player_head",
 			"nbt": "{SkullOwner:\"Depressus\"}"
 		},
 		"title": "Depressus",
-		"description": "Produce 64 golden carrots at once",
+		"description": "Produce 64 Golden Carrots at once",
 		"frame": "challenge"
 	},
 	"rewards": {

@@ -5,6 +5,16 @@
             "conditions": {
                 "player": [
                     {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific": {
+                                "type": "player",
+                                "gamemode": "survival"
+                            }
+                        }
+                    },
+                    {
                         "condition": "minecraft:entity_scores",
                         "entity": "this",
                         "scores": {
@@ -19,6 +29,22 @@
                         "predicate": {
                             "dimension": "minecraft:overworld"
                         }
+                    },
+                    {
+                        "condition": "minecraft:alternative",
+                        "terms": [
+                            {
+                                "condition": "minecraft:time_check",
+                                "value": {
+                                    "min": 13000,
+                                    "max": 23000
+                                }
+                            },
+                            {
+                                "condition": "minecraft:weather_check",
+                                "thundering": true
+                            }
+                        ]
                     }
                 ]
             }

@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:cake",
+        "minecraft:sculk_sensor",
+        "minecraft:sculk_shrieker"
+    ]
+}

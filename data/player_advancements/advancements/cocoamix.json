@@ -1,12 +1,12 @@
 {
-	"parent": "shroomhearth_fabric:community_coordinator",
+	"parent": "community:harmonize",
 	"display": {
 		"icon": {
 			"item": "minecraft:player_head",
 			"nbt": "{SkullOwner:\"CocoaMix\"}"
 		},
 		"title": "CocoaMix",
-		"description": "Get killed by a Wither skull above y250",
+		"description": "Craft 256 of each kind of redstone component",
 		"frame": "challenge"
 	},
 	"rewards": {
@@ -15,23 +15,33 @@
 		]
 	},
 	"criteria": {
-		"killed_by_wither_skull": {
-            "trigger": "minecraft:entity_killed_player",
+		"crafted_components": {
+            "trigger": "minecraft:inventory_changed",
             "conditions": {
-                "killing_blow": {
-                    "direct_entity": {
-                        "type": "minecraft:wither_skull"
+                "items": [
+                    {
+                        "tag": "player_advancements:redstone_components"
                     }
-                },
+                ],
                 "player": [
                     {
-                        "condition": "minecraft:location_check",
-                        "predicate": {
-                            "position": {
-                                "y": {
-                                    "min": 250
-                                }
-                            }
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "craftedRedstoneTorches": {"min": 256},
+                            "craftedRepeaters": {"min": 256},
+                            "craftedComparators": {"min": 256},
+                            "craftedPistons": {"min": 256},
+                            "craftedStickyPistons": {"min": 256},
+                            "craftedObservers": {"min": 256},
+                            "craftedTargets": {"min": 256},
+                            "craftedRedstoneLamps": {"min": 256},
+                            "craftedNoteBlocks": {"min": 256},
+                            "craftedDroppers": {"min": 256},
+                            "craftedDispensers": {"min": 256},
+                            "craftedRedstoneBlocks": {"min": 256},
+                            "craftedHoppers": {"min": 256},
+                            "craftedDaylightDetectors": {"min": 256}
                         }
                     }
                 ]

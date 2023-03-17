@@ -2,7 +2,6 @@
     "replace": false,
     "values": [
         "#shroomhearth:passive_mobs",
-        "#shroomhearth:neutral_mobs",
-        "#shroomhearth:hostile_mobs"
+        "#shroomhearth:threat_mobs"
     ]
 }

@@ -1,0 +1,29 @@
+{
+    "criteria": {
+        "player_killed_thrall": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "team": "dragon",
+                    "type": "#ender_dragon:dragon_thralls",
+                    "location": {
+                        "dimension": "minecraft:the_end",
+                        "position": {
+                            "x": {
+                                "min": -200,
+                                "max": 200
+                            },
+                            "z": {
+                                "min": -200,
+                                "max": 200
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "ender_dragon:player_killed_thrall"
+    }
+}

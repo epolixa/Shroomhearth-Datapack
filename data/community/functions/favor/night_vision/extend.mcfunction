@@ -8,10 +8,10 @@ scoreboard players add favNightVision shroomhearth 3600
 execute store result bossbar community:favor/night_vision max run scoreboard players get favNightVision shroomhearth
 
 # update the attribution for bossbar
-bossbar set community:favor/night_vision name [{"color":"#1F1FA1","translate":"community.favor.night_vision"},{"color":"white","text":" - "},{"selector": "@s"}]
+bossbar set community:favor/night_vision name [{"color":"#C2FF66","translate":"community.favor.night_vision"},{"color":"white","text":" - "},{"selector": "@s"}]
 
 # announce extension
-tellraw @a [{"text":"The "},{"color":"#1F1FA1","translate":"community.favor.night_vision","hoverEvent":{"action":"show_text","contents":{"translate":"community.favor.night_vision.tooltip"}}},{"color":"white","text":" favor was extended by "},{"selector":"@s"}]
+tellraw @a [{"text":"The "},{"color":"#C2FF66","translate":"community.favor.night_vision","hoverEvent":{"action":"show_text","contents":{"translate":"community.favor.night_vision.tooltip"}}},{"color":"white","text":" favor was extended by "},{"selector":"@s"}]
 
 # play sound 
 execute as @a at @s run playsound block.beacon.power_select player @s ~ ~ ~ 1 1.9

@@ -1,0 +1,19 @@
+{
+	"parent": "shroomhearth:headhunter",
+	"display": {
+		"icon": {
+			"item": "minecraft:dragon_head"
+		},
+		"title": "Our Battle Will Be Legendary!",
+		"description": "Defeat the Ender Dragon by yourself without dying and with no active Favors",
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"defeat_solo": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

@@ -1,1 +1,1 @@
-execute as @e[type=minecraft:chicken,tag=xp_rain_reposition] at @s run function community:favor/xp_rain/reposition_xp_rain_drop
+execute as @e[tag=xp_rain_reposition] at @s run function community:favor/xp_rain/reposition_xp_rain_drop
