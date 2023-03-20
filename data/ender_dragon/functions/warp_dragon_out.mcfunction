@@ -1,5 +1,5 @@
 # teleport out
-tp @s ~ 320 ~
+tp @s ~ 0 ~
 
 # play sound
 playsound minecraft:entity.enderman.teleport hostile @a[predicate=ender_dragon:on_main_end_island] ~ ~ ~ 12 0.6
