@@ -1,0 +1,19 @@
+{
+	"parent": "shroomhearth:root",
+	"display": {
+		"icon": {
+			"item": "minecraft:pufferfish"
+		},
+		"title": "April Fools!",
+		"description": "Find the funny",
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": true
+	},
+	"criteria": {
+		"april_fools": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

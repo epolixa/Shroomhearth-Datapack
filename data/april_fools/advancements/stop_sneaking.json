@@ -1,0 +1,21 @@
+{
+    "criteria": {
+        "start_sneaking": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:reference",
+                            "name": "april_fools:player_is_sneaking"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "april_fools:stop_sneaking"
+    }
+}

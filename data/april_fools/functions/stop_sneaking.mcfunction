@@ -1,0 +1,1 @@
+advancement revoke @s only april_fools:start_sneaking
