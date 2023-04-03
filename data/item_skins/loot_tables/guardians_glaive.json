@@ -1,0 +1,20 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_sword",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomModelData:733}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
