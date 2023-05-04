@@ -1,26 +1,25 @@
-# dragon team
-team remove dragon
+# Dragon team for summoned mobs to join
 team add dragon "Ender Dragon"
 team modify dragon color dark_purple
 team modify dragon prefix "Ender Dragon's "
 team modify dragon friendlyFire false
 team modify dragon collisionRule pushOtherTeams
 
-# dragonSlain - flag for if the dragon is alive or has been killed
+# Flag for if the dragon is alive or has been killed
 scoreboard players set dragonSlain shroomhearth 1
 
-# rage - timer for boss mod cooldown abilities
+# Resource that Dragon spends to cast powers
 scoreboard objectives add rage dummy
 
-# dragonPhase - track dragon's phase
+# Track Dragon's current phase
 scoreboard objectives add dragonPhase dummy
 
-# bossHealth - track dragon's phase
+# Track Dragon's current health, max health, and calculate percentage for power adaptation
 scoreboard objectives add bossHealth dummy
 scoreboard objectives add bossMaxHealth dummy
 scoreboard objectives add bossHealthPercent dummy
 
-# battle stats
+# Stats to show to the player after slaying
 scoreboard objectives add dragStatEnabled dummy
 scoreboard objectives add dragStatTotalSlain dummy
 scoreboard objectives add dragStatDeaths deathCount

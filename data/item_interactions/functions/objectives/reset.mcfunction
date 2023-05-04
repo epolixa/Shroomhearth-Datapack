@@ -1,0 +1,2 @@
+function item_interactions:objectives/remove
+function item_interactions:objectives/add
