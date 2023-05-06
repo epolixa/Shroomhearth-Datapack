@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "shroomhearth:stonecutting/bamboo/bamboo_mosaic_stairs_from_stripped_bamboo_block"
+    ]
+  },
+  "criteria": {
+    "has_material": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:stripped_bamboo_block"]
+          }
+        ]
+      }
+    },
+    "has_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "shroomhearth:stonecutting/bamboo/bamboo_mosaic_stairs_from_stripped_bamboo_block"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_material",
+      "has_recipe"
+    ]
+  ]
+}
