@@ -6,7 +6,7 @@
             "bonus_rolls": 0.0,
             "entries": [
                 {
-                    "type": "minecraft:any_ofs",
+                    "type": "minecraft:alternatives",
                     "children": [
                         {
                             "type": "minecraft:item",
