@@ -11,7 +11,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{SkullOwner:\"The_RedGear\"}"
+              "tag": "{SkullOwner:\"The_RedGear\",BlockEntityTag:{note_block_sound:\"shroomhearth:player_head.the_redgear\"}}"
             }
           ]
         }

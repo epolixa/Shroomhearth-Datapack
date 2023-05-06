@@ -11,7 +11,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{SkullOwner:\"clown_professor\"}"
+                            "tag": "{SkullOwner:\"clown_professor\",BlockEntityTag:{note_block_sound:\"shroomhearth:player_head.clown_professor\"}}"
                         }
                     ]
                 }
