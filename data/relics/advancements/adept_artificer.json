@@ -6,7 +6,7 @@
 			"nbt": "{CustomModelData:850}"
 		},
 		"title": "Accomplished Artificer",
-		"description": "Find every item variant",
+		"description": "Find every relic",
 		"frame": "challenge",
 		"show_toast": true,
 		"announce_to_chat": true,

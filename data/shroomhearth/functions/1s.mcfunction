@@ -21,7 +21,7 @@ execute as @a[predicate=mob_warding:end_crystal_vision] at @s run function mob_w
 execute in minecraft:overworld as @e[type=wandering_trader,distance=0..,tag=!announced] at @s run function wandering_trader:1s
 
 # Item Skins - run for unrolled mobs
-execute as @e[type=#item_skins:armed,tag=!item_skin] run function item_skins:1s
+execute as @e[type=#relics:armed,tag=!relic_checked] run function relics:1s
 
 # Community - only run when more than one player is online
 execute if score playerCount shroomhearth matches 2.. run function community:1s

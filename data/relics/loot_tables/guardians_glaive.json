@@ -10,7 +10,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{CustomModelData:733}"
+                            "tag": "{relic:'guardians_glaive',display:{Name:'{\"italic\":false,\"translate\":\"relics.guardians_glaive\"}'},CustomModelData:733}"
                         }
                     ]
                 }
