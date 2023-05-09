@@ -1,0 +1,20 @@
+{
+	"criteria": {
+		"place_rail": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "tag": "player_advancements:skit_stone_blocks"
+                        }
+                    }
+                ]				
+			}
+		}
+	},
+	"rewards": {
+		"function": "player_advancements:skit"
+	} 
+}

@@ -43,3 +43,6 @@ scoreboard objectives remove craftedDispensers
 scoreboard objectives remove craftedRedstoneBlocks
 scoreboard objectives remove craftedHoppers
 scoreboard objectives remove craftedDaylightDetectors
+
+# placedStone - used by Skit
+scoreboard objectives remove placedStone

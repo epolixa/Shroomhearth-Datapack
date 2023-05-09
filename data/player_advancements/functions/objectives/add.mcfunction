@@ -43,3 +43,6 @@ scoreboard objectives add craftedDispensers minecraft.crafted:minecraft.dispense
 scoreboard objectives add craftedRedstoneBlocks minecraft.crafted:minecraft.redstone_block
 scoreboard objectives add craftedHoppers minecraft.crafted:minecraft.hopper
 scoreboard objectives add craftedDaylightDetectors minecraft.crafted:minecraft.daylight_detector
+
+# placedStone - used by Skit
+scoreboard objectives add placedStone dummy
