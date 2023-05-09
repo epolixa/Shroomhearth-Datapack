@@ -6,7 +6,7 @@
 			"nbt": "{SkullOwner:\"Ender_Penda\"}"
 		},
 		"title": "Ender_Penda",
-		"description": "Fall at least 24 blocks onto a Slime Block",
+		"description": "Fall at least 24 blocks onto a Slime Block at the bottom of the world",
 		"frame": "challenge"
 	},
 	"rewards": {
