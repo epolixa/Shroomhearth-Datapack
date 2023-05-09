@@ -11,7 +11,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{SkullOwner:\"Omega825\"}"
+                            "tag": "{SkullOwner:\"Omega825\",BlockEntityTag:{note_block_sound:\"shroomhearth:player_head.omega825\"}}"
                         }
                     ]
                 }
