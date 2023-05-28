@@ -5,7 +5,7 @@
             "conditions": {
                 "item": {
                     "tag": "community:harmonized_chorus_fruit",
-                    "nbt": "{bityard:\"harmonized_chorus_fruit\"}"
+                    "nbt": "{spore:\"harmonized_chorus_fruit\"}"
                 }
             }
         }

@@ -5,7 +5,7 @@
         "harmony": {
             "min": 100
         },
-        "hasCharmCatalyst": {
+        "hasCharmMaterial": {
             "min": 1
         }
     }

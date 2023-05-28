@@ -1,4 +1,8 @@
 ## add core objectives
+
+# shroomhearth - shared objective for dummy global variables
+scoreboard objectives add shroomhearth dummy
+
 # setup playerCount variable
 scoreboard players set playerCount shroomhearth 0
 
@@ -16,6 +20,14 @@ scoreboard objectives add UUID4 dummy
 
 # general purpose health objective
 scoreboard objectives add health health "Health"
+
+## other setup
+# gamerules
+function shroomhearth:setup_gamerules
+# lcg - pseudo random number generator
+function shroomhearth:lcg/setup
+# chunk coordinate objectives
+function shroomhearth:chunk_coords/setup
 
 ## add module objectives
 function arena:objectives/add

@@ -10,8 +10,8 @@ scoreboard objectives add presence dummy
 # Number of other players in a group/nearby
 scoreboard objectives add playerGroup dummy
 
-# Flag for if player has a charm catalyst in their inventory
-scoreboard objectives add hasCharmCatalyst dummy
+# Flag for if player has a charm material in their inventory
+scoreboard objectives add hasCharmMaterial dummy
 
 # Flag for if player has a charm in their inventory
 scoreboard objectives add hasCharm dummy
@@ -27,7 +27,7 @@ scoreboard players set favActive shroomhearth 0
 scoreboard objectives add regenerationDuration dummy
 
 # Flag for if player has Harmonized Chorus Fruit ingredient
-scoreboard objectives add hasHcfIngredient dummy
+scoreboard objectives add hasHcfMaterial dummy
 
 # hcfUUID component scores, used for finding target player
 scoreboard objectives add hcfUUID1 dummy

@@ -24,7 +24,7 @@ scoreboard players reset favActive shroomhearth
 scoreboard objectives remove regenerationDuration
 
 # Flag for if player has Harmonized Chorus Fruit ingredient
-scoreboard objectives remove hasHcfIngredient
+scoreboard objectives remove hasHcfMaterial
 
 # hcfUUID component scores, used for finding target player
 scoreboard objectives remove hcfUUID1

@@ -1,40 +1,46 @@
 {
-	"parent": "community:community_convenience",
-	"display": {
-		"icon": {
-			"item": "minecraft:oak_sign"
-		},
-		"title": "The Good Word",
-		"description": "Place a sign on the MOTD board at the World Hall",
-		"frame": "task",
-		"show_toast": true,
-		"announce_to_chat": true,
-		"hidden": false
-	},
-	"criteria": {
-		"placed_sign": {
-			"trigger": "minecraft:placed_block",
+    "parent": "community:community_convenience",
+    "display": {
+        "icon": {
+            "item": "minecraft:oak_sign"
+        },
+        "title": "The Good Word",
+        "description": "Place a sign on the MOTD board at the World Hall",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "placed_sign": {
+            "trigger": "minecraft:placed_block",
             "conditions": {
-                "item": {
-                    "tag": "minecraft:signs"
-                },
-                "location": {
-                    "position": {
-                        "x": {
-                            "min": 60,
-                            "max": 68
-                        },
-                        "y": {
-                            "min": 87,
-                            "max": 93
-                        },
-                        "z": {
-                            "min": -905,
-                            "max": -905
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "tag": "minecraft:signs"
+                        }
+                    },
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "dimension": "minecraft:overworld",
+                            "position": {
+                                "x": {
+                                    "min": 60,
+                                    "max": 68
+                                },
+                                "y": {
+                                    "min": 87,
+                                    "max": 93
+                                },
+                                "z": -905
+                            }
                         }
                     }
-                }
+                ]
             }
-		}
-	}
+        }
+    }
 }
