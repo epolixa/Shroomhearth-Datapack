@@ -707,6 +707,90 @@
                     }
                 ]
             }
+        },
+        "cherry_sapling": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": ["minecraft:bone_meal"]
+                        }
+                    },
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": ["minecraft:cherry_sapling"]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "pink_petals": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": ["minecraft:bone_meal"]
+                        }
+                    },
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": ["minecraft:pink_petals"]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "torchflower": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": ["minecraft:bone_meal"]
+                        }
+                    },
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": ["minecraft:torchflower_crop"]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "pitcher_plant": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": ["minecraft:bone_meal"]
+                        }
+                    },
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": ["minecraft:pitcher_crop"]
+                            }
+                        }
+                    }
+                ]
+            }
         }
 	}
 }
