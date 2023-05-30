@@ -18,20 +18,25 @@
 		"placed_block": {
             "trigger": "minecraft:placed_block",
             "conditions": {
-                "item": {
-                    "items": [
-                        "minecraft:blue_orchid",
-                        "minecraft:cornflower"
-                    ]
-                },
-                "location": {
-                    "position": {
-                        "y": {
-                            "min": -64,
-                            "max": -58
+                "location": [
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "position": {
+                                "y": {
+                                    "min": -64,
+                                    "max": -58
+                                }
+                            }
                         }
-                    }
-                }
+                    },
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"tag": "player_advancements:blue_flowers"
+						}
+					}
+				]
             }
         }
     }
