@@ -28,6 +28,8 @@ function shroomhearth:setup_gamerules
 function shroomhearth:lcg/setup
 # chunk coordinate objectives
 function shroomhearth:chunk_coords/setup
+# xp utilities
+function shroomhearth:xp/setup
 
 ## add module objectives
 function arena:objectives/add
