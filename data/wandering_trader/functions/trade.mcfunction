@@ -5,5 +5,8 @@ advancement grant @s[advancements={wandering_trader:trade=true, wandering_trader
 advancement revoke @s only wandering_trader:trade
 advancement revoke @s only wandering_trader:trade_villager_wares
 
-# give all nearby players a brief trade buff
-execute at @e[type=minecraft:wandering_trader,limit=1,sort=nearest] run effect give @a[distance=..16] minecraft:hero_of_the_village 180
+# give player a brief trade buff
+effect give @s minecraft:hero_of_the_village 180
+
+# grant harmony for all nearby players if there are more than one player near the trader
+execute at @e[type=minecraft:wandering_trader,sort=nearest,limit=1] run scoreboard players add @a[distance=..16,scores={playerGroup=2..}] harmony 1
