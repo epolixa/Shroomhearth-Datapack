@@ -21,6 +21,11 @@ scoreboard objectives add UUID4 dummy
 # general purpose health objective
 scoreboard objectives add health health "Health"
 
+# position scoring
+scoreboard objectives add pos_x dummy
+scoreboard objectives add pos_y dummy
+scoreboard objectives add pos_z dummy
+
 ## other setup
 # gamerules
 function shroomhearth:setup_gamerules

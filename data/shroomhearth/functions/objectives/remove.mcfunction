@@ -17,6 +17,11 @@ scoreboard objectives remove UUID4
 # general purpose health objective
 scoreboard objectives remove health
 
+# position scoring
+scoreboard objectives remove pos_x
+scoreboard objectives remove pos_y
+scoreboard objectives remove pos_z
+
 ## remove module objectives
 function arena:objectives/remove
 function community:objectives/remove

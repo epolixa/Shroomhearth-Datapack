@@ -10,6 +10,6 @@
 		}
 	},
 	"rewards": {
-		"function": "wandering_trader:exotic_wares"
+		"function": "wandering_trader:trade"
 	} 
 }
