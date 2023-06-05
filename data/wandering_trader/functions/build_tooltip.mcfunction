@@ -1,7 +1,7 @@
 # trim some strings
-data modify storage wandering_trader:offers recipes[0].sell.Count set string storage wandering_trader:offers recipes[0].sell.Count 0 1
+data modify storage wandering_trader:offers recipes[0].sell.Count set string storage wandering_trader:offers recipes[0].sell.Count 0 -1
 data modify storage wandering_trader:offers recipes[0].sell.id set string storage wandering_trader:offers recipes[0].sell.id 10
-data modify storage wandering_trader:offers recipes[0].buy.Count set string storage wandering_trader:offers recipes[0].buy.Count 0 1
+data modify storage wandering_trader:offers recipes[0].buy.Count set string storage wandering_trader:offers recipes[0].buy.Count 0 -1
 data modify storage wandering_trader:offers recipes[0].buy.id set string storage wandering_trader:offers recipes[0].buy.id 10
 
 # set the json text to the temporary sign for component resolution, then copy to tooltip storage
