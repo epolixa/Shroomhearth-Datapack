@@ -1,14 +1,7 @@
 [
     {
         "condition": "minecraft:reference",
-        "name": "speedy_paths:mount"
-    },
-    {
-        "condition": "minecraft:entity_properties",
-        "entity": "this",
-        "predicate": {
-            "nbt": "{OnGround:0b}"
-        }
+        "name": "community:favor/horsepower/airborne_mount"
     },
     {
         "condition": "minecraft:entity_scores",

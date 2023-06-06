@@ -57,5 +57,5 @@ scoreboard players reset favXPRain shroomhearth
 scoreboard players reset favClearWeather shroomhearth
 scoreboard players reset favStopDaylight shroomhearth
 scoreboard players reset favHorsepower shroomhearth
-scoreboard players reset favEntityCramming shroomhearth
-scoreboard players reset favMobSpawning shroomhearth
+scoreboard players reset favDisableCramming shroomhearth
+scoreboard players reset favDisableSpawning shroomhearth

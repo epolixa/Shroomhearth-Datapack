@@ -60,5 +60,5 @@ scoreboard players set favXPRain shroomhearth 0
 scoreboard players set favClearWeather shroomhearth 0
 scoreboard players set favStopDaylight shroomhearth 0
 scoreboard players set favHorsepower shroomhearth 0
-scoreboard players set favEntityCramming shroomhearth 0
-scoreboard players set favMobSpawning shroomhearth 0
+scoreboard players set favDisableCramming shroomhearth 0
+scoreboard players set favDisableSpawning shroomhearth 0
