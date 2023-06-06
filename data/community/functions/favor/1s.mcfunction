@@ -52,3 +52,6 @@ execute if score favClearWeather shroomhearth matches 1.. run function community
 
 # Process "Stop Daylight" favor
 execute if score favStopDaylight shroomhearth matches 1.. run function community:favor/stop_daylight/process
+
+# Process "Horsepower" favor
+execute if score favHorsepower shroomhearth matches 1.. run function community:favor/horsepower/process

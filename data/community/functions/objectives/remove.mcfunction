@@ -35,6 +35,9 @@ scoreboard objectives remove hcfUUID4
 # Flag for if the target player could be found
 scoreboard objectives remove targetPlayerFound
 
+# Entity rotation pitch
+scoreboard objectives remove rotPitch
+
 # Dummy player global timers for favor status
 scoreboard players reset favHaste shroomhearth
 scoreboard players reset favJumpBoost shroomhearth
@@ -53,3 +56,6 @@ scoreboard players reset favEasy shroomhearth
 scoreboard players reset favXPRain shroomhearth
 scoreboard players reset favClearWeather shroomhearth
 scoreboard players reset favStopDaylight shroomhearth
+scoreboard players reset favHorsepower shroomhearth
+scoreboard players reset favEntityCramming shroomhearth
+scoreboard players reset favMobSpawning shroomhearth

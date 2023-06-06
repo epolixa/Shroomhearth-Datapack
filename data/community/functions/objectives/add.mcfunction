@@ -38,6 +38,9 @@ scoreboard objectives add hcfUUID4 dummy
 # Flag for if the target player could be found
 scoreboard objectives add targetPlayerFound dummy
 
+# Entity rotation pitch
+scoreboard objectives add rotPitch dummy
+
 # Dummy player global timers for favor status
 scoreboard players set favHaste shroomhearth 0
 scoreboard players set favJumpBoost shroomhearth 0
@@ -56,3 +59,6 @@ scoreboard players set favEasy shroomhearth 0
 scoreboard players set favXPRain shroomhearth 0
 scoreboard players set favClearWeather shroomhearth 0
 scoreboard players set favStopDaylight shroomhearth 0
+scoreboard players set favHorsepower shroomhearth 0
+scoreboard players set favEntityCramming shroomhearth 0
+scoreboard players set favMobSpawning shroomhearth 0

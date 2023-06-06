@@ -5,7 +5,7 @@ data modify storage wandering_trader:offers recipes[0].buy.Count set string stor
 data modify storage wandering_trader:offers recipes[0].buy.id set string storage wandering_trader:offers recipes[0].buy.id 10
 
 # set the json text to the temporary sign for component resolution, then copy to tooltip storage
-data modify block ~ -64 ~ front_text.messages[0] set value '[{"color":"gold","nbt":"recipes[0].maxUses","storage":"wandering_trader:offers"},{"color":"gray","text":" uses of "},{"color":"gold","nbt":"recipes[0].sell.Count","storage":"wandering_trader:offers"},{"text":" "},{"color":"green","nbt":"recipes[0].sell.id","storage":"wandering_trader:offers"},{"color":"gray","text":" for "},{"color":"gold","nbt":"recipes[0].buy.Count","storage":"wandering_trader:offers"},{"text":" "},{"color":"green","nbt":"recipes[0].buy.id","storage":"wandering_trader:offers"}]'
+data modify block ~ -64 ~ front_text.messages[0] set value '[{"color":"gold","nbt":"recipes[0].maxUses","storage":"wandering_trader:offers"},{"color":"gray","text":" stock of "},{"color":"gold","nbt":"recipes[0].sell.Count","storage":"wandering_trader:offers"},{"text":" "},{"color":"green","nbt":"recipes[0].sell.id","storage":"wandering_trader:offers"},{"color":"gray","text":" for "},{"color":"gold","nbt":"recipes[0].buy.Count","storage":"wandering_trader:offers"},{"text":" "},{"color":"green","nbt":"recipes[0].buy.id","storage":"wandering_trader:offers"}]'
 data modify storage wandering_trader:tooltip line set string block ~ -64 ~ front_text.messages[0]
 data modify storage wandering_trader:tooltip text append from storage wandering_trader:tooltip line
 
