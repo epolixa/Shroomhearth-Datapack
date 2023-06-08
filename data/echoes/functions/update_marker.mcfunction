@@ -1,9 +1,9 @@
-# executes from the context of a marker at the position of a matching player while checking for matching player
+# Executes from the context of an echo marker at the position of a matched player who has recently moved
+tellraw @a[tag=debugger] [{"text":"Updating tracked position of Player "},{"selector":"@p"},{"text":" at "},{"nbt":"data.echoesPos","entity":"@s"},{"text":" in "},{"nbt":"data.echoesDim","entity":"@s"}]
 
-data modify entity @e[tag=echo_marker,sort=nearest,limit=1] data.echoesPos set from entity @p Pos
-data modify entity @e[tag=echo_marker,sort=nearest,limit=1] data.echoesDim set from entity @p Dimension
+# Update position tracking
+data modify entity @s data.echoesPos set from entity @p Pos
+data modify entity @s data.echoesDim set from entity @p Dimension
 
-tellraw epolixa [{"text":"echo marker found player "},{"selector":"@p"},{"text":" at "},{"nbt":"data.echoesPos","entity":"@s"},{"text":" in "},{"nbt":"data.echoesDim","entity":"@s"}]
-
-# add tag
-tag @s add found_player
+# Untag player
+tag @p remove echo_update

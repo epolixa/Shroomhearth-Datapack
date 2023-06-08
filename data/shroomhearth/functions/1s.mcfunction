@@ -36,7 +36,7 @@ execute as @a[tag=recalling] at @s run function recall:recalling
 execute if entity @e[tag=seat] run function sitting:1s
 
 # Echoes - tracking players and playing marker effects
-function echoes:1s
+function echoes:pulse
 
 # re-schedule
 schedule function shroomhearth:1s 1s

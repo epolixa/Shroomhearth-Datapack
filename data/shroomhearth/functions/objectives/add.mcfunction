@@ -12,6 +12,23 @@ scoreboard objectives add useWarpedFungusStick minecraft.used:minecraft.warped_f
 # playerLeft - tracks when the player leaves the server
 scoreboard objectives add playerLeft minecraft.custom:minecraft.leave_game
 
+# player movement scores, used to trigger an advancement and update position trackers
+scoreboard objectives add playerAviate minecraft.custom:minecraft.aviate_one_cm
+scoreboard objectives add playerBoat minecraft.custom:minecraft.boat_one_cm
+scoreboard objectives add playerClimb minecraft.custom:minecraft.climb_one_cm
+scoreboard objectives add playerCrouch minecraft.custom:minecraft.crouch_one_cm
+scoreboard objectives add playerFall minecraft.custom:minecraft.fall_one_cm
+scoreboard objectives add playerFly minecraft.custom:minecraft.fly_one_cm
+scoreboard objectives add playerHorse minecraft.custom:minecraft.horse_one_cm
+scoreboard objectives add playerMinecart minecraft.custom:minecraft.minecart_one_cm
+scoreboard objectives add playerPig minecraft.custom:minecraft.pig_one_cm
+scoreboard objectives add playerSprint minecraft.custom:minecraft.sprint_one_cm
+scoreboard objectives add playerStrider minecraft.custom:minecraft.strider_one_cm
+scoreboard objectives add playerSwim minecraft.custom:minecraft.swim_one_cm
+scoreboard objectives add playerWalk minecraft.custom:minecraft.walk_one_cm
+scoreboard objectives add playerWalkOnWater minecraft.custom:minecraft.walk_on_water_one_cm
+scoreboard objectives add playerWalkUnderWater minecraft.custom:minecraft.walk_under_water_one_cm
+
 # setup UUID component scores
 scoreboard objectives add UUID1 dummy
 scoreboard objectives add UUID2 dummy

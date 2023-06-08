@@ -1,6 +1,8 @@
-# runs from the context of an echoes armor stand at the position of a matching player
+# Runs from the context of an echoes armor stand at the position of a matching player
+# Ideally runs when a matching player has logged back in
 
-tellraw epolixa [{"text":"echoes armor stand found player "},{"selector":"@p"}]
+tellraw @a[tag=debugger] [{"text":"Echoes found Player "},{"selector":"@p"}]
 
-kill @s
+# Untag player as marked and kill echoes
 tag @p remove echo_marked
+kill @s

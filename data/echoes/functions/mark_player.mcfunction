@@ -1,17 +1,12 @@
-# run from context of a player
+# Runs from context of a player who does not have an echo marker assigned to them
 
-tellraw epolixa [{"text":"marking player "},{"selector":"@s"}]
+tellraw @a[tag=debugger] [{"text":"Creating new Echo Marker for Player "},{"selector":"@s"}]
 
-# summon new marker
-summon minecraft:marker ~ ~ ~ {Tags:["echo_marker"]}
-scoreboard players operation @e[tag=echo_marker,sort=nearest,limit=1] UUID1 = @s UUID1
-scoreboard players operation @e[tag=echo_marker,sort=nearest,limit=1] UUID2 = @s UUID2
-scoreboard players operation @e[tag=echo_marker,sort=nearest,limit=1] UUID3 = @s UUID3
-scoreboard players operation @e[tag=echo_marker,sort=nearest,limit=1] UUID4 = @s UUID4
+# Re-capture player UUID
+function shroomhearth:capture_uuid
 
-data modify entity @e[tag=echo_marker,sort=nearest,limit=1] data.echoesPos set from entity @s Pos
-data modify entity @e[tag=echo_marker,sort=nearest,limit=1] data.echoesDim set from entity @s Dimension
+# Summon new echo marker and initialize it
+execute summon minecraft:marker run function echoes:initialize_echo_marker
 
-execute as @e[tag=echo_marker,sort=nearest,limit=1] in minecraft:overworld run tp 112 80 0
-
+# Flag player as having been assigned an echo marker
 tag @s add echo_marked

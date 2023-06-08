@@ -8,6 +8,23 @@ scoreboard objectives remove useWarpedFungusStick
 # playerLeft - tracks when the player leaves the server
 scoreboard objectives remove playerLeft
 
+# player movement scores, used to trigger an advancement and update position trackers
+scoreboard objectives remove playerAviate
+scoreboard objectives remove playerBoat
+scoreboard objectives remove playerClimb
+scoreboard objectives remove playerCrouch
+scoreboard objectives remove playerFall
+scoreboard objectives remove playerFly
+scoreboard objectives remove playerHorse
+scoreboard objectives remove playerMinecart
+scoreboard objectives remove playerPig
+scoreboard objectives remove playerSprint
+scoreboard objectives remove playerStrider
+scoreboard objectives remove playerSwim
+scoreboard objectives remove playerWalk
+scoreboard objectives remove playerWalkOnWater
+scoreboard objectives remove playerWalkUnderWater 
+
 # setup UUID component scores
 scoreboard objectives remove UUID1
 scoreboard objectives remove UUID2
