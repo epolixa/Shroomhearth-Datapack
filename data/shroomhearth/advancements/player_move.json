@@ -1,0 +1,124 @@
+{
+    "criteria": {
+        "player_move": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:any_of",
+                        "terms": [
+                            {
+                                "condition": "minecraft:entity_scores",
+                                "entity": "this",
+                                "scores": {
+                                    "playerAviate": {"min": 1}
+                                }
+                            },
+                            {
+                                "condition": "minecraft:entity_scores",
+                                "entity": "this",
+                                "scores": {
+                                    "playerBoat": {"min": 1}
+                                }
+                            },
+                            {
+                                "condition": "minecraft:entity_scores",
+                                "entity": "this",
+                                "scores": {
+                                    "playerClimb": {"min": 1}
+                                }
+                            },
+                            {
+                                "condition": "minecraft:entity_scores",
+                                "entity": "this",
+                                "scores": {
+                                    "playerCrouch": {"min": 1}
+                                }
+                            },
+                            {
+                                "condition": "minecraft:entity_scores",
+                                "entity": "this",
+                                "scores": {
+                                    "playerFall": {"min": 1}
+                                }
+                            },
+                            {
+                                "condition": "minecraft:entity_scores",
+                                "entity": "this",
+                                "scores": {
+                                    "playerFly": {"min": 1}
+                                }
+                            },
+                            {
+                                "condition": "minecraft:entity_scores",
+                                "entity": "this",
+                                "scores": {
+                                    "playerHorse": {"min": 1}
+                                }
+                            },
+                            {
+                                "condition": "minecraft:entity_scores",
+                                "entity": "this",
+                                "scores": {
+                                    "playerMinecart": {"min": 1}
+                                }
+                            },
+                            {
+                                "condition": "minecraft:entity_scores",
+                                "entity": "this",
+                                "scores": {
+                                    "playerPig": {"min": 1}
+                                }
+                            },
+                            {
+                                "condition": "minecraft:entity_scores",
+                                "entity": "this",
+                                "scores": {
+                                    "playerSprint": {"min": 1}
+                                }
+                            },
+                            {
+                                "condition": "minecraft:entity_scores",
+                                "entity": "this",
+                                "scores": {
+                                    "playerStrider": {"min": 1}
+                                }
+                            },
+                            {
+                                "condition": "minecraft:entity_scores",
+                                "entity": "this",
+                                "scores": {
+                                    "playerSwim": {"min": 1}
+                                }
+                            },
+                            {
+                                "condition": "minecraft:entity_scores",
+                                "entity": "this",
+                                "scores": {
+                                    "playerWalk": {"min": 1}
+                                }
+                            },
+                            {
+                                "condition": "minecraft:entity_scores",
+                                "entity": "this",
+                                "scores": {
+                                    "playerWalkOnWater": {"min": 1}
+                                }
+                            },
+                            {
+                                "condition": "minecraft:entity_scores",
+                                "entity": "this",
+                                "scores": {
+                                    "playerWalkUnderWater": {"min": 1}
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "shroomhearth:player_move"
+    }
+}

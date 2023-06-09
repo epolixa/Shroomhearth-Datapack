@@ -1,0 +1,2 @@
+function player_advancements:objectives/remove
+function player_advancements:objectives/add

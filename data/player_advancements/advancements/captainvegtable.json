@@ -354,6 +354,36 @@
 					}
 				]
 			}
+		},
+		"pink_petals": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items":["minecraft:pink_petals"]
+					}
+				]
+			}
+		},
+		"torchflower": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items":["minecraft:torchflower"]
+					}
+				]
+			}
+		},
+		"pitcher_plant": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items":["minecraft:pitcher_plant"]
+					}
+				]
+			}
 		}
 	}
 }

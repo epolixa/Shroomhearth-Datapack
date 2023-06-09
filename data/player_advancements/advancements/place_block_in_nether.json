@@ -3,16 +3,28 @@
 		"place_block_in_nether": {
 			"trigger": "minecraft:placed_block",
 			"conditions": {
-				"player": {
-					"player": {
-						"advancements": {
-							"player_advancements:needle_archer": false
+				"location": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type_specific": {
+								"type": "player",
+								"player": {
+									"advancements": {
+										"player_advancements:needle_archer": false
+									}
+								}
+							}
 						}
 					},
-                    "location": {
-                        "dimension": "minecraft:the_nether"
-                    }
-				}
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"dimension": "minecraft:the_nether"
+						}
+					}
+				]
 			}
 		}
 	},

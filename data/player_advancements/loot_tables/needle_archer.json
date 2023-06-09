@@ -11,7 +11,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{SkullOwner:\"Needle_Archer\"}"
+                            "tag": "{SkullOwner:\"Needle_Archer\",BlockEntityTag:{note_block_sound:\"shroomhearth:player_head.needle_archer\"}}"
                         }
                     ]
                 }

@@ -1,5 +1,5 @@
 # Clear 1 charm
-clear @s minecraft:ghast_tear{display:{Name:'{"italic":false,"translate":"item.minecraft.charm"}'},CustomModelData:1,Enchantments:[{id:"minecraft:infinity",lvl:1s}],HideFlags:1} 1
+clear @s #community:charm{spore:"charm"} 1
 
 # update active favors if favor is not already active
 execute if score favResistance shroomhearth matches 0 run scoreboard players add favActive shroomhearth 1

@@ -1,0 +1,34 @@
+{
+	"criteria": {
+		"place_rail": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+                "location": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type_specific": {
+								"type": "player",
+								"player": {
+									"advancements": {
+										"player_advancements:skit": false
+									}
+								}
+							}
+						}
+					},
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "tag": "player_advancements:skit_stone_blocks"
+                        }
+                    }
+                ]				
+			}
+		}
+	},
+	"rewards": {
+		"function": "player_advancements:skit"
+	} 
+}

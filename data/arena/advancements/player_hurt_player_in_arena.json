@@ -5,20 +5,22 @@
 			"conditions": {
 				"entity": [
 					{
+						"condition": "entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:player",
+							"distance": {
+								"absolute": {
+									"min": 0.1
+								}
+							}
+						}
+					},
+					{
 						"condition": "minecraft:reference",
 						"name": "arena:player_in_arena"
 					}
-				],
-				"damage": {
-					"source_entity": {
-						"type": "minecraft:player",
-						"distance": {
-							"absolute": {
-								"min": 0.1
-							}
-						}
-					}
-				}
+				]
 			}
 		}
 	},

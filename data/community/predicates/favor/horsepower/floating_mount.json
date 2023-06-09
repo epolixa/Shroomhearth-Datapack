@@ -1,0 +1,15 @@
+[
+    {
+        "condition": "minecraft:reference",
+        "name": "community:favor/horsepower/airborne_mount"
+    },
+    {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+            "rotPitch": {
+                "max": -1
+            }
+        }
+    }
+]

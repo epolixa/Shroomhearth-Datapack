@@ -56,4 +56,5 @@ item replace entity @p hotbar.8 from block ~ 0 ~ container.17
 item replace entity @p weapon.offhand from block ~ 0 ~ container.18
 
 # remove temporary shulker box and replace bedrock
-setblock ~ 0 ~ minecraft:bedrock
+execute unless dimension minecraft:the_end run setblock ~ 0 ~ minecraft:bedrock
+execute if dimension minecraft:the_end run setblock ~ 0 ~ minecraft:air

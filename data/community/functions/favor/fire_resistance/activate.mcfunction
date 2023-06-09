@@ -1,5 +1,5 @@
 # Clear 1 charm
-clear @s minecraft:ghast_tear{display:{Name:'{"italic":false,"translate":"item.minecraft.charm"}'},CustomModelData:1,Enchantments:[{id:"minecraft:infinity",lvl:1s}],HideFlags:1} 1
+clear @s #community:charm{spore:"charm"} 1
 
 # update active favors if favor is not already active
 scoreboard players add favActive shroomhearth 1
@@ -16,7 +16,7 @@ bossbar set community:favor/fire_resistance visible true
 bossbar set community:favor/fire_resistance players @a[scores={showFavorProgress=1}]
 
 # announce activation
-tellraw @a [{"text":"The "},{"color":"#FF9900 ","translate":"community.favor.fire_resistance","hoverEvent":{"action":"show_text","contents":{"translate":"community.favor.fire_resistance.tooltip"}}},{"color":"white","text":" favor was activated by "},{"selector":"@s"}]
+tellraw @a [{"text":"The "},{"color":"#FF9900","translate":"community.favor.fire_resistance","hoverEvent":{"action":"show_text","contents":{"translate":"community.favor.fire_resistance.tooltip"}}},{"color":"white","text":" favor was activated by "},{"selector":"@s"}]
 
 # play sound 
 execute as @a at @s run playsound block.beacon.power_select player @s ~ ~ ~ 1 1.8

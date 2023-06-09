@@ -1,0 +1,94 @@
+{
+	"parent": "mob_warding:mob_zapper",
+	"display": {
+		"icon": {
+			"item": "minecraft:golden_axe",
+			"nbt": "{CustomModelData:850}"
+		},
+		"title": "Accomplished Artificer",
+		"description": "Find every relic",
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"soul_crossbow": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:crossbow"],
+						"nbt": "{CustomModelData:411}"
+					}
+				]
+			}
+		},
+		"highland_axe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:iron_axe"],
+						"nbt": "{CustomModelData:712}"
+					}
+				]
+			}
+		},
+		"soul_knife": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:iron_sword"],
+						"nbt": "{CustomModelData:738}"
+					}
+				]
+			}
+		},
+		"broken_sawblade": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:golden_sword"],
+						"nbt": "{CustomModelData:416}"
+					}
+				]
+			}
+		},
+		"cog_crossbow": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:crossbow"],
+						"nbt": "{CustomModelData:416}"
+					}
+				]
+			}
+		},
+		"firebrand": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:golden_axe"],
+						"nbt": "{CustomModelData:850}"
+					}
+				]
+			}
+		},
+		"heartstealer": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:stone_sword"],
+						"nbt": "{CustomModelData:317}"
+					}
+				]
+			}
+		}
+	}
+}

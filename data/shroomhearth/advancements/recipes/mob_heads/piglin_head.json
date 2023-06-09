@@ -1,0 +1,34 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+        "recipes": [
+            "shroomhearth:mob_heads/piglin_head"
+        ]
+    },
+    "criteria": {
+        "has_head": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:piglin_head"
+                        ]
+                    }
+                ]
+            }
+        },
+        "has_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "shroomhearth:mob_heads/piglin_head"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_head",
+            "has_recipe"
+        ]
+    ]
+}

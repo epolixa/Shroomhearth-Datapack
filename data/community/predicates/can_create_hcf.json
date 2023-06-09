@@ -5,7 +5,7 @@
         "hasCharm": {
             "min": 1
         },
-        "hasHcfIngredient": {
+        "hasHcfMaterial": {
             "min": 1
         }
     }

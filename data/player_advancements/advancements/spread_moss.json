@@ -1,20 +1,32 @@
 {
-	"criteria": {
-		"spread_moss": {
+    "criteria": {
+        "spread_moss": {
             "trigger": "minecraft:item_used_on_block",
             "conditions": {
-                "item": {
-                    "items": ["minecraft:bone_meal"]
-                },
-                "location": {
-                    "block": {
-                        "blocks": ["minecraft:moss_block"]
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": [
+                                "minecraft:bone_meal"
+                            ]
+                        }
+                    },
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "minecraft:moss_block"
+                                ]
+                            }
+                        }
                     }
-                }
+                ]
             }
         }
-	},
-	"rewards": {
-		"function": "player_advancements:clown_professor"
-	} 
+    },
+    "rewards": {
+        "function": "player_advancements:clown_professor"
+    }
 }

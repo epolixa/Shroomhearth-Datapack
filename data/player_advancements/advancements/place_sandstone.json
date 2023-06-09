@@ -3,20 +3,32 @@
 		"place_rail": {
 			"trigger": "minecraft:placed_block",
 			"conditions": {
-				"player": {
-					"player": {
-						"advancements": {
-							"player_advancements:_thebman_": false
+				"location": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type_specific": {
+								"type": "player",
+								"player": {
+									"advancements": {
+										"player_advancements:_thebman_": false
+									}
+								}
+							}
+						}
+					},
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"tag": "player_advancements:sandstone_blocks"
 						}
 					}
-				},
-				"item": {
-					"tag": "player_advancements:sandstone_blocks"
-				}
+				]
 			}
 		}
 	},
 	"rewards": {
 		"function": "player_advancements:_thebman_"
-	} 
+	}
 }
