@@ -56,4 +56,5 @@ item replace block ~ 0 ~ container.18 from entity @p weapon.offhand
 data modify entity @s ArmorItems[1].tag.BlockEntityTag.Items set from block ~ 0 ~ Items
 
 # remove temporary shulker box
-setblock ~ 0 ~ minecraft:bedrock
+execute unless dimension minecraft:the_end run setblock ~ 0 ~ minecraft:bedrock
+execute if dimension minecraft:the_end run setblock ~ 0 ~ minecraft:air
