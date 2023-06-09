@@ -14,6 +14,10 @@ scoreboard players operation @s UUID4 = @p UUID4
 data modify entity @s data.echoesPos set from entity @p Pos
 data modify entity @s data.echoesDim set from entity @p Dimension
 
+# Use a temporary sign to store the JSON name string of the player
+execute unless dimension minecraft:overworld run function echoes:set_echo_tracker_name
+execute if dimension minecraft:overworld run function echoes:set_echo_tracker_name_overworld
+
 # Reposition all existing echo trackers (including the new one)
 # We do this because the position of the tracker is used as a unique identifier,
 # no two trackers should have the same position.

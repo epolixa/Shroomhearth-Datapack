@@ -6,12 +6,16 @@ tag @s add echoes
 # Base NBT
 data modify entity @s Marker set value 1b
 execute unless score debug shroomhearth matches 1.. run data modify entity @s Invisible set value 1b
+execute if score debug shroomhearth matches 1.. run data modify entity @s CustomNameVisible set value 1b
 
 # Inherit player UUID from echo tracker
 scoreboard players operation @s UUID1 = @e[tag=echo_tracker,sort=nearest,limit=1] UUID1
 scoreboard players operation @s UUID2 = @e[tag=echo_tracker,sort=nearest,limit=1] UUID2
 scoreboard players operation @s UUID3 = @e[tag=echo_tracker,sort=nearest,limit=1] UUID3
 scoreboard players operation @s UUID4 = @e[tag=echo_tracker,sort=nearest,limit=1] UUID4
+
+# Inherit player name from echo tracker
+data modify entity @s CustomName set from entity @e[tag=echo_tracker,sort=nearest,limit=1] data.echoesName
 
 # Set positional data from echo tracker
 data modify entity @s Pos set from entity @e[tag=echo_tracker,sort=nearest,limit=1] data.echoesPos
