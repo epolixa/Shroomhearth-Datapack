@@ -1,4 +1,11 @@
 ## remove core objectives
+
+# shroomhearth - shared objective for dummy global variables
+scoreboard objectives remove shroomhearth
+
+# debug global to control some executions useful for problem-solving
+scoreboard players reset debug shroomhearth
+
 # setup playerCount variable
 scoreboard players reset playerCount shroomhearth
 

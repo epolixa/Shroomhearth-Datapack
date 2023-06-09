@@ -1,8 +1,8 @@
 # Runs from the context of an echoes armor stand at the position of a matching player
 # Ideally runs when a matching player has logged back in
 
-tellraw @a[tag=debugger] [{"text":"Echoes found Player "},{"selector":"@p"}]
+tellraw @a[tag=debug_echoes] [{"text":"Echoes found Player "},{"selector":"@p"},{"text":", assuming they logged in"}]
 
-# Untag player as marked and kill echoes
-tag @p remove echo_marked
+# Untag tracked player and kill echoes
+tag @p remove echo_tracking
 kill @s

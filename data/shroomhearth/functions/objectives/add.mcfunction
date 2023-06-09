@@ -3,6 +3,9 @@
 # shroomhearth - shared objective for dummy global variables
 scoreboard objectives add shroomhearth dummy
 
+# debug global to control some executions useful for problem-solving
+scoreboard players set debug shroomhearth 0
+
 # setup playerCount variable
 scoreboard players set playerCount shroomhearth 0
 
