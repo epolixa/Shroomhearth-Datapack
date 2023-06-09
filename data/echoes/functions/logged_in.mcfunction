@@ -5,4 +5,6 @@ tellraw @a[tag=debug_echoes] [{"text":"Echoes found Player "},{"selector":"@p"},
 
 # Untag tracked player and kill echoes
 tag @p remove echo_tracking
-kill @s
+
+# Mark self for deletion
+tag @s add found_player
