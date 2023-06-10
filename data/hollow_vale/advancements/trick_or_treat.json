@@ -3,7 +3,7 @@
 	"display": {
 		"icon": {
 			"item": "minecraft:raw_gold",
-			"nbt": "{display:{Name:'{\"italic\":false,\"translate\":\"hollow_vale.porcelain\"}'},CustomModelData:800}"
+			"nbt": "{display:{Name:'{\"italic\":false,\"translate\":\"hollow_vale.spoop\"}'},CustomModelData:800}"
 		},
 		"title": "Trick or Treat!",
 		"description": "Exchange a Spoop for a Trick or a Treat at the little houses in Spoopville",
