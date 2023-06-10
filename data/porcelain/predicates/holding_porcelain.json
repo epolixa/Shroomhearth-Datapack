@@ -8,7 +8,7 @@
                 "equipment": {
                     "mainhand": {
                         "tag": "porcelain:porcelain",
-                        "nbt": "{display:{Name:'{\"italic\":false,\"translate\":\"item.minecraft.porcelain\"}'},CustomModelData:1,Enchantments:[{id:\"minecraft:infinity\",lvl:1s}],HideFlags:1}"
+                        "nbt": "{display:{Name:'{\"italic\":false,\"translate\":\"porcelain.porcelain\"}'},CustomModelData:1,Enchantments:[{id:\"minecraft:infinity\",lvl:1s}],HideFlags:1}"
                     }
                 }
             }
@@ -20,7 +20,7 @@
                 "equipment": {
                     "offhand": {
                         "tag": "porcelain:porcelain",
-                        "nbt": "{display:{Name:'{\"italic\":false,\"translate\":\"item.minecraft.porcelain\"}'},CustomModelData:1,Enchantments:[{id:\"minecraft:infinity\",lvl:1s}],HideFlags:1}"
+                        "nbt": "{display:{Name:'{\"italic\":false,\"translate\":\"porcelain.porcelain\"}'},CustomModelData:1,Enchantments:[{id:\"minecraft:infinity\",lvl:1s}],HideFlags:1}"
                     }
                 }
             }

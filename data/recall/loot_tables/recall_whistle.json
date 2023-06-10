@@ -10,7 +10,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{display:{Name:'{\"italic\":false,\"translate\":\"item.minecraft.recall_whistle\"}'},CustomModelData:2,Enchantments:[{id:\"minecraft:infinity\",lvl:1s}],HideFlags:1}"
+                            "tag": "{spore:'recall_whistle',display:{Name:'{\"italic\":false,\"translate\":\"recall.recall_whistle\"}'},CustomModelData:2,Enchantments:[{id:\"minecraft:infinity\",lvl:1s}],HideFlags:1}"
                         }
                     ]
                 }

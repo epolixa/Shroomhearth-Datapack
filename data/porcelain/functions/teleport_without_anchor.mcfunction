@@ -5,7 +5,7 @@ execute if score @s porcelainDimID matches 1 in minecraft:the_end run teleport @
 spreadplayers ~ ~ 0 1 false @s
 
 # show warning
-title @s actionbar {"color":"white","translate":"item.minecraft.porcelain.anchor_lost"}
+title @s actionbar {"color":"white","translate":"porcelain.porcelain.anchor_lost"}
 
 # cleanup force-loaded chunks
 forceload remove all

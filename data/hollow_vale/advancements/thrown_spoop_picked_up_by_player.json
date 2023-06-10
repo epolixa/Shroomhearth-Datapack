@@ -8,7 +8,7 @@
                 },
                 "item": {
                     "items": ["minecraft:raw_gold"],
-                    "nbt": "{display:{Name:'{\"italic\":false,\"translate\":\"item.minecraft.spoop\"}'},CustomModelData:800}"
+                    "nbt": "{display:{Name:'{\"italic\":false,\"translate\":\"hollow_vale.porcelain\"}'},CustomModelData:800}"
                 },
                 "entity": {
                     "type": "minecraft:player"

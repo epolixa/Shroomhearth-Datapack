@@ -38,7 +38,7 @@ execute at @s run summon minecraft:armor_stand ~ ~ ~ {Tags:["porcelain_anchor"],
 clear @s
 
 # give player porcelain
-item replace entity @s weapon.mainhand with minecraft:warped_fungus_on_a_stick{display:{Name:'{"italic":false,"translate":"item.minecraft.porcelain"}'},CustomModelData:1,Enchantments:[{id:"minecraft:infinity",lvl:1s}],HideFlags:1}
+item replace entity @s weapon.mainhand with minecraft:warped_fungus_on_a_stick{display:{Name:'{"italic":false,"translate":"porcelain.porcelain"}'},CustomModelData:1,Enchantments:[{id:"minecraft:infinity",lvl:1s}],HideFlags:1}
 
 # increment next porcelain ID
 scoreboard players add nextPorcelainID shroomhearth 1

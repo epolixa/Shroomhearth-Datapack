@@ -3,7 +3,7 @@
 	"display": {
 		"icon": {
 			"item": "minecraft:ghast_tear",
-            "nbt": "{spore:'charm',display:{Name:'{\"italic\":false,\"translate\":\"item.minecraft.charm\"}'},CustomModelData:1,Enchantments:[{id:\"minecraft:infinity\",lvl:1s}],HideFlags:1}"
+            "nbt": "{spore:'charm',display:{Name:'{\"italic\":false,\"translate\":\"community.charm\"}'},CustomModelData:1,Enchantments:[{id:\"minecraft:infinity\",lvl:1s}],HideFlags:1}"
 		},
 		"title": "Community Contributor",
 		"description": "Use a Charm at the World Hall to activate or extend a Favor",
