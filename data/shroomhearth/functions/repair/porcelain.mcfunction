@@ -5,8 +5,8 @@ execute store result score @s repairable run clear @s #porcelain:porcelain{Custo
 clear @s[scores={repairable=1..}] #porcelain:porcelain{CustomModelData:1} 1
 loot give @s[scores={repairable=1..}] loot porcelain:porcelain
 
+# tag player
+tag @s[scores={repairable=1..}] add repaired
+
 # reset score
 scoreboard players reset @s repairable
-
-# tag player
-tag @s add repaired

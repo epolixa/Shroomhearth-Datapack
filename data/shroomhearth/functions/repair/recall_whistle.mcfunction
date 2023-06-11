@@ -5,8 +5,8 @@ execute store result score @s repairable run clear @s #recall:recall_whistle{Cus
 clear @s[scores={repairable=1..}] #recall:recall_whistle{CustomModelData:2} 1
 loot give @s[scores={repairable=1..}] loot recall:recall_whistle
 
+# tag player
+tag @s[scores={repairable=1..}] add repaired
+
 # reset score
 scoreboard players reset @s repairable
-
-# tag player
-tag @s add repaired
