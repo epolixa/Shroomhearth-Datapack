@@ -46,6 +46,9 @@ scoreboard objectives remove pos_x
 scoreboard objectives remove pos_y
 scoreboard objectives remove pos_z
 
+# flag for repairable items
+scoreboard objectives remove repairable
+
 ## remove module objectives
 function arena:objectives/remove
 function community:objectives/remove

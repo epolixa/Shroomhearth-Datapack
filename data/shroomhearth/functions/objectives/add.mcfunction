@@ -46,6 +46,9 @@ scoreboard objectives add pos_x dummy
 scoreboard objectives add pos_y dummy
 scoreboard objectives add pos_z dummy
 
+# flag for repairable items
+scoreboard objectives add repairable dummy
+
 ## other setup
 # gamerules
 function shroomhearth:setup_gamerules
