@@ -1,6 +1,3 @@
-# Execute functions when the player logs in
-execute as @a[scores={playerLeft=1..}] run function shroomhearth:player_relog
-
 # recalculate playerCount - number of online players
 scoreboard players set playerCount shroomhearth 0
 execute as @a run scoreboard players add playerCount shroomhearth 1
