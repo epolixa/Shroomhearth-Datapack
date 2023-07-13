@@ -1,4 +1,4 @@
-# Runs from the context and at the position of an echo tracker every second
+# Runs from the context and at the position of an echoes armor stand every second
 
 tellraw @a[tag=debug_echoes] [{"text":"Echoes pulsing, waiting for matching player to return..."}]
 
@@ -11,6 +11,11 @@ execute positioned as @a[gamemode=!spectator] if score @s UUID1 = @p UUID1 if sc
 
 # Grant advancements to nearby players if assigned player is not nearby
 execute as @s[tag=!found_player] run advancement grant @a[distance=..16,gamemode=!spectator] only echoes:the_long_dream
+
+# Execute functions on touching players
+execute as @s[tag=!touched] if entity @p[distance=..1] run function echoes:player_touch_echoes
+# Untag untouched players
+execute as @s[tag=touched] if entity @p[distance=1..] run tag @s remove touched
 
 # Remove self if assigned player found
 execute as @s[tag=found_player] run kill @s
