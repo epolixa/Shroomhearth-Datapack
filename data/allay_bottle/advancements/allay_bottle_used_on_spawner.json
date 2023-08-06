@@ -1,0 +1,33 @@
+{
+    "criteria": {
+        "allay_bottle_used_on_block": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": [
+                                "minecraft:allay_spawn_egg"
+                            ],
+                            "nbt": "{spore:'allay_bottle'}"
+                        }
+                    },
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "minecraft:spawner"
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "allay_bottle:allay_bottle_used_on_spawner"
+    }
+}

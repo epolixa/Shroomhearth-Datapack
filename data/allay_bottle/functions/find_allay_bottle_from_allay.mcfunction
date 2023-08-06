@@ -1,0 +1,2 @@
+# Execute functions on matching allay bottle item entities
+execute as @e[type=minecraft:item,nbt={Item:{tag:{spore:"allay_bottle_from_allay"}}}] at @s run function allay_bottle:prepare_allay_bottle

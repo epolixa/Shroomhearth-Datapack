@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "player_used_bottle_on_allay": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:allay"
+                },
+                "item": {
+                    "items": [
+                        "minecraft:glass_bottle"
+                    ]
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "allay_bottle:player_used_bottle_on_allay"
+    }
+}

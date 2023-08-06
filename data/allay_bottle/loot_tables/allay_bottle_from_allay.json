@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:allay_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{spore:'allay_bottle_from_allay',display:{Name:'{\"italic\":false,\"translate\":\"allay_bottle.allay_bottle\"}'},CustomModelData:1}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
