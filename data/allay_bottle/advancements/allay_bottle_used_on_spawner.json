@@ -14,15 +14,12 @@
                         }
                     },
                     {
-                        "condition": "minecraft:inverted",
-                        "term": {
-                            "condition": "minecraft:location_check",
-                            "predicate": {
-                                "block": {
-                                    "blocks": [
-                                        "minecraft:spawner"
-                                    ]
-                                }
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "minecraft:spawner"
+                                ]
                             }
                         }
                     }
@@ -31,6 +28,6 @@
         }
     },
     "rewards": {
-        "function": "allay_bottle:allay_bottle_used_on_block"
+        "function": "allay_bottle:allay_bottle_used_on_spawner"
     }
 }
