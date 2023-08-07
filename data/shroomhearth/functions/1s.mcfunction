@@ -35,5 +35,8 @@ execute if entity @e[tag=seat] run function sitting:1s
 # Echoes - tracking players and playing marker effects
 function echoes:pulse
 
+# Assign allays to special team for no collision
+execute as @e[type=minecraft:allay,tag=!no_collide] run function allay_bottle:1s
+
 # re-schedule
 schedule function shroomhearth:1s 1s

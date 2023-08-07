@@ -50,6 +50,7 @@ scoreboard objectives remove pos_z
 scoreboard objectives remove repairable
 
 ## remove module objectives
+function allay_bottle:objectives/remove
 function arena:objectives/remove
 function community:objectives/remove
 function ender_dragon:objectives/remove

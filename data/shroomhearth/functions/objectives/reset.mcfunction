@@ -3,6 +3,7 @@ function shroomhearth:objectives/remove
 function shroomhearth:objectives/add
 
 ## reset module objectives
+function allay_bottle:objectives/reset
 function arena:objectives/reset
 function community:objectives/reset
 function ender_dragon:objectives/reset
