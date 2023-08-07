@@ -60,6 +60,7 @@ function shroomhearth:chunk_coords/setup
 function shroomhearth:xp/setup
 
 ## add module objectives
+function allay_bottle:objectives/add
 function arena:objectives/add
 function community:objectives/add
 function ender_dragon:objectives/add
