@@ -29,7 +29,7 @@ execute in minecraft:the_porcelain run teleport @s ~ 64 ~
 execute at @s run spreadplayers ~ ~ 0 1 false @s
 
 # set gamemode to creative
-gamemode creative @s
+#gamemode creative @s
 
 # summon marker anchor entity in porcelain
 execute at @s run summon minecraft:armor_stand ~ ~ ~ {Tags:["porcelain_anchor"], Marker:true, Invisible:true}
