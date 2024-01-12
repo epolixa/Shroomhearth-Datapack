@@ -8,4 +8,4 @@ scoreboard objectives add playerInsomnia minecraft.custom:minecraft.time_since_r
 scoreboard objectives add playerFood food "Food"
 
 # Clear objectives below name
-scoreboard objectives setdisplay belowName
+scoreboard objectives setdisplay below_name

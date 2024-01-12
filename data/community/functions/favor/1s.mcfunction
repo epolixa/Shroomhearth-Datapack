@@ -59,3 +59,6 @@ execute if score favDisableCramming shroomhearth matches 1.. run function commun
 
 # Process "No Mob Spawning" favor
 execute if score favDisableSpawning shroomhearth matches 1.. run function community:favor/disable_spawning/process
+
+# Process "No Fall Damage" favor
+execute if score favDisableFallDamage shroomhearth matches 1.. run function community:favor/disable_fall_damage/process

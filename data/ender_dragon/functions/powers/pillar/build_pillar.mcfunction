@@ -8,7 +8,7 @@ kill @s
 fill ~ ~ ~ ~ ~3 ~ minecraft:crying_obsidian
 
 # create pillar marker
-summon minecraft:armor_stand ~ ~ ~ {Marker:true,Invisible:true,Tags:["pillar_marker"],Passengers:[{id:"minecraft:slime",Size:11,Tags:["pillar_gravity"],NoAI:true,NoGravity:true,Invulnerable:true,Silent:true,DeathTime:19,DeathLootTable:"minecraft:empty",ActiveEffects:[{Id:14,Duration:1000000,ShowParticles:false}]}]}
+summon minecraft:armor_stand ~ ~ ~ {Marker:true,Invisible:true,Tags:["pillar_marker"],Passengers:[{id:"minecraft:slime",Size:11,Tags:["pillar_gravity"],NoAI:true,NoGravity:true,Invulnerable:true,Silent:true,DeathTime:19,DeathLootTable:"minecraft:empty",active_effects:[{id:"minecraft:invisibility",duration:1000000,show_particles:false}]}]}
 
 # play particles on pillars
 particle minecraft:dragon_breath ~ ~2 ~ 0.5 2 0.5 0.05 20 force
