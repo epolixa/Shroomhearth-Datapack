@@ -34,7 +34,7 @@
                         "block": {
                             "blocks": ["minecraft:water"],
                             "state": {
-                                "level": 1
+                                "level": "1"
                             }
                         }
                     }
@@ -46,7 +46,7 @@
                         "block": {
                             "blocks": ["minecraft:water"],
                             "state": {
-                                "level": 1
+                                "level": "1"
                             }
                         }
                     }
@@ -58,7 +58,7 @@
                         "block": {
                             "blocks": ["minecraft:water"],
                             "state": {
-                                "level": 0
+                                "level": "0"
                             }
                         }
                     }
@@ -70,7 +70,7 @@
                         "block": {
                             "blocks": ["minecraft:water"],
                             "state": {
-                                "level": 1
+                                "level": "1"
                             }
                         }
                     }
@@ -82,7 +82,7 @@
                         "block": {
                             "blocks": ["minecraft:water"],
                             "state": {
-                                "level": 0
+                                "level": "0"
                             }
                         }
                     }
@@ -95,7 +95,7 @@
                         "block": {
                             "blocks": ["minecraft:water"],
                             "state": {
-                                "level": 1
+                                "level": "1"
                             }
                         }
                     }
@@ -108,7 +108,7 @@
                         "block": {
                             "blocks": ["minecraft:water"],
                             "state": {
-                                "level": 0
+                                "level": "0"
                             }
                         }
                     }
@@ -121,7 +121,7 @@
                         "block": {
                             "blocks": ["minecraft:water"],
                             "state": {
-                                "level": 0
+                                "level": "0"
                             }
                         }
                     }
