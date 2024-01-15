@@ -1,0 +1,10 @@
+{
+    "replace": false,
+    "values": [
+        "#carves:slot/mainhand",
+        "#carves:slot/head",
+        "#carves:slot/chest",
+        "#carves:slot/legs",
+        "#carves:slot/feet"
+    ]
+}

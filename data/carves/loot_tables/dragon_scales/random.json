@@ -1,0 +1,17 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "carves:dragon_scales/max_health"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "carves:dragon_scales/movement_speed"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "consume_dragon_meat": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "tag": "carves:dragon_tail",
+                    "nbt": "{spore:\"dragon_tail\"}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "carves:consume_dragon_tail"
+    }
+}

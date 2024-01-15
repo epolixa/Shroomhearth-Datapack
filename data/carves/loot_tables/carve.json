@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "carves:dragon_tail",
+                    "weight": 3
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "carves:dragon_scales/random",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

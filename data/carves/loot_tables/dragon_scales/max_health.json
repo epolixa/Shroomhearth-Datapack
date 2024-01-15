@@ -1,0 +1,50 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:phantom_membrane",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{spore:'dragon_scale',scale:'max_health',CustomModelData:4501,HideFlags:1}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": [
+                                {
+                                    "translate": "carves.dragon_scale.max_health",
+                                    "italic": false,
+                                    "color": "yellow"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "text": "+2 Max Health",
+                                    "italic": false,
+                                    "color": "dark_green"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:reference",
+                            "name": "carves:dragon_scale_lore"
+                        },
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "unbreaking": 1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
