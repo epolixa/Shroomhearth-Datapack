@@ -10,13 +10,13 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{spore:'dragon_scale',scale:'movement_speed',CustomModelData:4503,HideFlags:1}"
+                            "tag": "{spore:'dragon_scale',scale:'attack_speed',CustomModelData:4505,HideFlags:1}"
                         },
                         {
                             "function": "minecraft:set_name",
                             "name": [
                                 {
-                                    "translate": "carves.dragon_scale.movement_speed",
+                                    "translate": "carves.dragon_scale.attack_speed",
                                     "italic": false,
                                     "color": "yellow"
                                 }
@@ -26,7 +26,7 @@
                             "function": "minecraft:set_lore",
                             "lore": [
                                 {
-                                    "text": "+0.03 Movement Speed",
+                                    "text": "+1 Attack Speed",
                                     "italic": false,
                                     "color": "dark_green"
                                 }

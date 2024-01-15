@@ -1,6 +1,6 @@
 {
     "criteria": {
-        "consume_dragon_meat": {
+        "consume_dragon_tail": {
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {

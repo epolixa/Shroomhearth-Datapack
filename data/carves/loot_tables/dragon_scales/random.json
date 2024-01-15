@@ -9,7 +9,19 @@
                 },
                 {
                     "type": "minecraft:loot_table",
+                    "name": "carves:dragon_scales/knockback_resistance"
+                },
+                {
+                    "type": "minecraft:loot_table",
                     "name": "carves:dragon_scales/movement_speed"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "carves:dragon_scales/attack_damage"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "carves:dragon_scales/attack_speed"
                 }
             ]
         }

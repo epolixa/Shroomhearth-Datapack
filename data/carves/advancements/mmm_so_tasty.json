@@ -1,0 +1,26 @@
+{
+    "parent": "shroomhearth:headhunter",
+	"display": {
+		"icon": {
+			"item": "minecraft:cooked_beef",
+            "nbt": "{spore:'dragon_tail',CustomModelData:1}"
+		},
+		"title": "Mmm, So Tasty!",
+		"description": "Eat a Dragon Tail to fully satisfy your hunger",
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+    "criteria": {
+        "consume_dragon_tail": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "tag": "carves:dragon_tail",
+                    "nbt": "{spore:\"dragon_tail\"}"
+                }
+            }
+        }
+    }
+}
