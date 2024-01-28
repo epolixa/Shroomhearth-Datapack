@@ -3,7 +3,7 @@
 tellraw @a[tag=debug_echoes] [{"text":"Echoes pulsing, waiting for matching player to return..."}]
 
 # Play particles
-particle minecraft:soul_fire_flame ~ ~0.8 ~ 0.1 0.2 0.1 0 1
+particle minecraft:soul_fire_flame ~ ~0.8 ~ 0.1 0.2 0.1 0 1 force
 
 # Search for matching player
 tag @s remove found_player
