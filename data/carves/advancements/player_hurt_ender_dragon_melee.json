@@ -1,0 +1,15 @@
+{
+	"criteria": {
+		"player_hurt_ender_dragon_melee": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:ender_dragon"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "carves:player_hurt_ender_dragon_melee"
+	} 
+}
