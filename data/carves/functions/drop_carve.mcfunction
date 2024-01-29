@@ -4,9 +4,8 @@
 say I got a carve!
 
 # Play sound for all players
-#playsound minecraft:entity.ender_dragon.hurt hostile @a ~ ~ ~ 1 2 1
-playsound minecraft:entity.goat.horn_break hostile @a ~ ~ ~ 1 0.5 1
-playsound minecraft:item.trident.return hostile @a ~ ~ ~ 1 1.2 1
+playsound minecraft:entity.turtle.egg_break hostile @a ~ ~ ~ 12 0.8
+playsound minecraft:entity.arrow.hit_player hostile @a ~ ~ ~ 12 1.5
 
 # Play particles for all players
 particle minecraft:crit ~ ~ ~ 3 1 3 0 16 force
