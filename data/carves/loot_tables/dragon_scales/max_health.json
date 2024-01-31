@@ -26,7 +26,7 @@
                             "function": "minecraft:set_lore",
                             "lore": [
                                 {
-                                    "text": "+2 Max Health",
+                                    "text": "+4 Max Health",
                                     "italic": false,
                                     "color": "dark_green"
                                 }

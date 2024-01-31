@@ -5,7 +5,7 @@
             {
                 "name": "generic.max_health",
                 "attribute": "generic.max_health",
-                "slot": "chest",
+                "slot": "mainhand",
                 "operation": "addition",
                 "amount": 4
             }

@@ -3,11 +3,11 @@
         "function": "minecraft:set_attributes",
         "modifiers": [
             {
-                "name": "generic.max_health",
-                "attribute": "generic.max_health",
-                "slot": "chest",
+                "name": "generic.movement_speed",
+                "attribute": "generic.movement_speed",
+                "slot": "head",
                 "operation": "addition",
-                "amount": 4
+                "amount": 0.03
             }
         ]
     },

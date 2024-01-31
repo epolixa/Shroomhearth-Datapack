@@ -12,7 +12,7 @@
         ]
     },
     {
-        "function": "set_nbt",
-        "tag": "{spore:'dragon_scale_embedded'}"
+        "function": "minecraft:reference",
+        "name": "carves:dragon_scale_embedded"
     }
 ]
