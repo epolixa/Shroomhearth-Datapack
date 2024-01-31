@@ -13,6 +13,6 @@
     },
     {
         "function": "set_nbt",
-        "tag": "{spore:'dragon_scale_applied'}"
+        "tag": "{spore:'dragon_scale_embedded'}"
     }
 ]

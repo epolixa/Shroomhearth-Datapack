@@ -9,6 +9,10 @@
                 },
                 {
                     "type": "minecraft:loot_table",
+                    "name": "carves:dragon_scales/armor"
+                },
+                {
+                    "type": "minecraft:loot_table",
                     "name": "carves:dragon_scales/knockback_resistance"
                 },
                 {

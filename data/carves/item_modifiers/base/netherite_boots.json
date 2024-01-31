@@ -1,0 +1,19 @@
+{
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+        {
+            "name": "generic.armor",
+            "attribute": "generic.armor",
+            "slot": "feet",
+            "operation": "addition",
+            "amount": 3
+        },
+        {
+            "name": "generic.armor",
+            "attribute": "generic.armor_toughness",
+            "slot": "feet",
+            "operation": "addition",
+            "amount": 3
+        }
+    ]
+}
