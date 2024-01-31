@@ -10,7 +10,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{spore:'dragon_scale',scale:'attack_damage',CustomModelData:4504,HideFlags:1}"
+                            "tag": "{spore:'dragon_scale',scale:'attack_damage',CustomModelData:4504}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -35,12 +35,6 @@
                         {
                             "function": "minecraft:reference",
                             "name": "carves:dragon_scale_lore"
-                        },
-                        {
-                            "function": "minecraft:set_enchantments",
-                            "enchantments": {
-                                "unbreaking": 1
-                            }
                         }
                     ]
                 }

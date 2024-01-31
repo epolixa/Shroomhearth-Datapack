@@ -1,0 +1,18 @@
+[
+    {
+        "function": "minecraft:set_attributes",
+        "modifiers": [
+            {
+                "name": "generic.movement_speed",
+                "attribute": "generic.movement_speed",
+                "slot": "chest",
+                "operation": "addition",
+                "amount": 0.03
+            }
+        ]
+    },
+    {
+        "function": "set_nbt",
+        "tag": "{spore:'dragon_scale_embedded'}"
+    }
+]

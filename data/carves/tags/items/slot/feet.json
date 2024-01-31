@@ -1,12 +1,11 @@
 {
     "replace": false,
     "values": [
-        "minecraft:leather_helmet",
-        "minecraft:iron_helmet",
-        "minecraft:chainmail_helmet",
-        "minecraft:golden_helmet",
-        "minecraft:diamond_helmet",
-        "minecraft:netherite_helmet",
-        "minecraft:turtle_helmet"
+        "minecraft:leather_boots",
+        "minecraft:iron_boots",
+        "minecraft:chainmail_boots",
+        "minecraft:golden_boots",
+        "minecraft:diamond_boots",
+        "minecraft:netherite_boots"
     ]
 }

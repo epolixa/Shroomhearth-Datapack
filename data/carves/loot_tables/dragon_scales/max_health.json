@@ -10,7 +10,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{spore:'dragon_scale',scale:'max_health',CustomModelData:4501,HideFlags:1}"
+                            "tag": "{spore:'dragon_scale',scale:'max_health',CustomModelData:4501}"
                         },
                         {
                             "function": "minecraft:set_name",
@@ -35,12 +35,6 @@
                         {
                             "function": "minecraft:reference",
                             "name": "carves:dragon_scale_lore"
-                        },
-                        {
-                            "function": "minecraft:set_enchantments",
-                            "enchantments": {
-                                "unbreaking": 1
-                            }
                         }
                     ]
                 }
