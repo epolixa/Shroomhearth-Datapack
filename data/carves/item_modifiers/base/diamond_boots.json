@@ -9,7 +9,7 @@
             "amount": 3
         },
         {
-            "name": "generic.armor",
+            "name": "generic.armor_toughness",
             "attribute": "generic.armor_toughness",
             "slot": "feet",
             "operation": "addition",

@@ -1,0 +1,18 @@
+[
+    {
+        "function": "minecraft:set_attributes",
+        "modifiers": [
+            {
+                "name": "generic.attack_damage",
+                "attribute": "generic.attack_damage",
+                "slot": "head",
+                "operation": "addition",
+                "amount": 1
+            }
+        ]
+    },
+    {
+        "function": "minecraft:reference",
+        "name": "carves:dragon_scale_embedded"
+    }
+]

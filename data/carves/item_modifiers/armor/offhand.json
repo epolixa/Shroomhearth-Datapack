@@ -1,0 +1,18 @@
+[
+    {
+        "function": "minecraft:set_attributes",
+        "modifiers": [
+            {
+                "name": "generic.armor",
+                "attribute": "generic.armor",
+                "slot": "offhand",
+                "operation": "addition",
+                "amount": 4
+            }
+        ]
+    },
+    {
+        "function": "minecraft:reference",
+        "name": "carves:dragon_scale_embedded"
+    }
+]

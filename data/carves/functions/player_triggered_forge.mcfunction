@@ -24,6 +24,7 @@ say equipment and scale type stored
 
 # Set attribute target slot by running checks on mainhand
 execute as @e[tag=dragon_forge,limit=1,sort=nearest] if predicate carves:is_mainhand run data modify storage carves slot set value "mainhand"
+execute as @e[tag=dragon_forge,limit=1,sort=nearest] if predicate carves:is_offhand run data modify storage carves slot set value "offhand"
 execute as @e[tag=dragon_forge,limit=1,sort=nearest] if predicate carves:is_head run data modify storage carves slot set value "head"
 execute as @e[tag=dragon_forge,limit=1,sort=nearest] if predicate carves:is_chest run data modify storage carves slot set value "chest"
 execute as @e[tag=dragon_forge,limit=1,sort=nearest] if predicate carves:is_legs run data modify storage carves slot set value "legs"
@@ -34,7 +35,8 @@ say slot stored
 # Run application macro with data from storage
 execute as @e[tag=dragon_forge,sort=nearest,limit=1] at @s if data entity @s HandItems[0].tag.AttributeModifiers run tellraw @p "This item already has an embedded Dragon Scale"
 execute as @e[tag=dragon_forge,sort=nearest,limit=1] at @s if data storage carves {slot:""} run tellraw @p "Dragon Scales cannot be embedded in this item"
-execute as @e[tag=dragon_forge,sort=nearest,limit=1] at @s unless data entity @s HandItems[0].tag.AttributeModifiers unless data storage carves {slot:""} run function carves:embed_dragon_scale with storage carves
+execute as @e[tag=dragon_forge,sort=nearest,limit=1] at @s if data storage carves {dragon_scale:""} run tellraw @p "No Dragon Scale provided"
+execute as @e[tag=dragon_forge,sort=nearest,limit=1] at @s unless data entity @s HandItems[0].tag.AttributeModifiers unless data storage carves {slot:""} unless data storage carves {dragon_scale:""} run function carves:embed_dragon_scale with storage carves
 
 say cleaning up..
 

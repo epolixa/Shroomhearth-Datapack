@@ -9,11 +9,18 @@
             "amount": 8
         },
         {
-            "name": "generic.armor",
+            "name": "generic.armor_toughness",
             "attribute": "generic.armor_toughness",
             "slot": "chest",
             "operation": "addition",
             "amount": 3
+        },
+        {
+            "name": "generic.knockback_resistance",
+            "attribute": "generic.knockback_resistance",
+            "slot": "chest",
+            "operation": "addition",
+            "amount": 0.1
         }
     ]
 }
