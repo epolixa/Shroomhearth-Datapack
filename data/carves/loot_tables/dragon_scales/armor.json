@@ -26,7 +26,7 @@
                             "function": "minecraft:set_lore",
                             "lore": [
                                 {
-                                    "text": "+4 Armor",
+                                    "text": "+2 Armor",
                                     "italic": false,
                                     "color": "dark_green"
                                 }

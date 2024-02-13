@@ -7,7 +7,7 @@
                 "attribute": "generic.armor",
                 "slot": "chest",
                 "operation": "addition",
-                "amount": 4
+                "amount": 2
             }
         ]
     },
