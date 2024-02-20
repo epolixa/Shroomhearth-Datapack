@@ -477,7 +477,7 @@
           "offhand": {
             "enchantments": [
               {
-                "enchantment": "minecraft:sweeping",
+                "enchantment": "minecraft:sweeping_edge",
                 "levels": {
                   "min": 4
                 }
