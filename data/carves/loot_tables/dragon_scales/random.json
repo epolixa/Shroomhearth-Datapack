@@ -30,6 +30,10 @@
                 {
                     "type": "minecraft:loot_table",
                     "name": "carves:dragon_scales/positive_scale"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "carves:dragon_scales/negative_scale"
                 }
             ]
         }

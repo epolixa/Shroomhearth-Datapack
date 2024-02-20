@@ -1,0 +1,18 @@
+[
+    {
+        "function": "minecraft:set_attributes",
+        "modifiers": [
+            {
+                "name": "generic.scale",
+                "attribute": "generic.scale",
+                "slot": "legs",
+                "operation": "multiply_total",
+                "amount": -0.5
+            }
+        ]
+    },
+    {
+        "function": "minecraft:reference",
+        "name": "carves:dragon_scale_embedded"
+    }
+]

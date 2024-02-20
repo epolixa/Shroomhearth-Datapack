@@ -1,0 +1,44 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:phantom_membrane",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{spore:'dragon_scale',scale:'negative_scale',CustomModelData:4503}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": [
+                                {
+                                    "translate": "carves.dragon_scale.negative_scale",
+                                    "italic": false,
+                                    "color": "yellow"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "text": "-50% Scale",
+                                    "italic": false,
+                                    "color": "dark_green"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:reference",
+                            "name": "carves:dragon_scale_lore"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
