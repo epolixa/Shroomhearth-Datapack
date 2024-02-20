@@ -1,0 +1,25 @@
+[
+    {
+        "function": "minecraft:set_attributes",
+        "modifiers": [
+            {
+                "name": "player.block_interaction_range",
+                "attribute": "player.block_interaction_range",
+                "slot": "head",
+                "operation": "addition",
+                "amount": 1
+            },
+            {
+                "name": "player.entity_interaction_range",
+                "attribute": "player.entity_interaction_range",
+                "slot": "head",
+                "operation": "addition",
+                "amount": 1
+            }
+        ]
+    },
+    {
+        "function": "minecraft:reference",
+        "name": "carves:dragon_scale_embedded"
+    }
+]
