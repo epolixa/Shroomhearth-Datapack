@@ -26,6 +26,10 @@
                 {
                     "type": "minecraft:loot_table",
                     "name": "carves:dragon_scales/attack_speed"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "carves:dragon_scales/positive_scale"
                 }
             ]
         }
