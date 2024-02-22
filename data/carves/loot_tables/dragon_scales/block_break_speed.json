@@ -1,0 +1,44 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:phantom_membrane",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{spore:'dragon_scale',scale:'block_break_speed',CustomModelData:4505}"
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": [
+                                {
+                                    "translate": "carves.dragon_scale.block_break_speed",
+                                    "italic": false,
+                                    "color": "yellow"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "text": "+1 Block Break Speed",
+                                    "italic": false,
+                                    "color": "dark_green"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:reference",
+                            "name": "carves:dragon_scale_lore"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

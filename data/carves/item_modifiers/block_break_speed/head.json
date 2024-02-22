@@ -1,0 +1,18 @@
+[
+    {
+        "function": "minecraft:set_attributes",
+        "modifiers": [
+            {
+                "name": "player.block_break_speed",
+                "attribute": "player.block_break_speed",
+                "slot": "head",
+                "operation": "addition",
+                "amount": 1
+            }
+        ]
+    },
+    {
+        "function": "minecraft:reference",
+        "name": "carves:dragon_scale_embedded"
+    }
+]
