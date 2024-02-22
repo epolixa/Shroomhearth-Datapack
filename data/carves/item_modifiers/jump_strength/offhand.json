@@ -13,8 +13,8 @@
                 "name": "generic.safe_fall_distance",
                 "attribute": "generic.safe_fall_distance",
                 "slot": "offhand",
-                "operation": "addition",
-                "amount": 1
+                "operation": "multiply_total",
+                "amount": 0.2
             }
         ]
     },

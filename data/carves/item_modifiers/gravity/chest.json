@@ -3,18 +3,18 @@
         "function": "minecraft:set_attributes",
         "modifiers": [
             {
-                "name": "generic.jump_strength",
-                "attribute": "generic.jump_strength",
-                "slot": "head",
-                "operation": "addition",
-                "amount": 0.2
+                "name": "generic.gravity",
+                "attribute": "generic.gravity",
+                "slot": "chest",
+                "operation": "multiply_total",
+                "amount": -0.5
             },
             {
                 "name": "generic.safe_fall_distance",
                 "attribute": "generic.safe_fall_distance",
-                "slot": "head",
+                "slot": "chest",
                 "operation": "multiply_total",
-                "amount": 0.2
+                "amount": 0.5
             }
         ]
     },
