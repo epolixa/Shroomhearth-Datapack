@@ -10,7 +10,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{spore:'dragon_scale',scale:'attack_speed',CustomModelData:4505}"
+                            "tag": "{spore:'dragon_scale',scale:'attack_speed',CustomModelData:4505,Enchantments:[{id:\"minecraft:infinity\",lvl:1s}],HideFlags:1}"
                         },
                         {
                             "function": "minecraft:set_name",
