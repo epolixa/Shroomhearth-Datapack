@@ -5,19 +5,7 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "carves:dragon_scales/max_health"
-                },
-                {
-                    "type": "minecraft:loot_table",
                     "name": "carves:dragon_scales/armor"
-                },
-                {
-                    "type": "minecraft:loot_table",
-                    "name": "carves:dragon_scales/knockback_resistance"
-                },
-                {
-                    "type": "minecraft:loot_table",
-                    "name": "carves:dragon_scales/movement_speed"
                 },
                 {
                     "type": "minecraft:loot_table",
@@ -29,7 +17,27 @@
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "name": "carves:dragon_scales/positive_scale"
+                    "name": "carves:dragon_scales/block_break_speed"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "carves:dragon_scales/gravity"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "carves:dragon_scales/interaction_range"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "carves:dragon_scales/jump_strength"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "carves:dragon_scales/max_health"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "carves:dragon_scales/movement_speed"
                 },
                 {
                     "type": "minecraft:loot_table",
@@ -37,7 +45,11 @@
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "name": "carves:dragon_scales/interaction_range"
+                    "name": "carves:dragon_scales/positive_scale"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "carves:dragon_scales/step_height"
                 }
             ]
         }
