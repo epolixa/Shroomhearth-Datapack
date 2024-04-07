@@ -1,5 +1,5 @@
 # Clear 1 charm
-clear @s #community:charm{spore:"charm"} 1
+clear @s #community:charm[custom_data={spore:"charm"}] 1
 
 # clear the weather and stop it from cycling
 weather clear
