@@ -4,6 +4,8 @@
   "ingredient": {
     "item": "minecraft:terracotta"
   },
-  "result": "minecraft:brick",
-  "count": 4
+  "result": {
+    "id": "minecraft:brick",
+    "count": 4
+  }
 }
