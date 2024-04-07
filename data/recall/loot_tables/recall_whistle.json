@@ -9,8 +9,16 @@
                     "weight": 1,
                     "functions": [
                         {
-                            "function": "set_nbt",
-                            "tag": "{spore:'recall_whistle',display:{Name:'{\"italic\":false,\"translate\":\"recall.recall_whistle\"}'},CustomModelData:2,Enchantments:[{id:\"minecraft:infinity\",lvl:1s}],HideFlags:1}"
+                            "function": "set_components",
+                            "components": {
+                                "item_name": "{'translate':'recall.recall_whistle','fallback':'Recall Whistle'}",
+                                "custom_model_data": 2,
+                                "enchantment_glint_override": true
+                            }
+                        },
+                        {
+                            "function": "set_custom_data",
+                            "tag": "{spore:'recall_whistle'}"
                         }
                     ]
                 }
