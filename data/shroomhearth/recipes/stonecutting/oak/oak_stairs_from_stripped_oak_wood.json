@@ -3,6 +3,8 @@
   "ingredient": {
     "item": "minecraft:stripped_oak_wood"
   },
-  "result": "minecraft:oak_stairs",
-  "count": 4
+  "result": {
+    "id": "minecraft:oak_stairs",
+    "count": 4
+  }
 }
