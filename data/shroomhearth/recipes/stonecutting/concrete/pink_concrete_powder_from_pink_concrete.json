@@ -3,6 +3,8 @@
   "ingredient": {
     "item": "minecraft:pink_concrete"
   },
-  "result": "minecraft:pink_concrete_powder",
-  "count": 1
+  "result": {
+    "id": "minecraft:pink_concrete_powder",
+    "count": 1
+  }
 }
