@@ -2,7 +2,7 @@
   "parent": "community:community_convenience",
   "display": {
 		"icon": {
-			"item": "minecraft:bell"
+			"id": "minecraft:bell"
 		},
 		"title": "Community Cooperator",
 		"description": "Group up with 5 or more players",

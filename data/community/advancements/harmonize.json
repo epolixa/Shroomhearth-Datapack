@@ -2,7 +2,7 @@
 	"parent": "community:community_cooperator",
 	"display": {
 		"icon": {
-			"item": "minecraft:chorus_fruit",
+			"id": "minecraft:chorus_fruit",
             "nbt": "{spore:'harmonized_chorus_fruit',display:{Name:'{\"italic\":false,\"translate\":\"item.minecraft.harmonized_chorus_fruit\"}'},CustomModelData:1,Enchantments:[{id:\"minecraft:infinity\",lvl:1s}],HideFlags:1}"
 		},
 		"title": "Harmonize",

@@ -2,7 +2,7 @@
 	"parent": "random_tp:spontaneous_adventure",
 	"display": {
 		"icon": {
-			"item": "minecraft:chorus_fruit"
+			"id": "minecraft:chorus_fruit"
 		},
 		"title": "Adventuring Party",
 		"description": "Follow a player who randomly teleported from the Spawn Pedestal",

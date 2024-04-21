@@ -2,7 +2,7 @@
 	"parent": "mob_warding:mob_zapper",
 	"display": {
 		"icon": {
-			"item": "minecraft:golden_axe",
+			"id": "minecraft:golden_axe",
 			"nbt": "{CustomModelData:850}"
 		},
 		"title": "Accomplished Artificer",

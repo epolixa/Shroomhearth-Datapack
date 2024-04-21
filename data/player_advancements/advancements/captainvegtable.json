@@ -2,7 +2,7 @@
 	"parent": "community:harmonize",
 	"display": {
 		"icon": {
-			"item": "minecraft:player_head",
+			"id": "minecraft:player_head",
 			"nbt": "{SkullOwner:\"CaptainVegtable\"}"
 		},
 		"title": "CaptainVegtable",

@@ -2,7 +2,7 @@
 	"parent": "shroomhearth:root",
 	"display": {
 		"icon": {
-			"item": "minecraft:allay_spawn_egg",
+			"id": "minecraft:allay_spawn_egg",
             "nbt": "{spore:'allay_bottle',display:{Name:'{\"italic\":false,\"translate\":\"allay_bottle.allay_bottle\"}'},CustomModelData:1}"
 		},
 		"title": "Bottle Buddy",

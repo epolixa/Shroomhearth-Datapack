@@ -2,7 +2,7 @@
   "parent": "mob_warding:mob_zapper",
   "display": {
 		"icon": {
-			"item": "minecraft:creeper_head"
+			"id": "minecraft:creeper_head"
 		},
 		"title": "Headhunter",
 		"description": "Collect a head from every hostile mob",

@@ -2,7 +2,7 @@
 	"parent": "haberdasher:face_painter",
 	"display": {
 		"icon": {
-			"item": "minecraft:end_rod"
+			"id": "minecraft:end_rod"
         },
 		"title": "Haberdasher",
 		"description": "Equip an item in your head slot at the World Hall",

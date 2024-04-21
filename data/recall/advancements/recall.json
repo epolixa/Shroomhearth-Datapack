@@ -2,7 +2,7 @@
 	"parent": "sleeping:slumber_party",
 	"display": {
 		"icon": {
-			"item": "minecraft:warped_fungus_on_a_stick",
+			"id": "minecraft:warped_fungus_on_a_stick",
             "nbt": "{spore:'recall_whistle',display:{Name:'{\"italic\":false,\"translate\":\"recall.recall_whistle\"}'},CustomModelData:2,Enchantments:[{id:\"minecraft:infinity\",lvl:1s}],HideFlags:1}"
 		},
 		"title": "Recall",

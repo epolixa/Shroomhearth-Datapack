@@ -2,7 +2,7 @@
 	"parent": "community:community_cooperator",
 	"display": {
 		"icon": {
-			"item": "minecraft:ghast_tear",
+			"id": "minecraft:ghast_tear",
             "nbt": "{spore:'charm',display:{Name:'{\"italic\":false,\"translate\":\"community.charm\"}'},CustomModelData:1,Enchantments:[{id:\"minecraft:infinity\",lvl:1s}],HideFlags:1}"
 		},
 		"title": "Community Contributor",

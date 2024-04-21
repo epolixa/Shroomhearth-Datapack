@@ -1,19 +1,19 @@
 {
     "parent": "community:community_cooperator",
     "display": {
-          "icon": {
-              "item": "minecraft:soul_campfire"
-          },
-          "title": "The Long Dream",
-          "description": "Encounter an offline Player's Echoes",
-          "frame": "task",
-          "show_toast": true,
-          "announce_to_chat": true,
-          "hidden": false
-      },
-      "criteria": {
-          "group_up": {
-              "trigger": "minecraft:impossible"
-          }
-      }
-  }
+        "icon": {
+            "id": "minecraft:soul_campfire"
+        },
+        "title": "The Long Dream",
+        "description": "Encounter an offline Player's Echoes",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "group_up": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

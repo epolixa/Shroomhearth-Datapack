@@ -2,7 +2,7 @@
 	"parent": "speedy_paths:well_traveled",
 	"display": {
 		"icon": {
-			"item": "minecraft:warped_fungus_on_a_stick",
+			"id": "minecraft:warped_fungus_on_a_stick",
 			"nbt": "{spore:'porcelain',display:{Name:'{\"italic\":false,\"translate\":\"porcelain.porcelain\"}'},CustomModelData:1,Enchantments:[{id:\"minecraft:infinity\",lvl:1s}],HideFlags:1}"
 		},
 		"title": "The Porcelain",

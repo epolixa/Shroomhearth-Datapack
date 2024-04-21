@@ -2,7 +2,7 @@
 	"parent": "shroomhearth:root",
 	"display": {
 		"icon": {
-			"item": "minecraft:dirt_path"
+			"id": "minecraft:dirt_path"
 		},
 		"title": "Well Traveled",
 		"description": "Sprint faster on a Dirt Path",
