@@ -3,6 +3,8 @@
   "ingredient": {
     "item": "minecraft:leather_helmet"
   },
-  "result": "minecraft:leather",
-  "count": 1
+  "result": {
+    "id": "minecraft:leather",
+    "count": 1
+  }
 }
