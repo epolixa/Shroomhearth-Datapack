@@ -3,6 +3,8 @@
   "ingredient": {
     "item": "minecraft:packed_mud"
   },
-  "result": "minecraft:mud_bricks",
-  "count": 1
+  "result": {
+    "id": "minecraft:mud_bricks",
+    "count": 1
+  }
 }
