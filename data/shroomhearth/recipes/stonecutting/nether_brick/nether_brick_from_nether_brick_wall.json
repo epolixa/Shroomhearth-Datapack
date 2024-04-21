@@ -4,6 +4,8 @@
   "ingredient": {
     "item": "minecraft:nether_brick_wall"
   },
-  "result": "minecraft:nether_brick",
-  "count": 4
+  "result": {
+    "id": "minecraft:nether_brick",
+    "count": 4
+  }
 }
