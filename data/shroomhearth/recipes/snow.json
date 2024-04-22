@@ -6,7 +6,7 @@
       }
     ],
     "result": {
-      "item": "minecraft:snow",
+      "id": "minecraft:snow",
       "count": 8
     }
   }

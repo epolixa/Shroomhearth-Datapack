@@ -15,7 +15,7 @@
     "SSS"
   ],
   "result": {
-    "item": "minecraft:lodestone"
+    "id": "minecraft:lodestone"
   },
   "show_notification": true
 }

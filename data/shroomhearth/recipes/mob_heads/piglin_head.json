@@ -1,12 +1,12 @@
 {
-    "type": "crafting_shapeless",
-    "ingredients": [
-      {
-        "item": "minecraft:piglin_head"
-      }
-    ],
-    "result": {
-      "item": "minecraft:gold_nugget",
-      "count": 3
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:piglin_head"
     }
+  ],
+  "result": {
+    "id": "minecraft:gold_nugget",
+    "count": 3
   }
+}

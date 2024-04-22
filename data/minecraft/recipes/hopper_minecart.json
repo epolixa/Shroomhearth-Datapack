@@ -14,6 +14,6 @@
     "m"
   ],
   "result": {
-    "item": "minecraft:hopper_minecart"
+    "id": "minecraft:hopper_minecart"
   }
 }
