@@ -3,7 +3,9 @@
   "ingredient": {
     "item": "minecraft:stone_bricks"
   },
-  "result": "minecraft:cracked_stone_bricks",
+  "result": {
+    "id": "minecraft:cracked_stone_bricks"
+  },
   "experience": 0.1,
   "cookingtime": 100
 }

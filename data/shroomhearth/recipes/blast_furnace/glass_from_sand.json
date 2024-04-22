@@ -3,7 +3,9 @@
   "ingredient": {
     "tag": "minecraft:sand"
   },
-  "result": "minecraft:glass",
+  "result": {
+    "id": "minecraft:glass"
+  },
   "experience": 0.1,
   "cookingtime": 100
 }

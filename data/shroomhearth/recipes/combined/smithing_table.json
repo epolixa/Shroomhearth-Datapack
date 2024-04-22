@@ -14,6 +14,6 @@
     "c "
   ],
   "result": {
-    "item": "minecraft:smithing_table"
+    "id": "minecraft:smithing_table"
   }
 }
