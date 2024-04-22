@@ -46,8 +46,13 @@
                     "name": "minecraft:player_head",
                     "functions": [
                         {
-                            "function": "set_nbt",
-                            "tag": "{display:{Name:'{\"text\":\"Enderman Head\",\"italic\":false}'},SkullOwner:\"MHF_Enderman\"}"
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": "'Enderman Head'",
+                                "minecraft:profile": {
+                                    "name": "MHF_Enderman"
+                                }
+                            }
                         }
                     ],
                     "weight": 1

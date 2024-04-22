@@ -94,8 +94,13 @@
                     "name": "minecraft:player_head",
                     "functions": [
                         {
-                            "function": "set_nbt",
-                            "tag": "{display:{Name:'{\"text\":\"Slime Core\",\"italic\":false}'},SkullOwner:\"MHF_Slime\"}"
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": "'Slime Core'",
+                                "minecraft:profile": {
+                                    "name": "MHF_Slime"
+                                }
+                            }
                         }
                     ],
                     "weight": 1

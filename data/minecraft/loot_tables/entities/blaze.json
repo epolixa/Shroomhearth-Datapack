@@ -53,8 +53,13 @@
                     "name": "minecraft:player_head",
                     "functions": [
                         {
-                            "function": "set_nbt",
-                            "tag": "{display:{Name:'{\"text\":\"Blaze Head\",\"italic\":false}'},SkullOwner:\"MHF_Blaze\"}"
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": "'Blaze Head'",
+                                "minecraft:profile": {
+                                    "name": "MHF_Blaze"
+                                }
+                            }
                         }
                     ],
                     "weight": 100,

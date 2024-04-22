@@ -74,8 +74,13 @@
                     "name": "minecraft:player_head",
                     "functions": [
                         {
-                            "function": "set_nbt",
-                            "tag": "{display:{Name:'{\"text\":\"Ghast Head\",\"italic\":false}'},SkullOwner:\"MHF_Ghast\"}"
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": "'Ghast Head'",
+                                "minecraft:profile": {
+                                    "name": "MHF_Ghast"
+                                }
+                            }
                         }
                     ],
                     "weight": 1
