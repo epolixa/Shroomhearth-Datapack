@@ -1,72 +1,88 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "pools": [
         {
-          "type": "item",
-          "name": "minecraft:totem_of_undying"
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:totem_of_undying"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:emerald",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 0,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "looting_enchant",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 0,
+                                "max": 1
+                            }
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "killed_by_player"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "condition": "killed_by_player"
+                },
+                {
+                    "condition": "random_chance_with_looting",
+                    "chance": 0.025,
+                    "looting_multiplier": 0.01
+                }
+            ],
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:player_head",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": "'Evoker Head'",
+                                "minecraft:profile": {
+                                    "id": [
+                                        -17612447,
+                                        -1953806226,
+                                        -1654419791,
+                                        -89666527
+                                    ],
+                                    "properties": [
+                                        {
+                                            "name": "textures",
+                                            "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDk1NDEzNWRjODIyMTM5NzhkYjQ3ODc3OGFlMTIxMzU5MWI5M2QyMjhkMzZkZDU0ZjFlYTFkYTQ4ZTdjYmE2In19fQ=="
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ],
+                    "weight": 1
+                }
+            ]
         }
-      ]
-    },
-    {
-        "rolls": 1,
-        "entries": [
-            {
-                "type": "item",
-                "name": "minecraft:emerald",
-                "weight": 1,
-                "functions": [
-                    {
-                        "function": "set_count",
-                        "count": {
-                            "type": "minecraft:uniform",
-                            "min": 0,
-                            "max": 1
-                        }
-                    },
-                    {
-                        "function": "looting_enchant",
-                        "count": {
-                            "type": "minecraft:uniform",
-                            "min": 0,
-                            "max": 1
-                        }
-                    }
-                ]
-            }
-        ],
-        "conditions": [
-            {
-                "condition": "killed_by_player"
-            }
-        ]
-    },
-    {
-        "conditions": [
-            {
-                "condition": "killed_by_player"
-            },
-            {
-                "condition": "random_chance_with_looting",
-                "chance": 0.025,
-                "looting_multiplier": 0.01
-            }
-        ],
-        "rolls": 1,
-        "entries": [
-            {
-                "type": "item",
-                "name": "minecraft:player_head",
-                "functions": [
-                    {
-                        "function": "set_nbt",
-                        "tag": "{display:{Name:'{\"text\":\"Evoker Head\",\"italic\":false}'},SkullOwner:{Id:[I;-17612447,-1953806226,-1654419791,-89666527],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDk1NDEzNWRjODIyMTM5NzhkYjQ3ODc3OGFlMTIxMzU5MWI5M2QyMjhkMzZkZDU0ZjFlYTFkYTQ4ZTdjYmE2In19fQ==\"}]}}}"
-                    }
-                ],
-                "weight": 1
-            }
-        ]
-    }
-  ]
+    ]
 }
