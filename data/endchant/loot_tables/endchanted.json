@@ -5,31 +5,31 @@
             "entries": [
                 {
                     "type": "loot_table",
-                    "name": "endchant:helmet"
+                    "value": "endchant:helmet"
                 },
                 {
                     "type": "loot_table",
-                    "name": "endchant:chestplate"
+                    "value": "endchant:chestplate"
                 },
                 {
                     "type": "loot_table",
-                    "name": "endchant:leggings"
+                    "value": "endchant:leggings"
                 },
                 {
                     "type": "loot_table",
-                    "name": "endchant:boots"
+                    "value": "endchant:boots"
                 },
                 {
                     "type": "loot_table",
-                    "name": "endchant:pickaxe"
+                    "value": "endchant:pickaxe"
                 },
                 {
                     "type": "loot_table",
-                    "name": "endchant:shovel"
+                    "value": "endchant:shovel"
                 },
                 {
                     "type": "loot_table",
-                    "name": "endchant:sword"
+                    "value": "endchant:sword"
                 }
             ]
         }

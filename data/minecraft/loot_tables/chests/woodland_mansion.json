@@ -310,59 +310,59 @@
       "entries": [
         {
             "type": "loot_table",
-            "name": "minecraft:chests/abandoned_mineshaft"
+            "value": "minecraft:chests/abandoned_mineshaft"
         },
         {
             "type": "loot_table",
-            "name": "shroomhearth:structures/bastion"
+            "value": "shroomhearth:structures/bastion"
         },
         {
             "type": "loot_table",
-            "name": "minecraft:chests/buried_treasure"
+            "value": "minecraft:chests/buried_treasure"
         },
         {
             "type": "loot_table",
-            "name": "minecraft:chests/desert_pyramid"
+            "value": "minecraft:chests/desert_pyramid"
         },
         {
             "type": "loot_table",
-            "name": "minecraft:chests/end_city_treasure"
+            "value": "minecraft:chests/end_city_treasure"
         },
         {
             "type": "loot_table",
-            "name": "minecraft:chests/igloo_chest"
+            "value": "minecraft:chests/igloo_chest"
         },
         {
             "type": "loot_table",
-            "name": "shroomhearth:structures/jungle"
+            "value": "shroomhearth:structures/jungle"
         },
         {
             "type": "loot_table",
-            "name": "minecraft:chests/nether_bridge"
+            "value": "minecraft:chests/nether_bridge"
         },
         {
             "type": "loot_table",
-            "name": "minecraft:chests/pillager_outpost"
+            "value": "minecraft:chests/pillager_outpost"
         },
         {
             "type": "loot_table",
-            "name": "minecraft:chests/ruined_portal"
+            "value": "minecraft:chests/ruined_portal"
         },
         {
             "type": "loot_table",
-            "name": "shroomhearth:structures/shipwreck"
+            "value": "shroomhearth:structures/shipwreck"
         },
         {
             "type": "loot_table",
-            "name": "minecraft:chests/simple_dungeon"
+            "value": "minecraft:chests/simple_dungeon"
         },
         {
             "type": "loot_table",
-            "name": "shroomhearth:structures/stronghold"
+            "value": "shroomhearth:structures/stronghold"
         },
         {
             "type": "loot_table",
-            "name": "shroomhearth:structures/underwater_ruin"
+            "value": "shroomhearth:structures/underwater_ruin"
         }
       ]
     }
