@@ -94,7 +94,7 @@
             {
               "function": "minecraft:set_enchantments",
               "enchantments": {
-                "minecraft:sweeping": 4
+                "minecraft:sweeping_edge": 4
               }
             }
           ]
