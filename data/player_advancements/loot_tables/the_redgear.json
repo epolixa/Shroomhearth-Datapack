@@ -10,8 +10,13 @@
           "weight": 100,
           "functions": [
             {
-              "function": "set_nbt",
-              "tag": "{SkullOwner:\"The_RedGear\",BlockEntityTag:{note_block_sound:\"shroomhearth:player_head.the_redgear\"}}"
+              "function": "set_components",
+              "components": {
+                "minecraft:profile": {
+                  "name": "The_RedGear"
+                },
+                "minecraft:note_block_sound": "shroomhearth:player_head.the_redgear"
+              }
             }
           ]
         }

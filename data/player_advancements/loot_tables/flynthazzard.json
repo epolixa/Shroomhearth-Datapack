@@ -9,8 +9,12 @@
                     "name": "minecraft:player_head",
                     "functions": [
                         {
-                            "function": "set_nbt",
-                            "tag": "{SkullOwner:\"FlyntHazzard\"}"
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:profile": {
+                                    "name": "FlyntHazzard"
+                                }
+                            }
                         }
                     ]
                 }

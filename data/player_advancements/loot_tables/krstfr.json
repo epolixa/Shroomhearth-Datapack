@@ -9,8 +9,13 @@
                     "name": "minecraft:player_head",
                     "functions": [
                         {
-                            "function": "set_nbt",
-                            "tag": "{SkullOwner:\"Krstfr\",BlockEntityTag:{note_block_sound:\"shroomhearth:player_head.krstfr\"}}"
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:profile": {
+                                    "name": "Krstfr"
+                                },
+                                "minecraft:note_block_sound": "shroomhearth:player_head.krstfr"
+                            }
                         }
                     ]
                 }

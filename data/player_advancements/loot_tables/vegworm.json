@@ -10,8 +10,13 @@
           "weight": 100,
           "functions": [
             {
-              "function": "set_nbt",
-              "tag": "{SkullOwner:\"vegworm\",BlockEntityTag:{note_block_sound:\"shroomhearth:player_head.vegworm\"}}"
+              "function": "set_components",
+              "components": {
+                "minecraft:profile": {
+                  "name": "vegworm"
+                },
+                "minecraft:note_block_sound": "shroomhearth:player_head.vegworm"
+              }
             }
           ]
         }
