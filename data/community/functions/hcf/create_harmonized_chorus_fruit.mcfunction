@@ -1,5 +1,5 @@
 # Clear 1 charm and material item
-clear @s #community:charm{spore:"charm"} 1
+clear @s #community:charm[custom_data={spore:"charm"}] 1
 clear @s #community:harmonized_chorus_fruit_material 1
 
 # Summon an xp orb
