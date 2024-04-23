@@ -7,7 +7,7 @@ execute unless predicate recall:holding_recall_whistle run function recall:inter
 scoreboard players add @s[tag=recalling] recallTimer 1
 
 # play "casting" particles and sounds
-particle minecraft:shriek 0 ~ ~ ~ ~ ~ ~ 0 0
+particle minecraft:shriek{delay:0} ~ ~ ~ ~ ~ ~ 0 0
 execute if score @s[tag=recalling] recallTimer matches 1 run playsound minecraft:block.beacon.ambient player @a ~ ~ ~ 1 1.6
 execute if score @s[tag=recalling] recallTimer matches 2 run playsound minecraft:block.beacon.ambient player @a ~ ~ ~ 1 1.7
 execute if score @s[tag=recalling] recallTimer matches 3 run playsound minecraft:block.beacon.ambient player @a ~ ~ ~ 1 1.8
