@@ -6,8 +6,10 @@
                 "damage": {
                     "source_entity": {
                         "equipment": {
-                            "mainhand": {                                    
-                                "nbt": "{relic:'guardians_glaive'}"
+                            "mainhand": {   
+								"predicates": {
+									"minecraft:custom_data": "{relic:'guardians_glaive'}"
+								}                                 
                             }
                         }
                     }
