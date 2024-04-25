@@ -7,9 +7,7 @@
                     "type": "minecraft:allay"
                 },
                 "item": {
-                    "items": [
-                        "minecraft:glass_bottle"
-                    ]
+                    "items": "minecraft:glass_bottle"
                 }
             }
         }

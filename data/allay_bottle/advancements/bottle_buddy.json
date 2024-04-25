@@ -3,7 +3,7 @@
 	"display": {
 		"icon": {
 			"id": "minecraft:allay_spawn_egg",
-            "nbt": "{spore:'allay_bottle',display:{Name:'{\"italic\":false,\"translate\":\"allay_bottle.allay_bottle\"}'},CustomModelData:1}"
+			"nbt": "{spore:'allay_bottle',display:{Name:'{\"italic\":false,\"translate\":\"allay_bottle.allay_bottle\"}'},CustomModelData:1}"
 		},
 		"title": "Bottle Buddy",
 		"description": "Catch an Allay in a Bottle",
@@ -18,8 +18,10 @@
 			"conditions": {
 				"items": [
 					{
-						"items":["minecraft:allay_spawn_egg"],
-                        "nbt": "{spore:'allay_bottle'}"
+						"items": "minecraft:allay_spawn_egg",
+						"predicates": {
+							"minecraft:custom_data": "{spore:'allay_bottle'}"
+						}
 					}
 				]
 			}

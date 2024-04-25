@@ -11,7 +11,11 @@
                             "function": "set_components",
                             "components": {
                                 "minecraft:item_name": "{'translate':'allay_bottle.allay_bottle','fallback':'Bottle of Allay'}",
-                                "minecraft:custom_model_data": 1
+                                "minecraft:custom_model_data": 1,
+                                "minecraft:entity_data": {
+                                    "id": "minecraft:allay",
+                                    "Tags": ["unbottled_allay"]
+                                }
                             }
                         },
                         {
