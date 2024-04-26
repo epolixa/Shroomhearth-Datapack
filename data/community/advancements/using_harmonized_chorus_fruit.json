@@ -4,8 +4,10 @@
             "trigger": "minecraft:using_item",
             "conditions": {
                 "item": {
-                    "tag": "community:harmonized_chorus_fruit",
-                    "nbt": "{spore:\"harmonized_chorus_fruit\"}"
+                    "items": "#community:harmonized_chorus_fruit",
+                    "predicates": {
+                        "minecraft:custom_data": "{spore:'harmonized_chorus_fruit'}"
+                    }
                 }
             }
         }
