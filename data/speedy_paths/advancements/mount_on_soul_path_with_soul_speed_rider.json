@@ -9,7 +9,12 @@
               "entity": "this",
               "predicate": {
                 "vehicle": {
-                  "type": "#speedy_paths:mounts"
+                  "type": "#speedy_paths:mounts",
+                  "stepping_on": {
+                    "block": {
+                      "blocks": "#minecraft:soul_speed_blocks"
+                    }
+                  }
                 },
                 "equipment": {
                     "feet": {
@@ -21,29 +26,6 @@
                     }
                 }
               }
-            },
-            {
-              "condition": "minecraft:any_of",
-              "terms": [
-                {
-                  "condition": "minecraft:location_check",
-                  "offsetY": -1,
-                  "predicate": {
-                    "block": {
-                      "tag": "minecraft:soul_speed_blocks"
-                    }
-                  }
-                },
-                {
-                  "condition": "minecraft:location_check",
-                  "offsetY": -2,
-                  "predicate": {
-                    "block": {
-                      "tag": "minecraft:soul_speed_blocks"
-                    }
-                  }
-                }
-              ]
             }
           ]
         }
