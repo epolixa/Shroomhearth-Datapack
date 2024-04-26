@@ -14,7 +14,7 @@
 			"conditions": {
 				"items": [
 					{
-						"tag":"spawner_eggs:spawn_eggs"
+						"items":"#spawner_eggs:spawn_eggs"
 					}
 				]
 			}
