@@ -6,16 +6,20 @@
       "entries": [
         {
           "type": "minecraft:item",
+          "name": "minecraft:spawner",
           "functions": [
             {
-              "function": "minecraft:copy_components",
+              "function": "minecraft:copy_custom_data",
               "source": "block_entity",
-              "include": [
-                "minecraft:block_entity_data"
+              "ops": [
+                {
+                  "source": "SpawnData",
+                  "target": "SpawnData",
+                  "op": "replace"
+                }
               ]
             }
-          ],
-          "name": "minecraft:spawner"
+          ]      
         }
       ],
       "conditions": [
