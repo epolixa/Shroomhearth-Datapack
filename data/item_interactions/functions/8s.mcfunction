@@ -52,7 +52,7 @@ tag @e[type=minecraft:item,nbt={Item:{id:"minecraft:warped_fungus_on_a_stick"}}]
 tag @e[type=minecraft:item,nbt={Item:{id:"minecraft:ghast_tear"}}] add persistant
 
 # reset Age property on tagged entities
-execute as @e[type=minecraft:item,tag=persistant] if data entity @s Item.tag.display.Name run function item_interactions:reset_item_age
+execute as @e[type=minecraft:item,tag=persistant] if data entity @s Item.components."minecraft:custom_name" run function item_interactions:reset_item_age
 
 # re-schedule
 schedule function item_interactions:8s 8s
