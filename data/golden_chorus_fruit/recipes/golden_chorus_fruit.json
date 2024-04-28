@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+        "#": {
+            "item": "minecraft:gold_ingot"
+        },
+        "X": {
+            "item": "minecraft:chorus_fruit"
+        }
+    },
+    "pattern": [
+        "###",
+        "#X#",
+        "###"
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:chorus_fruit",
+        "components": {
+            "minecraft:item_name": "{'translate':'golden_chorus_fruit.golden_chorus_fruit','fallback':'Golden Chorus Fruit'}",
+            "minecraft:custom_model_data": 1,
+            "minecraft:rarity": "rare",
+            "minecraft:custom_data": {"spore":"golden_chorus_fruit"}
+        }
+    }
+}

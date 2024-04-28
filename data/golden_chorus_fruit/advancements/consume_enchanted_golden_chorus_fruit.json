@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "consume_enchanted_golden_chorus_fruit": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:chorus_fruit",
+                    "predicates": {
+                        "minecraft:custom_data": "{spore:'enchanted_golden_chorus_fruit'}"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "golden_chorus_fruit:consume_enchanted_golden_chorus_fruit"
+    }
+}

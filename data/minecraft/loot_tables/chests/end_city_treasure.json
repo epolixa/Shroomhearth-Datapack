@@ -125,6 +125,16 @@
           "weight": 2,
           "name": "minecraft:end_crystal"
         },
+        {
+          "type": "minecraft:loot_table",
+          "value": "golden_chorus_fruit:golden_chorus_fruit",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "golden_chorus_fruit:enchanted_golden_chorus_fruit",
+          "weight": 2
+        },
 
 
 
