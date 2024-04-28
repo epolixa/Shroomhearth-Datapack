@@ -5,7 +5,7 @@
             "condition": "location_check",
             "predicate": {
                 "block": {
-                    "tag": "sitting:7"
+                    "blocks": "#sitting:7"
                 }
             }
         }
