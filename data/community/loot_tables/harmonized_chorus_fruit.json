@@ -16,10 +16,14 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_name": "'Harmonized Chorus Fruit'",
-                                "minecraft:lore": ["[{'selector':'@s','color':'gray','italic':false}]"],
-                                "minecraft:custom_model_data": 1,
                                 "minecraft:enchantment_glint_override": true
                             }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "entity": "this",
+                            "lore": [{"selector":"@s","color":"gray","italic":false}],
+                            "mode": "replace_all"
                         },
                         {
                             "function": "minecraft:set_custom_data",

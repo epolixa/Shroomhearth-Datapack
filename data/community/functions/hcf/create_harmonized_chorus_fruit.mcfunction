@@ -12,4 +12,4 @@ execute at @s run playsound minecraft:entity.allay.item_taken player @a ~ ~ ~ 2 
 loot spawn ~ ~ ~ loot community:harmonized_chorus_fruit
 
 # capture player UUID in fruit
-data modify entity @e[type=minecraft:item,nbt={Item:{tag:{spore:"harmonized_chorus_fruit"}}},limit=1,sort=nearest] Item.tag.targetPlayerUUID set from entity @s UUID
+data modify entity @e[type=minecraft:item,nbt={Item:{components:{"minecraft:custom_data":{spore:"harmonized_chorus_fruit"}}}},limit=1,sort=nearest] Item.components."minecraft:custom_data".targetPlayerUUID set from entity @s UUID
