@@ -14,9 +14,7 @@
                                 "predicate": {
                                     "equipment": {
                                         "head": {
-                                            "items": [
-                                                "minecraft:air"
-                                            ]
+                                            "items": "minecraft:air"
                                         }
                                     }
                                 }
@@ -28,7 +26,7 @@
                     "functions": [
                         {
                             "function": "set_custom_data",
-                            "tag": "{dummy:'hat'}"
+                            "tag": "{spore:'head_slot_target'}"
                         }
                     ]
                 }
