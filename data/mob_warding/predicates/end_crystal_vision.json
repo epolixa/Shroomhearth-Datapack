@@ -4,7 +4,7 @@
   "predicate": {
     "equipment": {
       "head": {
-        "tag": "shroomhearth:mob_head"
+        "items": "#shroomhearth:mob_head"
       }
     }
   }
