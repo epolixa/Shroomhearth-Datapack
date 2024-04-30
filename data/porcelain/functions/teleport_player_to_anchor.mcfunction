@@ -15,6 +15,7 @@ execute at @s run summon minecraft:marker ~ ~ ~ {Tags:["source_cleanup"], data:{
 
 # destroy nearest anchor in source
 kill @e[tag=source_anchor,sort=nearest,limit=1]
+kill @e[tag=porcelain_display,sort=nearest,limit=1]
 
 # schedule function to process cleanup markers
 schedule function porcelain:cleanup_marked_chunks 15s

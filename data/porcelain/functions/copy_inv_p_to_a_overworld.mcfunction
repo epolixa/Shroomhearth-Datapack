@@ -31,7 +31,8 @@ item replace block ~ -64 ~ container.25 from entity @p inventory.25
 item replace block ~ -64 ~ container.26 from entity @p inventory.26
 
 # copy shulker box Items to anchor hand 1
-data modify entity @s ArmorItems[0].tag.BlockEntityTag.Items set from block ~ -64 ~ Items
+#data modify entity @s ArmorItems[0].components."minecraft:container" set from block ~ -64 ~ Items
+data modify entity @s data.player_inventory set from block ~ -64 ~ Items
 
 # clear shulker box
 data modify block ~ -64 ~ Items set value []
@@ -53,7 +54,8 @@ item replace block ~ -64 ~ container.17 from entity @p hotbar.8
 item replace block ~ -64 ~ container.18 from entity @p weapon.offhand
 
 # copy shulker box Items to anchor hand 2
-data modify entity @s ArmorItems[1].tag.BlockEntityTag.Items set from block ~ -64 ~ Items
+#data modify entity @s ArmorItems[1].components."minecraft:container" set from block ~ -64 ~ Items
+data modify entity @s data.player_equipment set from block ~ -64 ~ Items
 
 # set temporary sign
 #setblock ~ -64 ~ minecraft:oak_sign

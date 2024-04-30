@@ -2,7 +2,8 @@
 setblock ~ 0 ~ minecraft:white_shulker_box
 
 # copy anchor hand 1 to shulker box Items
-data modify block ~ 0 ~ Items set from entity @s ArmorItems[0].tag.BlockEntityTag.Items
+#data modify block ~ 0 ~ Items set from entity @s ArmorItems[0].components."minecraft:container"
+data modify block ~ 0 ~ Items set from entity @s data.player_inventory
 
 # copy inventory items to shulker box
 item replace entity @p inventory.0 from block ~ 0 ~ container.0
@@ -37,7 +38,8 @@ item replace entity @p inventory.26 from block ~ 0 ~ container.26
 data modify block ~ 0 ~ Items set value []
 
 # copy anchor hand 2 to shulker box Items
-data modify block ~ 0 ~ Items set from entity @s ArmorItems[1].tag.BlockEntityTag.Items
+#data modify block ~ 0 ~ Items set from entity @s ArmorItems[1].components."minecraft:container"
+data modify block ~ 0 ~ Items set from entity @s data.player_equipment
 
 # copy armor, hotbar and offhand to player
 item replace entity @p armor.feet from block ~ 0 ~ container.0
