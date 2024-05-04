@@ -3,7 +3,11 @@
 	"display": {
 		"icon": {
 			"id": "minecraft:player_head",
-			"nbt": "{SkullOwner:\"Needle_Archer\"}"
+			"components": {
+				"minecraft:profile": {
+					"name": "Needle_Archer"
+				}
+			}
 		},
 		"title": "Needle_Archer",
 		"description": "Place 25,000 blocks in The Nether",

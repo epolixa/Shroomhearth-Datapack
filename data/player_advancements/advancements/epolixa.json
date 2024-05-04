@@ -3,7 +3,11 @@
 	"display": {
 		"icon": {
 			"id": "minecraft:player_head",
-			"nbt": "{SkullOwner:\"epolixa\"}"
+			"components": {
+				"minecraft:profile": {
+					"name": "epolixa"
+				}
+			}
 		},
 		"title": "epolixa",
 		"description": "Eat 64 consecutive Melon Slices",

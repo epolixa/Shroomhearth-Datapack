@@ -3,7 +3,11 @@
 	"display": {
 		"icon": {
 			"id": "minecraft:player_head",
-			"nbt": "{SkullOwner:\"Natsirk\"}"
+			"components": {
+				"minecraft:profile": {
+					"name": "Natsirk"
+				}
+			}
 		},
 		"title": "Natsirk",
 		"description": "Use Bone Meal on every growable block",

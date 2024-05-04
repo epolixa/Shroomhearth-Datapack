@@ -3,7 +3,11 @@
 	"display": {
 		"icon": {
 			"id": "minecraft:player_head",
-			"nbt": "{SkullOwner:\"clown_professor\"}"
+			"components": {
+				"minecraft:profile": {
+					"name": "clown_professor"
+				}
+			}
 		},
 		"title": "clown_professor",
 		"description": "Use Bone Meal to spread Moss 5,000 times",

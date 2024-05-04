@@ -1,19 +1,15 @@
-[
-    {
-        "condition": "location_check",
-        "offsetY": -1,
-        "predicate": {
-            "block": {
-                "blocks": [
-                    "minecraft:slime_block"
-                ]
-            },
-            "position": {
-                "y": {
-                    "min": -64,
-                    "max": -58
-                }
+{
+    "condition": "minecraft:location_check",
+    "offsetY": -1,
+    "predicate": {
+        "position": {
+            "y": {
+                "min": -64,
+                "max": -58
             }
+        },
+        "block": {
+            "blocks": "minecraft:slime_block"
         }
     }
-]
+}

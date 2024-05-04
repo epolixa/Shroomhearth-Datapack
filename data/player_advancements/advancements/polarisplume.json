@@ -3,7 +3,11 @@
 	"display": {
 		"icon": {
 			"id": "minecraft:player_head",
-			"nbt": "{SkullOwner:\"PolarisPlume\"}"
+			"components": {
+				"minecraft:profile": {
+					"name": "PolarisPlume"
+				}
+			}
 		},
 		"title": "PolarisPlume",
 		"description": "Place a blue flower at the bottom of the world",

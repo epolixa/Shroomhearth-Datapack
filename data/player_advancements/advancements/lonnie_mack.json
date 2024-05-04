@@ -3,7 +3,11 @@
 	"display": {
 		"icon": {
 			"id": "minecraft:player_head",
-			"nbt": "{SkullOwner:\"Lonnie_Mack\"}"
+			"components": {
+				"minecraft:profile": {
+					"name": "Lonnie_Mack"
+				}
+			}
 		},
 		"title": "Lonnie_Mack",
 		"description": "Ride a Boat in \"X-Water\"",

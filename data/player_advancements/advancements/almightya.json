@@ -3,7 +3,11 @@
 	"display": {
 		"icon": {
 			"id": "minecraft:player_head",
-			"nbt": "{SkullOwner:\"AlMightyA\"}"
+			"components": {
+				"minecraft:profile": {
+					"name": "AlMightyA"
+				}
+			}
 		},
 		"title": "AlMightyA",
 		"description": "Mine over 100,000 natural stone blocks",

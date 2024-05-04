@@ -3,7 +3,11 @@
 	"display": {
 		"icon": {
 			"id": "minecraft:player_head",
-			"nbt": "{SkullOwner:\"Batboy272\"}"
+			"components": {
+				"minecraft:profile": {
+					"name": "Batboy272"
+				}
+			}
 		},
 		"title": "Batboy272",
 		"description": "Wear Netherite Boots, black-dyed Leather Leggings, Elytra, and a Wither Skeleton Skull",

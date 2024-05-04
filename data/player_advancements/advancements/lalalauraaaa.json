@@ -3,7 +3,11 @@
 	"display": {
 		"icon": {
 			"id": "minecraft:player_head",
-			"nbt": "{SkullOwner:\"lalalauraaaa\"}"
+			"components": {
+				"minecraft:profile": {
+					"name": "lalalauraaaa"
+				}
+			}
 		},
 		"title": "lalalauraaaa",
 		"description": "Slay 20 Ender Dragons",

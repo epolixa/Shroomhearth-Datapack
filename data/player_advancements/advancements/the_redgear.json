@@ -3,7 +3,11 @@
 	"display": {
 		"icon": {
 			"id": "minecraft:player_head",
-			"nbt": "{SkullOwner:\"The_RedGear\"}"
+			"components": {
+				"minecraft:profile": {
+					"name": "The_RedGear"
+				}
+			}
 		},
 		"title": "The_RedGear",
 		"description": "Collect every red solid block",

@@ -3,7 +3,11 @@
 	"display": {
 		"icon": {
 			"id": "minecraft:player_head",
-			"nbt": "{SkullOwner:\"FlyntHazzard\"}"
+			"components": {
+				"minecraft:profile": {
+					"name": "FlyntHazzard"
+				}
+			}
 		},
 		"title": "FlyntHazzard",
 		"description": "Shoot the center of a Target while on fire",

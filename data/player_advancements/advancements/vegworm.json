@@ -3,7 +3,11 @@
   "display": {
     "icon": {
       "id": "minecraft:player_head",
-      "nbt": "{SkullOwner:\"vegworm\"}"
+      "components": {
+				"minecraft:profile": {
+					"name": "vegworm"
+				}
+			}
     },
     "title": "vegworm",
     "description": "Eat every kind of fruit and vegetable",

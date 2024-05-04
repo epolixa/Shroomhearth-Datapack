@@ -3,7 +3,11 @@
 	"display": {
 		"icon": {
 			"id": "minecraft:player_head",
-			"nbt": "{SkullOwner:\"Krstfr\"}"
+			"components": {
+				"minecraft:profile": {
+					"name": "Krstfr"
+				}
+			}
 		},
 		"title": "Krstfr",
 		"description": "Wear a Carved Pumpkin whilst in the viscinity of a dozen Skeleton Horses",

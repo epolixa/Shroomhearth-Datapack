@@ -3,7 +3,11 @@
 	"display": {
 		"icon": {
 			"id": "minecraft:player_head",
-			"nbt": "{SkullOwner:\"Skit\"}"
+			"components": {
+				"minecraft:profile": {
+					"name": "Skit"
+				}
+			}
 		},
 		"title": "Skit",
 		"description": "Place over 100,000 Stone, Cobblestone, or Stone Brick blocks",

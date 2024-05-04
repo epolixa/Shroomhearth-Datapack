@@ -3,7 +3,11 @@
 	"display": {
 		"icon": {
 			"id": "minecraft:player_head",
-			"nbt": "{SkullOwner:\"Depressus\"}"
+			"components": {
+				"minecraft:profile": {
+					"name": "Depressus"
+				}
+			}
 		},
 		"title": "Depressus",
 		"description": "Produce 64 Golden Carrots at once",

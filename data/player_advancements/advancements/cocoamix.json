@@ -3,7 +3,11 @@
 	"display": {
 		"icon": {
 			"id": "minecraft:player_head",
-			"nbt": "{SkullOwner:\"CocoaMix\"}"
+			"components": {
+				"minecraft:profile": {
+					"name": "CocoaMix"
+				}
+			}
 		},
 		"title": "CocoaMix",
 		"description": "Craft 256 of each kind of redstone component",
