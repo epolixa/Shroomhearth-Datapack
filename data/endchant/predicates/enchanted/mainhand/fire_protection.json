@@ -4,11 +4,13 @@
   "predicate": {
     "equipment": {
       "mainhand": {
-        "enchantments": [
-          {
-            "enchantment": "minecraft:fire_protection"
-          }
-        ]
+        "predicates": {
+          "minecraft:enchantments": [
+            {
+              "enchantment": "minecraft:fire_protection"
+            }
+          ]
+        }
       }
     }
   }

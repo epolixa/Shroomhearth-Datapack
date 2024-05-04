@@ -1,37 +1,39 @@
 {
-    "criteria": {
-      "on_path": {
-        "trigger": "minecraft:location",
-        "conditions": {
-          "player": [
-            {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "vehicle": {
-                  "type": "#speedy_paths:mounts",
-                  "stepping_on": {
-                    "block": {
-                      "blocks": "#minecraft:soul_speed_blocks"
-                    }
+  "criteria": {
+    "on_path": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "type": "#speedy_paths:mounts",
+                "stepping_on": {
+                  "block": {
+                    "blocks": "#minecraft:soul_speed_blocks"
                   }
-                },
-                "equipment": {
-                    "feet": {
-                        "enchantments": [
-                            {
-                                "enchantment": "minecraft:soul_speed"
-                            }
-                        ]
-                    }
+                }
+              },
+              "equipment": {
+                "feet": {
+                  "predicates": {
+                    "minecraft:enchantments": [
+                      {
+                        "enchantment": "minecraft:soul_speed"
+                      }
+                    ]
+                  }
                 }
               }
             }
-          ]
-        }
+          }
+        ]
       }
-    },
-    "rewards": {
-      "function": "speedy_paths:mounts_soul_speed"
     }
+  },
+  "rewards": {
+    "function": "speedy_paths:mounts_soul_speed"
   }
+}

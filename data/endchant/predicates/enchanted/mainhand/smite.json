@@ -4,11 +4,13 @@
   "predicate": {
     "equipment": {
       "mainhand": {
-        "enchantments": [
-          {
-            "enchantment": "minecraft:smite"
-          }
-        ]
+        "predicates": {
+          "minecraft:enchantments": [
+            {
+              "enchantment": "minecraft:smite"
+            }
+          ]
+        }
       }
     }
   }

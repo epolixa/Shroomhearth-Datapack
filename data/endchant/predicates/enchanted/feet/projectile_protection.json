@@ -4,11 +4,13 @@
   "predicate": {
     "equipment": {
       "feet": {
-        "enchantments": [
-          {
-            "enchantment": "minecraft:projectile_protection"
-          }
-        ]
+        "predicates": {
+          "minecraft:enchantments": [
+            {
+              "enchantment": "minecraft:projectile_protection"
+            }
+          ]
+        }
       }
     }
   }
