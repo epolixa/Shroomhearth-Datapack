@@ -38,5 +38,8 @@ function echoes:pulse
 # Assign allays to special team for no collision
 execute as @e[type=minecraft:allay,tag=!no_collide] run function allay_bottle:1s
 
+# Debug marker entities
+execute if entity @p[tag=debug_markers] at @e[type=minecraft:marker] run particle minecraft:block_marker{block_state:{Name:"minecraft:structure_void"}}
+
 # re-schedule
 schedule function shroomhearth:1s 1s
