@@ -37,7 +37,7 @@
 					{
 						"condition": "minecraft:match_tool",
 						"predicate": {
-							"tag": "player_advancements:blue_flowers"
+							"items": "#player_advancements:blue_flowers"
 						}
 					}
 				]

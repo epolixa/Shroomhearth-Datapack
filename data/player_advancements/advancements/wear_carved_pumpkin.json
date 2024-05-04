@@ -5,13 +5,13 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:carved_pumpkin"]
+						"items": "minecraft:carved_pumpkin"
 					}
 				],
 				"player": {
 					"equipment": {
 						"head": {
-							"items": ["minecraft:carved_pumpkin"]
+							"items": "minecraft:carved_pumpkin"
 						}
 					},
 					"player": {

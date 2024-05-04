@@ -16,9 +16,7 @@
                         "condition": "minecraft:location_check",
                         "predicate": {
                             "block": {
-                                "blocks": [
-                                    "minecraft:moss_block"
-                                ]
+                                "blocks": "minecraft:moss_block"
                             }
                         }
                     }
