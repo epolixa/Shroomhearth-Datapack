@@ -10,7 +10,7 @@ forceload add ~ ~
 # summon armor stand in source dimension
 #summon minecraft:armor_stand ~ ~ ~ {Tags:["source_anchor"], Marker:true, Invisible:true, ArmorItems:[{id:"minecraft:white_shulker_box", count:1},{id:"minecraft:white_shulker_box", count:1},{},{id:"minecraft:warped_fungus_on_a_stick", count:1, components: {"minecraft:custom_model_data": 1, "minecraft:enchantment_glint_override": 1b}}]}
 execute at @s run summon minecraft:marker ~ ~ ~ {Tags:["source_anchor"],data:{player_inventory:[],player_equipment:[]}}
-execute at @s run summon minecraft:item_display ~ ~ ~ {Tags:["porcelain_display"],item_display:"head",item:{id:"minecraft:warped_fungus_on_a_stick",count:1,components:{"minecraft:custom_model_data":1,"minecraft:enchantment_glint_override":true}}}
+execute at @s run summon minecraft:item_display ~ ~0.45 ~ {Tags:["porcelain_display"],item_display:"none",item:{id:"minecraft:warped_fungus_on_a_stick",count:1,components:{"minecraft:custom_model_data":1,"minecraft:enchantment_glint_override":true}}}
 
 # assign porcelain ID to source anchor and player
 scoreboard players set @s porcelainID 0
