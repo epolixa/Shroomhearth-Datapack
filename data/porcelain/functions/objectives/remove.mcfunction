@@ -17,5 +17,8 @@ scoreboard objectives remove hasPorcelain
 # 1  = the_end
 scoreboard objectives remove porcelainDimID
 
+# Track nearby porcelain anchors and prevent porcelain usage
+scoreboard objectives remove nearbyPorcelain
+
 # Track nearby hostile mobs and prevent porcelain usage
 scoreboard objectives remove nearbyMonster
