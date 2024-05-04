@@ -4,7 +4,7 @@
   "predicate": {
     "equipment": {
       "mainhand": {
-        "tag": "endchant:fishing_rod"
+        "items": "#endchant:fishing_rod"
       }
     }
   }
