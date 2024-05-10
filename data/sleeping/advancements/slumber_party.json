@@ -2,7 +2,7 @@
 	"parent": "sleeping:express_myself",
 	"display": {
 		"icon": {
-			"item": "minecraft:purple_bed"
+			"id": "minecraft:purple_bed"
 		},
 		"title": "Slumber Party",
 		"description": "Sleep while another player is sleeping",

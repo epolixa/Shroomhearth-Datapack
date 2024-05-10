@@ -2,7 +2,7 @@
 	"parent": "shroomhearth:headhunter",
 	"display": {
 		"icon": {
-			"item": "minecraft:netherite_sword",
+			"id": "minecraft:netherite_sword",
             "nbt": "{Enchantments:[{id:\"minecraft:sharpness\",lvl:6}]}"
 		},
 		"title": "Endchanted",

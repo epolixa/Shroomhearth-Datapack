@@ -3,6 +3,8 @@
   "ingredient": {
     "item": "minecraft:deepslate"
   },
-  "result": "minecraft:chiseled_deepslate",
-  "count": 1
+  "result": {
+    "id": "minecraft:chiseled_deepslate",
+    "count": 1
+  }
 }

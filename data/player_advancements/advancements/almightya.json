@@ -2,8 +2,12 @@
 	"parent": "community:harmonize",
 	"display": {
 		"icon": {
-			"item": "minecraft:player_head",
-			"nbt": "{SkullOwner:\"AlMightyA\"}"
+			"id": "minecraft:player_head",
+			"components": {
+				"minecraft:profile": {
+					"name": "AlMightyA"
+				}
+			}
 		},
 		"title": "AlMightyA",
 		"description": "Mine over 100,000 natural stone blocks",

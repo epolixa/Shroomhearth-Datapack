@@ -28,7 +28,7 @@
                 }
             ]
         },
-                {
+        {
             "rolls": 1,
             "entries": [
                 {
@@ -98,8 +98,13 @@
                     "name": "minecraft:player_head",
                     "functions": [
                         {
-                            "function": "set_nbt",
-                            "tag": "{display:{Name:'{\"text\":\"Cave Spider Head\",\"italic\":false}'},SkullOwner:\"MHF_CaveSpider\"}"
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": "'Cave Spider Head'",
+                                "minecraft:profile": {
+                                    "name": "MHF_CaveSpider"
+                                }
+                            }
                         }
                     ],
                     "weight": 1

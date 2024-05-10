@@ -10,8 +10,13 @@
                     "weight": 100,
                     "functions": [
                         {
-                            "function": "set_nbt",
-                            "tag": "{SkullOwner:\"Ender_Penda\",BlockEntityTag:{note_block_sound:\"shroomhearth:player_head.ender_penda\"}}"
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:profile": {
+                                    "name": "Ender_Penda"
+                                },
+                                "minecraft:note_block_sound": "shroomhearth:player_head.ender_penda"
+                            }
                         }
                     ]
                 }

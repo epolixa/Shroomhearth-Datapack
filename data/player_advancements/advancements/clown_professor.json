@@ -2,8 +2,12 @@
 	"parent": "community:harmonize",
 	"display": {
 		"icon": {
-			"item": "minecraft:player_head",
-			"nbt": "{SkullOwner:\"clown_professor\"}"
+			"id": "minecraft:player_head",
+			"components": {
+				"minecraft:profile": {
+					"name": "clown_professor"
+				}
+			}
 		},
 		"title": "clown_professor",
 		"description": "Use Bone Meal to spread Moss 5,000 times",

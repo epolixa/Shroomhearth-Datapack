@@ -2,8 +2,12 @@
 	"parent": "community:harmonize",
 	"display": {
 		"icon": {
-			"item": "minecraft:player_head",
-			"nbt": "{SkullOwner:\"_TheBman_\"}"
+			"id": "minecraft:player_head",
+			"components": {
+				"minecraft:profile": {
+					"name": "_TheBman_"
+				}
+			}
 		},
 		"title": "_TheBman_",
 		"description": "Place 1,679 sandstone blocks",

@@ -2,7 +2,7 @@
 	"parent": "community:community_convenience",
 	"display": {
 		"icon": {
-			"item": "minecraft:knowledge_book"
+			"id": "minecraft:knowledge_book"
 		},
 		"title": "Learning Curve",
 		"description": "Print a Knowledge Book at the World Hall",

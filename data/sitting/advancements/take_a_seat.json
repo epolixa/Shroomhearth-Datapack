@@ -2,7 +2,7 @@
 	"parent": "sleeping:express_myself",
 	"display": {
 		"icon": {
-			"item": "minecraft:oak_stairs"
+			"id": "minecraft:oak_stairs"
 		},
 		"title": "Take a Seat",
 		"description": "Use an Item Frame to sit on a block",

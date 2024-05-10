@@ -4,11 +4,13 @@
   "predicate": {
     "equipment": {
       "feet": {
-        "enchantments": [
-          {
-            "enchantment": "minecraft:depth_strider"
-          }
-        ]
+        "predicates": {
+          "minecraft:enchantments": [
+            {
+              "enchantment": "minecraft:depth_strider"
+            }
+          ]
+        }
       }
     }
   }

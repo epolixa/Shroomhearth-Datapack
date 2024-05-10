@@ -2,8 +2,12 @@
 	"parent": "community:harmonize",
 	"display": {
 		"icon": {
-			"item": "minecraft:player_head",
-			"nbt": "{SkullOwner:\"Ender_Penda\"}"
+			"id": "minecraft:player_head",
+			"components": {
+				"minecraft:profile": {
+					"name": "Ender_Penda"
+				}
+			}
 		},
 		"title": "Ender_Penda",
 		"description": "Fall at least 24 blocks onto a Slime Block at the bottom of the world",

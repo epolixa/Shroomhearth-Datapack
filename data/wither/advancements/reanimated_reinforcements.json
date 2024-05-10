@@ -2,7 +2,7 @@
 	"parent": "shroomhearth:headhunter",
 	"display": {
 		"icon": {
-			"item": "minecraft:wither_skeleton_skull"
+			"id": "minecraft:wither_skeleton_skull"
 		},
 		"title": "Reanimated Reinforcements",
 		"description": "Kill a Wither Skeleton that has been summoned by a Wither",

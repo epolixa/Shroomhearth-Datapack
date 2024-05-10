@@ -11,7 +11,7 @@
     }
   },
   "result": {
-    "item": "minecraft:warped_trapdoor",
+    "id": "minecraft:warped_trapdoor",
     "count": 6
   }
 }

@@ -7,10 +7,10 @@
                     {
                         "condition": "minecraft:match_tool",
                         "predicate": {
-                            "items": [
-                                "minecraft:allay_spawn_egg"
-                            ],
-                            "nbt": "{spore:'allay_bottle'}"
+                            "items": "minecraft:allay_spawn_egg",
+                            "predicates": {
+                                "minecraft:custom_data": "{spore:'allay_bottle'}"
+                            }
                         }
                     },
                     {

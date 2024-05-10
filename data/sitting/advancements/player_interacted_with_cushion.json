@@ -21,7 +21,7 @@
                     "nbt": "{Facing:1b,Invisible:false}"
                 },
                 "item": {
-                    "items": ["minecraft:air"]
+                    "items": "minecraft:air"
                 }
             }
         }

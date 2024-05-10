@@ -2,8 +2,12 @@
   "parent": "community:harmonize",
   "display": {
     "icon": {
-      "item": "minecraft:player_head",
-      "nbt": "{SkullOwner:\"vegworm\"}"
+      "id": "minecraft:player_head",
+      "components": {
+				"minecraft:profile": {
+					"name": "vegworm"
+				}
+			}
     },
     "title": "vegworm",
     "description": "Eat every kind of fruit and vegetable",

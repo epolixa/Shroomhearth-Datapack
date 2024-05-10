@@ -2,8 +2,12 @@
 	"parent": "community:harmonize",
 	"display": {
 		"icon": {
-			"item": "minecraft:player_head",
-			"nbt": "{SkullOwner:\"CocoaMix\"}"
+			"id": "minecraft:player_head",
+			"components": {
+				"minecraft:profile": {
+					"name": "CocoaMix"
+				}
+			}
 		},
 		"title": "CocoaMix",
 		"description": "Craft 256 of each kind of redstone component",

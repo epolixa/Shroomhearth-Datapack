@@ -2,7 +2,7 @@
 	"parent": "mob_warding:mob_zapper",
 	"display": {
 		"icon": {
-			"item": "minecraft:zombie_spawn_egg"
+			"id": "minecraft:zombie_spawn_egg"
 		},
 		"title": "A Nice Egg in this Trying Time",
 		"description": "Collect a Spawn Egg from a Spawner",
@@ -14,7 +14,7 @@
 			"conditions": {
 				"items": [
 					{
-						"tag":"spawner_eggs:spawn_eggs"
+						"items":"#spawner_eggs:spawn_eggs"
 					}
 				]
 			}

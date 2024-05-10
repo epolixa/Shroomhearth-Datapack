@@ -1,32 +1,7 @@
 [
   {
-    "condition": "minecraft:any_of",
-    "terms": [
-      {
-        "condition": "minecraft:entity_properties",
-        "entity": "this",
-        "predicate": {
-          "equipment": {
-            "mainhand": {
-              "tag": "porcelain:porcelain",
-              "nbt": "{display:{Name:'{\"italic\":false,\"translate\":\"porcelain.porcelain\"}'},CustomModelData:1,Enchantments:[{id:\"minecraft:infinity\",lvl:1s}],HideFlags:1}"
-            }
-          }
-        }
-      },
-      {
-        "condition": "minecraft:entity_properties",
-        "entity": "this",
-        "predicate": {
-          "equipment": {
-            "offhand": {
-              "tag": "porcelain:porcelain",
-              "nbt": "{display:{Name:'{\"italic\":false,\"translate\":\"porcelain.porcelain\"}'},CustomModelData:1,Enchantments:[{id:\"minecraft:infinity\",lvl:1s}],HideFlags:1}"
-            }
-          }
-        }
-      }
-    ]
+    "condition": "minecraft:reference",
+    "name": "porcelain:holding_porcelain"
   },
   {
     "condition": "minecraft:entity_scores",

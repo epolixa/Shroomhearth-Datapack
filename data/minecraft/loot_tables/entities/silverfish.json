@@ -36,8 +36,24 @@
           "name": "minecraft:player_head",
           "functions": [
             {
-              "function": "set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Silverfish Head\",\"italic\":false}'},SkullOwner:{Id:[I;816106844,1465142712,-1990191102,712270461],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGE5MWRhYjgzOTFhZjVmZGE1NGFjZDJjMGIxOGZiZDgxOWI4NjVlMWE4ZjFkNjIzODEzZmE3NjFlOTI0NTQwIn19fQ==\"}]}}}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "'Silverfish Head'",
+                "minecraft:profile": {
+                  "id": [
+                    816106844,
+                    1465142712,
+                    -1990191102,
+                    712270461
+                  ],
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGE5MWRhYjgzOTFhZjVmZGE1NGFjZDJjMGIxOGZiZDgxOWI4NjVlMWE4ZjFkNjIzODEzZmE3NjFlOTI0NTQwIn19fQ=="
+                    }
+                  ]
+                }
+              }
             }
           ]
         }

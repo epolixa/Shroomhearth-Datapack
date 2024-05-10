@@ -21,7 +21,7 @@
                     {
                         "condition": "minecraft:match_tool",
                         "predicate": {
-                            "tag": "player_advancements:skit_stone_blocks"
+                            "items": "#player_advancements:skit_stone_blocks"
                         }
                     }
                 ]				

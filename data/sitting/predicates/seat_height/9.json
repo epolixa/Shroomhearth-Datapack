@@ -5,7 +5,7 @@
             "condition": "location_check",
             "predicate": {
                 "block": {
-                    "tag": "sitting:9"
+                    "blocks": "#sitting:9"
                 }
             }
         },
@@ -13,7 +13,7 @@
             "condition": "location_check",
             "predicate": {
                 "block": {
-                    "tag": "sitting:9_hanging_false",
+                    "blocks": "#sitting:9_hanging_false",
                     "state": {"hanging": "false"}
                 }
             }
@@ -22,7 +22,7 @@
             "condition": "location_check",
             "predicate": {
                 "block": {
-                    "tag": "sitting:9_axis_x_z",
+                    "blocks": "#sitting:9_axis_x_z",
                     "state": {"axis": "x"}
                 }
             }
@@ -31,7 +31,7 @@
             "condition": "location_check",
             "predicate": {
                 "block": {
-                    "tag": "sitting:9_axis_x_z",
+                    "blocks": "#sitting:9_axis_x_z",
                     "state": {"axis": "z"}
                 }
             }
@@ -40,7 +40,7 @@
             "condition": "location_check",
             "predicate": {
                 "block": {
-                    "tag": "sitting:9_facing_n_s_e_w",
+                    "blocks": "#sitting:9_facing_n_s_e_w",
                     "state": {"facing": "north"}
                 }
             }
@@ -49,7 +49,7 @@
             "condition": "location_check",
             "predicate": {
                 "block": {
-                    "tag": "sitting:9_facing_n_s_e_w",
+                    "blocks": "#sitting:9_facing_n_s_e_w",
                     "state": {"facing": "south"}
                 }
             }
@@ -58,7 +58,7 @@
             "condition": "location_check",
             "predicate": {
                 "block": {
-                    "tag": "sitting:9_facing_n_s_e_w",
+                    "blocks": "#sitting:9_facing_n_s_e_w",
                     "state": {"facing": "east"}
                 }
             }
@@ -67,7 +67,7 @@
             "condition": "location_check",
             "predicate": {
                 "block": {
-                    "tag": "sitting:9_facing_n_s_e_w",
+                    "blocks": "#sitting:9_facing_n_s_e_w",
                     "state": {"facing": "west"}
                 }
             }

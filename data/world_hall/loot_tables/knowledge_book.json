@@ -9,8 +9,12 @@
           "weight": 1,
           "functions": [
             {
-              "function": "set_nbt",
-              "tag": "{Recipes:[\"world_hall:knowledge_book_dummy\"]}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:recipes": [
+                  "world_hall:knowledge_book_dummy"
+                ]
+              }
             }
           ]
         }

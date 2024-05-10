@@ -2,7 +2,7 @@
 	"parent": "mob_warding:mob_zapper",
 	"display": {
 		"icon": {
-			"item": "minecraft:golden_axe",
+			"id": "minecraft:golden_axe",
 			"nbt": "{CustomModelData:850}"
 		},
 		"title": "Accomplished Artificer",
@@ -18,8 +18,10 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:crossbow"],
-						"nbt": "{CustomModelData:411}"
+						"items": "minecraft:crossbow",
+						"components": {
+							"minecraft:custom_model_data": 411
+						}
 					}
 				]
 			}
@@ -29,8 +31,10 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:iron_axe"],
-						"nbt": "{CustomModelData:712}"
+						"items": "minecraft:iron_axe",
+						"components": {
+							"minecraft:custom_model_data": 712
+						}
 					}
 				]
 			}
@@ -40,8 +44,10 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:iron_sword"],
-						"nbt": "{CustomModelData:738}"
+						"items": "minecraft:iron_sword",
+						"components": {
+							"minecraft:custom_model_data": 738
+						}
 					}
 				]
 			}
@@ -51,8 +57,10 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:golden_sword"],
-						"nbt": "{CustomModelData:416}"
+						"items": "minecraft:golden_sword",
+						"components": {
+							"minecraft:custom_model_data": 416
+						}
 					}
 				]
 			}
@@ -62,8 +70,10 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:crossbow"],
-						"nbt": "{CustomModelData:416}"
+						"items": "minecraft:crossbow",
+						"components": {
+							"minecraft:custom_model_data": 416
+						}
 					}
 				]
 			}
@@ -73,8 +83,10 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:golden_axe"],
-						"nbt": "{CustomModelData:850}"
+						"items": "minecraft:golden_axe",
+						"components": {
+							"minecraft:custom_model_data": 850
+						}
 					}
 				]
 			}
@@ -84,8 +96,10 @@
 			"conditions": {
 				"items": [
 					{
-						"items": ["minecraft:stone_sword"],
-						"nbt": "{CustomModelData:317}"
+						"items": "minecraft:stone_sword",
+						"components": {
+							"minecraft:custom_model_data": 317
+						}
 					}
 				]
 			}

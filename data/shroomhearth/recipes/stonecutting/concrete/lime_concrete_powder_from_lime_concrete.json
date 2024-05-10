@@ -3,6 +3,8 @@
   "ingredient": {
     "item": "minecraft:lime_concrete"
   },
-  "result": "minecraft:lime_concrete_powder",
-  "count": 1
+  "result": {
+    "id": "minecraft:lime_concrete_powder",
+    "count": 1
+  }
 }

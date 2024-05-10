@@ -1,5 +1,5 @@
 # Clear 1 charm
-clear @s #community:charm{spore:"charm"} 1
+clear @s #community:charm[custom_data={spore:"charm"}] 1
 
 # update active favors if favor is not already active
 execute if score favSpeed shroomhearth matches 0 run scoreboard players add favActive shroomhearth 1

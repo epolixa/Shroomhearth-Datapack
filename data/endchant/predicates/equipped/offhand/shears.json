@@ -4,7 +4,7 @@
   "predicate": {
     "equipment": {
       "offhand": {
-        "tag": "endchant:shears"
+        "items": "#endchant:shears"
       }
     }
   }

@@ -2,7 +2,7 @@
 	"parent": "shroomhearth:root",
 	"display": {
 		"icon": {
-			"item": "minecraft:end_crystal"
+			"id": "minecraft:end_crystal"
 		},
 		"title": "Mob Zapper",
 		"description": "Place an End Crystal to prevent natural monsters from spawning",

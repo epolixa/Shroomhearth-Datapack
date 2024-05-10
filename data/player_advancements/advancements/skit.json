@@ -2,8 +2,12 @@
 	"parent": "community:harmonize",
 	"display": {
 		"icon": {
-			"item": "minecraft:player_head",
-			"nbt": "{SkullOwner:\"Skit\"}"
+			"id": "minecraft:player_head",
+			"components": {
+				"minecraft:profile": {
+					"name": "Skit"
+				}
+			}
 		},
 		"title": "Skit",
 		"description": "Place over 100,000 Stone, Cobblestone, or Stone Brick blocks",

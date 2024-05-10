@@ -2,8 +2,12 @@
 	"parent": "community:harmonize",
 	"display": {
 		"icon": {
-			"item": "minecraft:player_head",
-			"nbt": "{SkullOwner:\"Needle_Archer\"}"
+			"id": "minecraft:player_head",
+			"components": {
+				"minecraft:profile": {
+					"name": "Needle_Archer"
+				}
+			}
 		},
 		"title": "Needle_Archer",
 		"description": "Place 25,000 blocks in The Nether",

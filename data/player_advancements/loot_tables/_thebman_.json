@@ -10,8 +10,12 @@
                     "weight": 100,
                     "functions": [
                         {
-                            "function": "set_nbt",
-                            "tag": "{SkullOwner:\"_TheBman_\"}"
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:profile": {
+                                    "name": "_TheBman_"
+                                }
+                            }
                         }
                     ]
                 }

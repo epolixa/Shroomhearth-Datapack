@@ -7,6 +7,13 @@
         "condition": "minecraft:entity_scores",
         "entity": "this",
         "scores": {
+            "nearbyPorcelain": 0
+        }
+    },
+    {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
             "nearbyMonster": 0
         }
     }

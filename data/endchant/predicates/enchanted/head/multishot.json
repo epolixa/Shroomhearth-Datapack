@@ -4,11 +4,13 @@
   "predicate": {
     "equipment": {
       "head": {
-        "enchantments": [
-          {
-            "enchantment": "minecraft:multishot"
-          }
-        ]
+        "predicates": {
+          "minecraft:enchantments": [
+            {
+              "enchantment": "minecraft:multishot"
+            }
+          ]
+        }
       }
     }
   }

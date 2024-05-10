@@ -9,8 +9,15 @@
                     "weight": 1,
                     "functions": [
                         {
-                            "function": "set_nbt",
-                            "tag": "{relic:'guardians_glaive',display:{Name:'{\"italic\":false,\"translate\":\"relics.guardians_glaive\"}'},CustomModelData:733}"
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": "{'translate':'relics.guardians_glaive','fallback':\"Guardian's Glaive\"}",
+                                "minecraft:custom_model_data": 733
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{relic:'guardians_glaive'}"
                         }
                     ]
                 }

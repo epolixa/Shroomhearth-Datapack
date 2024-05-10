@@ -1,8 +1,8 @@
 {
-  "parent": "mob_warding:mob_zapper",
-  "display": {
+	"parent": "mob_warding:mob_zapper",
+	"display": {
 		"icon": {
-			"item": "minecraft:creeper_head"
+			"id": "minecraft:creeper_head"
 		},
 		"title": "Headhunter",
 		"description": "Collect a head from every hostile mob",
@@ -17,8 +17,10 @@
 			"conditions": {
 				"items": [
 					{
-						"item":"minecraft:player_head",
-						"nbt":"{SkullOwner:\"MHF_Blaze\"}"
+						"items": "minecraft:player_head",
+						"components": {
+							"minecraft:item_name": "'Blaze Head'"
+						}
 					}
 				]
 			}
@@ -28,8 +30,10 @@
 			"conditions": {
 				"items": [
 					{
-						"item":"minecraft:player_head",
-						"nbt":"{SkullOwner:\"MHF_CaveSpider\"}"
+						"items": "minecraft:player_head",
+						"components": {
+							"minecraft:item_name": "'Cave Spider Head'"
+						}
 					}
 				]
 			}
@@ -39,7 +43,7 @@
 			"conditions": {
 				"items": [
 					{
-						"item":"minecraft:creeper_head"
+						"items": "minecraft:creeper_head"
 					}
 				]
 			}
@@ -49,8 +53,10 @@
 			"conditions": {
 				"items": [
 					{
-						"item":"minecraft:player_head",
-						"nbt":"{SkullOwner:{Id:[I;790009440,1639859901,-1397417282,-100772047],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzNmN2NjZjYxZGJjM2Y5ZmU5YTYzMzNjZGUwYzBlMTQzOTllYjJlZWE3MWQzNGNmMjIzYjNhY2UyMjA1MSJ9fX0=\"}]}}}"
+						"items": "minecraft:player_head",
+						"components": {
+							"minecraft:item_name": "'Drowned Head'"
+						}
 					}
 				]
 			}
@@ -60,7 +66,7 @@
 			"conditions": {
 				"items": [
 					{
-						"item":"minecraft:dragon_head"
+						"items": "minecraft:dragon_head"
 					}
 				]
 			}
@@ -70,8 +76,10 @@
 			"conditions": {
 				"items": [
 					{
-						"item":"minecraft:player_head",
-						"nbt":"{SkullOwner:\"MHF_Enderman\"}"
+						"items": "minecraft:player_head",
+						"components": {
+							"minecraft:item_name": "'Enderman Head'"
+						}
 					}
 				]
 			}
@@ -81,8 +89,10 @@
 			"conditions": {
 				"items": [
 					{
-						"item":"minecraft:player_head",
-						"nbt":"{SkullOwner:{Id:[I;-1705780283,128205205,-1982555327,1794311501],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGFlZWQ5ZDhlZDE3NjllNzdlM2NmZTExZGMxNzk2NjhlZDBkYjFkZTZjZTI5ZjFjOGUwZDVmZTVlNjU3M2I2MCJ9fX0=\"}]}}}"
+						"items": "minecraft:player_head",
+						"components": {
+							"minecraft:item_name": "'Vindicator Head'"
+						}
 					}
 				]
 			}
@@ -92,8 +102,10 @@
 			"conditions": {
 				"items": [
 					{
-						"item":"minecraft:player_head",
-						"nbt":"{SkullOwner:{Id:[I;-17612447,-1953806226,-1654419791,-89666527],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDk1NDEzNWRjODIyMTM5NzhkYjQ3ODc3OGFlMTIxMzU5MWI5M2QyMjhkMzZkZDU0ZjFlYTFkYTQ4ZTdjYmE2In19fQ==\"}]}}}"
+						"items": "minecraft:player_head",
+						"components": {
+							"minecraft:item_name": "'Evoker Head'"
+						}
 					}
 				]
 			}
@@ -103,8 +115,10 @@
 			"conditions": {
 				"items": [
 					{
-						"item":"minecraft:player_head",
-						"nbt":"{SkullOwner:{Id:[I;449435050,1190088049,-1334360732,942410307],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGFlZTZiYjM3Y2JmYzkyYjBkODZkYjVhZGE0NzkwYzY0ZmY0NDY4ZDY4Yjg0OTQyZmRlMDQ0MDVlOGVmNTMzMyJ9fX0=\"}]}}}"
+						"items": "minecraft:player_head",
+						"components": {
+							"minecraft:item_name": "'Pillager Head'"
+						}
 					}
 				]
 			}
@@ -114,8 +128,10 @@
 			"conditions": {
 				"items": [
 					{
-						"item":"minecraft:player_head",
-						"nbt":"{SkullOwner:\"MHF_Ghast\"}"
+						"items": "minecraft:player_head",
+						"components": {
+							"minecraft:item_name": "'Ghast Head'"
+						}
 					}
 				]
 			}
@@ -125,8 +141,10 @@
 			"conditions": {
 				"items": [
 					{
-						"item":"minecraft:player_head",
-						"nbt":"{SkullOwner:{Id:[I;1653544400,-476295207,-1672573887,-722121943],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTBiZjM0YTcxZTc3MTViNmJhNTJkNWRkMWJhZTVjYjg1Zjc3M2RjOWIwZDQ1N2I0YmZjNWY5ZGQzY2M3Yzk0In19fQ==\"}]}}}"
+						"items": "minecraft:player_head",
+						"components": {
+							"minecraft:item_name": "'Guardian Carapace'"
+						}
 					}
 				]
 			}
@@ -136,8 +154,10 @@
 			"conditions": {
 				"items": [
 					{
-						"item":"minecraft:player_head",
-						"nbt":"{SkullOwner:{Id:[I;448664699,-361085172,-1904994610,-1880265546],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDY3NGM2M2M4ZGI1ZjRjYTYyOGQ2OWEzYjFmOGEzNmUyOWQ4ZmQ3NzVlMWE2YmRiNmNhYmI0YmU0ZGIxMjEifX19\"}]}}}"
+						"items": "minecraft:player_head",
+						"components": {
+							"minecraft:item_name": "'Husk Head'"
+						}
 					}
 				]
 			}
@@ -147,8 +167,10 @@
 			"conditions": {
 				"items": [
 					{
-						"item":"minecraft:player_head",
-						"nbt":"{SkullOwner:\"MHF_LavaSlime\"}"
+						"items": "minecraft:player_head",
+						"components": {
+							"minecraft:item_name": "'Magma Cube Core'"
+						}
 					}
 				]
 			}
@@ -158,8 +180,10 @@
 			"conditions": {
 				"items": [
 					{
-						"item":"minecraft:player_head",
-						"nbt":"{SkullOwner:{Id:[I;-1836012072,-1030665638,-1886758577,374605475],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2U5NTE1M2VjMjMyODRiMjgzZjAwZDE5ZDI5NzU2ZjI0NDMxM2EwNjFiNzBhYzAzYjk3ZDIzNmVlNTdiZDk4MiJ9fX0=\"}]}}}"
+						"items": "minecraft:player_head",
+						"components": {
+							"minecraft:item_name": "'Phantom Head'"
+						}
 					}
 				]
 			}
@@ -169,8 +193,10 @@
 			"conditions": {
 				"items": [
 					{
-						"item":"minecraft:player_head",
-						"nbt":"{SkullOwner:{Id:[I;-517402183,466505379,-1134553285,-33974691],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWIwZTk3NGE2ZGRjMzliMmFiNzhmNjg2YzAxY2JhN2U5ODczNDgzNGIwZDk0ZWRkZjQyOGIwNzBmNzEyYTAifX19\"}]}}}"
+						"items": "minecraft:player_head",
+						"components": {
+							"minecraft:item_name": "'Shulker Core'"
+						}
 					}
 				]
 			}
@@ -180,7 +206,7 @@
 			"conditions": {
 				"items": [
 					{
-						"item":"minecraft:skeleton_skull"
+						"items": "minecraft:skeleton_skull"
 					}
 				]
 			}
@@ -190,8 +216,10 @@
 			"conditions": {
 				"items": [
 					{
-						"item":"minecraft:player_head",
-						"nbt":"{SkullOwner:\"MHF_Slime\"}"
+						"items": "minecraft:player_head",
+						"components": {
+							"minecraft:item_name": "'Slime Core'"
+						}
 					}
 				]
 			}
@@ -201,8 +229,10 @@
 			"conditions": {
 				"items": [
 					{
-						"item":"minecraft:player_head",
-						"nbt":"{SkullOwner:\"MHF_Spider\"}"
+						"items": "minecraft:player_head",
+						"components": {
+							"minecraft:item_name": "'Spider Head'"
+						}
 					}
 				]
 			}
@@ -212,8 +242,10 @@
 			"conditions": {
 				"items": [
 					{
-						"item":"minecraft:player_head",
-						"nbt":"{SkullOwner:{Id:[I;1785929880,503663408,-1696403692,-78066405],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmM1MDk3OTE2YmMwNTY1ZDMwNjAxYzBlZWJmZWIyODcyNzdhMzRlODY3YjRlYTQzYzYzODE5ZDUzZTg5ZWRlNyJ9fX0=\"}]}}}"
+						"items": "minecraft:player_head",
+						"components": {
+							"minecraft:item_name": "'Stray Head'"
+						}
 					}
 				]
 			}
@@ -223,8 +255,10 @@
 			"conditions": {
 				"items": [
 					{
-						"item":"minecraft:player_head",
-						"nbt":"{SkullOwner:{Id:[I;2140320726,1591757494,-1347542522,-1185854877],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjBlMTNkMTg0NzRmYzk0ZWQ1NWFlYjcwNjk1NjZlNDY4N2Q3NzNkYWMxNmY0YzNmODcyMmZjOTViZjlmMmRmYSJ9fX0=\"}]}}}"
+						"items": "minecraft:player_head",
+						"components": {
+							"minecraft:item_name": "'Witch Head'"
+						}
 					}
 				]
 			}
@@ -234,7 +268,7 @@
 			"conditions": {
 				"items": [
 					{
-						"item":"minecraft:wither_skeleton_skull"
+						"items": "minecraft:wither_skeleton_skull"
 					}
 				]
 			}
@@ -244,18 +278,7 @@
 			"conditions": {
 				"items": [
 					{
-						"item":"minecraft:zombie_head"
-					}
-				]
-			}
-		},
-		"zombie_pigman": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"item":"minecraft:player_head",
-						"nbt":"{SkullOwner:\"MHF_PigZombie\"}"
+						"items": "minecraft:zombie_head"
 					}
 				]
 			}
@@ -265,8 +288,10 @@
 			"conditions": {
 				"items": [
 					{
-						"item":"minecraft:player_head",
-						"nbt":"{SkullOwner:{Id:[I;-1844245497,848579823,-1336727656,1418081011],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmI1NTJjOTBmMjEyZTg1NWQxMjI1NWQ1Y2Q2MmVkMzhiOWNkN2UzMGU3M2YwZWE3NzlkMTc2NDMzMGU2OTI2NCJ9fX0=\"}]}}}"
+						"items": "minecraft:player_head",
+						"components": {
+							"minecraft:item_name": "'Zombie Villager Head'"
+						}
 					}
 				]
 			}
@@ -276,8 +301,10 @@
 			"conditions": {
 				"items": [
 					{
-						"item":"minecraft:player_head",
-						"nbt":"{SkullOwner:{Id:[I;816106844,1465142712,-1990191102,712270461],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGE5MWRhYjgzOTFhZjVmZGE1NGFjZDJjMGIxOGZiZDgxOWI4NjVlMWE4ZjFkNjIzODEzZmE3NjFlOTI0NTQwIn19fQ==\"}]}}}"
+						"items": "minecraft:player_head",
+						"components": {
+							"minecraft:item_name": "'Silverfish Head'"
+						}
 					}
 				]
 			}
@@ -287,8 +314,10 @@
 			"conditions": {
 				"items": [
 					{
-						"item":"minecraft:player_head",
-						"nbt":"{SkullOwner:{Id:[I;-1356981155,-1011923515,-1813307092,709382968],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWJjN2I5ZDM2ZmI5MmI2YmYyOTJiZTczZDMyYzZjNWIwZWNjMjViNDQzMjNhNTQxZmFlMWYxZTY3ZTM5M2EzZSJ9fX0=\"}]}}}"
+						"items": "minecraft:player_head",
+						"components": {
+							"minecraft:item_name": "'Endermite Head'"
+						}
 					}
 				]
 			}
@@ -298,8 +327,10 @@
 			"conditions": {
 				"items": [
 					{
-						"item":"minecraft:player_head",
-						"nbt":"{SkullOwner:{Id:[I;-152940523,445662955,-2001220033,348061908],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzJlYzVhNTE2NjE3ZmYxNTczY2QyZjlkNWYzOTY5ZjU2ZDU1NzVjNGZmNGVmZWZhYmQyYTE4ZGM3YWI5OGNkIn19fQ==\"}]}}}"
+						"items": "minecraft:player_head",
+						"components": {
+							"minecraft:item_name": "'Vex Head'"
+						}
 					}
 				]
 			}
@@ -309,8 +340,10 @@
 			"conditions": {
 				"items": [
 					{
-						"item":"minecraft:player_head",
-						"nbt":"{SkullOwner:{Id:[I;-988784499,1538476442,-1335897902,1631763943],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2QyMGJmNTJlYzM5MGEwNzk5Mjk5MTg0ZmM2NzhiZjg0Y2Y3MzJiYjFiZDc4ZmQxYzRiNDQxODU4ZjAyMzVhOCJ9fX0=\"}]}}}"
+						"items": "minecraft:player_head",
+						"components": {
+							"minecraft:item_name": "'Ravager Head'"
+						}
 					}
 				]
 			}
@@ -320,8 +353,10 @@
 			"conditions": {
 				"items": [
 					{
-						"item":"minecraft:player_head",
-						"nbt":"{SkullOwner:{Id:[I;-446003383,-1974845236,-1645396848,-122778525],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWM3OTc0ODJhMTRiZmNiODc3MjU3Y2IyY2ZmMWI2ZTZhOGI4NDEzMzM2ZmZiNGMyOWE2MTM5Mjc4YjQzNmIifX19\"}]}}}"
+						"items": "minecraft:player_head",
+						"components": {
+							"minecraft:item_name": "'Elder Guardian Carapace'"
+						}
 					}
 				]
 			}
@@ -331,8 +366,10 @@
 			"conditions": {
 				"items": [
 					{
-						"item":"minecraft:player_head",
-						"nbt":"{SkullOwner:{Id:[I;295450395,-367638583,-1384176717,-661368310],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2RmNzRlMzIzZWQ0MTQzNjk2NWY1YzU3ZGRmMjgxNWQ1MzMyZmU5OTllNjhmYmI5ZDZjZjVjOGJkNDEzOWYifX19\"}]}}}"
+						"items": "minecraft:player_head",
+						"components": {
+							"minecraft:item_name": "'Wither Head'"
+						}
 					}
 				]
 			}
@@ -342,7 +379,7 @@
 			"conditions": {
 				"items": [
 					{
-						"item":"minecraft:piglin_head"
+						"items": "minecraft:piglin_head"
 					}
 				]
 			}
@@ -352,8 +389,10 @@
 			"conditions": {
 				"items": [
 					{
-						"item":"minecraft:player_head",
-						"nbt":"{SkullOwner:{Id:[I;-2013856408,-1566488469,-1354692651,1652767024],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTkzNTg0MmFmNzY5MzgwZjc4ZThiOGE4OGQxZWE2Y2EyODA3YzFlNTY5M2MyY2Y3OTc0NTY2MjA4MzNlOTM2ZiJ9fX0=\"}]}}}"
+						"items": "minecraft:player_head",
+						"components": {
+							"minecraft:item_name": "'Zombified Piglin Head'"
+						}
 					}
 				]
 			}
@@ -363,8 +402,10 @@
 			"conditions": {
 				"items": [
 					{
-						"item":"minecraft:player_head",
-						"nbt":"{SkullOwner:{Id:[I;-2046912759,-844544068,-1823214403,1587944374],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjc2MTg0M2EyNDQ2ZTE0OTJkNmNmMjY1NDZkYzk5YWMxYjUwZGY0NzY0MTJhZmY4ZGZhODkxNjEzOWYyMjg5MiJ9fX0=\"}]}}}"
+						"items": "minecraft:player_head",
+						"components": {
+							"minecraft:item_name": "'Hoglin Head'"
+						}
 					}
 				]
 			}
@@ -374,8 +415,10 @@
 			"conditions": {
 				"items": [
 					{
-						"item":"minecraft:player_head",
-						"nbt":"{SkullOwner:{Id:[I;-1210886998,305220407,-2016804751,1985660970],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzE5YjdiNWU5ZmZkNGUyMmI4OTBhYjc3OGI0Nzk1YjY2MmZhZmYyYjQ5NzhiZjgxNTU3NGU0OGIwZTUyYjMwMSJ9fX0=\"}]}}}"
+						"items": "minecraft:player_head",
+						"components": {
+							"minecraft:item_name": "'Zoglin Head'"
+						}
 					}
 				]
 			}
@@ -385,8 +428,10 @@
 			"conditions": {
 				"items": [
 					{
-						"item":"minecraft:player_head",
-						"nbt":"{SkullOwner:{Id:[I;-1495583819,509627582,-1550874603,2046378806],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2UzMDBlOTAyNzM0OWM0OTA3NDk3NDM4YmFjMjllM2E0Yzg3YTg0OGM1MGIzNGMyMTI0MjcyN2I1N2Y0ZTFjZiJ9fX0=\"}]}}}"
+						"items": "minecraft:player_head",
+						"components": {
+							"minecraft:item_name": "'Piglin Brute Head'"
+						}
 					}
 				]
 			}
@@ -396,8 +441,10 @@
 			"conditions": {
 				"items": [
 					{
-						"item":"minecraft:player_head",
-						"nbt":"{SkullOwner:{Id:[I;1531857479,-78233159,-1681038604,1859460671],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmNmMzY3NGIyZGRjMGVmN2MzOWUzYjljNmI1ODY3N2RlNWNmMzc3ZDJlYjA3M2YyZjNmZTUwOTE5YjFjYTRjOSJ9fX0=\"}]}}}"
+						"items": "minecraft:player_head",
+						"components": {
+							"minecraft:item_name": "'Warden Head'"
+						}
 					}
 				]
 			}

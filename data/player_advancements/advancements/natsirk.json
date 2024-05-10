@@ -2,8 +2,12 @@
 	"parent": "community:harmonize",
 	"display": {
 		"icon": {
-			"item": "minecraft:player_head",
-			"nbt": "{SkullOwner:\"Natsirk\"}"
+			"id": "minecraft:player_head",
+			"components": {
+				"minecraft:profile": {
+					"name": "Natsirk"
+				}
+			}
 		},
 		"title": "Natsirk",
 		"description": "Use Bone Meal on every growable block",

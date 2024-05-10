@@ -4,7 +4,7 @@
   "predicate": {
     "equipment": {
       "head": {
-        "tag": "endchant:fishing_rod"
+        "items": "#endchant:fishing_rod"
       }
     }
   }

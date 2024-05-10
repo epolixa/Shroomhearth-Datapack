@@ -2,7 +2,7 @@
 	"parent": "world_hall:learning_curve",
 	"display": {
 		"icon": {
-			"item": "minecraft:writable_book"
+			"id": "minecraft:writable_book"
 		},
 		"title": "Taking Notes",
 		"description": "Print Lore onto an item at the World Hall",

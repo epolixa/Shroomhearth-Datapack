@@ -9,32 +9,14 @@
             "entity": "this",
             "predicate": {
               "vehicle": {
-                "type": "#speedy_paths:mounts"
+                "type": "#speedy_paths:mounts",
+                "stepping_on": {
+                  "block": {
+                    "blocks": "#speedy_paths:paths"
+                  }
+                }
               }
             }
-          },
-          {
-            "condition": "minecraft:any_of",
-            "terms": [
-              {
-                "condition": "minecraft:location_check",
-                "offsetY": -1,
-                "predicate": {
-                  "block": {
-                    "tag": "speedy_paths:paths"
-                  }
-                }
-              },
-              {
-                "condition": "minecraft:location_check",
-                "offsetY": -2,
-                "predicate": {
-                  "block": {
-                    "tag": "speedy_paths:paths"
-                  }
-                }
-              }
-            ]
           }
         ]
       }

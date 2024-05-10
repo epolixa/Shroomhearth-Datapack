@@ -15,7 +15,7 @@
     "www"
   ],
   "result": {
-    "item": "minecraft:red_wool",
+    "id": "minecraft:red_wool",
     "count": 8
   }
 }

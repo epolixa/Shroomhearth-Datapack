@@ -13,21 +13,21 @@
                             "count": 16
                         },
                         {
-                            "function": "minecraft:set_name",
-                            "name": {
-                                "text": "Harmonized Chorus Fruit",
-                                "italic": false
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": "'Harmonized Chorus Fruit'",
+                                "minecraft:enchantment_glint_override": true
                             }
                         },
                         {
                             "function": "minecraft:set_lore",
                             "entity": "this",
                             "lore": [{"selector":"@s","color":"gray","italic":false}],
-                            "replace": true
+                            "mode": "replace_all"
                         },
                         {
-                            "function": "set_nbt",
-                            "tag": "{spore:\"harmonized_chorus_fruit\",CustomModelData:1,Enchantments:[{id:\"minecraft:infinity\",lvl:1s}],HideFlags:1}"
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{spore:'harmonized_chorus_fruit'}"
                         }
                     ]
                 }

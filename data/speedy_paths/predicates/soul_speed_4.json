@@ -4,14 +4,16 @@
     "predicate": {
         "equipment": {
             "feet": {
-                "enchantments": [
-                    {
-                        "enchantment": "minecraft:soul_speed",
-                        "levels": {
-                            "min": 4
+                "predicates": {
+                    "minecraft:enchantments": [
+                        {
+                            "enchantment": "minecraft:soul_speed",
+                            "levels": {
+                                "min": 4
+                            }
                         }
-                    }
-                ]
+                    ]
+                }
             }
         }
     }

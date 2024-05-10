@@ -2,7 +2,7 @@
 	"parent": "community:community_cooperator",
 	"display": {
 		"icon": {
-			"item": "minecraft:netherite_helmet"
+			"id": "minecraft:netherite_helmet"
 		},
 		"title": "Arena Challenger",
 		"description": "Kill another Player in an Arena",

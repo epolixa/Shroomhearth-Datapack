@@ -1,5 +1,5 @@
 # Clear 1 charm
-clear @s #community:charm{spore:"charm"} 1
+clear @s #community:charm[custom_data={spore:"charm"}] 1
 
 # add value - 3600 seconds in an hour
 scoreboard players add favResistance shroomhearth 3600

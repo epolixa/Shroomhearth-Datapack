@@ -2,8 +2,12 @@
 	"parent": "community:harmonize",
 	"display": {
 		"icon": {
-			"item": "minecraft:player_head",
-			"nbt": "{SkullOwner:\"CaptainVegtable\"}"
+			"id": "minecraft:player_head",
+			"components": {
+				"minecraft:profile": {
+					"name": "CaptainVegtable"
+				}
+			}
 		},
 		"title": "CaptainVegtable",
 		"description": "Collect every flower and crop",

@@ -2,8 +2,12 @@
 	"parent": "community:harmonize",
 	"display": {
 		"icon": {
-			"item": "minecraft:player_head",
-			"nbt": "{SkullOwner:\"epolixa\"}"
+			"id": "minecraft:player_head",
+			"components": {
+				"minecraft:profile": {
+					"name": "epolixa"
+				}
+			}
 		},
 		"title": "epolixa",
 		"description": "Eat 64 consecutive Melon Slices",

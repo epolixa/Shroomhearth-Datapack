@@ -3,6 +3,8 @@
   "ingredient": {
     "item": "minecraft:warped_hyphae"
   },
-  "result": "minecraft:warped_slab",
-  "count": 8
+  "result": {
+    "id": "minecraft:warped_slab",
+    "count": 8
+  }
 }

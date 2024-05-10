@@ -2,8 +2,12 @@
 	"parent": "community:harmonize",
 	"display": {
 		"icon": {
-			"item": "minecraft:player_head",
-			"nbt": "{SkullOwner:\"Batboy272\"}"
+			"id": "minecraft:player_head",
+			"components": {
+				"minecraft:profile": {
+					"name": "Batboy272"
+				}
+			}
 		},
 		"title": "Batboy272",
 		"description": "Wear Netherite Boots, black-dyed Leather Leggings, Elytra, and a Wither Skeleton Skull",
@@ -27,7 +31,9 @@
 					},
 					{
 						"items": ["minecraft:leather_leggings"],
-						"nbt": "{display:{color:1908001}}"
+						"components": {
+							"minecraft:dyed_color": 1908001
+						}
 					},
 					{
 						"items": ["minecraft:netherite_boots"]
@@ -43,7 +49,9 @@
 						},
 						"legs": {
 							"items": ["minecraft:leather_leggings"],
-							"nbt": "{display:{color:1908001}}"
+							"components": {
+								"minecraft:dyed_color": 1908001
+							}
 						},
 						"feet": {
 							"items": ["minecraft:netherite_boots"]

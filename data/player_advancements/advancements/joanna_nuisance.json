@@ -2,8 +2,12 @@
 	"parent": "community:harmonize",
 	"display": {
 		"icon": {
-			"item": "minecraft:player_head",
-			"nbt": "{SkullOwner:\"joanna_nuisance\"}"
+			"id": "minecraft:player_head",
+			"components": {
+				"minecraft:profile": {
+					"name": "joanna_nuisance"
+				}
+			}
 		},
 		"title": "joanna_nuisance",
 		"description": "Go lava fishing",
@@ -21,7 +25,7 @@
                 "entity": {
                     "location": {
                         "fluid": {
-                            "fluid": "minecraft:lava"
+                            "fluids": "#minecraft:lava"
                         }
                     }
                 }

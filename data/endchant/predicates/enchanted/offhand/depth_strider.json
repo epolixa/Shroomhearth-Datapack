@@ -4,11 +4,13 @@
   "predicate": {
     "equipment": {
       "offhand": {
-        "enchantments": [
-          {
-            "enchantment": "minecraft:depth_strider"
-          }
-        ]
+        "predicates": {
+          "minecraft:enchantments": [
+            {
+              "enchantment": "minecraft:depth_strider"
+            }
+          ]
+        }
       }
     }
   }

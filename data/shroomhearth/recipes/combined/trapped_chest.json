@@ -15,6 +15,6 @@
     "ppp"
   ],
   "result": {
-    "item": "minecraft:trapped_chest"
+    "id": "minecraft:trapped_chest"
   }
 }

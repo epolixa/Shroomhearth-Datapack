@@ -3,6 +3,8 @@
   "ingredient": {
     "item": "minecraft:cherry_wood"
   },
-  "result": "minecraft:cherry_stairs",
-  "count": 4
+  "result": {
+    "id": "minecraft:cherry_stairs",
+    "count": 4
+  }
 }

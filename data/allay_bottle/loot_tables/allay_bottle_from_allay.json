@@ -8,8 +8,20 @@
                     "name": "minecraft:allay_spawn_egg",
                     "functions": [
                         {
-                            "function": "set_nbt",
-                            "tag": "{spore:'allay_bottle_from_allay',display:{Name:'{\"italic\":false,\"translate\":\"allay_bottle.allay_bottle\"}'},CustomModelData:1}"
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": "{'translate':'allay_bottle.allay_bottle','fallback':'Bottle of Allay'}",
+                                "minecraft:max_stack_size": 16,
+                                "minecraft:custom_model_data": 1,
+                                "minecraft:entity_data": {
+                                    "id": "minecraft:allay",
+                                    "Tags": ["unbottled_allay"]
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{spore:'allay_bottle_from_allay'}"
                         }
                     ]
                 }

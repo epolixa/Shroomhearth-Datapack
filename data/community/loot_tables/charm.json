@@ -6,11 +6,18 @@
                 {
                     "type": "item",
                     "name": "minecraft:ghast_tear",
-                    "weight": 1,
                     "functions": [
                         {
-                            "function": "set_nbt",
-                            "tag": "{spore:'charm',display:{Name:'{\"italic\":false,\"translate\":\"community.charm\"}'},CustomModelData:1,Enchantments:[{id:\"minecraft:infinity\",lvl:1s}],HideFlags:1}"
+                            "function": "set_components",
+                            "components": {
+                                "item_name": "{'translate':'community.charm','fallback':'Charm'}",
+                                "custom_model_data": 1,
+                                "enchantment_glint_override": true
+                            }
+                        },
+                        {
+                            "function": "set_custom_data",
+                            "tag": "{spore:'charm'}"
                         }
                     ]
                 }

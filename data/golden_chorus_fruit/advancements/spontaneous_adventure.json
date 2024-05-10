@@ -2,10 +2,14 @@
 	"parent": "speedy_paths:well_traveled",
 	"display": {
 		"icon": {
-			"item": "minecraft:chorus_fruit"
+			"id": "minecraft:chorus_fruit",
+			"components": {
+				"custom_model_data": 1,
+				"minecraft:enchantment_glint_override": true
+			}
 		},
 		"title": "Spontaneous Adventure",
-		"description": "Eat a Chorus Fruit at the Spawn Pedestal to teleport somewhere randomly",
+		"description": "Find and eat an Enchanted Golden Chorus Fruit to teleport somewhere within 100,000 blocks",
 		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,

@@ -4,7 +4,7 @@
 			"trigger": "minecraft:consume_item",
 			"conditions": {
 				"item": {
-					"tag": "player_advancements:not_melon_slice"
+					"items": "#player_advancements:not_melon_slice"
 				},
 				"player": {
 					"player": {

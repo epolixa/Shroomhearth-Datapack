@@ -2,8 +2,12 @@
 	"parent": "community:harmonize",
 	"display": {
 		"icon": {
-			"item": "minecraft:player_head",
-			"nbt": "{SkullOwner:\"PolarisPlume\"}"
+			"id": "minecraft:player_head",
+			"components": {
+				"minecraft:profile": {
+					"name": "PolarisPlume"
+				}
+			}
 		},
 		"title": "PolarisPlume",
 		"description": "Place a blue flower at the bottom of the world",
@@ -33,7 +37,7 @@
 					{
 						"condition": "minecraft:match_tool",
 						"predicate": {
-							"tag": "player_advancements:blue_flowers"
+							"items": "#player_advancements:blue_flowers"
 						}
 					}
 				]

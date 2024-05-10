@@ -2,7 +2,7 @@
 	"parent": "shroomhearth:headhunter",
 	"display": {
 		"icon": {
-			"item": "minecraft:player_head"
+			"id": "minecraft:player_head"
         },
 		"title": "Face Painter",
 		"description": "Paint your skin to a mob or player head at the World Hall",

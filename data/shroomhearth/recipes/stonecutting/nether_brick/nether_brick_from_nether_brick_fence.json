@@ -4,6 +4,8 @@
   "ingredient": {
     "item": "minecraft:nether_brick_fence"
   },
-  "result": "minecraft:nether_brick",
-  "count": 3
+  "result": {
+    "id": "minecraft:nether_brick",
+    "count": 3
+  }
 }

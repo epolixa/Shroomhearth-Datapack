@@ -5,7 +5,7 @@
             "condition": "location_check",
             "predicate": {
                 "block": {
-                    "tag": "sitting:3_half_bottom",
+                    "blocks": "#sitting:3_half_bottom",
                     "state": {"half": "bottom"}
                 }
             }

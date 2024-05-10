@@ -2,7 +2,7 @@
 	"parent": "shroomhearth:root",
 	"display": {
 		"icon": {
-			"item": "minecraft:ender_pearl"
+			"id": "minecraft:ender_pearl"
 		},
 		"title": "Community Convenience",
 		"description": "Use the Community Gateway at Spawn",

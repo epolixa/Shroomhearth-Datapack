@@ -14,9 +14,7 @@
                                 "predicate": {
                                     "equipment": {
                                         "head": {
-                                            "items": [
-                                                "minecraft:air"
-                                            ]
+                                            "items": "minecraft:air"
                                         }
                                     }
                                 }
@@ -27,8 +25,8 @@
                     "name": "minecraft:player_head",
                     "functions": [
                         {
-                            "function": "set_nbt",
-                            "tag": "{dummy:\"hat\"}"
+                            "function": "set_custom_data",
+                            "tag": "{spore:'head_slot_target'}"
                         }
                     ]
                 }

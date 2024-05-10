@@ -13,7 +13,7 @@
         ],
         "items": [
           {
-            "tag": "porcelain:blacklist"
+            "items": "#porcelain:blacklist"
           }
         ]
       }

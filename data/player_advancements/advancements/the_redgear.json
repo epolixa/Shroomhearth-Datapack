@@ -2,8 +2,12 @@
 	"parent": "community:harmonize",
 	"display": {
 		"icon": {
-			"item": "minecraft:player_head",
-			"nbt": "{SkullOwner:\"The_RedGear\"}"
+			"id": "minecraft:player_head",
+			"components": {
+				"minecraft:profile": {
+					"name": "The_RedGear"
+				}
+			}
 		},
 		"title": "The_RedGear",
 		"description": "Collect every red solid block",

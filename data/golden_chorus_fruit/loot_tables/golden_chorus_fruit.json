@@ -1,0 +1,28 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:chorus_fruit",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "item_name": "{'translate':'golden_chorus_fruit.golden_chorus_fruit','fallback':'Golden Chorus Fruit'}",
+                                "custom_model_data": 1,
+                                "minecraft:rarity": "rare"
+                            }
+                        },
+                        {
+                            "function": "set_custom_data",
+                            "tag": "{spore:'golden_chorus_fruit'}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

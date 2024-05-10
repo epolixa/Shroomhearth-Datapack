@@ -3,6 +3,8 @@
   "ingredient": {
     "item": "minecraft:smooth_sandstone_slab"
   },
-  "result": "minecraft:sand",
-  "count": 2
+  "result": {
+    "id": "minecraft:sand",
+    "count": 2
+  }
 }

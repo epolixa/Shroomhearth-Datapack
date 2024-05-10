@@ -2,7 +2,7 @@
   "parent": "shroomhearth:root",
   "display": {
     "icon": {
-      "item": "minecraft:lime_bed"
+      "id": "minecraft:lime_bed"
     },
     "title": "I Use My Bed to Express Myself!",
     "description": "Change your name color several times by laying in colored beds",

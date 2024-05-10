@@ -12,8 +12,8 @@
     "###"
   ],
   "result": {
-    "count": 6,
-    "item": "minecraft:cherry_trapdoor"
+    "id": "minecraft:cherry_trapdoor",
+    "count": 6
   },
   "show_notification": true
 }

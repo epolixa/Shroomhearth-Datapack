@@ -3,6 +3,8 @@
   "ingredient": {
     "item": "minecraft:red_sandstone_wall"
   },
-  "result": "minecraft:red_sand",
-  "count": 2
+  "result": {
+    "id": "minecraft:red_sand",
+    "count": 2
+  }
 }

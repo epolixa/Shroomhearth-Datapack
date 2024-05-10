@@ -2,8 +2,12 @@
 	"parent": "community:harmonize",
 	"display": {
 		"icon": {
-			"item": "minecraft:player_head",
-			"nbt": "{SkullOwner:\"Lonnie_Mack\"}"
+			"id": "minecraft:player_head",
+			"components": {
+				"minecraft:profile": {
+					"name": "Lonnie_Mack"
+				}
+			}
 		},
 		"title": "Lonnie_Mack",
 		"description": "Ride a Boat in \"X-Water\"",

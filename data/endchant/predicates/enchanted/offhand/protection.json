@@ -4,11 +4,13 @@
   "predicate": {
     "equipment": {
       "offhand": {
-        "enchantments": [
-          {
-            "enchantment": "minecraft:protection"
-          }
-        ]
+        "predicates": {
+          "minecraft:enchantments": [
+            {
+              "enchantment": "minecraft:protection"
+            }
+          ]
+        }
       }
     }
   }

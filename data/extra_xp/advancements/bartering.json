@@ -11,7 +11,7 @@
               "predicate": {
                 "equipment": {
                   "head": {
-                    "items": ["minecraft:golden_helmet"]
+                    "items": "minecraft:golden_helmet"
                   }
                 }
               },
@@ -25,7 +25,7 @@
               "predicate": {
                 "equipment": {
                   "chest": {
-                    "items": ["minecraft:golden_chestplate"]
+                    "items": "minecraft:golden_chestplate"
                   }
                 }
               },
@@ -39,7 +39,7 @@
               "predicate": {
                 "equipment": {
                   "legs": {
-                    "items": ["minecraft:golden_leggings"]
+                    "items": "minecraft:golden_leggings"
                   }
                 }
               },
@@ -53,7 +53,7 @@
               "predicate": {
                 "equipment": {
                   "feet": {
-                    "items": ["minecraft:golden_boots"]
+                    "items": "minecraft:golden_boots"
                   }
                 }
               },
@@ -89,7 +89,7 @@
               "predicate": {
                 "equipment": {
                   "head": {
-                    "items": ["minecraft:golden_helmet"]
+                    "items": "minecraft:golden_helmet"
                   }
                 }
               },
@@ -103,7 +103,7 @@
               "predicate": {
                 "equipment": {
                   "chest": {
-                    "items": ["minecraft:golden_chestplate"]
+                    "items": "minecraft:golden_chestplate"
                   }
                 }
               },
@@ -117,7 +117,7 @@
               "predicate": {
                 "equipment": {
                   "legs": {
-                    "items": ["minecraft:golden_leggings"]
+                    "items": "minecraft:golden_leggings"
                   }
                 }
               },
@@ -131,7 +131,7 @@
               "predicate": {
                 "equipment": {
                   "feet": {
-                    "items": ["minecraft:golden_boots"]
+                    "items": "minecraft:golden_boots"
                   }
                 }
               },
@@ -140,7 +140,7 @@
           }
         ],
         "item": {
-          "items": ["minecraft:gold_ingot"]
+          "items": "minecraft:gold_ingot"
         },
         "entity": [
           {
