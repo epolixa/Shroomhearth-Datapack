@@ -1,56 +1,64 @@
 {
+    "type": "minecraft:entity",
     "pools": [
         {
-            "rolls": 1,
+            "bonus_rolls": 0.0,
             "entries": [
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:totem_of_undying"
                 }
-            ]
+            ],
+            "rolls": 1.0
         },
         {
-            "rolls": 1,
-            "entries": [
+            "bonus_rolls": 0.0,
+            "conditions": [
                 {
-                    "type": "item",
-                    "name": "minecraft:emerald",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "type": "minecraft:uniform",
-                                "min": 0,
-                                "max": 1
-                            }
-                        },
-                        {
-                            "function": "looting_enchant",
-                            "count": {
-                                "type": "minecraft:uniform",
-                                "min": 0,
-                                "max": 1
-                            }
-                        }
-                    ]
+                    "condition": "minecraft:killed_by_player"
                 }
             ],
-            "conditions": [
+            "entries": [
                 {
-                    "condition": "killed_by_player"
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "add": false,
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 1.0,
+                                "min": 0.0
+                            },
+                            "function": "minecraft:set_count"
+                        },
+                        {
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 1.0,
+                                "min": 0.0
+                            },
+                            "enchantment": "minecraft:looting",
+                            "function": "minecraft:enchanted_count_increase"
+                        }
+                    ],
+                    "name": "minecraft:emerald"
                 }
-            ]
+            ],
+            "rolls": 1.0
         },
         {
             "conditions": [
                 {
-                    "condition": "killed_by_player"
+                    "condition": "minecraft:killed_by_player"
                 },
                 {
-                    "condition": "random_chance_with_looting",
-                    "chance": 0.025,
-                    "looting_multiplier": 0.01
+                    "chance": {
+                        "type": "minecraft:linear",
+                        "base": 0.035,
+                        "per_level_above_first": 0.01
+                    },
+                    "condition": "minecraft:random_chance_with_enchanted_bonus",
+                    "enchantment": "minecraft:looting"
                 }
             ],
             "rolls": 1,
@@ -79,10 +87,10 @@
                                 }
                             }
                         }
-                    ],
-                    "weight": 1
+                    ]
                 }
             ]
         }
-    ]
+    ],
+    "random_sequence": "minecraft:entities/evoker"
 }

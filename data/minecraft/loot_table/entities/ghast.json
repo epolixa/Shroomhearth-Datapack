@@ -1,70 +1,79 @@
 {
+    "type": "minecraft:entity",
     "pools": [
         {
-            "rolls": 1,
+            "bonus_rolls": 0.0,
             "entries": [
                 {
-                    "type": "item",
-                    "name": "minecraft:ghast_tear",
-                    "weight": 1,
+                    "type": "minecraft:item",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "add": false,
                             "count": {
                                 "type": "minecraft:uniform",
-                                "min": 0,
-                                "max": 1
-                            }
+                                "max": 1.0,
+                                "min": 0.0
+                            },
+                            "function": "minecraft:set_count"
                         },
                         {
-                            "function": "looting_enchant",
                             "count": {
                                 "type": "minecraft:uniform",
-                                "min": 0,
-                                "max": 1
-                            }
+                                "max": 1.0,
+                                "min": 0.0
+                            },
+                            "enchantment": "minecraft:looting",
+                            "function": "minecraft:enchanted_count_increase"
                         }
-                    ]
+                    ],
+                    "name": "minecraft:ghast_tear"
                 }
-            ]
+            ],
+            "rolls": 1.0
         },
         {
-            "rolls": 1,
+            "bonus_rolls": 0.0,
             "entries": [
                 {
-                    "type": "item",
-                    "name": "minecraft:gunpowder",
-                    "weight": 1,
+                    "type": "minecraft:item",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "add": false,
                             "count": {
                                 "type": "minecraft:uniform",
-                                "min": 0,
-                                "max": 2
-                            }
+                                "max": 2.0,
+                                "min": 0.0
+                            },
+                            "function": "minecraft:set_count"
                         },
                         {
-                            "function": "looting_enchant",
                             "count": {
                                 "type": "minecraft:uniform",
-                                "min": 0,
-                                "max": 1
-                            }
+                                "max": 1.0,
+                                "min": 0.0
+                            },
+                            "enchantment": "minecraft:looting",
+                            "function": "minecraft:enchanted_count_increase"
                         }
-                    ]
+                    ],
+                    "name": "minecraft:gunpowder"
                 }
-            ]
+            ],
+            "rolls": 1.0
         },
         {
             "conditions": [
                 {
-                    "condition": "killed_by_player"
+                    "condition": "minecraft:killed_by_player"
                 },
                 {
-                    "condition": "random_chance_with_looting",
-                    "chance": 0.025,
-                    "looting_multiplier": 0.01
+                    "chance": {
+                        "type": "minecraft:linear",
+                        "base": 0.035,
+                        "per_level_above_first": 0.01
+                    },
+                    "condition": "minecraft:random_chance_with_enchanted_bonus",
+                    "enchantment": "minecraft:looting"
                 }
             ],
             "rolls": 1,
@@ -82,10 +91,10 @@
                                 }
                             }
                         }
-                    ],
-                    "weight": 1
+                    ]
                 }
             ]
         }
-    ]
+    ],
+    "random_sequence": "minecraft:entities/ghast"
 }

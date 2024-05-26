@@ -2,24 +2,38 @@
   "type": "minecraft:entity",
   "pools": [
     {
-      "rolls": 1,
+      "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:set_count",
-              "count": 1
+              "add": false,
+              "count": 1.0,
+              "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:saddle",
-          "weight": 100,
-          "quality": 2
+          "name": "minecraft:saddle"
         }
-      ]
+      ],
+      "rolls": 1.0
     },
     {
       "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "chance": {
+            "type": "minecraft:linear",
+            "base": 0.035,
+            "per_level_above_first": 0.01
+          },
+          "condition": "minecraft:random_chance_with_enchanted_bonus",
+          "enchantment": "minecraft:looting"
+        }
+      ],
       "entries": [
         {
           "type": "minecraft:item",
@@ -45,21 +59,10 @@
                 }
               }
             }
-          ],
-          "weight": 100,
-          "quality": 4
-        }
-      ],
-      "conditions": [
-        {
-          "condition": "minecraft:killed_by_player"
-        },
-        {
-          "condition": "minecraft:random_chance_with_looting",
-          "chance": 0.025,
-          "looting_multiplier": 0.01
+          ]
         }
       ]
     }
-  ]
+  ],
+  "random_sequence": "minecraft:entities/ravager"
 }

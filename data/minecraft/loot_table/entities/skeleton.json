@@ -2,83 +2,88 @@
     "type": "minecraft:entity",
     "pools": [
         {
-            "rolls": 1.0,
             "bonus_rolls": 0.0,
             "entries": [
                 {
                     "type": "minecraft:item",
                     "functions": [
                         {
-                            "function": "minecraft:set_count",
+                            "add": false,
                             "count": {
                                 "type": "minecraft:uniform",
-                                "min": 0.0,
-                                "max": 2.0
+                                "max": 2.0,
+                                "min": 0.0
                             },
-                            "add": false
+                            "function": "minecraft:set_count"
                         },
                         {
-                            "function": "minecraft:looting_enchant",
                             "count": {
                                 "type": "minecraft:uniform",
-                                "min": 0.0,
-                                "max": 1.0
-                            }
+                                "max": 1.0,
+                                "min": 0.0
+                            },
+                            "enchantment": "minecraft:looting",
+                            "function": "minecraft:enchanted_count_increase"
                         }
                     ],
                     "name": "minecraft:arrow"
                 }
-            ]
+            ],
+            "rolls": 1.0
         },
         {
-            "rolls": 1.0,
             "bonus_rolls": 0.0,
             "entries": [
                 {
                     "type": "minecraft:item",
                     "functions": [
                         {
-                            "function": "minecraft:set_count",
+                            "add": false,
                             "count": {
                                 "type": "minecraft:uniform",
-                                "min": 0.0,
-                                "max": 2.0
+                                "max": 2.0,
+                                "min": 0.0
                             },
-                            "add": false
+                            "function": "minecraft:set_count"
                         },
                         {
-                            "function": "minecraft:looting_enchant",
                             "count": {
                                 "type": "minecraft:uniform",
-                                "min": 0.0,
-                                "max": 1.0
-                            }
+                                "max": 1.0,
+                                "min": 0.0
+                            },
+                            "enchantment": "minecraft:looting",
+                            "function": "minecraft:enchanted_count_increase"
                         }
                     ],
                     "name": "minecraft:bone"
                 }
-            ]
+            ],
+            "rolls": 1.0
         },
         {
             "conditions": [
                 {
-                    "condition": "killed_by_player"
+                    "condition": "minecraft:killed_by_player"
                 },
                 {
-                    "condition": "random_chance_with_looting",
-                    "chance": 0.025,
-                    "looting_multiplier": 0.01
+                    "chance": {
+                        "type": "minecraft:linear",
+                        "base": 0.035,
+                        "per_level_above_first": 0.01
+                    },
+                    "condition": "minecraft:random_chance_with_enchanted_bonus",
+                    "enchantment": "minecraft:looting"
                 }
             ],
             "rolls": 1,
             "entries": [
                 {
                     "type": "item",
-                    "name": "minecraft:skeleton_skull",
-                    "weight": 100,
-                    "quality": 4
+                    "name": "minecraft:skeleton_skull"
                 }
             ]
         }
-    ]
+    ],
+    "random_sequence": "minecraft:entities/skeleton"
 }

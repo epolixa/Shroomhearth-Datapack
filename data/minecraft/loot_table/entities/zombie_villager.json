@@ -1,72 +1,119 @@
 {
+    "type": "minecraft:entity",
     "pools": [
         {
-            "rolls": 1,
+            "bonus_rolls": 0.0,
             "entries": [
                 {
-                    "type": "item",
-                    "name": "minecraft:rotten_flesh",
-                    "weight": 1,
+                    "type": "minecraft:item",
                     "functions": [
                         {
-                            "function": "set_count",
+                            "add": false,
                             "count": {
                                 "type": "minecraft:uniform",
-                                "min": 0,
-                                "max": 2
-                            }
+                                "max": 2.0,
+                                "min": 0.0
+                            },
+                            "function": "minecraft:set_count"
                         },
                         {
-                            "function": "looting_enchant",
                             "count": {
                                 "type": "minecraft:uniform",
-                                "min": 0,
-                                "max": 1
-                            }
+                                "max": 1.0,
+                                "min": 0.0
+                            },
+                            "enchantment": "minecraft:looting",
+                            "function": "minecraft:enchanted_count_increase"
                         }
-                    ]
-                }
-            ]
-        },
-        {
-            "conditions": [
-                {
-                    "condition": "killed_by_player"
-                },
-                {
-                    "condition": "random_chance_with_looting",
-                    "chance": 0.025,
-                    "looting_multiplier": 0.01
+                    ],
+                    "name": "minecraft:rotten_flesh"
                 }
             ],
-            "rolls": 1,
+            "rolls": 1.0
+        },
+        {
+            "bonus_rolls": 0.0,
+            "conditions": [
+                {
+                    "condition": "minecraft:killed_by_player"
+                },
+                {
+                    "chance": {
+                        "type": "minecraft:linear",
+                        "base": 0.035,
+                        "per_level_above_first": 0.01
+                    },
+                    "condition": "minecraft:random_chance_with_enchanted_bonus",
+                    "enchantment": "minecraft:looting"
+                }
+            ],
             "entries": [
                 {
-                    "type": "item",
-                    "name": "minecraft:emerald",
-                    "weight": 1
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_ingot"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:wheat",
-                    "weight": 1
+                    "type": "minecraft:item",
+                    "name": "minecraft:carrot"
                 },
                 {
-                    "type": "item",
-                    "name": "minecraft:potato",
-                    "weight": 1
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "conditions": [
+                                {
+                                    "condition": "minecraft:any_of",
+                                    "terms": [
+                                        {
+                                            "condition": "minecraft:entity_properties",
+                                            "entity": "this",
+                                            "predicate": {
+                                                "flags": {
+                                                    "is_on_fire": true
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "condition": "minecraft:entity_properties",
+                                            "entity": "direct_attacker",
+                                            "predicate": {
+                                                "equipment": {
+                                                    "mainhand": {
+                                                        "predicates": {
+                                                            "minecraft:enchantments": [
+                                                                {
+                                                                    "enchantments": "#minecraft:smelts_loot"
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    ]
+                                }
+                            ],
+                            "function": "minecraft:furnace_smelt"
+                        }
+                    ],
+                    "name": "minecraft:potato"
                 }
-            ]
+            ],
+            "rolls": 1.0
         },
         {
             "conditions": [
                 {
-                    "condition": "killed_by_player"
+                    "condition": "minecraft:killed_by_player"
                 },
                 {
-                    "condition": "random_chance_with_looting",
-                    "chance": 0.025,
-                    "looting_multiplier": 0.01
+                    "chance": {
+                        "type": "minecraft:linear",
+                        "base": 0.035,
+                        "per_level_above_first": 0.01
+                    },
+                    "condition": "minecraft:random_chance_with_enchanted_bonus",
+                    "enchantment": "minecraft:looting"
                 }
             ],
             "rolls": 1,
@@ -95,10 +142,10 @@
                                 }
                             }
                         }
-                    ],
-                    "weight": 1
+                    ]
                 }
             ]
         }
-    ]
+    ],
+    "random_sequence": "minecraft:entities/zombie_villager"
 }
