@@ -10,7 +10,7 @@
                         "predicate": {
                             "type_specific": {
                                 "type": "player",
-                                "gamemode": "survival"
+                                "gamemode": ["survival"]
                             }
                         }
                     },
