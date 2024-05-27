@@ -11,7 +11,9 @@
       "conditions": {
         "items": [
           {
-            "items": ["minecraft:exposed_copper"]
+            "items": [
+              "minecraft:exposed_copper"
+            ]
           }
         ]
       }
@@ -21,7 +23,9 @@
       "conditions": {
         "items": [
           {
-            "items": ["minecraft:magma_cream"]
+            "items": [
+              "minecraft:magma_cream"
+            ]
           }
         ]
       }

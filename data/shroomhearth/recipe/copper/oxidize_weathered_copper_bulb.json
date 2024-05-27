@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "redstone",
+    "group": "oxidized_copper_bulb",
+    "ingredients": [
+        {
+            "item": "minecraft:weathered_copper_bulb"
+        },
+        {
+            "item": "minecraft:magma_cream"
+        }
+    ],
+    "result": {
+        "id": "minecraft:oxidized_copper_bulb"
+    }
+}

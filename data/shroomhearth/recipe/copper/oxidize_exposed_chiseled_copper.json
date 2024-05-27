@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "building",
+    "group": "weathered_chiseled_copper",
+    "ingredients": [
+        {
+            "item": "minecraft:exposed_chiseled_copper"
+        },
+        {
+            "item": "minecraft:magma_cream"
+        }
+    ],
+    "result": {
+        "id": "minecraft:weathered_chiseled_copper"
+    }
+}

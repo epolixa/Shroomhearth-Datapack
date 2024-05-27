@@ -11,7 +11,9 @@
       "conditions": {
         "items": [
           {
-            "items": ["minecraft:weathered_cut_copper_stairs"]
+            "items": [
+              "minecraft:weathered_cut_copper_stairs"
+            ]
           }
         ]
       }
@@ -21,7 +23,9 @@
       "conditions": {
         "items": [
           {
-            "items": ["minecraft:magma_cream"]
+            "items": [
+              "minecraft:magma_cream"
+            ]
           }
         ]
       }
