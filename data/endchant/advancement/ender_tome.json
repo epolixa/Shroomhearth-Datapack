@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "has_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "endchant:ender_tome"
+            }
+        }
+    },
+    "rewards": {
+        "function": "endchant:ender_tome"
+    }
+}

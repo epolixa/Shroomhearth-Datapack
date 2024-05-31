@@ -54,7 +54,8 @@ execute unless entity @s[tag=endchant] unless predicate endchant:endchanted/legs
 execute unless entity @s[tag=endchant] unless predicate endchant:endchanted/feet if predicate endchant:equipped/feet/boots run function endchant:feet/boots
 
 # show a message if player did not receive an endchant
-execute unless entity @s[tag=endchant] run tellraw @s [{"color":"white","text":"The "},{"color":"#cc00fa","text":"Ender Dragon"},{"color":"white","text":"'s power dissipates"}]
+#execute unless entity @s[tag=endchant] run tellraw @s [{"color":"white","text":"The "},{"color":"#cc00fa","text":"Ender Dragon"},{"color":"white","text":"'s power dissipates"}]
+execute unless entity @s[tag=endchant] run loot spawn ~ ~1 ~ loot endchant:ender_tome
 
 # remove tag
 tag @s remove endchant
