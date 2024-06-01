@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "minecraft:equipment",
+    "key": {
+        "I": {
+            "item": "minecraft:netherite_ingot"
+        },
+        "S": {
+            "item": "minecraft:echo_shard"
+        }
+    },
+    "pattern": [
+        "I",
+        "S"
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:warped_fungus_on_a_stick",
+        "components": {
+            "minecraft:item_name": "{'translate':'recall.recall_whistle','fallback':'Recall Whistle'}",
+            "minecraft:rarity": "rare",
+            "minecraft:custom_model_data": 2,
+            "minecraft:custom_data": {
+                "spore": "recall_whistle"
+            }
+        }
+    }
+}
