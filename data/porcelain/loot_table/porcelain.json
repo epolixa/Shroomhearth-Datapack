@@ -11,6 +11,7 @@
               "function": "set_components",
               "components": {
                 "item_name": "{'translate':'porcelain.porcelain','fallback':'Porcelain'}",
+                "rarity": "uncommon",
                 "custom_model_data": 1,
                 "enchantment_glint_override": true
               }
