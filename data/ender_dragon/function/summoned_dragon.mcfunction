@@ -1,3 +1,5 @@
+# Executes from the context of a player who just summoned the dragon
+
 # announce
 tellraw @a [{"text":"The "}, {"color":"#cc00fa","text":"Ender Dragon"}, {"text":" was summoned by "}, {"selector": "@p"}]
 
@@ -15,6 +17,13 @@ bossbar set ender_dragon:dragon_rage visible true
 
 # capture number of players
 execute store result score dragonPlayers shroomhearth if entity @a[predicate=ender_dragon:on_main_end_island]
+
+# Calculate the dragon's ominous_level
+execute as @n[type=minecraft:ender_dragon] at @s run function ender_dragon:set_ominous_level
+
+# Announce Dragon
+execute as @n[type=minecraft:ender_dragon,tag=!omen_ender_dragon] run tellraw @a [{"text":"The "}, {"color":"#cc00fa","text":"Ender Dragon"}, {"text":" was summoned by "}, {"selector": "@p"}]
+execute as @n[type=minecraft:ender_dragon,tag=omen_ender_dragon] run tellraw @a [{"text":"The "}, {"color":"#cc00fa","text":"Omen Ender Dragon "}, {"score": {"name": "*", "objective": "ominous_level"}}, {"text":" was summoned by "}, {"selector": "@p"}]
 
 # revoke trigger
 advancement revoke @s only ender_dragon:summoned_dragon

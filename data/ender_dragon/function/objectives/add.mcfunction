@@ -27,3 +27,6 @@ scoreboard objectives add dragStatHits dummy
 scoreboard objectives add dragStatMobs dummy
 scoreboard objectives add dragStatEndermen dummy
 scoreboard objectives add dragStatCrystals dummy
+
+# The Ender Dragon's Ominous level. Derived from the cumulative ominous levels of participating players.
+scoreboard objectives add ominous_level dummy
