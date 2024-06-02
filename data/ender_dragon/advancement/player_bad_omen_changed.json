@@ -1,0 +1,21 @@
+{
+	"criteria": {
+		"player_bad_omen_changed": {
+			"trigger": "minecraft:effects_changed",
+			"conditions": {
+				"effects": {
+                    "minecraft:bad_omen": {}
+                },
+                "player": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "ender_dragon:on_main_end_island"
+                    }
+                ]
+			}
+		}
+	},
+	"rewards": {
+		"function": "ender_dragon:player_bad_omen_changed"
+	} 
+}

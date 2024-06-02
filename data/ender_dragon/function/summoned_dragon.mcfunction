@@ -19,11 +19,11 @@ bossbar set ender_dragon:dragon_rage visible true
 execute store result score dragonPlayers shroomhearth if entity @a[predicate=ender_dragon:on_main_end_island]
 
 # Calculate the dragon's ominous_level
-execute as @n[type=minecraft:ender_dragon] at @s run function ender_dragon:set_ominous_level
+execute in minecraft:the_end positioned 0 64 0 as @n[type=minecraft:ender_dragon] at @s run function ender_dragon:set_ominous_level
 
 # Announce Dragon
-execute as @n[type=minecraft:ender_dragon,tag=!omen_ender_dragon] run tellraw @a [{"text":"The "}, {"color":"#cc00fa","text":"Ender Dragon"}, {"text":" was summoned by "}, {"selector": "@p"}]
-execute as @n[type=minecraft:ender_dragon,tag=omen_ender_dragon] run tellraw @a [{"text":"The "}, {"color":"#0b6138","text":"Omen "}, {"color":"#0b6138", "score": {"name": "*", "objective": "ominous_level"}, "font": "minecraft:illageralt", "hoverEvent": {"action": "show_text", "contents": {"score": {"name": "*", "objective": "ominous_level"}}}}, {"color":"#cc00fa","text":" Ender Dragon "}, {"text":" was summoned by "}, {"selector": "@p"}]
+execute in minecraft:the_end positioned 0 64 0 as @n[type=minecraft:ender_dragon,tag=!omen_ender_dragon] run tellraw @a [{"text":"The "}, {"color":"#cc00fa","text":"Ender Dragon"}, {"text":" was summoned by "}, {"selector": "@p"}]
+execute in minecraft:the_end positioned 0 64 0 as @n[tag=omen_ender_dragon] run tellraw @a [{"text":"The "}, {"color":"#0b6138","text":"Omen "}, {"color":"#0b6138", "score": {"name": "*", "objective": "ominous_level"}, "font": "minecraft:illageralt", "hoverEvent": {"action": "show_text", "contents": {"score": {"name": "*", "objective": "ominous_level"}}}}, {"color":"#cc00fa","text":" Ender Dragon "}, {"text":" was summoned by "}, {"selector": "@p"}]
 
 # revoke trigger
 advancement revoke @s only ender_dragon:summoned_dragon
