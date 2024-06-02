@@ -31,5 +31,8 @@ execute store result bossbar ender_dragon:dragon_rage value run scoreboard playe
 # execute powers at max rage
 execute as @s[scores={rage=64..,bossHealthPercent=1..99}] run function ender_dragon:powers/cast
 
+# cleanup any gravity entities that are finished
+#execute as @e[type=!area_effect_cloud,tag=dragon_gravity] at @s unless entity @e[type=area_effect_cloud,tag=dragon_gravity,distance=..1] run kill @s
+
 # increment dragStatSlayTime
 scoreboard players add dragStatSlayTime shroomhearth 1

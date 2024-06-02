@@ -10,7 +10,7 @@ scoreboard players remove @s rage 32
 # add value to sequence score (N players + 1)
 #scoreboard players operation pillarSequence shroomhearth += dragonPlayers shroomhearth
 #scoreboard players add pillarSequence shroomhearth 1
-scoreboard players operation pillarSequence shroomhearth += @s ominous_level
+scoreboard players operation pillarSequence shroomhearth += @s omen_level
 
 # kickoff sequence
 function ender_dragon:powers/pillar/run_sequence

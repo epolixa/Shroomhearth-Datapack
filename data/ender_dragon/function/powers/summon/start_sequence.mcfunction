@@ -10,7 +10,7 @@ scoreboard players remove @s rage 48
 # add value to sequence score (N players + 1)
 #scoreboard players operation summonSequence shroomhearth += dragonPlayers shroomhearth
 #scoreboard players add summonSequence shroomhearth 2
-scoreboard players operation summonSequence shroomhearth += @s ominous_level
+scoreboard players operation summonSequence shroomhearth += @s omen_level
 
 # setup target armor stand
 execute unless entity @e[tag=summon_target] run summon minecraft:armor_stand ~ ~ ~ {Tags:["power_target","summon_target"],Marker:1b,Invulnerable:1b,Invisible:1b}

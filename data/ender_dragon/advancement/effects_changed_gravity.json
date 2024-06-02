@@ -1,12 +1,13 @@
 {
 	"criteria": {
-		"player_bad_omen_changed": {
+		"effects_changed_gravity": {
 			"trigger": "minecraft:effects_changed",
 			"conditions": {
 				"effects": {
-                    "minecraft:bad_omen": {
-						"duration": 120000
-					}
+                    "minecraft:levitation": {
+                        "amplifier": 31,
+                        "duration": 30
+                    }
                 },
                 "player": [
                     {
@@ -18,6 +19,6 @@
 		}
 	},
 	"rewards": {
-		"function": "ender_dragon:player_bad_omen_changed"
+		"function": "ender_dragon:effects_changed_gravity"
 	} 
 }

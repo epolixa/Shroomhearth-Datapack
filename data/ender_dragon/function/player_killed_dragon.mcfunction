@@ -35,6 +35,9 @@ kill @e[type=minecraft:armor_stand,tag=crystal_marker]
 # kill all power targets (if any remain)
 kill @e[tag=power_target]
 
+# kill all gravity entities
+kill @e[tag=dragon_gravity]
+
 # capture number of players
 execute store result score dragonPlayers shroomhearth if entity @a[predicate=ender_dragon:on_main_end_island]
 
