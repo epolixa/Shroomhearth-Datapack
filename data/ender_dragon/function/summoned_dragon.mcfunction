@@ -1,7 +1,7 @@
 # Executes from the context of a player who just summoned the dragon
 
 # announce
-tellraw @a [{"text":"The "}, {"color":"#cc00fa","text":"Ender Dragon"}, {"text":" was summoned by "}, {"selector": "@p"}]
+#tellraw @a [{"text":"The "}, {"color":"#cc00fa","text":"Ender Dragon"}, {"text":" was summoned by "}, {"selector": "@p"}]
 
 # reset dragonSlain
 scoreboard players set dragonSlain shroomhearth 0
@@ -23,7 +23,7 @@ execute in minecraft:the_end positioned 0 64 0 as @n[type=minecraft:ender_dragon
 
 # Announce Dragon
 execute in minecraft:the_end positioned 0 64 0 as @n[type=minecraft:ender_dragon,tag=!omen_ender_dragon] run tellraw @a [{"text":"The "}, {"color":"#cc00fa","text":"Ender Dragon"}, {"text":" was summoned by "}, {"selector": "@p"}]
-execute in minecraft:the_end positioned 0 64 0 as @n[tag=omen_ender_dragon] run tellraw @a [{"text":"The "}, {"color":"#0b6138","text":"Omen "}, {"color":"#0b6138", "score": {"name": "*", "objective": "ominous_level"}, "font": "minecraft:illageralt", "hoverEvent": {"action": "show_text", "contents": {"score": {"name": "*", "objective": "ominous_level"}}}}, {"color":"#cc00fa","text":" Ender Dragon "}, {"text":" was summoned by "}, {"selector": "@p"}]
+execute in minecraft:the_end positioned 0 64 0 as @n[tag=omen_ender_dragon] run tellraw @a [{"text":"The "}, {"color":"#0b6138","text":"Omen "}, {"color":"#0b6138", "score": {"name": "@s", "objective": "ominous_level"}, "font": "minecraft:illageralt", "hoverEvent": {"action": "show_text", "contents": {"score": {"name": "@s", "objective": "ominous_level"}}}}, {"color":"#cc00fa","text":" Ender Dragon"}, {"text":" was summoned by "}, {"selector": "@p"}]
 
 # revoke trigger
 advancement revoke @s only ender_dragon:summoned_dragon

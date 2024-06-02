@@ -2,7 +2,7 @@
 title @a[predicate=ender_dragon:on_main_end_island] actionbar {"color":"dark_purple","font":"minecraft:illageralt","bold":true,"text":"SUMMON"}
 
 # play sound
-playsound minecraft:entity.evoker.cast_spell hostile @a[predicate=ender_dragon:on_main_end_island] ~ ~ ~ 12 0.7
+#playsound minecraft:entity.evoker.cast_spell hostile @a[predicate=ender_dragon:on_main_end_island] ~ ~ ~ 12 0.7
 
 # expend rage
 scoreboard players remove @s rage 48

@@ -28,7 +28,7 @@ execute store result score dragonPlayers shroomhearth if entity @a[predicate=end
 # adapt max health to 200+((N-1)*50)
 function ender_dragon:adapt_max_health
 # copy max health to health
-data modify entity @s Health set from entity @s Attributes[{"Name":"minecraft:generic.max_health"}].Base
+data modify entity @s Health set from entity @s attributes[{id:"minecraft:generic.max_health"}].base
 
 # tag dragon when done
 tag @s add summoned
