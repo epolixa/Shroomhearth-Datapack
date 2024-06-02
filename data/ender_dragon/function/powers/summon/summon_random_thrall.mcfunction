@@ -1,5 +1,5 @@
 # set lcg
-scoreboard players set lcgModulus shroomhearth 27
+scoreboard players set lcgModulus shroomhearth 29
 function shroomhearth:lcg/random
 
 # summon a random mob
@@ -30,6 +30,8 @@ execute if score lcg shroomhearth matches 23 run summon minecraft:blaze ~ ~ ~
 execute if score lcg shroomhearth matches 24 run summon minecraft:ghast ~ ~8 ~
 execute if score lcg shroomhearth matches 25 run summon minecraft:endermite ~ ~ ~
 execute if score lcg shroomhearth matches 26 run summon minecraft:shulker ~ ~ ~
+execute if score lcg shroomhearth matches 27 run summon minecraft:bogged ~ ~ ~
+execute if score lcg shroomhearth matches 28 run summon minecraft:breeze ~ ~ ~
 
 # unset lcg
 scoreboard players set lcg shroomhearth -1

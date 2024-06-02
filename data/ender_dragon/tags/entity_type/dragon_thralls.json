@@ -31,6 +31,8 @@
     "minecraft:blaze",
     "minecraft:ghast",
     "minecraft:endermite",
-    "minecraft:shulker"
+    "minecraft:shulker",
+    "minecraft:bogged",
+    "minecraft:breeze"
   ]
 }
