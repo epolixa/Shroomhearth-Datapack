@@ -8,8 +8,9 @@ title @a[predicate=ender_dragon:on_main_end_island] actionbar {"color":"dark_pur
 scoreboard players remove @s rage 48
 
 # add value to sequence score (N players + 1)
-scoreboard players operation distortSequence shroomhearth += dragonPlayers shroomhearth
-scoreboard players add distortSequence shroomhearth 2
+#scoreboard players operation distortSequence shroomhearth += dragonPlayers shroomhearth
+#scoreboard players add distortSequence shroomhearth 2
+scoreboard players operation distortSequence shroomhearth += @s ominous_level
 
 # setup target armor stand
 execute unless entity @e[tag=distort_target] run summon minecraft:armor_stand ~ ~ ~ {Tags:["power_target","distort_target"],Marker:1b,Invulnerable:1b,Invisible:1b}
