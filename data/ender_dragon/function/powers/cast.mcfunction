@@ -1,5 +1,6 @@
 # play effects
 particle minecraft:dust{color:[0.8,0.0,0.98],scale:3} ~ ~1 ~ 3 1 3 0 32 force
+execute as @a[predicate=ender_dragon:on_main_end_island] run playsound minecraft:ambient.cave hostile @s ~ ~8 ~ 16 2
 
 # set lcg
 scoreboard players set lcgModulus shroomhearth 7

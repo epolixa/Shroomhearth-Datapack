@@ -23,7 +23,7 @@ execute as @n[type=minecraft:ender_dragon] at @s run function ender_dragon:set_o
 
 # Announce Dragon
 execute as @n[type=minecraft:ender_dragon,tag=!omen_ender_dragon] run tellraw @a [{"text":"The "}, {"color":"#cc00fa","text":"Ender Dragon"}, {"text":" was summoned by "}, {"selector": "@p"}]
-execute as @n[type=minecraft:ender_dragon,tag=omen_ender_dragon] run tellraw @a [{"text":"The "}, {"color":"#cc00fa","text":"Omen Ender Dragon "}, {"score": {"name": "*", "objective": "ominous_level"}}, {"text":" was summoned by "}, {"selector": "@p"}]
+execute as @n[type=minecraft:ender_dragon,tag=omen_ender_dragon] run tellraw @a [{"text":"The "}, {"color":"#0b6138","text":"Omen "}, {"color":"#0b6138", "score": {"name": "*", "objective": "ominous_level"}, "font": "minecraft:illageralt", "hoverEvent": {"action": "show_text", "contents": {"score": {"name": "*", "objective": "ominous_level"}}}}, {"color":"#cc00fa","text":" Ender Dragon "}, {"text":" was summoned by "}, {"selector": "@p"}]
 
 # revoke trigger
 advancement revoke @s only ender_dragon:summoned_dragon
