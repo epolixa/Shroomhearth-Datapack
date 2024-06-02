@@ -1,1 +1,1 @@
-execute in minecraft:the_end positioned 0 64 0 as @n[type=minecraft:ender_dragon] at @s run function ender_dragon:set_ominous_level
+execute in minecraft:the_end positioned 0 64 0 as @n[type=minecraft:ender_dragon] at @s run function ender_dragon:set_omen_level

@@ -25,4 +25,4 @@ scoreboard objectives remove dragStatEndermen
 scoreboard objectives remove dragStatCrystals
 
 # The Ender Dragon's Ominous level. Derived from the cumulative ominous levels of participating players.
-scoreboard objectives remove ominous_level
+scoreboard objectives remove omen_level

@@ -16,4 +16,3 @@ execute unless entity @e[tag=distort_target] run summon minecraft:armor_stand ~ 
 
 # kickoff sequence
 function ender_dragon:powers/distort/run_sequence
-

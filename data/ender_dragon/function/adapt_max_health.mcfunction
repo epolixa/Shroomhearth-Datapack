@@ -7,9 +7,9 @@
 #data modify entity @s Attributes[{"Name":"minecraft:generic.max_health"}] set from storage ender_dragon dragon.max_health
 
 
-# Adapt max health to 200 + (50 * ominous_level)
+# Adapt max health to 200 + (50 * omen_level)
 scoreboard players set @s bossMaxHealth 50
-scoreboard players operation @s bossMaxHealth *= @s ominous_level
+scoreboard players operation @s bossMaxHealth *= @s omen_level
 scoreboard players add @s bossMaxHealth 200
 #data modify storage ender_dragon dragon.max_health.Name set value "minecraft:generic.max_health"
 execute store result storage ender_dragon ender_dragon.max_health double 1 run scoreboard players get @s bossMaxHealth
