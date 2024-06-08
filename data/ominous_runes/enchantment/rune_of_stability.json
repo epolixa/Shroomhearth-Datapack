@@ -1,6 +1,6 @@
 {
     "description": {
-        "text": "Rune of Health"
+        "text": "Rune of Stability"
     },
     "supported_items": "#ominous_runes:rune_supported_items",
     "max_level": 1,
@@ -21,13 +21,13 @@
     "effects": {
         "minecraft:attributes": [
             {
-                "id": "ominous_runes:rune_of_health",
-                "attribute": "generic.max_health",
+                "id": "ominous_runes:rune_of_stability",
+                "attribute": "generic.knockback_resistance",
                 "operation": "add_value",
                 "amount": {
                     "type": "minecraft:linear",
-                    "base": 4,
-                    "per_level_above_first": 4
+                    "base": 0.1,
+                    "per_level_above_first": 0.1
                 }
             }
         ]

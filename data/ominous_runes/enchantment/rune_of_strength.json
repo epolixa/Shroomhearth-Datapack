@@ -1,6 +1,6 @@
 {
     "description": {
-        "text": "Rune of Health"
+        "text": "Rune of Stength"
     },
     "supported_items": "#ominous_runes:rune_supported_items",
     "max_level": 1,
@@ -21,13 +21,13 @@
     "effects": {
         "minecraft:attributes": [
             {
-                "id": "ominous_runes:rune_of_health",
-                "attribute": "generic.max_health",
+                "id": "ominous_runes:rune_of_strength",
+                "attribute": "generic.attack_damage",
                 "operation": "add_value",
                 "amount": {
                     "type": "minecraft:linear",
-                    "base": 4,
-                    "per_level_above_first": 4
+                    "base": 3,
+                    "per_level_above_first": 3
                 }
             }
         ]

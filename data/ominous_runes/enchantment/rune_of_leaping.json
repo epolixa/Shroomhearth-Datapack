@@ -1,6 +1,6 @@
 {
     "description": {
-        "text": "Rune of Swiftness"
+        "text": "Rune of Leaping"
     },
     "supported_items": "#ominous_runes:rune_supported_items",
     "max_level": 1,
@@ -21,13 +21,23 @@
     "effects": {
         "minecraft:attributes": [
             {
-                "id": "ominous_runes:rune_of_swiftness",
-                "attribute": "generic.movement_speed",
+                "id": "ominous_runes:rune_of_leaping_jump_strength",
+                "attribute": "generic.jump_strength",
                 "operation": "add_multiplied_base",
                 "amount": {
                     "type": "minecraft:linear",
-                    "base": 0.2,
-                    "per_level_above_first": 0.2
+                    "base": 0.5,
+                    "per_level_above_first": 0.5
+                }
+            },
+            {
+                "id": "ominous_runes:rune_of_leaping_safe_fall_distance",
+                "attribute": "generic.safe_fall_distance",
+                "operation": "add_multiplied_base",
+                "amount": {
+                    "type": "minecraft:linear",
+                    "base": 0.5,
+                    "per_level_above_first": 0.5
                 }
             }
         ]

@@ -10,12 +10,12 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "item_name": "{'text':'Rune of Health'}",
+                                "item_name": "{'text':'Rune of Armor'}",
                                 "custom_model_data": 1000,
                                 "rarity": "rare",
                                 "stored_enchantments": {
                                     "levels": {
-                                        "ominous_runes:rune_of_health": 1
+                                        "ominous_runes:rune_of_armor": 1
                                     },
                                     "show_in_tooltip": false
                                 }

@@ -1,0 +1,27 @@
+{
+    "parent": "ender_dragon:ominous_power",
+    "display": {
+        "icon": {
+            "id": "minecraft:enchanted_book",
+            "components": {
+                "stored_enchantments": {
+                    "levels": {
+                        "ominous_runes:rune_of_health": 1
+                    },
+                    "show_in_tooltip": false
+                }
+            }
+        },
+        "title": "Arcane Attribution",
+        "description": "Fuse a Rune onto an item",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "engrave_rune": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,6 +1,6 @@
 {
     "description": {
-        "text": "Rune of Health"
+        "text": "Rune of Armor"
     },
     "supported_items": "#ominous_runes:rune_supported_items",
     "max_level": 1,
@@ -21,8 +21,8 @@
     "effects": {
         "minecraft:attributes": [
             {
-                "id": "ominous_runes:rune_of_health",
-                "attribute": "generic.max_health",
+                "id": "ominous_runes:rune_of_armor",
+                "attribute": "generic.armor",
                 "operation": "add_value",
                 "amount": {
                     "type": "minecraft:linear",
