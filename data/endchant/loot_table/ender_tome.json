@@ -14,6 +14,9 @@
                                 "recipes": [
                                     "endchant:ender_tome"
                                 ],
+                                "lore": [
+                                    "{text:'Endchant',obfuscated:true,italic:false,color:'gray'}"
+                                ],
                                 "rarity": "rare",
                                 "custom_model_data": 1,
                                 "enchantment_glint_override": true
