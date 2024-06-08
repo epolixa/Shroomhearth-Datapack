@@ -1,0 +1,35 @@
+{
+    "description": {
+        "text": "Rune of Health"
+    },
+    "supported_items": "#minecraft:enchantable/durability",
+    "max_level": 1,
+    "anvil_cost": 4,
+    "min_cost": {
+        "base": 25,
+        "per_level_above_first": 25
+    },
+    "max_cost": {
+        "base": 75,
+        "per_level_above_first": 25
+    },
+    "slots": [
+        "any"
+    ],
+    "weight": 1,
+    "exclusive_set": "#ominous_runes:ominous_runes",
+    "effects": {
+        "minecraft:attributes": [
+            {
+                "id": "ominous_runes:rune_of_health",
+                "attribute": "generic.max_health",
+                "operation": "add_value",
+                "amount": {
+                    "type": "minecraft:linear",
+                    "base": 4,
+                    "per_level_above_first": 4
+                }
+            }
+        ]
+    }
+}
