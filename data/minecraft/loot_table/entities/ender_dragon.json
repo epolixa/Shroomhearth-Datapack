@@ -6,6 +6,20 @@
             "conditions": [
                 {
                     "condition": "minecraft:killed_by_player"
+                }
+            ],
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "ominous_runes:random_rune"
+                }
+            ]
+        },
+        {
+            "rolls": 1.0,
+            "conditions": [
+                {
+                    "condition": "minecraft:killed_by_player"
                 },
                 {
                     "condition": "minecraft:random_chance_with_enchanted_bonus",

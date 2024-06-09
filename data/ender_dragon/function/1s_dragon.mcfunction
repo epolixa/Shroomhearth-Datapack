@@ -17,7 +17,10 @@ scoreboard players operation @s bossHealthPercent *= @s bossHealth
 scoreboard players operation @s bossHealthPercent /= @s bossMaxHealth 
 
 # play particles on pillar gravity
-execute as @e[tag=pillar_gravity] at @s run particle dragon_breath ~ ~2 ~ 0 1 0 0.05 4
+#execute as @e[tag=pillar_gravity] at @s run particle dragon_breath ~ ~2 ~ 0 1 0 0.05 4
+
+# play particles on carved runes
+execute as @e[type=minecraft:item,tag=carve] at @s run particle dragon_breath ~ ~0.5 ~ 0 0 0 0.01 1 force
 
 # passive rage gain at health levels
 scoreboard players add @s[scores={bossHealthPercent=51..75}] rage 1

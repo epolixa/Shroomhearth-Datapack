@@ -1,12 +1,13 @@
 # revoke trigger for damage bonus
 advancement revoke @s only ender_dragon:player_hurt_dragon
 
-# increase rage depending on remaining health
-execute as @e[type=minecraft:ender_dragon,limit=1,sort=nearest,scores={bossHealthPercent=..30}] run scoreboard players add @s rage 19
-execute as @e[type=minecraft:ender_dragon,limit=1,sort=nearest,scores={bossHealthPercent=31..50}] run scoreboard players add @s rage 15
-execute as @e[type=minecraft:ender_dragon,limit=1,sort=nearest,scores={bossHealthPercent=51..70}] run scoreboard players add @s rage 11
-execute as @e[type=minecraft:ender_dragon,limit=1,sort=nearest,scores={bossHealthPercent=71..90}] run scoreboard players add @s rage 7
-execute as @e[type=minecraft:ender_dragon,limit=1,sort=nearest,scores={bossHealthPercent=91..}] run scoreboard players add @s rage 3
+# increase rage depending on omen level
+#execute as @e[type=minecraft:ender_dragon,limit=1,sort=nearest,scores={bossHealthPercent=..30}] run scoreboard players add @s rage 19
+#execute as @e[type=minecraft:ender_dragon,limit=1,sort=nearest,scores={bossHealthPercent=31..50}] run scoreboard players add @s rage 15
+#execute as @e[type=minecraft:ender_dragon,limit=1,sort=nearest,scores={bossHealthPercent=51..70}] run scoreboard players add @s rage 11
+#execute as @e[type=minecraft:ender_dragon,limit=1,sort=nearest,scores={bossHealthPercent=71..90}] run scoreboard players add @s rage 7
+#execute as @e[type=minecraft:ender_dragon,limit=1,sort=nearest,scores={bossHealthPercent=91..}] run scoreboard players add @s rage 3
+execute as @n[tag=omen_ender_dragon] run scoreboard players operation @s rage += @s omen_level
 
 # increment hit stat
 scoreboard players add @s dragStatHits 1
