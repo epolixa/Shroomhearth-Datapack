@@ -9,6 +9,10 @@
                 },
                 {
                     "type": "minecraft:loot_table",
+                    "value": "ominous_runes:rune_of_force"
+                },
+                {
+                    "type": "minecraft:loot_table",
                     "value": "ominous_runes:rune_of_gravity"
                 },
                 {
