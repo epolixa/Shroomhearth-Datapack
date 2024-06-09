@@ -26,8 +26,8 @@
                 "operation": "add_multiplied_total",
                 "amount": {
                     "type": "minecraft:linear",
-                    "base": 1,
-                    "per_level_above_first": 1
+                    "base": 0.5,
+                    "per_level_above_first": 0.5
                 }
             }
         ]
