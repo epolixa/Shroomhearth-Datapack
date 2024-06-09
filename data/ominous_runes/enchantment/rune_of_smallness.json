@@ -1,6 +1,6 @@
 {
     "description": {
-        "text": "Rune of Gravity"
+        "text": "Rune of Smallness"
     },
     "supported_items": "#ominous_runes:rune_supported_items",
     "max_level": 1,
@@ -21,18 +21,8 @@
     "effects": {
         "minecraft:attributes": [
             {
-                "id": "ominous_runes:rune_of_gravity_gravity",
-                "attribute": "generic.gravity",
-                "operation": "add_multiplied_total",
-                "amount": {
-                    "type": "minecraft:linear",
-                    "base": -0.5,
-                    "per_level_above_first": -0.5
-                }
-            },
-            {
-                "id": "ominous_runes:rune_of_gravity_fall_damage_multiplier",
-                "attribute": "generic.fall_damage_multiplier",
+                "id": "ominous_runes:rune_of_smallness",
+                "attribute": "generic.scale",
                 "operation": "add_multiplied_total",
                 "amount": {
                     "type": "minecraft:linear",

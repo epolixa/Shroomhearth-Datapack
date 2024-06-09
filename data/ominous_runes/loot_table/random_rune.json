@@ -13,7 +13,15 @@
                 },
                 {
                     "type": "minecraft:loot_table",
+                    "value": "ominous_runes:rune_of_haste"
+                },
+                {
+                    "type": "minecraft:loot_table",
                     "value": "ominous_runes:rune_of_health"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "ominous_runes:rune_of_largeness"
                 },
                 {
                     "type": "minecraft:loot_table",
@@ -25,7 +33,15 @@
                 },
                 {
                     "type": "minecraft:loot_table",
+                    "value": "ominous_runes:rune_of_smallness"
+                },
+                {
+                    "type": "minecraft:loot_table",
                     "value": "ominous_runes:rune_of_stability"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "ominous_runes:rune_of_stepping"
                 },
                 {
                     "type": "minecraft:loot_table",

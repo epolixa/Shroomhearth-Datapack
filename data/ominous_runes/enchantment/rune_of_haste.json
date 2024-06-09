@@ -1,6 +1,6 @@
 {
     "description": {
-        "text": "Rune of Gravity"
+        "text": "Rune of Haste"
     },
     "supported_items": "#ominous_runes:rune_supported_items",
     "max_level": 1,
@@ -21,23 +21,23 @@
     "effects": {
         "minecraft:attributes": [
             {
-                "id": "ominous_runes:rune_of_gravity_gravity",
-                "attribute": "generic.gravity",
-                "operation": "add_multiplied_total",
+                "id": "ominous_runes:rune_of_haste_block_break_speed",
+                "attribute": "player.block_break_speed",
+                "operation": "add_multiplied_base",
                 "amount": {
                     "type": "minecraft:linear",
-                    "base": -0.5,
-                    "per_level_above_first": -0.5
+                    "base": 0.2,
+                    "per_level_above_first": 0.2
                 }
             },
             {
-                "id": "ominous_runes:rune_of_gravity_fall_damage_multiplier",
-                "attribute": "generic.fall_damage_multiplier",
-                "operation": "add_multiplied_total",
+                "id": "ominous_runes:rune_of_haste_attack_speed",
+                "attribute": "generic.attack_speed",
+                "operation": "add_multiplied_base",
                 "amount": {
                     "type": "minecraft:linear",
-                    "base": -0.5,
-                    "per_level_above_first": -0.5
+                    "base": 0.1,
+                    "per_level_above_first": 0.1
                 }
             }
         ]
