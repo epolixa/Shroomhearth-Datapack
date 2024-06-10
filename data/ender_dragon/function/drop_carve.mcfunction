@@ -16,3 +16,6 @@ loot spawn ~ ~1 ~ loot ominous_runes:random_rune
 
 # Modify the generated carve's movement data on next tick
 schedule function ender_dragon:initialize_carve_drop 1t
+
+# Decrement carve drop potential
+scoreboard players remove @n[tag=omen_ender_dragon] carve_drop_potential 1

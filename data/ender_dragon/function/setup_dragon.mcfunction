@@ -30,5 +30,8 @@ function ender_dragon:adapt_max_health
 # copy max health to health
 data modify entity @s Health set from entity @s attributes[{id:"minecraft:generic.max_health"}].base
 
+# Set carve drop potential according to omen level
+scoreboard players operation @s carve_drop_potential = @s omen_level
+
 # tag dragon when done
 tag @s add summoned

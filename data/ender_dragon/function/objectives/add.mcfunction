@@ -30,3 +30,6 @@ scoreboard objectives add dragStatCrystals dummy
 
 # The Ender Dragon's Ominous level. Derived from the cumulative ominous levels of participating players.
 scoreboard objectives add omen_level dummy
+
+# The number of items that the Omen Ender Dragon may drop as carves. Derived from omen_level and decremented as carves are dropped.
+scoreboard objectives add carve_drop_potential dummy
