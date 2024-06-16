@@ -1,0 +1,1 @@
+$item modify entity @s weapon {function:"minecraft:set_enchantments",add:true,enchantments:{"$(selected_enhanceable_enchantment)":1}}
