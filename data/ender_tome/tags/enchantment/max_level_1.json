@@ -1,0 +1,13 @@
+{
+    "values": [
+        "minecraft:aqua_affinity",
+        "minecraft:channeling",
+        "minecraft:flame",
+        "minecraft:infinity",
+        "minecraft:mending",
+        "minecraft:multishot",
+        "minecraft:silk_touch",
+        
+        "#ominous_runes:ominous_runes"
+    ]
+}

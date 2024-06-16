@@ -1,5 +1,5 @@
 # revoke advancement
-advancement revoke @s only ender_dragon:player_killed_dragon
+advancement revoke @s only ender_dragon:player_killed_omen_ender_dragon
 
 # announcement
 tellraw @a [{"text":"The "}, {"color":"#cc00fa","text":"Ender Dragon"}, {"text":" was slain by "}, {"selector": "@s"}]
@@ -9,6 +9,9 @@ scoreboard players add @s dragStatHits 1
 
 # increment total dragons slain for each player involved
 scoreboard players add @a[predicate=ender_dragon:on_main_end_island] dragStatTotalSlain 1
+
+# grant advancement for slaying omen ender dragon
+advancement grant @a[predicate=ender_dragon:on_main_end_island] only ender_dragon:ominous_power
 
 # grant laura advancement if slain 20 dragons
 advancement grant @a[scores={dragStatTotalSlain=20..}] only player_advancements:lalalauraaaa
@@ -54,8 +57,8 @@ kill @e[tag=dragon_distortion]
 # give 10 harmony to each other player in a group
 execute as @a[predicate=ender_dragon:on_main_end_island] at @s run scoreboard players add @a[predicate=ender_dragon:on_main_end_island,distance=0.1..] harmony 8
 
-# grant solo kill advancement
-execute if score dragonPlayers shroomhearth matches 1 if score favActive shroomhearth matches 0 run advancement grant @s[scores={dragStatDeaths=0}] only ender_dragon:legendary_battle
+# grant legendary battle advancement
+execute if score @n[tag=omen_ender_dragon] omen_level matches 5.. if score dragonPlayers shroomhearth matches 1 if score favActive shroomhearth matches 0 run advancement grant @s[scores={dragStatDeaths=0}] only ender_dragon:legendary_battle
 
 # remove all summoned crying obsidian pillars
 function ender_dragon:powers/pillar/cleanup_pillars

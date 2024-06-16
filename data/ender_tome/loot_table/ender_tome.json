@@ -10,12 +10,12 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "item_name": "{'translate':'endchant.ender_tome','fallback':'Ender Tome'}",
+                                "item_name": "{'translate':'ender_tome.ender_tome','fallback':'Ender Tome'}",
                                 "recipes": [
-                                    "endchant:ender_tome"
+                                    "ender_tome:ender_tome"
                                 ],
                                 "lore": [
-                                    "{text:'Endchant',obfuscated:true,italic:false,color:'gray'}"
+                                    "{text:'Unbreaking',obfuscated:true,italic:false,color:'gray'}"
                                 ],
                                 "rarity": "rare",
                                 "custom_model_data": 1,

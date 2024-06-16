@@ -4,6 +4,7 @@
         "icon": {
             "id": "minecraft:enchanted_book",
             "components": {
+                "custom_model_data": 1000,
                 "stored_enchantments": {
                     "levels": {
                         "ominous_runes:rune_of_health": 1

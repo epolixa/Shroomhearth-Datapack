@@ -1,0 +1,110 @@
+{
+    "condition": "minecraft:any_of",
+    "terms": [
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "slots": {
+                    "weapon": {
+                        "items": "#minecraft:enchantable/durability",
+                        "predicates": {
+                            "minecraft:enchantments": [
+                                {
+                                    "enchantments": "#ender_tome:max_level_1",
+                                    "levels": {
+                                        "min": 2
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "slots": {
+                    "weapon": {
+                        "items": "#minecraft:enchantable/durability",
+                        "predicates": {
+                            "minecraft:enchantments": [
+                                {
+                                    "enchantments": "#ender_tome:max_level_2",
+                                    "levels": {
+                                        "min": 3
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "slots": {
+                    "weapon": {
+                        "items": "#minecraft:enchantable/durability",
+                        "predicates": {
+                            "minecraft:enchantments": [
+                                {
+                                    "enchantments": "#ender_tome:max_level_3",
+                                    "levels": {
+                                        "min": 4
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "slots": {
+                    "weapon": {
+                        "items": "#minecraft:enchantable/durability",
+                        "predicates": {
+                            "minecraft:enchantments": [
+                                {
+                                    "enchantments": "#ender_tome:max_level_4",
+                                    "levels": {
+                                        "min": 5
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "slots": {
+                    "weapon": {
+                        "items": "#minecraft:enchantable/durability",
+                        "predicates": {
+                            "minecraft:enchantments": [
+                                {
+                                    "enchantments": "#ender_tome:max_level_5",
+                                    "levels": {
+                                        "min": 6
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -3,11 +3,11 @@
         "has_recipe": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "endchant:ender_tome"
+                "recipe": "ender_tome:ender_tome"
             }
         }
     },
     "rewards": {
-        "function": "endchant:ender_tome"
+        "function": "ender_tome:read_ender_tome"
     }
 }
