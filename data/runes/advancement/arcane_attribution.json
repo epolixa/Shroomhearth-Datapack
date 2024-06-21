@@ -1,0 +1,41 @@
+{
+    "parent": "ender_dragon:ominous_power",
+    "display": {
+        "icon": {
+            "id": "minecraft:enchanted_book",
+            "components": {
+                "custom_model_data": 1000,
+                "stored_enchantments": {
+                    "levels": {
+                        "runes:rune_of_health": 1
+                    },
+                    "show_in_tooltip": false
+                }
+            }
+        },
+        "title": "Arcane Attribution",
+        "description": "Apply a Rune to an item",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "apply_rune_to_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "predicates": {
+                            "minecraft:enchantments": [
+                                {
+                                    "enchantments": "#runes:runes"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
