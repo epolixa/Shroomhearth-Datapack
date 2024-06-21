@@ -8,6 +8,6 @@
         }
     },
     "rewards": {
-        "function": "ender_tome:read_ender_tome"
+        "function": "ender_tome:activate_ender_tome"
     }
 }

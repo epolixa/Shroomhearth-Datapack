@@ -1,3 +1,5 @@
+say Counting enhanceable enchantments
+
 # Increment count unless the list is empty
 execute if data storage ender_tome:ender_tome enhanceable_enchantments_counter[0] run scoreboard players add @s enhanceable_enchantments_length 1
 

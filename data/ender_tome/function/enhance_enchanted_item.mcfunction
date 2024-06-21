@@ -1,4 +1,4 @@
-say enhance enchanted item
+say Attempting to enhance an enchantment
 
 # Init the storage
 data modify storage ender_tome:ender_tome enhanceable_enchantments set value []
@@ -16,7 +16,7 @@ function ender_tome:find_enhanceable_enchantments
 
 # Find the length of enhanceable_enchantments
 data modify storage ender_tome:ender_tome enhanceable_enchantments_counter set from storage ender_tome:ender_tome enhanceable_enchantments
-scoreboard players set @s enhanceable_enchantments_length 0
+#scoreboard players set @s enhanceable_enchantments_length 0
 function ender_tome:count_enhanceable_enchantments
 execute store result storage ender_tome:ender_tome enhanceable_enchantments_length int 1 run scoreboard players get @s enhanceable_enchantments_length
 
@@ -34,3 +34,5 @@ execute if score @s enhanceable_enchantments_length matches 1.. run particle min
 execute if score @s enhanceable_enchantments_length matches 1.. run playsound minecraft:block.enchantment_table.use player @a ~ ~ ~ 1 0.8
 execute if score @s enhanceable_enchantments_length matches 1.. run playsound minecraft:block.trial_spawner.ambient_ominous neutral @a ~ ~ ~ 1 1.2
 execute if score @s enhanceable_enchantments_length matches 1.. run advancement grant @s only ender_tome:forbidden_knowledge
+
+execute if score @s enhanceable_enchantments_length matches 1.. run say Enhanced an enchantment

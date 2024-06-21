@@ -14,9 +14,6 @@
                                 "recipes": [
                                     "ender_tome:ender_tome"
                                 ],
-                                "lore": [
-                                    "{text:'Unbreaking',obfuscated:true,italic:false,color:'gray'}"
-                                ],
                                 "rarity": "rare",
                                 "custom_model_data": 1,
                                 "enchantment_glint_override": true

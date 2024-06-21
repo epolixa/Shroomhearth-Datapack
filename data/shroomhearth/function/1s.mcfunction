@@ -38,8 +38,8 @@ function echoes:pulse
 # Assign allays to special team for no collision
 execute as @e[type=minecraft:allay,tag=!no_collide] run function allay_bottle:1s
 
-# Tick Ominous Tome entities
-execute as @e[tag=ominous_tome] at @s run function ender_tome:1s_ominous_tome
+# Tick Ender Tome entities
+execute as @e[tag=ender_tome] at @s run function ender_tome:1s_ender_tome
 
 # Debug marker entities
 execute if entity @p[tag=debug_markers] at @e[type=minecraft:marker] run particle minecraft:block_marker{block_state:{Name:"minecraft:structure_void"}}

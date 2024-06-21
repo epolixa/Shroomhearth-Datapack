@@ -9,7 +9,7 @@
 			}
 		},
 		"title": "Forbidden Knowledge",
-		"description": "Enhance an enchantment by reading an Ominous Tome",
+		"description": "Enhance a max-level enchantment by reading an Ender Tome",
 		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,
