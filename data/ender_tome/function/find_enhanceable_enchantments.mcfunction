@@ -7,8 +7,6 @@
 # Only leveled enchantments at their maximum level are considered "enhanceable".
 # In the future we can consider allowing lower levels to be enhanced - see comments around sharpness for example.
 
-say Finding enhanceable enchantments
-
 # Enchantments are ordered by category (Vanilla, Runes), then by max level, then alphabetically.
 
 # ___ MINECRAFT ENCHANTMENTS ___

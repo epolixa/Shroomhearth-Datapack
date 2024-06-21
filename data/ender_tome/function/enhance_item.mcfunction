@@ -1,4 +1,4 @@
-say Attempting to enhance an enchantment
+# Executes from a player who is trying to enhance an enhanceable item
 
 # Init the storage
 data modify storage ender_tome:ender_tome enhanceable_enchantments set value []
@@ -16,7 +16,7 @@ function ender_tome:find_enhanceable_enchantments
 
 # Find the length of enhanceable_enchantments
 data modify storage ender_tome:ender_tome enhanceable_enchantments_counter set from storage ender_tome:ender_tome enhanceable_enchantments
-#scoreboard players set @s enhanceable_enchantments_length 0
+scoreboard players set @s enhanceable_enchantments_length 0
 function ender_tome:count_enhanceable_enchantments
 execute store result storage ender_tome:ender_tome enhanceable_enchantments_length int 1 run scoreboard players get @s enhanceable_enchantments_length
 
@@ -29,10 +29,6 @@ function ender_tome:m_select_random_enhanceable_enchantment with storage ender_t
 # Pass selected enchantment to the item modifier macro
 function ender_tome:m_enhance_selected_enchantment with storage ender_tome:ender_tome
 
-# Run functions if enchantment is enhanced or missed
-execute if score @s enhanceable_enchantments_length matches 1.. run particle minecraft:witch ~ ~1.1 ~ 0.4 0 0.4 0.01 6
-execute if score @s enhanceable_enchantments_length matches 1.. run playsound minecraft:block.enchantment_table.use player @a ~ ~ ~ 1 0.8
-execute if score @s enhanceable_enchantments_length matches 1.. run playsound minecraft:block.trial_spawner.ambient_ominous neutral @a ~ ~ ~ 1 1.2
+# Run functions if enchantment is enhanced
+execute if score @s enhanceable_enchantments_length matches 1.. anchored eyes positioned ^ ^-0.15 ^1 as @n[tag=ender_tome] at @s run function ender_tome:consume_ender_tome
 execute if score @s enhanceable_enchantments_length matches 1.. run advancement grant @s only ender_tome:forbidden_knowledge
-
-execute if score @s enhanceable_enchantments_length matches 1.. run say Enhanced an enchantment
