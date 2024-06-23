@@ -1,6 +1,6 @@
 {
     "description": {
-        "text": "Rune of Stength"
+        "text": "Rune of Strength"
     },
     "supported_items": "#runes:rune_supported_items",
     "max_level": 1,

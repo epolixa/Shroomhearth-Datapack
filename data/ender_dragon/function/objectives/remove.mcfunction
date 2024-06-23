@@ -24,8 +24,5 @@ scoreboard objectives remove dragStatMobs
 scoreboard objectives remove dragStatEndermen
 scoreboard objectives remove dragStatCrystals
 
-# The Ender Dragon's Ominous level. Derived from the cumulative ominous levels of participating players.
-scoreboard objectives remove omen_level
-
 # The number of items that the Omen Ender Dragon may drop as carves. Derived from omen_level and decremented as carves are dropped.
 scoreboard objectives remove carve_drop_potential

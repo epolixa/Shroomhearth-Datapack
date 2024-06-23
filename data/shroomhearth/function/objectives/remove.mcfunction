@@ -49,6 +49,9 @@ scoreboard objectives remove pos_z
 # flag for repairable items
 scoreboard objectives remove repairable
 
+# The level of Bad Omen an entity has. Used for custom ominous events, such as the Omen Ender Dragon.
+scoreboard objectives remove omen_level
+
 ## remove module objectives
 function allay_bottle:objectives/remove
 function arena:objectives/remove

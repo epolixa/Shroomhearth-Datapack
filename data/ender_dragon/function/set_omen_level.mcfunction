@@ -1,18 +1,9 @@
 # Executes from the context of the Ender Dragon when it is first summoned (and periodically throughout the fight).
 
-# Set the dragon's omen_level to the combined omen_level of all players + 1 for each player that has Bad Omen.
-# Player's without Bad Omen do not contribute to the dragon's omen_level.
+# Set the dragon's omen_level to the combined omen_level of all players.
 scoreboard players set @s omen_level 0
-
-# For players, omen_level is the additional (amplifier) level of bad omen. For example, if a player has Bad Omen III, omen_level is 2.
-# Increment the dragon's omen_level by 1 for each player with Bad Omen.
-execute as @a[predicate=ender_dragon:on_main_end_island] if data entity @s active_effects[{id:"minecraft:bad_omen"}] run scoreboard players add @n[type=minecraft:ender_dragon] omen_level 1
-# Increase the dragon's omen_level by the Bad Omen amplifier of each player.
-execute as @a[predicate=ender_dragon:on_main_end_island] store result score @s omen_level run data get entity @s active_effects[{id:"minecraft:bad_omen"}].amplifier
+execute as @a[predicate=ender_dragon:on_main_end_island] at @s run function shroomhearth:update_omen_level
 execute as @a[predicate=ender_dragon:on_main_end_island,scores={omen_level=1..}] run scoreboard players operation @n[type=minecraft:ender_dragon] omen_level += @s omen_level
-
-# Reset player's omen_level
-#scoreboard players set @a[predicate=ender_dragon:on_main_end_island,scores={omen_level=1..}] omen_level 0
 
 # Add or remove tag for the ender dragon according to its omen_level
 tag @s[scores={omen_level=..0}] remove omen_ender_dragon

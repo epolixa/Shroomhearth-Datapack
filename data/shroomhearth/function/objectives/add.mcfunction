@@ -49,6 +49,9 @@ scoreboard objectives add pos_z dummy
 # flag for repairable items
 scoreboard objectives add repairable dummy
 
+# The level of Bad Omen an entity has. Used for custom ominous events, such as the Omen Ender Dragon.
+scoreboard objectives add omen_level dummy
+
 ## other setup
 # gamerules
 function shroomhearth:setup_gamerules
