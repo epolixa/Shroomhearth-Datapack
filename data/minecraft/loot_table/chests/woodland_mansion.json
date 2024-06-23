@@ -2,6 +2,71 @@
   "type": "minecraft:chest",
   "pools": [
     {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "minecraft:chests/abandoned_mineshaft"
+        },
+        {
+          "type": "loot_table",
+          "value": "shroomhearth:structures/bastion"
+        },
+        {
+          "type": "loot_table",
+          "value": "minecraft:chests/buried_treasure"
+        },
+        {
+          "type": "loot_table",
+          "value": "minecraft:chests/desert_pyramid"
+        },
+        {
+          "type": "loot_table",
+          "value": "minecraft:chests/end_city_treasure"
+        },
+        {
+          "type": "loot_table",
+          "value": "minecraft:chests/igloo_chest"
+        },
+        {
+          "type": "loot_table",
+          "value": "shroomhearth:structures/jungle"
+        },
+        {
+          "type": "loot_table",
+          "value": "minecraft:chests/nether_bridge"
+        },
+        {
+          "type": "loot_table",
+          "value": "minecraft:chests/pillager_outpost"
+        },
+        {
+          "type": "loot_table",
+          "value": "minecraft:chests/ruined_portal"
+        },
+        {
+          "type": "loot_table",
+          "value": "shroomhearth:structures/shipwreck"
+        },
+        {
+          "type": "loot_table",
+          "value": "minecraft:chests/simple_dungeon"
+        },
+        {
+          "type": "loot_table",
+          "value": "shroomhearth:structures/stronghold"
+        },
+        {
+          "type": "loot_table",
+          "value": "shroomhearth:structures/underwater_ruin"
+        }
+      ]
+    },
+
+
+
+    {
       "bonus_rolls": 0.0,
       "entries": [
         {
@@ -53,7 +118,8 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:enchant_randomly"
+              "function": "minecraft:enchant_randomly",
+              "options": "#minecraft:on_random_loot"
             }
           ],
           "name": "minecraft:book",
@@ -296,75 +362,7 @@
         }
       ],
       "rolls": 1.0
-    },
-
-    
-
-    {
-      "rolls": {
-        "type": "minecraft:uniform",
-        "min": 1.0,
-        "max": 2.0
-      },
-      "bonus_rolls": 0.0,
-      "entries": [
-        {
-            "type": "loot_table",
-            "value": "minecraft:chests/abandoned_mineshaft"
-        },
-        {
-            "type": "loot_table",
-            "value": "shroomhearth:structures/bastion"
-        },
-        {
-            "type": "loot_table",
-            "value": "minecraft:chests/buried_treasure"
-        },
-        {
-            "type": "loot_table",
-            "value": "minecraft:chests/desert_pyramid"
-        },
-        {
-            "type": "loot_table",
-            "value": "minecraft:chests/end_city_treasure"
-        },
-        {
-            "type": "loot_table",
-            "value": "minecraft:chests/igloo_chest"
-        },
-        {
-            "type": "loot_table",
-            "value": "shroomhearth:structures/jungle"
-        },
-        {
-            "type": "loot_table",
-            "value": "minecraft:chests/nether_bridge"
-        },
-        {
-            "type": "loot_table",
-            "value": "minecraft:chests/pillager_outpost"
-        },
-        {
-            "type": "loot_table",
-            "value": "minecraft:chests/ruined_portal"
-        },
-        {
-            "type": "loot_table",
-            "value": "shroomhearth:structures/shipwreck"
-        },
-        {
-            "type": "loot_table",
-            "value": "minecraft:chests/simple_dungeon"
-        },
-        {
-            "type": "loot_table",
-            "value": "shroomhearth:structures/stronghold"
-        },
-        {
-            "type": "loot_table",
-            "value": "shroomhearth:structures/underwater_ruin"
-        }
-      ]
     }
-  ]
+  ],
+  "random_sequence": "minecraft:chests/woodland_mansion"
 }
