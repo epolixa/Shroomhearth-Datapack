@@ -1,6 +1,0 @@
-{
-	"function": "minecraft:set_enchantments",
-	"enchantments": {
-		"minecraft:sweeping_edge": 4
-	}
-}
