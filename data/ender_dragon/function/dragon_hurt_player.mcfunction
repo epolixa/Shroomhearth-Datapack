@@ -13,7 +13,7 @@ effect give @s slowness 1 4 true
 tag @s add remove_levitation
 
 # small chance to start riding dragon
-execute if predicate shroomhearth:random_chance_20 run ride @s mount @e[type=ender_dragon,limit=1,sort=nearest]
+execute if predicate shroomhearth:random_chance_20 run ride @s mount @n[tag=omen_ender_dragon]
 
 # remove levitation 1t later (only need it to cancel elytra)
 schedule function ender_dragon:remove_levitation 1t
