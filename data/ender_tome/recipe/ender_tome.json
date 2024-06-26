@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "show_notification": false,
+    "pattern": [
+        "B"
+    ],
+    "key": {
+        "B": {
+            "item": "minecraft:knowledge_book"
+        }
+    },
+    "result": {
+        "id": "minecraft:knowledge_book"
+    }
+}

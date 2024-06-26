@@ -1,0 +1,19 @@
+{
+    "values": [
+        "minecraft:depth_strider",
+        "minecraft:fortune",
+        "minecraft:looting",
+        "minecraft:loyalty",
+        "minecraft:luck_of_the_sea",
+        "minecraft:lure",
+        "minecraft:quick_charge",
+        "minecraft:respiration",
+        "minecraft:riptide",
+        "minecraft:soul_speed",
+        "minecraft:sweeping_edge",
+        "minecraft:swift_sneak",
+        "minecraft:thorns",
+        "minecraft:unbreaking",
+        "minecraft:wind_burst"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "building",
+    "group": "oxidized_copper_grate",
+    "ingredients": [
+        {
+            "item": "minecraft:weathered_copper_grate"
+        },
+        {
+            "item": "minecraft:magma_cream"
+        }
+    ],
+    "result": {
+        "id": "minecraft:oxidized_copper_grate"
+    }
+}

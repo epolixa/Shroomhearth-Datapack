@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "building",
+    "group": "exposed_copper_grate",
+    "ingredients": [
+        {
+            "item": "minecraft:copper_grate"
+        },
+        {
+            "item": "minecraft:magma_cream"
+        }
+    ],
+    "result": {
+        "id": "minecraft:exposed_copper_grate"
+    }
+}

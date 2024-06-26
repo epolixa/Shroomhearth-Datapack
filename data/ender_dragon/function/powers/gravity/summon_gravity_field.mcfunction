@@ -1,0 +1,2 @@
+particle minecraft:sonic_boom ~ ~0.5 ~ ~ ~ ~ 0 0 force
+summon minecraft:area_effect_cloud ~ ~0.5 ~ {id:"minecraft:area_effect_cloud",Tags:["dragon_gravity"],Particle:{type:"minecraft:trial_spawner_detection_ominous"},potion_contents:{custom_effects:[{id:"minecraft:levitation",duration:30,amplifier:31,ambient:true,show_particles:false,show_icon:false},{id:"minecraft:slow_falling",duration:110,ambient:true,show_particles:false,show_icon:false}]},Duration:1200,DurationOnUse:0,Radius:1.5f,RadiusOnUse:0,RadiusPerTick:0,ReapplicationDelay:30,WaitTime:10} 

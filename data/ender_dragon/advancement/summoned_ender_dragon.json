@@ -1,0 +1,15 @@
+{
+	"criteria": {
+		"summoned_dragon": {
+			"trigger": "minecraft:summoned_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:ender_dragon"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "ender_dragon:summoned_ender_dragon"
+	} 
+}

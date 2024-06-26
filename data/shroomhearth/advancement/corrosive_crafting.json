@@ -1,0 +1,209 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:magma_cream"
+        },
+        "title": "Corrosive Crafting",
+        "description": "Oxidize a copper block by crafting it with Magma Cream",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "wandering_trader:exotic_wares",
+    "criteria": {
+        "oxidize_chiseled_copper": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "shroomhearth:copper/oxidize_chiseled_copper"
+            }
+        },
+        "oxidize_copper_block": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "shroomhearth:copper/oxidize_copper_block"
+            }
+        },
+        "oxidize_copper_bulb": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "shroomhearth:copper/oxidize_copper_bulb"
+            }
+        },
+        "oxidize_copper_door": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "shroomhearth:copper/oxidize_copper_door"
+            }
+        },
+        "oxidize_copper_grate": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "shroomhearth:copper/oxidize_copper_grate"
+            }
+        },
+        "oxidize_copper_trapdoor": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "shroomhearth:copper/oxidize_copper_trapdoor"
+            }
+        },
+        "oxidize_cut_copper_slab": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "shroomhearth:copper/oxidize_cut_copper_slab"
+            }
+        },
+        "oxidize_cut_copper_stairs": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "shroomhearth:copper/oxidize_cut_copper_stairs"
+            }
+        },
+        "oxidize_cut_copper": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "shroomhearth:copper/oxidize_cut_copper"
+            }
+        },
+        "oxidize_exposed_chiseled_copper": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "shroomhearth:copper/oxidize_exposed_chiseled_copper"
+            }
+        },
+        "oxidize_exposed_copper_bulb": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "shroomhearth:copper/oxidize_exposed_copper_bulb"
+            }
+        },
+        "oxidize_exposed_copper_door": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "shroomhearth:copper/oxidize_exposed_copper_door"
+            }
+        },
+        "oxidize_exposed_copper_grate": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "shroomhearth:copper/oxidize_exposed_copper_grate"
+            }
+        },
+        "oxidize_exposed_copper_trapdoor": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "shroomhearth:copper/oxidize_exposed_copper_trapdoor"
+            }
+        },
+        "oxidize_exposed_copper": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "shroomhearth:copper/oxidize_exposed_copper"
+            }
+        },
+        "oxidize_exposed_cut_copper_slab": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "shroomhearth:copper/oxidize_exposed_cut_copper_slab"
+            }
+        },
+        "oxidize_exposed_cut_copper_stairs": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "shroomhearth:copper/oxidize_exposed_cut_copper_stairs"
+            }
+        },
+        "oxidize_exposed_cut_copper": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "shroomhearth:copper/oxidize_exposed_cut_copper"
+            }
+        },
+        "oxidize_weathered_chiseled_copper": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "shroomhearth:copper/oxidize_weathered_chiseled_copper"
+            }
+        },
+        "oxidize_weathered_copper_bulb": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "shroomhearth:copper/oxidize_weathered_copper_bulb"
+            }
+        },
+        "oxidize_weathered_copper_door": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "shroomhearth:copper/oxidize_weathered_copper_door"
+            }
+        },
+        "oxidize_weathered_copper_grate": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "shroomhearth:copper/oxidize_weathered_copper_grate"
+            }
+        },
+        "oxidize_weathered_copper_trapdoor": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "shroomhearth:copper/oxidize_weathered_copper_trapdoor"
+            }
+        },
+        "oxidize_weathered_copper": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "shroomhearth:copper/oxidize_weathered_copper"
+            }
+        },
+        "oxidize_weathered_cut_copper_slab": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "shroomhearth:copper/oxidize_weathered_cut_copper_slab"
+            }
+        },
+        "oxidize_weathered_cut_copper_stairs": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "shroomhearth:copper/oxidize_weathered_cut_copper_stairs"
+            }
+        },
+        "oxidize_weathered_cut_copper": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "shroomhearth:copper/oxidize_weathered_cut_copper"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "oxidize_chiseled_copper",
+            "oxidize_copper_block",
+            "oxidize_copper_bulb",
+            "oxidize_copper_door",
+            "oxidize_copper_grate",
+            "oxidize_copper_trapdoor",
+            "oxidize_cut_copper_slab",
+            "oxidize_cut_copper_stairs",
+            "oxidize_cut_copper",
+            "oxidize_exposed_chiseled_copper",
+            "oxidize_exposed_copper_bulb",
+            "oxidize_exposed_copper_door",
+            "oxidize_exposed_copper_grate",
+            "oxidize_exposed_copper_trapdoor",
+            "oxidize_exposed_copper",
+            "oxidize_exposed_cut_copper_slab",
+            "oxidize_exposed_cut_copper_stairs",
+            "oxidize_exposed_cut_copper",
+            "oxidize_weathered_chiseled_copper",
+            "oxidize_weathered_copper_bulb",
+            "oxidize_weathered_copper_door",
+            "oxidize_weathered_copper_grate",
+            "oxidize_weathered_copper_trapdoor",
+            "oxidize_weathered_copper",
+            "oxidize_weathered_cut_copper_slab",
+            "oxidize_weathered_cut_copper_stairs",
+            "oxidize_weathered_cut_copper"
+        ]
+    ]
+}
