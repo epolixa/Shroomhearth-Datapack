@@ -1,4 +1,4 @@
-# Executes from the context of the Ender Dragon when it is first summoned (and periodically throughout the fight).
+# Executes from the context of the Ender Dragon while it is being initialized.
 
 # Set the dragon's omen_level to the combined omen_level of all players.
 scoreboard players set @s omen_level 0

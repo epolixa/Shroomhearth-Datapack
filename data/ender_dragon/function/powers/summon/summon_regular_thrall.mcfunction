@@ -28,5 +28,3 @@ execute if score random shroomhearth matches 24 summon minecraft:endermite run f
 execute if score random shroomhearth matches 25 summon minecraft:shulker run function ender_dragon:powers/summon/initialize_thrall
 execute if score random shroomhearth matches 26 summon minecraft:bogged run function ender_dragon:powers/summon/initialize_thrall
 scoreboard players set random shroomhearth -1
-
-say summon regular thrall

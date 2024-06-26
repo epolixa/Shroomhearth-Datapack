@@ -5,7 +5,7 @@ execute as @a run scoreboard players add playerCount shroomhearth 1
 # Porcelain 1s functions
 execute if entity @p run function porcelain:1s
 
-# Boss fight - run as boss mobs if a player is online
+# Ender Dragon - run inside the end if the dragon is alive
 execute if score dragonSlain shroomhearth matches 0 in minecraft:the_end positioned 0 64 0 run function ender_dragon:1s
 
 # Mob Warding - run as a mobs that can be warded
