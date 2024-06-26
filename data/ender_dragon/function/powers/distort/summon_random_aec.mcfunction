@@ -42,6 +42,8 @@ execute if score random shroomhearth matches 18 run summon minecraft:area_effect
 # slow falling 10s
 execute if score random shroomhearth matches 19 run summon minecraft:area_effect_cloud ~ ~ ~ {Tags:["dragon_distortion"],potion_contents:{custom_effects:[{id:"minecraft:slow_falling",duration:200}]},Duration:600,DurationOnUse:0,Radius:3.0f,RadiusOnUse:0,RadiusPerTick:0.006666667f,ReapplicationDelay:20,WaitTime:10}
 
+scoreboard players set random shroomhearth -1
+
 # play particles
 particle minecraft:dragon_breath ~ ~0.5 ~ 2 0.5 2 0.05 64 force
 

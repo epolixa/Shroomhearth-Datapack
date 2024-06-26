@@ -2,12 +2,8 @@
 particle minecraft:dust{color:[0.8,0.0,0.98],scale:3} ~ ~1 ~ 3 1 3 0 32 force
 execute as @a[predicate=ender_dragon:on_main_end_island] run playsound minecraft:ambient.cave hostile @s ~ ~8 ~ 16 2
 
-# set lcg
-#scoreboard players set lcgModulus shroomhearth 7
-#function shroomhearth:lcg/random
-execute store result score random shroomhearth run random value 0..6
-
 # run a random power...
+execute store result score random shroomhearth run random value 0..6
 
 # summon mobs - more common until low health, much more common at high health
 execute as @s[scores={bossHealthPercent=..30}] if score random shroomhearth matches 0 run function ender_dragon:powers/summon/start_sequence
@@ -34,5 +30,5 @@ execute if score random shroomhearth matches 6 run function ender_dragon:powers/
 # disabling this for now, may revisit when end has some kind of hazard block
 #execute if score lcg shroomhearth matches 8 run function ender_dragon:powers/transmute
 
-# unset lcg
-#scoreboard players set lcg shroomhearth -1
+# unset random
+scoreboard players set random shroomhearth -1
