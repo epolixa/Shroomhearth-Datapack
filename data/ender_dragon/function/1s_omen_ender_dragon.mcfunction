@@ -14,6 +14,3 @@ bossbar set ender_dragon:dragon_rage players @a[predicate=ender_dragon:on_main_e
 
 # Execute powers at max rage
 execute as @s[scores={rage=64..,bossHealthPercent=1..99}] run function ender_dragon:powers/cast
-
-# Play particles on carved drops
-execute as @e[type=minecraft:item,tag=carve] at @s run particle dragon_breath ~ ~0.5 ~ 0 0 0 0.01 1 force

@@ -12,8 +12,5 @@ execute as @n[tag=omen_ender_dragon,scores={bossHealthPercent=51..70}] run score
 execute as @n[tag=omen_ender_dragon,scores={bossHealthPercent=71..90}] run scoreboard players add @s rage 3
 execute as @n[tag=omen_ender_dragon,scores={bossHealthPercent=91..}] run scoreboard players add @s rage 1
 
-# cause any riding players to dismount
-execute as @n[tag=omen_ender_dragon] at @s as @p[predicate=ender_dragon:player_without_vehicle] run ride @s dismount
-
 # small chance to teleport dragon
-execute as @n[tag=omen_ender_dragon] at @s if predicate ender_dragon:circling if predicate shroomhearth:random_chance_20 run function ender_dragon:warp_dragon_out
+execute as @n[tag=omen_ender_dragon] at @s if predicate ender_dragon:can_warp if predicate shroomhearth:random_chance_20 run function ender_dragon:warp_dragon_out

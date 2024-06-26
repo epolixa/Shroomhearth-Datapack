@@ -1,3 +1,6 @@
+# cause any riding players to dismount
+execute as @p[predicate=ender_dragon:player_without_vehicle] run ride @s dismount
+
 # teleport out
 tp @s ~ 0 ~
 

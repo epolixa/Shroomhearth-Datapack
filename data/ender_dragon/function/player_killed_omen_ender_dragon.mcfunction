@@ -9,7 +9,8 @@ advancement grant @a[predicate=ender_dragon:on_main_end_island] only ender_drago
 # remove bossbar
 bossbar remove ender_dragon:dragon_rage
 
-# fix for slimes that didn't inherit tags
+# tag any leftover mobs
+tag @e[type=minecraft:vex,predicate=ender_dragon:on_main_end_island] add dragon_thrall
 tag @e[type=#ender_dragon:slimes,predicate=ender_dragon:on_main_end_island] add dragon_thrall
 
 # fix for slimes so they don't make smaller ones when they die

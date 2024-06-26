@@ -45,7 +45,7 @@ execute if score random shroomhearth matches 19 run summon minecraft:area_effect
 scoreboard players set random shroomhearth -1
 
 # play particles
-particle minecraft:dragon_breath ~ ~0.5 ~ 2 0.5 2 0.05 64 force
+particle minecraft:sonic_boom ~ ~0.5 ~ ~ ~ ~ 0 0 force
 
 # play sound
-playsound minecraft:entity.zombie_villager.converted hostile @a ~ ~ ~ 8 2
+playsound minecraft:entity.illusioner.cast_spell hostile @a ~ ~ ~ 8 1.5

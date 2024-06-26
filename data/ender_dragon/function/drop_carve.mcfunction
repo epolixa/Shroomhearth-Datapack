@@ -1,8 +1,6 @@
 # Executes from the context of a player who damaged the ender dragon with melee 
 # and successfully rolled the carve drop chance.
 
-say Dropped a carve!
-
 # Play sound for all players
 playsound minecraft:entity.goat.ram_impact hostile @a ~ ~ ~ 12 0.5
 playsound minecraft:entity.goat.horn_break hostile @a ~ ~ ~ 12 0.5
