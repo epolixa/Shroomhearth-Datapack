@@ -46,3 +46,6 @@ scoreboard objectives add craftedDaylightDetectors minecraft.crafted:minecraft.d
 
 # placedStone - used by Skit
 scoreboard objectives add placedStone dummy
+
+# curedVillagers - used by Aerialz
+scoreboard objectives add curedVillagers dummy

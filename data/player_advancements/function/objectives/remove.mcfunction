@@ -46,3 +46,6 @@ scoreboard objectives remove craftedDaylightDetectors
 
 # placedStone - used by Skit
 scoreboard objectives remove placedStone
+
+# curedVillagers - used by Aerialz
+scoreboard objectives remove curedVillagers

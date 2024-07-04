@@ -1,0 +1,26 @@
+{
+	"parent": "community:harmonize",
+	"display": {
+		"icon": {
+			"id": "minecraft:player_head",
+			"components": {
+				"minecraft:profile": {
+					"name": "Aerialz"
+				}
+			}
+		},
+		"title": "Aerialz",
+		"description": "Cure 27 Zombie Villagers",
+		"frame": "challenge"
+	},
+	"rewards": {
+		"loot": [
+			"player_advancements:aerialz"
+		]
+	},
+	"criteria": {
+        "cure_villagers": {
+            "trigger": "minecraft:impossible"
+        }
+	}
+}
