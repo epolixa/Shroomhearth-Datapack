@@ -13,6 +13,8 @@
                                 "item_name": "{'text':'Rune of Health'}",
                                 "custom_model_data": 1000,
                                 "rarity": "rare",
+                                "max_stack_size": 64,
+                                "fire_resistant": {},
                                 "stored_enchantments": {
                                     "levels": {
                                         "runes:rune_of_health": 1
