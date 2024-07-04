@@ -4,7 +4,7 @@
             "id": "minecraft:magma_cream"
         },
         "title": "Corrosive Crafting",
-        "description": "Oxidize a copper block by crafting it with Magma Cream",
+        "description": "Oxidize any copper block by crafting it with Magma Cream",
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,
