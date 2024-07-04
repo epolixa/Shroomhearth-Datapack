@@ -357,14 +357,9 @@
           "weight": 35
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:chorus_flower",
-          "weight": 20
-        },
-        {
           "type": "minecraft:loot_table",
           "value": "golden_chorus_fruit:golden_chorus_fruit",
-          "weight": 15
+          "weight": 20
         },
         {
           "type": "minecraft:loot_table",
