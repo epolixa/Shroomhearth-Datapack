@@ -2,12 +2,11 @@
 # and successfully rolled the carve drop chance.
 
 # Play sound for all players
-playsound minecraft:entity.goat.ram_impact hostile @a ~ ~ ~ 12 0.5
 playsound minecraft:entity.goat.horn_break hostile @a ~ ~ ~ 12 0.5
 playsound minecraft:item.trident.return hostile @a ~ ~ ~ 12 0.5
 
 # Play particles for all players
-particle minecraft:crit ~ ~ ~ 3 1 3 0 16 force
+particle minecraft:crit ~ ~1 ~ 3 1 3 1 32 force
 
 # Generate the carve
 loot spawn ~ ~1 ~ loot runes:random_rune
