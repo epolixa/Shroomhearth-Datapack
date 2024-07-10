@@ -11,4 +11,4 @@ scoreboard players remove distortSequence shroomhearth 1
 execute if score distortSequence shroomhearth matches ..0 run kill @e[tag=distort_target]
 
 # re-schedule if value remains
-execute if score distortSequence shroomhearth matches 1.. run schedule function ender_dragon:powers/distort/run_sequence 10t
+execute if score distortSequence shroomhearth matches 1.. run schedule function ender_dragon:powers/distort/run_sequence 5t

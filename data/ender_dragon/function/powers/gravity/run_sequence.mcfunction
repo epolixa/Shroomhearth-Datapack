@@ -11,4 +11,4 @@ scoreboard players remove gravitySequence shroomhearth 1
 execute if score gravitySequence shroomhearth matches ..0 run kill @e[tag=gravity_target]
 
 # re-schedule if value remains
-execute if score gravitySequence shroomhearth matches 1.. run schedule function ender_dragon:powers/gravity/run_sequence 10t
+execute if score gravitySequence shroomhearth matches 1.. run schedule function ender_dragon:powers/gravity/run_sequence 5t
