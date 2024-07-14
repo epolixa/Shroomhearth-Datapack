@@ -378,7 +378,8 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:end_crystal"
+          "name": "minecraft:end_crystal",
+          "weight": 2
         }
       ],
       "rolls": 1.0
@@ -388,11 +389,12 @@
       "entries": [
         {
           "type": "minecraft:empty",
-          "weight": 10
+          "weight": 8
         },
         {
           "type": "minecraft:loot_table",
-          "value": "ender_tome:ender_tome"
+          "value": "ender_tome:ender_tome",
+          "weight": 2
         }
       ],
       "rolls": 1.0
@@ -402,7 +404,7 @@
       "entries": [
         {
           "type": "minecraft:empty",
-          "weight": 16
+          "weight": 9
         },
         {
           "type": "minecraft:loot_table",
