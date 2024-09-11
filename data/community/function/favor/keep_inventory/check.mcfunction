@@ -9,3 +9,8 @@ execute unless predicate community:has_charm run tellraw @s {"translate":"commun
 # If the player has charm, activate
 execute if predicate community:has_charm if score favKeepInventory shroomhearth matches 1.. run function community:favor/keep_inventory/extend
 execute if predicate community:has_charm if score favKeepInventory shroomhearth matches 0 run function community:favor/keep_inventory/activate
+
+# Reset trigger
+scoreboard players reset @s triggerFavKeepInventory
+scoreboard players enable @s triggerFavKeepInventory
+advancement revoke @s only community:favor/trigger_keep_inventory

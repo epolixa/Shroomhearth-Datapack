@@ -63,3 +63,6 @@ scoreboard players set favHorsepower shroomhearth 0
 scoreboard players set favDisableCramming shroomhearth 0
 scoreboard players set favDisableSpawning shroomhearth 0
 scoreboard players set favDisableFallDamage shroomhearth 0
+
+# Trigger objectives for favors
+scoreboard objectives add triggerFavKeepInventory trigger

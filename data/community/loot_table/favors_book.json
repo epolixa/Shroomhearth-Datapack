@@ -1,0 +1,38 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:written_book",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_book_cover",
+                            "author": "Fungaia",
+                            "generation": 0,
+                            "title": "Shroominomicon"
+                        },
+                        {
+                            "function": "minecraft:set_written_book_pages",
+                            "mode": "replace_all",
+                            "pages": [
+                                {
+                                    "text": "Shroominomicon"
+                                },
+                                {
+                                    "text": "Keep Inventory",
+                                    "clickEvent": {
+                                        "action": "run_command",
+                                        "value": "/trigger triggerFavKeepInventory"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
