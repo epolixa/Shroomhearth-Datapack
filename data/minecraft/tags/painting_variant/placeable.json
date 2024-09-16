@@ -30,6 +30,9 @@
         "minecraft:earth",
         "minecraft:fire",
         "minecraft:water",
-        "minecraft:wind"
+        "minecraft:wind",
+
+        "shroomhearth:bandon_harbor",
+        "shroomhearth:founder"
     ]
 }
