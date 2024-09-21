@@ -15,6 +15,12 @@
                             }
                         },
                         {
+                            "function": "minecraft:set_lore",
+                            "entity": "this",
+                            "lore": [{"selector":"@s","color":"gray","italic":false}],
+                            "mode": "replace_all"
+                        },
+                        {
                             "function": "set_custom_data",
                             "tag": "{spore:'living_island_permit'}"
                         }

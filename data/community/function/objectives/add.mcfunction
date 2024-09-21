@@ -41,6 +41,9 @@ scoreboard objectives add targetPlayerFound dummy
 # Entity rotation pitch
 scoreboard objectives add rotPitch dummy
 
+# Flag for if player has Living Island Permit ingredient
+scoreboard objectives add hasPermitMaterial dummy
+
 # Dummy player global timers for favor status
 scoreboard players set favHaste shroomhearth 0
 scoreboard players set favJumpBoost shroomhearth 0
