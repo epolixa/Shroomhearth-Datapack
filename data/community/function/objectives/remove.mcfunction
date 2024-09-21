@@ -38,6 +38,9 @@ scoreboard objectives remove targetPlayerFound
 # Entity rotation pitch
 scoreboard objectives remove rotPitch
 
+# Flag for if player has Living Island Permit ingredient
+scoreboard objectives remove hasPermitMaterial
+
 # Dummy player global timers for favor status
 scoreboard players reset favHaste shroomhearth
 scoreboard players reset favJumpBoost shroomhearth
