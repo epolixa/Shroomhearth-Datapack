@@ -22,6 +22,6 @@ execute if dimension minecraft:overworld run function echoes:set_echo_tracker_na
 # We do this because the position of the tracker is used as a unique identifier,
 # no two trackers should have the same position.
 # Echo trackers live in spawn chunks so they stay loaded.
-# Spawn chunks are a 19x19 chunk area..
-# (16 chunks x 16 blocks) / 2 radii = 128
-execute in minecraft:overworld run spreadplayers 112 0 1 128 false @e[tag=echo_tracker]
+# Spawn chunks are a 2x2 chunk area
+# (2 chunks x 16 blocks) / 2 radii = 16 block range
+execute in minecraft:overworld run spreadplayers 112 0 1 16 false @e[tag=echo_tracker]
