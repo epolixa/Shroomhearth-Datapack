@@ -1,14 +1,31 @@
-# copy text from first page of lecturn's book to lore of item
-execute as @e[type=minecraft:item_frame,sort=nearest,limit=1] at @s run data modify entity @s Item.tag.display.Lore set from block ~ ~-1 ~ Book.tag.pages
+# Executes from the context of a player that qualifies to print lore onto an item
 
-# set lectern to empty
-setblock ~ ~ ~ minecraft:lectern[has_book=false,facing=west]{}
+# Summon temporary text display
+# Set text data of text display from lectern for component resolution
+summon minecraft:text_display ~ ~ ~ {Tags:["lore_printer_text_display"]}
+data modify entity @n[tag=lore_printer_text_display] text set value '[{"nbt":"Book.components.minecraft:writable_book_content.pages[0].raw","source":"block","block":"~ ~-1 ~"}]'
 
-# play particles
-particle minecraft:witch ~ ~0.5 ~ 0.2 0 0.2 0 4
+# Copy resolved text to storage
+data modify storage world_hall:lore_printer page_resolved set string entity @n[tag=lore_printer_text_display] text
 
-# play sounds
-playsound minecraft:block.enchantment_table.use block @a ~ ~1 ~ 1 1.1
+# Remove temporary test display
+kill @n[tag=lore_printer_text_display]
 
-# grant advancement
-advancement grant @p only world_hall:taking_notes
+# Check if the item has pre-existing lore and if it has the player_lore flag
+# If the item has player_lore, modify the last index with the new lore
+# If the item does not have player_lore, append the new lore
+execute if data entity @s Item.components.minecraft:custom_data.player_lore run data modify entity @s Item.components.minecraft:lore[-1] set from storage world_hall:lore_printer page_resolved
+execute unless data entity @s Item.components.minecraft:custom_data.player_lore run data modify entity @s Item.components.minecraft:lore append from storage world_hall:lore_printer page_resolved
+
+# Add a tag to the item to indicate that the lore was player-written
+execute unless data entity @s Item.components.minecraft:custom_data.player_lore run data modify entity @s Item.components.minecraft:custom_data.player_lore set value 1b
+
+# charge xp from player
+xp add @p -1 levels
+
+# Play particles and sounds
+execute facing entity @p eyes run particle minecraft:witch ^ ^ ^0.25 0.2 0 0.2 0 4
+playsound minecraft:entity.villager.work_cartographer block @a ~ ~ ~ 1 1
+
+# Grant advancement
+advancement grant @p only world_hall:the_fine_print

@@ -4,8 +4,8 @@
 		"icon": {
 			"id": "minecraft:writable_book"
 		},
-		"title": "Taking Notes",
-		"description": "Print Lore onto an item at the World Hall",
+		"title": "The Fine Print",
+		"description": "Print lore onto an item at the World Hall",
 		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,
