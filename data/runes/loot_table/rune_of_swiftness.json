@@ -14,7 +14,9 @@
                                 "custom_model_data": 1000,
                                 "rarity": "rare",
                                 "max_stack_size": 64,
-                                "fire_resistant": {},
+                                "damage_resistant": {
+                                    "types": "#minecraft:is_fire"
+                                },
                                 "stored_enchantments": {
                                     "levels": {
                                         "runes:rune_of_swiftness": 1
