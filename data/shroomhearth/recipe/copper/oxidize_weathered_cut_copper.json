@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shapeless",
   "group": "oxidized_cut_copper",
   "ingredients": [
-    {
-      "item": "minecraft:weathered_cut_copper"
-    },
-    {
-      "item": "minecraft:magma_cream"
-    }
+    "minecraft:weathered_cut_copper",
+    "minecraft:magma_cream"
   ],
   "result": {
     "id": "minecraft:oxidized_cut_copper"

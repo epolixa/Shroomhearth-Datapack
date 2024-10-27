@@ -2,15 +2,9 @@
   "type": "crafting_shapeless",
   "group": "writable_book",
   "ingredients": [
-    {
-      "item": "minecraft:book"
-    },
-    {
-      "item": "minecraft:ink_sac"
-    },
-	{
-      "item": "minecraft:feather"
-    }
+    "minecraft:book",
+    "minecraft:ink_sac",
+	  "minecraft:feather"
   ],
   "result": {
     "id": "minecraft:writable_book"

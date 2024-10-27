@@ -2,12 +2,8 @@
   "type": "crafting_shaped",
   "group": "wool",
   "key": {
-    "d": {
-      "item": "minecraft:black_dye"
-    },  
-    "w": {
-      "tag": "shroomhearth:wool/without_black"
-    }
+    "d": "minecraft:black_dye",  
+    "w": "#shroomhearth:wool/without_black"
   },
   "pattern": [
     "www",

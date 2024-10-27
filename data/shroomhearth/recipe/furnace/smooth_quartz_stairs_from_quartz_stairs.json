@@ -1,8 +1,6 @@
 {
   "type": "minecraft:smelting",
-  "ingredient": {
-    "item": "minecraft:quartz_stairs"
-  },
+  "ingredient": "minecraft:quartz_stairs",
   "result": {
     "id": "minecraft:smooth_quartz_stairs"
   },

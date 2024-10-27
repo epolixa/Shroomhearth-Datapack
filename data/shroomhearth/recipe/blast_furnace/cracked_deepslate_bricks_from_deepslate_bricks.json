@@ -1,8 +1,6 @@
 {
   "type": "minecraft:blasting",
-  "ingredient": {
-    "item": "minecraft:deepslate_bricks"
-  },
+  "ingredient": "minecraft:deepslate_bricks",
   "result": {
     "id": "minecraft:cracked_deepslate_bricks"
   },

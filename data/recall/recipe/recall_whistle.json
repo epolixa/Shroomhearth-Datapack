@@ -1,13 +1,9 @@
 {
     "type": "minecraft:crafting_shaped",
-    "category": "minecraft:equipment",
+    "category": "equipment",
     "key": {
-        "I": {
-            "item": "minecraft:netherite_ingot"
-        },
-        "S": {
-            "item": "minecraft:echo_shard"
-        }
+        "I": "minecraft:netherite_ingot",
+        "S": "minecraft:echo_shard"
     },
     "pattern": [
         "I",

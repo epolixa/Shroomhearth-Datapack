@@ -1,12 +1,8 @@
 {
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-    {
-      "item": "minecraft:copper_block"
-    },
-    {
-      "item": "minecraft:magma_cream"
-    }
+    "minecraft:copper_block",
+    "minecraft:magma_cream"
   ],
   "result": {
     "id": "minecraft:exposed_copper"

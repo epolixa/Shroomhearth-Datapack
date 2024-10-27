@@ -1,8 +1,6 @@
 {
   "type": "minecraft:smelting",
-  "ingredient": {
-    "item": "minecraft:mossy_cobblestone"
-  },
+  "ingredient": "minecraft:mossy_cobblestone",
   "result": {
     "id": "minecraft:cobblestone"
   },

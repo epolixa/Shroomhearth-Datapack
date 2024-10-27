@@ -5,9 +5,7 @@
         "B"
     ],
     "key": {
-        "B": {
-            "item": "minecraft:knowledge_book"
-        }
+        "B": "minecraft:knowledge_book"
     },
     "result": {
         "id": "minecraft:knowledge_book"

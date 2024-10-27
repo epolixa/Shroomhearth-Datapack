@@ -2,15 +2,9 @@
   "type": "crafting_shaped",
   "group": "repeater",
   "key": {
-    "r": {
-      "item": "minecraft:redstone"
-    },
-    "w": {
-      "item": "minecraft:stick"
-    },
-    "s": {
-      "item": "minecraft:stone"
-    }
+    "r": "minecraft:redstone",
+    "w": "minecraft:stick",
+    "s": "minecraft:stone"
   },
   "pattern": [
     "r r",

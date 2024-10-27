@@ -2,12 +2,8 @@
   "type": "crafting_shaped",
   "group": "smithing_table",
   "key": {
-    "c": {
-      "item": "minecraft:crafting_table"
-    },
-    "i": {
-      "item": "minecraft:iron_ingot"
-    }
+    "c": "minecraft:crafting_table",
+    "i": "minecraft:iron_ingot"
   },
   "pattern": [
     "ii",

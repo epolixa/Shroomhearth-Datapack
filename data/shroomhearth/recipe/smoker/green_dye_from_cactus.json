@@ -1,8 +1,6 @@
 {
   "type": "minecraft:smoking",
-  "ingredient": {
-    "item": "minecraft:cactus"
-  },
+  "ingredient": "minecraft:cactus",
   "result": {
     "id": "minecraft:green_dye"
   },

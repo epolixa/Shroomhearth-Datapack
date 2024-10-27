@@ -2,33 +2,15 @@
   "type": "minecraft:crafting_shapeless",
   "group": "concrete_powder",
   "ingredients": [
-    {
-      "item": "minecraft:blue_dye"
-    },
-    {
-      "tag": "shroomhearth:sand_concrete_mix"
-    },
-    {
-      "tag": "shroomhearth:sand_concrete_mix"
-    },
-    {
-      "tag": "shroomhearth:sand_concrete_mix"
-    },
-    {
-      "tag": "shroomhearth:sand_concrete_mix"
-    },
-    {
-      "tag": "shroomhearth:gravel_concrete_mix"
-    },
-    {
-      "tag": "shroomhearth:gravel_concrete_mix"
-    },
-    {
-      "tag": "shroomhearth:gravel_concrete_mix"
-    },
-    {
-      "tag": "shroomhearth:gravel_concrete_mix"
-    }
+    "minecraft:blue_dye",
+    "#shroomhearth:sand_concrete_mix",
+    "#shroomhearth:sand_concrete_mix",
+    "#shroomhearth:sand_concrete_mix",
+    "#shroomhearth:sand_concrete_mix",
+    "#shroomhearth:gravel_concrete_mix",
+    "#shroomhearth:gravel_concrete_mix",
+    "#shroomhearth:gravel_concrete_mix",
+    "#shroomhearth:gravel_concrete_mix"
   ],
   "result": {
     "id": "minecraft:blue_concrete_powder",

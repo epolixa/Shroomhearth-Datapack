@@ -1,9 +1,7 @@
 {
   "type": "minecraft:stonecutting",
   "group": "brick",
-  "ingredient": {
-    "item": "minecraft:terracotta"
-  },
+  "ingredient": "minecraft:terracotta",
   "result": {
     "id": "minecraft:brick",
     "count": 4

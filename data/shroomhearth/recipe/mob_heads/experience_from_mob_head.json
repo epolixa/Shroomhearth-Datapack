@@ -1,12 +1,8 @@
 {
   "type": "crafting_shapeless",
   "ingredients": [
-    {
-      "tag": "shroomhearth:mob_head"
-    },
-    {
-      "item": "minecraft:glass_bottle"
-    }
+    "#shroomhearth:mob_head",
+    "minecraft:glass_bottle"
   ],
   "result": {
     "id": "minecraft:experience_bottle"

@@ -2,12 +2,8 @@
   "type": "crafting_shaped",
   "group": "cartography_table",
   "key": {
-    "c": {
-      "item": "minecraft:crafting_table"
-    },
-    "p": {
-      "item": "minecraft:paper"
-    }
+    "c": "minecraft:crafting_table",
+    "p": "minecraft:paper"
   },
   "pattern": [
     "pp",

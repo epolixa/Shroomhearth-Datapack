@@ -6,9 +6,7 @@
         "HHH"
     ],
     "key": {
-        "H": {
-            "item": "minecraft:honeycomb"
-        }
+        "H": "minecraft:honeycomb"
     },
     "result": {
         "id": "minecraft:honeycomb_block"

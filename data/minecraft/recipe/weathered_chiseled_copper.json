@@ -3,9 +3,7 @@
   "category": "building",
   "group": "weathered_chiseled_copper",
   "key": {
-    "#": {
-      "item": "minecraft:weathered_cut_copper_slab"
-    }
+    "#": "minecraft:weathered_cut_copper_slab"
   },
   "pattern": [
     "#",

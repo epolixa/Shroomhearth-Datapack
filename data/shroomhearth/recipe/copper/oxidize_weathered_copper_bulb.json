@@ -3,12 +3,8 @@
     "category": "redstone",
     "group": "oxidized_copper_bulb",
     "ingredients": [
-        {
-            "item": "minecraft:weathered_copper_bulb"
-        },
-        {
-            "item": "minecraft:magma_cream"
-        }
+        "minecraft:weathered_copper_bulb",
+        "minecraft:magma_cream"
     ],
     "result": {
         "id": "minecraft:oxidized_copper_bulb"

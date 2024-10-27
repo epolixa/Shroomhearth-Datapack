@@ -2,12 +2,8 @@
   "type": "crafting_shaped",
   "group": "wool",
   "key": {
-    "d": {
-      "item": "minecraft:purple_dye"
-    },
-    "w": {
-      "tag": "shroomhearth:wool/without_purple"
-    }
+    "d": "minecraft:purple_dye",
+    "w": "#shroomhearth:wool/without_purple"
   },
   "pattern": [
     "www",

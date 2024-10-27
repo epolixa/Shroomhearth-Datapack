@@ -1,8 +1,6 @@
 {
   "type": "minecraft:smelting",
-  "ingredient": {
-    "item": "minecraft:mossy_stone_brick_stairs"
-  },
+  "ingredient": "minecraft:mossy_stone_brick_stairs",
   "result": {
     "id": "minecraft:stone_brick_stairs"
   },

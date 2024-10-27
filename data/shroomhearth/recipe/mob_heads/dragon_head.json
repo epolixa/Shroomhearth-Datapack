@@ -1,9 +1,7 @@
 {
   "type": "crafting_shapeless",
   "ingredients": [
-    {
-      "item": "minecraft:dragon_head"
-    }
+    "minecraft:dragon_head"
   ],
   "result": {
     "id": "minecraft:dragon_breath",

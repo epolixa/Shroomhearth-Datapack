@@ -1,8 +1,6 @@
 {
   "type": "minecraft:blasting",
-  "ingredient": {
-    "item": "minecraft:quartz_block"
-  },
+  "ingredient": "minecraft:quartz_block",
   "result": {
     "id": "minecraft:smooth_quartz"
   },

@@ -2,12 +2,8 @@
   "type": "crafting_shaped",
   "group": "dispenser",
   "key": {
-    "b": {
-      "item": "minecraft:bow"
-    },
-    "d": {
-      "item": "minecraft:dropper"
-    }
+    "b": "minecraft:bow",
+    "d": "minecraft:dropper"
   },
   "pattern": [
     "d",

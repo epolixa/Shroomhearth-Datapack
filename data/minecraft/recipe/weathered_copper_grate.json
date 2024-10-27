@@ -3,9 +3,7 @@
   "category": "building",
   "group": "weathered_copper_grate",
   "key": {
-    "M": {
-      "item": "minecraft:weathered_copper"
-    }
+    "M": "minecraft:weathered_copper"
   },
   "pattern": [
     " M ",

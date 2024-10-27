@@ -1,9 +1,7 @@
 {
   "type": "minecraft:stonecutting",
   "group": "nether_brick",
-  "ingredient": {
-    "item": "minecraft:nether_brick_fence"
-  },
+  "ingredient": "minecraft:nether_brick_fence",
   "result": {
     "id": "minecraft:nether_brick",
     "count": 3

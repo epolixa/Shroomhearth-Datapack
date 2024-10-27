@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shapeless",
   "group": "weathered_cut_copper",
   "ingredients": [
-    {
-      "item": "minecraft:exposed_cut_copper"
-    },
-    {
-      "item": "minecraft:magma_cream"
-    }
+    "minecraft:exposed_cut_copper",
+    "minecraft:magma_cream"
   ],
   "result": {
     "id": "minecraft:weathered_cut_copper"
