@@ -22,7 +22,7 @@
         "minecraft:attributes": [
             {
                 "id": "runes:rune_of_haste_block_break_speed",
-                "attribute": "player.block_break_speed",
+                "attribute": "block_break_speed",
                 "operation": "add_multiplied_base",
                 "amount": {
                     "type": "minecraft:linear",
@@ -32,7 +32,7 @@
             },
             {
                 "id": "runes:rune_of_haste_attack_speed",
-                "attribute": "generic.attack_speed",
+                "attribute": "attack_speed",
                 "operation": "add_multiplied_base",
                 "amount": {
                     "type": "minecraft:linear",

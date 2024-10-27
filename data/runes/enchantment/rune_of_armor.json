@@ -22,7 +22,7 @@
         "minecraft:attributes": [
             {
                 "id": "runes:rune_of_armor",
-                "attribute": "generic.armor",
+                "attribute": "armor",
                 "operation": "add_value",
                 "amount": {
                     "type": "minecraft:linear",

@@ -22,7 +22,7 @@
         "minecraft:attributes": [
             {
                 "id": "runes:rune_of_swiftness",
-                "attribute": "generic.movement_speed",
+                "attribute": "movement_speed",
                 "operation": "add_multiplied_base",
                 "amount": {
                     "type": "minecraft:linear",

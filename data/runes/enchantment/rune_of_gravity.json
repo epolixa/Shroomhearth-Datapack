@@ -22,7 +22,7 @@
         "minecraft:attributes": [
             {
                 "id": "runes:rune_of_gravity_gravity",
-                "attribute": "generic.gravity",
+                "attribute": "gravity",
                 "operation": "add_multiplied_total",
                 "amount": {
                     "type": "minecraft:linear",
@@ -32,7 +32,7 @@
             },
             {
                 "id": "runes:rune_of_gravity_fall_damage_multiplier",
-                "attribute": "generic.fall_damage_multiplier",
+                "attribute": "fall_damage_multiplier",
                 "operation": "add_multiplied_total",
                 "amount": {
                     "type": "minecraft:linear",

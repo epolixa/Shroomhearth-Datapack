@@ -22,7 +22,7 @@
         "minecraft:attributes": [
             {
                 "id": "runes:rune_of_reach_block",
-                "attribute": "player.block_interaction_range",
+                "attribute": "block_interaction_range",
                 "operation": "add_multiplied_base",
                 "amount": {
                     "type": "minecraft:linear",
@@ -32,7 +32,7 @@
             },
             {
                 "id": "runes:rune_of_reach_entity",
-                "attribute": "player.entity_interaction_range",
+                "attribute": "entity_interaction_range",
                 "operation": "add_multiplied_base",
                 "amount": {
                     "type": "minecraft:linear",
