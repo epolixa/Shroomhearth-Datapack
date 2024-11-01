@@ -1,8 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "minecraft:leather_chestplate"
-  },
+  "ingredient": "minecraft:leather_chestplate",
   "result": {
     "id": "minecraft:leather",
     "count": 1

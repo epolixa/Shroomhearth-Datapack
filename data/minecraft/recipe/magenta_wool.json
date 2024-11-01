@@ -2,12 +2,8 @@
   "type": "crafting_shaped",
   "group": "wool",
   "key": {
-    "d": {
-      "item": "minecraft:magenta_dye"
-    },
-    "w": {
-      "tag": "shroomhearth:wool/without_magenta"
-    }
+    "d": "minecraft:magenta_dye",
+    "w": "#shroomhearth:wool/without_magenta"
   },
   "pattern": [
     "www",

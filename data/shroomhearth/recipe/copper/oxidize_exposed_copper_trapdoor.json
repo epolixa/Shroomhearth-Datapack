@@ -1,12 +1,8 @@
 {
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
-        {
-            "item": "minecraft:exposed_copper_trapdoor"
-        },
-        {
-            "item": "minecraft:magma_cream"
-        }
+        "minecraft:exposed_copper_trapdoor",
+        "minecraft:magma_cream"
     ],
     "result": {
         "id": "minecraft:weathered_copper_trapdoor"

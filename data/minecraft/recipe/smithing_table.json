@@ -6,12 +6,8 @@
     "##"
   ],
   "key": {
-    "#": {
-      "tag": "minecraft:planks"
-    },
-    "@": {
-      "item": "minecraft:iron_ingot"
-    }
+    "#": "#minecraft:planks",
+    "@": "minecraft:iron_ingot"
   },
   "result": {
     "id": "minecraft:smithing_table"

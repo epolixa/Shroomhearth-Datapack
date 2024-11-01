@@ -3,9 +3,7 @@
   "category": "building",
   "group": "exposed_copper_grate",
   "key": {
-    "M": {
-      "item": "minecraft:exposed_copper"
-    }
+    "M": "minecraft:exposed_copper"
   },
   "pattern": [
     " M ",

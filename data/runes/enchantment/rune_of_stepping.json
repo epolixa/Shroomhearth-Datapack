@@ -22,7 +22,7 @@
         "minecraft:attributes": [
             {
                 "id": "runes:rune_of_stepping",
-                "attribute": "generic.step_height",
+                "attribute": "step_height",
                 "operation": "add_value",
                 "amount": {
                     "type": "minecraft:linear",

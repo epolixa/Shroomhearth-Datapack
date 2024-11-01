@@ -2,12 +2,8 @@
     "type": "minecraft:crafting_shaped",
     "category": "misc",
     "key": {
-        "#": {
-            "item": "minecraft:gold_ingot"
-        },
-        "X": {
-            "item": "minecraft:chorus_fruit"
-        }
+        "#": "minecraft:gold_ingot",
+        "X": "minecraft:chorus_fruit"
     },
     "pattern": [
         "###",

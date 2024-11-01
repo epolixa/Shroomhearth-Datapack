@@ -22,7 +22,7 @@
         "minecraft:attributes": [
             {
                 "id": "runes:rune_of_leaping_jump_strength",
-                "attribute": "generic.jump_strength",
+                "attribute": "jump_strength",
                 "operation": "add_multiplied_base",
                 "amount": {
                     "type": "minecraft:linear",
@@ -32,7 +32,7 @@
             },
             {
                 "id": "runes:rune_of_leaping_safe_fall_distance",
-                "attribute": "generic.safe_fall_distance",
+                "attribute": "safe_fall_distance",
                 "operation": "add_multiplied_base",
                 "amount": {
                     "type": "minecraft:linear",

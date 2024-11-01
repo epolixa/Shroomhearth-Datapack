@@ -1,9 +1,7 @@
 {
   "type": "crafting_shapeless",
   "ingredients": [
-    {
-      "item": "minecraft:zombie_head"
-    }
+    "minecraft:zombie_head"
   ],
   "result": {
     "id": "minecraft:rotten_flesh",

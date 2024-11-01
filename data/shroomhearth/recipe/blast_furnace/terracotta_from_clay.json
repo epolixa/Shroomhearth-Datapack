@@ -1,8 +1,6 @@
 {
   "type": "minecraft:blasting",
-  "ingredient": {
-    "item": "minecraft:clay"
-  },
+  "ingredient": "minecraft:clay",
   "result": {
     "id": "minecraft:terracotta"
   },

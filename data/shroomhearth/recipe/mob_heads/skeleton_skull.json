@@ -1,9 +1,7 @@
 {
   "type": "crafting_shapeless",
   "ingredients": [
-    {
-      "item": "minecraft:skeleton_skull"
-    }
+    "minecraft:skeleton_skull"
   ],
   "result": {
     "id": "minecraft:bone",

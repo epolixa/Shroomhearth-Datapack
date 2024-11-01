@@ -1,9 +1,7 @@
 {
   "type": "crafting_shapeless",
   "ingredients": [
-    {
-      "item": "minecraft:piglin_head"
-    }
+    "minecraft:piglin_head"
   ],
   "result": {
     "id": "minecraft:gold_nugget",

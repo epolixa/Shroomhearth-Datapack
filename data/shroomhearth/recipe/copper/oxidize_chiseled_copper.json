@@ -3,12 +3,8 @@
     "category": "building",
     "group": "exposed_chiseled_copper",
     "ingredients": [
-        {
-            "item": "minecraft:chiseled_copper"
-        },
-        {
-            "item": "minecraft:magma_cream"
-        }
+        "minecraft:chiseled_copper",
+        "minecraft:magma_cream"
     ],
     "result": {
         "id": "minecraft:exposed_chiseled_copper"

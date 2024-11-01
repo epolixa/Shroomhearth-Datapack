@@ -6,15 +6,9 @@
     "III"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:redstone_torch"
-    },
-    "X": {
-      "item": "minecraft:redstone"
-    },
-    "I": {
-      "item": "minecraft:stone"
-    }
+    "#": "minecraft:redstone_torch",
+    "X": "minecraft:redstone",
+    "I": "minecraft:stone"
   },
   "result": {
     "id": "minecraft:repeater"

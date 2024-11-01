@@ -3,12 +3,8 @@
     "category": "building",
     "group": "weathered_copper_grate",
     "ingredients": [
-        {
-            "item": "minecraft:exposed_copper_grate"
-        },
-        {
-            "item": "minecraft:magma_cream"
-        }
+        "minecraft:exposed_copper_grate",
+        "minecraft:magma_cream"
     ],
     "result": {
         "id": "minecraft:weathered_copper_grate"

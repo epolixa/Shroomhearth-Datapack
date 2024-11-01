@@ -1,8 +1,6 @@
 {
   "type": "minecraft:blasting",
-  "ingredient": {
-    "item": "minecraft:clay_ball"
-  },
+  "ingredient": "minecraft:clay_ball",
   "result": {
     "id": "minecraft:brick"
   },

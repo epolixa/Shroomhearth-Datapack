@@ -3,12 +3,8 @@
     "category": "redstone",
     "group": "exposed_copper_bulb",
     "ingredients": [
-        {
-            "item": "minecraft:copper_bulb"
-        },
-        {
-            "item": "minecraft:magma_cream"
-        }
+        "minecraft:copper_bulb",
+        "minecraft:magma_cream"
     ],
     "result": {
         "id": "minecraft:exposed_copper_bulb"

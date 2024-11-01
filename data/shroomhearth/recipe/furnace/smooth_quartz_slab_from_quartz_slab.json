@@ -1,8 +1,6 @@
 {
   "type": "minecraft:smelting",
-  "ingredient": {
-    "item": "minecraft:quartz_slab"
-  },
+  "ingredient": "minecraft:quartz_slab",
   "result": {
     "id": "minecraft:smooth_quartz_slab"
   },

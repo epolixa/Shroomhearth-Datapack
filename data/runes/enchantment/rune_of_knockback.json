@@ -22,7 +22,7 @@
         "minecraft:attributes": [
             {
                 "id": "runes:rune_of_knockback",
-                "attribute": "generic.attack_knockback",
+                "attribute": "attack_knockback",
                 "operation": "add_value",
                 "amount": {
                     "type": "minecraft:linear",

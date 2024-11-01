@@ -6,12 +6,8 @@
     "sss"
   ],
   "key": {
-    "s": {
-      "item": "minecraft:prismarine"
-    },
-    "i": {
-      "item": "minecraft:black_dye"
-    }
+    "s": "minecraft:prismarine",
+    "i": "minecraft:black_dye"
   },
   "result": {
     "id": "minecraft:dark_prismarine",

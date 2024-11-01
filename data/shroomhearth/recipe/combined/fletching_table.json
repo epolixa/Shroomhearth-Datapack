@@ -2,12 +2,8 @@
   "type": "crafting_shaped",
   "group": "fletching_table",
   "key": {
-    "c": {
-      "item": "minecraft:crafting_table"
-    },
-    "f": {
-      "item": "minecraft:flint"
-    }
+    "c": "minecraft:crafting_table",
+    "f": "minecraft:flint"
   },
   "pattern": [
     "ff",

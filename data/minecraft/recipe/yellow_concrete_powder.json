@@ -2,33 +2,15 @@
   "type": "minecraft:crafting_shapeless",
   "group": "concrete_powder",
   "ingredients": [
-    {
-      "item": "minecraft:yellow_dye"
-    },
-    {
-      "tag": "shroomhearth:sand_concrete_mix"
-    },
-    {
-      "tag": "shroomhearth:sand_concrete_mix"
-    },
-    {
-      "tag": "shroomhearth:sand_concrete_mix"
-    },
-    {
-      "tag": "shroomhearth:sand_concrete_mix"
-    },
-    {
-      "tag": "shroomhearth:gravel_concrete_mix"
-    },
-    {
-      "tag": "shroomhearth:gravel_concrete_mix"
-    },
-    {
-      "tag": "shroomhearth:gravel_concrete_mix"
-    },
-    {
-      "tag": "shroomhearth:gravel_concrete_mix"
-    }
+    "minecraft:yellow_dye",
+    "#shroomhearth:sand_concrete_mix",
+    "#shroomhearth:sand_concrete_mix",
+    "#shroomhearth:sand_concrete_mix",
+    "#shroomhearth:sand_concrete_mix",
+    "#shroomhearth:gravel_concrete_mix",
+    "#shroomhearth:gravel_concrete_mix",
+    "#shroomhearth:gravel_concrete_mix",
+    "#shroomhearth:gravel_concrete_mix"
   ],
   "result": {
     "id": "minecraft:yellow_concrete_powder",

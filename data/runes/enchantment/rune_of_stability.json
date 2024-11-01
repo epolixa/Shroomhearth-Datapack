@@ -22,7 +22,7 @@
         "minecraft:attributes": [
             {
                 "id": "runes:rune_of_stability",
-                "attribute": "generic.knockback_resistance",
+                "attribute": "knockback_resistance",
                 "operation": "add_value",
                 "amount": {
                     "type": "minecraft:linear",

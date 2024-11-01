@@ -1,8 +1,6 @@
 {
   "type": "minecraft:blasting",
-  "ingredient": {
-    "item": "minecraft:cobbled_deepslate"
-  },
+  "ingredient": "minecraft:cobbled_deepslate",
   "result": {
     "id": "minecraft:deepslate"
   },

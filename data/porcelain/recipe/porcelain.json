@@ -1,13 +1,9 @@
 {
     "type": "minecraft:crafting_shaped",
-    "category": "minecraft:equipment",
+    "category": "equipment",
     "key": {
-        "#": {
-            "item": "minecraft:calcite"
-        },
-        "S": {
-            "item": "minecraft:nether_star"
-        }
+        "#": "minecraft:calcite",
+        "S": "minecraft:nether_star"
     },
     "pattern": [
         " # ",

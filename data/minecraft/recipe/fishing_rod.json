@@ -6,15 +6,9 @@
     "l n"
   ],
   "key": {
-    "l": {
-      "item": "minecraft:stick"
-    },
-    "s": {
-      "item": "minecraft:string"
-    },
-    "n": {
-      "item": "minecraft:iron_nugget"
-    }
+    "l": "minecraft:stick",
+    "s": "minecraft:string",
+    "n": "minecraft:iron_nugget"
   },
   "result": {
     "id": "minecraft:fishing_rod"

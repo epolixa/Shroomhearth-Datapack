@@ -1,8 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "minecraft:cracked_stone_bricks"
-  },
+  "ingredient": "minecraft:cracked_stone_bricks",
   "result": {
     "id": "minecraft:cobblestone",
     "count": 1

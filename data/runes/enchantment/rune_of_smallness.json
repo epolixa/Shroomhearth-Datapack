@@ -22,7 +22,7 @@
         "minecraft:attributes": [
             {
                 "id": "runes:rune_of_smallness",
-                "attribute": "generic.scale",
+                "attribute": "scale",
                 "operation": "add_multiplied_total",
                 "amount": {
                     "type": "minecraft:linear",

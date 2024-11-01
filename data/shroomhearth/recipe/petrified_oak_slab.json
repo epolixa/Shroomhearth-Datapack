@@ -4,12 +4,8 @@
     "SOS"
   ],
   "key": {
-    "O": {
-      "item": "minecraft:oak_log"
-    },
-    "S": {
-      "item": "minecraft:stone"
-    }
+    "O": "minecraft:oak_log",
+    "S": "minecraft:stone"
   },
   "result": {
     "id": "minecraft:petrified_oak_slab",
