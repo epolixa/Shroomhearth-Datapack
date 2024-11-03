@@ -1,0 +1,39 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:chorus_fruit",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_lore",
+                            "entity": "this",
+                            "lore": [
+                                {
+                                    "selector": "@s",
+                                    "color": "gray",
+                                    "italic": false
+                                }
+                            ],
+                            "mode": "replace_all"
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": "{'translate':'chorus_kernel','fallback':'Echoing Chorus Fruit'}",
+                                "minecraft:item_model": "shroomhearth:echoing_chorus_fruit",
+                                "minecraft:rarity": "uncommon",
+                                "minecraft:custom_data": {
+                                    "spore": "echoing_chorus_fruit"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

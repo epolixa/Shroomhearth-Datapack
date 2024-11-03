@@ -1,0 +1,59 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_echo_shard": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:echo_shard"
+                    }
+                ]
+            }
+        },
+        "has_chorus_fruit": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:chorus_fruit"
+                    }
+                ]
+            }
+        },
+        "has_echoing_chorus_fruit": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:warped_fungus_on_a_stick",
+                        "components": {
+                            "minecraft:custom_data": {
+                                "spore": "echoing_chorus_fruit"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "has_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "chorus_kernel:echoing_chorus_fruit"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_echo_shard",
+            "has_chorus_fruit",
+            "has_echoing_chorus_fruit",
+            "has_recipe"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "chorus_kernel:echoing_chorus_fruit"
+        ]
+    }
+}

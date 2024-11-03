@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "consume_chorus_kernel": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "components": {
+                        "minecraft:item_name": "'Chorus Kernel'"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "chorus_kernel:consume_chorus_kernel"
+    }
+}
