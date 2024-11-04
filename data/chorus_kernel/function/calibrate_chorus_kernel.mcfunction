@@ -7,3 +7,17 @@ execute store result entity @s Item.components.minecraft:custom_data.targetPosY 
 execute store result entity @s Item.components.minecraft:custom_data.targetPosZ int 1 run data get entity @p[tag=consumed_echoing_chorus_fruit] Pos[2] 1
 data modify entity @s Item.components.minecraft:custom_data.targetDim set from entity @p[tag=consumed_echoing_chorus_fruit] Dimension
 tellraw @a[tag=debug_chorus_kernel] "Player position and dimension captured in Chorus Kernel"
+
+# Override Lore
+data modify entity @s Item.components.minecraft:lore set value ['{"text": ""}']
+
+# Summon a temporary text display to handle component resolution for lore
+summon minecraft:text_display ~ ~ ~ {Tags:["chorus_kernel_text_display"]}
+data modify entity @n[tag=chorus_kernel_text_display] text set value '[{"text": "XYZ: ", "color": "gray", "italic": false}, {"color": "blue", "entity": "@n[tag=calibrating_chorus_kernel]", "nbt": "Item.components.minecraft:custom_data.targetPosX"},{"text": ", "},{"color": "blue", "entity": "@n[tag=calibrating_chorus_kernel]", "nbt": "Item.components.minecraft:custom_data.targetPosY"},{"text": ", "},{"color": "blue", "entity": "@n[tag=calibrating_chorus_kernel]", "nbt": "Item.components.minecraft:custom_data.targetPosZ"}]'
+data modify entity @s Item.components.minecraft:lore append string entity @n[tag=chorus_kernel_text_display] text
+data modify entity @n[tag=chorus_kernel_text_display] text set value '[{"text": "Dimension:  ", "color": "gray", "italic": false}, {"color": "blue", "entity": "@n[tag=calibrating_chorus_kernel]", "nbt": "Item.components.minecraft:custom_data.targetDim"}]'
+data modify entity @s Item.components.minecraft:lore append string entity @n[tag=chorus_kernel_text_display] text
+#data modify entity @n[tag=chorus_kernel_text_display] text set value '[{"text": "Creator:  ", "color": "gray", "italic": false}, {"color": "blue", "selector": "@p[tag=consumed_echoing_chorus_fruit]"}]'
+#data modify entity @s Item.components.minecraft:lore append string entity @n[tag=chorus_kernel_text_display] text
+kill @n[tag=chorus_kernel_text_display]
+tellraw @a[tag=debug_chorus_kernel] "Chorus Kernel lore updated"

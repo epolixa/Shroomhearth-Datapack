@@ -8,54 +8,6 @@
                     "name": "minecraft:chorus_fruit",
                     "weight": 1,
                     "functions": [
-                        
-                        {
-                            "function": "minecraft:set_lore",
-                            "entity": "this",
-                            "lore": [
-                                {
-                                    "type": "text",
-                                    "text": "X: "
-                                },
-                                {
-                                    "type": "nbt",
-                                    "source": "entity",
-                                    "nbt": "Pos[0]",
-                                    "entity": "@s"
-                                },
-                                {
-                                    "type": "text",
-                                    "text": "Y: "
-                                },
-                                {
-                                    "type": "nbt",
-                                    "source": "entity",
-                                    "nbt": "Pos[1]",
-                                    "entity": "@s"
-                                },
-                                {
-                                    "type": "text",
-                                    "text": "Z: "
-                                },
-                                {
-                                    "type": "nbt",
-                                    "source": "entity",
-                                    "nbt": "Pos[2]",
-                                    "entity": "@s"
-                                },
-                                {
-                                    "type": "text",
-                                    "text": "Dimension: "
-                                },
-                                {
-                                    "type": "nbt",
-                                    "source": "entity",
-                                    "nbt": "Dimension",
-                                    "entity": "@s"
-                                }
-                            ],
-                            "mode": "replace_all"
-                        },
                         {
                             "function": "minecraft:set_components",
                             "components": {
@@ -72,7 +24,7 @@
                                     "can_always_eat": true
                                 },
                                 "minecraft:custom_data": {
-                                    "spore": "chorus_kernel"
+                                    "spore": "uncalibrated_chorus_kernel"
                                 }
                             }
                         }
