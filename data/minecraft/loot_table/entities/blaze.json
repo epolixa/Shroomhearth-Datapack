@@ -61,7 +61,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": "'Blaze Head'",
+                                "minecraft:item_name": "\"Blaze Head\"",
                                 "minecraft:profile": {
                                     "name": "MHF_Blaze"
                                 }

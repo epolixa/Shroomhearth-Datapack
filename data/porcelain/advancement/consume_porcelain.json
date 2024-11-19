@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "consume_porcelain": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "components": {
+                        "minecraft:custom_data": {
+                            "spore": "porcelain"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "porcelain:consume_porcelain"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "using_echo_kernel": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "item": {
+                    "components": {
+                        "minecraft:item_name": "\"Echo Kernel\""
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "echo_kernel:using_echo_kernel"
+    }
+}

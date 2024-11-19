@@ -1,0 +1,28 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_sword",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": "{\"translate\":\"quests.wondermerian_blade\",\"fallback\":\"Wondermerian Blade\"}",
+                                "minecraft:item_model": "shroomhearth:wondermerian_blade",
+                                "minecraft:rarity": "epic"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": "{spore:'wondermerian_blade'}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

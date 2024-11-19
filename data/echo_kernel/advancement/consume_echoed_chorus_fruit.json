@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "consume_echo_kernel": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "components": {
+                        "minecraft:custom_data": {
+                            "spore": "echoed_chorus_fruit"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "echo_kernel:consume_echoed_chorus_fruit"
+    }
+}
