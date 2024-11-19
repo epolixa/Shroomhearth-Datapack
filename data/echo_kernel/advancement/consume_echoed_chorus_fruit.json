@@ -1,17 +1,19 @@
 {
     "criteria": {
-        "consume_chorus_kernel": {
+        "consume_echo_kernel": {
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
                     "components": {
-                        "minecraft:item_name": "'Chorus Kernel'"
+                        "minecraft:custom_data": {
+                            "spore": "echoed_chorus_fruit"
+                        }
                     }
                 }
             }
         }
     },
     "rewards": {
-        "function": "chorus_kernel:consume_chorus_kernel"
+        "function": "echo_kernel:consume_echoed_chorus_fruit"
     }
 }

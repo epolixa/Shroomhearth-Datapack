@@ -1,12 +1,12 @@
 {
     "criteria": {
-        "consume_chorus_kernel": {
+        "consume_porcelain": {
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
                     "components": {
                         "minecraft:custom_data": {
-                            "spore": "echoing_chorus_fruit"
+                            "spore": "porcelain"
                         }
                     }
                 }
@@ -14,6 +14,6 @@
         }
     },
     "rewards": {
-        "function": "chorus_kernel:consume_echoing_chorus_fruit"
+        "function": "porcelain:consume_porcelain"
     }
 }

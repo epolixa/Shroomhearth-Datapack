@@ -1,17 +1,17 @@
 {
     "criteria": {
-        "using_chorus_kernel": {
-            "trigger": "minecraft:using_item",
+        "consume_echo_kernel": {
+            "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
                     "components": {
-                        "minecraft:item_name": "'Chorus Kernel'"
+                        "minecraft:item_name": "\"Echo Kernel\""
                     }
                 }
             }
         }
     },
     "rewards": {
-        "function": "chorus_kernel:using_chorus_kernel"
+        "function": "echo_kernel:consume_echo_kernel"
     }
 }

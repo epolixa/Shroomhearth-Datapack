@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        "minecraft:echo_shard",
+        "minecraft:chorus_fruit"
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:chorus_fruit",
+        "components": {
+            "minecraft:item_name": "{\"translate\":\"echo_kernel.echoed_chorus_fruit\",\"fallback\":\"Echoed Chorus Fruit\"}",
+            "minecraft:item_model": "shroomhearth:echoed_chorus_fruit",
+            "minecraft:rarity": "uncommon",
+            "!minecraft:use_cooldown": {},
+            "minecraft:consumable": {
+                "animation": "none",
+                "consume_seconds": 0,
+                "sound": "minecraft:block.sculk_sensor.break"
+            },
+            "minecraft:food": {
+                "nutrition": 0,
+                "saturation": 0,
+                "can_always_eat": true
+            },
+            "minecraft:custom_data": {
+                "spore": "echoed_chorus_fruit"
+            }
+        }
+    }
+}

@@ -21,7 +21,7 @@
                 ]
             }
         },
-        "has_echoing_chorus_fruit": {
+        "has_echoed_chorus_fruit": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -29,7 +29,7 @@
                         "items": "minecraft:warped_fungus_on_a_stick",
                         "components": {
                             "minecraft:custom_data": {
-                                "spore": "echoing_chorus_fruit"
+                                "spore": "echoed_chorus_fruit"
                             }
                         }
                     }
@@ -39,7 +39,7 @@
         "has_recipe": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "chorus_kernel:echoing_chorus_fruit"
+                "recipe": "echo_kernel:echoed_chorus_fruit"
             }
         }
     },
@@ -47,13 +47,13 @@
         [
             "has_echo_shard",
             "has_chorus_fruit",
-            "has_echoing_chorus_fruit",
+            "has_echoed_chorus_fruit",
             "has_recipe"
         ]
     ],
     "rewards": {
         "recipes": [
-            "chorus_kernel:echoing_chorus_fruit"
+            "echo_kernel:echoed_chorus_fruit"
         ]
     }
 }
