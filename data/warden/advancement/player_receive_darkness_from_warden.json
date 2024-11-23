@@ -16,7 +16,7 @@
 				"player": [
 					{
 						"condition": "minecraft:reference",
-						"name": "shroomhearth:random_chance_50"
+						"name": "shroomhearth:random_chance_20"
 					}
 				]
 			}
