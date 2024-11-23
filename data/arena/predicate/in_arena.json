@@ -16,6 +16,10 @@
         {
             "condition": "minecraft:reference",
             "name": "arena:in_upper_tramway_colosseum"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "arena:in_goblin_arena"
         }
     ]
 }
