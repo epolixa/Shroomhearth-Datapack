@@ -1,0 +1,28 @@
+{
+	"criteria": {
+		"trade": {
+			"trigger": "minecraft:effects_changed",
+			"conditions": {
+				"effects": {
+					"minecraft:darkness": {
+						"duration": {
+							"min": 120
+						}
+					}
+				},
+				"source": {
+					"type": "minecraft:warden"
+				},
+				"player": [
+					{
+						"condition": "minecraft:reference",
+						"name": "shroomhearth:random_chance_50"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "warden:player_receive_darkness_from_warden"
+	}
+}
