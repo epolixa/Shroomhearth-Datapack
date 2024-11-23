@@ -1,0 +1,1 @@
+tag @e[type=minecraft:warden,tag=shed_recently,sort=random] remove shed_recently

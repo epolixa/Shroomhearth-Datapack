@@ -12,7 +12,13 @@
 				},
 				"source": {
 					"type": "minecraft:warden"
-				}
+				},
+				"player": [
+					{
+						"condition": "minecraft:reference",
+						"name": "shroomhearth:random_chance_50"
+					}
+				]
 			}
 		}
 	},
