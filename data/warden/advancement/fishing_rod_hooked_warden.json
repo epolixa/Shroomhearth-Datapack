@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "avoid_vibration_near_warden": {
+            "trigger": "minecraft:fishing_rod_hooked",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:warden"
+                },
+                "player": {
+                    "effects": {
+                        "minecraft:darkness": {}
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "warden:fishing_rod_hooked_warden"
+    }
+}
