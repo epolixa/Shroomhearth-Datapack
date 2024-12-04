@@ -4,8 +4,8 @@
         "icon": {
             "id": "minecraft:enchanted_book",
             "components": {
-                "custom_model_data": 1000,
-                "stored_enchantments": {
+                "minecraft:item_model": "shroomhearth:rune",
+                "minecraft:stored_enchantments": {
                     "levels": {
                         "runes:rune_of_health": 1
                     },

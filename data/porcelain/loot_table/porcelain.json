@@ -8,17 +8,16 @@
           "name": "minecraft:warped_fungus_on_a_stick",
           "functions": [
             {
-              "function": "set_components",
+              "function": "minecraft:set_components",
               "components": {
-                "item_name": "{'translate':'porcelain.porcelain','fallback':'Porcelain'}",
-                "rarity": "uncommon",
-                "custom_model_data": 1,
-                "enchantment_glint_override": true
+                "minecraft:item_name": "{'translate':'porcelain.porcelain','fallback':'Porcelain'}",
+                "minecraft:item_model": "shroomhearth:porcelain",
+                "minecraft:rarity": "uncommon",
+                "enchantment_glint_override": true,
+                "minecraft:custom_data": {
+                  "spore": "porcelain"
+                }
               }
-            },
-            {
-              "function": "set_custom_data",
-              "tag": "{spore:'porcelain'}"
             }
           ]
         }

@@ -1,8 +1,8 @@
 # check if they have repairable item
-execute store result score @s repairable run clear @s #porcelain:porcelain[custom_model_data=1] 0
+execute store result score @s repairable run clear @s #porcelain:porcelain[item_model="shroomhearth:porcelain"] 0
 
 # replace with new item
-clear @s[scores={repairable=1..}] #porcelain:porcelain[custom_model_data=1] 1
+clear @s[scores={repairable=1..}] #porcelain:porcelain[item_model="shroomhearth:porcelain"] 1
 loot give @s[scores={repairable=1..}] loot porcelain:porcelain
 
 # tag player

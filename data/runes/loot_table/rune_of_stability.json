@@ -8,26 +8,25 @@
                     "name": "minecraft:enchanted_book",
                     "functions": [
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "item_name": "{'text':'Rune of Stability'}",
-                                "custom_model_data": 1000,
-                                "rarity": "rare",
-                                "max_stack_size": 64,
-                                "damage_resistant": {
+                                "minecraft:item_name": "{'text':'Rune of Stability'}",
+                                "minecraft:item_model": "shroomhearth:rune",
+                                "minecraft:rarity": "rare",
+                                "minecraft:max_stack_size": 64,
+                                "minecraft:damage_resistant": {
                                     "types": "#minecraft:is_fire"
                                 },
-                                "stored_enchantments": {
+                                "minecraft:stored_enchantments": {
                                     "levels": {
                                         "runes:rune_of_stability": 1
                                     },
                                     "show_in_tooltip": false
+                                },
+                                "minecraft:custom_data": {
+                                    "spore": "rune"
                                 }
                             }
-                        },
-                        {
-                            "function": "set_custom_data",
-                            "tag": "{spore:'rune'}"
                         }
                     ]
                 }

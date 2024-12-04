@@ -9,16 +9,15 @@
                     "weight": 1,
                     "functions": [
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "item_name": "{'translate':'recall.recall_whistle','fallback':'Recall Whistle'}",
-                                "rarity": "rare",
-                                "custom_model_data": 2
+                                "minecraft:item_name": "{'translate':'recall.recall_whistle','fallback':'Recall Whistle'}",
+                                "minecraft:item_model": "shroomhearth:recall_whistle",
+                                "minecraft:rarity": "rare",
+                                "minecraft:custom_data": {
+                                    "spore": "recall_whistle"
+                                }
                             }
-                        },
-                        {
-                            "function": "set_custom_data",
-                            "tag": "{spore:'recall_whistle'}"
                         }
                     ]
                 }

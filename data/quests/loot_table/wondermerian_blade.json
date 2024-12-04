@@ -13,12 +13,11 @@
                             "components": {
                                 "minecraft:item_name": "{\"translate\":\"quests.wondermerian_blade\",\"fallback\":\"Wondermerian Blade\"}",
                                 "minecraft:item_model": "shroomhearth:wondermerian_blade",
-                                "minecraft:rarity": "epic"
+                                "minecraft:rarity": "epic",
+                                "minecraft:custom_data": {
+                                    "spore": "wondermerian_blade"
+                                }
                             }
-                        },
-                        {
-                            "function": "minecraft:set_custom_data",
-                            "tag": "{spore:'wondermerian_blade'}"
                         }
                     ]
                 }
