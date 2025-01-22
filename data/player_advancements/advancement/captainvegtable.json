@@ -388,6 +388,26 @@
 					}
 				]
 			}
+		},
+		"open_eyeblossom": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items":["minecraft:open_eyeblossom"]
+					}
+				]
+			}
+		},
+		"closed_eyeblossom": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items":["minecraft:closed_eyeblossom"]
+					}
+				]
+			}
 		}
 	}
 }
