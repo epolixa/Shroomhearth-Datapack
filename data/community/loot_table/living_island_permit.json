@@ -11,7 +11,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_name": "{'translate':'community.living_island_permit','fallback':'Living Island Permit'}",
-                                "minecraft:item_model": "shroomhearth:living_island_permit",
+                                "minecraft:item_model": "shroomhearth:permit",
                                 "minecraft:custom_data": {
                                     "spore": "living_island_permit"
                                 }
