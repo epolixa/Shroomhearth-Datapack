@@ -7,10 +7,9 @@ execute if predicate porcelain:in_end run scoreboard players set @s porcelainDim
 # this is needed so that the player can teleport back to the anchor instantly
 forceload add ~ ~
 
-# summon armor stand in source dimension
-#summon minecraft:armor_stand ~ ~ ~ {Tags:["source_anchor"], Marker:true, Invisible:true, ArmorItems:[{id:"minecraft:white_shulker_box", count:1},{id:"minecraft:white_shulker_box", count:1},{},{id:"minecraft:warped_fungus_on_a_stick", count:1, components: {"minecraft:custom_model_data": 1, "minecraft:enchantment_glint_override": 1b}}]}
+# summon marker in source dimension
 execute at @s run summon minecraft:marker ~ ~ ~ {Tags:["source_anchor"],data:{player_inventory:[],player_equipment:[]}}
-execute at @s run summon minecraft:item_display ~ ~0.45 ~ {Tags:["porcelain_display"],item_display:"none",item:{id:"minecraft:warped_fungus_on_a_stick",count:1,components:{"minecraft:custom_model_data":1,"minecraft:enchantment_glint_override":true}}}
+execute at @s run summon minecraft:item_display ~ ~0.45 ~ {Tags:["porcelain_display"],item_display:"none",item:{id:"minecraft:warped_fungus_on_a_stick",count:1,components:{"minecraft:item_model":"shroomhearth:porcelain","minecraft:enchantment_glint_override":true}}}
 
 # assign porcelain ID to source anchor and player
 scoreboard players set @s porcelainID 0

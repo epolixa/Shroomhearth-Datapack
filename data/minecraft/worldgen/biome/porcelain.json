@@ -15,12 +15,17 @@
     "water_fog_color": 329011,
     "grass_color": 9353585,
     "foliage_color": 7448397,
-    "music": {
-      "sound": "minecraft:music.creative",
-      "min_delay": 12000,
-      "max_delay": 24000,
-      "replace_current_music": false
-    },
+    "music": [
+      {
+        "data": {
+          "sound": "minecraft:music.creative",
+          "min_delay": 12000,
+          "max_delay": 24000,
+          "replace_current_music": false
+        },
+        "weight": 1
+      }
+    ],
     "particle": {
       "options": {
         "type": "minecraft:end_rod"

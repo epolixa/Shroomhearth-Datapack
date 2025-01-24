@@ -4,7 +4,7 @@
 		"icon": {
 			"id": "minecraft:chorus_fruit",
 			"components": {
-				"custom_model_data": 1,
+				"minecraft:item_model": "shroomhearth:golden_chorus_fruit",
 				"minecraft:enchantment_glint_override": true
 			}
 		},
