@@ -1,0 +1,24 @@
+{
+    "parent": "quests:root",
+    "display": {
+        "icon": {
+            "id": "minecraft:diamond_sword",
+            "components": {
+                "minecraft:item_model": "shroomhearth:wondermerian_staff"
+            }
+        },
+        "title": "Wondermerian Quest",
+        "description": "Explore Wondermere on a quest to free the kingdom from evil!",
+        "frame": "challenge"
+    },
+    "criteria": {
+        "complete_quest": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "loot": [
+            "quests:wondermerian_staff"
+        ]
+    }
+}

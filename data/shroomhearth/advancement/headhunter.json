@@ -38,6 +38,19 @@
 				]
 			}
 		},
+		"creaking": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:player_head",
+						"components": {
+							"minecraft:item_name": "'Creaking Head'"
+						}
+					}
+				]
+			}
+		},
 		"creeper": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {

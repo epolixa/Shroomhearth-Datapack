@@ -20,7 +20,7 @@
 					{
 						"items": "minecraft:crossbow",
 						"components": {
-							"minecraft:custom_model_data": 411
+							"minecraft:item_model": "shroomhearth:soul_crossbow"
 						}
 					}
 				]
@@ -33,7 +33,7 @@
 					{
 						"items": "minecraft:iron_axe",
 						"components": {
-							"minecraft:custom_model_data": 712
+							"minecraft:item_model": "shroomhearth:highland_axe"
 						}
 					}
 				]
@@ -46,7 +46,7 @@
 					{
 						"items": "minecraft:iron_sword",
 						"components": {
-							"minecraft:custom_model_data": 738
+							"minecraft:item_model": "shroomhearth:soul_knife"
 						}
 					}
 				]
@@ -59,7 +59,7 @@
 					{
 						"items": "minecraft:golden_sword",
 						"components": {
-							"minecraft:custom_model_data": 416
+							"minecraft:item_model": "shroomhearth:broken_sawblade"
 						}
 					}
 				]
@@ -72,7 +72,7 @@
 					{
 						"items": "minecraft:crossbow",
 						"components": {
-							"minecraft:custom_model_data": 416
+							"minecraft:item_model": "shroomhearth:cog_crossbow"
 						}
 					}
 				]
@@ -85,7 +85,7 @@
 					{
 						"items": "minecraft:golden_axe",
 						"components": {
-							"minecraft:custom_model_data": 850
+							"minecraft:item_model": "shroomhearth:firebrand"
 						}
 					}
 				]
@@ -98,7 +98,7 @@
 					{
 						"items": "minecraft:stone_sword",
 						"components": {
-							"minecraft:custom_model_data": 317
+							"minecraft:item_model": "shroomhearth:heartstealer"
 						}
 					}
 				]

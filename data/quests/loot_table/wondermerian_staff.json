@@ -13,12 +13,11 @@
                             "components": {
                                 "minecraft:item_name": "{\"translate\":\"quests.wondermerian_staff\",\"fallback\":\"Wondermerian Staff\"}",
                                 "minecraft:item_model": "shroomhearth:wondermerian_staff",
-                                "minecraft:rarity": "epic"
+                                "minecraft:rarity": "epic",
+                                "minecraft:custom_data": {
+                                    "spore": "wondermerian_staff"
+                                }
                             }
-                        },
-                        {
-                            "function": "minecraft:set_custom_data",
-                            "tag": "{spore:'wondermerian_staff'}"
                         }
                     ]
                 }

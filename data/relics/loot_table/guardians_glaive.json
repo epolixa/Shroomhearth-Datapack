@@ -12,12 +12,11 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_name": "{'translate':'relics.guardians_glaive','fallback':\"Guardian's Glaive\"}",
-                                "minecraft:custom_model_data": 733
+                                "minecraft:item_model": "shroomhearth:guardians_glaive",
+                                "minecraft:custom_data": {
+                                    "spore": "guardians_glaive"
+                                }
                             }
-                        },
-                        {
-                            "function": "minecraft:set_custom_data",
-                            "tag": "{relic:'guardians_glaive'}"
                         }
                     ]
                 }

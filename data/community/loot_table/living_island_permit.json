@@ -8,10 +8,13 @@
                     "name": "minecraft:paper",
                     "functions": [
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
-                                "item_name": "{'translate':'community.living_island_permit','fallback':'Living Island Permit'}",
-                                "custom_model_data": 1
+                                "minecraft:item_name": "{'translate':'community.living_island_permit','fallback':'Living Island Permit'}",
+                                "minecraft:item_model": "shroomhearth:permit",
+                                "minecraft:custom_data": {
+                                    "spore": "living_island_permit"
+                                }
                             }
                         },
                         {
@@ -19,10 +22,6 @@
                             "entity": "this",
                             "lore": [{"selector":"@s","color":"gray","italic":false}],
                             "mode": "replace_all"
-                        },
-                        {
-                            "function": "set_custom_data",
-                            "tag": "{spore:'living_island_permit'}"
                         }
                     ]
                 }

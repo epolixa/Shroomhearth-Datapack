@@ -15,7 +15,7 @@
         "components": {
             "minecraft:item_name": "{'translate':'recall.recall_whistle','fallback':'Recall Whistle'}",
             "minecraft:rarity": "rare",
-            "minecraft:custom_model_data": 2,
+            "minecraft:item_model": "shroomhearth:recall_whistle",
             "minecraft:custom_data": {
                 "spore": "recall_whistle"
             }
