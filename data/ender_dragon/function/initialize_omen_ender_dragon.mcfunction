@@ -15,6 +15,9 @@ data modify entity @s DeathLootTable set value "ender_dragon:omen_ender_dragon"
 scoreboard players operation @s carve_drop_potential = @s omen_level
 scoreboard players remove @s carve_drop_potential 1
 
+# Preset snatch cooldown
+scoreboard players set @s snatch_cooldown 0
+
 # Create Omen Ender Dragon's rage bossbar
 bossbar add ender_dragon:dragon_rage {"font":"minecraft:illageralt","bold":true,"text":"OMEN"}
 bossbar set ender_dragon:dragon_rage color red
