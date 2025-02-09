@@ -21,7 +21,7 @@ execute if predicate shroomhearth:random_chance_20 run function ender_dragon:pow
 execute if predicate shroomhearth:random_chance_20 run ride @s mount @n[tag=dragon_thrall,predicate=ender_dragon:thrall_without_rider,distance=0.1..]
 
 # Play particles on summoned thrall
-execute at @s run particle minecraft:sonic_boom ~ ~1 ~ ~ ~ ~ 0 0 force
+execute at @s run particle minecraft:trial_omen ~ ~1 ~ 0.5 0.5 0.5 1 8 force
 
 # Play sound on summoned thrall
-execute at @s run playsound minecraft:entity.enderman.teleport hostile @a ~ ~ ~ 8 1.2
+execute at @s run playsound minecraft:block.trial_spawner.spawn_mob hostile @a ~ ~ ~ 8 1.1

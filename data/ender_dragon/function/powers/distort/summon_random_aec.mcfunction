@@ -45,7 +45,7 @@ execute if score random shroomhearth matches 19 run summon minecraft:area_effect
 scoreboard players set random shroomhearth -1
 
 # play particles
-particle minecraft:sonic_boom ~ ~0.5 ~ ~ ~ ~ 0 0 force
+execute at @s run particle minecraft:trial_omen ~ ~1 ~ 0.5 0.5 0.5 1 8 force
 
 # play sound
-playsound minecraft:entity.illusioner.cast_spell hostile @a ~ ~ ~ 8 1.5
+execute at @s run playsound minecraft:block.trial_spawner.spawn_mob hostile @a ~ ~ ~ 8 0.9
