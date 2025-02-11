@@ -26,3 +26,6 @@ scoreboard objectives remove dragStatCrystals
 
 # The number of items that the Omen Ender Dragon may drop as carves. Derived from omen_level and decremented as carves are dropped.
 scoreboard objectives remove carve_drop_potential
+
+# Tracks delay before the Omen Ender Dragon can snatch a player again.
+scoreboard objectives remove snatch_cooldown

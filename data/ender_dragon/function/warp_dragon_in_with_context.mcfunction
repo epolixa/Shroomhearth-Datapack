@@ -7,5 +7,7 @@ data modify entity @s Pos[1] set from entity @e[type=minecraft:end_crystal,limit
 # set dragon phase to circling
 data modify entity @s DragonPhase set value 0
 
+particle minecraft:portal ~ ~ ~ 3 1 3 1 32 force
+
 # play sound
 playsound minecraft:entity.enderman.teleport hostile @a[predicate=ender_dragon:on_main_end_island] ~ ~ ~ 12 0.7

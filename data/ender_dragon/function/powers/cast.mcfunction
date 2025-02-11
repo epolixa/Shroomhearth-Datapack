@@ -1,5 +1,5 @@
 # play effects
-particle minecraft:trial_omen ~ ~1 ~ 3 1 3 0 32 force
+particle minecraft:trial_omen ~ ~1 ~ 3 1 3 1 32 force
 execute as @a[predicate=ender_dragon:on_main_end_island] run playsound minecraft:ambient.cave hostile @s ~ ~8 ~ 16 2
 
 # run a random power...

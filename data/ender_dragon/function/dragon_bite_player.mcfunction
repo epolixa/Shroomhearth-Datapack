@@ -1,3 +1,6 @@
+# Executor: Player that is being bitten by the Omen Ender Dragon
+# Position: The Player
+
 # play chomp sound
 playsound minecraft:entity.phantom.bite hostile @a ~ ~ ~ 1 0.5
 
@@ -9,8 +12,8 @@ effect give @s slowness 1 4 true
 # tag player
 tag @s add remove_levitation
 
-# small chance to start riding dragon
-execute if predicate shroomhearth:random_chance_50 run ride @s mount @n[tag=omen_ender_dragon]
+# Chance for the dragon to snatch a bitten player
+execute as @n[tag=omen_ender_dragon,predicate=ender_dragon:dragon_can_snatch] as @p run function ender_dragon:dragon_snatch_player
 
 # remove levitation 1t later (only need it to cancel elytra)
 schedule function ender_dragon:remove_levitation 1t

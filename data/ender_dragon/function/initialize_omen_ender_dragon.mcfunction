@@ -5,7 +5,7 @@ execute in minecraft:the_end positioned 0 60 0 run function ender_dragon:set_ome
 
 # Adapt max health according to omen_level and set current Health to its new max
 function ender_dragon:adapt_max_health
-data modify entity @s Health set from entity @s attributes[{id:"minecraft:generic.max_health"}].base
+data modify entity @s Health set from entity @s attributes[{id:"minecraft:max_health"}].base
 
 # Override loot table
 data modify entity @s DeathLootTable set value "ender_dragon:omen_ender_dragon"
@@ -14,6 +14,9 @@ data modify entity @s DeathLootTable set value "ender_dragon:omen_ender_dragon"
 # Drop potential = omen_level - 1 (since one rune always drops from slain dragon)
 scoreboard players operation @s carve_drop_potential = @s omen_level
 scoreboard players remove @s carve_drop_potential 1
+
+# Preset snatch cooldown
+scoreboard players set @s snatch_cooldown 0
 
 # Create Omen Ender Dragon's rage bossbar
 bossbar add ender_dragon:dragon_rage {"font":"minecraft:illageralt","bold":true,"text":"OMEN"}
