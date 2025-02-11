@@ -1,8 +1,6 @@
 # Executor: Player that is being snatched by the Omen Ender Dragon
 # Position: The Player
 
-say @a dragon snatch player
-
 # Start riding the dragon
 ride @s mount @n[tag=omen_ender_dragon]
 

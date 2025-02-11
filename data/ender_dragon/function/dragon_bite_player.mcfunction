@@ -1,8 +1,6 @@
 # Executor: Player that is being bitten by the Omen Ender Dragon
 # Position: The Player
 
-say @a dragon bite player
-
 # play chomp sound
 playsound minecraft:entity.phantom.bite hostile @a ~ ~ ~ 1 0.5
 
