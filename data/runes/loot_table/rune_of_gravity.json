@@ -18,10 +18,12 @@
                                     "types": "#runes:loot_rune_resistant"
                                 },
                                 "minecraft:stored_enchantments": {
-                                    "levels": {
-                                        "runes:rune_of_gravity": 1
-                                    },
-                                    "show_in_tooltip": false
+                                    "runes:rune_of_gravity": 1
+                                },
+                                "minecraft:tooltip_display": {
+                                    "hidden_components": [
+                                        "minecraft:stored_enchantments"
+                                    ]
                                 },
                                 "minecraft:custom_data": {
                                     "spore": "rune"

@@ -2,17 +2,19 @@
 	"parent": "runes:arcane_attribution",
 	"display": {
 		"icon": {
-            "id": "minecraft:enchanted_book",
-            "components": {
-                "minecraft:item_model": "shroomhearth:rune",
-                "minecraft:stored_enchantments": {
-                    "levels": {
-                        "runes:rune_of_health": 1
-                    },
-                    "show_in_tooltip": false
-                }
-            }
-        },
+			"id": "minecraft:enchanted_book",
+			"components": {
+				"minecraft:item_model": "shroomhearth:rune",
+				"minecraft:stored_enchantments": {
+					"runes:rune_of_health": 1
+				},
+				"minecraft:tooltip_display": {
+					"hidden_components": [
+						"minecraft:stored_enchantments"
+					]
+				}
+			}
+		},
 		"title": "Arcane Alphabet",
 		"description": "Collect every type of Rune",
 		"frame": "challenge",
@@ -29,17 +31,19 @@
 						"items": "minecraft:enchanted_book",
 						"components": {
 							"minecraft:stored_enchantments": {
-                                "levels": {
-                                    "runes:rune_of_armor": 1
-                                },
-                                "show_in_tooltip": false
-                            }
+								"runes:rune_of_armor": 1
+							},
+							"minecraft:tooltip_display": {
+								"hidden_components": [
+									"minecraft:stored_enchantments"
+								]
+							}
 						}
 					}
 				]
 			}
 		},
-        "rune_of_gravity": {
+		"rune_of_gravity": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
@@ -47,17 +51,19 @@
 						"items": "minecraft:enchanted_book",
 						"components": {
 							"minecraft:stored_enchantments": {
-                                "levels": {
-                                    "runes:rune_of_gravity": 1
-                                },
-                                "show_in_tooltip": false
-                            }
+								"runes:rune_of_gravity": 1
+							},
+							"minecraft:tooltip_display": {
+								"hidden_components": [
+									"minecraft:stored_enchantments"
+								]
+							}
 						}
 					}
 				]
 			}
 		},
-        "rune_of_haste": {
+		"rune_of_haste": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
@@ -65,17 +71,19 @@
 						"items": "minecraft:enchanted_book",
 						"components": {
 							"minecraft:stored_enchantments": {
-                                "levels": {
-                                    "runes:rune_of_haste": 1
-                                },
-                                "show_in_tooltip": false
-                            }
+								"runes:rune_of_haste": 1
+							},
+							"minecraft:tooltip_display": {
+								"hidden_components": [
+									"minecraft:stored_enchantments"
+								]
+							}
 						}
 					}
 				]
 			}
 		},
-        "rune_of_health": {
+		"rune_of_health": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
@@ -83,17 +91,19 @@
 						"items": "minecraft:enchanted_book",
 						"components": {
 							"minecraft:stored_enchantments": {
-                                "levels": {
-                                    "runes:rune_of_health": 1
-                                },
-                                "show_in_tooltip": false
-                            }
+								"runes:rune_of_health": 1
+							},
+							"minecraft:tooltip_display": {
+								"hidden_components": [
+									"minecraft:stored_enchantments"
+								]
+							}
 						}
 					}
 				]
 			}
 		},
-        "rune_of_knockback": {
+		"rune_of_knockback": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
@@ -101,17 +111,19 @@
 						"items": "minecraft:enchanted_book",
 						"components": {
 							"minecraft:stored_enchantments": {
-                                "levels": {
-                                    "runes:rune_of_knockback": 1
-                                },
-                                "show_in_tooltip": false
-                            }
+								"runes:rune_of_knockback": 1
+							},
+							"minecraft:tooltip_display": {
+								"hidden_components": [
+									"minecraft:stored_enchantments"
+								]
+							}
 						}
 					}
 				]
 			}
 		},
-        "rune_of_largeness": {
+		"rune_of_largeness": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
@@ -119,17 +131,19 @@
 						"items": "minecraft:enchanted_book",
 						"components": {
 							"minecraft:stored_enchantments": {
-                                "levels": {
-                                    "runes:rune_of_largeness": 1
-                                },
-                                "show_in_tooltip": false
-                            }
+								"runes:rune_of_largeness": 1
+							},
+							"minecraft:tooltip_display": {
+								"hidden_components": [
+									"minecraft:stored_enchantments"
+								]
+							}
 						}
 					}
 				]
 			}
 		},
-        "rune_of_leaping": {
+		"rune_of_leaping": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
@@ -137,17 +151,19 @@
 						"items": "minecraft:enchanted_book",
 						"components": {
 							"minecraft:stored_enchantments": {
-                                "levels": {
-                                    "runes:rune_of_leaping": 1
-                                },
-                                "show_in_tooltip": false
-                            }
+								"runes:rune_of_leaping": 1
+							},
+							"minecraft:tooltip_display": {
+								"hidden_components": [
+									"minecraft:stored_enchantments"
+								]
+							}
 						}
 					}
 				]
 			}
 		},
-        "rune_of_reach": {
+		"rune_of_reach": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
@@ -155,17 +171,19 @@
 						"items": "minecraft:enchanted_book",
 						"components": {
 							"minecraft:stored_enchantments": {
-                                "levels": {
-                                    "runes:rune_of_reach": 1
-                                },
-                                "show_in_tooltip": false
-                            }
+								"runes:rune_of_reach": 1
+							},
+							"minecraft:tooltip_display": {
+								"hidden_components": [
+									"minecraft:stored_enchantments"
+								]
+							}
 						}
 					}
 				]
 			}
 		},
-        "rune_of_smallness": {
+		"rune_of_smallness": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
@@ -173,17 +191,19 @@
 						"items": "minecraft:enchanted_book",
 						"components": {
 							"minecraft:stored_enchantments": {
-                                "levels": {
-                                    "runes:rune_of_smallness": 1
-                                },
-                                "show_in_tooltip": false
-                            }
+								"runes:rune_of_smallness": 1
+							},
+							"minecraft:tooltip_display": {
+								"hidden_components": [
+									"minecraft:stored_enchantments"
+								]
+							}
 						}
 					}
 				]
 			}
 		},
-        "rune_of_stability": {
+		"rune_of_stability": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
@@ -191,17 +211,19 @@
 						"items": "minecraft:enchanted_book",
 						"components": {
 							"minecraft:stored_enchantments": {
-                                "levels": {
-                                    "runes:rune_of_stability": 1
-                                },
-                                "show_in_tooltip": false
-                            }
+								"runes:rune_of_stability": 1
+							},
+							"minecraft:tooltip_display": {
+								"hidden_components": [
+									"minecraft:stored_enchantments"
+								]
+							}
 						}
 					}
 				]
 			}
 		},
-        "rune_of_stepping": {
+		"rune_of_stepping": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
@@ -209,17 +231,19 @@
 						"items": "minecraft:enchanted_book",
 						"components": {
 							"minecraft:stored_enchantments": {
-                                "levels": {
-                                    "runes:rune_of_stepping": 1
-                                },
-                                "show_in_tooltip": false
-                            }
+								"runes:rune_of_stepping": 1
+							},
+							"minecraft:tooltip_display": {
+								"hidden_components": [
+									"minecraft:stored_enchantments"
+								]
+							}
 						}
 					}
 				]
 			}
 		},
-        "rune_of_strength": {
+		"rune_of_strength": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
@@ -227,17 +251,19 @@
 						"items": "minecraft:enchanted_book",
 						"components": {
 							"minecraft:stored_enchantments": {
-                                "levels": {
-                                    "runes:rune_of_strength": 1
-                                },
-                                "show_in_tooltip": false
-                            }
+								"runes:rune_of_strength": 1
+							},
+							"minecraft:tooltip_display": {
+								"hidden_components": [
+									"minecraft:stored_enchantments"
+								]
+							}
 						}
 					}
 				]
 			}
 		},
-        "rune_of_swiftness": {
+		"rune_of_swiftness": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
@@ -245,11 +271,13 @@
 						"items": "minecraft:enchanted_book",
 						"components": {
 							"minecraft:stored_enchantments": {
-                                "levels": {
-                                    "runes:rune_of_swiftness": 1
-                                },
-                                "show_in_tooltip": false
-                            }
+								"runes:rune_of_swiftness": 1
+							},
+							"minecraft:tooltip_display": {
+								"hidden_components": [
+									"minecraft:stored_enchantments"
+								]
+							}
 						}
 					}
 				]
