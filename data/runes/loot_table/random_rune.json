@@ -37,6 +37,10 @@
                 },
                 {
                     "type": "minecraft:loot_table",
+                    "value": "runes:rune_of_respiration"
+                },
+                {
+                    "type": "minecraft:loot_table",
                     "value": "runes:rune_of_smallness"
                 },
                 {

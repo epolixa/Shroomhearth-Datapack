@@ -183,6 +183,26 @@
 				]
 			}
 		},
+		"rune_of_respiration": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:enchanted_book",
+						"components": {
+							"minecraft:stored_enchantments": {
+								"runes:rune_of_respiration": 1
+							},
+							"minecraft:tooltip_display": {
+								"hidden_components": [
+									"minecraft:stored_enchantments"
+								]
+							}
+						}
+					}
+				]
+			}
+		},
 		"rune_of_smallness": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
