@@ -1,5 +1,5 @@
 {
-    "parent": "quests:root",
+    "parent": "quests:visit_wondermere",
     "display": {
         "icon": {
             "id": "minecraft:diamond_sword",

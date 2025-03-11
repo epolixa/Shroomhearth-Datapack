@@ -1,0 +1,17 @@
+{
+    "condition": "minecraft:location_check",
+    "predicate": {
+        "position": {
+            "x": {
+                "min": -6463,
+                "max": -6380
+            },
+            "z": {
+                "min": -404,
+                "max": -329
+            }
+        },
+        "biomes": "#quests:petri_phish_catchable",
+        "dimension": "minecraft:overworld"
+    }
+}

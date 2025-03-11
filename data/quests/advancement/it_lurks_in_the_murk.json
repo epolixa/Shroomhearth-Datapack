@@ -1,0 +1,30 @@
+{
+	"parent": "quests:visit_petrichor_pond",
+	"display": {
+		"icon": {
+            "id": "minecraft:pufferfish",
+            "components": {
+                "minecraft:item_model": "shroomhearth:petri_phish"
+            }
+        },
+		"title": "It Lurks in the Murk...",
+		"description": "Catch a Petri Phish from the Tides of Tesselation waters of Petrichor Pond",
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"catch_petri_phish": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"items": "minecraft:pufferfish",
+					"components": {
+						"minecraft:custom_data": "{spore:'petri_phish'}"
+					}
+				}
+			}
+		}
+    }
+}
