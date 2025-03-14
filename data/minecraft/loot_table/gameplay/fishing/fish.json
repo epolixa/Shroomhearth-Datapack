@@ -29,12 +29,12 @@
 
         {
           "type": "minecraft:loot_table",
-          "value": "quests:fish/petri_phish",
+          "value": "quests:fish/petri_pfish",
           "weight": 2,
           "conditions": [
             {
               "condition": "minecraft:reference",
-              "name": "quests:can_catch_petri_phish"
+              "name": "quests:can_catch_petri_pfish"
             }
           ]
         }
