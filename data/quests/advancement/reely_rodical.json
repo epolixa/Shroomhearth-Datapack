@@ -4,7 +4,7 @@
         "icon": {
             "id": "minecraft:fishing_rod",
             "components": {
-                "minecraft:item_model": "shroomhearth:petrichor_rod"
+                "minecraft:item_model": "shroomhearth:petrichor_pond_pole"
             }
         },
         "title": "Reel-y Rodical",
@@ -17,8 +17,6 @@
         }
     },
     "rewards": {
-        "loot": [
-            "quests:petrichor_rod"
-        ]
+        "function": "quests:reely_rodical"
     }
 }

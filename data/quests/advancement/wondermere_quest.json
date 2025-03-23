@@ -17,8 +17,6 @@
         }
     },
     "rewards": {
-        "loot": [
-            "quests:wondermerian_staff"
-        ]
+        "function": "quests:wondermere_quest"
     }
 }

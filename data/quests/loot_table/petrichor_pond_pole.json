@@ -11,11 +11,11 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": "{\"translate\":\"quests.petrichor_rod\",\"fallback\":\"Petrichor Rod\"}",
-                                "minecraft:item_model": "shroomhearth:petrichor_rod",
+                                "minecraft:item_name": "{\"translate\":\"quests.petrichor_pond_pole\",\"fallback\":\"Petrichor Pond Pole\"}",
+                                "minecraft:item_model": "shroomhearth:petrichor_pond_pole",
                                 "minecraft:rarity": "epic",
                                 "minecraft:custom_data": {
-                                    "spore": "petrichor_rod"
+                                    "spore": "petrichor_pond_pole"
                                 }
                             }
                         }
