@@ -1,0 +1,33 @@
+{
+    "parent": "quests:root",
+    "display": {
+        "icon": {
+            "id": "minecraft:bricks"
+        },
+        "title": "Wondermere",
+        "description": "Visit Wondermere",
+        "frame": "goal"
+    },
+    "criteria": {
+        "visit_wondermere": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "dimension": "minecraft:overworld",
+                        "position": {
+                            "x": {
+                                "min": 49,
+                                "max": 624
+                            },
+                            "z": {
+                                "min": 525,
+                                "max": 945
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

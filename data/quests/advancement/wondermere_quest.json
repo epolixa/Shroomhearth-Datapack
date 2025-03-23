@@ -1,5 +1,5 @@
 {
-    "parent": "quests:root",
+    "parent": "quests:visit_wondermere",
     "display": {
         "icon": {
             "id": "minecraft:diamond_sword",
@@ -17,8 +17,6 @@
         }
     },
     "rewards": {
-        "loot": [
-            "quests:wondermerian_staff"
-        ]
+        "function": "quests:wondermere_quest"
     }
 }

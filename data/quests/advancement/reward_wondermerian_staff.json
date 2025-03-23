@@ -1,0 +1,12 @@
+{
+    "criteria": {
+        "reward_wondermerian_staff": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "loot": [
+            "quests:wondermerian_staff"
+        ]
+    }
+}

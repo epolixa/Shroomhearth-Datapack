@@ -1,0 +1,12 @@
+{
+    "criteria": {
+        "reward_petrichor_pond_pole": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "loot": [
+            "quests:petrichor_pond_pole"
+        ]
+    }
+}
