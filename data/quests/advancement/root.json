@@ -3,7 +3,7 @@
         "icon": {
             "id": "minecraft:paper",
             "components": {
-                "minecraft:item_model": "shroomhearth:living_island_permit"
+                "minecraft:item_model": "shroomhearth:permit"
             }
         },
         "title": "Shroomhearth Quests",

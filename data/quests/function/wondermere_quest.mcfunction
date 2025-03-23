@@ -1,0 +1,1 @@
+advancement grant @s only quests:reward_wondermerian_staff
