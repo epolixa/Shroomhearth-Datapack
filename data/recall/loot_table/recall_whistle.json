@@ -11,7 +11,10 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": "{'translate':'recall.recall_whistle','fallback':'Recall Whistle'}",
+                                "minecraft:item_name": {
+                                    "translate": "recall.recall_whistle",
+                                    "fallback": "Recall Whistle"
+                                },
                                 "minecraft:item_model": "shroomhearth:recall_whistle",
                                 "minecraft:rarity": "rare",
                                 "minecraft:custom_data": {

@@ -10,7 +10,10 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": "{'text':'Rune of Largeness'}",
+                                "minecraft:item_name": {
+                                    "translate": "runes.rune_of_largeness",
+                                    "fallback": "Rune of Largeness"
+                                },
                                 "minecraft:item_model": "shroomhearth:rune",
                                 "minecraft:rarity": "rare",
                                 "minecraft:max_stack_size": 64,

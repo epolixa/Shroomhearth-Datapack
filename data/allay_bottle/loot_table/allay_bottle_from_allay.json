@@ -10,7 +10,10 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": "{'translate':'allay_bottle.allay_bottle','fallback':'Bottle of Allay'}",
+                                "minecraft:item_name": {
+                                    "translate": "allay_bottle.allay_bottle",
+                                    "fallback": "Bottle of Allay"
+                                },
                                 "minecraft:item_model": "shroomhearth:bottle_of_allay",
                                 "minecraft:max_stack_size": 16,
                                 "minecraft:entity_data": {

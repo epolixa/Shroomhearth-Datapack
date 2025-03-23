@@ -10,7 +10,10 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": "{'text':'Rune of Leaping'}",
+                                "minecraft:item_name": {
+                                    "translate": "runes.rune_of_leaping",
+                                    "fallback": "Rune of Leaping"
+                                },
                                 "minecraft:item_model": "shroomhearth:rune",
                                 "minecraft:rarity": "rare",
                                 "minecraft:max_stack_size": 64,

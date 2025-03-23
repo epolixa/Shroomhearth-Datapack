@@ -11,7 +11,10 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": "{'translate':'golden_chorus_fruit.golden_chorus_fruit','fallback':'Golden Chorus Fruit'}",
+                                "minecraft:item_name": {
+                                    "translate": "golden_chorus_fruit.golden_chorus_fruit",
+                                    "fallback": "Golden Chorus Fruit"
+                                },
                                 "minecraft:item_model": "shroomhearth:golden_chorus_fruit",
                                 "minecraft:rarity": "rare",
                                 "minecraft:custom_data": {
