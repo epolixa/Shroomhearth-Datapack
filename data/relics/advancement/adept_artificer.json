@@ -1,5 +1,5 @@
 {
-	"parent": "mob_warding:mob_zapper",
+	"parent": "mob_warding:mob_zapperxxx",
 	"display": {
 		"icon": {
 			"id": "minecraft:golden_axe",
