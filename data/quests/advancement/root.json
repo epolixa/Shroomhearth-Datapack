@@ -8,7 +8,7 @@
         },
         "title": "Shroomhearth Quests",
         "description": "Visit Spawn",
-        "background": "minecraft:textures/block/warped_wart_block.png",
+        "background": "minecraft:block/warped_wart_block",
         "frame": "task"
     },
     "criteria": {
