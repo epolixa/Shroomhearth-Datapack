@@ -816,6 +816,111 @@
                     }
                 ]
             }
+        },
+        "bush": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": ["minecraft:bone_meal"]
+                        }
+                    },
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": ["minecraft:bush"]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "firefly_bush": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": ["minecraft:bone_meal"]
+                        }
+                    },
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": ["minecraft:firefly_bush"]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "short_dry_grass": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": ["minecraft:bone_meal"]
+                        }
+                    },
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": ["minecraft:short_dry_grass"]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "tall_dry_grass": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": ["minecraft:bone_meal"]
+                        }
+                    },
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": ["minecraft:tall_dry_grass"]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "wildflowers": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": ["minecraft:bone_meal"]
+                        }
+                    },
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": ["minecraft:wildflowers"]
+                            }
+                        }
+                    }
+                ]
+            }
         }
 	}
 }

@@ -4,7 +4,7 @@
 		"icon": {
 			"id": "minecraft:allay_spawn_egg",
 			"components": {
-				"minecraft:item_model": "shroomhearth:allay_bottle"
+				"minecraft:item_model": "shroomhearth:bottle_of_allay"
 			}
 		},
 		"title": "Bottle Buddy",

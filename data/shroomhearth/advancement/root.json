@@ -5,7 +5,7 @@
 		},
 		"title": "Shroomhearth",
 		"description": "Visit Spawn",
-		"background": "minecraft:textures/block/mushroom_stem.png",
+		"background": "minecraft:block/mushroom_stem",
 		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,

@@ -6,10 +6,12 @@
             "components": {
                 "minecraft:item_model": "shroomhearth:rune",
                 "minecraft:stored_enchantments": {
-                    "levels": {
-                        "runes:rune_of_health": 1
-                    },
-                    "show_in_tooltip": false
+                    "runes:rune_of_health": 1
+                },
+                "minecraft:tooltip_display": {
+                    "hidden_components": [
+                        "minecraft:stored_enchantments"
+                    ]
                 }
             }
         },

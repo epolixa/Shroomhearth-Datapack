@@ -10,7 +10,10 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": "{\"translate\":\"echo_kernel.echoed_chorus_fruit\",\"fallback\":\"Echoed Chorus Fruit\"}",
+                                "minecraft:item_name": {
+                                    "translate": "echo_kernel.echoed_chorus_fruit",
+                                    "fallback": "Echoed Chorus Fruit"
+                                },
                                 "minecraft:item_model": "shroomhearth:echoed_chorus_fruit",
                                 "minecraft:rarity": "uncommon",
                                 "!minecraft:use_cooldown": {},

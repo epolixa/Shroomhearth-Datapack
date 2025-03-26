@@ -10,7 +10,7 @@
     "S": "minecraft:sweet_berries",
     "B": "minecraft:sugar",
     "C": "minecraft:wheat",
-    "E": "minecraft:egg"
+    "E": "#minecraft:eggs"
   },
   "result": {
     "id": "minecraft:cake"
