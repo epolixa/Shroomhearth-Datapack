@@ -3,7 +3,7 @@
 # Summon temporary text display
 # Set text data of text display from lectern for component resolution
 summon minecraft:text_display ~ ~ ~ {Tags:["lore_printer_text_display"]}
-data modify entity @n[tag=lore_printer_text_display] text set value '[{"nbt":"Book.components.minecraft:writable_book_content.pages[0].raw","source":"block","block":"~ ~-1 ~"}]'
+data modify entity @n[tag=lore_printer_text_display] text set value [{"nbt":"Book.components.minecraft:writable_book_content.pages[0].raw","source":"block","block":"~ ~-1 ~"}]
 
 # Copy resolved text to storage
 data modify storage world_hall:lore_printer page_resolved set string entity @n[tag=lore_printer_text_display] text
