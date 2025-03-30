@@ -21,7 +21,7 @@ setblock ~ -64 ~ minecraft:bedrock
 # set position scores
 function shroomhearth:pos/score_pos
 # complete announcement
-tellraw @a [{"text":"The "}, {"color":"#435f91","text":"Wandering Trader","hoverEvent":{"action":"show_text","contents":{"nbt":"text[]","storage":"wandering_trader:tooltip","separator":"\n","interpret":true}}}, {"text":" is visiting "}, {"selector": "@p"}, {"text": " at "}, {"score":{"name":"@s","objective":"pos_x"}}, {"text": ", "}, {"score":{"name":"@s","objective":"pos_y"}}, {"text": ", "}, {"score":{"name":"@s","objective":"pos_z"}}]
+tellraw @a [{"text":"The "}, {"color":"#435f91","text":"Wandering Trader","hover_event":{"action":"show_text","value":{"nbt":"text[]","storage":"wandering_trader:tooltip","separator":"\n","interpret":true}}}, {"text":" is visiting "}, {"selector": "@p"}, {"text": " at "}, {"score":{"name":"@s","objective":"pos_x"}}, {"text": ", "}, {"score":{"name":"@s","objective":"pos_y"}}, {"text": ", "}, {"score":{"name":"@s","objective":"pos_z"}}]
 
 # make him glow briefly so players can find him
 effect give @s minecraft:glowing 20

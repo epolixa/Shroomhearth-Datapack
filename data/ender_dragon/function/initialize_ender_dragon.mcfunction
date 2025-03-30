@@ -16,7 +16,7 @@ execute as @s[tag=omen_ender_dragon] run function ender_dragon:initialize_omen_e
 
 # Announce Ender Dragon
 execute as @s[tag=!omen_ender_dragon] run tellraw @a [{"text":"The "}, {"color":"#cc00fa","text":"Ender Dragon"}, {"text":" was summoned by "}, {"selector": "@p"}]
-execute as @s[tag=omen_ender_dragon] run tellraw @a [{"text":"The "}, {"color":"#0b6138","text":"Omen "}, {"color":"#0b6138", "score": {"name": "@s", "objective": "omen_level"}, "font": "minecraft:illageralt", "hoverEvent": {"action": "show_text", "contents": {"score": {"name": "@s", "objective": "omen_level"}}}}, {"color":"#cc00fa","text":" Ender Dragon"}, {"text":" was summoned by "}, {"selector": "@p"}]
+execute as @s[tag=omen_ender_dragon] run tellraw @a [{"text":"The "}, {"color":"#0b6138","text":"Omen "}, {"color":"#0b6138", "score": {"name": "@s", "objective": "omen_level"}, "font": "minecraft:illageralt", "hover_event": {"action": "show_text", "value": {"score": {"name": "@s", "objective": "omen_level"}}}}, {"color":"#cc00fa","text":" Ender Dragon"}, {"text":" was summoned by "}, {"selector": "@p"}]
 
 # tag dragon when done
 tag @s add initialized

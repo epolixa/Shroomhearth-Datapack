@@ -16,7 +16,7 @@ bossbar set community:favor/regeneration visible true
 bossbar set community:favor/regeneration players @a[scores={showFavorProgress=1}]
 
 # announce activation
-tellraw @a [{"text":"The "},{"color":"#CD5CAB","translate":"community.favor.regeneration","hoverEvent":{"action":"show_text","contents":{"translate":"community.favor.regeneration.tooltip"}}},{"color":"white","text":" favor was activated by "},{"selector":"@s"}]
+tellraw @a [{"text":"The "},{"color":"#CD5CAB","translate":"community.favor.regeneration","hover_event":{"action":"show_text","value":{"translate":"community.favor.regeneration.tooltip"}}},{"color":"white","text":" favor was activated by "},{"selector":"@s"}]
 
 # play sound 
 execute as @a at @s run playsound block.beacon.power_select player @s ~ ~ ~ 1 1.8

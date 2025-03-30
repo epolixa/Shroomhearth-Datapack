@@ -2,7 +2,7 @@
 bossbar remove community:favor/fire_resistance
 
 # announce expiration
-tellraw @a [{"text":"The "},{"color":"#FF9900","translate":"community.favor.fire_resistance","hoverEvent":{"action":"show_text","contents":{"translate":"community.favor.fire_resistance.tooltip"}}},{"color":"white","text":" favor has expired "}]
+tellraw @a [{"text":"The "},{"color":"#FF9900","translate":"community.favor.fire_resistance","hover_event":{"action":"show_text","value":{"translate":"community.favor.fire_resistance.tooltip"}}},{"color":"white","text":" favor has expired "}]
 
 # play sound 
 execute as @a at @s run playsound block.beacon.deactivate player @s ~ ~ ~ 1 1.8

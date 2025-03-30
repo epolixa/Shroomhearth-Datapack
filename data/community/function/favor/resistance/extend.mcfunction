@@ -11,7 +11,7 @@ execute store result bossbar community:favor/resistance max run scoreboard playe
 bossbar set community:favor/resistance name [{"color":"#9146F0","translate":"community.favor.resistance"},{"color":"white","text":" - "},{"selector": "@s"}]
 
 # announce extension
-tellraw @a [{"text":"The "},{"color":"#9146F0","translate":"community.favor.resistance","hoverEvent":{"action":"show_text","contents":{"translate":"community.favor.resistance.tooltip"}}},{"color":"white","text":" favor was extended by "},{"selector":"@s"}]
+tellraw @a [{"text":"The "},{"color":"#9146F0","translate":"community.favor.resistance","hover_event":{"action":"show_text","value":{"translate":"community.favor.resistance.tooltip"}}},{"color":"white","text":" favor was extended by "},{"selector":"@s"}]
 
 # play sound 
 execute as @a at @s run playsound block.beacon.power_select player @s ~ ~ ~ 1 1.9

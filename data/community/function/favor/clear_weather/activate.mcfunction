@@ -20,7 +20,7 @@ bossbar set community:favor/clear_weather visible true
 bossbar set community:favor/clear_weather players @a[scores={showFavorProgress=1}]
 
 # announce activation
-tellraw @a [{"text":"The "},{"color":"#7BA4FF","translate":"community.favor.clear_weather","hoverEvent":{"action":"show_text","contents":{"translate":"community.favor.clear_weather.tooltip"}}},{"color":"white","text":" favor was activated by "},{"selector":"@s"}]
+tellraw @a [{"text":"The "},{"color":"#7BA4FF","translate":"community.favor.clear_weather","hover_event":{"action":"show_text","value":{"translate":"community.favor.clear_weather.tooltip"}}},{"color":"white","text":" favor was activated by "},{"selector":"@s"}]
 
 # play sound 
 execute as @a at @s run playsound block.beacon.power_select player @s ~ ~ ~ 1 1.8

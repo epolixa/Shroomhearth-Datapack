@@ -11,7 +11,7 @@ execute store result bossbar community:favor/clear_weather max run scoreboard pl
 bossbar set community:favor/clear_weather name [{"color":"#7BA4FF","translate":"community.favor.clear_weather"},{"color":"white","text":" - "},{"selector": "@s"}]
 
 # announce extension
-tellraw @a [{"text":"The "},{"color":"#7BA4FF","translate":"community.favor.clear_weather","hoverEvent":{"action":"show_text","contents":{"translate":"community.favor.clear_weather.tooltip"}}},{"color":"white","text":" favor was extended by "},{"selector":"@s"}]
+tellraw @a [{"text":"The "},{"color":"#7BA4FF","translate":"community.favor.clear_weather","hover_event":{"action":"show_text","value":{"translate":"community.favor.clear_weather.tooltip"}}},{"color":"white","text":" favor was extended by "},{"selector":"@s"}]
 
 # play sound 
 execute as @a at @s run playsound block.beacon.power_select player @s ~ ~ ~ 1 1.9

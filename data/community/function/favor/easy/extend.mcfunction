@@ -11,7 +11,7 @@ execute store result bossbar community:favor/easy max run scoreboard players get
 bossbar set community:favor/easy name [{"color":"#dbf19f","translate":"community.favor.easy"},{"color":"white","text":" - "},{"selector": "@s"}]
 
 # announce extension
-tellraw @a [{"text":"The "},{"color":"#dbf19f","translate":"community.favor.easy","hoverEvent":{"action":"show_text","contents":{"translate":"community.favor.easy.tooltip"}}},{"color":"white","text":" favor was extended by "},{"selector":"@s"}]
+tellraw @a [{"text":"The "},{"color":"#dbf19f","translate":"community.favor.easy","hover_event":{"action":"show_text","value":{"translate":"community.favor.easy.tooltip"}}},{"color":"white","text":" favor was extended by "},{"selector":"@s"}]
 
 # play sound 
 execute as @a at @s run playsound block.beacon.power_select player @s ~ ~ ~ 1 1.9

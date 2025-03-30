@@ -4,7 +4,7 @@
 execute store result score @s hasCharm run clear @s #community:charm[custom_data={spore:"charm"}] 0
 
 # If they don't have charm, send a message
-execute unless predicate community:has_charm run tellraw @s {"translate":"community.missing_charm","hoverEvent":{"action":"show_text","contents":{"translate":"community.missing_charm.tooltip"}}}
+execute unless predicate community:has_charm run tellraw @s {"translate":"community.missing_charm","hover_event":{"action":"show_text","value":{"translate":"community.missing_charm.tooltip"}}}
 
 # If the player has charm, activate
 execute if predicate community:has_charm if score favDisableFallDamage shroomhearth matches 1.. run function community:favor/disable_fall_damage/extend

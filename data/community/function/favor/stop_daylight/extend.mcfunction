@@ -11,7 +11,7 @@ execute store result bossbar community:favor/stop_daylight max run scoreboard pl
 bossbar set community:favor/stop_daylight name [{"color":"#ffff00","translate":"community.favor.stop_daylight"},{"color":"white","text":" - "},{"selector": "@s"}]
 
 # announce extension
-tellraw @a [{"text":"The "},{"color":"#ffff00","translate":"community.favor.stop_daylight","hoverEvent":{"action":"show_text","contents":{"translate":"community.favor.stop_daylight.tooltip"}}},{"color":"white","text":" favor was extended by "},{"selector":"@s"}]
+tellraw @a [{"text":"The "},{"color":"#ffff00","translate":"community.favor.stop_daylight","hover_event":{"action":"show_text","value":{"translate":"community.favor.stop_daylight.tooltip"}}},{"color":"white","text":" favor was extended by "},{"selector":"@s"}]
 
 # play sound 
 execute as @a at @s run playsound block.beacon.power_select player @s ~ ~ ~ 1 1.9

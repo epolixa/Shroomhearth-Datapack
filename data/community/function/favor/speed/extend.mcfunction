@@ -11,7 +11,7 @@ execute store result bossbar community:favor/speed max run scoreboard players ge
 bossbar set community:favor/speed name [{"color":"#33EBFF","translate":"community.favor.speed"},{"color":"white","text":" - "},{"selector": "@s"}]
 
 # announce extension
-tellraw @a [{"text":"The "},{"color":"#33EBFF","translate":"community.favor.speed","hoverEvent":{"action":"show_text","contents":{"translate":"community.favor.speed.tooltip"}}},{"color":"white","text":" favor was extended by "},{"selector":"@s"}]
+tellraw @a [{"text":"The "},{"color":"#33EBFF","translate":"community.favor.speed","hover_event":{"action":"show_text","value":{"translate":"community.favor.speed.tooltip"}}},{"color":"white","text":" favor was extended by "},{"selector":"@s"}]
 
 # play sound 
 execute as @a at @s run playsound block.beacon.power_select player @s ~ ~ ~ 1 1.9
