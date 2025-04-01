@@ -2,7 +2,7 @@
 
 # Preset level query
 execute store result score xpLevel shroomhearth run xp query @s levels
-tellraw @s [{"text":"Current XP level: "},{"score":{"name":"xpLevel","objective":"shroomhearth"}}]
+#tellraw @s [{"text":"Current XP level: "},{"score":{"name":"xpLevel","objective":"shroomhearth"}}]
 
 # Total experience =
 # level^2 + 6 × level (at levels 0–16)
@@ -14,7 +14,7 @@ execute as @s[level=32..] run function shroomhearth:xp/calc_32_plus
 
 # Add remaining points
 execute store result score xpPoints shroomhearth run xp query @s points
-tellraw @s [{"text":"Current XP points: "},{"score":{"name":"xpPoints","objective":"shroomhearth"}}]
+#tellraw @s [{"text":"Current XP points: "},{"score":{"name":"xpPoints","objective":"shroomhearth"}}]
 scoreboard players operation xpTotal shroomhearth += xpPoints shroomhearth
-tellraw @s [{"text":"Calculated total XP: "},{"score":{"name":"xpTotal","objective":"shroomhearth"}}]
+#tellraw @s [{"text":"Calculated total XP: "},{"score":{"name":"xpTotal","objective":"shroomhearth"}}]
 
