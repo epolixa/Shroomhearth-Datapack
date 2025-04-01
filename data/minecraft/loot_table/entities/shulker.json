@@ -48,7 +48,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_name": "'Shulker Core'",
+                "minecraft:item_name": "Shulker Core",
                 "minecraft:profile": {
                   "id": [
                     -517402183,

@@ -81,7 +81,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": "'Drowned Head'",
+                                "minecraft:item_name": "Drowned Head",
                                 "minecraft:profile": {
                                     "id": [
                                         790009440,

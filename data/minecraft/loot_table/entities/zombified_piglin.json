@@ -111,7 +111,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_name": "'Zombified Piglin Head'",
+                "minecraft:item_name": "Zombified Piglin Head",
                 "minecraft:profile": {
                   "id": [
                     -2013856408,

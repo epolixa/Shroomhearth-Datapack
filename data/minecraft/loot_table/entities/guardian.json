@@ -196,7 +196,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": "'Guardian Carapace'",
+                                "minecraft:item_name": "Guardian Carapace",
                                 "minecraft:profile": {
                                     "id": [
                                         1653544400,

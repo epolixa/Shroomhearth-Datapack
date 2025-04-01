@@ -61,7 +61,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_name": "'Breeze Head'",
+                "minecraft:item_name": "Breeze Head",
                 "minecraft:profile": {
                   "id": [
                     -1448533537,

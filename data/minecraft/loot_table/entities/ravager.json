@@ -43,7 +43,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_name": "'Ravager Head'",
+                "minecraft:item_name": "Ravager Head",
                 "minecraft:profile": {
                   "id": [
                     -988784499,

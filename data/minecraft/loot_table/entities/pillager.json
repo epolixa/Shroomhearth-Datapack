@@ -63,7 +63,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_name": "'Pillager Head'",
+                "minecraft:item_name": "Pillager Head",
                 "minecraft:profile": {
                   "id": [
                     449435050,

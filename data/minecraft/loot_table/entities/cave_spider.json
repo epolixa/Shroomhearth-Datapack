@@ -91,7 +91,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": "'Cave Spider Head'",
+                                "minecraft:item_name": "Cave Spider Head",
                                 "minecraft:profile": {
                                     "name": "MHF_CaveSpider"
                                 }

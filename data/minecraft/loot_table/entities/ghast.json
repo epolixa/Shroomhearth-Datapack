@@ -86,7 +86,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": "'Ghast Head'",
+                                "minecraft:item_name": "Ghast Head",
                                 "minecraft:profile": {
                                     "name": "MHF_Ghast"
                                 }

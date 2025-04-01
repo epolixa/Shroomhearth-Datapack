@@ -54,7 +54,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_name": "'Silverfish Head'",
+                "minecraft:item_name": "Silverfish Head",
                 "minecraft:profile": {
                   "id": [
                     816106844,
