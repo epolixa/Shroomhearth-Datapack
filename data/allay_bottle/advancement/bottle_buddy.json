@@ -22,7 +22,9 @@
 					{
 						"items": "minecraft:allay_spawn_egg",
 						"predicates": {
-							"minecraft:custom_data": "{spore:'allay_bottle'}"
+							"minecraft:custom_data": {
+								"spore": "allay_bottle"
+							}
 						}
 					}
 				]
