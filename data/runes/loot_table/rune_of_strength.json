@@ -10,7 +10,10 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "minecraft:item_name": "{'text':'Rune of Strength'}",
+                                "minecraft:item_name": {
+                                    "translate": "runes.rune_of_strength",
+                                    "fallback": "Rune of Strength"
+                                },
                                 "minecraft:item_model": "shroomhearth:rune",
                                 "minecraft:rarity": "rare",
                                 "minecraft:max_stack_size": 64,
@@ -18,10 +21,12 @@
                                     "types": "#runes:loot_rune_resistant"
                                 },
                                 "minecraft:stored_enchantments": {
-                                    "levels": {
-                                        "runes:rune_of_strength": 1
-                                    },
-                                    "show_in_tooltip": false
+                                    "runes:rune_of_strength": 1
+                                },
+                                "minecraft:tooltip_display": {
+                                    "hidden_components": [
+                                        "minecraft:stored_enchantments"
+                                    ]
                                 },
                                 "minecraft:custom_data": {
                                     "spore": "rune"

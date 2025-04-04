@@ -19,7 +19,7 @@
 					{
 						"items": "minecraft:player_head",
 						"components": {
-							"minecraft:item_name": "'Blaze Head'"
+							"minecraft:item_name": "Blaze Head"
 						}
 					}
 				]
@@ -32,7 +32,7 @@
 					{
 						"items": "minecraft:player_head",
 						"components": {
-							"minecraft:item_name": "'Cave Spider Head'"
+							"minecraft:item_name": "Cave Spider Head"
 						}
 					}
 				]
@@ -45,7 +45,7 @@
 					{
 						"items": "minecraft:player_head",
 						"components": {
-							"minecraft:item_name": "'Creaking Head'"
+							"minecraft:item_name": "Creaking Head"
 						}
 					}
 				]
@@ -68,7 +68,7 @@
 					{
 						"items": "minecraft:player_head",
 						"components": {
-							"minecraft:item_name": "'Drowned Head'"
+							"minecraft:item_name": "Drowned Head"
 						}
 					}
 				]
@@ -91,7 +91,7 @@
 					{
 						"items": "minecraft:player_head",
 						"components": {
-							"minecraft:item_name": "'Enderman Head'"
+							"minecraft:item_name": "Enderman Head"
 						}
 					}
 				]
@@ -104,7 +104,7 @@
 					{
 						"items": "minecraft:player_head",
 						"components": {
-							"minecraft:item_name": "'Vindicator Head'"
+							"minecraft:item_name": "Vindicator Head"
 						}
 					}
 				]
@@ -117,7 +117,7 @@
 					{
 						"items": "minecraft:player_head",
 						"components": {
-							"minecraft:item_name": "'Evoker Head'"
+							"minecraft:item_name": "Evoker Head"
 						}
 					}
 				]
@@ -130,7 +130,7 @@
 					{
 						"items": "minecraft:player_head",
 						"components": {
-							"minecraft:item_name": "'Pillager Head'"
+							"minecraft:item_name": "Pillager Head"
 						}
 					}
 				]
@@ -143,7 +143,7 @@
 					{
 						"items": "minecraft:player_head",
 						"components": {
-							"minecraft:item_name": "'Ghast Head'"
+							"minecraft:item_name": "Ghast Head"
 						}
 					}
 				]
@@ -156,7 +156,7 @@
 					{
 						"items": "minecraft:player_head",
 						"components": {
-							"minecraft:item_name": "'Guardian Carapace'"
+							"minecraft:item_name": "Guardian Carapace"
 						}
 					}
 				]
@@ -169,7 +169,7 @@
 					{
 						"items": "minecraft:player_head",
 						"components": {
-							"minecraft:item_name": "'Husk Head'"
+							"minecraft:item_name": "Husk Head"
 						}
 					}
 				]
@@ -182,7 +182,7 @@
 					{
 						"items": "minecraft:player_head",
 						"components": {
-							"minecraft:item_name": "'Magma Cube Core'"
+							"minecraft:item_name": "Magma Cube Core"
 						}
 					}
 				]
@@ -195,7 +195,7 @@
 					{
 						"items": "minecraft:player_head",
 						"components": {
-							"minecraft:item_name": "'Phantom Head'"
+							"minecraft:item_name": "Phantom Head"
 						}
 					}
 				]
@@ -208,7 +208,7 @@
 					{
 						"items": "minecraft:player_head",
 						"components": {
-							"minecraft:item_name": "'Shulker Core'"
+							"minecraft:item_name": "Shulker Core"
 						}
 					}
 				]
@@ -231,7 +231,7 @@
 					{
 						"items": "minecraft:player_head",
 						"components": {
-							"minecraft:item_name": "'Slime Core'"
+							"minecraft:item_name": "Slime Core"
 						}
 					}
 				]
@@ -244,7 +244,7 @@
 					{
 						"items": "minecraft:player_head",
 						"components": {
-							"minecraft:item_name": "'Spider Head'"
+							"minecraft:item_name": "Spider Head"
 						}
 					}
 				]
@@ -257,7 +257,7 @@
 					{
 						"items": "minecraft:player_head",
 						"components": {
-							"minecraft:item_name": "'Stray Head'"
+							"minecraft:item_name": "Stray Head"
 						}
 					}
 				]
@@ -270,7 +270,7 @@
 					{
 						"items": "minecraft:player_head",
 						"components": {
-							"minecraft:item_name": "'Witch Head'"
+							"minecraft:item_name": "Witch Head"
 						}
 					}
 				]
@@ -303,7 +303,7 @@
 					{
 						"items": "minecraft:player_head",
 						"components": {
-							"minecraft:item_name": "'Zombie Villager Head'"
+							"minecraft:item_name": "Zombie Villager Head"
 						}
 					}
 				]
@@ -316,7 +316,7 @@
 					{
 						"items": "minecraft:player_head",
 						"components": {
-							"minecraft:item_name": "'Silverfish Head'"
+							"minecraft:item_name": "Silverfish Head"
 						}
 					}
 				]
@@ -329,7 +329,7 @@
 					{
 						"items": "minecraft:player_head",
 						"components": {
-							"minecraft:item_name": "'Endermite Head'"
+							"minecraft:item_name": "Endermite Head"
 						}
 					}
 				]
@@ -342,7 +342,7 @@
 					{
 						"items": "minecraft:player_head",
 						"components": {
-							"minecraft:item_name": "'Vex Head'"
+							"minecraft:item_name": "Vex Head"
 						}
 					}
 				]
@@ -355,7 +355,7 @@
 					{
 						"items": "minecraft:player_head",
 						"components": {
-							"minecraft:item_name": "'Ravager Head'"
+							"minecraft:item_name": "Ravager Head"
 						}
 					}
 				]
@@ -368,7 +368,7 @@
 					{
 						"items": "minecraft:player_head",
 						"components": {
-							"minecraft:item_name": "'Elder Guardian Carapace'"
+							"minecraft:item_name": "Elder Guardian Carapace"
 						}
 					}
 				]
@@ -381,7 +381,7 @@
 					{
 						"items": "minecraft:player_head",
 						"components": {
-							"minecraft:item_name": "'Wither Head'"
+							"minecraft:item_name": "Wither Head"
 						}
 					}
 				]
@@ -404,7 +404,7 @@
 					{
 						"items": "minecraft:player_head",
 						"components": {
-							"minecraft:item_name": "'Zombified Piglin Head'"
+							"minecraft:item_name": "Zombified Piglin Head"
 						}
 					}
 				]
@@ -417,7 +417,7 @@
 					{
 						"items": "minecraft:player_head",
 						"components": {
-							"minecraft:item_name": "'Hoglin Head'"
+							"minecraft:item_name": "Hoglin Head"
 						}
 					}
 				]
@@ -430,7 +430,7 @@
 					{
 						"items": "minecraft:player_head",
 						"components": {
-							"minecraft:item_name": "'Zoglin Head'"
+							"minecraft:item_name": "Zoglin Head"
 						}
 					}
 				]
@@ -443,7 +443,7 @@
 					{
 						"items": "minecraft:player_head",
 						"components": {
-							"minecraft:item_name": "'Piglin Brute Head'"
+							"minecraft:item_name": "Piglin Brute Head"
 						}
 					}
 				]
@@ -456,7 +456,7 @@
 					{
 						"items": "minecraft:player_head",
 						"components": {
-							"minecraft:item_name": "'Warden Head'"
+							"minecraft:item_name": "Warden Head"
 						}
 					}
 				]

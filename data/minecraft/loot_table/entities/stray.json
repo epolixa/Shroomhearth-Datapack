@@ -126,7 +126,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": "'Stray Skull'",
+                                "minecraft:item_name": "Stray Skull",
                                 "minecraft:profile": {
                                     "id": [
                                         1785929880,

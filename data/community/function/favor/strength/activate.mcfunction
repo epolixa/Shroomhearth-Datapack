@@ -16,7 +16,7 @@ bossbar set community:favor/strength visible true
 bossbar set community:favor/strength players @a[scores={showFavorProgress=1}]
 
 # announce activation
-tellraw @a [{"text":"The "},{"color":"#FFC700","translate":"community.favor.strength","hoverEvent":{"action":"show_text","contents":{"translate":"community.favor.strength.tooltip"}}},{"color":"white","text":" favor was activated by "},{"selector":"@s"}]
+tellraw @a [{"text":"The "},{"color":"#FFC700","translate":"community.favor.strength","hover_event":{"action":"show_text","value":{"translate":"community.favor.strength.tooltip"}}},{"color":"white","text":" favor was activated by "},{"selector":"@s"}]
 
 # play sound 
 execute as @a at @s run playsound block.beacon.power_select player @s ~ ~ ~ 1 1.8

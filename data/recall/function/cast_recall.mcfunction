@@ -1,5 +1,5 @@
 # check if player has spawn point set
-execute if data entity @s SpawnX if data entity @s SpawnY if data entity @s SpawnZ if data entity @s SpawnDimension run tag @s add has_spawn
+execute if data entity @s respawn run tag @s add has_spawn
 
 # check if the player has a bed at the set spawn point
 execute at @e[tag=recall_marker] unless block ~ ~ ~ #recall:spawn_blocks run tag @s remove has_spawn

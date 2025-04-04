@@ -1,8 +1,8 @@
 # Executes from the context of an item entity nearby an allay summoned from a bottle at the position of that allay
 
 # Assign the item
-data modify entity @e[type=minecraft:allay,tag=unbottled_allay,sort=nearest,limit=1] HandItems[0] set from entity @s Item
-data modify entity @e[type=minecraft:allay,tag=unbottled_allay,sort=nearest,limit=1] HandItems[0].count set value 1
+data modify entity @e[type=minecraft:allay,tag=unbottled_allay,sort=nearest,limit=1] equipment.mainhand set from entity @s Item
+data modify entity @e[type=minecraft:allay,tag=unbottled_allay,sort=nearest,limit=1] equipment.mainhand.count set value 1
 
 # Reduce the item's count by 1
 execute store result score @s itemCount run data get entity @s Item.count

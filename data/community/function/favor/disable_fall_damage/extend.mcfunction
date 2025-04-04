@@ -11,7 +11,7 @@ execute store result bossbar community:favor/disable_fall_damage max run scorebo
 bossbar set community:favor/disable_fall_damage name [{"color":"#FFEFD1","translate":"community.favor.disable_fall_damage"},{"color":"white","text":" - "},{"selector": "@s"}]
 
 # announce extension
-tellraw @a [{"text":"The "},{"color":"#FFEFD1","translate":"community.favor.disable_fall_damage","hoverEvent":{"action":"show_text","contents":{"translate":"community.favor.disable_fall_damage.tooltip"}}},{"color":"white","text":" favor was extended by "},{"selector":"@s"}]
+tellraw @a [{"text":"The "},{"color":"#FFEFD1","translate":"community.favor.disable_fall_damage","hover_event":{"action":"show_text","value":{"translate":"community.favor.disable_fall_damage.tooltip"}}},{"color":"white","text":" favor was extended by "},{"selector":"@s"}]
 
 # play sound 
 execute as @a at @s run playsound block.beacon.power_select player @s ~ ~ ~ 1 1.9

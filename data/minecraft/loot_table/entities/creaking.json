@@ -27,7 +27,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": "'Creaking Head'",
+                                "minecraft:item_name": "Creaking Head",
                                 "minecraft:profile": {
                                     "id": [
                                         -186105532,

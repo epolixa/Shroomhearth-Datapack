@@ -4,8 +4,10 @@
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
-                    "components": {
-                        "minecraft:item_name": "\"Echo Kernel\""
+                    "predicates": {
+                        "minecraft:custom_data": {
+                            "spore": "echo_kernel"
+                        }
                     }
                 }
             }

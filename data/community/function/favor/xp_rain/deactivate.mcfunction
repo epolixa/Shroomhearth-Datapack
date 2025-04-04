@@ -2,7 +2,7 @@
 bossbar remove community:favor/xp_rain
 
 # announce expiration
-tellraw @a [{"text":"The "},{"color":"#00ff00","translate":"community.favor.xp_rain","hoverEvent":{"action":"show_text","contents":{"translate":"community.favor.xp_rain.tooltip"}}},{"color":"white","text":" favor has expired "}]
+tellraw @a [{"text":"The "},{"color":"#00ff00","translate":"community.favor.xp_rain","hover_event":{"action":"show_text","value":{"translate":"community.favor.xp_rain.tooltip"}}},{"color":"white","text":" favor has expired "}]
 
 # play sound 
 execute as @a at @s run playsound block.beacon.deactivate player @s ~ ~ ~ 1 1.8

@@ -127,7 +127,7 @@
 						{
 							"function": "minecraft:set_components",
 							"components": {
-								"minecraft:item_name": "'Husk Head'",
+								"minecraft:item_name": "Husk Head",
 								"minecraft:profile": {
 									"id": [
 										448664699,

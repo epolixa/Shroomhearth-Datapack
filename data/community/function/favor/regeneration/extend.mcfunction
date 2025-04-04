@@ -11,7 +11,7 @@ execute store result bossbar community:favor/regeneration max run scoreboard pla
 bossbar set community:favor/regeneration name [{"color":"#CD5CAB","translate":"community.favor.regeneration"},{"color":"white","text":" - "},{"selector": "@s"}]
 
 # announce extension
-tellraw @a [{"text":"The "},{"color":"#CD5CAB","translate":"community.favor.regeneration","hoverEvent":{"action":"show_text","contents":{"translate":"community.favor.regeneration.tooltip"}}},{"color":"white","text":" favor was extended by "},{"selector":"@s"}]
+tellraw @a [{"text":"The "},{"color":"#CD5CAB","translate":"community.favor.regeneration","hover_event":{"action":"show_text","value":{"translate":"community.favor.regeneration.tooltip"}}},{"color":"white","text":" favor was extended by "},{"selector":"@s"}]
 
 # play sound 
 execute as @a at @s run playsound block.beacon.power_select player @s ~ ~ ~ 1 1.9

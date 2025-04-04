@@ -127,7 +127,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": "'Zombie Villager Head'",
+                                "minecraft:item_name": "Zombie Villager Head",
                                 "minecraft:profile": {
                                     "id": [
                                         -1844245497,

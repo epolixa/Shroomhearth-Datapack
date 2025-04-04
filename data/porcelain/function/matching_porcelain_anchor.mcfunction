@@ -7,7 +7,7 @@ teleport @e[tag=porcelain_anchor,sort=nearest,limit=1]
 kill @e[tag=porcelain_anchor,sort=nearest,limit=1]
 
 # unload chunk in porcelain if there is no other anchors
-execute at @s run forceload remove ~ ~ 
+execute at @s run forceload remove ~ ~
 
 # make sure chunks are still loaded for nearby remaining anchors
 execute as @e[tag=porcelain_anchor,sort=nearest,limit=1] at @s run forceload add ~ ~

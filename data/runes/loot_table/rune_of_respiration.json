@@ -8,11 +8,11 @@
                     "name": "minecraft:enchanted_book",
                     "functions": [
                         {
-                            "function": "set_components",
+                            "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_name": {
-                                    "translate": "runes.rune_of_stepping",
-                                    "fallback": "Rune of Stepping"
+                                    "translate": "runes.rune_of_respiration",
+                                    "fallback": "Rune of Respiration"
                                 },
                                 "minecraft:item_model": "shroomhearth:rune",
                                 "minecraft:rarity": "rare",
@@ -21,7 +21,7 @@
                                     "types": "#runes:loot_rune_resistant"
                                 },
                                 "minecraft:stored_enchantments": {
-                                    "runes:rune_of_stepping": 1
+                                    "runes:rune_of_respiration": 1
                                 },
                                 "minecraft:tooltip_display": {
                                     "hidden_components": [

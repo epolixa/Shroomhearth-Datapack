@@ -11,7 +11,7 @@ execute store result bossbar community:favor/keep_inventory max run scoreboard p
 bossbar set community:favor/keep_inventory name [{"color":"#c6c6c6","translate":"community.favor.keep_inventory"},{"color":"white","text":" - "},{"selector": "@s"}]
 
 # announce extension
-tellraw @a [{"text":"The "},{"color":"#c6c6c6","translate":"community.favor.keep_inventory","hoverEvent":{"action":"show_text","contents":{"translate":"community.favor.keep_inventory.tooltip"}}},{"color":"white","text":" favor was extended by "},{"selector":"@s"}]
+tellraw @a [{"text":"The "},{"color":"#c6c6c6","translate":"community.favor.keep_inventory","hover_event":{"action":"show_text","value":{"translate":"community.favor.keep_inventory.tooltip"}}},{"color":"white","text":" favor was extended by "},{"selector":"@s"}]
 
 # play sound 
 execute as @a at @s run playsound block.beacon.power_select player @s ~ ~ ~ 1 1.9

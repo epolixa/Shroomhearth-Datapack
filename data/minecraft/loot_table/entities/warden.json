@@ -36,7 +36,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_name": "'Warden Head'",
+                "minecraft:item_name": "Warden Head",
                 "minecraft:profile": {
                   "id": [
                     1531857479,

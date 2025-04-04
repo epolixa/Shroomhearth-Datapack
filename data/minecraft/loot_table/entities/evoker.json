@@ -71,7 +71,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": "'Evoker Head'",
+                                "minecraft:item_name": "Evoker Head",
                                 "minecraft:profile": {
                                     "id": [
                                         -17612447,

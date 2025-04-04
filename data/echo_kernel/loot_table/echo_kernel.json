@@ -11,7 +11,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": "\"Echo Kernel\"",
+                                "minecraft:item_name": "Echo Kernel",
                                 "minecraft:item_model": "shroomhearth:echo_kernel",
                                 "minecraft:enchantment_glint_override": true,
                                 "minecraft:rarity": "uncommon",

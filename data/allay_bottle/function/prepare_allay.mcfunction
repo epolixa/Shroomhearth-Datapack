@@ -5,7 +5,7 @@ data modify entity @s Brain.memories."minecraft:liked_player".value set from ent
 execute as @e[type=minecraft:item,distance=..0.8,sort=nearest,limit=1] run function allay_bottle:give_allay_nearby_item
 
 # Fix default name
-data merge entity @s[nbt={CustomName:'{"italic":false,"translate":"allay_bottle.allay_bottle"}'}] {CustomName:""}
+data merge entity @s[nbt={CustomName:{"italic":false,"translate":"allay_bottle.allay_bottle"}}] {CustomName:""}
 
 # Give a bottle back to the player
 give @p[tag=used_allay_bottle] minecraft:glass_bottle

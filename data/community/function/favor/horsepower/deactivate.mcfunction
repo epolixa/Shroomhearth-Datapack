@@ -2,7 +2,7 @@
 bossbar remove community:favor/horsepower
 
 # announce expiration
-tellraw @a [{"text":"The "},{"color":"#DA662C","translate":"community.favor.horsepower","hoverEvent":{"action":"show_text","contents":{"translate":"community.favor.horsepower.tooltip"}}},{"color":"white","text":" favor has expired "}]
+tellraw @a [{"text":"The "},{"color":"#DA662C","translate":"community.favor.horsepower","hover_event":{"action":"show_text","value":{"translate":"community.favor.horsepower.tooltip"}}},{"color":"white","text":" favor has expired "}]
 
 # play sound 
 execute as @a at @s run playsound block.beacon.deactivate player @s ~ ~ ~ 1 1.8

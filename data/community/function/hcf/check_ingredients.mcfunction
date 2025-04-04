@@ -5,7 +5,7 @@ execute store result score @s hasCharm run clear @s #community:charm[custom_data
 execute store result score @s hasHcfMaterial run clear @s #community:harmonized_chorus_fruit_material 0
 
 # If they don't have charm, send a message
-execute unless predicate community:can_create_hcf run tellraw @s {"translate":"community.cannot_create_hcf","hoverEvent":{"action":"show_text","contents":{"translate":"community.cannot_create_hcf_tooltip"}}}
+execute unless predicate community:can_create_hcf run tellraw @s {"translate":"community.cannot_create_hcf","hover_event":{"action":"show_text","value":{"translate":"community.cannot_create_hcf_tooltip"}}}
 
 # If the player has the charm and material, create hcf
 execute if predicate community:can_create_hcf run function community:hcf/create_harmonized_chorus_fruit

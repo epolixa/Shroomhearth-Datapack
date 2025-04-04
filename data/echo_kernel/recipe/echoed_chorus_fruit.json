@@ -9,7 +9,10 @@
         "count": 1,
         "id": "minecraft:chorus_fruit",
         "components": {
-            "minecraft:item_name": "{\"translate\":\"echo_kernel.echoed_chorus_fruit\",\"fallback\":\"Echoed Chorus Fruit\"}",
+            "minecraft:item_name": {
+                "translate": "echo_kernel.echoed_chorus_fruit",
+                "fallback": "Echoed Chorus Fruit"
+            },
             "minecraft:item_model": "shroomhearth:echoed_chorus_fruit",
             "minecraft:rarity": "uncommon",
             "!minecraft:use_cooldown": {},

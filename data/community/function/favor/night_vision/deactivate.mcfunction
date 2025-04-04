@@ -2,7 +2,7 @@
 bossbar remove community:favor/night_vision
 
 # announce expiration
-tellraw @a [{"text":"The "},{"color":"#C2FF66","translate":"community.favor.night_vision","hoverEvent":{"action":"show_text","contents":{"translate":"community.favor.night_vision.tooltip"}}},{"color":"white","text":" favor has expired "}]
+tellraw @a [{"text":"The "},{"color":"#C2FF66","translate":"community.favor.night_vision","hover_event":{"action":"show_text","value":{"translate":"community.favor.night_vision.tooltip"}}},{"color":"white","text":" favor has expired "}]
 
 # play sound 
 execute as @a at @s run playsound block.beacon.deactivate player @s ~ ~ ~ 1 1.8
