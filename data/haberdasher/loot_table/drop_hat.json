@@ -26,7 +26,9 @@
                     "functions": [
                         {
                             "function": "set_custom_data",
-                            "tag": "{spore:'head_slot_target'}"
+                            "tag": {
+                                "spore":"head_slot_target"
+                            }
                         }
                     ]
                 }
