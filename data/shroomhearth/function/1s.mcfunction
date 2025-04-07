@@ -31,7 +31,8 @@ execute if score favActive shroomhearth matches 1.. run function community:favor
 execute as @a[tag=recalling] at @s run function recall:recalling
 
 # sitting - clean up empty seats
-execute if entity @e[tag=seat] run function sitting:1s
+#execute if entity @e[tag=seat] run function sitting:1s
+execute as @e[tag=seat_interaction] at @s if block ~ ~-1 ~ minecraft:air run function seats:drop_seat
 
 # Echoes - tracking players and playing marker effects
 function echoes:pulse

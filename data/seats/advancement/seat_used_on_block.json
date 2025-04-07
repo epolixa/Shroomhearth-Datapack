@@ -1,0 +1,29 @@
+{
+    "criteria": {
+        "seat_used_on_block": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "reference",
+                        "name": "seats:match_tool_any_seat"
+                    },
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:location_check",
+                            "predicate": {
+                                "block": {
+                                    "blocks": "minecraft:spawner"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "seats:seat_used_on_block"
+    }
+}
