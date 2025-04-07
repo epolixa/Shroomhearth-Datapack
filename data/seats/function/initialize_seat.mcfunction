@@ -14,4 +14,4 @@ tag @s add initialized
 
 say seat initialized
 
-execute if block ~ ~-1 ~ minecraft:air run function seats:drop_seat
+execute if block ~ ~-0.0625 ~ minecraft:air run function seats:drop_seat
