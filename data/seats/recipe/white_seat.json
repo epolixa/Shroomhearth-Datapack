@@ -17,7 +17,7 @@
                 "translate": "seats.white_seat",
                 "fallback": "White Seat"
             },
-            "minecraft:item_model": "minecraft:white_carpet",
+            "minecraft:item_model": "shroomhearth:white_seat",
             "minecraft:max_stack_size": 1,
             "minecraft:entity_data": {
                 "id": "minecraft:interaction",

@@ -1,8 +1,8 @@
 say initializing seat
 
-execute if entity @s[tag=white_seat] run summon minecraft:block_display ~ ~ ~ {"Tags":["seat","seat_block_display","white_seat"],"block_state":{"Name":"minecraft:white_wool"},"height":0.1875,"width":0.75,transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],scale:[0.75f,0.1875f,0.75f],translation:[-0.375f,-0.1875f,-0.375f]}}
+execute if entity @s[tag=white_seat] run summon minecraft:item_display ~ ~ ~ {Tags:["seat","seat_display","white_seat"],item:{id:"minecraft:white_carpet",count:1,components:{"minecraft:item_model":"shroomhearth:white_seat_entity"}},item_display:"head",height:0.1875,width:0.75}
 
-ride @n[tag=seat_block_display,tag=!initialized] mount @s
+ride @n[tag=seat_display,tag=!initialized] mount @s
 
 execute on passengers run tag @s add initialized
 

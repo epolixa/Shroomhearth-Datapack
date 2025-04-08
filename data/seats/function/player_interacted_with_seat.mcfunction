@@ -5,3 +5,5 @@ say player interacted with seat
 ride @s mount @n[tag=seat_interaction,nbt={interaction:{}}]
 
 execute on vehicle run data remove entity @s interaction
+
+advancement grant @s only seats:take_a_seat
