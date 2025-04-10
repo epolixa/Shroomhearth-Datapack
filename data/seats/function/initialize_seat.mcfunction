@@ -13,5 +13,3 @@ playsound minecraft:block.wool.place block @a ~ ~ ~ 1 1.2
 tag @s add initialized
 
 say seat initialized
-
-execute if block ~ ~-0.0625 ~ minecraft:air run function seats:drop_seat
