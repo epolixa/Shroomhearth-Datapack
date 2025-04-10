@@ -2,6 +2,7 @@ advancement revoke @s only seats:player_interacted_with_seat
 
 say player interacted with seat
 
+ride @s dismount
 ride @s mount @n[tag=seat_interaction,nbt={interaction:{}}]
 
 playsound minecraft:block.wool.step block @a ~ ~ ~ 1 1.2
