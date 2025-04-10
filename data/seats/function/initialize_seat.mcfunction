@@ -6,8 +6,6 @@ ride @n[tag=seat_display,tag=!initialized] mount @s
 
 execute on passengers run tag @s add initialized
 
-
-
 playsound minecraft:block.wool.place block @a ~ ~ ~ 1 1.2
 
 tag @s add initialized
