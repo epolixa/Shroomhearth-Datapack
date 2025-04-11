@@ -30,7 +30,10 @@ scoreboard objectives remove playerStrider
 scoreboard objectives remove playerSwim
 scoreboard objectives remove playerWalk
 scoreboard objectives remove playerWalkOnWater
-scoreboard objectives remove playerWalkUnderWater 
+scoreboard objectives remove playerWalkUnderWater
+
+# player horizontol rotation - used to track player rotation for some modules
+scoreboard objectives remove playerHorizontalRotation
 
 # setup UUID component scores
 scoreboard objectives remove UUID1

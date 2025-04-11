@@ -5,7 +5,9 @@ execute if entity @s[tag=red_seat] run summon minecraft:item_display ~ ~ ~ {Tags
 
 ride @n[tag=seat_display,tag=!initialized] mount @s
 
-execute on passengers run tag @s add initialized
+execute on passengers as @p[tag=placed_seat] at @n[tag=seat_display,tag=!initialized] run function seats:set_seat_rotation
+
+execute on passengers run tag @n[tag=seat_display,tag=!initialized] add initialized
 
 playsound minecraft:block.wool.place block @a ~ ~ ~ 1 1.2
 
