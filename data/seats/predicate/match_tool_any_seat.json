@@ -2,24 +2,68 @@
     "condition": "minecraft:any_of",
     "terms": [
         {
-            "condition": "minecraft:match_tool",
-            "predicate": {
-                "predicates": {
-                    "minecraft:custom_data": {
-                        "spore": "white_seat"
-                    }
-                }
-            }
+            "condition": "minecraft:reference",
+            "name": "seats:match_tool_white_seat"
         },
         {
-            "condition": "minecraft:match_tool",
-            "predicate": {
-                "predicates": {
-                    "minecraft:custom_data": {
-                        "spore": "red_seat"
-                    }
-                }
-            }
+            "condition": "minecraft:reference",
+            "name": "seats:match_tool_light_gray_seat"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "seats:match_tool_gray_seat"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "seats:match_tool_black_seat"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "seats:match_tool_brown_seat"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "seats:match_tool_red_seat"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "seats:match_tool_orange_seat"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "seats:match_tool_yellow_seat"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "seats:match_tool_lime_seat"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "seats:match_tool_green_seat"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "seats:match_tool_cyan_seat"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "seats:match_tool_light_blue_seat"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "seats:match_tool_blue_seat"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "seats:match_tool_purple_seat"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "seats:match_tool_magenta_seat"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "seats:match_tool_pink_seat"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "criteria": {
-        "allay_bottle_used_on_block": {
+        "seat_used_on_spawner": {
             "trigger": "minecraft:item_used_on_block",
             "conditions": {
                 "location": [

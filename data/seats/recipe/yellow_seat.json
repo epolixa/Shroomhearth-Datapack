@@ -3,7 +3,7 @@
     "category": "misc",
     "group": "seat",
     "key": {
-        "C": "minecraft:red_carpet",
+        "C": "minecraft:yellow_carpet",
         "S": "minecraft:saddle"
     },
     "pattern": [
@@ -16,23 +16,23 @@
         "id": "minecraft:pig_spawn_egg",
         "components": {
             "minecraft:item_name": {
-                "translate": "seats.red_seat",
-                "fallback": "Red Seat"
+                "translate": "seats.yellow_seat",
+                "fallback": "Yellow Seat"
             },
-            "minecraft:item_model": "shroomhearth:red_seat",
+            "minecraft:item_model": "shroomhearth:yellow_seat",
             "minecraft:max_stack_size": 1,
             "minecraft:entity_data": {
                 "id": "minecraft:interaction",
                 "Tags": [
                     "seat",
                     "seat_interaction",
-                    "red_seat"
+                    "yellow_seat"
                 ],
                 "height": 0.1875,
                 "width": 0.75
             },
             "minecraft:custom_data": {
-                "spore": "red_seat"
+                "spore": "yellow_seat"
             }
         }
     }
