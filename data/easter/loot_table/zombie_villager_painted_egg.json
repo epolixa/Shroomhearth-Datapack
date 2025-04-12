@@ -1,0 +1,26 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:egg",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": "Zombie Villager Painted Egg",
+                                "minecraft:item_model": "minecraft:zombie_villager_spawn_egg",
+                                "minecraft:custom_data": {
+                                    "spore": "zombie_villager_painted_egg"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

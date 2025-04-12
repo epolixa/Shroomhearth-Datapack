@@ -1,0 +1,333 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "easter:allay_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "easter:armadillo_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "easter:axolotl_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "easter:bat_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "easter:bee_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "easter:blaze_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "easter:bogged_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "easter:breeze_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "easter:camel_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "easter:cat_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "easter:cave_spider_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "easter:chicken_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "easter:cod_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "easter:cow_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "easter:creaking_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "easter:creeper_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "easter:dolphin_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "easter:donkey_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "easter:drowned_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "easter:elder_guardian_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "easter:ender_dragon_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "easter:enderman_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "easter:endermite_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "easter:evoker_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "easter:fox_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "easter:frog_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "easter:ghast_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "easter:glow_squid_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "easter:goat_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "easter:guardian_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "easter:hoglin_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "easter:horse_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "easter:husk_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "easter:iron_golem_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "easter:llama_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "easter:magma_cube_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "easter:mooshroom_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "easter:mule_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "easter:ocelot_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "easter:panda_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "easter:parrot_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "easter:phantom_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "easter:pig_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "easter:piglin_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "easter:piglin_brute_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "easter:pillager_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "easter:polar_bear_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "easter:pufferfish_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "easter:rabbit_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "easter:ravager_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "easter:salmon_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "easter:sheep_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "easter:shulker_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "easter:silverfish_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "easter:skeleton_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "easter:skeleton_horse_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "easter:slime_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "easter:sniffer_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "easter:snow_golem_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "easter:spider_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "easter:squid_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "easter:stray_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "easter:strider_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "easter:tadpole_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "easter:trader_llama_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "easter:tropical_fish_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "easter:turtle_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "easter:vex_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "easter:villager_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "easter:vindicator_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "easter:wandering_trader_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "easter:warden_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "easter:witch_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "easter:wither_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "easter:wither_skeleton_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "easter:wolf_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "easter:zoglin_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "easter:zombie_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "easter:zombie_horse_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "easter:zombie_villager_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "easter:zombified_piglin_painted_egg"
+                }
+            ]
+        }
+    ]
+}
