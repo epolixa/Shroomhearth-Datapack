@@ -1,0 +1,26 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:egg",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": "Camel Painted Egg",
+                                "minecraft:item_model": "minecraft:camel_spawn_egg",
+                                "minecraft:custom_data": {
+                                    "spore": "camel_painted_egg"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

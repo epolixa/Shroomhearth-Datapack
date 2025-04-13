@@ -40,6 +40,9 @@ function echoes:pulse
 # Assign allays to special team for no collision
 execute as @e[type=minecraft:allay,tag=!no_collide] run function allay_bottle:1s
 
+# Easter - check all rabbits for easter egg
+execute as @e[type=minecraft:rabbit,tag=!dropped_egg,nbt=!{MoreCarrotTicks:0},limit=1,sort=random] at @s run function easter:drop_painted_egg
+
 # Tick Ender Tome entities
 execute as @e[tag=ender_tome] at @s run function ender_tome:1s_ender_tome
 
