@@ -1,0 +1,35 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:pig_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": {
+                                    "translate": "seats.light_blue_seat",
+                                    "fallback": "Light Blue Seat"
+                                },
+                                "minecraft:item_model": "shroomhearth:light_blue_seat",
+                                "minecraft:max_stack_size": 1,
+                                "minecraft:entity_data": {
+                                    "id": "minecraft:interaction",
+                                    "Tags": ["seat","seat_interaction","light_blue_seat"],
+                                    "height": 0.1875,
+                                    "width": 0.75
+                                },
+                                "minecraft:custom_data": {
+                                    "spore": "light_blue_seat"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

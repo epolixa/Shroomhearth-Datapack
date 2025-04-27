@@ -1,0 +1,25 @@
+{
+    "condition": "minecraft:any_of",
+    "terms": [
+        {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "playerHorizontalRotation": {
+                    "min": 135,
+                    "max": 179
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "playerHorizontalRotation": {
+                    "min": -180,
+                    "max": -134
+                }
+            }
+        }
+    ]
+}

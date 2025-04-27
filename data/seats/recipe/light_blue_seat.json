@@ -1,0 +1,39 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "group": "seat",
+    "key": {
+        "C": "minecraft:light_blue_carpet",
+        "S": "minecraft:saddle"
+    },
+    "pattern": [
+        "CCC",
+        "CSC",
+        "CCC"
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:pig_spawn_egg",
+        "components": {
+            "minecraft:item_name": {
+                "translate": "seats.light_blue_seat",
+                "fallback": "Light Blue Seat"
+            },
+            "minecraft:item_model": "shroomhearth:light_blue_seat",
+            "minecraft:max_stack_size": 1,
+            "minecraft:entity_data": {
+                "id": "minecraft:interaction",
+                "Tags": [
+                    "seat",
+                    "seat_interaction",
+                    "light_blue_seat"
+                ],
+                "height": 0.1875,
+                "width": 0.75
+            },
+            "minecraft:custom_data": {
+                "spore": "light_blue_seat"
+            }
+        }
+    }
+}

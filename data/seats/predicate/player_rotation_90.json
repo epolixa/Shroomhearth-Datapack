@@ -1,0 +1,10 @@
+{
+    "condition": "minecraft:entity_scores",
+    "entity": "this",
+    "scores": {
+        "playerHorizontalRotation": {
+            "min": 45,
+            "max": 134
+        }
+    }
+}

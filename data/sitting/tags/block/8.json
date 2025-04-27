@@ -1,9 +1,0 @@
-{
-    "replace": false,
-    "values": [
-        "minecraft:cake",
-        "minecraft:calibrated_sculk_sensor",
-        "minecraft:sculk_sensor",
-        "minecraft:sculk_shrieker"
-    ]
-}

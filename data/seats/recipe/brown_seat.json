@@ -1,0 +1,39 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "group": "seat",
+    "key": {
+        "C": "minecraft:brown_carpet",
+        "S": "minecraft:saddle"
+    },
+    "pattern": [
+        "CCC",
+        "CSC",
+        "CCC"
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:pig_spawn_egg",
+        "components": {
+            "minecraft:item_name": {
+                "translate": "seats.brown_seat",
+                "fallback": "Brown Seat"
+            },
+            "minecraft:item_model": "shroomhearth:brown_seat",
+            "minecraft:max_stack_size": 1,
+            "minecraft:entity_data": {
+                "id": "minecraft:interaction",
+                "Tags": [
+                    "seat",
+                    "seat_interaction",
+                    "brown_seat"
+                ],
+                "height": 0.1875,
+                "width": 0.75
+            },
+            "minecraft:custom_data": {
+                "spore": "brown_seat"
+            }
+        }
+    }
+}

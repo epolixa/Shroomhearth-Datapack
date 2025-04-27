@@ -32,6 +32,9 @@ scoreboard objectives add playerWalk minecraft.custom:minecraft.walk_one_cm
 scoreboard objectives add playerWalkOnWater minecraft.custom:minecraft.walk_on_water_one_cm
 scoreboard objectives add playerWalkUnderWater minecraft.custom:minecraft.walk_under_water_one_cm
 
+# player horizontol rotation - used to track player rotation for some modules
+scoreboard objectives add playerHorizontalRotation dummy
+
 # setup UUID component scores
 scoreboard objectives add UUID1 dummy
 scoreboard objectives add UUID2 dummy

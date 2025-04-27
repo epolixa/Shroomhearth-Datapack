@@ -1,8 +1,0 @@
-{
-    "replace": false,
-    "values": [
-        "minecraft:conduit",
-        "minecraft:hopper",
-        "minecraft:pointed_dripstone"
-    ]
-}

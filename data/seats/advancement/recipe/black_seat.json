@@ -1,0 +1,58 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_carpet": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:black_carpet"
+                    }
+                ]
+            }
+        },
+        "has_saddle": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:saddle"
+                    }
+                ]
+            }
+        },
+        "has_seat": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:custom_data": {
+                                "spore": "black_seat"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "has_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "seats:black_seat"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_carpet",
+            "has_saddle",
+            "has_seat",
+            "has_recipe"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "seats:black_seat"
+        ]
+    }
+}

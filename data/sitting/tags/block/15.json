@@ -1,8 +1,0 @@
-{
-    "replace": false,
-    "values": [
-        "minecraft:dirt_path",
-        "minecraft:farmland",
-        "minecraft:honey_block"
-    ]
-}
