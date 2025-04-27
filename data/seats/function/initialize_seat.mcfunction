@@ -1,5 +1,7 @@
-say initializing seat
+# Context: A seat interaction entity that has been checked and is being initialized.
+# Position: The seat interaction entity.
 
+# Spawn an item display entity according to the color of the seat
 execute if entity @s[tag=white_seat] run summon minecraft:item_display ~ ~ ~ {Tags:["seat","seat_display","white_seat"],item:{id:"minecraft:white_carpet",count:1,components:{"minecraft:item_model":"shroomhearth:white_seat_entity"}},item_display:"head",height:0.1875,width:0.75}
 execute if entity @s[tag=light_gray_seat] run summon minecraft:item_display ~ ~ ~ {Tags:["seat","seat_display","light_gray_seat"],item:{id:"minecraft:light_gray_carpet",count:1,components:{"minecraft:item_model":"shroomhearth:light_gray_seat_entity"}},item_display:"head",height:0.1875,width:0.75}
 execute if entity @s[tag=gray_seat] run summon minecraft:item_display ~ ~ ~ {Tags:["seat","seat_display","gray_seat"],item:{id:"minecraft:gray_carpet",count:1,components:{"minecraft:item_model":"shroomhearth:gray_seat_entity"}},item_display:"head",height:0.1875,width:0.75}
@@ -17,14 +19,17 @@ execute if entity @s[tag=purple_seat] run summon minecraft:item_display ~ ~ ~ {T
 execute if entity @s[tag=magenta_seat] run summon minecraft:item_display ~ ~ ~ {Tags:["seat","seat_display","magenta_seat"],item:{id:"minecraft:magenta_carpet",count:1,components:{"minecraft:item_model":"shroomhearth:magenta_seat_entity"}},item_display:"head",height:0.1875,width:0.75}
 execute if entity @s[tag=pink_seat] run summon minecraft:item_display ~ ~ ~ {Tags:["seat","seat_display","pink_seat"],item:{id:"minecraft:pink_carpet",count:1,components:{"minecraft:item_model":"shroomhearth:pink_seat_entity"}},item_display:"head",height:0.1875,width:0.75}
 
+# Attach the item display entity to the seat interaction entity
 ride @n[tag=seat_display,tag=!initialized] mount @s
 
+# Set the rotation of the seat according to the player
 execute on passengers as @p[tag=placed_seat] at @n[tag=seat_display,tag=!initialized] run function seats:set_seat_rotation
 
+# Mark the item display as initialized
 execute on passengers run tag @n[tag=seat_display,tag=!initialized] add initialized
 
+# Play a placement sound effect
 playsound minecraft:block.wool.place block @a ~ ~ ~ 1 1.2
 
+# Mark the seat interaction entity as initialized to prevent re-initialization
 tag @s add initialized
-
-say seat initialized
