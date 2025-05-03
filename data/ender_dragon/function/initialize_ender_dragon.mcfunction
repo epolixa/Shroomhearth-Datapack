@@ -11,6 +11,10 @@ scoreboard players set shroomhearth dragStatSlayTime 0
 # Calculate the Ender Dragon's omen_level and determine if it is an Omen Ender Dragon
 function ender_dragon:set_omen_level
 
+# Reset non-omen Ender Dragon name
+# For some reason the CustomName can carry over from a previously fought ender dragon
+data modify entity @s[tag=!omen_ender_dragon] CustomName set value "Ender Dragon"
+
 # Perform additional initialization steps for Omen Ender Dragons
 execute as @s[tag=omen_ender_dragon] run function ender_dragon:initialize_omen_ender_dragon
 
