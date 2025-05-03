@@ -1,11 +1,3 @@
 # revoke advancement
 advancement revoke @s only ender_dragon:dragon_breath_hurt_player
-
-# play sound
-playsound minecraft:block.lava.extinguish hostile @a ~ ~ ~ 1 0.5
-
-# sometimes warp player
-execute if predicate shroomhearth:random_chance_50 run function ender_dragon:warp_player
-
-# play particles after teleporting
-execute at @s run particle minecraft:dragon_breath ~ ~1 ~ 0.5 0.5 0.5 0.1 10
+execute if entity @n[tag=omen_ender_dragon] run function ender_dragon:omen_dragon_breath_hurt_player
