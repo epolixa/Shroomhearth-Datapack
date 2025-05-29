@@ -44,13 +44,11 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": "Ravager Head",
+                "minecraft:note_block_sound": "minecraft:entity.ravager.ambient",
+                "minecraft:custom_data": {
+                  "spore": "ravager_head"
+                },
                 "minecraft:profile": {
-                  "id": [
-                    -988784499,
-                    1538476442,
-                    -1335897902,
-                    1631763943
-                  ],
                   "properties": [
                     {
                       "name": "textures",

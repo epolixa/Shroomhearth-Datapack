@@ -82,13 +82,11 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_name": "Drowned Head",
+                                "minecraft:note_block_sound": "minecraft:entity.drowned.ambient",
+                                "minecraft:custom_data": {
+                                    "spore": "drowned_head"
+                                },
                                 "minecraft:profile": {
-                                    "id": [
-                                        790009440,
-                                        1639859901,
-                                        -1397417282,
-                                        -100772047
-                                    ],
                                     "properties": [
                                         {
                                             "name": "textures",

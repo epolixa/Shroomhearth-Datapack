@@ -226,13 +226,11 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": "Elder Guardian Carapace",
+                "minecraft:note_block_sound": "minecraft:entity.elder_guardian.ambient",
+                "minecraft:custom_data": {
+                  "spore": "elder_guardian_carapace"
+                },
                 "minecraft:profile": {
-                  "id": [
-                    -446003383,
-                    -1974845236,
-                    -1645396848,
-                    -122778525
-                  ],
                   "properties": [
                     {
                       "name": "textures",

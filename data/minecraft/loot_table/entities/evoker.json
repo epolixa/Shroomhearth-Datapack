@@ -72,13 +72,11 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_name": "Evoker Head",
+                                "minecraft:note_block_sound": "minecraft:entity.evoker.ambient",
+                                "minecraft:custom_data": {
+                                    "spore": "evoker_head"
+                                },
                                 "minecraft:profile": {
-                                    "id": [
-                                        -17612447,
-                                        -1953806226,
-                                        -1654419791,
-                                        -89666527
-                                    ],
                                     "properties": [
                                         {
                                             "name": "textures",

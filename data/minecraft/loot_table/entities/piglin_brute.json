@@ -27,13 +27,11 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": "Piglin Brute Head",
+                "minecraft:note_block_sound": "minecraft:entity.piglin_brute.ambient",
+                "minecraft:custom_data": {
+                  "spore": "piglin_brute_head"
+                },
                 "minecraft:profile": {
-                  "id": [
-                    -1495583819,
-                    509627582,
-                    -1550874603,
-                    2046378806
-                  ],
                   "properties": [
                     {
                       "name": "textures",

@@ -154,13 +154,11 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_name": "Magma Cube Core",
+                                "minecraft:note_block_sound": "minecraft:entity.magma_cube.jump",
+                                "minecraft:custom_data": {
+                                    "spore": "magma_cube_core"
+                                },
                                 "minecraft:profile": {
-                                    "id": [
-                                        -1767051932,
-                                        1535462297,
-                                        -1205513267,
-                                        2057279270
-                                    ],
                                     "properties": [
                                         {
                                             "name": "textures",

@@ -197,13 +197,11 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_name": "Guardian Carapace",
+                                "minecraft:note_block_sound": "minecraft:entity.guardian.ambient",
+                                "minecraft:custom_data": {
+                                    "spore": "guardian_carapace"
+                                },
                                 "minecraft:profile": {
-                                    "id": [
-                                        1653544400,
-                                        -476295207,
-                                        -1672573887,
-                                        -722121943
-                                    ],
                                     "properties": [
                                         {
                                             "name": "textures",

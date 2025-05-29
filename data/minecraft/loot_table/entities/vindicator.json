@@ -62,13 +62,11 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": "Vindicator Head",
+                "minecraft:note_block_sound": "minecraft:entity.vindicator.ambient",
+                "minecraft:custom_data": {
+                  "spore": "vindicator_head"
+                },
                 "minecraft:profile": {
-                  "id": [
-                    -1705780283,
-                    128205205,
-                    -1982555327,
-                    1794311501
-                  ],
                   "properties": [
                     {
                       "name": "textures",
