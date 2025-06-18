@@ -127,13 +127,11 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": "Bogged Skull",
+                "minecraft:note_block_sound": "minecraft:entity.bogged.ambient",
+                "minecraft:custom_data": {
+                  "spore": "bogged_skull"
+                },
                 "minecraft:profile": {
-                  "id": [
-                    1565737524,
-                    -1843770786,
-                    -1232181453,
-                    433123778
-                  ],
                   "properties": [
                     {
                       "name": "textures",

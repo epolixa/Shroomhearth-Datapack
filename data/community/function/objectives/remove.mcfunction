@@ -63,3 +63,4 @@ scoreboard players reset favHorsepower shroomhearth
 scoreboard players reset favDisableCramming shroomhearth
 scoreboard players reset favDisableSpawning shroomhearth
 scoreboard players reset favDisableFallDamage shroomhearth
+scoreboard players reset favLocatorBar shroomhearth

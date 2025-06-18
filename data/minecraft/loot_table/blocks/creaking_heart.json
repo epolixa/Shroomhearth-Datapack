@@ -94,14 +94,15 @@
           }
         },
         {
-          "condition": "minecraft:random_chance_with_enchanted_bonus",
-          "enchanted_chance": {
-            "type": "minecraft:linear",
-            "base": 0.035,
-            "per_level_above_first": 0.01
-          },
-          "enchantment": "minecraft:looting",
-          "unenchanted_chance": 0.025
+          "chances": [
+            0.025,
+            0.035,
+            0.045,
+            0.055,
+            0.065
+          ],
+          "condition": "minecraft:table_bonus",
+          "enchantment": "minecraft:fortune"
         }
       ],
       "entries": [

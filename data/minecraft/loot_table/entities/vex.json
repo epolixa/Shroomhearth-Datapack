@@ -27,13 +27,11 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": "Vex Head",
+                "minecraft:note_block_sound": "minecraft:entity.vex.ambient",
+                "minecraft:custom_data": {
+                  "spore": "vex_head"
+                },
                 "minecraft:profile": {
-                  "id": [
-                    -152940523,
-                    445662955,
-                    -2001220033,
-                    348061908
-                  ],
                   "properties": [
                     {
                       "name": "textures",

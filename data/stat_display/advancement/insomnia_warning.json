@@ -1,6 +1,6 @@
 {
     "criteria": {
-        "insomnia": {
+        "insomnia_warning": {
             "trigger": "minecraft:location",
             "conditions": {
                 "player": [
@@ -13,6 +13,6 @@
         }
     },
     "rewards": {
-        "function": "stat_display:insomnia"
+        "function": "stat_display:insomnia_warning"
     }
 }

@@ -62,13 +62,11 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": "Breeze Head",
+                "minecraft:note_block_sound": "minecraft:entity.breeze.idle_ground",
+                "minecraft:custom_data": {
+                  "spore": "breeze_head"
+                },
                 "minecraft:profile": {
-                  "id": [
-                    -1448533537,
-                    1470778645,
-                    -1193497444,
-                    343109422
-                  ],
                   "properties": [
                     {
                       "name": "textures",

@@ -92,8 +92,17 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_name": "Cave Spider Head",
+                                "minecraft:note_block_sound": "minecraft:entity.spider.ambient",
+                                "minecraft:custom_data": {
+                                    "spore": "cave_spider_head"
+                                },
                                 "minecraft:profile": {
-                                    "name": "MHF_CaveSpider"
+                                    "properties": [
+                                        {
+                                            "name": "textures", 
+                                            "value": "ewogICJ0aW1lc3RhbXAiIDogMTc0ODUzMzMzNDM1NSwKICAicHJvZmlsZUlkIiA6ICJjYWIyODc3MWYwY2Q0ZmU3YjEyOTAyYzY5ZWJhNzlhNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNSEZfQ2F2ZVNwaWRlciIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS83N2IwNzA2M2E2ODc0ZmEzZTIyNTQ4ZTAyMDYyYmQ3MzNjMjU4ODU5Mjk4MDk2MjQxODBhZWJiODUxNTU3ZjZhIgogICAgfQogIH0KfQ=="
+                                        }
+                                    ]
                                 }
                             }
                         }

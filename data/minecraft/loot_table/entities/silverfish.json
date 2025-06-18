@@ -55,13 +55,11 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": "Silverfish Head",
+                "minecraft:note_block_sound": "minecraft:entity.silverfish.ambient",
+                "minecraft:custom_data": {
+                  "spore": "silverfish_head"
+                },
                 "minecraft:profile": {
-                  "id": [
-                    816106844,
-                    1465142712,
-                    -1990191102,
-                    712270461
-                  ],
                   "properties": [
                     {
                       "name": "textures",

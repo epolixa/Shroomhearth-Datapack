@@ -212,13 +212,11 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_name": "Witch Head",
+                                "minecraft:note_block_sound": "minecraft:entity.witch.ambient",
+                                "minecraft:custom_data": {
+                                    "spore": "witch_head"
+                                },
                                 "minecraft:profile": {
-                                    "id": [
-                                        2140320726,
-                                        1591757494,
-                                        -1347542522,
-                                        -1185854877
-                                    ],
                                     "properties": [
                                         {
                                             "name": "textures",

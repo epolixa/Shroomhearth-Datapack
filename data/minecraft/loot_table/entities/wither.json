@@ -27,13 +27,11 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": "Wither Head",
+                "minecraft:note_block_sound": "minecraft:entity.wither.ambient",
+                "minecraft:custom_data": {
+                  "spore": "wither_head"
+                },
                 "minecraft:profile": {
-                  "id": [
-                    295450395,
-                    -367638583,
-                    -1384176717,
-                    -661368310
-                  ],
                   "properties": [
                     {
                       "name": "textures",

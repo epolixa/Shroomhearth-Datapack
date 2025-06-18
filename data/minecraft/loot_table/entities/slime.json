@@ -103,8 +103,17 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_name": "Slime Core",
+                                "minecraft:note_block_sound": "minecraft:entity.slime.jump",
+                                "minecraft:custom_data": {
+                                    "spore": "slime_core"
+                                },
                                 "minecraft:profile": {
-                                    "name": "MHF_Slime"
+                                    "properties": [
+                                        {
+                                            "name": "textures",
+                                            "value": "ewogICJ0aW1lc3RhbXAiIDogMTc0ODU1MDg5NTkwNSwKICAicHJvZmlsZUlkIiA6ICI4NzBhYmE5MzQwZTg0OGIzODljNTMyZWNlMDBkNjYzMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNSEZfU2xpbWUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODZjMjdiMDEzZjFiZjMzNDQ4NjllODFlNWM2MTAwMjdiYzQ1ZWM1Yjc5NTE0ZmRjOTZlMDFkZjFiN2UzYTM4NyIKICAgIH0KICB9Cn0="
+                                        }
+                                    ]
                                 }
                             }
                         }

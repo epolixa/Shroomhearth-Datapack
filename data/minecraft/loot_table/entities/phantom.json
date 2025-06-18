@@ -62,13 +62,11 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_name": "Phantom Head",
+                                "minecraft:note_block_sound": "minecraft:entity.phantom.ambient",
+                                "minecraft:custom_data": {
+                                    "spore": "phantom_head"
+                                },
                                 "minecraft:profile": {
-                                    "id": [
-                                        -1836012072,
-                                        -1030665638,
-                                        -1886758577,
-                                        374605475
-                                    ],
                                     "properties": [
                                         {
                                             "name": "textures",

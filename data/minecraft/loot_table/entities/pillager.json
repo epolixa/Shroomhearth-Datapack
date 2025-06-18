@@ -64,13 +64,11 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": "Pillager Head",
+                "minecraft:note_block_sound": "minecraft:entity.pillager.ambient",
+                "minecraft:custom_data": {
+                  "spore": "pillager_head"
+                },
                 "minecraft:profile": {
-                  "id": [
-                    449435050,
-                    1190088049,
-                    -1334360732,
-                    942410307
-                  ],
                   "properties": [
                     {
                       "name": "textures",

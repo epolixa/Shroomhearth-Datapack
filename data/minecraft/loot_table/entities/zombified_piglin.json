@@ -112,13 +112,11 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": "Zombified Piglin Head",
+                "minecraft:note_block_sound": "minecraft:entity.zombified_piglin.ambient",
+                "minecraft:custom_data": {
+                  "spore": "zombified_piglin_head"
+                },
                 "minecraft:profile": {
-                  "id": [
-                    -2013856408,
-                    -1566488469,
-                    -1354692651,
-                    1652767024
-                  ],
                   "properties": [
                     {
                       "name": "textures",
