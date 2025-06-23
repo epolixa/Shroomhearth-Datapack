@@ -128,13 +128,11 @@
 							"function": "minecraft:set_components",
 							"components": {
 								"minecraft:item_name": "Husk Head",
+								"minecraft:note_block_sound": "minecraft:entity.husk.ambient",
+                                "minecraft:custom_data": {
+                                    "spore": "husk_head"
+                                },
 								"minecraft:profile": {
-									"id": [
-										448664699,
-										-361085172,
-										-1904994610,
-										-1880265546
-									],
 									"properties": [
 										{
 											"name": "textures",

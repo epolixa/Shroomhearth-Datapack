@@ -27,13 +27,11 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": "Endermite Head",
+                "minecraft:note_block_sound": "minecraft:entity.endermite.ambient",
+                "minecraft:custom_data": {
+                  "spore": "endermite_head"
+                },
                 "minecraft:profile": {
-                  "id": [
-                    -1356981155,
-                    -1011923515,
-                    -1813307092,
-                    709382968
-                  ],
                   "properties": [
                     {
                       "name": "textures",

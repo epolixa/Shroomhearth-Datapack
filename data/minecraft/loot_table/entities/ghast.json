@@ -87,8 +87,17 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_name": "Ghast Head",
+                                "minecraft:note_block_sound": "minecraft:entity.ghast.ambient",
+                                "minecraft:custom_data": {
+                                    "spore": "ghast_head"
+                                },
                                 "minecraft:profile": {
-                                    "name": "MHF_Ghast"
+                                    "properties": [
+                                        {
+                                            "name": "textures",
+                                            "value": "ewogICJ0aW1lc3RhbXAiIDogMTc0ODUzNjk3ODY4MiwKICAicHJvZmlsZUlkIiA6ICIwNjMwODVhNjc5N2Y0Nzg1YmUxYTIxY2Q3NTgwZjc1MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJNSEZfR2hhc3QiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGE0ZTQyZWIxNWEwODgxM2E2YTZmNjFmMTBhYTI4ODAxOWZhMGZhZTEwNmEyOTUzZGRiNDZmNzdlZTJkNzdmIgogICAgfQogIH0KfQ=="
+                                        }
+                                    ]
                                 }
                             }
                         }

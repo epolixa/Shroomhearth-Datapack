@@ -128,13 +128,11 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_name": "Zombie Villager Head",
+                                "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
+                                "minecraft:custom_data": {
+                                    "spore": "zombie_villager_head"
+                                },
                                 "minecraft:profile": {
-                                    "id": [
-                                        -1844245497,
-                                        848579823,
-                                        -1336727656,
-                                        1418081011
-                                    ],
                                     "properties": [
                                         {
                                             "name": "textures",

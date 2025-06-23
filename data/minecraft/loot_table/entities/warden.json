@@ -37,13 +37,11 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": "Warden Head",
+                "minecraft:note_block_sound": "minecraft:entity.warden.ambient",
+                "minecraft:custom_data": {
+                  "spore": "warden_head"
+                },
                 "minecraft:profile": {
-                  "id": [
-                    1531857479,
-                    -78233159,
-                    -1681038604,
-                    1859460671
-                  ],
                   "properties": [
                     {
                       "name": "textures",

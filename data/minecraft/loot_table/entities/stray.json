@@ -127,13 +127,11 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_name": "Stray Skull",
+                                "minecraft:note_block_sound": "minecraft:entity.stray.ambient",
+                                "minecraft:custom_data": {
+                                    "spore": "stray_skull"
+                                },
                                 "minecraft:profile": {
-                                    "id": [
-                                        1785929880,
-                                        503663408,
-                                        -1696403692,
-                                        -78066405
-                                    ],
                                     "properties": [
                                         {
                                             "name": "textures",

@@ -19,7 +19,39 @@
 					{
 						"items": "minecraft:player_head",
 						"components": {
-							"minecraft:item_name": "Blaze Head"
+							"minecraft:custom_data": {
+								"spore": "blaze_head"
+							}
+						}
+					}
+				]
+			}
+		},
+		"bogged": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:player_head",
+						"components": {
+							"minecraft:custom_data": {
+								"spore": "bogged_skull"
+							}
+						}
+					}
+				]
+			}
+		},
+		"breeze": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:player_head",
+						"components": {
+							"minecraft:custom_data": {
+								"spore": "breeze_head"
+							}
 						}
 					}
 				]
@@ -32,7 +64,9 @@
 					{
 						"items": "minecraft:player_head",
 						"components": {
-							"minecraft:item_name": "Cave Spider Head"
+							"minecraft:custom_data": {
+								"spore": "cave_spider_head"
+							}
 						}
 					}
 				]
@@ -45,7 +79,9 @@
 					{
 						"items": "minecraft:player_head",
 						"components": {
-							"minecraft:item_name": "Creaking Head"
+							"minecraft:custom_data": {
+								"spore": "creaking_head"
+							}
 						}
 					}
 				]
@@ -68,7 +104,24 @@
 					{
 						"items": "minecraft:player_head",
 						"components": {
-							"minecraft:item_name": "Drowned Head"
+							"minecraft:custom_data": {
+								"spore": "drowned_head"
+							}
+						}
+					}
+				]
+			}
+		},
+		"elder_guardian": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:player_head",
+						"components": {
+							"minecraft:custom_data": {
+								"spore": "elder_guardian_carapace"
+							}
 						}
 					}
 				]
@@ -91,20 +144,24 @@
 					{
 						"items": "minecraft:player_head",
 						"components": {
-							"minecraft:item_name": "Enderman Head"
+							"minecraft:custom_data": {
+								"spore": "enderman_head"
+							}
 						}
 					}
 				]
 			}
 		},
-		"vindicator": {
+		"endermite": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
 					{
 						"items": "minecraft:player_head",
 						"components": {
-							"minecraft:item_name": "Vindicator Head"
+							"minecraft:custom_data": {
+								"spore": "endermite_head"
+							}
 						}
 					}
 				]
@@ -117,20 +174,9 @@
 					{
 						"items": "minecraft:player_head",
 						"components": {
-							"minecraft:item_name": "Evoker Head"
-						}
-					}
-				]
-			}
-		},
-		"pillager": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"items": "minecraft:player_head",
-						"components": {
-							"minecraft:item_name": "Pillager Head"
+							"minecraft:custom_data": {
+								"spore": "evoker_head"
+							}
 						}
 					}
 				]
@@ -143,7 +189,9 @@
 					{
 						"items": "minecraft:player_head",
 						"components": {
-							"minecraft:item_name": "Ghast Head"
+							"minecraft:custom_data": {
+								"spore": "ghast_head"
+							}
 						}
 					}
 				]
@@ -156,7 +204,24 @@
 					{
 						"items": "minecraft:player_head",
 						"components": {
-							"minecraft:item_name": "Guardian Carapace"
+							"minecraft:custom_data": {
+								"spore": "guardian_carapace"
+							}
+						}
+					}
+				]
+			}
+		},
+		"hoglin": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:player_head",
+						"components": {
+							"minecraft:custom_data": {
+								"spore": "hoglin_head"
+							}
 						}
 					}
 				]
@@ -169,7 +234,9 @@
 					{
 						"items": "minecraft:player_head",
 						"components": {
-							"minecraft:item_name": "Husk Head"
+							"minecraft:custom_data": {
+								"spore": "husk_head"
+							}
 						}
 					}
 				]
@@ -182,7 +249,9 @@
 					{
 						"items": "minecraft:player_head",
 						"components": {
-							"minecraft:item_name": "Magma Cube Core"
+							"minecraft:custom_data": {
+								"spore": "magma_cube_core"
+							}
 						}
 					}
 				]
@@ -195,7 +264,64 @@
 					{
 						"items": "minecraft:player_head",
 						"components": {
-							"minecraft:item_name": "Phantom Head"
+							"minecraft:custom_data": {
+								"spore": "phantom_head"
+							}
+						}
+					}
+				]
+			}
+		},
+		"piglin_brute": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:player_head",
+						"components": {
+							"minecraft:custom_data": {
+								"spore": "piglin_brute_head"
+							}
+						}
+					}
+				]
+			}
+		},
+		"piglin": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:piglin_head"
+					}
+				]
+			}
+		},
+		"pillager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:player_head",
+						"components": {
+							"minecraft:custom_data": {
+								"spore": "pillager_head"
+							}
+						}
+					}
+				]
+			}
+		},
+		"ravager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:player_head",
+						"components": {
+							"minecraft:custom_data": {
+								"spore": "ravager_head"
+							}
 						}
 					}
 				]
@@ -208,12 +334,29 @@
 					{
 						"items": "minecraft:player_head",
 						"components": {
-							"minecraft:item_name": "Shulker Core"
+							"minecraft:custom_data": {
+								"spore": "shulker_core"
+							}
 						}
 					}
 				]
 			}
 		},
+		"silverfish": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:player_head",
+						"components": {
+							"minecraft:custom_data": {
+								"spore": "silverfish_head"
+							}
+						}
+					}
+				]
+			}
+		},	
 		"skeleton": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
@@ -231,7 +374,9 @@
 					{
 						"items": "minecraft:player_head",
 						"components": {
-							"minecraft:item_name": "Slime Core"
+							"minecraft:custom_data": {
+								"spore": "slime_core"
+							}
 						}
 					}
 				]
@@ -244,7 +389,9 @@
 					{
 						"items": "minecraft:player_head",
 						"components": {
-							"minecraft:item_name": "Spider Head"
+							"minecraft:custom_data": {
+								"spore": "spider_head"
+							}
 						}
 					}
 				]
@@ -257,7 +404,54 @@
 					{
 						"items": "minecraft:player_head",
 						"components": {
-							"minecraft:item_name": "Stray Head"
+							"minecraft:custom_data": {
+								"spore": "stray_skull"
+							}
+						}
+					}
+				]
+			}
+		},
+		"vex": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:player_head",
+						"components": {
+							"minecraft:custom_data": {
+								"spore": "vex_head"
+							}
+						}
+					}
+				]
+			}
+		},
+		"vindicator": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:player_head",
+						"components": {
+							"minecraft:custom_data": {
+								"spore": "vindicator_head"
+							}
+						}
+					}
+				]
+			}
+		},
+		"warden": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:player_head",
+						"components": {
+							"minecraft:custom_data": {
+								"spore": "warden_head"
+							}
 						}
 					}
 				]
@@ -270,7 +464,24 @@
 					{
 						"items": "minecraft:player_head",
 						"components": {
-							"minecraft:item_name": "Witch Head"
+							"minecraft:custom_data": {
+								"spore": "witch_head"
+							}
+						}
+					}
+				]
+			}
+		},
+		"wither": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:player_head",
+						"components": {
+							"minecraft:custom_data": {
+								"spore": "wither_head"
+							}
 						}
 					}
 				]
@@ -286,12 +497,17 @@
 				]
 			}
 		},
-		"zombie": {
+		"zoglin": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:zombie_head"
+						"items": "minecraft:player_head",
+						"components": {
+							"minecraft:custom_data": {
+								"spore": "zoglin_head"
+							}
+						}
 					}
 				]
 			}
@@ -303,100 +519,24 @@
 					{
 						"items": "minecraft:player_head",
 						"components": {
-							"minecraft:item_name": "Zombie Villager Head"
+							"minecraft:custom_data": {
+								"spore": "zombie_villager_head"
+							}
 						}
 					}
 				]
 			}
 		},
-		"silverfish": {
+		"zombie": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
 					{
-						"items": "minecraft:player_head",
-						"components": {
-							"minecraft:item_name": "Silverfish Head"
-						}
+						"items": "minecraft:zombie_head"
 					}
 				]
 			}
-		},
-		"endermite": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"items": "minecraft:player_head",
-						"components": {
-							"minecraft:item_name": "Endermite Head"
-						}
-					}
-				]
-			}
-		},
-		"vex": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"items": "minecraft:player_head",
-						"components": {
-							"minecraft:item_name": "Vex Head"
-						}
-					}
-				]
-			}
-		},
-		"ravager": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"items": "minecraft:player_head",
-						"components": {
-							"minecraft:item_name": "Ravager Head"
-						}
-					}
-				]
-			}
-		},
-		"elder_guardian": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"items": "minecraft:player_head",
-						"components": {
-							"minecraft:item_name": "Elder Guardian Carapace"
-						}
-					}
-				]
-			}
-		},
-		"wither": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"items": "minecraft:player_head",
-						"components": {
-							"minecraft:item_name": "Wither Head"
-						}
-					}
-				]
-			}
-		},
-		"piglin": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"items": "minecraft:piglin_head"
-					}
-				]
-			}
-		},
+		},		
 		"zombified_piglin": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
@@ -404,59 +544,9 @@
 					{
 						"items": "minecraft:player_head",
 						"components": {
-							"minecraft:item_name": "Zombified Piglin Head"
-						}
-					}
-				]
-			}
-		},
-		"hoglin": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"items": "minecraft:player_head",
-						"components": {
-							"minecraft:item_name": "Hoglin Head"
-						}
-					}
-				]
-			}
-		},
-		"zoglin": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"items": "minecraft:player_head",
-						"components": {
-							"minecraft:item_name": "Zoglin Head"
-						}
-					}
-				]
-			}
-		},
-		"piglin_brute": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"items": "minecraft:player_head",
-						"components": {
-							"minecraft:item_name": "Piglin Brute Head"
-						}
-					}
-				]
-			}
-		},
-		"warden": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"items": "minecraft:player_head",
-						"components": {
-							"minecraft:item_name": "Warden Head"
+							"minecraft:custom_data": {
+								"spore": "zombified_piglin_head"
+							}
 						}
 					}
 				]

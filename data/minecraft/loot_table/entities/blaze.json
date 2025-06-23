@@ -62,13 +62,11 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_name": "Blaze Head",
+                                "minecraft:note_block_sound": "minecraft:entity.blaze.ambient",
+                                "minecraft:custom_data": {
+                                    "spore": "blaze_head"
+                                },
                                 "minecraft:profile": {
-                                    "id": [
-                                        -220746469,
-                                        -680045363,
-                                        -1946890128,
-                                        1419100549
-                                    ],
                                     "properties": [
                                         {
                                             "name": "textures",
