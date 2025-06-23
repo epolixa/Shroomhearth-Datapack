@@ -35,6 +35,7 @@ execute as @e[tag=seat_interaction] at @s if block ~ ~-0.0625 ~ #seats:intangibl
 
 # Echoes - tracking players and playing marker effects
 function echoes:pulse
+function echoes2:pulse
 
 # Assign allays to special team for no collision
 execute as @e[type=minecraft:allay,tag=!no_collide] run function allay_bottle:1s

@@ -1,0 +1,1 @@
+execute summon minecraft:interaction run function echoes2:initialize_echoes

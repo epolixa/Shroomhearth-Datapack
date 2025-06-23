@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:confirmation",
+  "title": {
+    "text": "Echoes"
+  },
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": {
+      "text": "Write a short message for this Player to see when they return"
+    }
+  },
+  "inputs": [
+    {
+      "type": "minecraft:text",
+      "key": "message",
+      "label": {
+        "text": "Message"
+      }
+    }
+  ],
+  "yes": {
+    "label": {
+      "text": "Add Message"
+    },
+    "action": {
+      "type": "minecraft:dynamic/run_command",
+      "template": "tellraw @a [{text: \"$(message)\"}]"
+    }
+  },
+  "no": {
+    "label": {
+      "text": "Cancel"
+    }
+  }
+}

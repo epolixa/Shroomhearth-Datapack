@@ -1,0 +1,1 @@
+execute as @e[tag=echoes2] at @s run particle minecraft:soul_fire_flame ~ ~0.8 ~ 0.1 0.2 0.1 0 1 force
