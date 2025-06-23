@@ -21,8 +21,18 @@
     "effects": {
         "minecraft:attributes": [
             {
-                "id": "runes:rune_of_swiftness",
+                "id": "runes:rune_of_swiftness_movement_speed",
                 "attribute": "movement_speed",
+                "operation": "add_multiplied_base",
+                "amount": {
+                    "type": "minecraft:linear",
+                    "base": 0.2,
+                    "per_level_above_first": 0.2
+                }
+            },
+            {
+                "id": "runes:rune_of_swiftness_flying_speed",
+                "attribute": "flying_speed",
                 "operation": "add_multiplied_base",
                 "amount": {
                     "type": "minecraft:linear",
