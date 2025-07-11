@@ -11,6 +11,7 @@
         "minecraft:slime",
         "minecraft:stray",
         "minecraft:spider",
-        "minecraft:zombie"
+        "minecraft:zombie",
+        "minecraft:bogged"
     ]
 }
