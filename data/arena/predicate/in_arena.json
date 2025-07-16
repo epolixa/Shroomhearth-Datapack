@@ -20,6 +20,10 @@
         {
             "condition": "minecraft:reference",
             "name": "arena:in_goblin_arena"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "arena:in_venshari_arena"
         }
     ]
 }
