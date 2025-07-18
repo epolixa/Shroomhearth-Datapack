@@ -7,7 +7,3 @@ tag @s remove sleeping
 # query time and reset weather if player woke up during day (likely a full sleep)
 execute store result score shroomhearth dayTime run time query daytime
 execute unless score shroomhearth dayTime matches 12010..23992 run weather clear
-
-# use a predicate to detect if it's thundering
-# @see interactive predicate generator https://misode.github.io/predicate/
-execute if predicate sleeping:is_thundering run weather clear
