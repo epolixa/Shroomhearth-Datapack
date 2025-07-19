@@ -8,4 +8,4 @@ time add 10
 execute if predicate sleeping:is_thundering store result score shroomhearth dayTime run time query daytime
 
 # when it is daytime and thundering, then force clear the weather so that the player can be woken up
-execute if predicate sleeping:is_thundering if score shroomhearth dayTime matches 12010..23992 run weather clear
+execute if predicate sleeping:is_thundering unless score shroomhearth dayTime matches 12010..23992 run weather clear
