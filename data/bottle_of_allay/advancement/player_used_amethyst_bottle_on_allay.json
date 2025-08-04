@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "player_used_amethyst_bottle_on_allay": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:allay"
+                },
+                "item": {
+                    "predicates": {
+                        "minecraft:custom_data": {
+                            "spore": "amethyst_bottle"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "bottle_of_allay:player_used_amethyst_bottle_on_allay"
+    }
+}

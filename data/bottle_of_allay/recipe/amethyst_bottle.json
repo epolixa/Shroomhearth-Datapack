@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "key": {
+        "A": "minecraft:amethyst_shard",
+        "B": "minecraft:glass_bottle"
+    },
+    "pattern": [
+        " A ",
+        "ABA",
+        " A "
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:glass_bottle",
+        "components": {
+            "minecraft:item_name": {
+                "translate": "bottle_of_allay.amethyst_bottle",
+                "fallback": "Amethyst Bottle"
+            },
+            "minecraft:item_model": "shroomhearth:amethyst_bottle",
+            "minecraft:max_stack_size": 16,
+            "minecraft:custom_data": {
+                "spore": "amethyst_bottle"
+            }
+        }
+    }
+}

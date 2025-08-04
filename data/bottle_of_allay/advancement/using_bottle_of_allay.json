@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "using_bottle_of_allay": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "item": {
+                    "predicates": {
+                        "minecraft:custom_data": {
+                            "spore": "bottle_of_allay"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "bottle_of_allay:using_bottle_of_allay"
+    }
+}
