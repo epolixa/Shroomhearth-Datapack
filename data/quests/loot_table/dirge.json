@@ -1,0 +1,30 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:bow",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": {
+                                    "translate": "quests.dirge",
+                                    "fallback": "Dirge"
+                                },
+                                "minecraft:item_model": "shroomhearth:venshari/dirge",
+                                "minecraft:rarity": "epic",
+                                "minecraft:custom_data": {
+                                    "spore": "dirge"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
