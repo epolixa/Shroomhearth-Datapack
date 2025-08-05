@@ -5,8 +5,8 @@
 tellraw @a[tag=debug_echoes2] "[echoes.m_handle_offline_player] $(name) is offline."
 
 # Summon a new echoes interaction entity
-$execute positioned $(x) $(y) $(z) \
-in $(dimension) \
+$execute in $(dimension) \
+positioned $(x) $(y) $(z) \
 run summon minecraft:interaction ~ ~0.8 ~ {\
 Tags:["echoes_interaction","echoes_new"],\
 data:{player:{uuid:$(uuid),name:$(name)},visitors:[]},\
