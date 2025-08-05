@@ -173,6 +173,114 @@
             "conditions": {
                 "recipe_id": "shroomhearth:copper/oxidize_weathered_cut_copper"
             }
+        },
+        "oxidize_lightning_rod": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "shroomhearth:copper/oxidize_lightning_rod"
+            }
+        },
+        "oxidize_exposed_lightning_rod": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "shroomhearth:copper/oxidize_exposed_lightning_rod"
+            }
+        },
+        "oxidize_weathered_lightning_rod": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "shroomhearth:copper/oxidize_weathered_lightning_rod"
+            }
+        },
+        "oxidize_copper_chest": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "shroomhearth:copper/oxidize_copper_chest"
+            }
+        },
+        "oxidize_exposed_copper_chest": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "shroomhearth:copper/oxidize_exposed_copper_chest"
+            }
+        },
+        "oxidize_weathered_copper_chest": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "shroomhearth:copper/oxidize_weathered_copper_chest"
+            }
+        },
+        "oxidize_copper_golem_statue": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "shroomhearth:copper/oxidize_copper_golem_statue"
+            }
+        },
+        "oxidize_exposed_copper_golem_statue": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "shroomhearth:copper/oxidize_exposed_copper_golem_statue"
+            }
+        },
+        "oxidize_weathered_copper_golem_statue": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "shroomhearth:copper/oxidize_weathered_copper_golem_statue"
+            }
+        },
+        "oxidize_copper_bars": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "shroomhearth:copper/oxidize_copper_bars"
+            }
+        },
+        "oxidize_exposed_copper_bars": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "shroomhearth:copper/oxidize_exposed_copper_bars"
+            }
+        },
+        "oxidize_weathered_copper_bars": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "shroomhearth:copper/oxidize_weathered_copper_bars"
+            }
+        },
+        "oxidize_copper_chain": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "shroomhearth:copper/oxidize_copper_chain"
+            }
+        },
+        "oxidize_exposed_copper_chain": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "shroomhearth:copper/oxidize_exposed_copper_chain"
+            }
+        },
+        "oxidize_weathered_copper_chain": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "shroomhearth:copper/oxidize_weathered_copper_chain"
+            }
+        },
+        "oxidize_copper_lantern": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "shroomhearth:copper/oxidize_copper_lantern"
+            }
+        },
+        "oxidize_exposed_copper_lantern": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "shroomhearth:copper/oxidize_exposed_copper_lantern"
+            }
+        },
+        "oxidize_weathered_copper_lantern": {
+            "trigger": "minecraft:recipe_crafted",
+            "conditions": {
+                "recipe_id": "shroomhearth:copper/oxidize_weathered_copper_lantern"
+            }
         }
     },
     "requirements": [
@@ -203,7 +311,25 @@
             "oxidize_weathered_copper",
             "oxidize_weathered_cut_copper_slab",
             "oxidize_weathered_cut_copper_stairs",
-            "oxidize_weathered_cut_copper"
+            "oxidize_weathered_cut_copper",
+            "oxidize_lightning_rod",
+            "oxidize_exposed_lightning_rod",
+            "oxidize_weathered_lightning_rod",
+            "oxidize_copper_chest",
+            "oxidize_exposed_copper_chest",
+            "oxidize_weathered_copper_chest",
+            "oxidize_copper_golem_statue",
+            "oxidize_exposed_copper_golem_statue",
+            "oxidize_weathered_copper_golem_statue",
+            "oxidize_copper_bars",
+            "oxidize_exposed_copper_bars",
+            "oxidize_weathered_copper_bars",
+            "oxidize_copper_chain",
+            "oxidize_exposed_copper_chain",
+            "oxidize_weathered_copper_chain",
+            "oxidize_copper_lantern",
+            "oxidize_exposed_copper_lantern",
+            "oxidize_weathered_copper_lantern"
         ]
     ]
 }
