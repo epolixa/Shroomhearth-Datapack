@@ -21,7 +21,7 @@ execute at @n[tag=echoes_interacted] run particle minecraft:soul_fire_flame ~ ~0
 
 # Add interacting player to the interaction entity's visitors
 function shroomhearth:store_player_name
-data modify entity @n[tag=echoes_interacted] data.visitors append from storage shroomhearth:player_name name
+execute as @n[tag=echoes_interacted] run function echoes2:m_store_visitor with storage shroomhearth:player_name
 
 # Clear the interaction marker on target interaction entity
 data remove entity @n[tag=echoes_interacted] interaction
