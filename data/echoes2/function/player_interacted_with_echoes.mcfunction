@@ -10,7 +10,8 @@ advancement revoke @s only echoes2:player_interacted_with_echoes
 tag @n[tag=echoes_interaction,nbt={interaction:{}}] add echoes_interacted
 
 # Play title
-title @s actionbar [{"nbt":"data.player.name","entity":"@n[tag=echoes_interacted]","interpret":true},{"text":" ("},{"score":{"name":"@n[tag=echoes_interacted]","objective":"echoes_pulses"}},{"text":" pulses)"}]
+#title @s actionbar [{"nbt":"data.player.name","entity":"@n[tag=echoes_interacted]","interpret":true},{"text":" ("},{"score":{"name":"@n[tag=echoes_interacted]","objective":"echoes_pulses"}},{"text":" pulses)"}]
+title @s actionbar [{"nbt":"data.player.name","entity":"@n[tag=echoes_interacted]","interpret":true}]
 
 # Play sound
 execute at @n[tag=echoes_interacted] run playsound minecraft:particle.soul_escape player @s ~ ~ ~
