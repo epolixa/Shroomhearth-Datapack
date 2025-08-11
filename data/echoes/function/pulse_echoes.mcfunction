@@ -1,16 +1,13 @@
-# Runs from the context and at the position of an echoes armor stand every second
+# Executor: An interaction entity representing the echoes of an offline player
+# Position: The interaction entity (where the player was last seen)
 
-tellraw @a[tag=debug_echoes] [{"text":"Echoes pulsing, waiting for matching player to return..."}]
+#tellraw @a[tag=debug_echoes] [{"text":"[echoes.pulse_echoes] pulsing Echoes of "},{"nbt":"data.player.name","entity":"@s"},{"text":"..."}]
+
+# Count pulse
+scoreboard players add @s echoes_pulses 1
 
 # Play particles
-particle minecraft:soul_fire_flame ~ ~0.8 ~ 0.1 0.2 0.1 0 1 force
+particle minecraft:soul_fire_flame ~ ~0.125 ~ 0.0625 0.125 0.0625 0 1 force
 
-# Search for matching player
-tag @s remove found_player
-execute positioned as @a[gamemode=!spectator] if score @s UUID1 = @p UUID1 if score @s UUID2 = @p UUID2 if score @s UUID3 = @p UUID3 if score @s UUID4 = @p UUID4 run function echoes:logged_in
-
-# Grant advancements to nearby players if assigned player is not nearby
-execute as @s[tag=!found_player] run advancement grant @a[distance=..2,gamemode=!spectator] only echoes:the_long_dream
-
-# Remove self if assigned player found
-execute as @s[tag=found_player] run kill @s
+# Check if their player is back online and handle dismissal if they are
+function echoes:m_find_echoes_player with entity @s data.player

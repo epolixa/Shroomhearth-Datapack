@@ -7,4 +7,4 @@ data modify storage shroomhearth:echoes players set value []
 # players_index is used to track the current index in the players array while iterating through it
 data modify storage shroomhearth:echoes players_index set value 0
 
-tellraw @a[tag=debug_echoes2] "[echoes.setup_storage] storage ready."
+tellraw @a[tag=debug_echoes] "[echoes.setup_storage] storage ready."

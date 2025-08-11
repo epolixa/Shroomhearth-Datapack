@@ -8,4 +8,4 @@ data modify storage shroomhearth:echoes visitors_text append from entity @s data
 data remove entity @s data.visitors[0]
 
 # go again if we still have visitors
-execute if data entity @s data.visitors[0] run function echoes2:build_visitors_text
+execute if data entity @s data.visitors[0] run function echoes:build_visitors_text

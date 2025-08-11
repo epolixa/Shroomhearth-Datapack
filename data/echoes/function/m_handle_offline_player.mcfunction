@@ -2,7 +2,7 @@
 # Position: Root
 # Data: Target player data, determined as offline
 
-tellraw @a[tag=debug_echoes2] "[echoes.m_handle_offline_player] $(name) is offline."
+tellraw @a[tag=debug_echoes] "[echoes.m_handle_offline_player] $(name) is offline."
 
 # Summon a new echoes interaction entity
 $execute in $(dimension) \

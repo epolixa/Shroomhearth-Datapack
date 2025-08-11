@@ -2,7 +2,7 @@
 # Position: The player
 # Data: The player's data
 
-$tellraw @a[tag=debug_echoes2] "[echoes.m_update_player_storage] updating Player $(UUID) in storage players list..."
+$tellraw @a[tag=debug_echoes] "[echoes.m_update_player_storage] updating Player $(UUID) in storage players list..."
 
 # Check if the player has been added yet
 $execute unless data storage shroomhearth:echoes players[{uuid:$(UUID)}] run tag @s add echoes_untracked

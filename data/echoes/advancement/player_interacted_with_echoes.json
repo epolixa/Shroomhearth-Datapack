@@ -11,6 +11,6 @@
         }
     },
     "rewards": {
-        "function": "echoes2:player_interacted_with_echoes"
+        "function": "echoes:player_interacted_with_echoes"
     }
 }
