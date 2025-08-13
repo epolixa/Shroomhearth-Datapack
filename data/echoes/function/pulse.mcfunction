@@ -1,13 +1,13 @@
-# Process players who don't have echo trackers yet
-execute as @a[tag=!echo_tracking] at @s run function echoes:start_tracking_player
+# Executor: Server
+# Position: Root
 
-# Process echo trackers
-execute as @e[tag=echo_tracker] at @s run function echoes:pulse_echo_tracker
+#tellraw @a[tag=debug_echoes] "[echoes.pulse] pulsing..."
 
-# Process echoes armor stands
-execute as @e[tag=echoes] at @s run function echoes:pulse_echoes
+# Track online players and update their data in the storage list
+execute as @a at @s run function echoes:pulse_players
 
-# Process players touching echoes
-execute as @a[tag=!touched_echoes] at @s if entity @e[tag=echoes,distance=..1] run function echoes:player_touch_echoes
-execute as @a[tag=touched_echoes] at @s unless entity @e[tag=echoes,distance=..1] run tag @s remove touched_echoes
+# Check all players in the storage list and create echoes for any that are no longer online
+function echoes:pulse_storage
 
+# Pulse any echoes interaction entities
+execute as @e[tag=echoes_interaction] at @s run function echoes:pulse_echoes

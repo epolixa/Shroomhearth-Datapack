@@ -5,7 +5,7 @@
             "id": "minecraft:soul_campfire"
         },
         "title": "The Long Dream",
-        "description": "Encounter an offline Player's Echoes",
+        "description": "Visit an offline Player's Echoes",
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,
