@@ -5,11 +5,12 @@
             "entries": [
                 {
                     "type": "item",
-                    "name": "minecraft:glass_bottle",
+                    "name": "minecraft:warped_fungus_on_a_stick",
                     "functions": [
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "!minecraft:max_damage": {},
                                 "minecraft:item_name": {
                                     "translate": "bottle_of_allay.amethyst_bottle",
                                     "fallback": "Amethyst Bottle"

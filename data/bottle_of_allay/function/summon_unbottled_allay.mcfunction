@@ -5,11 +5,11 @@ tag @s add unbottled_allay
 # Set liked player to player who summoned it
 data modify entity @s Brain.memories."minecraft:liked_player".value set from entity @p[tag=used_bottle_of_allay] UUID
 
-# If there is an item entity at the same position as the allay, make the allay hold it
-#execute as @e[type=minecraft:item,distance=..0.8,sort=nearest,limit=1] run function allay_bottle:give_allay_nearby_item
-
 # Set allay holding item in player offhand
 execute as @p[tag=used_bottle_of_allay,predicate=bottle_of_allay:can_give_offhand_item_to_allay] run function bottle_of_allay:give_offhand_item_to_allay
+
+# If the allay is not holding anything yet and there is an item entity nearby, make the allay hold it
+execute as @n[type=minecraft:item,distance=..1.3] unless predicate bottle_of_allay:allay_holding_item run function bottle_of_allay:give_allay_nearby_item
 
 # Fix default name
 #data merge entity @s[nbt={CustomName:{"italic":false,"translate":"allay_bottle.allay_bottle"}}] {CustomName:""}

@@ -25,8 +25,9 @@
                                     "has_consume_particles": false
                                 },
                                 "minecraft:use_remainder": {
-                                    "id": "minecraft:glass_bottle",
+                                    "id": "minecraft:warped_fungus_on_a_stick",
                                     "components": {
+                                        "!minecraft:max_damage": {},
                                         "minecraft:item_name": {
                                             "translate": "bottle_of_allay.amethyst_bottle",
                                             "fallback": "Amethyst Bottle"
