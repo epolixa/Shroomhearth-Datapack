@@ -41,6 +41,10 @@ scoreboard objectives remove rotPitch
 # Flag for if player has Living Island Permit ingredient
 scoreboard objectives remove hasPermitMaterial
 
+# Scoreboard variable for double xp arithmetic
+scoreboard objectives remove experience_value
+scoreboard players reset double_xp_multiplier shroomhearth
+
 # Dummy player global timers for favor status
 scoreboard players reset favHaste shroomhearth
 scoreboard players reset favJumpBoost shroomhearth
@@ -64,3 +68,4 @@ scoreboard players reset favDisableCramming shroomhearth
 scoreboard players reset favDisableSpawning shroomhearth
 scoreboard players reset favDisableFallDamage shroomhearth
 scoreboard players reset favLocatorBar shroomhearth
+scoreboard players reset favDoubleXP shroomhearth

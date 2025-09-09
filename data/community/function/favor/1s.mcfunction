@@ -65,3 +65,6 @@ execute if score favDisableFallDamage shroomhearth matches 1.. run function comm
 
 # Process "Locator Bar" favor
 execute if score favLocatorBar shroomhearth matches 1.. run function community:favor/locator_bar/process
+
+# Process "Double XP" favor
+execute if score favDoubleXP shroomhearth matches 1.. run function community:favor/double_xp/process

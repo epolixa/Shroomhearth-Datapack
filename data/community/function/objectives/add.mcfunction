@@ -44,6 +44,10 @@ scoreboard objectives add rotPitch dummy
 # Flag for if player has Living Island Permit ingredient
 scoreboard objectives add hasPermitMaterial dummy
 
+# Scoreboard variables for double xp arithmetic
+scoreboard objectives add experience_value dummy
+scoreboard players set double_xp_multiplier shroomhearth 2
+
 # Dummy player global timers for favor status
 scoreboard players set favHaste shroomhearth 0
 scoreboard players set favJumpBoost shroomhearth 0
@@ -67,3 +71,4 @@ scoreboard players set favDisableCramming shroomhearth 0
 scoreboard players set favDisableSpawning shroomhearth 0
 scoreboard players set favDisableFallDamage shroomhearth 0
 scoreboard players set favLocatorBar shroomhearth 0
+scoreboard players set favDoubleXP shroomhearth 0
