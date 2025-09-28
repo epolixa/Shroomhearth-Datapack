@@ -11,6 +11,6 @@ execute summon minecraft:experience_orb run function community:favor/double_xp/s
 tag @s remove double_xp_clone_source
 
 particle minecraft:trial_spawner_detection
-playsound minecraft:block.amethyst_block.chime player @a ~ ~ ~
+playsound minecraft:block.amethyst_block.chime player @a ~ ~ ~ 1 2
 
 tag @s add double_xp
