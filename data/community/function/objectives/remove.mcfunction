@@ -64,3 +64,4 @@ scoreboard players reset favDisableCramming shroomhearth
 scoreboard players reset favDisableSpawning shroomhearth
 scoreboard players reset favDisableFallDamage shroomhearth
 scoreboard players reset favLocatorBar shroomhearth
+scoreboard players reset favDoubleXP shroomhearth

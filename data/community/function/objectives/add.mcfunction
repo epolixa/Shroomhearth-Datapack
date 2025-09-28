@@ -67,3 +67,4 @@ scoreboard players set favDisableCramming shroomhearth 0
 scoreboard players set favDisableSpawning shroomhearth 0
 scoreboard players set favDisableFallDamage shroomhearth 0
 scoreboard players set favLocatorBar shroomhearth 0
+scoreboard players set favDoubleXP shroomhearth 0
