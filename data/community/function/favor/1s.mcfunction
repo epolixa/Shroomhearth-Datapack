@@ -63,5 +63,8 @@ execute if score favDisableSpawning shroomhearth matches 1.. run function commun
 # Process "No Fall Damage" favor
 execute if score favDisableFallDamage shroomhearth matches 1.. run function community:favor/disable_fall_damage/process
 
+# Process "Disable PvP" favor
+execute if score favDisablePvp shroomhearth matches 1.. run function community:favor/disable_pvp/process
+
 # Process "Locator Bar" favor
 execute if score favLocatorBar shroomhearth matches 1.. run function community:favor/locator_bar/process
