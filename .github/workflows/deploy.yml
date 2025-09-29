@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Get latest code
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
 
     - name: Sync files
       uses: wangyucode/sftp-upload-action@v1.3.3
@@ -15,6 +15,7 @@ jobs:
         username: ${{ secrets.SFTP_USERNAME }}
         password: ${{ secrets.SFTP_PASSWORD }}
         port: ${{ secrets.SFTP_SERVER_PORT }}
+        localDir: '.'
         remoteDir: '/world/datapacks/Shroomhearth-Datapack/'
         exclude: '**/.git*,**/.git*/**,**/node_modules/**,LICENSE.txt,README.md'
         forceUpload: true
