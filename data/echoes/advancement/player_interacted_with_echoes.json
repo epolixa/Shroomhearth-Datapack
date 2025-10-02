@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "player_interacted_with_echoes": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:interaction",
+                    "nbt": {"Tags":["echoes_interaction"]}
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "echoes:player_interacted_with_echoes"
+    }
+}

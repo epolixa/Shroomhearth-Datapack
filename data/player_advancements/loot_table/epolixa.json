@@ -14,7 +14,8 @@
               "components": {
                 "minecraft:profile": {
                   "name": "epolixa"
-                }
+                },
+                "minecraft:note_block_sound": "shroomhearth:player_head.epolixa"
               }
             }
           ]
