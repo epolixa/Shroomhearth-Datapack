@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ominous_trial_key",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "translate": "hallow_vale.ominous_hallow_vale_trial_key",
+                  "fallback": "Ominous Hallow Vale Trial Key"
+                },
+                "minecraft:item_model": "shroomhearth:ominous_hallow_vale_trial_key",
+                "minecraft:custom_data": {
+                  "spore": "ominous_hallow_vale_trial_key"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:spawners/ominous/trial_chamber/key"
+}

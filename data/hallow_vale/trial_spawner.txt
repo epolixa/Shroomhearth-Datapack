@@ -1,0 +1,3 @@
+/setblock ~ ~ ~ minecraft:trial_spawner{
+    normal_config:"hallow_vale:zombie"
+}
