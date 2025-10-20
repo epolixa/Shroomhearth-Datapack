@@ -1,0 +1,35 @@
+{
+    "loot_tables_to_eject": [
+        {
+            "data": "hallow_vale:hallow_vale_trial_key",
+            "weight": 1
+        },
+        {
+            "data": "hallow_vale:trial_spawners/treats",
+            "weight": 1
+        }
+    ],
+    "simultaneous_mobs": 3.0,
+    "simultaneous_mobs_added_per_player": 0.5,
+    "spawn_potentials": [
+        {
+            "data": {
+                "entity": {
+                    "Size": 1,
+                    "id": "minecraft:slime"
+                }
+            },
+            "weight": 3
+        },
+        {
+            "data": {
+                "entity": {
+                    "Size": 2,
+                    "id": "minecraft:slime"
+                }
+            },
+            "weight": 1
+        }
+    ],
+    "ticks_between_spawn": 20
+}

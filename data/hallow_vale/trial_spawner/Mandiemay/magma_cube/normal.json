@@ -15,7 +15,17 @@
         {
             "data": {
                 "entity": {
-                    "id": "minecraft:zombie"
+                    "Size": 1,
+                    "id": "minecraft:magma_cube"
+                }
+            },
+            "weight": 3
+        },
+        {
+            "data": {
+                "entity": {
+                    "Size": 2,
+                    "id": "minecraft:magma_cube"
                 }
             },
             "weight": 1
