@@ -1,0 +1,30 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_axe",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": {
+                                    "translate": "hallow_vale.bleeding_tooth",
+                                    "fallback": "Bleeding Tooth"
+                                },
+                                "minecraft:item_model": "shroomhearth:bleeding_tooth",
+                                "minecraft:rarity": "epic",
+                                "minecraft:custom_data": {
+                                    "spore": "bleeding_tooth"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
