@@ -80,3 +80,4 @@ function recall:objectives/add
 function sleeping:objectives/add
 function stat_display:objectives/add
 function wither:objectives/add
+function relics:objectives/add

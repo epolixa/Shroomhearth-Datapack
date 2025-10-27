@@ -70,3 +70,4 @@ function recall:objectives/remove
 function sleeping:objectives/remove
 function stat_display:objectives/remove
 function wither:objectives/remove
+function relics:objectives/remove

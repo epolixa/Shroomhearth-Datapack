@@ -1,0 +1,1 @@
+scoreboard objectives add blistering_spores dummy

@@ -17,6 +17,17 @@
                                 },
                                 "minecraft:item_model": "shroomhearth:bleeding_tooth",
                                 "minecraft:rarity": "epic",
+                                "minecraft:enchantments": {
+                                    "relics:blistering_spores": 1
+                                },
+                                "minecraft:lore": [
+                                    {
+                                        "text": "Embedded with the mycelium of an invasive, arboreal fungus."
+                                    },
+                                    {
+                                        "text": "Attacks inflict additional damage after a short delay."
+                                    }
+                                ],
                                 "minecraft:custom_data": {
                                     "spore": "bleeding_tooth"
                                 }

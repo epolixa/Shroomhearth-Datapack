@@ -1,0 +1,15 @@
+[
+    {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+            "blistering_spores": {
+                "min": 20
+            }
+        }
+    },
+    {
+        "condition": "minecraft:random_chance",
+        "chance": 0.5
+    }
+]
