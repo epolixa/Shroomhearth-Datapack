@@ -13,6 +13,9 @@ execute as @e[type=item,nbt={Age:0s,Item:{id:"minecraft:spawner"}}] run function
 # Clone random experience orb - execute if double xp favor is active
 execute if score favDoubleXP shroomhearth matches 1.. if predicate shroomhearth:random_chance_50 as @e[type=minecraft:experience_orb,tag=!double_xp,limit=1,sort=random] at @s run function community:favor/double_xp/double_experience_orb
 
+# relic enchantments
+function relics:tick
+
 # Misc XP - execute as item entities that have just appeared, at those items, as players within 6 blocks of those items
 # keeping this disabled for now, in case we ever get a mined_block trigger
 #execute as @e[type=item,nbt={Age:0s},limit=1] at @s as @a[distance=..6] run function extra_xp:tick

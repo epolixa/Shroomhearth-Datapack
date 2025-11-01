@@ -17,3 +17,4 @@ function recall:objectives/reset
 function sleeping:objectives/reset
 function stat_display:objectives/reset
 function wither:objectives/reset
+function relics:objectives/reset

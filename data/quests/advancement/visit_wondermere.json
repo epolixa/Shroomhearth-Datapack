@@ -6,7 +6,7 @@
         },
         "title": "Wondermere",
         "description": "Visit Wondermere",
-        "frame": "goal"
+        "frame": "task"
     },
     "criteria": {
         "visit_wondermere": {

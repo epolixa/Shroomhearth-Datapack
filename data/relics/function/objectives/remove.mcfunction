@@ -1,0 +1,1 @@
+scoreboard objectives remove blistering_spores

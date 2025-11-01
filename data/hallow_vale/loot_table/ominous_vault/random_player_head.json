@@ -1,0 +1,40 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:player_head",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:profile": {
+                                    "name": "clown_professor"
+                                },
+                                "minecraft:item_name": "Carved Melon"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:player_head",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:profile": {
+                                    "name": "clown_professor"
+                                },
+                                "minecraft:item_name": "Monster Basket"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

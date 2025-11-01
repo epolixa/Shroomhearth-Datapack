@@ -1,0 +1,24 @@
+{
+    "parent": "quests:root",
+    "display": {
+        "icon": {
+            "id": "minecraft:carved_pumpkin"
+        },
+        "title": "Hallow Vale",
+        "description": "Visit Hallow Vale",
+        "frame": "task"
+    },
+    "criteria": {
+        "visit_hallow_vale": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "quests:in_hallow_vale"
+                    }
+                ]
+            }
+        }
+    }
+}
