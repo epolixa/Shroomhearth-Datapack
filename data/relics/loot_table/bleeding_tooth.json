@@ -12,7 +12,7 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_name": {
-                                    "translate": "hallow_vale.bleeding_tooth",
+                                    "translate": "relics.bleeding_tooth",
                                     "fallback": "Bleeding Tooth"
                                 },
                                 "minecraft:item_model": "shroomhearth:bleeding_tooth",
@@ -22,10 +22,10 @@
                                 },
                                 "minecraft:lore": [
                                     {
-                                        "text": "Embedded with the mycelium of an invasive, arboreal fungus."
+                                        "text": "Once used to fell an arboreal fungus,"
                                     },
                                     {
-                                        "text": "Attacks inflict additional damage after a short delay."
+                                        "text": "now tainted by its invasive mycelium."
                                     }
                                 ],
                                 "minecraft:custom_data": {

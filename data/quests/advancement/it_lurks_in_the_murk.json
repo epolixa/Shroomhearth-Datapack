@@ -9,7 +9,7 @@
         },
 		"title": "It Lurks in the Murk...",
 		"description": "Catch a Petri Pfish from the Tides of Tesselation waters of Petrichor Pond",
-		"frame": "task",
+		"frame": "goal",
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false

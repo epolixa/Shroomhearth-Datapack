@@ -15,7 +15,7 @@
     {
       "data": {
         "entity": {
-          "id": "minecraft:husk"
+          "id": "minecraft:zombie"
         },
         "equipment": {
           "loot_table": "minecraft:equipment/trial_chamber_melee",

@@ -6,7 +6,7 @@
         },
         "title": "Petrichor Pond",
         "description": "Visit Petrichor Pond",
-        "frame": "goal"
+        "frame": "task"
     },
     "criteria": {
         "visit_petrichor_pond": {

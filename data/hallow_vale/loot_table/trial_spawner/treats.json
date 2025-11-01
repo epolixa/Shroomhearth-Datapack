@@ -11,13 +11,13 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 2.0,
+                "max": 3.0,
                 "min": 1.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:cooked_beef",
+          "name": "minecraft:cookie",
           "weight": 3
         },
         {
@@ -25,31 +25,16 @@
           "functions": [
             {
               "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 2.0
-              },
+              "count": 1.0,
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:baked_potato",
+          "name": "minecraft:beetroot_soup",
           "weight": 3
         },
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 2.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:golden_carrot",
+          "type": "minecraft:loot_table",
+          "value": "hallow_vale:trial_spawner/suspicious_candy",
           "weight": 2
         },
         {
@@ -77,7 +62,7 @@
             },
             {
               "function": "minecraft:set_potion",
-              "id": "minecraft:strength"
+              "id": "minecraft:swiftness"
             }
           ],
           "name": "minecraft:potion"
@@ -86,5 +71,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:spawners/ominous/trial_chamber/consumables"
+  "random_sequence": "minecraft:spawners/trial_chamber/consumables"
 }

@@ -9,12 +9,21 @@
           "functions": [
             {
               "add": false,
-              "count": 1.0,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 2.0,
+                "min": 1.0
+              },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:pumpkin_pie",
+          "name": "minecraft:cooked_porkchop",
           "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "hallow_vale:ominous_trial_spawner/suspicious_candy",
+          "weight": 2
         },
         {
           "type": "minecraft:item",
@@ -23,18 +32,13 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 3.0,
+                "max": 2.0,
                 "min": 1.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:cookie",
-          "weight": 3
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "hallow_vale:trial_spawners/suspicious_candy_from_spawner",
+          "name": "minecraft:pumpkin_pie",
           "weight": 2
         },
         {
@@ -62,7 +66,7 @@
             },
             {
               "function": "minecraft:set_potion",
-              "id": "minecraft:swiftness"
+              "id": "minecraft:strength"
             }
           ],
           "name": "minecraft:potion"
@@ -71,5 +75,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:spawners/trial_chamber/consumables"
+  "random_sequence": "minecraft:spawners/ominous/trial_chamber/consumables"
 }

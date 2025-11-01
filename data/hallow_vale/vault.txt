@@ -1,6 +1,6 @@
 /setblock ~ ~ ~ minecraft:vault{
     config: {
-        loot_table: "hallow_vale:vaults/reward",
+        loot_table: "hallow_vale:vault/reward",
         key_item: {
             id: "minecraft:trial_key",
             count: 1,

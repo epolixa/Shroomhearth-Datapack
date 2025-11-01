@@ -6,12 +6,12 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "hallow_vale:vaults/reward_ominous_rare",
+          "value": "hallow_vale:vault/reward_rare",
           "weight": 8
         },
         {
           "type": "minecraft:loot_table",
-          "value": "hallow_vale:vaults/reward_ominous_common",
+          "value": "hallow_vale:vault/reward_common",
           "weight": 2
         }
       ],
@@ -22,7 +22,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "hallow_vale:vaults/reward_ominous_common"
+          "value": "hallow_vale:vault/reward_common"
         }
       ],
       "rolls": {
@@ -35,18 +35,18 @@
       "bonus_rolls": 0.0,
       "conditions": [
         {
-          "chance": 0.75,
+          "chance": 0.25,
           "condition": "minecraft:random_chance"
         }
       ],
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "hallow_vale:vaults/reward_ominous_unique"
+          "value": "hallow_vale:vault/reward_unique"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:chests/trial_chambers/reward_ominous"
+  "random_sequence": "minecraft:chests/trial_chambers/reward"
 }

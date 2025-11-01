@@ -11,21 +11,21 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:flow_armor_trim_smithing_template",
+          "name": "minecraft:silence_armor_trim_smithing_template",
           "weight": 3
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:flow_banner_pattern",
+          "name": "minecraft:creeper_banner_pattern",
           "weight": 2
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:music_disc_creator"
+          "type": "minecraft:loot_table",
+          "value": "hallow_vale:ominous_vault/random_player_head"
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:heavy_core"
+          "type": "minecraft:loot_table",
+          "value": "relics:bleeding_tooth"
         }
       ],
       "rolls": 1.0

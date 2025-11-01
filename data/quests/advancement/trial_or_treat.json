@@ -1,0 +1,51 @@
+{
+    "parent": "quests:visit_hallow_vale",
+    "display": {
+        "icon": {
+            "id": "minecraft:diamond_axe",
+            "components": {
+                "minecraft:item_model": "shroomhearth:bleeding_tooth"
+            }
+        },
+        "title": "Trial or Treat",
+        "description": "Use an Ominous Hallow Vale Trial Key on an Ominous Vault in the Hallow Vale Dungeon",
+        "frame": "challenge"
+    },
+    "criteria": {
+        "trial_or_treat": {
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "quests:in_hallow_vale"
+                    }
+                ],
+                "location": [
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": "minecraft:vault",
+                                "state": {
+                                    "ominous": "true"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": "minecraft:ominous_trial_key",
+                            "predicates": {
+                                "minecraft:custom_data": {
+                                    "spore": "ominous_hallow_vale_trial_key"
+                                }
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:item_used_on_block"
+        }
+    }
+}

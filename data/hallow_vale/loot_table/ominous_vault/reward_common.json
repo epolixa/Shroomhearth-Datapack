@@ -21,20 +21,9 @@
           "weight": 5
         },
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 12.0,
-                "min": 8.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:wind_charge",
-          "weight": 4
+          "type": "minecraft:loot_table",
+          "value": "hallow_vale:ominous_vault/random_spawn_egg",
+          "weight": 3
         },
         {
           "type": "minecraft:item",
@@ -49,8 +38,17 @@
               "function": "minecraft:set_count"
             },
             {
-              "function": "minecraft:set_potion",
-              "id": "minecraft:strong_slowness"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:blindness",
+                      "duration": 1760
+                    }
+                  ]
+                }
+              }
             }
           ],
           "name": "minecraft:tipped_arrow",
