@@ -21,10 +21,6 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "hallow_vale:ominous_vault/random_player_head"
-        },
-        {
-          "type": "minecraft:loot_table",
           "value": "relics:bleeding_tooth"
         }
       ],
