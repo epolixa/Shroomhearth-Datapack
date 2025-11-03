@@ -61,6 +61,10 @@
                 },
                 {
                     "type": "minecraft:loot_table",
+                    "value": "easter:copper_golem_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
                     "value": "easter:cow_painted_egg"
                 },
                 {
