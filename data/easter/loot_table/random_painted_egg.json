@@ -37,6 +37,10 @@
                 },
                 {
                     "type": "minecraft:loot_table",
+                    "value": "easter:camel_husk_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
                     "value": "easter:camel_painted_egg"
                 },
                 {
@@ -157,11 +161,19 @@
                 },
                 {
                     "type": "minecraft:loot_table",
+                    "value": "easter:nautilus_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
                     "value": "easter:ocelot_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
                     "value": "easter:panda_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "easter:parched_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
@@ -318,6 +330,10 @@
                 {
                     "type": "minecraft:loot_table",
                     "value": "easter:zombie_horse_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "easter:zombie_nautilus_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
