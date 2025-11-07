@@ -1,5 +1,8 @@
 {
-    "description": "Blistering Spores",
+    "description": {
+        "text": "Blistering Spores",
+        "color": "gold"
+    },
     "supported_items": "#minecraft:axes",
     "weight": 1,
     "max_level": 1,
