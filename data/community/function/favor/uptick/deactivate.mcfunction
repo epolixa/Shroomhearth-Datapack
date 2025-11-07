@@ -1,5 +1,5 @@
 # update gamerule
-gamerule randomTickSpeed 3
+gamerule random_tick_speed 3
 
 # remove bossbar
 bossbar remove community:favor/uptick

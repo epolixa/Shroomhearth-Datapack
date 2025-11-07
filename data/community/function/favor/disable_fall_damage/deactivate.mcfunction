@@ -1,5 +1,5 @@
 # update gamerule
-gamerule fallDamage true
+gamerule fall_damage true
 
 # remove bossbar
 bossbar remove community:favor/disable_fall_damage

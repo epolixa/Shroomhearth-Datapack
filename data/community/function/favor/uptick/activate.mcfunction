@@ -2,7 +2,7 @@
 clear @s #community:charm[custom_data={spore:"charm"}] 1
 
 # update gamerule
-gamerule randomTickSpeed 24
+gamerule random_tick_speed 30
 
 # update active favors if favor is not already active
 execute if score favUptick shroomhearth matches 0 run scoreboard players add favActive shroomhearth 1

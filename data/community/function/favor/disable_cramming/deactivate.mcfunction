@@ -1,5 +1,5 @@
 # update gamerule
-gamerule maxEntityCramming 24
+gamerule max_entity_cramming 24
 
 # remove bossbar
 bossbar remove community:favor/disable_cramming
