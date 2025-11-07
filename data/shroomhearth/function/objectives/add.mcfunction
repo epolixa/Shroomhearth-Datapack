@@ -56,8 +56,8 @@ scoreboard objectives add repairable dummy
 scoreboard objectives add omen_level dummy
 
 ## other setup
-# gamerules
-function shroomhearth:setup_gamerules
+# game rules
+function shroomhearth:setup_game_rules
 # lcg - pseudo random number generator
 function shroomhearth:lcg/setup
 # chunk coordinate objectives
@@ -77,7 +77,7 @@ function pillager_raid:objectives/add
 function player_advancements:objectives/add
 function porcelain:objectives/add
 function recall:objectives/add
+function relics:objectives/add
 function sleeping:objectives/add
 function stat_display:objectives/add
 function wither:objectives/add
-function relics:objectives/add
