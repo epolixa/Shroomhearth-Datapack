@@ -3,35 +3,13 @@
   "depth": 0,
   "scale": 0,
   "temperature": 1.0,
-  "downfall": 0,
+  "downfall": 1.0,
   "precipitation": "none",
   "category": "none",
   "player_spawn_friendly": false,
   "has_precipitation": false,
   "effects": {
-    "sky_color": 16383998,
-    "fog_color": 16383998,
-    "water_color": 4159204,
-    "water_fog_color": 329011,
-    "grass_color": 9353585,
-    "foliage_color": 7448397,
-    "music": [
-      {
-        "data": {
-          "sound": "minecraft:music.creative",
-          "min_delay": 12000,
-          "max_delay": 24000,
-          "replace_current_music": false
-        },
-        "weight": 1
-      }
-    ],
-    "particle": {
-      "options": {
-        "type": "minecraft:end_rod"
-      },
-      "probability": 0.001785
-    }
+    "water_color": 4159204
   },
   "starts": [],
   "spawners": {},
