@@ -1,0 +1,28 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:glistering_melon_slice",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": {
+                                    "translate": "community.harmony_mushroom",
+                                    "fallback": "Harmony Mushroom"
+                                },
+                                "minecraft:item_model": "shroomhearth:harmony_mushroom",
+                                "minecraft:custom_data": {
+                                    "spore": "harmony_mushroom"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

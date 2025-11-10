@@ -7,6 +7,9 @@ scoreboard objectives remove presence
 # Number of other players in a group/nearby
 scoreboard objectives remove playerGroup
 
+# Number of clustered harmony mushrooms
+scoreboard objectives remove harmonyCluster
+
 # Flag for if player has a charm catalyst in their inventory
 scoreboard objectives remove hasCharmCatalyst
 

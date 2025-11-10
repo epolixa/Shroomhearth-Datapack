@@ -10,6 +10,9 @@ scoreboard objectives add presence dummy
 # Number of other players in a group/nearby
 scoreboard objectives add playerGroup dummy
 
+# Number of clustered harmony mushrooms
+scoreboard objectives add harmonyCluster dummy
+
 # Flag for if player has a charm material in their inventory
 scoreboard objectives add hasCharmMaterial dummy
 

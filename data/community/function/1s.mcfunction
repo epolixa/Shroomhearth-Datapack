@@ -1,5 +1,5 @@
 # Reset playerGroup for every player so that it may be re-calculated.
-scoreboard players set @a playerGroup 0
+scoreboard players set @a playerGroup 5
 
 # Set playerGroup for every player to the number of other players within range.
 # Max range is 160 blocks, or 10 chunks, the default Minecraft server render distance.
@@ -20,3 +20,10 @@ execute as @a[scores={presence=180..}] at @s run function community:increase_har
 
 # Decrease harmony when presence exceeds negative threshold.
 execute as @a[scores={presence=..-180}] run function community:decrease_harmony
+
+
+
+
+
+# testing harmony mushroom particles and sounds
+execute as @e[tag=harmony_mushroom_display] at @s run function community:1s_harmony_mushroom_display
