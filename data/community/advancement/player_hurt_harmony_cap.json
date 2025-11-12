@@ -1,16 +1,16 @@
 {
     "criteria": {
-        "player_hurt_seat": {
+        "player_hurt_harmony_cap": {
             "trigger": "minecraft:player_hurt_entity",
             "conditions": {
                 "entity": {
                     "type": "minecraft:interaction",
-                    "nbt": {"Tags":["harmony_mushroom_interaction"]}
+                    "nbt": {"Tags":["harmony_cap_interaction"]}
                 }
             }
         }
     },
     "rewards": {
-        "function": "community:player_hurt_harmony_mushroom"
+        "function": "community:player_hurt_harmony_cap"
     }
 }

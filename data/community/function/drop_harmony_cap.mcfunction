@@ -2,17 +2,17 @@
 # Position: The harmony mushroom interaction entity that was attacked.
 
 # Spawn an item
-loot spawn ~ ~ ~ loot community:harmony_mushroom
+loot spawn ~ ~ ~ loot community:harmony_cap
 
 # Play a breaking sound effect
-playsound minecraft:block.small_dripleaf.break block @a ~ ~ ~ 1 0.8
+playsound minecraft:block.small_dripleaf.break block @a ~ ~ ~ 1 0.9
 
 # Breaking particles
-particle minecraft:end_rod ~ ~0.3 ~ 0.25 0.25 0.25 0.05 3
+particle minecraft:end_rod ~ ~0.1875 ~ 0.2 0.2 0.2 0.03 3
 
-# spawn xp
+# Spawn experience
 summon minecraft:experience_orb
 
 # Remove the harmony mushroom interaction entity and attached display entity
-execute on passengers run kill @s[tag=harmony_mushroom]
+execute on passengers run kill @s[tag=harmony_cap]
 kill @s

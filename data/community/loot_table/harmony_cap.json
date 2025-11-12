@@ -11,12 +11,12 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_name": {
-                                    "translate": "community.harmony_mushroom",
-                                    "fallback": "Harmony Mushroom"
+                                    "translate": "community.harmony_cap",
+                                    "fallback": "Harmony Cap"
                                 },
-                                "minecraft:item_model": "shroomhearth:harmony_mushroom",
+                                "minecraft:item_model": "shroomhearth:harmony_cap",
                                 "minecraft:custom_data": {
-                                    "spore": "harmony_mushroom"
+                                    "spore": "harmony_cap"
                                 }
                             }
                         }
