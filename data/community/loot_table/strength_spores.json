@@ -15,6 +15,22 @@
                                     "fallback": "Strength Spores"
                                 },
                                 "minecraft:item_model": "shroomhearth:spore_bottle",
+                                "minecraft:consumable": {
+                                    "consume_seconds": 0.8,
+                                    "animation": "crossbow",
+                                    "sound": {
+                                        "sound_id": ""
+                                    },
+                                    "has_consume_particles": false,
+                                    "on_consume_effects": [
+                                        {
+                                            "type": "play_sound",
+                                            "sound": {
+                                                "sound_id": "minecraft:block.vault.open_shutter"
+                                            }
+                                        }
+                                    ]
+                                },
                                 "minecraft:potion_contents": {
                                     "custom_color": 16766720
                                 },
