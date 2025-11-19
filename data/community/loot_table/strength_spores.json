@@ -10,6 +10,7 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
+                                "!minecraft:potion_contents": {},
                                 "!minecraft:use_remainder": {},
                                 "minecraft:item_name": {
                                     "translate": "community.strength_spores",
@@ -17,7 +18,7 @@
                                 },
                                 "minecraft:item_model": "shroomhearth:spore_bottle",
                                 "minecraft:consumable": {
-                                    "consume_seconds": 0.8,
+                                    "consume_seconds": 0.5,
                                     "animation": "crossbow",
                                     "sound": {
                                         "sound_id": ""
@@ -32,9 +33,14 @@
                                         }
                                     ]
                                 },
-                                "minecraft:potion_contents": {
-                                    "custom_color": 16766720,
-                                    "custom_name": "Strength Spores"
+                                "minecraft:custom_model_data": {
+                                    "colors": [
+                                        [
+                                            1,
+                                            0.84,
+                                            0
+                                        ]
+                                    ]
                                 },
                                 "minecraft:custom_data": {
                                     "spore": "strength_spores"
