@@ -1,0 +1,31 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": {
+                                    "translate": "community.swiftness_spores",
+                                    "fallback": "Swiftness Spores"
+                                },
+                                "minecraft:item_model": "shroomhearth:spore_bottle",
+                                "minecraft:potion_contents": {
+                                    "custom_color": 3402751
+                                },
+                                "minecraft:custom_data": {
+                                    "spore": "swiftness_spores"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

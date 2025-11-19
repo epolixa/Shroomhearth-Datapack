@@ -1,8 +1,8 @@
 # The main Harmony value displayed in scoreboard
-scoreboard objectives add harmony dummy "Harmony"
+#scoreboard objectives add harmony dummy "Harmony"
 
 # Ensure that Harmony is shown in the tab list
-scoreboard objectives setdisplay list harmony
+#scoreboard objectives setdisplay list harmony
 
 # Added or removed every second, increases harmony after a certain threshold
 scoreboard objectives add presence dummy
@@ -31,6 +31,9 @@ scoreboard objectives add regenerationDuration dummy
 
 # Flag for if player has Harmonized Chorus Fruit ingredient
 scoreboard objectives add hasHcfMaterial dummy
+
+# count of Harmony Cap items in player inventory
+scoreboard objectives add has_harmony_cap dummy
 
 # hcfUUID component scores, used for finding target player
 scoreboard objectives add hcfUUID1 dummy

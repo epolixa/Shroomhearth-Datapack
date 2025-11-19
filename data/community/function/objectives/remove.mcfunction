@@ -29,6 +29,9 @@ scoreboard objectives remove regenerationDuration
 # Flag for if player has Harmonized Chorus Fruit ingredient
 scoreboard objectives remove hasHcfMaterial
 
+# count of Harmony Cap items in player inventory
+scoreboard objectives remove has_harmony_cap
+
 # hcfUUID component scores, used for finding target player
 scoreboard objectives remove hcfUUID1
 scoreboard objectives remove hcfUUID2

@@ -1,5 +1,6 @@
 # Clear 1 charm
-clear @s #community:charm[custom_data={spore:"charm"}] 1
+#clear @s #community:charm[custom_data={spore:"charm"}] 1
+clear @s #community:harmony_cap[custom_data={spore:"harmony_cap"}] 1
 
 # add value - 3600 seconds in an hour
 scoreboard players add favEasy shroomhearth 3600
