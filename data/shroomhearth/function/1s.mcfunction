@@ -22,10 +22,12 @@ execute in minecraft:overworld as @e[type=wandering_trader,distance=0..,tag=!ann
 #execute as @e[type=#relics:armed,tag=!relic_checked] run function relics:1s
 
 # Community - only run when more than one player is online
-execute if score playerCount shroomhearth matches 2.. run function community:1s
+#execute if score playerCount shroomhearth matches 2.. run function community:1s
 
 # favors - execute if there are active favors
-execute if score favActive shroomhearth matches 1.. run function community:favor/1s
+#execute if score favActive shroomhearth matches 1.. run function community:favor/1s
+
+function harmony:1s
 
 # recall whistle - process cast time
 execute as @a[tag=recalling] at @s run function recall:recalling

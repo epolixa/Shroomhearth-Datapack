@@ -2,7 +2,7 @@
 # Position: The harmony mushroom interaction entity that was attacked.
 
 # Spawn an item
-loot spawn ~ ~ ~ loot community:harmony_cap
+loot spawn ~ ~ ~ loot harmony:harmony_cap
 
 # Play a breaking sound effect
 playsound minecraft:block.small_dripleaf.break block @a ~ ~ ~ 1 0.9

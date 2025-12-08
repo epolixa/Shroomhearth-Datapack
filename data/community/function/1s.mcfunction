@@ -20,6 +20,3 @@ execute as @a[scores={presence=180..}] at @s run function community:increase_har
 
 # Decrease harmony when presence exceeds negative threshold.
 execute as @a[scores={presence=..-180}] run function community:decrease_harmony
-
-# Pulse harmony cap entities
-execute as @e[tag=harmony_cap_interaction] at @s run function community:1s_harmony_cap_interaction

@@ -7,7 +7,7 @@ height: 0.1875, \
 width: 0.5\
 }
 
-execute as @n[tag=new_harmony_cap_display] at @s run function community:initialize_harmony_cap_display
+execute as @n[tag=new_harmony_cap_display] at @s run function harmony:harmony_cap/initialize_display
 
 # Play a growing sound effect
 playsound minecraft:block.chorus_flower.grow block @a ~ ~ ~ 0.5 1.9

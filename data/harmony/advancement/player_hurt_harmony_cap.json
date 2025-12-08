@@ -11,6 +11,6 @@
         }
     },
     "rewards": {
-        "function": "community:player_hurt_harmony_cap"
+        "function": "harmony:harmony_cap/player_hurt_interaction"
     }
 }

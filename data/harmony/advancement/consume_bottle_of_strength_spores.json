@@ -1,13 +1,13 @@
 {
     "criteria": {
-        "consume_strength_spores": {
+        "consume_bottle_of_strength_spores": {
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
                     "items": "minecraft:potion",
                     "predicates": {
                         "minecraft:custom_data": {
-                            "spore": "strength_spores"
+                            "spore": "bottle_of_strength_spores"
                         }
                     }
                 }
@@ -15,6 +15,6 @@
         }
     },
     "rewards": {
-        "function": "community:favor/strength/activate"
+        "function": "harmony:spores/strength/consume"
     }
 }

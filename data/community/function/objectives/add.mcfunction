@@ -32,9 +32,6 @@ scoreboard objectives add regenerationDuration dummy
 # Flag for if player has Harmonized Chorus Fruit ingredient
 scoreboard objectives add hasHcfMaterial dummy
 
-# count of Harmony Cap items in player inventory
-scoreboard objectives add has_harmony_cap dummy
-
 # hcfUUID component scores, used for finding target player
 scoreboard objectives add hcfUUID1 dummy
 scoreboard objectives add hcfUUID2 dummy

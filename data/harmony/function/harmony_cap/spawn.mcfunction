@@ -1,4 +1,5 @@
-# Context: Player who increased harmony
+# Executor: Player who exceeded harmony threshold and is attempting to spawn a harmony cap
+# Position: The player
 
 tag @s add spawning_harmony_cap
 
@@ -9,6 +10,9 @@ summon minecraft:marker ~ ~ ~ {Tags:["harmony_cap","harmony_cap_marker"]}
 spreadplayers ~ ~ 8 16 true @e[tag=harmony_cap_marker]
 
 # Check if the marker can spawn a harmony cap
-execute as @e[tag=harmony_cap_marker] at @s run function community:check_harmony_cap_marker
+execute as @e[tag=harmony_cap_marker] at @s run function harmony:harmony_cap/check_marker
+
+# Reset harmony score
+scoreboard players set @s harmony 0
 
 tag @s remove spawning_harmony_cap

@@ -1,0 +1,13 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "harmony:bottle_of_strength_spores"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}
