@@ -12,10 +12,10 @@ scoreboard objectives add harmony_cluster dummy
 scoreboard objectives add has_harmony_cap dummy
 
 # Flag to allow players to see bossbars for spores timers/progress
-scoreboard objectives add show_spores_duration dummy
+scoreboard objectives add show_timer_bars dummy
 
 # Global count of active spores
 scoreboard players set active_spores shroomhearth 0
 
 # Global timers for spores
-scoreboard players set strength_spores shroomhearth 0
+scoreboard players set spores_of_strength shroomhearth 0

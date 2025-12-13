@@ -1,20 +1,20 @@
-# Executor: A player that just consumed a Bottle of Strength Spores
+# Executor: A player that just consumed Spores of Strength
 # Location: The player's current location
 
-tellraw @a[tag=debug_harmony] [{"text":"[harmony:spores/strength/extend] Strength Spores extended by "},{"selector":"@s"}]
+tellraw @a[tag=debug_harmony] [{"text":"[harmony:spores/strength/extend] "},{"translate":"harmony.spores.strength"},{"text":" extended by "},{"selector":"@s"}]
 
 
 # Add value to timer - 3600 seconds in an hour
-scoreboard players add strength_spores shroomhearth 3600
+scoreboard players add spores_of_strength shroomhearth 3600
 
 # Update the new max value for bossbar
-execute store result bossbar shroomhearth:strength_spores max run scoreboard players get strength_spores shroomhearth
+execute store result bossbar shroomhearth:spores_of_strength max run scoreboard players get spores_of_strength shroomhearth
 
 # Update the attribution for bossbar
-bossbar set shroomhearth:strength_spores name [{"color":"#FFC700","translate":"harmony.spores.strength"},{"color":"white","text":" - "},{"selector": "@s"}]
+bossbar set shroomhearth:spores_of_strength name [{"color":"#FFC700","translate":"harmony.spores.strength"},{"color":"white","text":" - "},{"selector": "@s"}]
 
 # Announce extension
-tellraw @a [{"color":"#FFC700","translate":"harmony.spores.strength","hover_event":{"action":"show_text","value":{"translate":"harmony.spores.strength.tooltip"}}},{"color":"white","text":" were dispersed by "},{"selector":"@s"}]
+tellraw @a [{"color":"#FFC700","text":"["},{"translate":"harmony.spores.strength","hover_event":{"action":"show_text","value":{"translate":"harmony.spores.strength.tooltip"}}},{"text":"]"},{"color":"white","text":" were dispersed by "},{"selector":"@s"}]
 
 # Play sound 
 execute as @a at @s run playsound block.beacon.power_select player @s ~ ~ ~ 1 1.9

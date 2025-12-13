@@ -13,10 +13,10 @@
                                 "!minecraft:potion_contents": {},
                                 "!minecraft:use_remainder": {},
                                 "minecraft:item_name": {
-                                    "translate": "harmony.strength_spores",
-                                    "fallback": "Strength Spores"
+                                    "translate": "harmony.spores.strength",
+                                    "fallback": "Spores of Strength"
                                 },
-                                "minecraft:item_model": "shroomhearth:spore_bottle",
+                                "minecraft:item_model": "shroomhearth:spores",
                                 "minecraft:consumable": {
                                     "consume_seconds": 0.5,
                                     "animation": "crossbow",
@@ -35,7 +35,7 @@
                                     ]
                                 },
                                 "minecraft:custom_data": {
-                                    "spore": "strength_spores"
+                                    "spore": "spores_of_strength"
                                 }
                             }
                         }

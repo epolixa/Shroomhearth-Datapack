@@ -2,9 +2,9 @@
 	"parent": "community:community_cooperator",
 	"display": {
 		"icon": {
-			"id": "minecraft:glistering_melon_slice",
+			"id": "minecraft:potion",
             "components": {
-				"minecraft:item_model": "shroomhearth:spore_bottle",
+				"minecraft:item_model": "shroomhearth:spores",
 				"minecraft:custom_model_data": {
 					"colors": [
 						[0.54, 0.75, 0.75]
@@ -13,7 +13,7 @@
 			}
 		},
 		"title": "Spore Barer",
-		"description": "Use a bottle of Spores to aid the world",
+		"description": "Disperse Spores to aid the world",
 		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,

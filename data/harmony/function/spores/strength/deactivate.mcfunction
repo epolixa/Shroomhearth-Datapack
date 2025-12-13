@@ -1,14 +1,14 @@
 # Executor: Server 
-# Position: Root
+# Location: Root
 
-tellraw @a[tag=debug_harmony] "[harmony:spores/strength/1s_inactive] deactivating Strength Spores"
+tellraw @a[tag=debug_harmony] [{"text":"[harmony:spores/strength/deactivate] deactivating "},{"translate":"harmony.spores.strength"}]
 
 
 # Remove bossbar
-bossbar remove shroomhearth:strength_spores
+bossbar remove shroomhearth:spores_of_strength
 
 # Announce expiration
-tellraw @a [{"color":"#FFC700","translate":"harmony.spores.strength","hover_event":{"action":"show_text","value":{"translate":"harmony.spores.strength.tooltip"}}},{"color":"white","text":" have dissipated"}]
+tellraw @a [{"color":"#FFC700","text":"["},{"translate":"harmony.spores.strength","hover_event":{"action":"show_text","value":{"translate":"harmony.spores.strength.tooltip"}}},{"text":"]"},{"color":"white","text":" have dissipated"}]
 
 # Play sound 
 execute as @a at @s run playsound block.beacon.deactivate player @s ~ ~ ~ 1 1.8

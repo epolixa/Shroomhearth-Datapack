@@ -12,11 +12,11 @@ scoreboard objectives remove harmony_cluster
 scoreboard objectives remove has_harmony_cap
 
 # Flag to allow players to see bossbars for spores timers/progress
-scoreboard objectives remove show_spores_duration
+scoreboard objectives remove show_timer_bars
 
 # Global count of active spores
 scoreboard players reset active_spores shroomhearth
 
 
 # Global timers for spores
-scoreboard players reset strength_spores shroomhearth
+scoreboard players reset spores_of_strength shroomhearth
