@@ -4,7 +4,7 @@
 tellraw @a[tag=debug_harmony] "[harmony:spores/1s] running..."
 
 
-# Process active spores...
+# Process active spores and remove effects from inactive spores
 
 # Armor
 
@@ -27,8 +27,8 @@ tellraw @a[tag=debug_harmony] "[harmony:spores/1s] running..."
 # Speed
 
 # Strength
-execute if score strength_spores shroomhearth matches 1.. run function harmony:spores/strength/1s_active
-execute unless score strength_spores shroomhearth matches 1.. run function harmony:spores/strength/1s_inactive
+execute if score strength_spores shroomhearth matches 1.. run function harmony:spores/strength/1s
+execute unless score strength_spores shroomhearth matches 1.. as @a[tag=strength_spores] run function harmony:spores/strength/remove
 
 # Uptick
 

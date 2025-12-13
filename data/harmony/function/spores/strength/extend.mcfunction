@@ -18,6 +18,3 @@ tellraw @a [{"color":"#FFC700","translate":"harmony.spores.strength","hover_even
 
 # Play sound 
 execute as @a at @s run playsound block.beacon.power_select player @s ~ ~ ~ 1 1.9
-
-# Grant advancement
-advancement grant @s only harmony:release_spores

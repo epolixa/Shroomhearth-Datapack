@@ -1,7 +1,7 @@
 # Executor: A player that should have Strength Spores applied
 # Location: Root
 
-tellraw @a[tag=debug_harmony] [{"text":"[harmony:spores/strength/apply] applying strength_spores attribute modifier to "},{"selector":"@s"}]
+tellraw @a[tag=debug_harmony] [{"text":"[harmony:spores/strength/apply] applying spores.strength attribute modifier to "},{"selector":"@s"}]
 
 
 # Apply Strength Spores attribute modifier

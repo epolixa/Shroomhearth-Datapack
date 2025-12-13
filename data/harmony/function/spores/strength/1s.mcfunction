@@ -1,7 +1,7 @@
 # Executor: Server 
 # Position: Root
 
-tellraw @a[tag=debug_harmony] "[harmony:spores/strength/1s_active] processing active Strength Spores"
+tellraw @a[tag=debug_harmony] "[harmony:spores/strength/1s] processing Strength Spores"
 
 
 # Apply Strength Spores to any players who don't have it

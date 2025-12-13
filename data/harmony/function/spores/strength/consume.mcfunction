@@ -8,5 +8,14 @@ tellraw @a[tag=debug_harmony] [{"text":"[harmony:spores/strength/consume] Streng
 execute if score strength_spores shroomhearth matches 1.. run function harmony:spores/strength/extend
 execute unless score strength_spores shroomhearth matches 1.. run function harmony:spores/strength/activate
 
+# Play particles
+particle minecraft:instant_effect{color: [1, 0.78, 0], scale: 2} ~ ~1 ~ 0.5 0.5 0.5 1 16
+
+# Play sound
+playsound minecraft:block.vault.open_shutter player @a ~ ~ ~ 1 1.4
+
+# Grant advancement
+advancement grant @s only harmony:spore_barer
+
 # Reset advancement trigger
-advancement revoke @s only harmony:consume_bottle_of_strength_spores
+advancement revoke @s only harmony:consume_spores/strength

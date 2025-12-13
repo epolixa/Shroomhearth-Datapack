@@ -2,14 +2,18 @@
 	"parent": "community:community_cooperator",
 	"display": {
 		"icon": {
-			"id": "minecraft:ghast_tear",
+			"id": "minecraft:glistering_melon_slice",
             "components": {
-				"minecraft:item_model": "shroomhearth:charm",
-				"minecraft:enchantment_glint_override": true
+				"minecraft:item_model": "shroomhearth:spore_bottle",
+				"minecraft:custom_model_data": {
+					"colors": [
+						[0.54, 0.75, 0.75]
+					]
+				}
 			}
 		},
-		"title": "Community Contributor",
-		"description": "Use a Charm at the World Hall to activate or extend a Favor",
+		"title": "Spore Barer",
+		"description": "Use a bottle of Spores to aid the world",
 		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,

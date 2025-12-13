@@ -13,25 +13,17 @@
                                 "!minecraft:potion_contents": {},
                                 "!minecraft:use_remainder": {},
                                 "minecraft:item_name": {
-                                    "translate": "harmony.bottle_of_strength_spores",
-                                    "fallback": "Bottle of Strength Spores"
+                                    "translate": "harmony.strength_spores",
+                                    "fallback": "Strength Spores"
                                 },
-                                "minecraft:item_model": "shroomhearth:bottle_of_spores",
+                                "minecraft:item_model": "shroomhearth:spore_bottle",
                                 "minecraft:consumable": {
                                     "consume_seconds": 0.5,
                                     "animation": "crossbow",
                                     "sound": {
                                         "sound_id": ""
                                     },
-                                    "has_consume_particles": false,
-                                    "on_consume_effects": [
-                                        {
-                                            "type": "play_sound",
-                                            "sound": {
-                                                "sound_id": "minecraft:block.vault.open_shutter"
-                                            }
-                                        }
-                                    ]
+                                    "has_consume_particles": false
                                 },
                                 "minecraft:custom_model_data": {
                                     "colors": [
@@ -43,7 +35,7 @@
                                     ]
                                 },
                                 "minecraft:custom_data": {
-                                    "spore": "bottle_of_strength_spores"
+                                    "spore": "strength_spores"
                                 }
                             }
                         }
