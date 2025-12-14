@@ -12,9 +12,10 @@ tellraw @a[tag=debug_harmony] "[harmony:spores/1s] running..."
 
 # Clear Weather
 
-# Double XP
-
 # Easy Difficulty
+
+# Experience
+execute if score spores_of_experience shroomhearth matches 1.. run function harmony:spores/experience/1s
 
 # Fall Damage Resistance
 

@@ -4,11 +4,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "harmony:spores/strength"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "harmony:spores/speed"
+          "value": "harmony:spores/experience"
         }
       ],
       "rolls": 1.0
