@@ -1,0 +1,33 @@
+{
+    "criteria": {
+        "harmony_cap_used_on_vault": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": "minecraft:vault"
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": "minecraft:glistering_melon_slice",
+                            "predicates": {
+                                "minecraft:custom_data": {
+                                    "spore": "harmony_cap"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "harmony:harmony_cap/harmony_cap_used_on_vault"
+    }
+}
