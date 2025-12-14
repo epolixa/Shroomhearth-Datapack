@@ -24,7 +24,8 @@ tellraw @a[tag=debug_harmony] "[harmony:spores/1s] running..."
 
 # Jump Boost
 
-# Keep Inventory
+# Keeping
+execute if score spores_of_keeping shroomhearth matches 1.. run function harmony:spores/keeping/1s
 
 # Max Health
 

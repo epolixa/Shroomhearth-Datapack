@@ -18,5 +18,6 @@ scoreboard objectives add show_timer_bars dummy
 scoreboard players set active_spores shroomhearth 0
 
 # Global timers for spores
+scoreboard players set spores_of_keeping shroomhearth 0
 scoreboard players set spores_of_speed shroomhearth 0
 scoreboard players set spores_of_strength shroomhearth 0
