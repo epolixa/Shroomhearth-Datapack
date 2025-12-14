@@ -31,6 +31,7 @@ tellraw @a[tag=debug_harmony] "[harmony:spores/1s] running..."
 # Respiration
 
 # Speed
+execute if score spores_of_speed shroomhearth matches 1.. run function harmony:spores/speed/1s
 
 # Strength
 execute if score spores_of_strength shroomhearth matches 1.. run function harmony:spores/strength/1s
@@ -54,7 +55,7 @@ execute if score spores_of_strength shroomhearth matches 1.. run function harmon
 # Respiration
 
 # Speed
+execute unless score spores_of_speed shroomhearth matches 1.. as @a[tag=spores_of_speed] run function harmony:spores/speed/remove
 
 # Strength
 execute unless score spores_of_strength shroomhearth matches 1.. as @a[tag=spores_of_strength] run function harmony:spores/strength/remove
-

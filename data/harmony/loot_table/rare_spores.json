@@ -5,6 +5,10 @@
         {
           "type": "minecraft:loot_table",
           "value": "harmony:spores/strength"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "harmony:spores/speed"
         }
       ],
       "rolls": 1.0

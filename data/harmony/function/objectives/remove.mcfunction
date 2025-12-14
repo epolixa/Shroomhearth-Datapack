@@ -19,4 +19,5 @@ scoreboard players reset active_spores shroomhearth
 
 
 # Global timers for spores
+scoreboard players reset spores_of_speed shroomhearth
 scoreboard players reset spores_of_strength shroomhearth
