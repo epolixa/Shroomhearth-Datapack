@@ -1,5 +1,5 @@
 # update gamerule
-gamerule doDaylightCycle true
+gamerule advance_time true
 
 # remove bossbar
 bossbar remove community:favor/stop_daylight

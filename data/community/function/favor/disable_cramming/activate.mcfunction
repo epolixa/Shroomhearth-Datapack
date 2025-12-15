@@ -2,7 +2,7 @@
 clear @s #community:charm[custom_data={spore:"charm"}] 1
 
 # update gamerule
-gamerule maxEntityCramming 0
+gamerule max_entity_cramming 0
 
 # update active favors if favor is not already active
 execute if score favDisableCramming shroomhearth matches 0 run scoreboard players add favActive shroomhearth 1

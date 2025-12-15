@@ -2,7 +2,7 @@
 clear @s #community:charm[custom_data={spore:"charm"}] 1
 
 # update gamerule
-gamerule fallDamage false
+gamerule fall_damage false
 
 # update active favors if favor is not already active
 execute if score favDisableFallDamage shroomhearth matches 0 run scoreboard players add favActive shroomhearth 1

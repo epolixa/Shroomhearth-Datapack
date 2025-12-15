@@ -2,8 +2,8 @@
 clear @s #community:charm[custom_data={spore:"charm"}] 1
 
 # update gamerule
-gamerule doPatrolSpawning false
-gamerule disableRaids true
+gamerule spawn_patrols false
+gamerule raids false
 
 # update active favors if favor is not already active
 execute if score favDisableRaids shroomhearth matches 0 run scoreboard players add favActive shroomhearth 1

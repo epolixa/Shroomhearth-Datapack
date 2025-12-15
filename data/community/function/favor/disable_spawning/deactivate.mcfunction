@@ -1,5 +1,5 @@
 # update gamerule
-gamerule doMobSpawning true
+gamerule spawn_mobs true
 
 # remove bossbar
 bossbar remove community:favor/disable_spawning

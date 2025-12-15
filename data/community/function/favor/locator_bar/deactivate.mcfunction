@@ -1,5 +1,5 @@
 # update gamerule
-gamerule locatorBar false
+gamerule locator_bar false
 
 # remove bossbar
 bossbar remove community:favor/locator_bar

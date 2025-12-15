@@ -7,6 +7,12 @@
         "minecraft:iron_horse_armor",
         "minecraft:golden_horse_armor",
         "minecraft:diamond_horse_armor",
+        "minecraft:netherite_horse_armor",
+        "minecraft:copper_nautilus_armor",
+        "minecraft:iron_nautilus_armor",
+        "minecraft:golden_nautilus_armor",
+        "minecraft:diamond_nautilus_armor",
+        "minecraft:netherite_nautilus_armor",
         "minecraft:wolf_armor",
         "minecraft:saddle"
     ]
