@@ -1,5 +1,5 @@
 # update gamerule
-gamerule doInsomnia true
+gamerule spawn_phantoms true
 
 # remove bossbar
 bossbar remove community:favor/insomnia

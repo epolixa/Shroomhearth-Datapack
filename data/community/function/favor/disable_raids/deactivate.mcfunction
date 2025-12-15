@@ -1,6 +1,6 @@
 # update gamerule
-gamerule doPatrolSpawning true
-gamerule disableRaids false
+gamerule spawn_patrols true
+gamerule raids true
 
 # remove bossbar
 bossbar remove community:favor/disable_raids

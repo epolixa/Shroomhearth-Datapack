@@ -1,5 +1,5 @@
 # allow the weather to be chaotic again
-gamerule doWeatherCycle true
+gamerule advance_weather true
 
 # remove bossbar
 bossbar remove community:favor/clear_weather

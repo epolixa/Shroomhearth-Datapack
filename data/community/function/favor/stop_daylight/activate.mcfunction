@@ -2,7 +2,7 @@
 clear @s #community:charm[custom_data={spore:"charm"}] 1
 
 # update gamerule
-gamerule doDaylightCycle false
+gamerule advance_time false
 
 # update active favors if favor is not already active
 execute if score favStopDaylight shroomhearth matches 0 run scoreboard players add favActive shroomhearth 1

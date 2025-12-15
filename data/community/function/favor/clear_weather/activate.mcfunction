@@ -3,7 +3,7 @@ clear @s #community:charm[custom_data={spore:"charm"}] 1
 
 # clear the weather and stop it from cycling
 weather clear
-gamerule doWeatherCycle false
+gamerule advance_weather false
 
 # update active favors if favor is not already active
 execute if score favClearWeather shroomhearth matches 0 run scoreboard players add favActive shroomhearth 1

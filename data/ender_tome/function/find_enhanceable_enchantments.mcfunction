@@ -85,6 +85,10 @@ execute if score @s found_enhanceable_enchantment matches 1 run data modify stor
 execute store result score @s found_enhanceable_enchantment if data entity @s SelectedItem.components."minecraft:enchantments"{"minecraft:luck_of_the_sea":3}
 execute if score @s found_enhanceable_enchantment matches 1 run data modify storage ender_tome:ender_tome enhanceable_enchantments append value "minecraft:luck_of_the_sea"
 
+# Lunge
+execute store result score @s found_enhanceable_enchantment if data entity @s SelectedItem.components."minecraft:enchantments"{"minecraft:lunge":3}
+execute if score @s found_enhanceable_enchantment matches 1 run data modify storage ender_tome:ender_tome enhanceable_enchantments append value "minecraft:lunge"
+
 # Lure
 execute store result score @s found_enhanceable_enchantment if data entity @s SelectedItem.components."minecraft:enchantments"{"minecraft:lure":3}
 execute if score @s found_enhanceable_enchantment matches 1 run data modify storage ender_tome:ender_tome enhanceable_enchantments append value "minecraft:lure"

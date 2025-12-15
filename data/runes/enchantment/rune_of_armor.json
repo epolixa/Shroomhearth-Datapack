@@ -1,6 +1,7 @@
 {
     "description": {
-        "text": "Rune of Armor"
+        "text": "Rune of Armor",
+        "color": "dark_purple"
     },
     "supported_items": "#runes:rune_supported_items",
     "max_level": 1,

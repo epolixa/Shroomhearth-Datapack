@@ -1,5 +1,5 @@
 # update gamerule
-gamerule keepInventory false
+gamerule keep_inventory false
 
 # remove bossbar
 bossbar remove community:favor/keep_inventory
