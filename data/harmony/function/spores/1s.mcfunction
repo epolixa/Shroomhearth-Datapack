@@ -20,6 +20,7 @@ execute if score spores_of_experience shroomhearth matches 1.. run function harm
 # Fall Damage Resistance
 
 # Haste
+execute if score spores_of_haste shroomhearth matches 1.. run function harmony:spores/haste/1s
 
 # Insomnia
 
@@ -51,6 +52,7 @@ execute if score spores_of_strength shroomhearth matches 1.. run function harmon
 # Fall Damage Resistance
 
 # Haste
+execute unless score spores_of_haste shroomhearth matches 1.. as @a[tag=spores_of_haste] run function harmony:spores/haste/remove
 
 # Jump Boost
 

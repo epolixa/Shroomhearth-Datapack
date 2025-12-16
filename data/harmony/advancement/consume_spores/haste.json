@@ -1,13 +1,13 @@
 {
     "criteria": {
-        "consume_spores_of_experience": {
+        "consume_spores_of_haste": {
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
                     "items": "minecraft:potion",
                     "predicates": {
                         "minecraft:custom_data": {
-                            "spore": "spores_of_experience"
+                            "spore": "spores_of_haste"
                         }
                     }
                 }
@@ -15,6 +15,6 @@
         }
     },
     "rewards": {
-        "function": "harmony:spores/experience/consume"
+        "function": "harmony:spores/haste/consume"
     }
 }
