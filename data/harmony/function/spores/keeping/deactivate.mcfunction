@@ -5,7 +5,7 @@ tellraw @a[tag=debug_harmony] [{"text":"[harmony:spores/keeping/deactivate] deac
 
 
 # Update the keep inventory game rule
-gamerule keepInventory false
+gamerule keep_inventory false
 
 # Remove bossbar
 bossbar remove shroomhearth:spores_of_keeping

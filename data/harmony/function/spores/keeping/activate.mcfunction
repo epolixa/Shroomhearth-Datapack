@@ -5,7 +5,7 @@ tellraw @a[tag=debug_harmony] [{"text":"[harmony:spores/keeping/activate] "},{"t
 
 
 # Update the keep inventory game rule
-gamerule keepInventory true
+gamerule keep_inventory true
 
 # Update active spores if not already active
 execute if score spores_of_keeping shroomhearth matches 0 run scoreboard players add active_spores shroomhearth 1
