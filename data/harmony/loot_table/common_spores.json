@@ -17,6 +17,10 @@
         {
           "type": "minecraft:loot_table",
           "value": "harmony:spores/strength"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "harmony:spores/health"
         }
       ],
       "rolls": 1.0

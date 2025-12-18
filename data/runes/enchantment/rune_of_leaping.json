@@ -22,23 +22,23 @@
     "effects": {
         "minecraft:attributes": [
             {
-                "id": "runes:rune_of_leaping_jump_strength",
-                "attribute": "jump_strength",
-                "operation": "add_multiplied_base",
+                "id": "runes:rune_of_leaping_safe_fall_distance",
+                "attribute": "safe_fall_distance",
+                "operation": "add_value",
                 "amount": {
                     "type": "minecraft:linear",
-                    "base": 0.5,
-                    "per_level_above_first": 0.5
+                    "base": 1,
+                    "per_level_above_first": 1
                 }
             },
             {
-                "id": "runes:rune_of_leaping_safe_fall_distance",
-                "attribute": "safe_fall_distance",
-                "operation": "add_multiplied_base",
+                "id": "runes:rune_of_leaping_jump_strength",
+                "attribute": "jump_strength",
+                "operation": "add_value",
                 "amount": {
                     "type": "minecraft:linear",
-                    "base": 0.5,
-                    "per_level_above_first": 0.5
+                    "base": 0.1,
+                    "per_level_above_first": 0.1
                 }
             }
         ]

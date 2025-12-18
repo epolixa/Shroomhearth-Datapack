@@ -22,6 +22,9 @@ execute if score spores_of_experience shroomhearth matches 1.. run function harm
 # Haste
 execute if score spores_of_haste shroomhearth matches 1.. run function harmony:spores/haste/1s
 
+# Health
+execute if score spores_of_health shroomhearth matches 1.. run function harmony:spores/health/1s
+
 # Insomnia
 
 # Leaping
@@ -29,8 +32,6 @@ execute if score spores_of_leaping shroomhearth matches 1.. run function harmony
 
 # Keeping
 execute if score spores_of_keeping shroomhearth matches 1.. run function harmony:spores/keeping/1s
-
-# Max Health
 
 # Respiration
 
@@ -54,6 +55,9 @@ execute if score spores_of_strength shroomhearth matches 1.. run function harmon
 
 # Haste
 execute unless score spores_of_haste shroomhearth matches 1.. as @a[tag=spores_of_haste] run function harmony:spores/haste/remove
+
+# Health
+execute unless score spores_of_health shroomhearth matches 1.. as @a[tag=spores_of_health] run function harmony:spores/health/remove
 
 # Leaping
 execute unless score spores_of_leaping shroomhearth matches 1.. as @a[tag=spores_of_leaping] run function harmony:spores/leaping/remove

@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "consume_spores_of_strength": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:potion",
+                    "predicates": {
+                        "minecraft:custom_data": {
+                            "spore": "spores_of_health"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "harmony:spores/health/consume"
+    }
+}
