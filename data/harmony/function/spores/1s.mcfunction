@@ -7,6 +7,7 @@ tellraw @a[tag=debug_harmony] "[harmony:spores/1s] running..."
 # Process active spores
 
 # Armor
+execute if score spores_of_armor shroomhearth matches 1.. run function harmony:spores/armor/1s
 
 # Burn Damage Resistance
 
@@ -48,6 +49,7 @@ execute if score spores_of_strength shroomhearth matches 1.. run function harmon
 # Remove attribute modifiers for inactive spores
 
 # Armor
+execute unless score spores_of_armor shroomhearth matches 1.. as @a[tag=spores_of_armor] run function harmony:spores/armor/remove
 
 # Burn Damage Resistance
 

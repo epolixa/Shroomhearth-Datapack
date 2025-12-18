@@ -1,4 +1,4 @@
-# Executor: A player that just consumed Spores of Strength
+# Executor: A player that just consumed Spores of Health
 # Location: The player's current location
 
 tellraw @a[tag=debug_harmony] [{"text":"[harmony:spores/health/extend] "},{"translate":"harmony.spores.health"},{"text":" extended by "},{"selector":"@s"}]

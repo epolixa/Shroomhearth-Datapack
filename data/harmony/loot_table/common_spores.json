@@ -4,6 +4,10 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
+          "value": "harmony:spores/armor"
+        },
+        {
+          "type": "minecraft:loot_table",
           "value": "harmony:spores/haste"
         },
         {
