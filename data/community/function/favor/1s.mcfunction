@@ -10,7 +10,7 @@ execute if score favRegeneration shroomhearth matches 1.. run function community
 execute if score favHaste shroomhearth matches 1.. run function community:favor/haste/process
 
 # Process "Speed" favor
-execute if score favSpeed shroomhearth matches 1.. run function community:favor/speed/process
+execute if score favSpeed shroomhearth matches 1.. run function community:favor/swiftness/process
 
 # Process "Jump Boost" favor
 execute if score favJumpBoost shroomhearth matches 1.. run function community:favor/jump_boost/process

@@ -1,4 +1,4 @@
-# Executor: A player that just consumed Spores of Speed
+# Executor: A player that just consumed Spores of Swiftness
 # Location: The player's current location
 
 tellraw @a[tag=debug_harmony] [{"text":"[harmony:spores/keeping/extend] "},{"translate":"harmony.spores.keeping"},{"text":" extended by "},{"selector":"@s"}]

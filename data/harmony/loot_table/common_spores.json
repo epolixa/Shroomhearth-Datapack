@@ -8,7 +8,11 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "harmony:spores/speed"
+          "value": "harmony:spores/leaping"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "harmony:spores/swiftness"
         },
         {
           "type": "minecraft:loot_table",

@@ -1,0 +1,47 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "!minecraft:potion_contents": {},
+                                "!minecraft:use_remainder": {},
+                                "minecraft:item_name": {
+                                    "translate": "harmony.spores.leaping",
+                                    "fallback": "Spores of Leaping"
+                                },
+                                "minecraft:item_model": "shroomhearth:spores",
+                                "minecraft:consumable": {
+                                    "consume_seconds": 0.5,
+                                    "animation": "crossbow",
+                                    "sound": {
+                                        "sound_id": ""
+                                    },
+                                    "has_consume_particles": false
+                                },
+                                "minecraft:custom_model_data": {
+                                    "colors": [
+                                        [
+                                            0.99,
+                                            1,
+                                            0.52
+                                        ]
+                                    ]
+                                },
+                                "minecraft:custom_data": {
+                                    "spore": "spores_of_leaping"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,13 +1,13 @@
 {
     "criteria": {
-        "consume_spores_of_speed": {
+        "consume_spores_of_swiftness": {
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
                     "items": "minecraft:potion",
                     "predicates": {
                         "minecraft:custom_data": {
-                            "spore": "spores_of_speed"
+                            "spore": "spores_of_swiftness"
                         }
                     }
                 }
@@ -15,6 +15,6 @@
         }
     },
     "rewards": {
-        "function": "harmony:spores/speed/consume"
+        "function": "harmony:spores/swiftness/consume"
     }
 }

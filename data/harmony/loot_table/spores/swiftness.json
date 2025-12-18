@@ -13,8 +13,8 @@
                                 "!minecraft:potion_contents": {},
                                 "!minecraft:use_remainder": {},
                                 "minecraft:item_name": {
-                                    "translate": "harmony.spores.speed",
-                                    "fallback": "Spores of Speed"
+                                    "translate": "harmony.spores.swiftness",
+                                    "fallback": "Spores of Swiftness"
                                 },
                                 "minecraft:item_model": "shroomhearth:spores",
                                 "minecraft:consumable": {
@@ -35,7 +35,7 @@
                                     ]
                                 },
                                 "minecraft:custom_data": {
-                                    "spore": "spores_of_speed"
+                                    "spore": "spores_of_swiftness"
                                 }
                             }
                         }

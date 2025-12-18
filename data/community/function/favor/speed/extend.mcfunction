@@ -5,10 +5,10 @@ clear @s #community:charm[custom_data={spore:"charm"}] 1
 scoreboard players add favSpeed shroomhearth 3600
 
 # update the new max value for bossbar
-execute store result bossbar community:favor/speed max run scoreboard players get favSpeed shroomhearth
+execute store result bossbar community:favor/swiftness max run scoreboard players get favSpeed shroomhearth
 
 # update the attribution for bossbar
-bossbar set community:favor/speed name [{"color":"#33EBFF","translate":"community.favor.speed"},{"color":"white","text":" - "},{"selector": "@s"}]
+bossbar set community:favor/swiftness name [{"color":"#33EBFF","translate":"community.favor.speed"},{"color":"white","text":" - "},{"selector": "@s"}]
 
 # announce extension
 tellraw @a [{"text":"The "},{"color":"#33EBFF","translate":"community.favor.speed","hover_event":{"action":"show_text","value":{"translate":"community.favor.speed.tooltip"}}},{"color":"white","text":" favor was extended by "},{"selector":"@s"}]

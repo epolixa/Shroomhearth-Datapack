@@ -7,5 +7,5 @@ execute store result score @s hasCharm run clear @s #community:charm[custom_data
 execute unless predicate community:has_charm run tellraw @s {"translate":"community.missing_charm","hover_event":{"action":"show_text","value":{"translate":"community.missing_charm.tooltip"}}}
 
 # If the player has charm, activate
-execute if predicate community:has_charm if score favSpeed shroomhearth matches 1.. run function community:favor/speed/extend
-execute if predicate community:has_charm if score favSpeed shroomhearth matches 0 run function community:favor/speed/activate
+execute if predicate community:has_charm if score favSpeed shroomhearth matches 1.. run function community:favor/swiftness/extend
+execute if predicate community:has_charm if score favSpeed shroomhearth matches 0 run function community:favor/swiftness/activate

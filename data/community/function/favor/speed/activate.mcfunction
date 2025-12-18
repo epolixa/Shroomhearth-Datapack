@@ -8,12 +8,12 @@ execute if score favSpeed shroomhearth matches 0 run scoreboard players add favA
 scoreboard players add favSpeed shroomhearth 3600
 
 # create bossbar
-bossbar add community:favor/speed [{"color":"#33EBFF","translate":"community.favor.speed"},{"color":"white","text":" - "},{"selector": "@s"}]
-bossbar set community:favor/speed max 3600
-bossbar set community:favor/speed style progress
-bossbar set community:favor/speed value 3600
-bossbar set community:favor/speed visible true
-bossbar set community:favor/speed players @a[scores={showFavorProgress=1}]
+bossbar add community:favor/swiftness [{"color":"#33EBFF","translate":"community.favor.speed"},{"color":"white","text":" - "},{"selector": "@s"}]
+bossbar set community:favor/swiftness max 3600
+bossbar set community:favor/swiftness style progress
+bossbar set community:favor/swiftness value 3600
+bossbar set community:favor/swiftness visible true
+bossbar set community:favor/swiftness players @a[scores={showFavorProgress=1}]
 
 # announce activation
 tellraw @a [{"text":"The "},{"color":"#33EBFF","translate":"community.favor.speed","hover_event":{"action":"show_text","value":{"translate":"community.favor.speed.tooltip"}}},{"color":"white","text":" favor was activated by "},{"selector":"@s"}]
