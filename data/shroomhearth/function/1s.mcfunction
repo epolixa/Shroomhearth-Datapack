@@ -17,16 +17,7 @@ execute as @a[predicate=mob_warding:end_crystal_vision] at @s run function mob_w
 # Wandering Trader announcement - run for unnannounced traders in the overworld
 execute in minecraft:overworld as @e[type=wandering_trader,distance=0..,tag=!announced] at @s run function wandering_trader:1s
 
-# Item Skins - run for unrolled mobs
-# disabled for now, might be removed later
-#execute as @e[type=#relics:armed,tag=!relic_checked] run function relics:1s
-
-# Community - only run when more than one player is online
-#execute if score playerCount shroomhearth matches 2.. run function community:1s
-
-# favors - execute if there are active favors
-#execute if score favActive shroomhearth matches 1.. run function community:favor/1s
-
+# Harmony - controls harmony scores and spores events
 function harmony:1s
 
 # recall whistle - process cast time
@@ -42,6 +33,7 @@ function echoes:pulse
 execute as @e[type=minecraft:allay,tag=!no_collide] run function allay_bottle:1s
 
 # Easter - check all rabbits for easter egg
+# disabled until next Easter event
 #execute as @e[type=minecraft:rabbit,tag=!dropped_egg,nbt=!{MoreCarrotTicks:0},limit=1,sort=random] at @s run function easter:drop_painted_egg
 
 # Tick Ender Tome entities

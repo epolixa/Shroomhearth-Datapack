@@ -45,6 +45,8 @@ execute if score spores_of_strength shroomhearth matches 1.. run function harmon
 
 # Uptick
 
+# Pause Day/Night Cycle
+
 
 
 # Remove attribute modifiers for inactive spores
