@@ -1,9 +1,0 @@
-{
-    "condition": "minecraft:entity_scores",
-    "entity": "this",
-    "scores": {
-        "has_harmony_cap": {
-            "min": 1
-        }
-    }
-}
