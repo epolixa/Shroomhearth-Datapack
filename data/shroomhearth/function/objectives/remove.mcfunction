@@ -59,6 +59,7 @@ scoreboard objectives remove omen_level
 function allay_bottle:objectives/remove
 function arena:objectives/remove
 function community:objectives/remove
+function harmony:objectives/remove
 function ender_dragon:objectives/remove
 function haberdasher:objectives/remove
 function hollow_vale:objectives/remove
