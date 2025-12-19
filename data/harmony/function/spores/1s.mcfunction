@@ -13,7 +13,8 @@ execute if score spores_of_armor shroomhearth matches 1.. run function harmony:s
 
 # Clear Weather
 
-# Easy Difficulty
+# Ease
+execute if score spores_of_ease shroomhearth matches 1.. run function harmony:spores/ease/1s
 
 # Experience
 execute if score spores_of_experience shroomhearth matches 1.. run function harmony:spores/experience/1s

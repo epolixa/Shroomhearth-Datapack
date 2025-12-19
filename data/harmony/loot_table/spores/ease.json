@@ -13,8 +13,8 @@
                                 "!minecraft:potion_contents": {},
                                 "!minecraft:use_remainder": {},
                                 "minecraft:item_name": {
-                                    "translate": "harmony.spores.experience",
-                                    "fallback": "Spores of Experience"
+                                    "translate": "harmony.spores.ease",
+                                    "fallback": "Spores of Ease"
                                 },
                                 "minecraft:item_model": "shroomhearth:spores",
                                 "minecraft:consumable": {
@@ -28,15 +28,15 @@
                                 "minecraft:custom_model_data": {
                                     "colors": [
                                         [
-                                            0,
-                                            1,
-                                            0
+                                            0.71,
+                                            0.86,
+                                            0.38
                                         ]
                                     ]
                                 },
                                 "minecraft:rarity": "uncommon",
                                 "minecraft:custom_data": {
-                                    "spore": "spores_of_experience"
+                                    "spore": "spores_of_ease"
                                 }
                             }
                         }

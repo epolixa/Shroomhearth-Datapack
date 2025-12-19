@@ -4,6 +4,10 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
+          "value": "harmony:spores/ease"
+        },
+        {
+          "type": "minecraft:loot_table",
           "value": "harmony:spores/experience"
         }
       ],

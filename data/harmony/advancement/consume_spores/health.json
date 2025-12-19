@@ -1,6 +1,6 @@
 {
     "criteria": {
-        "consume_spores_of_strength": {
+        "consume_spores_of_health": {
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
