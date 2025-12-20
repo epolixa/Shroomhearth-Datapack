@@ -18,7 +18,7 @@ advancement grant @a[scores={player_group=5..}] only community:community_coopera
 execute as @a[scores={player_group=1..}] run scoreboard players add @s harmony 1
 
 # For any player who is not near another player, decrease harmony by 1.
-execute as @a[scores={player_group=0, harmony=1..}] if predicate harmony:harmony_decay_chance run scoreboard players remove @s harmony 1
+execute as @a[scores={player_group=0, harmony=1..}] run scoreboard players remove @s harmony 1
 
 # Chance to spawn a harmony cap after about one minute.
 execute as @a[scores={harmony=64..}] run function harmony:harmony_cap/attempt_spawn

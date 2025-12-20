@@ -12,7 +12,4 @@ spreadplayers ~ ~ 8 16 true @e[tag=harmony_cap_marker]
 # Check if the marker can spawn a harmony cap
 execute as @e[tag=harmony_cap_marker] at @s run function harmony:harmony_cap/check_marker
 
-# Reset harmony score
-scoreboard players set @s harmony 0
-
 tag @s remove spawning_harmony_cap
