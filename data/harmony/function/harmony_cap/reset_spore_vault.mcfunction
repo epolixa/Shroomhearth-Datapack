@@ -1,6 +1,8 @@
 # Executor: A player that just used a Harmony Cap on a Vault
 # Location: The Spore Vault marker
 
+tellraw @a[tag=debug_harmony] "[harmony:harmony_cap/reset_spore_vault] resetting spore vault"
+
 tellraw @a[tag=debug_harmony] [{"text":"[harmony:harmony_cap/reset_spore_vault] Resetting Spore Vault for "},{"selector":"@s"}]
 
 # Reset rewarded players list

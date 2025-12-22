@@ -21,7 +21,7 @@ execute as @a[scores={player_group=1..}] run scoreboard players add @s harmony 1
 execute as @a[scores={player_group=0, harmony=1..}] run scoreboard players remove @s harmony 1
 
 # Chance to spawn a harmony cap after about one minute.
-execute as @a[scores={harmony=64..}] run function harmony:harmony_cap/attempt_spawn
+execute as @r[scores={harmony=64..}] run function harmony:harmony_cap/attempt_spawn
 
 # Pulse harmony cap entities
 execute as @e[tag=harmony_cap_interaction] at @s run function harmony:harmony_cap/1s_interaction

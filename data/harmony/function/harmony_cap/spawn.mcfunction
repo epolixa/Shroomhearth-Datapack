@@ -1,6 +1,8 @@
 # Executor: Player who exceeded harmony threshold and is attempting to spawn a harmony cap
 # Position: The player
 
+tellraw @a[tag=debug_harmony] "[harmony:harmony_cap/spawn] selecting position for harmony cap..."
+
 tag @s add spawning_harmony_cap
 
 # Summon a marker to find a suitable spawn location

@@ -1,3 +1,5 @@
+tellraw @a[tag=debug_harmony] "[harmony:harmony_cap/attempt_spawn] checking selected position for valid spawn..."
+
 # Get count of nearby harmony cap entities
 execute store result score @s harmony_cluster if entity @e[tag=harmony_cap_interaction,distance=..32]
 

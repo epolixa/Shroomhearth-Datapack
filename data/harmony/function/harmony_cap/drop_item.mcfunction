@@ -1,6 +1,8 @@
 # Context: A harmony mushroom interaction entity that has been attacked and should drop an item before being removed.
 # Position: The harmony mushroom interaction entity that was attacked.
 
+tellraw @a[tag=debug_harmony] "[harmony:harmony_cap/drop_item] dropping harmony cap item"
+
 # Spawn an item
 loot spawn ~ ~ ~ loot harmony:harmony_cap
 

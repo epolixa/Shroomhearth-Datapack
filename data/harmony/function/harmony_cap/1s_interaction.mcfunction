@@ -1,3 +1,5 @@
+tellraw @a[tag=debug_harmony] "[harmony:harmony_cap/1s_interaction] running..."
+
 # Play subtle particles and sounds
 execute if predicate harmony:harmony_cap_particle_chance run particle minecraft:firefly ~ ~0.1 ~ 0.1 0 0.1 0 1
 execute if predicate harmony:harmony_cap_sound_chance run playsound minecraft:block.amethyst_block.chime block @a ~ ~ ~ 0.5 1.5

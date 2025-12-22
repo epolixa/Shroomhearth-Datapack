@@ -1,3 +1,5 @@
+tellraw @a[tag=debug_harmony] "[harmony:harmony_cap/initialize_interaction] initializing harmony cap interaction entity"
+
 # Create a display entity for the harmony cap
 summon minecraft:item_display ~ ~ ~ {\
 Tags: ["harmony_cap","harmony_cap_display","new_harmony_cap_display"], \
