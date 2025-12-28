@@ -6,6 +6,7 @@ function shroomhearth:objectives/add
 function allay_bottle:objectives/reset
 function arena:objectives/reset
 function community:objectives/reset
+function harmony:objectives/reset
 function ender_dragon:objectives/reset
 function haberdasher:objectives/reset
 function hollow_vale:objectives/reset

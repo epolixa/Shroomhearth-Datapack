@@ -3,8 +3,8 @@ tellraw @a[tag=debug] [{"selector":"@s"},{"color":"white","text":" relogged"}]
 # Capture player UUID components
 function shroomhearth:capture_uuid
 
-# Inform favors
-function community:inform_favors
+# Inform events
+function harmony:inform_spores
 
 # Reset playerLeft
 scoreboard players reset @s playerLeft

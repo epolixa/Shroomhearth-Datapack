@@ -22,23 +22,23 @@
     "effects": {
         "minecraft:attributes": [
             {
-                "id": "runes:rune_of_haste_block_break_speed",
-                "attribute": "block_break_speed",
-                "operation": "add_multiplied_base",
-                "amount": {
-                    "type": "minecraft:linear",
-                    "base": 0.2,
-                    "per_level_above_first": 0.2
-                }
-            },
-            {
                 "id": "runes:rune_of_haste_attack_speed",
                 "attribute": "attack_speed",
-                "operation": "add_multiplied_base",
+                "operation": "add_multiplied_total",
                 "amount": {
                     "type": "minecraft:linear",
                     "base": 0.1,
                     "per_level_above_first": 0.1
+                }
+            },
+            {
+                "id": "runes:rune_of_haste_block_break_speed",
+                "attribute": "block_break_speed",
+                "operation": "add_multiplied_total",
+                "amount": {
+                    "type": "minecraft:linear",
+                    "base": 0.2,
+                    "per_level_above_first": 0.2
                 }
             }
         ]

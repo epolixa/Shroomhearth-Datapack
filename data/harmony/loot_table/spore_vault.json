@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:vault",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "harmony:common_spores",
+          "weight": 85
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "harmony:uncommon_spores",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "harmony:rare_spores",
+          "weight": 5
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

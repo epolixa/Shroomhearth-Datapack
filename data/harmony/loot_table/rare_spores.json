@@ -1,0 +1,13 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "harmony:spores/keeping"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}
