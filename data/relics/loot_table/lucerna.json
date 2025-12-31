@@ -1,0 +1,41 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_pickaxe",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": {
+                                    "translate": "relics.lucerna",
+                                    "fallback": "Lucerna"
+                                },
+                                "minecraft:item_model": "shroomhearth:lucerna",
+                                "minecraft:rarity": "epic",
+                                "minecraft:enchantments": {
+                                    "relics:mineglow": 1
+                                },
+                                "minecraft:lore": [
+                                    {
+                                        "text": "A treasured heirloom of Briskasin ice-craft"
+                                    },
+                                    {
+                                        "text": "passed down through generations."
+                                    }
+                                ],
+                                "minecraft:custom_data": {
+                                    "spore": "lucerna"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
