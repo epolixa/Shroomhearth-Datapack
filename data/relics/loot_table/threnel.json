@@ -12,10 +12,10 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_name": {
-                                    "translate": "relics.lucerna",
-                                    "fallback": "Lucerna"
+                                    "translate": "relics.threnel",
+                                    "fallback": "Threnel"
                                 },
-                                "minecraft:item_model": "shroomhearth:lucerna",
+                                "minecraft:item_model": "shroomhearth:threnel",
                                 "minecraft:rarity": "epic",
                                 "minecraft:enchantments": {
                                     "relics:mineglow": 1
@@ -29,7 +29,7 @@
                                     }
                                 ],
                                 "minecraft:custom_data": {
-                                    "spore": "lucerna"
+                                    "spore": "threnel"
                                 }
                             }
                         }
