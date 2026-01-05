@@ -1,17 +1,18 @@
 {
     "replace": false,
     "values": [
+        "minecraft:bogged",
         "minecraft:creeper",
         "minecraft:drowned",
         "minecraft:ghast",
         "minecraft:hoglin",
         "minecraft:husk",
         "minecraft:magma_cube",
+        "minecraft:parched",
         "minecraft:skeleton",
         "minecraft:slime",
         "minecraft:stray",
         "minecraft:spider",
-        "minecraft:zombie",
-        "minecraft:bogged"
+        "minecraft:zombie"
     ]
 }
