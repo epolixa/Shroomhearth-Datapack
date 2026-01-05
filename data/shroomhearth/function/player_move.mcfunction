@@ -1,4 +1,4 @@
-#tellraw @a [{"selector":"@s"},{"text":" moved"}]
+tellraw @a[tag=debug_shroomhearth] [{"text":"[shroomhearth:player_move] "},{"selector":"@s"},{"text":" moved"}]
 
 # Reset tracking scores
 scoreboard players reset @s playerAviate
@@ -17,8 +17,8 @@ scoreboard players reset @s playerWalk
 scoreboard players reset @s playerWalkOnWater
 scoreboard players reset @s playerWalkUnderWater 
 
-# Update position tracking stuff
-function echoes:tag_player_moved
+# Tag the player as moved so that their echo tracker can update position data on next pulse.
+tag @s[gamemode=!spectator] add moved
 
 # Revoke advancement
 advancement revoke @s only shroomhearth:player_move

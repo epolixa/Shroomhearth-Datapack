@@ -6,8 +6,8 @@ scoreboard objectives remove shroomhearth
 # debug global to control some executions useful for problem-solving
 scoreboard players reset debug shroomhearth
 
-# setup playerCount variable
-scoreboard players reset playerCount shroomhearth
+# global count of online players
+scoreboard players reset PLAYER_COUNT shroomhearth
 
 # setup general useWarpedFungusStick flag
 scoreboard objectives remove useWarpedFungusStick

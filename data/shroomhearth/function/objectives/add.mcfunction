@@ -6,8 +6,8 @@ scoreboard objectives add shroomhearth dummy
 # debug global to control some executions useful for problem-solving
 scoreboard players set debug shroomhearth 0
 
-# setup playerCount variable
-scoreboard players set playerCount shroomhearth 0
+# global count of online players
+scoreboard players set PLAYER_COUNT shroomhearth 0
 
 # setup general useWarpedFungusStick flag
 scoreboard objectives add useWarpedFungusStick minecraft.used:minecraft.warped_fungus_on_a_stick
