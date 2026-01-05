@@ -32,6 +32,12 @@ scoreboard objectives add playerWalk minecraft.custom:minecraft.walk_one_cm
 scoreboard objectives add playerWalkOnWater minecraft.custom:minecraft.walk_on_water_one_cm
 scoreboard objectives add playerWalkUnderWater minecraft.custom:minecraft.walk_under_water_one_cm
 
+# Death count, used to detect player death
+scoreboard objectives add death_count deathCount
+
+# Time since last death, used to detect player respawn
+scoreboard objectives add time_since_death minecraft.custom:minecraft.time_since_death
+
 # player horizontol rotation - used to track player rotation for some modules
 scoreboard objectives add playerHorizontalRotation dummy
 

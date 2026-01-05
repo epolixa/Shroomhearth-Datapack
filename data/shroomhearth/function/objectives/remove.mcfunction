@@ -32,6 +32,12 @@ scoreboard objectives remove playerWalk
 scoreboard objectives remove playerWalkOnWater
 scoreboard objectives remove playerWalkUnderWater
 
+# Death count, used to detect player death
+scoreboard objectives remove death_count
+
+# Time since last death, used to detect player respawn
+scoreboard objectives remove time_since_death
+
 # player horizontol rotation - used to track player rotation for some modules
 scoreboard objectives remove playerHorizontalRotation
 

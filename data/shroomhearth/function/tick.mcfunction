@@ -16,6 +16,12 @@ execute if score spores_of_experience shroomhearth matches 1.. if predicate shro
 # relic enchantments
 function relics:tick
 
+# Check if the player has died
+execute as @a[scores={death_count=1..}] run function shroomhearth:player_died
+
+# Check if the player has respawned after death
+execute as @a[tag=!respawned,scores={time_since_death=1..}] run function shroomhearth:player_respawned
+
 # Misc XP - execute as item entities that have just appeared, at those items, as players within 6 blocks of those items
 # keeping this disabled for now, in case we ever get a mined_block trigger
 #execute as @e[type=item,nbt={Age:0s},limit=1] at @s as @a[distance=..6] run function extra_xp:tick
