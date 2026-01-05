@@ -1,10 +1,10 @@
 # Executor: Server
 # Position: Root
 
-#tellraw @a[tag=debug_echoes] "[echoes.pulse] pulsing..."
+tellraw @a[tag=debug_echoes] "[echoes.pulse] pulsing..."
 
-# Track online players and update their data in the storage list
-execute as @a at @s run function echoes:pulse_players
+# Update data for players who have recently moved in the storage list
+execute as @a[tag=moved] at @s run function echoes:pulse_players
 
 # Check all players in the storage list and create echoes for any that are no longer online
 function echoes:pulse_storage
