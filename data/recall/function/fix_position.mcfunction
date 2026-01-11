@@ -1,9 +1,0 @@
-execute at @s unless block ~ ~ ~ minecraft:air if block ~1 ~ ~1 minecraft:air run tp @s ~1 ~ ~1
-execute at @s unless block ~ ~ ~ minecraft:air if block ~1 ~ ~ minecraft:air run tp @s ~1 ~ ~
-execute at @s unless block ~ ~ ~ minecraft:air if block ~1 ~ ~-1 minecraft:air run tp @s ~1 ~ ~-1
-execute at @s unless block ~ ~ ~ minecraft:air if block ~ ~ ~1 minecraft:air run tp @s ~ ~ ~1
-execute at @s unless block ~ ~ ~ minecraft:air if block ~ ~ ~-1 minecraft:air run tp @s ~ ~ ~-1
-execute at @s unless block ~ ~ ~ minecraft:air if block ~-1 ~ ~1 minecraft:air run tp @s ~-1 ~ ~1
-execute at @s unless block ~ ~ ~ minecraft:air if block ~-1 ~ ~ minecraft:air run tp @s ~-1 ~ ~
-execute at @s unless block ~ ~ ~ minecraft:air if block ~-1 ~ ~-1 minecraft:air run tp @s ~-1 ~ ~-1
-execute at @s unless block ~ ~ ~ minecraft:air if block ~ ~1 ~ minecraft:air run tp @s ~ ~1 ~
