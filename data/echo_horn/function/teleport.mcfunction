@@ -12,5 +12,5 @@ execute as @s[tag=using_other_player_echo_horn] run function echo_horn:teleport_
 # Handle succesful teleportation
 execute as @s[tag=echo_horn_teleport_success] run function echo_horn:teleport_success
 
-# Remove all tags
-function echo_horn:remove_tags
+# Finish using echo horn
+function echo_horn:stop_using_echo_horn

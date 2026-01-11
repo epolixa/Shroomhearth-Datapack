@@ -51,3 +51,9 @@ execute as @s[tag=has_respawn_data] run function echo_horn:modify_storage_player
 
 # Play sound effect
 playsound minecraft:block.sculk_catalyst.bloom player @s ~ ~ ~ 1 1
+
+
+
+# Apply slowness attribute modifiers
+attribute @s minecraft:movement_speed modifier add shroomhearth:echo_horn_movement_speed -1 add_multiplied_total
+attribute @s minecraft:jump_strength modifier add shroomhearth:echo_horn_jump_strength -1 add_multiplied_total

@@ -6,6 +6,7 @@ tellraw @a[tag=debug_echo_horn] [{"text":"[echo_horn:teleport_success] "},{"sele
 
 # Play teleport sound
 execute at @s run playsound minecraft:item.chorus_fruit.teleport player @a ~ ~ ~ 1 1.1
+particle minecraft:portal ~ ~1 ~ 0.25 0.5 0.25 0.1 16
 
 # Center player on block
 execute at @s align xz run tp @s ~.5 ~ ~.5
