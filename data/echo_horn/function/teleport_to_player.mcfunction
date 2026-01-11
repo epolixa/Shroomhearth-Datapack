@@ -21,4 +21,4 @@ tag @s remove checking_teleport_target
 
 #tag @n[tag=echo_horn_teleport_target] remove echo_horn_teleport_target
 
-execute unless entity @s[tag=echo_horn_found_target_player] run tellraw @a[tag=debug_echo_horn] [{"text":"[echo_horn:teleport_to_player] No target player found for "},{"selector":"@s"}]
+execute unless entity @s[tag=echo_horn_teleport_success] run tellraw @a[tag=debug_echo_horn] [{"text":"[echo_horn:teleport_to_player] No target player found for "},{"selector":"@s"}]

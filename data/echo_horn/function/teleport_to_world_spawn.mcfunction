@@ -8,3 +8,6 @@ execute in minecraft:overworld run teleport @s 112 75 0
 
 # Notify the player that no respawn block was found
 tellraw @s [{"translate":"echo_horn.no_respawn_block","fallback":"You have no home bed or charged Respawn Anchor, or it was obstructed"}]
+
+# Mark teleportation as successful
+tag @s add echo_horn_teleport_success

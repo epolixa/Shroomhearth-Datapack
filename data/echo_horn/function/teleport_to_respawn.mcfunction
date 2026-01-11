@@ -13,7 +13,7 @@ if score @p[tag=teleporting_to_respawn_point] UUID1 = @s echo_horn_UUID1 \
 if score @p[tag=teleporting_to_respawn_point] UUID2 = @s echo_horn_UUID2 \
 if score @p[tag=teleporting_to_respawn_point] UUID3 = @s echo_horn_UUID3 \
 if score @p[tag=teleporting_to_respawn_point] UUID4 = @s echo_horn_UUID4 \
-run tp @p[tag=teleporting_to_respawn_point] @s
+run function echo_horn:teleport_to_respawn_success
 
 tag @s remove teleporting_to_respawn_point
 

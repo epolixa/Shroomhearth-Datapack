@@ -1,6 +1,6 @@
 {
     "criteria": {
-        "stop_using_echo_horn": {
+        "echo_horn_interrupted": {
             "trigger": "minecraft:entity_hurt_player",
             "conditions": {
                 "player": {
@@ -10,6 +10,6 @@
         }
     },
     "rewards": {
-        "function": "echo_horn:stop_using_echo_horn"
+        "function": "echo_horn:echo_horn_interrupted"
     }
 }

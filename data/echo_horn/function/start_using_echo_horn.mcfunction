@@ -50,4 +50,4 @@ execute as @s[tag=has_respawn_data] run function echo_horn:modify_storage_player
 #execute as @s[tag=using_own_echo_horn,tag=has_respawn] summon minecraft:marker run function echo_horn:initialize_echo_horn_forceload_marker
 
 # Play sound effect
-playsound minecraft:particle.soul_escape player @s ~ ~ ~ 1 0.5
+playsound minecraft:block.sculk_catalyst.bloom player @s ~ ~ ~ 1 1

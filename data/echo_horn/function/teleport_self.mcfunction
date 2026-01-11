@@ -32,14 +32,12 @@ execute as @s[tag=has_respawn_data] run function echo_horn:cleanup_echo_horn_for
 # Remove has_respawn tag
 #tag @s remove has_respawn
 
-# Center player on block
-execute at @s align xz run tp @s ~.5 ~ ~.5
+
 
 # Fix position if needed
 execute at @s unless block ~ ~ ~ minecraft:air run function echo_horn:fix_position
 
-# Play teleport sound
-execute at @s run playsound minecraft:item.chorus_fruit.teleport player @a ~ ~ ~ 1 1.1
+
 
 # take 1 xp level
 #xp add @s[gamemode=survival] -1 levels

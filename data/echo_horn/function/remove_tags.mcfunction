@@ -11,7 +11,7 @@ tag @s remove using_own_echo_horn
 tag @s remove using_other_player_echo_horn
 tag @s remove has_respawn_data
 tag @s remove has_respawn_block
-tag @s remove echo_horn_found_target_player
+tag @s remove echo_horn_teleport_success
 
 tag @s remove checking_respawn_point
 tag @s remove checking_teleport_target
