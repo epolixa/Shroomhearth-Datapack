@@ -7,6 +7,9 @@ execute as @a[tag=!respawned,scores={time_since_death=1..}] run function shroomh
 # Warped Fungus on a Stick trigger detection
 execute as @a[scores={useWarpedFungusStick=1..}] at @s run function shroomhearth:use_warped_fungus_stick
 
+# Goat horn trigger detection
+execute as @a[scores={use_goat_horn=1..}] at @s run function shroomhearth:use_goat_horn
+
 # Porcelain tick functions - execute if a player exists
 execute if entity @p run function porcelain:tick
 

@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_transmute",
+    "category": "equipment",
+    "input": "minecraft:goat_horn",
+    "material": "minecraft:echo_shard",
+    "result": {
+        "count": 1,
+        "id": "minecraft:goat_horn",
+        "components": {
+            "minecraft:item_name": {
+                "translate": "echo_whistle.echo_horn",
+                "fallback": "Echo Horn"
+            },
+            "minecraft:item_model": "shroomhearth:echo_horn",
+            "minecraft:rarity": "uncommon",
+            "minecraft:custom_data": {
+                "spore": "echo_horn"
+            }
+        }
+    }
+}

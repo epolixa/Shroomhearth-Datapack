@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "stop_using_echo_horn": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "player": {
+                    "nbt": "{Tags:[\"using_echo_horn\"]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "echo_horn:stop_using_echo_horn"
+    }
+}

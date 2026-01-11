@@ -3,17 +3,23 @@
 #       remove current chunk from forceloading
 #   and then kill the cleanup marker
 
-# store chunk pos of marker
+# Should really generalize this method in shroomhearth namespace
+# keepChunk should be changed to a scoreboard objective so that we don't need to do nbt checks
+
+# Calculate and score the chunk position of marker
 execute as @s run function shroomhearth:chunk_coords/calc
 
-# store chunk pos of nearest source anchor (may not exist)
-execute as @e[tag=source_anchor, distance=0.., sort=nearest, limit=1] run function shroomhearth:chunk_coords/calc
+# Calculate and score the chunk position of nearest Porcelain source anchor (may not exist)
+execute as @n[tag=source_anchor,distance=0..] run function shroomhearth:chunk_coords/calc
 
-# set keepChunk to 1 if the nearest source anchor is inside the same chunk
-execute if entity @e[tag=source_anchor, distance=0.., sort=nearest, limit=1] if score @s chunkX = @e[tag=source_anchor, distance=0.., sort=nearest, limit=1] chunkX if score @s chunkZ = @e[tag=source_anchor, distance=0.., sort=nearest, limit=1] chunkZ run data modify entity @s data.keepChunk set value 1
+# Set keepChunk to 1 if the nearest Porcelain source anchor is inside the same chunk
+execute if entity @n[tag=source_anchor,distance=0..] \
+if score @s chunkX = @n[tag=source_anchor,distance=0..] chunkX \
+if score @s chunkZ = @n[tag=source_anchor,distance=0..] chunkZ \
+run data modify entity @s data.keepChunk set value 1
 
-# remove chunk from forceloading if keepChunk = 0
+# Stop forceloading chunk if keepChunk = 0
 execute as @s[nbt={data:{keepChunk:0}}] run forceload remove ~ ~
 
-# kill the marker
+# Remove the marker
 kill @s

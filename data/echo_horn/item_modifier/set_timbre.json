@@ -1,0 +1,31 @@
+[
+  {
+    "function": "minecraft:copy_custom_data",
+    "source": "this",
+    "ops": [
+      {
+        "source": "UUID",
+        "target": "timbre.UUID",
+        "op": "replace"
+      }
+    ],
+    "conditions": []
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [[
+      {
+        "text": "Timbre: ",
+        "color": "gray",
+        "italic": false
+      },
+      {
+        "selector": "@s",
+        "color": "blue",
+        "italic": false
+      }
+    ]],
+    "mode": "replace_all"
+  }
+]

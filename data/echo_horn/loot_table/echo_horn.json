@@ -1,0 +1,29 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:goat_horn",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": {
+                                    "translate": "echo_whistle.echo_horn",
+                                    "fallback": "Echo Horn"
+                                },
+                                "minecraft:item_model": "shroomhearth:recall_whistle",
+                                "minecraft:rarity": "uncommon",
+                                "minecraft:custom_data": {
+                                    "spore": "echo_horn"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

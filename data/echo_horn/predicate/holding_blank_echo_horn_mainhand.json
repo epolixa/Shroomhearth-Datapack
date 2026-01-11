@@ -1,0 +1,22 @@
+[
+    {
+        "condition": "minecraft:reference",
+        "name": "echo_horn:holding_echo_horn_mainhand"
+    },
+    {
+        "condition": "minecraft:inverted",
+        "term": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "equipment": {
+                    "mainhand": {
+                        "predicates": {
+                            "minecraft:custom_data": "{timbre:{}}"
+                        }
+                    }
+                }
+            }
+        }
+    }
+]
