@@ -14,7 +14,7 @@
                                     "translate": "echo_whistle.echo_horn",
                                     "fallback": "Echo Horn"
                                 },
-                                "minecraft:item_model": "shroomhearth:recall_whistle",
+                                "minecraft:item_model": "shroomhearth:echo_horn",
                                 "minecraft:rarity": "uncommon",
                                 "minecraft:custom_data": {
                                     "spore": "echo_horn"
