@@ -13,6 +13,7 @@
             },
             "minecraft:item_model": "shroomhearth:echo_horn",
             "minecraft:rarity": "uncommon",
+            "minecraft:damage": 0,
             "minecraft:max_damage": 100,
             "minecraft:repairable": {
                 "items": "minecraft:echo_shard"

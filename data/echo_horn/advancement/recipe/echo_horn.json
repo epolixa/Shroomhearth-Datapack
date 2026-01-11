@@ -1,0 +1,43 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_echo_shard": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:echo_shard"
+                    }
+                ]
+            }
+        },
+        "has_goat_horn": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:goat_horn"
+                    }
+                ]
+            }
+        },
+        "has_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "echo_horn:echo_horn"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_echo_shard",
+            "has_goat_horn",
+            "has_recipe"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "echo_horn:echo_horn"
+        ]
+    }
+}
