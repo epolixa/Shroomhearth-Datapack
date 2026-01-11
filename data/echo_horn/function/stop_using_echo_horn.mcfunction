@@ -11,6 +11,5 @@ execute as @s[tag=using_own_echo_horn,tag=has_respawn_data] run function echo_ho
 attribute @s minecraft:movement_speed modifier remove shroomhearth:echo_horn_movement_speed
 attribute @s minecraft:jump_strength modifier remove shroomhearth:echo_horn_jump_strength
 
-
 # Remove all tags
 function echo_horn:remove_tags

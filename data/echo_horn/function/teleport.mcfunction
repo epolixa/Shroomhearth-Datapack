@@ -10,7 +10,7 @@ execute as @s[tag=using_own_echo_horn] run function echo_horn:teleport_self
 execute as @s[tag=using_other_player_echo_horn] run function echo_horn:teleport_to_player
 
 # Handle succesful teleportation
-execute as @s[tag=echo_horn_teleport_success] run function echo_horn:teleport_success
+execute as @s[tag=echo_horn_teleport_success] at @s run function echo_horn:teleport_success
 
 # Finish using echo horn
 function echo_horn:stop_using_echo_horn

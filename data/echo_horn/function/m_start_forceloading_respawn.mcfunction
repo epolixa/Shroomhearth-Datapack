@@ -5,6 +5,7 @@
 
 tellraw @a[tag=debug_echo_horn] [{"text":"[echo_horn:m_start_forceloading_respawn] Forceloading respawn point for marker "},{"selector":"@s"},{"text":" of player "},{"selector":"@p[tag=using_echo_horn]"}]
 
+
 # Start forceloading the chunk at the macro'd position from the storage data
 $execute in $(dimension) positioned $(x) $(y) $(z) run forceload add ~ ~
 

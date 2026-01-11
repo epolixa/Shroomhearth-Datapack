@@ -3,6 +3,7 @@
 
 tellraw @a[tag=debug_echo_horn] [{"text":"[echo_horn:found_respawn_block] Found respawn block at marker "},{"selector":"@s"}]
 
+
 # Tag the player associated with this marker as having a valid respawn block
 tag @p[tag=checking_respawn_point] add has_respawn_block
 

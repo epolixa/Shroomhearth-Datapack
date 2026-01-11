@@ -30,29 +30,17 @@ if score @s echo_horn_UUID4 = @s UUID4 \
 run tag @s add using_own_echo_horn
 execute as @s[tag=!using_own_echo_horn] run tag @s add using_other_player_echo_horn
 
+
 # If using own echo horn, tag if player has respawn data
 execute if data entity @s[tag=using_own_echo_horn] respawn run tag @s add has_respawn_data
-
-
-# If the whistle's UUID data matches the user's UUID, proceed with teleporting to the user's spawn point
-#execute as @s[tag=using_own_echo_horn] run function echo_horn:teleport 
-
-# If the whistle's UUID data matches a different player's UUID, attempt to teleport to that player's current position
-#execute as @s[tag=using_other_player_echo_horn] run function echo_horn:teleport_to_other_player
 
 # If using own echo horn and have respawn data
 # Update per-player storage and start forceloading respawn chunk
 execute as @s[tag=has_respawn_data] run function echo_horn:modify_storage_player_echo_horn
 
-# If using own echo horn to teleport to respawn point,
-# summon an echo horn forceload marker
-# to start forceloading the destination chunk.
-#execute as @s[tag=using_own_echo_horn,tag=has_respawn] summon minecraft:marker run function echo_horn:initialize_echo_horn_forceload_marker
 
 # Play sound effect
 playsound minecraft:block.sculk_catalyst.bloom player @s ~ ~ ~ 1 1
-
-
 
 # Apply slowness attribute modifiers
 attribute @s minecraft:movement_speed modifier add shroomhearth:echo_horn_movement_speed -1 add_multiplied_total
