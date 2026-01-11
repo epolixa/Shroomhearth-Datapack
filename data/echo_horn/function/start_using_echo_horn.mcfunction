@@ -6,8 +6,7 @@ tellraw @a[tag=debug_echo_horn] [{"text":"[echo_horn:start_using_echo_horn] "},{
 
 # Add tags to mark player as using echo horn
 tag @s add using_echo_horn
-execute if predicate echo_horn:holding_echo_horn_mainhand run tag @s add using_echo_horn_mainhand
-execute if predicate echo_horn:holding_echo_horn_offhand unless predicate echo_horn:holding_echo_horn_mainhand run tag @s add using_echo_horn_offhand
+function echo_horn:check_holding
 
 # Reset echo horn timer objective
 scoreboard players reset @s using_echo_horn

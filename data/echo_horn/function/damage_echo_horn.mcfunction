@@ -4,6 +4,9 @@
 tellraw @a[tag=debug_echo_horn] [{"text":"[echo_horn:damage_echo_horn] "},{"selector":"@s"},{"text":" echo horn is taking durability damage"}]
 
 
+# Check which hand is holding the echo horn
+function echo_horn:check_holding
+
 # Damage the echo horn in the player's main hand
 item modify entity @s[tag=using_echo_horn_mainhand] weapon.mainhand echo_horn:damage_echo_horn
 item modify entity @s[tag=using_echo_horn_offhand] weapon.offhand echo_horn:damage_echo_horn
