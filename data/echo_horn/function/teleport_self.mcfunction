@@ -12,8 +12,8 @@ execute as @s[tag=has_respawn_block] run function echo_horn:teleport_to_respawn
 # Otherwise, teleport to world spawn
 execute as @s[tag=!has_respawn_block] run function echo_horn:teleport_to_world_spawn
 
-# Cleanup forceload marker
-#execute as @s[tag=has_respawn_data] run function echo_horn:cleanup_echo_horn_forceload_marker
-
 # Fix position if needed
 execute at @s unless block ~ ~ ~ minecraft:air run function echo_horn:fix_position
+
+# Grant advancement for using echo horn
+advancement grant @s[tag=echo_horn_teleport_success] only echo_horn:homebound

@@ -1,0 +1,22 @@
+{
+	"parent": "sleeping:slumber_party",
+	"display": {
+		"icon": {
+			"id": "minecraft:goat_horn",
+			"components": {
+				"minecraft:item_model": "shroomhearth:echo_horn"
+			}
+		},
+		"title": "Homebound",
+		"description": "Use your Echo Horn to teleport to your respawn point",
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"homebound": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

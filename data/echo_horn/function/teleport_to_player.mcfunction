@@ -15,3 +15,6 @@ tag @s remove checking_target_player
 
 # Log if no target player was found
 execute unless entity @s[tag=echo_horn_teleport_success] run tellraw @a[tag=debug_echo_horn] [{"text":"[echo_horn:teleport_to_player] No target player found for "},{"selector":"@s"}]
+
+# Grant advancement for using another player's echo horn
+advancement grant @s[tag=echo_horn_teleport_success] only echo_horn:soulbound
