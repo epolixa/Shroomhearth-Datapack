@@ -11,6 +11,7 @@ scoreboard players reset PLAYER_COUNT shroomhearth
 
 # setup general useWarpedFungusStick flag
 scoreboard objectives remove useWarpedFungusStick
+scoreboard objectives remove use_goat_horn
 
 # playerLeft - tracks when the player leaves the server
 scoreboard objectives remove playerLeft
