@@ -1,0 +1,29 @@
+{
+    "condition": "minecraft:value_check",
+    "value": {
+        "type": "score",
+        "target": {
+            "type": "fixed",
+            "name": "WORLD_BORDER_THE_NETHER"
+        },
+        "score": "shroomhearth"
+    },
+    "range": {
+        "min": {
+            "type": "score",
+            "target": {
+                "type": "fixed",
+                "name": "WORLD_BORDER_THE_NETHER_TARGET"
+            },
+            "score": "shroomhearth"
+        },
+        "max": {
+            "type": "score",
+            "target": {
+                "type": "fixed",
+                "name": "WORLD_BORDER_THE_NETHER_TARGET"
+            },
+            "score": "shroomhearth"
+        }
+    }
+}

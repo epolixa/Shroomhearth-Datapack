@@ -1,0 +1,22 @@
+{
+    "parent": "community:community_cooperator",
+    "display": {
+        "icon": {
+            "id": "minecraft:glistering_melon_slice",
+            "components": {
+                "minecraft:item_model": "shroomhearth:hyphal_knot"
+            }
+        },
+        "title": "Beyond the Horizon",
+        "description": "Unravel a Hyphal Knot to grow the World Border",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "activate_favor": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}
