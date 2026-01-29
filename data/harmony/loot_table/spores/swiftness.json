@@ -18,7 +18,7 @@
                                 },
                                 "minecraft:item_model": "shroomhearth:spores",
                                 "minecraft:consumable": {
-                                    "consume_seconds": 0.5,
+                                    "consume_seconds": 0.8,
                                     "animation": "crossbow",
                                     "sound": {
                                         "sound_id": ""
