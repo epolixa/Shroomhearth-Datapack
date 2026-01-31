@@ -1,18 +1,19 @@
 {
     "criteria": {
-        "consume_golden_chorus_fruit": {
+        "consume_hyphal_knot": {
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
-                    "items": "minecraft:chorus_fruit",
                     "predicates": {
-                        "minecraft:custom_data": "{spore:'golden_chorus_fruit'}"
+                        "minecraft:custom_data": {
+                            "spore": "hyphal_knot"
+                        }
                     }
                 }
             }
         }
     },
     "rewards": {
-        "function": "golden_chorus_fruit:consume_golden_chorus_fruit"
+        "function": "world_border:consume_hyphal_knot"
     }
 }

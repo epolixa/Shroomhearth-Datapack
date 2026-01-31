@@ -13,6 +13,6 @@
         }
     },
     "rewards": {
-        "function": "golden_chorus_fruit:consume_enchanted_golden_chorus_fruit"
+        "function": "world_border:consume_enchanted_golden_chorus_fruit"
     }
 }

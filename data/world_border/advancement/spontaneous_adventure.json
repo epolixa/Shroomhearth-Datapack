@@ -9,7 +9,7 @@
 			}
 		},
 		"title": "Spontaneous Adventure",
-		"description": "Find and eat an Enchanted Golden Chorus Fruit to teleport somewhere within 100,000 blocks",
+		"description": "Find and eat an Enchanted Golden Chorus Fruit to teleport somewhere within the World Border",
 		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,
