@@ -6,3 +6,7 @@ scoreboard players reset distance_overworld shroomhearth.world_border
 scoreboard players reset distance_target_overworld shroomhearth.world_border
 scoreboard players reset distance_the_nether shroomhearth.world_border
 scoreboard players reset distance_target_the_nether shroomhearth.world_border
+
+# Globals for enchanted golden chorus fruit maxRange math
+scoreboard players reset enchanted_golden_chorus_fruit_max_range shroomhearth.world_border
+scoreboard players reset enchanted_golden_chorus_fruit_max_range_divisor shroomhearth.world_border

@@ -394,12 +394,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "golden_chorus_fruit:golden_chorus_fruit",
-          "weight": 20
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "golden_chorus_fruit:enchanted_golden_chorus_fruit",
+          "value": "world_border:enchanted_golden_chorus_fruit",
           "weight": 15
         }
       ],
