@@ -1,5 +1,8 @@
+# Objective for fake player globals
+scoreboard objectives remove shroomhearth.world_border
+
 # Globals for tracking current world border diameter and target diameter
-scoreboard players reset world_border_overworld shroomhearth
-scoreboard players reset world_border_overworld_target shroomhearth
-scoreboard players reset world_border_the_nether shroomhearth
-scoreboard players reset world_border_the_nether_target shroomhearth
+scoreboard players reset distance_overworld shroomhearth.world_border
+scoreboard players reset distance_target_overworld shroomhearth.world_border
+scoreboard players reset distance_the_nether shroomhearth.world_border
+scoreboard players reset distance_target_the_nether shroomhearth.world_border

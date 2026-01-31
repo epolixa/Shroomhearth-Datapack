@@ -5,8 +5,8 @@ tellraw @a[tag=debug_world_border] [{"text":"[world_border:grow_world_border] "}
 
 
 # Set target scores
-scoreboard players add world_border_overworld_target shroomhearth 32
-scoreboard players add world_border_the_nether_target shroomhearth 4
+scoreboard players add distance_target_overworld shroomhearth.world_border 32
+scoreboard players add distance_target_the_nether shroomhearth.world_border 4
 
 # Expand world border by 32 in overworld
 execute in minecraft:overworld run worldborder add 32 64s
