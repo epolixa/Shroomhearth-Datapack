@@ -21,6 +21,10 @@
                                     "sound": "minecraft:item.lead.tied",
                                     "has_consume_particles": false
                                 },
+                                "minecraft:use_cooldown": {
+                                    "seconds": 64,
+                                    "cooldown_group": "hyphal_knot"
+                                },
                                 "minecraft:custom_data": {
                                     "spore": "hyphal_knot"
                                 }
