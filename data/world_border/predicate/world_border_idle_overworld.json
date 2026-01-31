@@ -4,7 +4,7 @@
         "type": "score",
         "target": {
             "type": "fixed",
-            "name": "WORLD_BORDER_OVERWORLD"
+            "name": "world_border_overworld"
         },
         "score": "shroomhearth"
     },
@@ -13,7 +13,7 @@
             "type": "score",
             "target": {
                 "type": "fixed",
-                "name": "WORLD_BORDER_OVERWORLD_TARGET"
+                "name": "world_border_overworld_target"
             },
             "score": "shroomhearth"
         },
@@ -21,7 +21,7 @@
             "type": "score",
             "target": {
                 "type": "fixed",
-                "name": "WORLD_BORDER_OVERWORLD_TARGET"
+                "name": "world_border_overworld_target"
             },
             "score": "shroomhearth"
         }

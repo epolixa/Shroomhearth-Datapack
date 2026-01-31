@@ -1,5 +1,5 @@
 # Globals for tracking current world border diameter and target diameter
-scoreboard players reset WORLD_BORDER_OVERWORLD shroomhearth
-scoreboard players reset WORLD_BORDER_OVERWORLD_TARGET shroomhearth
-scoreboard players reset WORLD_BORDER_THE_NETHER shroomhearth
-scoreboard players reset WORLD_BORDER_THE_NETHER_TARGET shroomhearth
+scoreboard players reset world_border_overworld shroomhearth
+scoreboard players reset world_border_overworld_target shroomhearth
+scoreboard players reset world_border_the_nether shroomhearth
+scoreboard players reset world_border_the_nether_target shroomhearth

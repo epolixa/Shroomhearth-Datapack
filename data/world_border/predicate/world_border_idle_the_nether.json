@@ -4,7 +4,7 @@
         "type": "score",
         "target": {
             "type": "fixed",
-            "name": "WORLD_BORDER_THE_NETHER"
+            "name": "world_border_the_nether"
         },
         "score": "shroomhearth"
     },
@@ -13,7 +13,7 @@
             "type": "score",
             "target": {
                 "type": "fixed",
-                "name": "WORLD_BORDER_THE_NETHER_TARGET"
+                "name": "world_border_the_nether_target"
             },
             "score": "shroomhearth"
         },
@@ -21,7 +21,7 @@
             "type": "score",
             "target": {
                 "type": "fixed",
-                "name": "WORLD_BORDER_THE_NETHER_TARGET"
+                "name": "world_border_the_nether_target"
             },
             "score": "shroomhearth"
         }

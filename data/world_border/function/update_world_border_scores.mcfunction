@@ -5,5 +5,5 @@ tellraw @a[tag=debug_world_border] [{"text":"[world_border:update_world_border_s
 
 
 # Update world border scores for overworld and nether
-execute in minecraft:overworld store result score WORLD_BORDER_OVERWORLD shroomhearth run worldborder get
-execute in minecraft:the_nether store result score WORLD_BORDER_THE_NETHER shroomhearth run worldborder get
+execute in minecraft:overworld store result score world_border_overworld shroomhearth run worldborder get
+execute in minecraft:the_nether store result score world_border_the_nether shroomhearth run worldborder get

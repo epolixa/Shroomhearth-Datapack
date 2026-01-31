@@ -15,6 +15,6 @@ execute in minecraft:the_end run worldborder set 29999984
 execute in minecraft:the_porcelain run worldborder set 29999984
 
 # Update world border scores
-scoreboard players set WORLD_BORDER_OVERWORLD_TARGET shroomhearth 2048
-scoreboard players set WORLD_BORDER_THE_NETHER_TARGET shroomhearth 256
+scoreboard players set world_border_overworld shroomhearth 2048
+scoreboard players set world_border_the_nether_target shroomhearth 256
 function world_border:update_world_border_scores
