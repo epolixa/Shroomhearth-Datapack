@@ -1,0 +1,26 @@
+{
+	"parent": "challenges:shroomhearth_challenges",
+	"display": {
+		"icon": {
+			"id": "minecraft:player_head",
+			"components": {
+				"minecraft:profile": {
+					"name": "Needle_Archer"
+				}
+			}
+		},
+		"title": "Needle_Archer",
+		"description": "Place 25,000 blocks in The Nether",
+		"frame": "challenge"
+	},
+	"rewards": {
+		"loot": [
+			"challenges:needle_archer"
+		]
+	},
+	"criteria": {
+		"placed_blocks": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

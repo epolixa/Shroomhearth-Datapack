@@ -1,15 +1,18 @@
 {
-    "parent": "quests:shroomhearth_stories",
     "display": {
         "icon": {
-            "id": "minecraft:lily_pad"
+            "id": "minecraft:paper",
+            "components": {
+                "minecraft:item_model": "shroomhearth:permit"
+            }
         },
-        "title": "Petrichor Pond",
-        "description": "Visit Petrichor Pond",
+        "title": "Shroomhearth Stories",
+        "description": "Visit Spawn",
+        "background": "minecraft:block/warped_wart_block",
         "frame": "task"
     },
     "criteria": {
-        "visit_petrichor_pond": {
+        "visited_spawn": {
             "trigger": "minecraft:location",
             "conditions": {
                 "player": {
@@ -17,17 +20,20 @@
                         "dimension": "minecraft:overworld",
                         "position": {
                             "x": {
-                                "min": -6504,
-                                "max": -6310
+                                "min": 110,
+                                "max": 114
                             },
                             "z": {
-                                "min": -466,
-                                "max": -217
+                                "min": -2,
+                                "max": 2
                             }
                         }
                     }
                 }
             }
         }
+    },
+    "rewards": {
+        "function": "shroomhearth:new_player"
     }
 }

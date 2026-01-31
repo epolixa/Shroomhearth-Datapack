@@ -1,0 +1,47 @@
+{
+	"parent": "challenges:shroomhearth_challenges",
+	"display": {
+		"icon": {
+			"id": "minecraft:player_head",
+			"components": {
+				"minecraft:profile": {
+					"name": "PolarisPlume"
+				}
+			}
+		},
+		"title": "PolarisPlume",
+		"description": "Place a blue flower at the bottom of the world",
+		"frame": "challenge"
+	},
+	"rewards": {
+		"loot": [
+			"challenges:polarisplume"
+		]
+	},
+	"criteria": {
+		"placed_block": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "position": {
+                                "y": {
+                                    "min": -64,
+                                    "max": -58
+                                }
+                            }
+                        }
+                    },
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": "#challenges:blue_flowers"
+						}
+					}
+				]
+            }
+        }
+    }
+}

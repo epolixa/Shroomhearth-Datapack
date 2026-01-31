@@ -1,0 +1,22 @@
+{
+	"criteria": {
+		"interrupt_melon_feast": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"items": "#challenges:not_melon_slice"
+				},
+				"player": {
+					"player": {
+						"advancements": {
+							"challenges:epolixa": false
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "challenges:epolixa"
+	} 
+}

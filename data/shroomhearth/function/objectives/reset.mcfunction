@@ -12,7 +12,7 @@ function haberdasher:objectives/reset
 function hollow_vale:objectives/reset
 function item_interactions:objectives/reset
 function pillager_raid:objectives/reset
-function player_advancements:objectives/reset
+function challenges:objectives/reset
 function porcelain:objectives/reset
 function recall:objectives/reset
 function sleeping:objectives/reset

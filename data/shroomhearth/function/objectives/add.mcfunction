@@ -82,7 +82,7 @@ function haberdasher:objectives/add
 function hollow_vale:objectives/add
 function item_interactions:objectives/add
 function pillager_raid:objectives/add
-function player_advancements:objectives/add
+function challenges:objectives/add
 function porcelain:objectives/add
 function recall:objectives/add
 function relics:objectives/add

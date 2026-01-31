@@ -1,0 +1,39 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:red_mushroom_block"	
+		},
+		"title": "Shroomhearth Guide",
+		"description": "Visit Spawn",
+		"background": "minecraft:block/mushroom_stem",
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"visited_spawn": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"dimension": "minecraft:overworld",
+						"position": {
+							"x": {
+								"min": 110,
+								"max": 114
+							},
+							"z": {
+								"min": -2,
+								"max": 2
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "shroomhearth:new_player"
+	}
+}

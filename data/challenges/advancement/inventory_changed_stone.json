@@ -1,0 +1,33 @@
+{
+	"criteria": {
+		"inventory_changed_stone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:stone",
+							"minecraft:cobblestone",
+							"minecraft:granite",
+							"minecraft:diorite",
+							"minecraft:andesite",
+							"minecraft:tuff",
+							"minecraft:deepslate",
+							"minecraft:cobbled_deepslate"
+						]
+					}
+				],
+				"player": {
+					"player": {
+						"advancements": {
+							"challenges:almightya": false
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "challenges:almightya"
+	} 
+}

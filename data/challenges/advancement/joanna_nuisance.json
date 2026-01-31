@@ -1,0 +1,35 @@
+{
+	"parent": "challenges:shroomhearth_challenges",
+	"display": {
+		"icon": {
+			"id": "minecraft:player_head",
+			"components": {
+				"minecraft:profile": {
+					"name": "joanna_nuisance"
+				}
+			}
+		},
+		"title": "joanna_nuisance",
+		"description": "Go lava fishing",
+		"frame": "challenge"
+	},
+	"rewards": {
+		"loot": [
+			"challenges:joanna_nuisance"
+		]
+	},
+	"criteria": {
+		"lava_fishing": {
+            "trigger": "minecraft:fishing_rod_hooked",
+            "conditions": {
+                "entity": {
+                    "location": {
+                        "fluid": {
+                            "fluids": "#minecraft:lava"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

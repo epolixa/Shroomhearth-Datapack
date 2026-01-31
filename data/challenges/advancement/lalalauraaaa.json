@@ -1,0 +1,26 @@
+{
+	"parent": "challenges:shroomhearth_challenges",
+	"display": {
+		"icon": {
+			"id": "minecraft:player_head",
+			"components": {
+				"minecraft:profile": {
+					"name": "lalalauraaaa"
+				}
+			}
+		},
+		"title": "lalalauraaaa",
+		"description": "Slay 20 Ender Dragons",
+		"frame": "challenge"
+	},
+	"rewards": {
+		"loot": [
+			"challenges:lalalauraaaa"
+		]
+	},
+	"criteria": {
+		"slay_ender_dragons": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

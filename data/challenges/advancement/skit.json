@@ -1,0 +1,26 @@
+{
+	"parent": "challenges:shroomhearth_challenges",
+	"display": {
+		"icon": {
+			"id": "minecraft:player_head",
+			"components": {
+				"minecraft:profile": {
+					"name": "Skit"
+				}
+			}
+		},
+		"title": "Skit",
+		"description": "Place over 100,000 Stone, Cobblestone, or Stone Brick blocks",
+		"frame": "challenge"
+	},
+	"rewards": {
+		"loot": [
+			"challenges:skit"
+		]
+	},
+	"criteria": {
+		"placed_blocks": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

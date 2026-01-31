@@ -1,0 +1,26 @@
+{
+	"parent": "challenges:shroomhearth_challenges",
+	"display": {
+		"icon": {
+			"id": "minecraft:player_head",
+			"components": {
+				"minecraft:profile": {
+					"name": "Omega825"
+				}
+			}
+		},
+		"title": "Omega825",
+		"description": "Place 8,250 rails",
+		"frame": "challenge"
+	},
+	"rewards": {
+		"loot": [
+			"challenges:omega825"
+		]
+	},
+	"criteria": {
+		"placed_blocks": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

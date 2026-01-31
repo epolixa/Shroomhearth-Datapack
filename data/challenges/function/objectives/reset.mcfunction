@@ -1,0 +1,2 @@
+function challenges:objectives/remove
+function challenges:objectives/add

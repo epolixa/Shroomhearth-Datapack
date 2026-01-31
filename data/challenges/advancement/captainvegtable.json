@@ -1,0 +1,433 @@
+{
+	"parent": "challenges:shroomhearth_challenges",
+	"display": {
+		"icon": {
+			"id": "minecraft:player_head",
+			"components": {
+				"minecraft:profile": {
+					"name": "CaptainVegtable"
+				}
+			}
+		},
+		"title": "CaptainVegtable",
+		"description": "Collect every flower and crop",
+		"frame": "challenge"
+	},
+	"rewards": {
+		"loot": [
+			"challenges:captainvegtable"
+		]
+	},
+	"criteria": {
+		"dandelion": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items":["minecraft:dandelion"]
+					}
+				]
+			}
+		},
+		"poppy": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items":["minecraft:poppy"]
+					}
+				]
+			}
+		},
+		"blue_orchid": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items":["minecraft:blue_orchid"]
+					}
+				]
+			}
+		},
+		"allium": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items":["minecraft:allium"]
+					}
+				]
+			}
+		},
+		"azure_bluet": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items":["minecraft:azure_bluet"]
+					}
+				]
+			}
+		},
+		"red_tulip": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items":["minecraft:red_tulip"]
+					}
+				]
+			}
+		},
+		"orange_tulip": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items":["minecraft:orange_tulip"]
+					}
+				]
+			}
+		},
+		"white_tulip": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items":["minecraft:white_tulip"]
+					}
+				]
+			}
+		},
+		"pink_tulip": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items":["minecraft:pink_tulip"]
+					}
+				]
+			}
+		},
+		"oxeye_daisy": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items":["minecraft:oxeye_daisy"]
+					}
+				]
+			}
+		},
+		"cornflower": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items":["minecraft:cornflower"]
+					}
+				]
+			}
+		},
+		"lily_of_the_valley": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items":["minecraft:lily_of_the_valley"]
+					}
+				]
+			}
+		},
+		"wither_rose": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items":["minecraft:wither_rose"]
+					}
+				]
+			}
+		},
+		"sunflower": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items":["minecraft:sunflower"]
+					}
+				]
+			}
+		},
+		"lilac": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items":["minecraft:lilac"]
+					}
+				]
+			}
+		},
+		"rose_bush": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items":["minecraft:rose_bush"]
+					}
+				]
+			}
+		},
+		"peony": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items":["minecraft:peony"]
+					}
+				]
+			}
+		},
+		"wheat": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items":["minecraft:wheat"]
+					}
+				]
+			}
+		},
+		"melon": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items":["minecraft:melon"]
+					}
+				]
+			}
+		},
+		"pumpkin": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items":["minecraft:pumpkin"]
+					}
+				]
+			}
+		},
+		"sugar_cane": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items":["minecraft:sugar_cane"]
+					}
+				]
+			}
+		},
+		"potato": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items":["minecraft:potato"]
+					}
+				]
+			}
+		},
+		"poisonous_potato": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items":["minecraft:poisonous_potato"]
+					}
+				]
+			}
+		},
+		"carrot": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items":["minecraft:carrot"]
+					}
+				]
+			}
+		},
+		"cocoa_beans": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items":["minecraft:cocoa_beans"]
+					}
+				]
+			}
+		},
+		"beetroot": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items":["minecraft:beetroot"]
+					}
+				]
+			}
+		},
+		"nether_wart": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items":["minecraft:nether_wart"]
+					}
+				]
+			}
+		},
+		"chorus_fruit": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items":["minecraft:chorus_fruit"]
+					}
+				]
+			}
+		},
+		"sweet_berries": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items":["minecraft:sweet_berries"]
+					}
+				]
+			}
+		},
+		"glow_berries": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items":["minecraft:glow_berries"]
+					}
+				]
+			}
+		},
+		"spore_blossom": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items":["minecraft:spore_blossom"]
+					}
+				]
+			}
+		},
+		"flowering_azalea": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items":["minecraft:flowering_azalea"]
+					}
+				]
+			}
+		},
+		"flowering_azalea_leaves": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items":["minecraft:flowering_azalea_leaves"]
+					}
+				]
+			}
+		},
+		"mangrove_propagule": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items":["minecraft:mangrove_propagule"]
+					}
+				]
+			}
+		},
+		"pink_petals": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items":["minecraft:pink_petals"]
+					}
+				]
+			}
+		},
+		"torchflower": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items":["minecraft:torchflower"]
+					}
+				]
+			}
+		},
+		"pitcher_plant": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items":["minecraft:pitcher_plant"]
+					}
+				]
+			}
+		},
+		"open_eyeblossom": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items":["minecraft:open_eyeblossom"]
+					}
+				]
+			}
+		},
+		"closed_eyeblossom": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items":["minecraft:closed_eyeblossom"]
+					}
+				]
+			}
+		},
+		"cactus_flower": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items":["minecraft:cactus_flower"]
+					}
+				]
+			}
+		},
+		"wildflowers": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items":["minecraft:wildflowers"]
+					}
+				]
+			}
+		}
+	}
+}

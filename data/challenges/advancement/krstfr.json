@@ -1,0 +1,26 @@
+{
+	"parent": "challenges:shroomhearth_challenges",
+	"display": {
+		"icon": {
+			"id": "minecraft:player_head",
+			"components": {
+				"minecraft:profile": {
+					"name": "Krstfr"
+				}
+			}
+		},
+		"title": "Krstfr",
+		"description": "Wear a Carved Pumpkin whilst in the viscinity of a dozen Skeleton Horses",
+		"frame": "challenge"
+	},
+	"rewards": {
+		"loot": [
+			"challenges:krstfr"
+		]
+	},
+	"criteria": {
+		"nearby_horses": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

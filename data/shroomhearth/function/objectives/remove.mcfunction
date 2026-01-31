@@ -72,7 +72,7 @@ function haberdasher:objectives/remove
 function hollow_vale:objectives/remove
 function item_interactions:objectives/remove
 function pillager_raid:objectives/remove
-function player_advancements:objectives/remove
+function challenges:objectives/remove
 function porcelain:objectives/remove
 function recall:objectives/remove
 function sleeping:objectives/remove

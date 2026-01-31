@@ -1,0 +1,26 @@
+{
+	"parent": "challenges:shroomhearth_challenges",
+	"display": {
+		"icon": {
+			"id": "minecraft:player_head",
+			"components": {
+				"minecraft:profile": {
+					"name": "AlMightyA"
+				}
+			}
+		},
+		"title": "AlMightyA",
+		"description": "Mine over 100,000 natural stone blocks",
+		"frame": "challenge"
+	},
+	"rewards": {
+		"loot": [
+			"challenges:almightya"
+		]
+	},
+	"criteria": {
+		"mined_blocks": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

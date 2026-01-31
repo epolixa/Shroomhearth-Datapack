@@ -1,0 +1,39 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:paper",
+            "components": {
+                "minecraft:item_model": "shroomhearth:shroomhearth_guide"
+            }
+        },
+        "title": "Shroomhearth Challenges",
+        "description": "Visit Spawn",
+        "background": "minecraft:block/warped_wart_block",
+        "frame": "task"
+    },
+    "criteria": {
+        "visited_spawn": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "dimension": "minecraft:overworld",
+                        "position": {
+                            "x": {
+                                "min": 110,
+                                "max": 114
+                            },
+                            "z": {
+                                "min": -2,
+                                "max": 2
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "shroomhearth:new_player"
+    }
+}

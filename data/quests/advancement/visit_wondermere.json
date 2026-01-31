@@ -1,5 +1,5 @@
 {
-    "parent": "quests:root",
+    "parent": "quests:shroomhearth_stories",
     "display": {
         "icon": {
             "id": "minecraft:bricks"

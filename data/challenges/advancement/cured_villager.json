@@ -1,0 +1,26 @@
+{
+    "criteria": {
+        "cured_zombie_villager": {
+            "trigger": "minecraft:cured_zombie_villager",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific": {
+                                "type": "minecraft:player",
+                                "advancements": {
+                                    "challenges:aerialz": false
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "challenges:aerialz"
+    }
+}

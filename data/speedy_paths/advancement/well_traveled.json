@@ -1,5 +1,5 @@
 {
-	"parent": "shroomhearth:root",
+	"parent": "shroomhearth:shroomhearth_guide",
 	"display": {
 		"icon": {
 			"id": "minecraft:dirt_path"

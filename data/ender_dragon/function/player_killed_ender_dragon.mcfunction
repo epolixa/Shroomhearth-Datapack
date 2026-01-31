@@ -13,7 +13,7 @@ scoreboard players add @s dragStatHits 1
 scoreboard players add @a[predicate=ender_dragon:on_main_end_island] dragStatTotalSlain 1
 
 # grant laura advancement if slain 20 dragons
-advancement grant @a[scores={dragStatTotalSlain=20..}] only player_advancements:lalalauraaaa
+advancement grant @a[scores={dragStatTotalSlain=20..}] only challenges:lalalauraaaa
 
 # capture stats for slay time
 scoreboard players set dragStatSlayTimeSec shroomhearth 60
