@@ -44,4 +44,4 @@ loot replace entity @s weapon.mainhand loot porcelain:porcelain
 scoreboard players add nextPorcelainID shroomhearth 1
 
 # travel effects
-function porcelain:travel_effects
+execute at @s run function porcelain:travel_effects
