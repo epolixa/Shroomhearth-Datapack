@@ -4,10 +4,10 @@
 tellraw @a[tag=debug_harmony] [{"text":"[harmony:spores/leaping/extend] "},{"translate":"harmony.spores.leaping"},{"text":" extended by "},{"selector":"@s"}]
 
 # Add value to timer - 3600 seconds in an hour
-scoreboard players add spores_of_leaping shroomhearth 3600
+scoreboard players add spores_of_leaping shroomhearth.harmony 3600
 
 # Update the new max value for bossbar
-execute store result bossbar shroomhearth:spores_of_leaping max run scoreboard players get spores_of_leaping shroomhearth
+execute store result bossbar shroomhearth:spores_of_leaping max run scoreboard players get spores_of_leaping shroomhearth.harmony
 
 # Update the attribution for bossbar
 bossbar set shroomhearth:spores_of_leaping name [{"color":"#FDFF84","translate":"harmony.spores.leaping"},{"color":"white","text":" - "},{"selector": "@s"}]

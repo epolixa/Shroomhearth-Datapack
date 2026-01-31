@@ -1,3 +1,3 @@
 # Inform players if there are any active favors when logging in
-execute if score active_spores shroomhearth matches 1 run tellraw @s [{"text":"There is "},{"score":{"name":"active_spores","objective":"shroomhearth"}},{"text":" active spores"}]
-execute if score active_spores shroomhearth matches 2.. run tellraw @s [{"text":"There are "},{"score":{"name":"active_spores","objective":"shroomhearth"}},{"text":" active spores"}]
+execute if score active_spores shroomhearth.harmony matches 1 run tellraw @s [{"text":"There is "},{"score":{"name":"active_spores","objective":"shroomhearth.harmony"}},{"text":" active spores"}]
+execute if score active_spores shroomhearth.harmony matches 2.. run tellraw @s [{"text":"There are "},{"score":{"name":"active_spores","objective":"shroomhearth.harmony"}},{"text":" active spores"}]

@@ -5,8 +5,8 @@ tellraw @a[tag=debug_harmony] [{"text":"[harmony:spores/experience/consume] "},{
 
 
 # Activate or extend Spores of Experience
-execute if score spores_of_experience shroomhearth matches 1.. run function harmony:spores/experience/extend
-execute unless score spores_of_experience shroomhearth matches 1.. run function harmony:spores/experience/activate
+execute if score spores_of_experience shroomhearth.harmony matches 1.. run function harmony:spores/experience/extend
+execute unless score spores_of_experience shroomhearth.harmony matches 1.. run function harmony:spores/experience/activate
 
 # Play particles
 particle minecraft:instant_effect{color: [0, 1, 0], scale: 2} ~ ~1 ~ 0.5 0.5 0.5 1 16

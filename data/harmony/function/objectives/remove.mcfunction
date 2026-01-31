@@ -14,16 +14,19 @@ scoreboard objectives remove has_harmony_cap
 # Flag to allow players to see bossbars for spores timers/progress
 scoreboard objectives remove show_timer_bars
 
-# Global count of active spores
-scoreboard players reset active_spores shroomhearth
+# Objective for fake player globals
+scoreboard objectives remove shroomhearth.harmony
 
+# Global count of active spores
+scoreboard players reset active_spores shroomhearth.harmony
 
 # Global timers for spores
-scoreboard players reset spores_of_armor shroomhearth
-scoreboard players reset spores_of_experience shroomhearth
-scoreboard players reset spores_of_haste shroomhearth
-scoreboard players reset spores_of_health shroomhearth
-scoreboard players reset spores_of_keeping shroomhearth
-scoreboard players reset spores_of_leaping shroomhearth
-scoreboard players reset spores_of_swiftness shroomhearth
-scoreboard players reset spores_of_strength shroomhearth
+scoreboard players reset spores_of_armor shroomhearth.harmony
+scoreboard players reset spores_of_experience shroomhearth.harmony
+scoreboard players reset spores_of_haste shroomhearth.harmony
+scoreboard players reset spores_of_health shroomhearth.harmony
+scoreboard players reset spores_of_keeping shroomhearth.harmony
+scoreboard players reset spores_of_leaping shroomhearth.harmony
+scoreboard players reset spores_of_swiftness shroomhearth.harmony
+scoreboard players reset spores_of_strength shroomhearth.harmony
+scoreboard players reset spores_of_insomnia shroomhearth.harmony

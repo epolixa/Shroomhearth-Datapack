@@ -4,10 +4,10 @@
 tellraw @a[tag=debug_harmony] [{"text":"[harmony:spores/armor/activate] "},{"translate":"harmony.spores.armor"},{"text":" activated by "},{"selector":"@s"}]
 
 # Update active spores if not already active
-execute if score spores_of_armor shroomhearth matches 0 run scoreboard players add active_spores shroomhearth 1
+execute if score spores_of_armor shroomhearth.harmony matches 0 run scoreboard players add active_spores shroomhearth.harmony 1
 
 # Add value to timer - 3600 seconds in an hour
-scoreboard players add spores_of_armor shroomhearth 3600
+scoreboard players add spores_of_armor shroomhearth.harmony 3600
 
 # Create bossbar
 bossbar add shroomhearth:spores_of_armor [{"color":"#8f45ed","translate":"harmony.spores.armor"},{"color":"white","text":" - "},{"selector": "@s"}]
