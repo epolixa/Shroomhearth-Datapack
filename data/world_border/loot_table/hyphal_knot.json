@@ -1,0 +1,38 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:glistering_melon_slice",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": {
+                                    "translate": "hyphal_knot.hyphal_knot",
+                                    "fallback": "Hyphal Knot"
+                                },
+                                "minecraft:item_model": "shroomhearth:hyphal_knot",
+                                "minecraft:consumable": {
+                                    "consume_seconds": 0.8,
+                                    "animation": "crossbow",
+                                    "sound": "minecraft:item.lead.tied",
+                                    "has_consume_particles": false
+                                },
+                                "minecraft:use_cooldown": {
+                                    "seconds": 64,
+                                    "cooldown_group": "hyphal_knot"
+                                },
+                                "minecraft:custom_data": {
+                                    "spore": "hyphal_knot"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

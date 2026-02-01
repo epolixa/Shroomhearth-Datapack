@@ -5,8 +5,8 @@ tellraw @a[tag=debug_harmony] [{"text":"[harmony:spores/swiftness/consume] "},{"
 
 
 # Activate or extend Spores of Swiftness
-execute if score spores_of_swiftness shroomhearth matches 1.. run function harmony:spores/swiftness/extend
-execute unless score spores_of_swiftness shroomhearth matches 1.. run function harmony:spores/swiftness/activate
+execute if score spores_of_swiftness shroomhearth.harmony matches 1.. run function harmony:spores/swiftness/extend
+execute unless score spores_of_swiftness shroomhearth.harmony matches 1.. run function harmony:spores/swiftness/activate
 
 # Play particles
 particle minecraft:instant_effect{color: [0.2, 0.92, 1], scale: 2} ~ ~1 ~ 0.5 0.5 0.5 1 16

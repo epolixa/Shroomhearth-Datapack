@@ -1,0 +1,2 @@
+function world_border:objectives/remove
+function world_border:objectives/add

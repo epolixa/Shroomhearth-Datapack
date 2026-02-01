@@ -5,8 +5,8 @@ tellraw @a[tag=debug_harmony] [{"text":"[harmony:spores/ease/consume] "},{"trans
 
 
 # Activate or extend Spores of Ease
-execute if score spores_of_ease shroomhearth matches 1.. run function harmony:spores/ease/extend
-execute unless score spores_of_ease shroomhearth matches 1.. run function harmony:spores/ease/activate
+execute if score spores_of_ease shroomhearth.harmony matches 1.. run function harmony:spores/ease/extend
+execute unless score spores_of_ease shroomhearth.harmony matches 1.. run function harmony:spores/ease/activate
 
 # Play particles
 particle minecraft:instant_effect{color: [0.71, 0.86, 0.38], scale: 2} ~ ~1 ~ 0.5 0.5 0.5 1 16

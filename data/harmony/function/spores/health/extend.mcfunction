@@ -5,10 +5,10 @@ tellraw @a[tag=debug_harmony] [{"text":"[harmony:spores/health/extend] "},{"tran
 
 
 # Add value to timer - 3600 seconds in an hour
-scoreboard players add spores_of_health shroomhearth 3600
+scoreboard players add spores_of_health shroomhearth.harmony 3600
 
 # Update the new max value for bossbar
-execute store result bossbar shroomhearth:spores_of_health max run scoreboard players get spores_of_health shroomhearth
+execute store result bossbar shroomhearth:spores_of_health max run scoreboard players get spores_of_health shroomhearth.harmony
 
 # Update the attribution for bossbar
 bossbar set shroomhearth:spores_of_health name [{"color":"#F87D23","translate":"harmony.spores.health"},{"color":"white","text":" - "},{"selector": "@s"}]

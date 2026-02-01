@@ -25,6 +25,10 @@
         {
           "type": "minecraft:loot_table",
           "value": "harmony:spores/health"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "harmony:spores/insomnia"
         }
       ],
       "rolls": 1.0

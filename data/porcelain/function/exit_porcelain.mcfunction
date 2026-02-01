@@ -27,4 +27,4 @@ gamemode survival @s
 scoreboard players reset @s porcelainID
 
 # travel effects
-function porcelain:travel_effects
+execute at @s run function porcelain:travel_effects

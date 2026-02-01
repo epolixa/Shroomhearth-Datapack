@@ -3,7 +3,7 @@ execute store result score @s repairable run clear @s minecraft:chorus_fruit[cus
 
 # replace with new item
 clear @s[scores={repairable=1..}] minecraft:chorus_fruit[custom_data={"spore":"golden_chorus_fruit"}] 1
-loot give @s[scores={repairable=1..}] loot golden_chorus_fruit:golden_chorus_fruit
+loot give @s[scores={repairable=1..}] loot world_border:enchanted_golden_chorus_fruit
 
 # tag player
 tag @s[scores={repairable=1..}] add repaired

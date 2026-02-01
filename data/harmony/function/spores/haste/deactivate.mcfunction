@@ -14,4 +14,4 @@ tellraw @a [{"color":"#D9C043","text":"["},{"translate":"harmony.spores.haste","
 execute as @a at @s run playsound block.beacon.deactivate player @s ~ ~ ~ 1 1.7
 
 # Update active spores 
-scoreboard players remove active_spores shroomhearth 1
+scoreboard players remove active_spores shroomhearth.harmony 1

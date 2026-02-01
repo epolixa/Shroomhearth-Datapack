@@ -1,0 +1,10 @@
+[
+    {
+        "condition": "minecraft:reference",
+        "name": "world_border:world_border_idle_overworld"
+    },
+    {
+        "condition": "minecraft:reference",
+        "name": "world_border:world_border_idle_the_nether"
+    }
+]

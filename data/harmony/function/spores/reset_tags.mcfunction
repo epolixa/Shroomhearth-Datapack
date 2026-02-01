@@ -3,6 +3,7 @@ tag @s remove spores_of_ease
 tag @s remove spores_of_experience
 tag @s remove spores_of_haste
 tag @s remove spores_of_health
+tag @s remove spores_of_insomnia
 tag @s remove spores_of_keeping
 tag @s remove spores_of_leaping
 tag @s remove spores_of_strength

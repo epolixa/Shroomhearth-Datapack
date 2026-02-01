@@ -1,0 +1,29 @@
+{
+    "condition": "minecraft:value_check",
+    "value": {
+        "type": "score",
+        "target": {
+            "type": "fixed",
+            "name": "distance_overworld"
+        },
+        "score": "shroomhearth.world_border"
+    },
+    "range": {
+        "min": {
+            "type": "score",
+            "target": {
+                "type": "fixed",
+                "name": "distance_target_overworld"
+            },
+            "score": "shroomhearth.world_border"
+        },
+        "max": {
+            "type": "score",
+            "target": {
+                "type": "fixed",
+                "name": "distance_target_overworld"
+            },
+            "score": "shroomhearth.world_border"
+        }
+    }
+}

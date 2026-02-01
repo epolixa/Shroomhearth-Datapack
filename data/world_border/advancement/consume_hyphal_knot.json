@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "consume_hyphal_knot": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "predicates": {
+                        "minecraft:custom_data": {
+                            "spore": "hyphal_knot"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "world_border:consume_hyphal_knot"
+    }
+}
