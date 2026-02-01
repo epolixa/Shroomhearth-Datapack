@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:air",
+    "minecraft:cave_air",
+    "minecraft:glow_lichen",
+    "minecraft:leaf_litter",
+    "minecraft:sculk_vein"
+  ]
+}
