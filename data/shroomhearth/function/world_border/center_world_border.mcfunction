@@ -1,7 +1,7 @@
 # Executor: Server
 # Position: World Spawn
 
-tellraw @a[tag=debug_world_border] [{"text":"[world_border:center_world_border] Centering World Border at 0,0 in all dimensions"}]
+tellraw @a[tag=debug_world_border] [{"text":"[shroomhearth:world_border/center_world_border] Centering World Border at 0,0 in all dimensions"}]
 
 
 # Center world border at 0,0 in all dimensions

@@ -394,7 +394,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "world_border:enchanted_golden_chorus_fruit",
+          "value": "shroomhearth:world_border/enchanted_golden_chorus_fruit",
           "weight": 15
         }
       ],

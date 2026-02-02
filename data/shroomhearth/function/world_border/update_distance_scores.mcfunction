@@ -1,7 +1,7 @@
 # Executor: Server
 # Position: World Spawn
 
-tellraw @a[tag=debug_world_border] [{"text":"[world_border:update_distance_scores] Updating distance scores"}]
+tellraw @a[tag=debug_world_border] [{"text":"[shroomhearth:world_border/update_distance_scores] Updating distance scores"}]
 
 
 # Update world border scores for overworld and nether

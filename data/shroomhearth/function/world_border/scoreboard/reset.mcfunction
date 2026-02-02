@@ -1,0 +1,2 @@
+function shroomhearth:world_border/scoreboard/remove
+function shroomhearth:world_border/scoreboard/add

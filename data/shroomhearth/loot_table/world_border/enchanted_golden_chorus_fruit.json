@@ -16,10 +16,10 @@
                                     "fallback": "Enchanted Golden Chorus Fruit"
                                 },
                                 "minecraft:item_model": "shroomhearth:golden_chorus_fruit",
-                                "minecraft:rarity": "epic",
+                                "minecraft:rarity": "rare",
                                 "minecraft:enchantment_glint_override": true,
                                 "minecraft:custom_data": {
-                                    "spore": "enchanted_golden_chorus_fruit"
+                                    "shroomhearth_id": "enchanted_golden_chorus_fruit"
                                 }
                             }
                         }

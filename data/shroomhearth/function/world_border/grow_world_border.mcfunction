@@ -1,7 +1,7 @@
 # Executor: Player who just consumed a Hyphal Knot while the world border is idle
 # Position: The player
 
-tellraw @a[tag=debug_world_border] [{"text":"[world_border:grow_world_border] "},{"selector":"@s"},{"text":" unravelled a Hyphal Knot and started growing the World Border"}]
+tellraw @a[tag=debug_world_border] [{"text":"[shroomhearth:world_border/grow_world_border] "},{"selector":"@s"},{"text":" unravelled a Hyphal Knot and started growing the World Border"}]
 
 
 # Set target scores
@@ -27,4 +27,4 @@ execute as @a at @s run playsound minecraft:block.chorus_flower.grow player @s ~
 particle minecraft:end_rod ~ ~1 ~ 4 0 4 0.05 16
 
 # Grant advancement
-advancement grant @s only world_border:beyond_the_horizon
+advancement grant @s only shroomhearth:world_border/beyond_the_horizon

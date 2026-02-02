@@ -6,7 +6,7 @@
                 "item": {
                     "predicates": {
                         "minecraft:custom_data": {
-                            "spore": "hyphal_knot"
+                            "shroomhearth_id": "hyphal_knot"
                         }
                     }
                 }
@@ -14,6 +14,6 @@
         }
     },
     "rewards": {
-        "function": "world_border:consume_hyphal_knot"
+        "function": "shroomhearth:world_border/consume_hyphal_knot"
     }
 }

@@ -4,15 +4,16 @@
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
-                    "items": "minecraft:chorus_fruit",
                     "predicates": {
-                        "minecraft:custom_data": "{spore:'enchanted_golden_chorus_fruit'}"
+                        "minecraft:custom_data": {
+                            "shroomhearth_id": "enchanted_golden_chorus_fruit"
+                        }
                     }
                 }
             }
         }
     },
     "rewards": {
-        "function": "world_border:consume_enchanted_golden_chorus_fruit"
+        "function": "shroomhearth:world_border/consume_enchanted_golden_chorus_fruit"
     }
 }
