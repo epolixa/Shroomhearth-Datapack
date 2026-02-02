@@ -1,8 +1,8 @@
 {
 	"pack": {
-		"pack_format": 94.1,
+		"pack_format": 98.0,
 		"description": "Bespoke datapack for the Shroomhearth Minecraft server",
-		"min_format": [94, 1],
-		"max_format": [94, 1]
+		"min_format": [98, 0],
+		"max_format": [98, 0]
 	}
 }
