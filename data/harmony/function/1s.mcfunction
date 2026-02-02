@@ -8,7 +8,7 @@ scoreboard players set @a player_group 0
 
 # Set player_group for every player to the number of other players within range.
 # Max range is 160 blocks, or 10 chunks, the default Minecraft server render distance.
-execute as @a[gamemode=!spectator] at @s run scoreboard players add @a[gamemode=!spectator,distance=0.1..160] player_group 1
+execute as @a[gamemode=!spectator] at @s run scoreboard players add @a[gamemode=!spectator,distance=0.0625..160] player_group 1
 
 # Grant Community Cooperator advancement to any player who is near 5 or more other players.
 advancement grant @a[scores={player_group=5..}] only community:community_cooperator
