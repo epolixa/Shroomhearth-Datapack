@@ -1,0 +1,20 @@
+[
+    {
+        "condition": "minecraft:reference",
+        "name": "shroomhearth:porcelain/valid_position"
+    },
+    {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+            "nearby_porcelain": 0
+        }
+    },
+    {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+            "nearby_monster": 0
+        }
+    }
+]

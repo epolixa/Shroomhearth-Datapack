@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "location": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "dimension": "shroomhearth:the_porcelain"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "shroomhearth:porcelain/restore_porcelain"
+  }
+}

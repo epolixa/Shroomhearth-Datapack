@@ -1,0 +1,15 @@
+[
+  {
+    "condition": "minecraft:reference",
+    "name": "shroomhearth:porcelain/holding_porcelain"
+  },
+  {
+    "condition": "minecraft:entity_scores",
+    "entity": "this",
+    "scores": {
+      "use_porcelain": {
+        "min": 1
+      }
+    }
+  }
+]

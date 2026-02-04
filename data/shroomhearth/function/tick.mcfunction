@@ -11,7 +11,7 @@ execute as @a[scores={useWarpedFungusStick=1..}] at @s run function shroomhearth
 execute as @a[scores={use_goat_horn=1..}] at @s run function shroomhearth:use_goat_horn
 
 # Porcelain tick functions - execute if a player exists
-execute if entity @p run function porcelain:tick
+execute if entity @p run function shroomhearth:porcelain/tick
 
 # Multiplayer sleep - only run when more than one player is online
 execute if score PLAYER_COUNT shroomhearth matches 2.. as @a[tag=sleeping] run function sleeping:tick

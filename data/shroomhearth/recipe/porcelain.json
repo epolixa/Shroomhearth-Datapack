@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "key": {
+        "c": "minecraft:calcite",
+        "s": "minecraft:nether_star"
+    },
+    "pattern": [
+        " c ",
+        "csc",
+        " c "
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:warped_fungus_on_a_stick",
+        "components": {
+            "minecraft:item_name": {
+                "translate": "porcelain.porcelain",
+                "fallback": "Porcelain"
+            },
+            "minecraft:item_model": "shroomhearth:porcelain",
+            "minecraft:rarity": "uncommon",
+            "minecraft:custom_data": {
+                "shroomhearth_id": "porcelain"
+            }
+        }
+    }
+}

@@ -11,5 +11,5 @@ if score @p[tag=cleanup_echo_horn_forceload_marker] UUID1 = @s echo_horn_UUID1 \
 if score @p[tag=cleanup_echo_horn_forceload_marker] UUID2 = @s echo_horn_UUID2 \
 if score @p[tag=cleanup_echo_horn_forceload_marker] UUID3 = @s echo_horn_UUID3 \
 if score @p[tag=cleanup_echo_horn_forceload_marker] UUID4 = @s echo_horn_UUID4 \
-at @s run function porcelain:cleanup_marked_chunk
+at @s run function shroomhearth:porcelain/cleanup_marked_chunk
 tag @s remove cleanup_echo_horn_forceload_marker

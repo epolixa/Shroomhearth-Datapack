@@ -1,0 +1,52 @@
+{
+	"name": "shroomhearth:the_porcelain",
+	"coordinate_scale": 1.0,
+	"has_skylight": true,
+	"has_ceiling": false,
+	"ambient_light": 0.1,
+	"has_ender_dragon_fight": false,
+	"has_fixed_time": false,
+	"logical_height": 128,
+	"infiniburn": "#minecraft:infiniburn_overworld",
+	"effects": "minecraft:the_nether",
+	"height": 128,
+	"min_y": 0,
+	"monster_spawn_block_light_limit": 0,
+	"monster_spawn_light_level": {
+		"type": "minecraft:uniform",
+		"max_inclusive": 7,
+		"min_inclusive": 0
+	},
+	"skybox": "none",
+	"cardinal_light": "nether",
+	"attributes": {
+		"minecraft:audio/background_music": {
+			"default": {
+				"max_delay": 24000,
+				"min_delay": 12000,
+				"sound": "minecraft:music.creative"
+			}
+		},
+		"minecraft:audio/firefly_bush_sounds": false,
+		"minecraft:gameplay/bed_rule": {
+			"can_sleep": "never",
+			"can_set_spawn": "never"
+		},
+		"minecraft:gameplay/can_pillager_patrol_spawn": false,
+		"minecraft:gameplay/can_start_raid": false,
+		"minecraft:gameplay/piglins_zombify": false,
+		"minecraft:visual/ambient_particles": [
+			{
+				"particle": {
+					"type": "minecraft:end_rod"
+				},
+				"probability": 0.0008
+			}
+		],
+		"minecraft:visual/fog_end_distance": 160.0,
+		"minecraft:visual/sky_fog_end_distance": 160.0,
+		"minecraft:visual/fog_color": "#F4F5FA",
+		"minecraft:visual/sky_color": "#F0F8FF"
+	},
+	"timelines": "#porcelain:in_porcelain"
+}

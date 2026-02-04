@@ -1,0 +1,22 @@
+## reset core objectives
+function shroomhearth:scoreboard/remove
+function shroomhearth:scoreboard/add
+
+## reset module objectives
+function allay_bottle:scoreboard/reset
+function arena:scoreboard/reset
+function community:scoreboard/reset
+function harmony:scoreboard/reset
+function ender_dragon:scoreboard/reset
+function haberdasher:scoreboard/reset
+function hollow_vale:scoreboard/reset
+function item_interactions:scoreboard/reset
+function pillager_raid:scoreboard/reset
+function challenges:scoreboard/reset
+function shroomhearth:porcelain/scoreboard/reset
+function shroomhearth:world_border/scoreboard/reset
+function recall:scoreboard/reset
+function sleeping:scoreboard/reset
+function stat_display:scoreboard/reset
+function wither:scoreboard/reset
+function relics:scoreboard/reset

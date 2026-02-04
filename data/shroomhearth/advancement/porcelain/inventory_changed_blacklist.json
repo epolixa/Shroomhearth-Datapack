@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "inventory_changed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "dimension": "shroomhearth:the_porcelain"
+            }
+          }
+        ],
+        "items": [
+          {
+            "items": "#shroomhearth:porcelain/blacklist"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "shroomhearth:porcelain/clear_blacklist"
+  }
+}

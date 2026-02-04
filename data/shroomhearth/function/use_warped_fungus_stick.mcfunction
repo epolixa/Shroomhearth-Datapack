@@ -1,3 +1,7 @@
-scoreboard players reset @s useWarpedFungusStick
+# Executor: Player using warped fungus stick
+# Position: the Player
 
-execute if predicate porcelain:holding_porcelain run scoreboard players add @s usePorcelain 1
+
+scoreboard players reset @s use_warped_fungus_stick
+
+execute if predicate shroomhearth:porcelain/holding_porcelain run scoreboard players add @s use_porcelain 1

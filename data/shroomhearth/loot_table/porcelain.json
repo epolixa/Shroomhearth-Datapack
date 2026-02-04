@@ -1,0 +1,29 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:warped_fungus_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": {
+                                    "translate": "porcelain.porcelain",
+                                    "fallback": "Porcelain"
+                                },
+                                "minecraft:item_model": "shroomhearth:porcelain",
+                                "minecraft:rarity": "uncommon",
+                                "minecraft:custom_data": {
+                                    "shroomhearth_id": "porcelain"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

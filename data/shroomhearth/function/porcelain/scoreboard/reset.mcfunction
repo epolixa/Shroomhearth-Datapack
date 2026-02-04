@@ -1,0 +1,2 @@
+function shroomhearth:porcelain/scoreboard/remove
+function shroomhearth:porcelain/scoreboard/add
