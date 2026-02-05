@@ -9,9 +9,9 @@ tellraw @a[tag=debug_echo_horn] [{"text":"[echo_horn:teleport_to_respawn] Attemp
 # and tag the player if the block is a valid respawn block
 tag @s add teleporting_to_respawn_point
 execute as @e[tag=echo_horn_forceload_marker] \
-if score @p[tag=teleporting_to_respawn_point] UUID1 = @s echo_horn_UUID1 \
-if score @p[tag=teleporting_to_respawn_point] UUID2 = @s echo_horn_UUID2 \
-if score @p[tag=teleporting_to_respawn_point] UUID3 = @s echo_horn_UUID3 \
-if score @p[tag=teleporting_to_respawn_point] UUID4 = @s echo_horn_UUID4 \
+if score @p[tag=teleporting_to_respawn_point] uuid_1 = @s echo_horn_uuid_1 \
+if score @p[tag=teleporting_to_respawn_point] uuid_2 = @s echo_horn_uuid_2 \
+if score @p[tag=teleporting_to_respawn_point] uuid_3 = @s echo_horn_uuid_3 \
+if score @p[tag=teleporting_to_respawn_point] uuid_4 = @s echo_horn_uuid_4 \
 run function echo_horn:teleport_to_respawn_success
 tag @s remove teleporting_to_respawn_point

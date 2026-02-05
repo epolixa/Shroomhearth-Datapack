@@ -1,5 +1,5 @@
 # Executor: Server
-# Position: Root
+# Position: Spawn
 
 tellraw @a[tag=debug_harmony] "[harmony:1s] running..."
 

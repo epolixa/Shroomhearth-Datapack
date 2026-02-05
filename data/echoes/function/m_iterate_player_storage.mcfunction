@@ -1,5 +1,5 @@
 # Executor: Server
-# Position: Root
+# Position: Spawn
 # Data: Echoes storage
 
 $tellraw @a[tag=debug_echoes] "[echoes.m_iterate_player_storage] checking storage players list at index $(players_index)..."

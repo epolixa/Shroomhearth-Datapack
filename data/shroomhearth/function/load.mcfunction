@@ -1,7 +1,13 @@
-tellraw @a[tag=debug_shroomhearth] [{"text":"[shroomhearth:load] loading..."}]
+# Executor: Server
+# Position: Spawn
+
+# Runs only on initial server startup when the datapack is loaded
+
+tellraw @a[tag=debug_shroomhearth] [{"text":"[shroomhearth:load] Loading Shroomhearth Datapack..."}]
+
 
 # re-seed lcg
-function shroomhearth:lcg/seed
+#function shroomhearth:lcg/seed
 
 # Kick off staggered functions to run every second
 function shroomhearth:1s/0

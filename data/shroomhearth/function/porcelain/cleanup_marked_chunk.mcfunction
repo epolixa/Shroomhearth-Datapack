@@ -7,10 +7,10 @@
 # keepChunk should be changed to a scoreboard objective so that we don't need to do nbt checks
 
 # Calculate and score the chunk position of marker
-execute as @s run function shroomhearth:chunk_coords/calc
+execute as @s run function shroomhearth:score_chunk_coordinates
 
 # Calculate and score the chunk position of nearest Porcelain source anchor (may not exist)
-execute as @n[tag=source_anchor,distance=0..] run function shroomhearth:chunk_coords/calc
+execute as @n[tag=source_anchor,distance=0..] run function shroomhearth:score_chunk_coordinates
 
 # Set keepChunk to 1 if the nearest Porcelain source anchor is inside the same chunk
 execute if entity @n[tag=source_anchor,distance=0..] \

@@ -6,10 +6,10 @@ tellraw @a[tag=debug_echo_horn] [{"text":"[echo_horn:teleport_to_player] Attempt
 # Teleport to player with matching scores
 tag @s add checking_target_player
 execute as @e[type=#echo_horn:echo_horn_target,predicate=echo_horn:can_be_teleported_to] \
-if score @s UUID1 = @p[tag=checking_target_player] echo_horn_UUID1 \
-if score @s UUID2 = @p[tag=checking_target_player] echo_horn_UUID2 \
-if score @s UUID3 = @p[tag=checking_target_player] echo_horn_UUID3 \
-if score @s UUID4 = @p[tag=checking_target_player] echo_horn_UUID4 \
+if score @s uuid_1 = @p[tag=checking_target_player] echo_horn_uuid_1 \
+if score @s uuid_2 = @p[tag=checking_target_player] echo_horn_uuid_2 \
+if score @s uuid_3 = @p[tag=checking_target_player] echo_horn_uuid_3 \
+if score @s uuid_4 = @p[tag=checking_target_player] echo_horn_uuid_4 \
 at @s run function echo_horn:found_target_player
 tag @s remove checking_target_player
 

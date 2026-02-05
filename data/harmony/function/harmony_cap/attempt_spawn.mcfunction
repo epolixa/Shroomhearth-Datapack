@@ -1,5 +1,5 @@
 # Executor: A player with 60 or more harmony score
-# Position: Root
+# Position: Spawn
 
 tellraw @a[tag=debug_harmony] [{"text":"harmony:harmony_cap/attempt_spawn] trying to spawn Harmony Cap from "},{"selector":"@s"}]
 

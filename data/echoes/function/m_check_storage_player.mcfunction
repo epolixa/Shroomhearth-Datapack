@@ -1,5 +1,5 @@
 # Executor: Server
-# Position: Root
+# Position: Spawn
 # Data: Target player data
 
 $tellraw @a[tag=debug_echoes] "[echoes.m_check_storage_player] checking if $(name) is still online..."

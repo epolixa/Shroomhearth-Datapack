@@ -8,10 +8,10 @@ scoreboard objectives remove hasCharm
 scoreboard objectives remove hasHcfMaterial
 
 # hcfUUID component scores, used for finding target player
-scoreboard objectives remove hcfUUID1
-scoreboard objectives remove hcfUUID2
-scoreboard objectives remove hcfUUID3
-scoreboard objectives remove hcfUUID4
+scoreboard objectives remove hcfuuid_1
+scoreboard objectives remove hcfuuid_2
+scoreboard objectives remove hcfuuid_3
+scoreboard objectives remove hcfuuid_4
 
 # Flag for if the target player could be found
 scoreboard objectives remove targetPlayerFound

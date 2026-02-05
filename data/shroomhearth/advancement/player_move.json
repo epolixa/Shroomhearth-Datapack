@@ -11,105 +11,105 @@
                                 "condition": "minecraft:entity_scores",
                                 "entity": "this",
                                 "scores": {
-                                    "playerAviate": {"min": 1}
+                                    "aviate_one_cm": {"min": 1}
                                 }
                             },
                             {
                                 "condition": "minecraft:entity_scores",
                                 "entity": "this",
                                 "scores": {
-                                    "playerBoat": {"min": 1}
+                                    "boat_one_cm": {"min": 1}
                                 }
                             },
                             {
                                 "condition": "minecraft:entity_scores",
                                 "entity": "this",
                                 "scores": {
-                                    "playerClimb": {"min": 1}
+                                    "climb_one_cm": {"min": 1}
                                 }
                             },
                             {
                                 "condition": "minecraft:entity_scores",
                                 "entity": "this",
                                 "scores": {
-                                    "playerCrouch": {"min": 1}
+                                    "crouch_one_cm": {"min": 1}
                                 }
                             },
                             {
                                 "condition": "minecraft:entity_scores",
                                 "entity": "this",
                                 "scores": {
-                                    "playerFall": {"min": 1}
+                                    "fall_one_cm": {"min": 1}
                                 }
                             },
                             {
                                 "condition": "minecraft:entity_scores",
                                 "entity": "this",
                                 "scores": {
-                                    "playerFly": {"min": 1}
+                                    "fly_one_cm": {"min": 1}
                                 }
                             },
                             {
                                 "condition": "minecraft:entity_scores",
                                 "entity": "this",
                                 "scores": {
-                                    "playerHorse": {"min": 1}
+                                    "horse_one_cm": {"min": 1}
                                 }
                             },
                             {
                                 "condition": "minecraft:entity_scores",
                                 "entity": "this",
                                 "scores": {
-                                    "playerMinecart": {"min": 1}
+                                    "minecart_one_cm": {"min": 1}
                                 }
                             },
                             {
                                 "condition": "minecraft:entity_scores",
                                 "entity": "this",
                                 "scores": {
-                                    "playerPig": {"min": 1}
+                                    "pig_one_cm": {"min": 1}
                                 }
                             },
                             {
                                 "condition": "minecraft:entity_scores",
                                 "entity": "this",
                                 "scores": {
-                                    "playerSprint": {"min": 1}
+                                    "sprint_one_cm": {"min": 1}
                                 }
                             },
                             {
                                 "condition": "minecraft:entity_scores",
                                 "entity": "this",
                                 "scores": {
-                                    "playerStrider": {"min": 1}
+                                    "strider_one_cm": {"min": 1}
                                 }
                             },
                             {
                                 "condition": "minecraft:entity_scores",
                                 "entity": "this",
                                 "scores": {
-                                    "playerSwim": {"min": 1}
+                                    "swim_one_cm": {"min": 1}
                                 }
                             },
                             {
                                 "condition": "minecraft:entity_scores",
                                 "entity": "this",
                                 "scores": {
-                                    "playerWalk": {"min": 1}
+                                    "walk_one_cm": {"min": 1}
                                 }
                             },
                             {
                                 "condition": "minecraft:entity_scores",
                                 "entity": "this",
                                 "scores": {
-                                    "playerWalkOnWater": {"min": 1}
+                                    "walk_on_water_one_cm": {"min": 1}
                                 }
                             },
                             {
                                 "condition": "minecraft:entity_scores",
                                 "entity": "this",
                                 "scores": {
-                                    "playerWalkUnderWater": {"min": 1}
+                                    "walk_under_water_one_cm": {"min": 1}
                                 }
                             }
                         ]
@@ -119,6 +119,6 @@
         }
     },
     "rewards": {
-        "function": "shroomhearth:player_move"
+        "function": "shroomhearth:advancement_reward/player_move"
     }
 }

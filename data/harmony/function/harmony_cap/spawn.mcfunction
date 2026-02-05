@@ -6,10 +6,10 @@ tellraw @a[tag=debug_harmony] "[harmony:harmony_cap/spawn] selecting position fo
 tag @s add spawning_harmony_cap
 
 # Capture the player's current Y level
-# Add 16 to it
+# Add 8 to it
 # and then capture the score in storage
 execute store result score @s pos_y run data get entity @s Pos[1]
-scoreboard players add @s pos_y 16
+scoreboard players add @s pos_y 8
 execute store result storage shroomhearth:harmony harmony_cap.maxHeight int 1 run scoreboard players get @s pos_y
 
 # Summon a marker to find a suitable spawn location

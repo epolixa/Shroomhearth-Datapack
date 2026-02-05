@@ -5,16 +5,16 @@ execute as @a[scores={death_count=1..}] run function shroomhearth:player_died
 execute as @a[tag=!respawned,scores={time_since_death=1..}] run function shroomhearth:player_respawned
 
 # Warped Fungus on a Stick trigger detection
-execute as @a[scores={useWarpedFungusStick=1..}] at @s run function shroomhearth:use_warped_fungus_stick
+execute as @a[scores={used_warped_fungus_stick=1..}] at @s run function shroomhearth:use_warped_fungus_stick
 
 # Goat horn trigger detection
-execute as @a[scores={use_goat_horn=1..}] at @s run function shroomhearth:use_goat_horn
+execute as @a[scores={used_goat_horn=1..}] at @s run function shroomhearth:used_goat_horn
 
 # Porcelain tick functions - execute if a player exists
 execute if entity @p run function shroomhearth:porcelain/tick
 
-# Multiplayer sleep - only run when more than one player is online
-execute if score PLAYER_COUNT shroomhearth matches 2.. as @a[tag=sleeping] run function sleeping:tick
+# Cooperative sleep - only run when more than one player is online
+execute if score player_count shroomhearth matches 2.. as @a[tag=sleeping] run function sleeping:tick
 
 # Spawn Eggs from Mob Spawners - execute if a mob spawner item entity exists
 execute as @e[type=item,nbt={Age:0s,Item:{id:"minecraft:spawner"}}] run function spawner_eggs:tick

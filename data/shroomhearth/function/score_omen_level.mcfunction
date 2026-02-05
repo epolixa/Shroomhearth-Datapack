@@ -1,4 +1,10 @@
+# Executor: any entity, typically a player
+# Position: inherit
+
 # Updates the executor's omen_level score according to their current Bad Omen level
+
+tellraw @a[tag=debug_shroomhearth] [{"text":"[shroomhearth:score_omen_level] Scoring omen level for "},{"selector":"@s"}]
+
 
 # Set omen_level to 0
 scoreboard players set @s omen_level 0

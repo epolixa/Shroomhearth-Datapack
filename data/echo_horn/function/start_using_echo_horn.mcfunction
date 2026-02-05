@@ -22,10 +22,10 @@ execute as @s[tag=using_echo_horn_offhand] run function echo_horn:capture_echo_h
 
 
 # Set tags according to if the player is using their own echo horn or another player's echo horn
-execute if score @s echo_horn_UUID1 = @s UUID1 \
-if score @s echo_horn_UUID2 = @s UUID2 \
-if score @s echo_horn_UUID3 = @s UUID3 \
-if score @s echo_horn_UUID4 = @s UUID4 \
+execute if score @s echo_horn_uuid_1 = @s uuid_1 \
+if score @s echo_horn_uuid_2 = @s uuid_2 \
+if score @s echo_horn_uuid_3 = @s uuid_3 \
+if score @s echo_horn_uuid_4 = @s uuid_4 \
 run tag @s add using_own_echo_horn
 execute as @s[tag=!using_own_echo_horn] run tag @s add using_other_player_echo_horn
 

@@ -2,7 +2,7 @@
 tellraw @a[tag=debug_echo_kernel] "Using Echo Kernel..."
 
 # Update the per-player storage with Chorus Kernel target data
-function shroomhearth:capture_uuid
+function shroomhearth:score_uuid
 function echo_kernel:m_modify_storage_player_echo_kernel_target with storage shroomhearth:players temp_uuid
 tellraw @a[tag=debug_echo_kernel] "Updated player storage with Echo Kernel target data"
 

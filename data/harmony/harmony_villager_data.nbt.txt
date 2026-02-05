@@ -15,7 +15,7 @@
             {
                 buy: {
                     id: "minecraft:glistering_melon_slice",
-                    count: 4,
+                    count: 8,
                     components: {
                         "minecraft:item_name": {
                             "translate": "community.harmony_cap",

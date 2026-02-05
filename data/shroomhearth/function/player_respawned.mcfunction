@@ -1,5 +1,5 @@
 # Executor: A player that has just respawned
-# Position: Root
+# Position: Spawn
 
 tellraw @a[tag=debug_shroomhearth] [{"text":"[shroomhearth:player_respawned] Player respawned: "},{"selector":"@s"}]
 

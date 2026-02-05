@@ -1,4 +1,5 @@
-tellraw @a[tag=debug_shroomhearth] [{"text":"[shroomhearth:1s/5] Executing function set 5"}]
+#tellraw @a[tag=debug_shroomhearth] [{"text":"[shroomhearth:1s/5] Executing function set 5"}]
+
 
 # Process wardable mobs
 execute as @e[type=#mob_warding:wardable,tag=!unwardable] at @s run function mob_warding:1s_mob

@@ -7,31 +7,31 @@ scoreboard objectives remove shroomhearth
 scoreboard players reset debug shroomhearth
 
 # global count of online players
-scoreboard players reset PLAYER_COUNT shroomhearth
+scoreboard players reset player_count shroomhearth
 
 # setup general used_warped_fungus_stick flag
 scoreboard objectives remove used_warped_fungus_stick
 scoreboard objectives remove used_goat_horn
 
-# playerLeft - tracks when the player leaves the server
-scoreboard objectives remove playerLeft
+# leave_game - tracks when the player leaves the server
+scoreboard objectives remove leave_game
 
 # player movement scores, used to trigger an advancement and update position trackers
-scoreboard objectives remove playerAviate
-scoreboard objectives remove playerBoat
-scoreboard objectives remove playerClimb
-scoreboard objectives remove playerCrouch
-scoreboard objectives remove playerFall
-scoreboard objectives remove playerFly
-scoreboard objectives remove playerHorse
-scoreboard objectives remove playerMinecart
-scoreboard objectives remove playerPig
-scoreboard objectives remove playerSprint
-scoreboard objectives remove playerStrider
-scoreboard objectives remove playerSwim
-scoreboard objectives remove playerWalk
-scoreboard objectives remove playerWalkOnWater
-scoreboard objectives remove playerWalkUnderWater
+scoreboard objectives remove aviate_one_cm
+scoreboard objectives remove boat_one_cm
+scoreboard objectives remove climb_one_cm
+scoreboard objectives remove crouch_one_cm
+scoreboard objectives remove fall_one_cm
+scoreboard objectives remove fly_one_cm
+scoreboard objectives remove horse_one_cm
+scoreboard objectives remove minecart_one_cm
+scoreboard objectives remove pig_one_cm
+scoreboard objectives remove sprint_one_cm
+scoreboard objectives remove strider_one_cm
+scoreboard objectives remove swim_one_cm
+scoreboard objectives remove walk_one_cm
+scoreboard objectives remove walk_on_water_one_cm
+scoreboard objectives remove walk_under_water_one_cm
 
 # Death count, used to detect player death
 scoreboard objectives remove death_count
@@ -40,13 +40,13 @@ scoreboard objectives remove death_count
 scoreboard objectives remove time_since_death
 
 # player horizontol rotation - used to track player rotation for some modules
-scoreboard objectives remove playerHorizontalRotation
+scoreboard objectives remove rotation_yaw
 
 # setup UUID component scores
-scoreboard objectives remove UUID1
-scoreboard objectives remove UUID2
-scoreboard objectives remove UUID3
-scoreboard objectives remove UUID4
+scoreboard objectives remove uuid_1
+scoreboard objectives remove uuid_2
+scoreboard objectives remove uuid_3
+scoreboard objectives remove uuid_4
 
 # general purpose health objective
 scoreboard objectives remove health
@@ -56,26 +56,12 @@ scoreboard objectives remove pos_x
 scoreboard objectives remove pos_y
 scoreboard objectives remove pos_z
 
+# chunkX, chunkZ - contains chunk coordinates
+scoreboard objectives remove chunk_x
+scoreboard objectives remove chunk_z
+
 # flag for repairable items
 scoreboard objectives remove repairable
 
 # The level of Bad Omen an entity has. Used for custom ominous events, such as the Omen Ender Dragon.
 scoreboard objectives remove omen_level
-
-## remove module objectives
-function allay_bottle:objectives/remove
-function arena:objectives/remove
-function community:objectives/remove
-function harmony:objectives/remove
-function ender_dragon:objectives/remove
-function haberdasher:objectives/remove
-function hollow_vale:objectives/remove
-function item_interactions:objectives/remove
-function pillager_raid:objectives/remove
-function challenges:objectives/remove
-function shroomhearth:porcelain/objectives/remove
-function recall:objectives/remove
-function sleeping:objectives/remove
-function stat_display:objectives/remove
-function wither:objectives/remove
-function relics:objectives/remove

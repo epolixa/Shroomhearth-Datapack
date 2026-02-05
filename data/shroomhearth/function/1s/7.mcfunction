@@ -1,4 +1,5 @@
-tellraw @a[tag=debug_shroomhearth] [{"text":"[shroomhearth:1s/7] Executing function set 7"}]
+#tellraw @a[tag=debug_shroomhearth] [{"text":"[shroomhearth:1s/7] Executing function set 7"}]
+
 
 # Drop seats in invalid positions
 execute as @e[tag=seat_interaction] at @s if block ~ ~-0.0625 ~ #seats:intangible run function seats:drop_seat

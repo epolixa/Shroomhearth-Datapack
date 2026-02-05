@@ -1,5 +1,5 @@
 # Executor: Server
-# Position: Root
+# Position: Spawn
 
 tellraw @a[tag=debug_echoes] "[echoes.pulse] pulsing..."
 

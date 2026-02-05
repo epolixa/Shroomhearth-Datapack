@@ -21,7 +21,7 @@ function wandering_trader:build_tooltip
 kill @n[tag=wandering_trader_text_display]
 
 # set position scores
-function shroomhearth:pos/score_pos
+function shroomhearth:score_coordinates
 # complete announcement
 tellraw @a [{"text":"The "}, {"color":"#435f91","text":"Wandering Trader","hover_event":{"action":"show_text","value":{"nbt":"text[]","storage":"wandering_trader:tooltip","separator":"\n","interpret":true}}}, {"text":" is visiting "}, {"selector": "@p"}, {"text": " at "}, {"score":{"name":"@s","objective":"pos_x"}}, {"text": ", "}, {"score":{"name":"@s","objective":"pos_y"}}, {"text": ", "}, {"score":{"name":"@s","objective":"pos_z"}}]
 

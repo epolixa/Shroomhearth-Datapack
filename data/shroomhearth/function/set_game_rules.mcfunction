@@ -1,5 +1,10 @@
-# Setup the default game rules for Shroomhearth
+# Executor: Server initialization
+# Position: Spawn
 
+tellraw @a[tag=debug_shroomhearth] [{"text":"[shroomhearth:set_game_rules] Setting default game rules for Shroomhearth..."}]
+
+
+# Set all default game rules for Shroomhearth
 gamerule advance_time true
 gamerule advance_weather true
 gamerule allow_entering_nether_using_portals true

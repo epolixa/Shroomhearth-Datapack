@@ -1,5 +1,5 @@
 # Executor: Server
-# Position: Root
+# Position: Spawn
 # Data: Target player data, determined as offline
 
 tellraw @a[tag=debug_echoes] "[echoes.m_handle_offline_player] $(name) is offline."

@@ -9,10 +9,10 @@ tellraw @a[tag=debug_echo_horn] [{"text":"[echo_horn:check_respawn_point] Checki
 # and tag the player if the block is a valid respawn block
 tag @s add checking_respawn_point
 execute as @e[tag=echo_horn_forceload_marker] \
-if score @p[tag=checking_respawn_point] UUID1 = @s echo_horn_UUID1 \
-if score @p[tag=checking_respawn_point] UUID2 = @s echo_horn_UUID2 \
-if score @p[tag=checking_respawn_point] UUID3 = @s echo_horn_UUID3 \
-if score @p[tag=checking_respawn_point] UUID4 = @s echo_horn_UUID4 \
+if score @p[tag=checking_respawn_point] uuid_1 = @s echo_horn_uuid_1 \
+if score @p[tag=checking_respawn_point] uuid_2 = @s echo_horn_uuid_2 \
+if score @p[tag=checking_respawn_point] uuid_3 = @s echo_horn_uuid_3 \
+if score @p[tag=checking_respawn_point] uuid_4 = @s echo_horn_uuid_4 \
 at @s if block ~ ~ ~ #echo_horn:respawn_blocks \
 run function echo_horn:found_respawn_block
 tag @s remove checking_respawn_point

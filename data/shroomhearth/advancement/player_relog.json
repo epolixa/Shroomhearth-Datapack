@@ -8,7 +8,7 @@
                         "condition": "minecraft:entity_scores",
                         "entity": "this",
                         "scores": {
-                            "playerLeft": {"min": 1}
+                            "leave_game": {"min": 1}
                         }
                     }
                 ]
@@ -16,6 +16,6 @@
         }
     },
     "rewards": {
-        "function": "shroomhearth:player_relog"
+        "function": "shroomhearth:advancement_reward/player_relog"
     }
 }

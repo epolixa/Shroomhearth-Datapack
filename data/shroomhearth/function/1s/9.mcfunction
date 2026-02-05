@@ -1,4 +1,5 @@
-tellraw @a[tag=debug_shroomhearth] [{"text":"[shroomhearth:1s/9] Executing function set 9"}]
+#tellraw @a[tag=debug_shroomhearth] [{"text":"[shroomhearth:1s/9] Executing function set 9"}]
+
 
 # Easter event - check all rabbits for easter egg
 # disabled until next Easter event

@@ -12,7 +12,7 @@ data modify entity @s data.keepChunk set value 0
 
 # Copy associated player's UUID scores to the marker's echo_horn_uuid scores
 # For the marker, echo_horn_uuid scores serve to track the parent player
-scoreboard players operation @s echo_horn_UUID1 = @p[tag=using_own_echo_horn] UUID1
-scoreboard players operation @s echo_horn_UUID2 = @p[tag=using_own_echo_horn] UUID2
-scoreboard players operation @s echo_horn_UUID3 = @p[tag=using_own_echo_horn] UUID3
-scoreboard players operation @s echo_horn_UUID4 = @p[tag=using_own_echo_horn] UUID4
+scoreboard players operation @s echo_horn_uuid_1 = @p[tag=using_own_echo_horn] uuid_1
+scoreboard players operation @s echo_horn_uuid_2 = @p[tag=using_own_echo_horn] uuid_2
+scoreboard players operation @s echo_horn_uuid_3 = @p[tag=using_own_echo_horn] uuid_3
+scoreboard players operation @s echo_horn_uuid_4 = @p[tag=using_own_echo_horn] uuid_4

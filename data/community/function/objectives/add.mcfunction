@@ -8,10 +8,10 @@ scoreboard objectives add hasCharm dummy
 scoreboard objectives add hasHcfMaterial dummy
 
 # hcfUUID component scores, used for finding target player
-scoreboard objectives add hcfUUID1 dummy
-scoreboard objectives add hcfUUID2 dummy
-scoreboard objectives add hcfUUID3 dummy
-scoreboard objectives add hcfUUID4 dummy
+scoreboard objectives add hcfuuid_1 dummy
+scoreboard objectives add hcfuuid_2 dummy
+scoreboard objectives add hcfuuid_3 dummy
+scoreboard objectives add hcfuuid_4 dummy
 
 # Flag for if the target player could be found
 scoreboard objectives add targetPlayerFound dummy
