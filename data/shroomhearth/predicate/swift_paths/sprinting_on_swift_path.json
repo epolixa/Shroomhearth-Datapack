@@ -1,13 +1,12 @@
 [
     {
+        "condition": "minecraft:reference",
+        "name": "shroomhearth:swift_paths/movement_affected_by_swift_path"
+    },
+    {
         "condition": "minecraft:entity_properties",
         "entity": "this",
         "predicate": {
-            "stepping_on": {
-                "block": {
-                    "blocks": "#speedy_paths:paths"
-                }
-            },
             "flags": {
                 "is_sprinting": true
             }

@@ -19,7 +19,7 @@
                 }
             },
             "vehicle": {
-                "type": "#speedy_paths:mounts"
+                "type": "#shroomhearth:mounts"
             }
         }
     }

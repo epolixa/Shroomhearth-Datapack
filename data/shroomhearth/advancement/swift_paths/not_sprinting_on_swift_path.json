@@ -1,0 +1,21 @@
+{
+    "criteria": {
+        "not_sprinting_on_swift_path": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:reference",
+                            "name": "shroomhearth:swift_paths/sprinting_on_swift_path"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "shroomhearth:swift_paths/advancement_reward/not_sprinting_on_swift_path"
+    }
+}

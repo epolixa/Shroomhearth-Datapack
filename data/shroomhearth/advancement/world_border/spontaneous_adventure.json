@@ -1,5 +1,5 @@
 {
-	"parent": "shroomhearth:swift_paths/display/well_traveled",
+	"parent": "shroomhearth:swift_paths/well_traveled",
 	"display": {
 		"icon": {
 			"id": "minecraft:chorus_fruit",

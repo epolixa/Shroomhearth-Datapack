@@ -1,5 +1,5 @@
 {
-	"parent": "shroomhearth:display/well_traveled",
+	"parent": "shroomhearth:swift_paths/well_traveled",
 	"display": {
 		"icon": {
 			"id": "minecraft:warped_fungus_on_a_stick",

@@ -5,20 +5,20 @@
 			"id": "minecraft:dirt_path"
 		},
 		"title": "Well Traveled",
-		"description": "Sprint faster on a Dirt Path",
+		"description": "Gain movement speed while sprinting or riding a saddled mob on Dirt Path or Frosted Ice blocks",
 		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false
 	},
 	"criteria": {
-		"on_dirt_path": {
+		"well_traveled": {
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{
 						"condition": "minecraft:reference",
-						"name": "speedy_paths:player_on_path"
+						"name": "shroomhearth:swift_paths/sprinting_on_swift_path"
 					}
 				]
 			}

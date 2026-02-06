@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "passenger_of_mount": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "shroomhearth:swift_paths/passenger_of_saddled_mount"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "shroomhearth:swift_paths/advancement_reward/passenger_of_saddled_mount"
+    }
+}
