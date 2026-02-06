@@ -48,5 +48,5 @@
 		"minecraft:visual/fog_color": "#F4F5FA",
 		"minecraft:visual/sky_color": "#F0F8FF"
 	},
-	"timelines": "#porcelain:in_porcelain"
+	"timelines": "#shroomhearth:in_porcelain"
 }

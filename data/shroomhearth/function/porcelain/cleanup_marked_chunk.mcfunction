@@ -6,6 +6,9 @@
 # Should really generalize this method in shroomhearth namespace
 # keepChunk should be changed to a scoreboard objective so that we don't need to do nbt checks
 
+tellraw @a[tag=debug_porcelain] [{"text":"[shroomhearth:porcelain/cleanup_marked_chunk] Cleaning up marked chunk at "},{"selector":"@s"}]
+
+
 # Calculate and score the chunk position of marker
 execute as @s run function shroomhearth:score_chunk_coordinates
 

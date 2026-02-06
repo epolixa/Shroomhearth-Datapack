@@ -1,6 +1,8 @@
 # Executor: Player entering The Porcelain
 # Position: the Player
 
+tellraw @a[tag=debug_porcelain] [{"text":"[shroomhearth:porcelain/enter_porcelain] "},{"selector":"@s"},{"text":" is entering The Porcelain"}]
+
 
 # assign dim id to player based on dimension they are in
 execute if predicate shroomhearth:in_overworld run scoreboard players set @s porcelain_dimension_id 0

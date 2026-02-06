@@ -20,6 +20,6 @@
     }
   },
   "rewards": {
-    "function": "shroomhearth:porcelain/clear_blacklist"
+    "function": "shroomhearth:porcelain/advancement_reward/clear_blacklist"
   }
 }

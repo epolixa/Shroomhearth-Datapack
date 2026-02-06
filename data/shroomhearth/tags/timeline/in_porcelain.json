@@ -1,5 +1,6 @@
 {
   "values": [
-    "porcelain:the_porcelain"
+    "#minecraft:universal",
+    "shroomhearth:the_porcelain"
   ]
 }

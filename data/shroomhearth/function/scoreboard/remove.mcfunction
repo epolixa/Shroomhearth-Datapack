@@ -10,7 +10,7 @@ scoreboard players reset debug shroomhearth
 scoreboard players reset player_count shroomhearth
 
 # setup general used_warped_fungus_stick flag
-scoreboard objectives remove used_warped_fungus_stick
+scoreboard objectives remove used_warped_fungus_on_a_stick
 scoreboard objectives remove used_goat_horn
 
 # leave_game - tracks when the player leaves the server

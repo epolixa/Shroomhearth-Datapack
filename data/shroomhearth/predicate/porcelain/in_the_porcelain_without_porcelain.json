@@ -7,7 +7,7 @@
     "condition": "minecraft:entity_scores",
     "entity": "this",
     "scores": {
-      "use_porcelain": {
+      "used_porcelain": {
         "min": 1
       }
     }

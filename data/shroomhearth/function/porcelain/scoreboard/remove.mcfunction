@@ -1,5 +1,5 @@
 # Flag for using the Porcelain item
-scoreboard objectives remove use_porcelain
+scoreboard objectives remove used_porcelain
 
 # Identifier to match players with their anchors
 # in the future we should try to match anchor by player UUID

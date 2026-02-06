@@ -1,6 +1,8 @@
 # Executor: Player copying inventory to source anchor in the overworld
 # Position: the anchor
 
+tellraw @a[tag=debug_porcelain] [{"text":"[shroomhearth:porcelain/copy_inv_p_to_a_overworld] Copying inventory from "},{"selector":"@p"},{"text":" to anchor"}]
+
 
 # set temporary shulker box for inventory items
 setblock ~ -64 ~ minecraft:white_shulker_box

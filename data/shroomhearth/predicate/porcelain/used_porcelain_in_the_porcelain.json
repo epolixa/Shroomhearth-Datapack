@@ -1,0 +1,10 @@
+[
+  {
+    "condition": "minecraft:reference",
+    "name": "shroomhearth:porcelain/used_porcelain"
+  },
+  {
+    "condition": "minecraft:reference",
+    "name": "shroomhearth:porcelain/in_the_porcelain"
+  }
+]

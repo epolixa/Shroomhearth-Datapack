@@ -1,6 +1,8 @@
 # Executor: Ad-hoc
 # Position: Executor's position
 
+tellraw @a[tag=debug_porcelain] [{"text":"[shroomhearth:porcelain/cleanup_anchors] Cleaning up all Porcelain anchors"}]
+
 
 # Kill all anchor armor stands
 kill @e[tag=source_anchor]

@@ -38,6 +38,6 @@
         ]
     ],
     "rewards": {
-        "function": "shroomhearth:porcelain/out_of_bounds"
+        "function": "shroomhearth:porcelain/advancement_reward/out_of_bounds"
     }
 }

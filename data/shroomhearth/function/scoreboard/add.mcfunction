@@ -6,7 +6,7 @@ scoreboard players set player_count shroomhearth 0
 
 
 # setup general used_warped_fungus_stick flag
-scoreboard objectives add used_warped_fungus_stick minecraft.used:minecraft.warped_fungus_on_a_stick
+scoreboard objectives add used_warped_fungus_on_a_stick minecraft.used:minecraft.warped_fungus_on_a_stick
 scoreboard objectives add used_goat_horn minecraft.used:minecraft.goat_horn
 
 # leave_game - tracks when the player leaves the server

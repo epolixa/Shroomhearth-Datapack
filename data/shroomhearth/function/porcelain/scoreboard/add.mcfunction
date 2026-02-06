@@ -1,5 +1,5 @@
 # Flag for using the Porcelain item
-scoreboard objectives add use_porcelain dummy
+scoreboard objectives add used_porcelain dummy
 
 # Identifier to match players with their anchors
 # in the future we should try to match anchor by player UUID

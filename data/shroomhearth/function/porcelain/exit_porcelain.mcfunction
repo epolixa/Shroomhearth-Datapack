@@ -1,6 +1,8 @@
 # Executor: Player exiting The Porcelain
 # Position: the Player
 
+tellraw @a[tag=debug_porcelain] [{"text":"[shroomhearth:porcelain/exit_porcelain] "},{"selector":"@s"},{"text":" is exiting The Porcelain"}]
+
 
 # remove score
 scoreboard players reset @s use_porcelain
