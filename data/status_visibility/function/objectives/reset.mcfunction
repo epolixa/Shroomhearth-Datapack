@@ -1,2 +1,0 @@
-function stat_display:objectives/remove
-function stat_display:objectives/add

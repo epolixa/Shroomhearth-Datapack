@@ -1,6 +1,6 @@
 {
     "criteria": {
-        "insomnia": {
+        "insomnia_warning_reset": {
             "trigger": "minecraft:location",
             "conditions": {
                 "player": [
@@ -11,7 +11,7 @@
                             "type_specific": {
                                 "type": "minecraft:player",
                                 "advancements": {
-                                    "stat_display:insomnia_warning": true
+                                    "shroomhearth:status_visibility/insomnia_warning": true
                                 }
                             }
                         }
@@ -20,7 +20,7 @@
                         "condition": "minecraft:inverted",
                         "term": {
                             "condition": "minecraft:reference",
-                            "name": "stat_display:insomnia"
+                            "name": "shroomhearth:status_visibility/insomnia"
                         }
                     }
                 ]
@@ -28,6 +28,6 @@
         }
     },
     "rewards": {
-        "function": "stat_display:insomnia_warning_reset"
+        "function": "shroomhearth:status_visibility/advancement_reward/insomnia_warning_reset"
     }
 }

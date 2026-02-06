@@ -6,13 +6,13 @@
                 "player": [
                     {
                         "condition": "minecraft:reference",
-                        "name": "stat_display:insomnia"
+                        "name": "shroomhearth:status_visibility/insomnia"
                     }
                 ]
             }
         }
     },
     "rewards": {
-        "function": "stat_display:insomnia_warning"
+        "function": "shroomhearth:status_visibility/advancement_reward/insomnia_warning"
     }
 }
