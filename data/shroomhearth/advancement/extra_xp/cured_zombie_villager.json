@@ -5,6 +5,6 @@
 		}
 	},
 	"rewards": {
-		"function": "extra_xp:cured_zombie_villager"
+		"function": "shroomhearth:extra_xp/advancement_reward/cured_zombie_villager"
 	} 
 }

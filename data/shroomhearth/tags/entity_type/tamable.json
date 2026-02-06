@@ -1,15 +1,17 @@
 {
   "replace": false,
   "values": [
-    "minecraft:axolotl",
     "minecraft:cat",
     "minecraft:donkey",
     "minecraft:horse",
     "minecraft:llama",
     "minecraft:mule",
-    "minecraft:ocelot",
+    "minecraft:nautilus",
     "minecraft:parrot",
     "minecraft:skeleton_horse",
-    "minecraft:wolf"
+    "minecraft:trader_llama",
+    "minecraft:wolf",
+    "minecraft:zombie_horse",
+    "minecraft:zombie_nautilus"
   ]
 }

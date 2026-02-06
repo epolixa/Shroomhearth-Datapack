@@ -1,7 +1,10 @@
 # Objective for core fake player globals
 scoreboard objectives add shroomhearth dummy
 
-# global count of online players
+# Global random value holder
+scoreboard players set random shroomhearth 0
+
+# Global count of online players
 scoreboard players set player_count shroomhearth 0
 
 

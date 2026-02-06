@@ -286,6 +286,6 @@
     ]
   ],
   "rewards": {
-    "function": "extra_xp:generate_container_loot"
+    "function": "shroomhearth:extra_xp/advancement_reward/generate_container_loot"
   } 
 }

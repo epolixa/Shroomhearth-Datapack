@@ -164,6 +164,6 @@
     ]
   ],
   "rewards": {
-    "function": "extra_xp:bartering"
+    "function": "shroomhearth:extra_xp/advancement_reward/bartering"
   } 
 }

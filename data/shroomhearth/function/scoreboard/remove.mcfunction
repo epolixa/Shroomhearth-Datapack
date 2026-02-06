@@ -1,12 +1,10 @@
-## remove core objectives
-
-# shroomhearth - shared objective for dummy global variables
+# Objective for core fake player globals
 scoreboard objectives remove shroomhearth
 
-# debug global to control some executions useful for problem-solving
-scoreboard players reset debug shroomhearth
+# Global random value holder
+scoreboard players reset random shroomhearth
 
-# global count of online players
+# Global count of online players
 scoreboard players reset player_count shroomhearth
 
 # setup general used_warped_fungus_stick flag
