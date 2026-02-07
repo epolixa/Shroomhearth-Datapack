@@ -1,7 +1,7 @@
 # Executor: A player who has moved enough to trigger the player_move advancement
 # Position: The player entity
 
-tellraw @a[tag=debug_shroomhearth] [{"text":"[shroomhearth:player_move] "},{"selector":"@s"},{"text":" moved"}]
+tellraw @a[tag=debug_shroomhearth] [{"text":"[shroomhearth:advancement_reward/player_move] "},{"selector":"@s"},{"text":" moved"}]
 
 
 # Reset tracking scores

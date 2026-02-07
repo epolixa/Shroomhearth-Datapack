@@ -1,6 +1,6 @@
 {
 	"criteria": {
-		"eat_glow_berries": {
+		"consume_glow_berries": {
 			"trigger": "minecraft:consume_item",
 			"conditions": {
 				"item": {
@@ -10,6 +10,6 @@
 		}
 	},
 	"rewards": {
-		"function": "item_interactions:eat_glow_berries"
+		"function": "shroomhearth:advancement_reward/consume_glow_berries"
 	} 
 }

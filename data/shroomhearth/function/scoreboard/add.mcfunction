@@ -65,6 +65,9 @@ scoreboard objectives add repairable dummy
 # The level of Bad Omen an entity has. Used for custom ominous events, such as the Omen Ender Dragon.
 scoreboard objectives add omen_level dummy
 
+# Track if the player dropped an item
+scoreboard objectives add drop minecraft.custom:minecraft.drop
+
 ## other setup
 # game rules
 function shroomhearth:set_game_rules

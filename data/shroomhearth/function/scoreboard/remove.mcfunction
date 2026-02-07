@@ -63,3 +63,6 @@ scoreboard objectives remove repairable
 
 # The level of Bad Omen an entity has. Used for custom ominous events, such as the Omen Ender Dragon.
 scoreboard objectives remove omen_level
+
+# Track if the player dropped an item
+scoreboard objectives remove drop

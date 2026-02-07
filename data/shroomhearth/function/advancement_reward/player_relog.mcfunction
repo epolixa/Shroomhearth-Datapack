@@ -4,7 +4,7 @@
 # A player is considered to have relogged if they have a non-zero leave_game score.
 # This score is incremented the moment they leave the game and is not detected by the advancement until they log back in.
 
-tellraw @a[tag=debug_shroomhearth] [{"text":"[shroomhearth:player_relog] Player "},{"selector":"@s"},{"color":"white","text":" relogged"}]
+tellraw @a[tag=debug_shroomhearth] [{"text":"[shroomhearth:advancement_reward/player_relog] Player "},{"selector":"@s"},{"color":"white","text":" relogged"}]
 
 
 # Capture player UUID components

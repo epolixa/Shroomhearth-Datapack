@@ -6,9 +6,6 @@
 tellraw @a[tag=debug_shroomhearth] [{"text":"[shroomhearth:load] Loading Shroomhearth Datapack..."}]
 
 
-# re-seed lcg
-#function shroomhearth:lcg/seed
-
 # Kick off staggered functions to run every second
 function shroomhearth:1s/0
 schedule function shroomhearth:1s/1 2t
@@ -21,5 +18,6 @@ schedule function shroomhearth:1s/7 14t
 schedule function shroomhearth:1s/8 16t
 schedule function shroomhearth:1s/9 18t
 
-# Initialize item persistance, runs every 8 seconds
-schedule function item_interactions:8s 8s
+# Kick off functions that run every 8 seconds
+# Mainly for named item persistance
+schedule function shroomhearth:8s 8s
