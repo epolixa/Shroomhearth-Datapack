@@ -16,8 +16,8 @@ execute if entity @p run function shroomhearth:porcelain/tick
 # Cooperative sleep - only run when more than one player is online
 execute if score player_count shroomhearth matches 2.. as @a[tag=sleeping] run function sleeping:tick
 
-# Spawn Eggs from Mob Spawners - execute if a mob spawner item entity exists
-execute as @e[type=item,nbt={Age:0s,Item:{id:"minecraft:spawner"}}] run function spawner_eggs:tick
+# Spawn Eggs from Spawners - execute if a Spawner item entity exists
+execute as @e[type=minecraft:item,nbt={Item:{id:"minecraft:spawner"}}] at @s run function shroomhearth:replace_spawner_item_with_spawn_egg
 
 # Clone random experience orb - execute if Spores of Experience is active
 execute if score spores_of_experience shroomhearth matches 1.. if predicate shroomhearth:random_chance_50 as @e[type=minecraft:experience_orb,tag=!double_xp,limit=1,sort=random] at @s run function harmony:spores/experience/double_experience_orb

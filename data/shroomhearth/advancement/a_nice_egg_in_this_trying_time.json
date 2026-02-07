@@ -9,12 +9,12 @@
 		"frame": "task"
 	},
 	"criteria": {
-		"collect_spawn_egg": {
+		"a_nice_egg_in_this_trying_time": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
 					{
-						"items":"#spawner_eggs:spawn_eggs"
+						"items":"#shroomhearth:spawner_eggs"
 					}
 				]
 			}

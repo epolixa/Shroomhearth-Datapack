@@ -1,32 +1,40 @@
 {
-  "type": "minecraft:block",
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "type": "minecraft:block",
+    "pools": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:spawner",
-          "functions": [
-            {
-              "function": "minecraft:copy_custom_data",
-              "source": "block_entity",
-              "ops": [
+            "rolls": 1,
+            "entries": [
                 {
-                  "source": "SpawnData",
-                  "target": "SpawnData",
-                  "op": "replace"
+                    "type": "minecraft:item",
+                    "name": "minecraft:spawner",
+                    "functions": [
+                        {
+                            "function": "minecraft:copy_custom_data",
+                            "source": "block_entity",
+                            "ops": [
+                                {
+                                    "source": "SpawnData",
+                                    "target": "SpawnData",
+                                    "op": "replace"
+                                }
+                            ]
+                        },
+                        {
+                            "enchantment": "minecraft:fortune",
+                            "formula": "minecraft:ore_drops",
+                            "function": "minecraft:apply_bonus"
+                        },
+                        {
+                            "function": "minecraft:explosion_decay"
+                        }
+                    ]
                 }
-              ]
-            }
-          ]      
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:survives_explosion"
+                }
+            ]
         }
-      ],
-      "conditions": [
-        {
-          "condition": "minecraft:survives_explosion"
-        }
-      ]
-    }
-  ]
+    ]
 }
