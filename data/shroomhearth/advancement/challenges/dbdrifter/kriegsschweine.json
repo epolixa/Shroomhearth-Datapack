@@ -1,0 +1,30 @@
+{
+	"parent": "shroomhearth:shroomhearth_challenges",
+	"display": {
+		"icon": {
+			"id": "minecraft:player_head",
+			"components": {
+				"minecraft:profile": {
+					"name": "DBDrifter"
+				}
+			}
+		},
+		"title": "Kriegsschweine",
+		"description": [
+            {"text": "Defeat the Ender Dragon while riding a Pig"},
+            {"text": "\n\n"},
+            {"text": "Created by DBDrifter", "color": "gray"}
+        ],
+		"frame": "challenge"
+	},
+	"rewards": {
+		"loot": [
+			"shroomhearth:challenges/dbdrifter"
+		]
+	},
+	"criteria": {
+		"kriegsschweine": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

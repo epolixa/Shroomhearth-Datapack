@@ -1,0 +1,25 @@
+{
+	"criteria": {
+		"fall_from_height": {
+			"trigger": "minecraft:fall_from_height",
+			"conditions": {
+				"distance": {
+                    "y": {
+                        "min": 24
+                    }
+                },
+				"player": {
+					"type_specific": {
+						"type": "minecraft:player",
+						"advancements": {
+							"shroomhearth:challenges/ender_penda/bouncin_on_oobleck": false
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "shroomhearth:challenges/advancement_reward/ender_penda/fall_from_height"
+	} 
+}

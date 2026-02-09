@@ -1,0 +1,161 @@
+{
+    "parent": "shroomhearth:shroomhearth_challenges",
+    "display": {
+        "icon": {
+            "id": "minecraft:player_head",
+            "components": {
+                "minecraft:profile": {
+                    "name": "Lonnie_Mack"
+                }
+            }
+        },
+        "title": "Tempestuous Seas Captain",
+        "description": [
+            {
+                "text": "Ride a Boat in \"X-Water\""
+            },
+            {
+                "text": "\n\n"
+            },
+            {
+                "text": "Created by Lonnie_Mack",
+                "color": "gray"
+            }
+        ],
+        "frame": "challenge"
+    },
+    "rewards": {
+        "loot": [
+            "shroomhearth:challenges/lonnie_mack"
+        ]
+    },
+    "criteria": {
+        "tempestuous_seas_captain": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "vehicle": {
+                                "type": "#shroomhearth:boats"
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:any_of",
+                        "terms": [
+                            {
+                                "condition": "minecraft:all_of",
+                                "terms": [
+                                    {
+                                        "condition": "minecraft:location_check",
+                                        "predicate": {
+                                            "block": {
+                                                "blocks": "minecraft:water",
+                                                "state": {
+                                                    "level": "0"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "condition": "minecraft:location_check",
+                                        "offsetX": 1,
+                                        "predicate": {
+                                            "block": {
+                                                "blocks": "minecraft:water",
+                                                "state": {
+                                                    "level": "1"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "condition": "minecraft:location_check",
+                                        "offsetZ": 1,
+                                        "predicate": {
+                                            "block": {
+                                                "blocks": "minecraft:water",
+                                                "state": {
+                                                    "level": "1"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "condition": "minecraft:location_check",
+                                        "offsetX": 1,
+                                        "offsetZ": 1,
+                                        "predicate": {
+                                            "block": {
+                                                "blocks": "minecraft:water",
+                                                "state": {
+                                                    "level": "0"
+                                                }
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "condition": "minecraft:all_of",
+                                "terms": [
+                                    {
+                                        "condition": "minecraft:location_check",
+                                        "predicate": {
+                                            "block": {
+                                                "blocks": "minecraft:water",
+                                                "state": {
+                                                    "level": "1"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "condition": "minecraft:location_check",
+                                        "offsetX": 1,
+                                        "predicate": {
+                                            "block": {
+                                                "blocks": "minecraft:water",
+                                                "state": {
+                                                    "level": "0"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "condition": "minecraft:location_check",
+                                        "offsetZ": 1,
+                                        "predicate": {
+                                            "block": {
+                                                "blocks": "minecraft:water",
+                                                "state": {
+                                                    "level": "0"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "condition": "minecraft:location_check",
+                                        "offsetX": 1,
+                                        "offsetZ": 1,
+                                        "predicate": {
+                                            "block": {
+                                                "blocks": "minecraft:water",
+                                                "state": {
+                                                    "level": "1"
+                                                }
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

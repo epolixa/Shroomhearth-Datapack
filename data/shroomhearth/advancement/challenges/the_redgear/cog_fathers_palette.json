@@ -1,0 +1,477 @@
+{
+	"parent": "shroomhearth:shroomhearth_challenges",
+	"display": {
+		"icon": {
+			"id": "minecraft:player_head",
+			"components": {
+				"minecraft:profile": {
+					"name": "The_RedGear"
+				}
+			}
+		},
+		"title": "Cog Father's Palette",
+		"description": [
+            {"text": "Place every \"Red\" block"},
+            {"text": "\n\n"},
+            {"text": "Created by The_RedGear", "color": "gray"}
+        ],
+		"frame": "challenge"
+	},
+	"rewards": {
+		"loot": [
+			"shroomhearth:challenges/the_redgear"
+		]
+	},
+	"criteria": {
+		"red_sandstone": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": "minecraft:red_sandstone"
+							}
+						}
+					}
+				]
+			}
+		},
+		"red_sandstone_stairs": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": "minecraft:red_sandstone_stairs"
+							}
+						}
+					}
+				]
+			}
+		},
+		"red_sandstone_slab": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": "minecraft:red_sandstone_slab"
+							}
+						}
+					}
+				]
+			}
+		},
+		"red_sandstone_wall": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": "minecraft:red_sandstone_wall"
+							}
+						}
+					}
+				]
+			}
+		},
+		"chiseled_red_sandstone": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": "minecraft:chiseled_red_sandstone"
+							}
+						}
+					}
+				]
+			}
+		},
+		"smooth_red_sandstone": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": "minecraft:smooth_red_sandstone"
+							}
+						}
+					}
+				]
+			}
+		},
+		"smooth_red_sandstone_stairs": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": "minecraft:smooth_red_sandstone_stairs"
+							}
+						}
+					}
+				]
+			}
+		},
+		"smooth_red_sandstone_slab": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": "minecraft:smooth_red_sandstone_slab"
+							}
+						}
+					}
+				]
+			}
+		},
+		"cut_red_sandstone": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": "minecraft:cut_red_sandstone"
+							}
+						}
+					}
+				]
+			}
+		},
+		"cut_red_sandstone_slab": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": "minecraft:cut_red_sandstone_slab"
+							}
+						}
+					}
+				]
+			}
+		},
+		"red_nether_bricks": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": "minecraft:red_nether_bricks"
+							}
+						}
+					}
+				]
+			}
+		},
+		"red_nether_brick_stairs": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": "minecraft:red_nether_brick_stairs"
+							}
+						}
+					}
+				]
+			}
+		},
+		"red_nether_brick_slab": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": "minecraft:red_nether_brick_slab"
+							}
+						}
+					}
+				]
+			}
+		},
+		"red_nether_brick_wall": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": "minecraft:red_nether_brick_wall"
+							}
+						}
+					}
+				]
+			}
+		},
+		"red_wool": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": "minecraft:red_wool"
+							}
+						}
+					}
+				]
+			}
+		},
+		"red_carpet": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": "minecraft:red_carpet"
+							}
+						}
+					}
+				]
+			}
+		},
+		"red_terracotta": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": "minecraft:red_terracotta"
+							}
+						}
+					}
+				]
+			}
+		},
+		"red_concrete": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": "minecraft:red_concrete"
+							}
+						}
+					}
+				]
+			}
+		},
+		"red_concrete_powder": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": "minecraft:red_concrete_powder"
+							}
+						}
+					}
+				]
+			}
+		},
+		"red_glazed_terracotta": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": "minecraft:red_glazed_terracotta"
+							}
+						}
+					}
+				]
+			}
+		},
+		"red_stained_glass": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": "minecraft:red_stained_glass"
+							}
+						}
+					}
+				]
+			}
+		},
+		"red_stained_glass_pane": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": "minecraft:red_stained_glass_pane"
+							}
+						}
+					}
+				]
+			}
+		},
+		"red_shulker_box": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": "minecraft:red_shulker_box"
+							}
+						}
+					}
+				]
+			}
+		},
+		"red_bed": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": "minecraft:red_bed"
+							}
+						}
+					}
+				]
+			}
+		},
+		"red_candle": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": "minecraft:red_candle"
+							}
+						}
+					}
+				]
+			}
+		},
+		"red_banner": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": "minecraft:red_banner"
+							}
+						}
+					}
+				]
+			}
+		},
+		"red_sand": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": "minecraft:red_sand"
+							}
+						}
+					}
+				]
+			}
+		},
+		"red_mushroom_block": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": "minecraft:red_mushroom_block"
+							}
+						}
+					}
+				]
+			}
+		},
+		"red_mushroom": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": "minecraft:red_mushroom"
+							}
+						}
+					}
+				]
+			}
+		},
+		"red_tulip": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"block": {
+								"blocks": "minecraft:red_tulip"
+							}
+						}
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,84 @@
+{
+	"parent": "shroomhearth:shroomhearth_challenges",
+	"display": {
+		"icon": {
+			"id": "minecraft:silverfish_spawn_egg"
+		},
+		"title": "In One Basket",
+		"description": "Collect every obtainable Spawn Egg",
+		"frame": "challenge",
+        "hidden": false
+	},
+	"criteria": {
+		"zombie_spawn_egg": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:zombie_spawn_egg"
+					}
+				]
+			}
+		},
+        "skeleton_spawn_egg": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:skeleton_spawn_egg"
+                    }
+                ]
+            }
+        },
+        "spider_spawn_egg": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:spider_spawn_egg"
+                    }
+                ]
+            }
+        },
+        "cave_spider_spawn_egg": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:cave_spider_spawn_egg"
+                    }
+                ]
+            }
+        },
+        "silverfish_spawn_egg": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:silverfish_spawn_egg"
+                    }
+                ]
+            }
+        },
+        "blaze_spawn_egg": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:blaze_spawn_egg"
+                    }
+                ]
+            }
+        },
+        "magma_cube_spawn_egg": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:magma_cube_spawn_egg"
+                    }
+                ]
+            }
+        }
+	}
+}

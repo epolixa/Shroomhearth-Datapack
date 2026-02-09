@@ -1,0 +1,30 @@
+{
+	"parent": "shroomhearth:shroomhearth_challenges",
+	"display": {
+		"icon": {
+			"id": "minecraft:player_head",
+			"components": {
+				"minecraft:profile": {
+					"name": "lalalauraaaa"
+				}
+			}
+		},
+		"title": "Crazy Dragon Lady",
+		"description": [
+			{"text": "Slay 100 Ender Dragons"},
+			{"text": "\n\n"},
+			{"text": "Created by lalalauraaaa", "color": "gray"}
+		],
+		"frame": "challenge"
+	},
+	"rewards": {
+		"loot": [
+			"shroomhearth:challenges/lalalauraaaa"
+		]
+	},
+	"criteria": {
+		"crazy_dragon_lady": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

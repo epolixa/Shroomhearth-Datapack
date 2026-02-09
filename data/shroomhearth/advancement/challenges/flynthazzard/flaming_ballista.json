@@ -1,0 +1,38 @@
+{
+	"parent": "shroomhearth:shroomhearth_challenges",
+	"display": {
+		"icon": {
+			"id": "minecraft:player_head",
+			"components": {
+				"minecraft:profile": {
+					"name": "FlyntHazzard"
+				}
+			}
+		},
+		"title": "Flaming Ballista",
+		"description": [
+			{"text": "Shoot the center of a Target while on fire"},
+			{"text": "\n\n"},
+			{"text": "Created by FlyntHazzard", "color": "gray"}
+		],
+		"frame": "challenge"
+	},
+	"rewards": {
+		"loot": [
+			"shroomhearth:challenges/flynthazzard"
+		]
+	},
+	"criteria": {
+		"flaming_ballista": {
+            "trigger": "minecraft:target_hit",
+            "conditions": {
+                "signal_strength": 15,
+                "player": {
+					"flags": {
+						"is_on_fire": true
+					}
+				}
+            }
+        }
+    }
+}

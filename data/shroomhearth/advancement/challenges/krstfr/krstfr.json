@@ -1,0 +1,30 @@
+{
+	"parent": "shroomhearth:shroomhearth_challenges",
+	"display": {
+		"icon": {
+			"id": "minecraft:player_head",
+			"components": {
+				"minecraft:profile": {
+					"name": "Krstfr"
+				}
+			}
+		},
+		"title": "Krstfr",
+		"description": [
+			{"text": "Equip a Carved Pumpkin while near a dozen Skeleton Horses"},
+			{"text": "\n\n"},
+			{"text": "Created by Krstfr", "color": "gray"}
+		],
+		"frame": "challenge"
+	},
+	"rewards": {
+		"loot": [
+			"shroomhearth:challenges/krstfr"
+		]
+	},
+	"criteria": {
+		"nearby_horses": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

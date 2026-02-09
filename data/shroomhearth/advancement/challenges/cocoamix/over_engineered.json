@@ -1,0 +1,94 @@
+{
+    "parent": "shroomhearth:shroomhearth_challenges",
+    "display": {
+        "icon": {
+            "id": "minecraft:player_head",
+            "components": {
+                "minecraft:profile": {
+                    "name": "CocoaMix"
+                }
+            }
+        },
+        "title": "Over-Engineered",
+        "description": [
+            {
+                "text": "Craft 256 Redstone Torches, Repeaters, Comparators, Pistons, Sticky Pistons, Observers, Targets, Redstone Lamps, Note Blocks, Droppers, Dispensers, Redstone Blocks, Hoppers, and Daylight Detectors"
+            },
+            {
+                "text": "\n\n"
+            },
+            {
+                "text": "Created by CocoaMix",
+                "color": "gray"
+            }
+        ],
+        "frame": "challenge"
+    },
+    "rewards": {
+        "loot": [
+            "shroomhearth:challenges/cocoamix"
+        ]
+    },
+    "criteria": {
+        "over_engineered": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "tag": "shroomhearth:challenges/redstone_components"
+                    }
+                ],
+                "player": [
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "crafted_redstone_torch": {
+                                "min": 256
+                            },
+                            "crafted_repeater": {
+                                "min": 256
+                            },
+                            "crafted_comparator": {
+                                "min": 256
+                            },
+                            "crafted_piston": {
+                                "min": 256
+                            },
+                            "crafted_sticky_piston": {
+                                "min": 256
+                            },
+                            "crafted_observer": {
+                                "min": 256
+                            },
+                            "crafted_target": {
+                                "min": 256
+                            },
+                            "crafted_redstone_lamp": {
+                                "min": 256
+                            },
+                            "crafted_note_block": {
+                                "min": 256
+                            },
+                            "crafted_dropper": {
+                                "min": 256
+                            },
+                            "crafted_dispenser": {
+                                "min": 256
+                            },
+                            "crafted_redstone_block": {
+                                "min": 256
+                            },
+                            "crafted_hopper": {
+                                "min": 256
+                            },
+                            "crafted_daylight_detector": {
+                                "min": 256
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

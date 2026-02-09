@@ -1,0 +1,44 @@
+{
+	"parent": "shroomhearth:shroomhearth_challenges",
+	"display": {
+		"icon": {
+			"id": "minecraft:player_head",
+			"components": {
+				"minecraft:profile": {
+					"name": "epolixa"
+				}
+			}
+		},
+		"title": "Melontarian",
+		"description": [
+            {"text": "Eat 64 consecutive Melon Slices"},
+            {"text": "\n\n"},
+            {"text": "Created by epolixa", "color": "gray"}
+        ],
+		"frame": "challenge"
+	},
+	"rewards": {
+		"loot": [
+			"shroomhearth:challenges/epolixa"
+		]
+	},
+	"criteria": {
+		"melontarian": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"items": "minecraft:melon_slice"
+				},
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"melontarian": 64
+						}
+					}
+				]
+			}
+		}
+	}
+}

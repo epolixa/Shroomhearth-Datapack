@@ -1,0 +1,39 @@
+{
+	"parent": "shroomhearth:challenges/lonnie_mack/tempestuous_seas_captain",
+	"display": {
+		"icon": {
+			"id": "minecraft:player_head",
+			"components": {
+				"minecraft:profile": {
+					"name": "joanna_nuisance"
+				}
+			}
+		},
+		"title": "joanna_nuisance",
+		"description": [
+			{"text": "Use a Fishing Rod to hook a mob in lava"},
+			{"text": "\n\n"},
+			{"text": "Created by joanna_nuisance", "color": "gray"}
+		],
+		"frame": "challenge"
+	},
+	"rewards": {
+		"loot": [
+			"shroomhearth:challenges/joanna_nuisance"
+		]
+	},
+	"criteria": {
+		"lava_fishing": {
+            "trigger": "minecraft:fishing_rod_hooked",
+            "conditions": {
+                "entity": {
+                    "location": {
+                        "fluid": {
+                            "fluids": "#minecraft:lava"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

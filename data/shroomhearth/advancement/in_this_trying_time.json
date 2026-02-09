@@ -1,0 +1,23 @@
+{
+	"parent": "mob_warding:mob_zapper",
+	"display": {
+		"icon": {
+			"id": "minecraft:zombie_spawn_egg"
+		},
+		"title": "In This Trying Time",
+		"description": "Collect a Spawn Egg from a Spawner",
+		"frame": "task"
+	},
+	"criteria": {
+		"in_this_trying_time": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items":"#shroomhearth:spawner_eggs"
+					}
+				]
+			}
+		}
+	}
+}

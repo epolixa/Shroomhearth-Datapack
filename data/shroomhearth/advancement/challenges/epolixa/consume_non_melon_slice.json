@@ -1,0 +1,22 @@
+{
+	"criteria": {
+		"consume_non_melon_slice": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"items": "#shroomhearth:challenges/non_melon_slice"
+				},
+				"player": {
+					"player": {
+						"advancements": {
+							"shroomhearth:challenges/epolixa/melontarian": false
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "shroomhearth:challenges/epolixa/consume_non_melon_slice"
+	} 
+}

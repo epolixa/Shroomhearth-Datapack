@@ -1,0 +1,23 @@
+{
+	"criteria": {
+		"filled_tadpole_bucket": {
+			"trigger": "minecraft:filled_bucket",
+			"conditions": {
+				"item": {
+					"items": "minecraft:tadpole_bucket"
+				},
+				"player": {
+					"type_specific": {
+                        "type": "player",
+						"advancements": {
+							"shroomhearth:challenges/flynthazzard/five_hundred_liters_of_frogs": false
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "shroomhearth:challenges/advancement_reward/flynthazzard/filled_tadpole_bucket"
+	} 
+}

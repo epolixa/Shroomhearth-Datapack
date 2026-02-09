@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "cured_zombie_villager": {
+            "trigger": "minecraft:cured_zombie_villager",
+            "conditions": {
+                "player": {
+                    "type_specific": {
+                        "type": "minecraft:player",
+                        "advancements": {
+                            "shroomhearth:challenges/aerialz/curare_immortui": false
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "shroomhearth:challenges/advancement_reward/aerialz/cured_zombie_villager"
+    }
+}
