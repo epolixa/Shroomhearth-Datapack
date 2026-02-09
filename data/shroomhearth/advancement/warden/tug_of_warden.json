@@ -12,7 +12,7 @@
         "hidden": false
     },
     "criteria": {
-        "fishing_rod_hooked_warden": {
+        "tug_of_warden": {
             "trigger": "minecraft:fishing_rod_hooked",
             "conditions": {
                 "entity": {

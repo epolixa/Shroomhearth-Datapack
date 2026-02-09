@@ -1,5 +1,5 @@
 {
-	"parent": "shroomhearth:challenges/in_one_basket",
+	"parent": "shroomhearth:spawner_eggs/in_one_basket",
 	"display": {
 		"icon": {
 			"id": "minecraft:creeper_head"

@@ -10,6 +10,6 @@
         }
     },
     "rewards": {
-        "function": "warden:fishing_rod_hooked_warden"
+        "function": "shroomhearth:warden/advancement_reward/fishing_rod_hooked_warden"
     }
 }
