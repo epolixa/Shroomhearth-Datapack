@@ -14,7 +14,7 @@
                                 "minecraft:item_name": "Turtle Painted Egg",
                                 "minecraft:item_model": "minecraft:turtle_spawn_egg",
                                 "minecraft:custom_data": {
-                                    "spore": "turtle_painted_egg"
+                                    "shroomhearth_id": "turtle_painted_egg"
                                 }
                             }
                         }

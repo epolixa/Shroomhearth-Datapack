@@ -14,7 +14,7 @@
                                 "minecraft:item_name": "Snow Golem Painted Egg",
                                 "minecraft:item_model": "minecraft:snow_golem_spawn_egg",
                                 "minecraft:custom_data": {
-                                    "spore": "snow_golem_painted_egg"
+                                    "shroomhearth_id": "snow_golem_painted_egg"
                                 }
                             }
                         }

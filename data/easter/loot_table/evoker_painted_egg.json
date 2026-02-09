@@ -14,7 +14,7 @@
                                 "minecraft:item_name": "Evoker Painted Egg",
                                 "minecraft:item_model": "minecraft:evoker_spawn_egg",
                                 "minecraft:custom_data": {
-                                    "spore": "evoker_painted_egg"
+                                    "shroomhearth_id": "evoker_painted_egg"
                                 }
                             }
                         }

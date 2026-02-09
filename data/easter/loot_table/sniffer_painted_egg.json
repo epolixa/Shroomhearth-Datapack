@@ -14,7 +14,7 @@
                                 "minecraft:item_name": "Sniffer Painted Egg",
                                 "minecraft:item_model": "minecraft:sniffer_spawn_egg",
                                 "minecraft:custom_data": {
-                                    "spore": "sniffer_painted_egg"
+                                    "shroomhearth_id": "sniffer_painted_egg"
                                 }
                             }
                         }

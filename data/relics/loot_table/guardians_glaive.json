@@ -17,7 +17,7 @@
                                 },
                                 "minecraft:item_model": "shroomhearth:guardians_glaive",
                                 "minecraft:custom_data": {
-                                    "spore": "guardians_glaive"
+                                    "shroomhearth_id": "guardians_glaive"
                                 }
                             }
                         }

@@ -199,7 +199,7 @@
                                 "minecraft:item_name": "Guardian Carapace",
                                 "minecraft:note_block_sound": "minecraft:entity.guardian.ambient",
                                 "minecraft:custom_data": {
-                                    "spore": "guardian_carapace"
+                                    "shroomhearth_id": "guardian_carapace"
                                 },
                                 "minecraft:profile": {
                                     "properties": [

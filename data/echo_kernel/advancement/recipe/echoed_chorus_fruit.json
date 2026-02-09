@@ -29,7 +29,7 @@
                         "items": "minecraft:warped_fungus_on_a_stick",
                         "components": {
                             "minecraft:custom_data": {
-                                "spore": "echoed_chorus_fruit"
+                                "shroomhearth_id": "echoed_chorus_fruit"
                             }
                         }
                     }

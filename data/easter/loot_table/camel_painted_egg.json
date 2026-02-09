@@ -14,7 +14,7 @@
                                 "minecraft:item_name": "Camel Painted Egg",
                                 "minecraft:item_model": "minecraft:camel_spawn_egg",
                                 "minecraft:custom_data": {
-                                    "spore": "camel_painted_egg"
+                                    "shroomhearth_id": "camel_painted_egg"
                                 }
                             }
                         }

@@ -14,7 +14,7 @@
                                 "minecraft:item_name": "Ravager Painted Egg",
                                 "minecraft:item_model": "minecraft:ravager_spawn_egg",
                                 "minecraft:custom_data": {
-                                    "spore": "ravager_painted_egg"
+                                    "shroomhearth_id": "ravager_painted_egg"
                                 }
                             }
                         }

@@ -14,7 +14,7 @@
                                 "minecraft:item_name": "Villager Painted Egg",
                                 "minecraft:item_model": "minecraft:villager_spawn_egg",
                                 "minecraft:custom_data": {
-                                    "spore": "villager_painted_egg"
+                                    "shroomhearth_id": "villager_painted_egg"
                                 }
                             }
                         }

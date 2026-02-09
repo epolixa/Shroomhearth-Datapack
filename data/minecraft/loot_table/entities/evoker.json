@@ -74,7 +74,7 @@
                                 "minecraft:item_name": "Evoker Head",
                                 "minecraft:note_block_sound": "minecraft:entity.evoker.ambient",
                                 "minecraft:custom_data": {
-                                    "spore": "evoker_head"
+                                    "shroomhearth_id": "evoker_head"
                                 },
                                 "minecraft:profile": {
                                     "properties": [

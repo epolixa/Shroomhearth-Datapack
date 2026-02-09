@@ -29,7 +29,7 @@
                                     ]
                                 },
                                 "minecraft:custom_data": {
-                                    "spore": "rune"
+                                    "shroomhearth_id": "rune"
                                 }
                             }
                         }

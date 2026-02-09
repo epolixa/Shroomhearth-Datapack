@@ -14,7 +14,7 @@
                                 "minecraft:item_name": "Polar Bear Painted Egg",
                                 "minecraft:item_model": "minecraft:polar_bear_spawn_egg",
                                 "minecraft:custom_data": {
-                                    "spore": "polar_bear_painted_egg"
+                                    "shroomhearth_id": "polar_bear_painted_egg"
                                 }
                             }
                         }

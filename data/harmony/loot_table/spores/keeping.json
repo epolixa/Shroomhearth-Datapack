@@ -37,7 +37,7 @@
                                 },
                                 "minecraft:rarity": "rare",
                                 "minecraft:custom_data": {
-                                    "spore": "spores_of_keeping"
+                                    "shroomhearth_id": "spores_of_keeping"
                                 }
                             }
                         }

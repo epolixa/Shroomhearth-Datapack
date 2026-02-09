@@ -14,7 +14,7 @@
                                 "minecraft:item_name": "Drowned Painted Egg",
                                 "minecraft:item_model": "minecraft:drowned_spawn_egg",
                                 "minecraft:custom_data": {
-                                    "spore": "drowned_painted_egg"
+                                    "shroomhearth_id": "drowned_painted_egg"
                                 }
                             }
                         }

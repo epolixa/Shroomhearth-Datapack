@@ -14,7 +14,7 @@
                                 "minecraft:item_name": "Ghast Painted Egg",
                                 "minecraft:item_model": "minecraft:ghast_spawn_egg",
                                 "minecraft:custom_data": {
-                                    "spore": "ghast_painted_egg"
+                                    "shroomhearth_id": "ghast_painted_egg"
                                 }
                             }
                         }

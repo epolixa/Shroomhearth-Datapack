@@ -14,7 +14,7 @@
                                 "minecraft:item_name": "Skeleton Painted Egg",
                                 "minecraft:item_model": "minecraft:skeleton_spawn_egg",
                                 "minecraft:custom_data": {
-                                    "spore": "skeleton_painted_egg"
+                                    "shroomhearth_id": "skeleton_painted_egg"
                                 }
                             }
                         }

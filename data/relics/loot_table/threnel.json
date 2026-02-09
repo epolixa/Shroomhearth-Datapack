@@ -29,7 +29,7 @@
                                     }
                                 ],
                                 "minecraft:custom_data": {
-                                    "spore": "threnel"
+                                    "shroomhearth_id": "threnel"
                                 }
                             }
                         }

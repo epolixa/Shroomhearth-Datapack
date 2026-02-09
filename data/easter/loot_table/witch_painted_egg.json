@@ -14,7 +14,7 @@
                                 "minecraft:item_name": "Witch Painted Egg",
                                 "minecraft:item_model": "minecraft:witch_spawn_egg",
                                 "minecraft:custom_data": {
-                                    "spore": "witch_painted_egg"
+                                    "shroomhearth_id": "witch_painted_egg"
                                 }
                             }
                         }

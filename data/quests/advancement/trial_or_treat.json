@@ -38,7 +38,7 @@
                             "items": "minecraft:ominous_trial_key",
                             "predicates": {
                                 "minecraft:custom_data": {
-                                    "spore": "ominous_hallow_vale_trial_key"
+                                    "shroomhearth_id": "ominous_hallow_vale_trial_key"
                                 }
                             }
                         }

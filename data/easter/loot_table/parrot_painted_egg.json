@@ -14,7 +14,7 @@
                                 "minecraft:item_name": "Parrot Painted Egg",
                                 "minecraft:item_model": "minecraft:parrot_spawn_egg",
                                 "minecraft:custom_data": {
-                                    "spore": "parrot_painted_egg"
+                                    "shroomhearth_id": "parrot_painted_egg"
                                 }
                             }
                         }

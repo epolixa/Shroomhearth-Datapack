@@ -18,7 +18,7 @@
                                 "minecraft:item_model": "shroomhearth:wondermerian_staff",
                                 "minecraft:rarity": "epic",
                                 "minecraft:custom_data": {
-                                    "spore": "wondermerian_staff"
+                                    "shroomhearth_id": "wondermerian_staff"
                                 }
                             }
                         }

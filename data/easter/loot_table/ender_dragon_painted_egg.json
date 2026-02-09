@@ -14,7 +14,7 @@
                                 "minecraft:item_name": "Ender Dragon Painted Egg",
                                 "minecraft:item_model": "minecraft:ender_dragon_spawn_egg",
                                 "minecraft:custom_data": {
-                                    "spore": "ender_dragon_painted_egg"
+                                    "shroomhearth_id": "ender_dragon_painted_egg"
                                 }
                             }
                         }

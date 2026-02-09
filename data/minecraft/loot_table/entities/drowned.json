@@ -84,7 +84,7 @@
                                 "minecraft:item_name": "Drowned Head",
                                 "minecraft:note_block_sound": "minecraft:entity.drowned.ambient",
                                 "minecraft:custom_data": {
-                                    "spore": "drowned_head"
+                                    "shroomhearth_id": "drowned_head"
                                 },
                                 "minecraft:profile": {
                                     "properties": [

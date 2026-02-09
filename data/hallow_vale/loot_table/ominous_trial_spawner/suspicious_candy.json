@@ -57,7 +57,7 @@
                                     ]
                                 },
                                 "minecraft:custom_data": {
-                                    "spore": "suspicious_candy"
+                                    "shroomhearth_id": "suspicious_candy"
                                 }
                             }
                         },

@@ -14,7 +14,7 @@
                                 "minecraft:item_name": "Skeleton Horse Painted Egg",
                                 "minecraft:item_model": "minecraft:skeleton_horse_spawn_egg",
                                 "minecraft:custom_data": {
-                                    "spore": "skeleton_horse_painted_egg"
+                                    "shroomhearth_id": "skeleton_horse_painted_egg"
                                 }
                             }
                         }

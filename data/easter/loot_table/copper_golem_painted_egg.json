@@ -14,7 +14,7 @@
                                 "minecraft:item_name": "Copper Golem Painted Egg",
                                 "minecraft:item_model": "minecraft:copper_golem_spawn_egg",
                                 "minecraft:custom_data": {
-                                    "spore": "copper_golem_painted_egg"
+                                    "shroomhearth_id": "copper_golem_painted_egg"
                                 }
                             }
                         }

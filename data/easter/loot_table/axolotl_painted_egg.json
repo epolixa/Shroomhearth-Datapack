@@ -14,7 +14,7 @@
                                 "minecraft:item_name": "Axolotl Painted Egg",
                                 "minecraft:item_model": "minecraft:axolotl_spawn_egg",
                                 "minecraft:custom_data": {
-                                    "spore": "axolotl_painted_egg"
+                                    "shroomhearth_id": "axolotl_painted_egg"
                                 }
                             }
                         }

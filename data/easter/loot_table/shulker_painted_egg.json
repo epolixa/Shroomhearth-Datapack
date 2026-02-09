@@ -14,7 +14,7 @@
                                 "minecraft:item_name": "Shulker Painted Egg",
                                 "minecraft:item_model": "minecraft:shulker_spawn_egg",
                                 "minecraft:custom_data": {
-                                    "spore": "shulker_painted_egg"
+                                    "shroomhearth_id": "shulker_painted_egg"
                                 }
                             }
                         }

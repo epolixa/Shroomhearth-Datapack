@@ -14,7 +14,7 @@
                                 "minecraft:item_name": "Frog Painted Egg",
                                 "minecraft:item_model": "minecraft:frog_spawn_egg",
                                 "minecraft:custom_data": {
-                                    "spore": "frog_painted_egg"
+                                    "shroomhearth_id": "frog_painted_egg"
                                 }
                             }
                         }

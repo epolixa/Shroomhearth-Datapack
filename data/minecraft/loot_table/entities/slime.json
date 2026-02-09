@@ -105,7 +105,7 @@
                                 "minecraft:item_name": "Slime Core",
                                 "minecraft:note_block_sound": "minecraft:entity.slime.jump",
                                 "minecraft:custom_data": {
-                                    "spore": "slime_core"
+                                    "shroomhearth_id": "slime_core"
                                 },
                                 "minecraft:profile": {
                                     "properties": [

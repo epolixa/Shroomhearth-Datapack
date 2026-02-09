@@ -21,7 +21,7 @@
                                     "Tags": ["unbottled_allay"]
                                 },
                                 "minecraft:custom_data": {
-                                    "spore": "allay_bottle"
+                                    "shroomhearth_id": "allay_bottle"
                                 }
                             }
                         }

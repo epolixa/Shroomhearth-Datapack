@@ -14,7 +14,7 @@
                                 "minecraft:item_name": "Bogged Painted Egg",
                                 "minecraft:item_model": "minecraft:bogged_spawn_egg",
                                 "minecraft:custom_data": {
-                                    "spore": "bogged_painted_egg"
+                                    "shroomhearth_id": "bogged_painted_egg"
                                 }
                             }
                         }

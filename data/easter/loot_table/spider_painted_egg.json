@@ -14,7 +14,7 @@
                                 "minecraft:item_name": "Spider Painted Egg",
                                 "minecraft:item_model": "minecraft:spider_spawn_egg",
                                 "minecraft:custom_data": {
-                                    "spore": "spider_painted_egg"
+                                    "shroomhearth_id": "spider_painted_egg"
                                 }
                             }
                         }

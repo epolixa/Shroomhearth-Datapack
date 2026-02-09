@@ -21,7 +21,7 @@
                                     "ender_tome:ender_tome"
                                 ],
                                 "minecraft:custom_data": {
-                                    "spore": "ender_tome"
+                                    "shroomhearth_id": "ender_tome"
                                 }
                             }
                         }

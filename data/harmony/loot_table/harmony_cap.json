@@ -16,7 +16,7 @@
                                 },
                                 "minecraft:item_model": "shroomhearth:harmony_cap",
                                 "minecraft:custom_data": {
-                                    "spore": "harmony_cap"
+                                    "shroomhearth_id": "harmony_cap"
                                 }
                             }
                         }

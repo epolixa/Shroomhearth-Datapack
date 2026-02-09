@@ -36,7 +36,7 @@
                                     ]
                                 },
                                 "minecraft:custom_data": {
-                                    "spore": "spores_of_health"
+                                    "shroomhearth_id": "spores_of_health"
                                 }
                             }
                         }

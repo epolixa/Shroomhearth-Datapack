@@ -14,7 +14,7 @@
                                 "minecraft:item_name": "Chicken Painted Egg",
                                 "minecraft:item_model": "minecraft:chicken_spawn_egg",
                                 "minecraft:custom_data": {
-                                    "spore": "chicken_painted_egg"
+                                    "shroomhearth_id": "chicken_painted_egg"
                                 }
                             }
                         }

@@ -14,7 +14,7 @@
                                 "minecraft:item_name": "Zombie Painted Egg",
                                 "minecraft:item_model": "minecraft:zombie_spawn_egg",
                                 "minecraft:custom_data": {
-                                    "spore": "zombie_painted_egg"
+                                    "shroomhearth_id": "zombie_painted_egg"
                                 }
                             }
                         }

@@ -18,7 +18,7 @@
                                 "minecraft:item_model": "shroomhearth:wondermerian_blade",
                                 "minecraft:rarity": "epic",
                                 "minecraft:custom_data": {
-                                    "spore": "wondermerian_blade"
+                                    "shroomhearth_id": "wondermerian_blade"
                                 }
                             }
                         }

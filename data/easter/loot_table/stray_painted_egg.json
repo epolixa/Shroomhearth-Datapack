@@ -14,7 +14,7 @@
                                 "minecraft:item_name": "Stray Painted Egg",
                                 "minecraft:item_model": "minecraft:stray_spawn_egg",
                                 "minecraft:custom_data": {
-                                    "spore": "stray_painted_egg"
+                                    "shroomhearth_id": "stray_painted_egg"
                                 }
                             }
                         }

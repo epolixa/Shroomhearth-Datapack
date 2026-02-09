@@ -14,7 +14,7 @@
                                 "minecraft:item_name": "Donkey Painted Egg",
                                 "minecraft:item_model": "minecraft:donkey_spawn_egg",
                                 "minecraft:custom_data": {
-                                    "spore": "donkey_painted_egg"
+                                    "shroomhearth_id": "donkey_painted_egg"
                                 }
                             }
                         }

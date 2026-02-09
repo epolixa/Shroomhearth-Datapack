@@ -14,7 +14,7 @@
                                 "minecraft:item_name": "Mooshroom Painted Egg",
                                 "minecraft:item_model": "minecraft:mooshroom_spawn_egg",
                                 "minecraft:custom_data": {
-                                    "spore": "mooshroom_painted_egg"
+                                    "shroomhearth_id": "mooshroom_painted_egg"
                                 }
                             }
                         }

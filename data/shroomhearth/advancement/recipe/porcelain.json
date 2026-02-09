@@ -19,7 +19,7 @@
                         "items": "minecraft:warped_fungus_on_a_stick",
                         "components": {
                             "minecraft:custom_data": {
-                                "spore": "porcelain"
+                                "shroomhearth_id": "porcelain"
                             }
                         }
                     }

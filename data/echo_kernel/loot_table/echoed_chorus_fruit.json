@@ -28,7 +28,7 @@
                                     "can_always_eat": true
                                 },
                                 "minecraft:custom_data": {
-                                    "spore": "echoed_chorus_fruit"
+                                    "shroomhearth_id": "echoed_chorus_fruit"
                                 }
                             }
                         }

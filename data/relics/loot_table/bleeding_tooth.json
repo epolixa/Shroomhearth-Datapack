@@ -29,7 +29,7 @@
                                     }
                                 ],
                                 "minecraft:custom_data": {
-                                    "spore": "bleeding_tooth"
+                                    "shroomhearth_id": "bleeding_tooth"
                                 }
                             }
                         }

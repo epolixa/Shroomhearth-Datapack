@@ -14,7 +14,7 @@
                                 "minecraft:item_name": "Endermite Painted Egg",
                                 "minecraft:item_model": "minecraft:endermite_spawn_egg",
                                 "minecraft:custom_data": {
-                                    "spore": "endermite_painted_egg"
+                                    "shroomhearth_id": "endermite_painted_egg"
                                 }
                             }
                         }

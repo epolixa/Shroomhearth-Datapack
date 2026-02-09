@@ -14,7 +14,7 @@
                                 "minecraft:item_name": "Wither Painted Egg",
                                 "minecraft:item_model": "minecraft:wither_spawn_egg",
                                 "minecraft:custom_data": {
-                                    "spore": "wither_painted_egg"
+                                    "shroomhearth_id": "wither_painted_egg"
                                 }
                             }
                         }

@@ -156,7 +156,7 @@
                                 "minecraft:item_name": "Magma Cube Core",
                                 "minecraft:note_block_sound": "minecraft:entity.magma_cube.jump",
                                 "minecraft:custom_data": {
-                                    "spore": "magma_cube_core"
+                                    "shroomhearth_id": "magma_cube_core"
                                 },
                                 "minecraft:profile": {
                                     "properties": [

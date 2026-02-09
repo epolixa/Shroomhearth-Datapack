@@ -14,7 +14,7 @@
                                 "minecraft:item_name": "Tadpole Painted Egg",
                                 "minecraft:item_model": "minecraft:tadpole_spawn_egg",
                                 "minecraft:custom_data": {
-                                    "spore": "tadpole_painted_egg"
+                                    "shroomhearth_id": "tadpole_painted_egg"
                                 }
                             }
                         }

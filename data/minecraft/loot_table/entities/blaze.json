@@ -64,7 +64,7 @@
                                 "minecraft:item_name": "Blaze Head",
                                 "minecraft:note_block_sound": "minecraft:entity.blaze.ambient",
                                 "minecraft:custom_data": {
-                                    "spore": "blaze_head"
+                                    "shroomhearth_id": "blaze_head"
                                 },
                                 "minecraft:profile": {
                                     "properties": [

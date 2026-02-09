@@ -214,7 +214,7 @@
                                 "minecraft:item_name": "Witch Head",
                                 "minecraft:note_block_sound": "minecraft:entity.witch.ambient",
                                 "minecraft:custom_data": {
-                                    "spore": "witch_head"
+                                    "shroomhearth_id": "witch_head"
                                 },
                                 "minecraft:profile": {
                                     "properties": [

@@ -125,7 +125,7 @@
                                 "minecraft:item_name": "Ghast Head",
                                 "minecraft:note_block_sound": "minecraft:entity.ghast.ambient",
                                 "minecraft:custom_data": {
-                                    "spore": "ghast_head"
+                                    "shroomhearth_id": "ghast_head"
                                 },
                                 "minecraft:profile": {
                                     "properties": [

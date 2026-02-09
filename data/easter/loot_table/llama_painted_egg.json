@@ -14,7 +14,7 @@
                                 "minecraft:item_name": "Llama Painted Egg",
                                 "minecraft:item_model": "minecraft:llama_spawn_egg",
                                 "minecraft:custom_data": {
-                                    "spore": "llama_painted_egg"
+                                    "shroomhearth_id": "llama_painted_egg"
                                 }
                             }
                         }

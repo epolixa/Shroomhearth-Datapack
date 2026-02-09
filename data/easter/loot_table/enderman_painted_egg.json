@@ -14,7 +14,7 @@
                                 "minecraft:item_name": "Enderman Painted Egg",
                                 "minecraft:item_model": "minecraft:enderman_spawn_egg",
                                 "minecraft:custom_data": {
-                                    "spore": "enderman_painted_egg"
+                                    "shroomhearth_id": "enderman_painted_egg"
                                 }
                             }
                         }

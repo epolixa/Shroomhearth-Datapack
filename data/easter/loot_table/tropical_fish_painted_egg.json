@@ -14,7 +14,7 @@
                                 "minecraft:item_name": "Tropical Fish Painted Egg",
                                 "minecraft:item_model": "minecraft:tropical_fish_spawn_egg",
                                 "minecraft:custom_data": {
-                                    "spore": "tropical_fish_painted_egg"
+                                    "shroomhearth_id": "tropical_fish_painted_egg"
                                 }
                             }
                         }

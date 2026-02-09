@@ -2,7 +2,7 @@
 
 
 # Drop seats in invalid positions
-execute as @e[tag=seat_interaction] at @s if block ~ ~-0.0625 ~ #seats:intangible run function seats:drop_seat
+execute as @e[tag=seat_interaction] at @s if block ~ ~-0.0625 ~ #shroomhearth:seats/intangible run function shroomhearth:seats/drop_seat
 
 # Process Ender Tome entities
 execute as @e[tag=ender_tome] at @s run function ender_tome:1s_ender_tome

@@ -14,7 +14,7 @@
                                 "minecraft:item_name": "Salmon Painted Egg",
                                 "minecraft:item_model": "minecraft:salmon_spawn_egg",
                                 "minecraft:custom_data": {
-                                    "spore": "salmon_painted_egg"
+                                    "shroomhearth_id": "salmon_painted_egg"
                                 }
                             }
                         }

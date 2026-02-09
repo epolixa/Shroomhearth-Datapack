@@ -14,7 +14,7 @@
                                 "minecraft:item_name": "Piglin Painted Egg",
                                 "minecraft:item_model": "minecraft:piglin_spawn_egg",
                                 "minecraft:custom_data": {
-                                    "spore": "piglin_painted_egg"
+                                    "shroomhearth_id": "piglin_painted_egg"
                                 }
                             }
                         }

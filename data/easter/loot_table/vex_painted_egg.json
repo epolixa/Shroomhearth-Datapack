@@ -14,7 +14,7 @@
                                 "minecraft:item_name": "Vex Painted Egg",
                                 "minecraft:item_model": "minecraft:vex_spawn_egg",
                                 "minecraft:custom_data": {
-                                    "spore": "vex_painted_egg"
+                                    "shroomhearth_id": "vex_painted_egg"
                                 }
                             }
                         }

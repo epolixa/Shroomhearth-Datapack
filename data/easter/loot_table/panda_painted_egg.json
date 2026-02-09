@@ -14,7 +14,7 @@
                                 "minecraft:item_name": "Panda Painted Egg",
                                 "minecraft:item_model": "minecraft:panda_spawn_egg",
                                 "minecraft:custom_data": {
-                                    "spore": "panda_painted_egg"
+                                    "shroomhearth_id": "panda_painted_egg"
                                 }
                             }
                         }

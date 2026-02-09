@@ -14,7 +14,7 @@
                                 "minecraft:item_name": "Creaking Painted Egg",
                                 "minecraft:item_model": "minecraft:creaking_spawn_egg",
                                 "minecraft:custom_data": {
-                                    "spore": "creaking_painted_egg"
+                                    "shroomhearth_id": "creaking_painted_egg"
                                 }
                             }
                         }

@@ -37,7 +37,7 @@
                                 },
                                 "minecraft:rarity": "uncommon",
                                 "minecraft:custom_data": {
-                                    "spore": "spores_of_experience"
+                                    "shroomhearth_id": "spores_of_experience"
                                 }
                             }
                         }

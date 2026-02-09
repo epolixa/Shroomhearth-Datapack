@@ -18,7 +18,7 @@
                                 "minecraft:item_model": "shroomhearth:petrichor_pond_pole",
                                 "minecraft:rarity": "epic",
                                 "minecraft:custom_data": {
-                                    "spore": "petrichor_pond_pole"
+                                    "shroomhearth_id": "petrichor_pond_pole"
                                 }
                             }
                         }

@@ -14,7 +14,7 @@
                                 "minecraft:item_name": "Zoglin Painted Egg",
                                 "minecraft:item_model": "minecraft:zoglin_spawn_egg",
                                 "minecraft:custom_data": {
-                                    "spore": "zoglin_painted_egg"
+                                    "shroomhearth_id": "zoglin_painted_egg"
                                 }
                             }
                         }

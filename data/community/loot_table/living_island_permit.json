@@ -16,7 +16,7 @@
                                 },
                                 "minecraft:item_model": "shroomhearth:permit",
                                 "minecraft:custom_data": {
-                                    "spore": "living_island_permit"
+                                    "shroomhearth_id": "living_island_permit"
                                 }
                             }
                         },

@@ -14,7 +14,7 @@
                                 "minecraft:item_name": "Pillager Painted Egg",
                                 "minecraft:item_model": "minecraft:pillager_spawn_egg",
                                 "minecraft:custom_data": {
-                                    "spore": "pillager_painted_egg"
+                                    "shroomhearth_id": "pillager_painted_egg"
                                 }
                             }
                         }

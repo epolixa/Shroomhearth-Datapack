@@ -14,7 +14,7 @@
                                 "minecraft:item_name": "Glow Squid Painted Egg",
                                 "minecraft:item_model": "minecraft:glow_squid_spawn_egg",
                                 "minecraft:custom_data": {
-                                    "spore": "glow_squid_painted_egg"
+                                    "shroomhearth_id": "glow_squid_painted_egg"
                                 }
                             }
                         }

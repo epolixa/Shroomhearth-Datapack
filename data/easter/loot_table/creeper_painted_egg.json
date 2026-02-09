@@ -14,7 +14,7 @@
                                 "minecraft:item_name": "Creeper Painted Egg",
                                 "minecraft:item_model": "minecraft:creeper_spawn_egg",
                                 "minecraft:custom_data": {
-                                    "spore": "creeper_painted_egg"
+                                    "shroomhearth_id": "creeper_painted_egg"
                                 }
                             }
                         }

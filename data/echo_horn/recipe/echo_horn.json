@@ -19,7 +19,7 @@
                 "items": "minecraft:echo_shard"
             },
             "minecraft:custom_data": {
-                "spore": "echo_horn"
+                "shroomhearth_id": "echo_horn"
             }
         }
     }
