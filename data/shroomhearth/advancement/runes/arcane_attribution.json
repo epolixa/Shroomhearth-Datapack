@@ -1,0 +1,33 @@
+{
+    "parent": "shroomhearth:ender_dragon/ominous_power",
+    "display": {
+        "icon": {
+            "id": "minecraft:enchanted_book",
+            "components": {
+                "minecraft:item_model": "shroomhearth:rune",
+                "minecraft:enchantment_glint_override": true
+            }
+        },
+        "title": "Arcane Attribution",
+        "description": "Apply a Rune to an item",
+        "frame": "task"
+    },
+    "criteria": {
+        "arcane_attribution": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "predicates": {
+                            "minecraft:enchantments": [
+                                {
+                                    "enchantments": "#shroomhearth:runes"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

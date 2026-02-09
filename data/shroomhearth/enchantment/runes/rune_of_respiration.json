@@ -1,0 +1,36 @@
+{
+    "description": {
+        "text": "Rune of Respiration",
+        "color": "#e42281"
+    },
+    "supported_items": "#shroomhearth:rune_supported_items",
+    "max_level": 1,
+    "anvil_cost": 4,
+    "min_cost": {
+        "base": 25,
+        "per_level_above_first": 25
+    },
+    "max_cost": {
+        "base": 75,
+        "per_level_above_first": 25
+    },
+    "slots": [
+        "any"
+    ],
+    "weight": 1,
+    "exclusive_set": "#shroomhearth:runes",
+    "effects": {
+        "minecraft:attributes": [
+            {
+                "id": "shroomhearth:rune_of_respiration",
+                "attribute": "oxygen_bonus",
+                "operation": "add_value",
+                "amount": {
+                    "type": "minecraft:linear",
+                    "base": 1,
+                    "per_level_above_first": 1
+                }
+            }
+        ]
+    }
+}

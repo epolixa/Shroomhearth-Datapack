@@ -185,53 +185,53 @@ execute if score @s found_enhanceable_enchantment matches 1 run data modify stor
 # Considering allowing runes to be enhanced in the future. They will remain ignored for now.
 
 # Rune of Armor
-#execute store result score @s found_enhanceable_enchantment if data entity @s SelectedItem.components."minecraft:enchantments"{"runes:rune_of_armor":1}
-#execute if score @s found_enhanceable_enchantment matches 1 run data modify storage ender_tome:ender_tome enhanceable_enchantments append value "runes:rune_of_armor"
+#execute store result score @s found_enhanceable_enchantment if data entity @s SelectedItem.components."minecraft:enchantments"{"shroomhearth:runes/rune_of_armor":1}
+#execute if score @s found_enhanceable_enchantment matches 1 run data modify storage ender_tome:ender_tome enhanceable_enchantments append value "shroomhearth:runes/rune_of_armor"
 
 # Rune of Force
-#execute store result score @s found_enhanceable_enchantment if data entity @s SelectedItem.components."minecraft:enchantments"{"runes:rune_of_knockback":1}
-#execute if score @s found_enhanceable_enchantment matches 1 run data modify storage ender_tome:ender_tome enhanceable_enchantments append value "runes:rune_of_force"
+#execute store result score @s found_enhanceable_enchantment if data entity @s SelectedItem.components."minecraft:enchantments"{"shroomhearth:runes/rune_of_knockback":1}
+#execute if score @s found_enhanceable_enchantment matches 1 run data modify storage ender_tome:ender_tome enhanceable_enchantments append value "shroomhearth:runes/rune_of_force"
 
 # Rune of Gravity
-#execute store result score @s found_enhanceable_enchantment if data entity @s SelectedItem.components."minecraft:enchantments"{"runes:rune_of_gravity":1}
-#execute if score @s found_enhanceable_enchantment matches 1 run data modify storage ender_tome:ender_tome enhanceable_enchantments append value "runes:rune_of_gravity"
+#execute store result score @s found_enhanceable_enchantment if data entity @s SelectedItem.components."minecraft:enchantments"{"shroomhearth:runes/rune_of_gravity":1}
+#execute if score @s found_enhanceable_enchantment matches 1 run data modify storage ender_tome:ender_tome enhanceable_enchantments append value "shroomhearth:runes/rune_of_gravity"
 
 # Rune of Haste
-#execute store result score @s found_enhanceable_enchantment if data entity @s SelectedItem.components."minecraft:enchantments"{"runes:rune_of_haste":1}
-#execute if score @s found_enhanceable_enchantment matches 1 run data modify storage ender_tome:ender_tome enhanceable_enchantments append value "runes:rune_of_haste"
+#execute store result score @s found_enhanceable_enchantment if data entity @s SelectedItem.components."minecraft:enchantments"{"shroomhearth:runes/rune_of_haste":1}
+#execute if score @s found_enhanceable_enchantment matches 1 run data modify storage ender_tome:ender_tome enhanceable_enchantments append value "shroomhearth:runes/rune_of_haste"
 
 # Rune of Health
-#execute store result score @s found_enhanceable_enchantment if data entity @s SelectedItem.components."minecraft:enchantments"{"runes:rune_of_health":1}
-#execute if score @s found_enhanceable_enchantment matches 1 run data modify storage ender_tome:ender_tome enhanceable_enchantments append value "runes:rune_of_health"
+#execute store result score @s found_enhanceable_enchantment if data entity @s SelectedItem.components."minecraft:enchantments"{"shroomhearth:runes/rune_of_health":1}
+#execute if score @s found_enhanceable_enchantment matches 1 run data modify storage ender_tome:ender_tome enhanceable_enchantments append value "shroomhearth:runes/rune_of_health"
 
 # Rune of Largeness
-#execute store result score @s found_enhanceable_enchantment if data entity @s SelectedItem.components."minecraft:enchantments"{"runes:rune_of_largeness":1}
-#execute if score @s found_enhanceable_enchantment matches 1 run data modify storage ender_tome:ender_tome enhanceable_enchantments append value "runes:rune_of_largeness"
+#execute store result score @s found_enhanceable_enchantment if data entity @s SelectedItem.components."minecraft:enchantments"{"shroomhearth:runes/rune_of_largeness":1}
+#execute if score @s found_enhanceable_enchantment matches 1 run data modify storage ender_tome:ender_tome enhanceable_enchantments append value "shroomhearth:runes/rune_of_largeness"
 
 # Rune of Leaping
-#execute store result score @s found_enhanceable_enchantment if data entity @s SelectedItem.components."minecraft:enchantments"{"runes:rune_of_leaping":1}
-#execute if score @s found_enhanceable_enchantment matches 1 run data modify storage ender_tome:ender_tome enhanceable_enchantments append value "runes:rune_of_leaping"
+#execute store result score @s found_enhanceable_enchantment if data entity @s SelectedItem.components."minecraft:enchantments"{"shroomhearth:runes/rune_of_leaping":1}
+#execute if score @s found_enhanceable_enchantment matches 1 run data modify storage ender_tome:ender_tome enhanceable_enchantments append value "shroomhearth:runes/rune_of_leaping"
 
 # Rune of Reach
-#execute store result score @s found_enhanceable_enchantment if data entity @s SelectedItem.components."minecraft:enchantments"{"runes:rune_of_reach":1}
-#execute if score @s found_enhanceable_enchantment matches 1 run data modify storage ender_tome:ender_tome enhanceable_enchantments append value "runes:rune_of_reach"
+#execute store result score @s found_enhanceable_enchantment if data entity @s SelectedItem.components."minecraft:enchantments"{"shroomhearth:runes/rune_of_reach":1}
+#execute if score @s found_enhanceable_enchantment matches 1 run data modify storage ender_tome:ender_tome enhanceable_enchantments append value "shroomhearth:runes/rune_of_reach"
 
 # Rune of Smallness
-#execute store result score @s found_enhanceable_enchantment if data entity @s SelectedItem.components."minecraft:enchantments"{"runes:rune_of_smallness":1}
-#execute if score @s found_enhanceable_enchantment matches 1 run data modify storage ender_tome:ender_tome enhanceable_enchantments append value "runes:rune_of_smallness"
+#execute store result score @s found_enhanceable_enchantment if data entity @s SelectedItem.components."minecraft:enchantments"{"shroomhearth:runes/rune_of_smallness":1}
+#execute if score @s found_enhanceable_enchantment matches 1 run data modify storage ender_tome:ender_tome enhanceable_enchantments append value "shroomhearth:runes/rune_of_smallness"
 
 # Rune of Stability
-#execute store result score @s found_enhanceable_enchantment if data entity @s SelectedItem.components."minecraft:enchantments"{"runes:rune_of_stability":1}
-#execute if score @s found_enhanceable_enchantment matches 1 run data modify storage ender_tome:ender_tome enhanceable_enchantments append value "runes:rune_of_stability"
+#execute store result score @s found_enhanceable_enchantment if data entity @s SelectedItem.components."minecraft:enchantments"{"shroomhearth:runes/rune_of_stability":1}
+#execute if score @s found_enhanceable_enchantment matches 1 run data modify storage ender_tome:ender_tome enhanceable_enchantments append value "shroomhearth:runes/rune_of_stability"
 
 # Rune of Stepping
-#execute store result score @s found_enhanceable_enchantment if data entity @s SelectedItem.components."minecraft:enchantments"{"runes:rune_of_stepping":1}
-#execute if score @s found_enhanceable_enchantment matches 1 run data modify storage ender_tome:ender_tome enhanceable_enchantments append value "runes:rune_of_stepping"
+#execute store result score @s found_enhanceable_enchantment if data entity @s SelectedItem.components."minecraft:enchantments"{"shroomhearth:runes/rune_of_stepping":1}
+#execute if score @s found_enhanceable_enchantment matches 1 run data modify storage ender_tome:ender_tome enhanceable_enchantments append value "shroomhearth:runes/rune_of_stepping"
 
 # Rune of Strength
-#execute store result score @s found_enhanceable_enchantment if data entity @s SelectedItem.components."minecraft:enchantments"{"runes:rune_of_strength":1}
-#execute if score @s found_enhanceable_enchantment matches 1 run data modify storage ender_tome:ender_tome enhanceable_enchantments append value "runes:rune_of_strength"
+#execute store result score @s found_enhanceable_enchantment if data entity @s SelectedItem.components."minecraft:enchantments"{"shroomhearth:runes/rune_of_strength":1}
+#execute if score @s found_enhanceable_enchantment matches 1 run data modify storage ender_tome:ender_tome enhanceable_enchantments append value "shroomhearth:runes/rune_of_strength"
 
 # Rune of Swiftness
-#execute store result score @s found_enhanceable_enchantment if data entity @s SelectedItem.components."minecraft:enchantments"{"runes:rune_of_swiftness":1}
-#execute if score @s found_enhanceable_enchantment matches 1 run data modify storage ender_tome:ender_tome enhanceable_enchantments append value "runes:rune_of_swiftness"
+#execute store result score @s found_enhanceable_enchantment if data entity @s SelectedItem.components."minecraft:enchantments"{"shroomhearth:runes/rune_of_swiftness":1}
+#execute if score @s found_enhanceable_enchantment matches 1 run data modify storage ender_tome:ender_tome enhanceable_enchantments append value "shroomhearth:runes/rune_of_swiftness"

@@ -6,8 +6,7 @@
         "minecraft:infinity",
         "minecraft:mending",
         "minecraft:multishot",
-        "minecraft:silk_touch",
-        
-        "#runes:runes"
+        "minecraft:silk_touch",        
+        "#shroomhearth:runes"
     ]
 }

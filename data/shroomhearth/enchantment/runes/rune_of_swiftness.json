@@ -1,0 +1,46 @@
+{
+    "description": {
+        "text": "Rune of Swiftness",
+        "color": "#e42281"
+    },
+    "supported_items": "#shroomhearth:rune_supported_items",
+    "max_level": 1,
+    "anvil_cost": 4,
+    "min_cost": {
+        "base": 25,
+        "per_level_above_first": 25
+    },
+    "max_cost": {
+        "base": 75,
+        "per_level_above_first": 25
+    },
+    "slots": [
+        "any"
+    ],
+    "weight": 1,
+    "exclusive_set": "#shroomhearth:runes",
+    "effects": {
+        "minecraft:attributes": [
+            {
+                "id": "shroomhearth:rune_of_swiftness.movement_speed",
+                "attribute": "movement_speed",
+                "operation": "add_multiplied_base",
+                "amount": {
+                    "type": "minecraft:linear",
+                    "base": 0.2,
+                    "per_level_above_first": 0.2
+                }
+            },
+            {
+                "id": "shroomhearth:rune_of_swiftness.flying_speed",
+                "attribute": "flying_speed",
+                "operation": "add_multiplied_base",
+                "amount": {
+                    "type": "minecraft:linear",
+                    "base": 0.2,
+                    "per_level_above_first": 0.2
+                }
+            }
+        ]
+    }
+}

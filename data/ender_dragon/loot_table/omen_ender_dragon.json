@@ -11,7 +11,7 @@
             "entries": [
                 {
                     "type": "loot_table",
-                    "value": "runes:random_rune"
+                    "value": "shroomhearth:runes/random_rune"
                 }
             ]
         },

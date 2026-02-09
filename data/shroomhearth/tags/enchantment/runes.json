@@ -1,0 +1,18 @@
+{
+    "values": [
+        "shroomhearth:runes/rune_of_armor",
+        "shroomhearth:runes/rune_of_knockback",
+        "shroomhearth:runes/rune_of_gravity",
+        "shroomhearth:runes/rune_of_haste",
+        "shroomhearth:runes/rune_of_health",
+        "shroomhearth:runes/rune_of_largeness",
+        "shroomhearth:runes/rune_of_leaping",
+        "shroomhearth:runes/rune_of_reach",
+        "shroomhearth:runes/rune_of_respiration",
+        "shroomhearth:runes/rune_of_smallness",
+        "shroomhearth:runes/rune_of_stability",
+        "shroomhearth:runes/rune_of_stepping",
+        "shroomhearth:runes/rune_of_strength",
+        "shroomhearth:runes/rune_of_swiftness"
+    ]
+}

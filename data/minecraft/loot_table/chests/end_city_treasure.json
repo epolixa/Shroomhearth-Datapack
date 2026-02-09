@@ -439,7 +439,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "runes:random_rune"
+          "value": "shroomhearth:runes/random_rune"
         }
       ],
       "rolls": 1.0
