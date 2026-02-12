@@ -1,7 +1,7 @@
 # This function checks for a player's charm and permit material before creating
 
 # Check that player has charm and ingredient
-execute store result score @s hasCharm run clear @s #community:charm[custom_data={spore:"charm"}] 0
+execute store result score @s hasCharm run clear @s #community:charm[custom_data={shroomhearth_id"charm"}] 0
 execute store result score @s hasPermitMaterial run clear @s #community:permit_material 0
 
 # If they don't have charm, send a message

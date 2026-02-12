@@ -1,9 +1,9 @@
 {
     "description": {
         "text": "Rune of Reach",
-        "color": "#e42281"
+        "color": "#e381ff"
     },
-    "supported_items": "#shroomhearth:rune_supported_items",
+    "supported_items": "#shroomhearth:rune_supported",
     "max_level": 1,
     "anvil_cost": 4,
     "min_cost": {

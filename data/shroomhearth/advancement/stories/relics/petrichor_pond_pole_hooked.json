@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "petrichor_pond_pole_hooked": {
+            "trigger": "minecraft:fishing_rod_hooked",
+            "conditions": {
+                "rod": {
+                    "predicates": {
+                        "minecraft:custom_data": {
+                            "shroomhearth_id": "petrichor_pond_pole"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "shroomhearth:stories/advancement_reward/petrichor_pond_pole_hooked"
+    }
+}

@@ -1,0 +1,101 @@
+{
+    "description": {
+        "text": "Wondermerian Agility",
+        "color": "#4C9A8E"
+    },
+    "supported_items": "#shroomhearth:stories/wondermerian_agility_supported",
+    "weight": 1,
+    "max_level": 1,
+    "anvil_cost": 5,
+    "min_cost": {
+        "base": 25,
+        "per_level_above_first": 25
+    },
+    "max_cost": {
+        "base": 75,
+        "per_level_above_first": 25
+    },
+    "slots": [
+        "mainhand"
+    ],
+    "effects": {
+        "minecraft:post_attack": [
+            {
+                "effect": {
+                    "type": "minecraft:apply_mob_effect",
+                    "to_apply": "minecraft:speed",
+                    "min_duration": 2,
+                    "max_duration": 2,
+                    "min_amplifier": 0,
+                    "max_amplifier": 0
+                },
+                "enchanted": "attacker",
+                "affected": "attacker"
+            },
+            {
+                "effect": {
+                    "type": "minecraft:play_sound",
+                    "sound": "block.amethyst_block.break",
+                    "volume": 1,
+                    "pitch": 1.25
+                },
+                "enchanted": "attacker",
+                "affected": "attacker"
+            },
+            {
+                "effect": {
+                    "type": "minecraft:spawn_particles",
+                    "particle": {
+                       "type": "minecraft:cherry_leaves" 
+                    },
+                    "horizontal_position": {
+                        "type": "in_bounding_box"
+                    },
+                    "vertical_position": {
+                        "type": "in_bounding_box"
+                    },
+                    "horizontal_velocity": {},
+                    "vertical_velocity": {}
+                },
+                "enchanted": "attacker",
+                "affected": "victim"
+            },
+            {
+                "effect": {
+                    "type": "minecraft:spawn_particles",
+                    "particle": {
+                       "type": "minecraft:cherry_leaves" 
+                    },
+                    "horizontal_position": {
+                        "type": "in_bounding_box"
+                    },
+                    "vertical_position": {
+                        "type": "in_bounding_box"
+                    },
+                    "horizontal_velocity": {},
+                    "vertical_velocity": {}
+                },
+                "enchanted": "attacker",
+                "affected": "victim"
+            },
+            {
+                "effect": {
+                    "type": "minecraft:spawn_particles",
+                    "particle": {
+                       "type": "minecraft:cherry_leaves" 
+                    },
+                    "horizontal_position": {
+                        "type": "in_bounding_box"
+                    },
+                    "vertical_position": {
+                        "type": "in_bounding_box"
+                    },
+                    "horizontal_velocity": {},
+                    "vertical_velocity": {}
+                },
+                "enchanted": "attacker",
+                "affected": "victim"
+            }
+        ]
+    }
+}

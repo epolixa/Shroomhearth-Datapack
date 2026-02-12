@@ -1,0 +1,2 @@
+function shroomhearth:stories/scoreboard/remove
+function shroomhearth:stories/scoreboard/add

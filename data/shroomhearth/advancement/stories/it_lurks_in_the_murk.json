@@ -1,0 +1,29 @@
+{
+	"parent": "shroomhearth:shroomhearth_stories",
+	"display": {
+		"icon": {
+            "id": "minecraft:pufferfish",
+            "components": {
+                "minecraft:item_model": "shroomhearth:petri_pfish"
+            }
+        },
+		"title": "It Lurks in the Murk...",
+		"description": "Catch a Petri Pfish from the Tides of Tesselation waters of Petrichor Pond",
+		"frame": "goal"
+	},
+	"criteria": {
+		"it_lurks_in_the_murk": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"item": {
+					"items": "minecraft:pufferfish",
+					"components": {
+						"minecraft:custom_data": {
+							"shroomhearth_id": "petri_pfish"
+						}
+					}
+				}
+			}
+		}
+    }
+}

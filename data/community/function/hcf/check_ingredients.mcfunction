@@ -1,7 +1,7 @@
 # This function checks for a player's charm and hcf material before creating
 
 # Check that player has charm and ingredient
-execute store result score @s hasCharm run clear @s #community:charm[custom_data={spore:"charm"}] 0
+execute store result score @s hasCharm run clear @s #community:charm[custom_data={shroomhearth_id"charm"}] 0
 execute store result score @s hasHcfMaterial run clear @s #community:harmonized_chorus_fruit_material 0
 
 # If they don't have charm, send a message

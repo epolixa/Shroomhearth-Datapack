@@ -1,0 +1,41 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_axe",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": {
+                                    "translate": "relics.bleeding_tooth",
+                                    "fallback": "Bleeding Tooth"
+                                },
+                                "minecraft:item_model": "shroomhearth:bleeding_tooth",
+                                "minecraft:rarity": "epic",
+                                "minecraft:enchantments": {
+                                    "shroomhearth:stories/blistering_spores": 1
+                                },
+                                "minecraft:lore": [
+                                    {
+                                        "text": "Once used to fell an arboreal fungus,"
+                                    },
+                                    {
+                                        "text": "now tainted by its invasive mycelium."
+                                    }
+                                ],
+                                "minecraft:custom_data": {
+                                    "shroomhearth_id": "bleeding_tooth"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

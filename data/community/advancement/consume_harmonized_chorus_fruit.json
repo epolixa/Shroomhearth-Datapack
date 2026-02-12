@@ -6,7 +6,7 @@
                 "item": {
                     "items": "#community:harmonized_chorus_fruit",
                     "predicates": {
-                        "minecraft:custom_data": "{spore:'harmonized_chorus_fruit'}"
+                        "minecraft:custom_data": "{shroomhearth_id'harmonized_chorus_fruit'}"
                     }
                 }
             }

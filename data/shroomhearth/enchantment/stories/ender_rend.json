@@ -1,0 +1,97 @@
+{
+    "description": {
+        "text": "Ender Rend",
+        "color": "#4C9A8E"
+    },
+    "supported_items": "#minecraft:swords",
+    "weight": 1,
+    "max_level": 1,
+    "anvil_cost": 5,
+    "min_cost": {
+        "base": 25,
+        "per_level_above_first": 25
+    },
+    "max_cost": {
+        "base": 75,
+        "per_level_above_first": 25
+    },
+    "slots": [
+        "mainhand"
+    ],
+    "effects": {
+        "minecraft:post_attack": [
+            {
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "shroomhearth:stories/enchantment/ender_rend/post_attack_victim"
+                },
+                "enchanted": "attacker",
+                "affected": "victim"
+            },
+            {
+                "effect": {
+                    "type": "minecraft:play_sound",
+                    "sound": "minecraft:item.chorus_fruit.teleport",
+                    "volume": 1,
+                    "pitch": 1
+                },
+                "enchanted": "attacker",
+                "affected": "victim"
+            },
+            {
+                "effect": {
+                    "type": "minecraft:spawn_particles",
+                    "particle": {
+                       "type": "minecraft:portal" 
+                    },
+                    "horizontal_position": {
+                        "type": "in_bounding_box"
+                    },
+                    "vertical_position": {
+                        "type": "in_bounding_box"
+                    },
+                    "horizontal_velocity": {},
+                    "vertical_velocity": {}
+                },
+                "enchanted": "attacker",
+                "affected": "victim"
+            },
+            {
+                "effect": {
+                    "type": "minecraft:spawn_particles",
+                    "particle": {
+                       "type": "minecraft:portal" 
+                    },
+                    "horizontal_position": {
+                        "type": "in_bounding_box"
+                    },
+                    "vertical_position": {
+                        "type": "in_bounding_box"
+                    },
+                    "horizontal_velocity": {},
+                    "vertical_velocity": {}
+                },
+                "enchanted": "attacker",
+                "affected": "victim"
+            },
+            {
+                "effect": {
+                    "type": "minecraft:spawn_particles",
+                    "particle": {
+                       "type": "minecraft:portal" 
+                    },
+                    "horizontal_position": {
+                        "type": "in_bounding_box"
+                    },
+                    "vertical_position": {
+                        "type": "in_bounding_box"
+                    },
+                    "horizontal_velocity": {},
+                    "vertical_velocity": {}
+                },
+                "enchanted": "attacker",
+                "affected": "victim"
+            }
+        ]
+    }
+}

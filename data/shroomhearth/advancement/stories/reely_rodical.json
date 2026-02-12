@@ -1,0 +1,22 @@
+{
+    "parent": "quests:it_lurks_in_the_murk",
+    "display": {
+        "icon": {
+            "id": "minecraft:fishing_rod",
+            "components": {
+                "minecraft:item_model": "shroomhearth:petrichor_pond_pole"
+            }
+        },
+        "title": "Reel-y Rodical",
+        "description": "Win any fishing tournament category at Petrichor Pond",
+        "frame": "challenge"
+    },
+    "criteria": {
+        "reely_rodical": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "shroomhearth:stories/advancement_reward/reely_rodical"
+    }
+}

@@ -27,7 +27,7 @@
                         },
                         {
                             "function": "minecraft:set_custom_data",
-                            "tag": "{spore:'harmonized_chorus_fruit'}"
+                            "tag": "{shroomhearth_id'harmonized_chorus_fruit'}"
                         }
                     ]
                 }

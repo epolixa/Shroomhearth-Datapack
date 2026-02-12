@@ -5,7 +5,7 @@
         "equipment": {
             "mainhand": {
                 "predicates": {
-                    "minecraft:custom_data": "{spore:'echo_horn'}"
+                    "minecraft:custom_data": "{shroomhearth_id'echo_horn'}"
                 }
             }
         }

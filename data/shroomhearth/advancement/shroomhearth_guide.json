@@ -11,7 +11,7 @@
 		"announce_to_chat": false
 	},
 	"criteria": {
-		"visited_spawn": {
+		"shroomhearth_guide": {
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player": {

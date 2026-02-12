@@ -5,7 +5,7 @@ tellraw @a[tag=debug_status_visibility] [{"text":"[shroomhearth:status_visibilit
 
 
 # Spawn "insomnia" particles unless Spores of Insomnia are active
-execute if score spores_of_insomnia shroomhearth.harmony matches 0 if predicate shroomhearth:status_visibility/insomnia_particle_chance run particle minecraft:mycelium ~ ~1.8 ~ 0.25 0.125 0.25 0 2
+execute if score spores_of_insomnia shroomhearth.harmony matches 0 if predicate shroomhearth:status_visibility/insomnia_particle_chance anchored eyes run particle minecraft:mycelium ^ ^ ^0.3125 0.25 0.0625 0.25 0 2
 
 # Revoke trigger
 advancement revoke @s only shroomhearth:status_visibility/insomnia
