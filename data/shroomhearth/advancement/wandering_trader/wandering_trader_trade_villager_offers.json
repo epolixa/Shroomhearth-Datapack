@@ -1,13 +1,13 @@
 {
 	"criteria": {
-		"trade": {
+		"wandering_trader_trade_villager_offers": {
 			"trigger": "minecraft:villager_trade",
 			"conditions": {
 				"villager": {
 					"type": "minecraft:wandering_trader"
 				},
 				"item": {
-					"items": "#shroomhearth:villager_wares"
+					"items": "#shroomhearth:villager_offers"
 				}
 			}
 		}

@@ -4,7 +4,7 @@
             "id": "minecraft:crimson_hyphae"
         },
         "title": "Shroomhearth Challenges",
-        "description": "Visit Spawn",
+        "description": "Take on various challenges created by the Shroomhearth community",
         "background": "minecraft:block/stripped_crimson_stem",
         "frame": "task",
         "show_toast": false,

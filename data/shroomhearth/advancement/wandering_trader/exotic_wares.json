@@ -16,14 +16,14 @@
 			}
 		},
 		"title": "Exotic Wares",
-		"description": "Buy something from the Wandering Trader that you wouldn't find in a Village",
+		"description": "Trade for something unusual from the Wandering Trader",
 		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false
 	},
 	"criteria": {
-		"impossible": {
+		"exotic_wares": {
 			"trigger": "minecraft:impossible"
 		}
 	}

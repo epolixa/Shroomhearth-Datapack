@@ -1,6 +1,6 @@
 {
 	"criteria": {
-		"trade": {
+		"wandering_trader_trade": {
 			"trigger": "minecraft:villager_trade",
 			"conditions": {
 				"villager": {
@@ -10,6 +10,6 @@
 		}
 	},
 	"rewards": {
-		"function": "wandering_trader:trade"
+		"function": "shroomhearth:wandering_trader/advancement_reward/wandering_trader_trade"
 	} 
 }

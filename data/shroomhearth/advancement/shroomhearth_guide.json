@@ -4,7 +4,7 @@
 			"id": "minecraft:red_mushroom_block"	
 		},
 		"title": "Shroomhearth Guide",
-		"description": "Visit Spawn",
+		"description": "Learn about the unique features and mechanics of Shroomhearth",
 		"background": "minecraft:block/mushroom_stem",
 		"frame": "task",
 		"show_toast": false,

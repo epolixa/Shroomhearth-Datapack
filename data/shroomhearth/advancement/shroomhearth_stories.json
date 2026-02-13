@@ -4,7 +4,7 @@
             "id": "minecraft:warped_hyphae"
         },
         "title": "Shroomhearth Stories",
-        "description": "Visit Spawn",
+        "description": "Discover the lore and stories behind the world of Shroomhearth",
         "background": "minecraft:block/stripped_warped_stem",
         "frame": "task",
         "show_toast": false,

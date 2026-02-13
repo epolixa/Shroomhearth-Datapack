@@ -2,7 +2,7 @@
 
 
 # Announce newly-spawned Wandering Traders
-execute in minecraft:overworld as @e[type=wandering_trader,distance=0..,tag=!announced] at @s run function wandering_trader:1s
+execute as @e[type=wandering_trader,tag=!announced] at @s run function shroomhearth:wandering_trader/announce
 
 # Assign Allays to special team for no collision
 execute as @e[type=minecraft:allay,tag=!no_collide] run function allay_bottle:1s

@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
+		"#shroomhearth:wandering_trader_offers",
+
 		"minecraft:iron_helmet",
 		"minecraft:iron_chestplate",
 		"minecraft:iron_leggings",
