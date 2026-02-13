@@ -1,0 +1,27 @@
+{
+	"criteria": {
+		"start": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "entity_properties",
+						"entity": "this",
+						"predicate": {
+							"effects": {
+								"minecraft:raid_omen": {}
+							}
+						}
+					},
+					{
+						"condition": "minecraft:reference",
+						"name": "shroomhearth:raid/40_minutes_since_raid_start"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "shroomhearth:raid/advancement_reward/start"
+	} 
+}

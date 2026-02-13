@@ -2,7 +2,7 @@
     "condition": "minecraft:entity_scores",
     "entity": "this",
     "scores": {
-        "timeSinceLastRaidStart": {
+        "time_since_raid_complete": {
             "min": 48000
         }
     }
