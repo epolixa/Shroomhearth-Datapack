@@ -7,6 +7,3 @@ team modify wither collisionRule pushOtherTeams
 
 # Tracks wither's health (also used by dragon)
 scoreboard objectives add bossHealth dummy
-
-# Track if the wither summoned skeletons yet
-scoreboard objectives add summonedSkeletons dummy

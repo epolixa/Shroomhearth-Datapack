@@ -48,6 +48,7 @@ scoreboard objectives remove uuid_4
 
 # general purpose health objective
 scoreboard objectives remove health
+scoreboard objectives remove player_health
 
 # position scoring
 scoreboard objectives remove pos_x

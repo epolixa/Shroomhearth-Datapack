@@ -10,6 +10,6 @@
 		}
 	},
 	"rewards": {
-		"function": "wither:player_hurt_wither"
+		"function": "shroomhearth:wither/advancement_reward/player_hurt_wither"
 	} 
 }

@@ -47,8 +47,9 @@ scoreboard objectives add uuid_2 dummy
 scoreboard objectives add uuid_3 dummy
 scoreboard objectives add uuid_4 dummy
 
-# general purpose health objective
-scoreboard objectives add health health "Health"
+# general purpose health objectives
+scoreboard objectives add health dummy
+scoreboard objectives add player_health health
 
 # position scoring
 scoreboard objectives add pos_x dummy

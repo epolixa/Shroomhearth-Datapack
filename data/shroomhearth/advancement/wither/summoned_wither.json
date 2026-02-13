@@ -48,6 +48,6 @@
 		]
 	],	  
 	"rewards": {
-		"function": "wither:summoned_wither"
+		"function": "shroomhearth:wither/advancement_reward/summoned_wither"
 	}
 }

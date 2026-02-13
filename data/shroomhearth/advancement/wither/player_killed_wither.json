@@ -10,6 +10,6 @@
 		}
 	},
 	"rewards": {
-		"function": "wither:player_killed_wither"
+		"function": "shroomhearth:wither/advancement_reward/player_killed_wither"
 	} 
 }
