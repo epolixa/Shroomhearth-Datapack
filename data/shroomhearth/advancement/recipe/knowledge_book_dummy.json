@@ -1,0 +1,14 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "world_hall:knowledge_book_dummy"
+            }
+        }
+    },
+    "rewards": {
+        "function": "world_hall:use_knowledge_book"
+    }
+}
