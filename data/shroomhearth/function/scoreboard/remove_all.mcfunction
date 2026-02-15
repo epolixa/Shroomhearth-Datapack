@@ -3,7 +3,7 @@ function shroomhearth:scoreboard/remove
 function allay_bottle:objectives/remove
 function arena:objectives/remove
 function community:objectives/remove
-function harmony:objectives/remove
+function shroomhearth:harmony/objectives/remove
 function ender_dragon:objectives/remove
 function haberdasher:objectives/remove
 function hollow_vale:objectives/remove

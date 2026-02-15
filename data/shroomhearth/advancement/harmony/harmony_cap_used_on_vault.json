@@ -1,0 +1,33 @@
+{
+    "criteria": {
+        "harmony_cap_used_on_vault": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": "minecraft:vault"
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": "minecraft:glistering_melon_slice",
+                            "predicates": {
+                                "minecraft:custom_data": {
+                                    "shroomhearth_id": "harmony_cap"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "shroomhearth:harmony/advancement_reward/harmony_cap_used_on_vault"
+    }
+}

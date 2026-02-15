@@ -1,0 +1,2 @@
+function shroomhearth:harmony/objectives/remove
+function shroomhearth:harmony/objectives/add

@@ -51,7 +51,7 @@
                 "minecraft:item_name": "Shulker Core",
                 "minecraft:note_block_sound": "minecraft:entity.shulker.ambient",
                 "minecraft:custom_data": {
-                  "spore": "shulker_core"
+                  "shroomhearth_id": "shulker_core"
                 },
                 "minecraft:profile": {
                   "properties": [

@@ -17,7 +17,7 @@
                 },
                 "minecraft:item_model": "shroomhearth:hallow_vale_trial_key",
                 "minecraft:custom_data": {
-                  "spore": "hallow_vale_trial_key"
+                  "shroomhearth_id": "hallow_vale_trial_key"
                 }
               }
             }

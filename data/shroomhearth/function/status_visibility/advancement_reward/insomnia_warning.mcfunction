@@ -5,4 +5,4 @@ tellraw @a[tag=debug_status_visibility] [{"text":"[shroomhearth:status_visibilit
 
 
 # Play eerie sound
-playsound minecraft:entity.phantom.ambient hostile @s ~ ~ ~ 0.5 0.5
+playsound minecraft:entity.phantom.flap hostile @s ~ ~ ~ 0.75 0.5

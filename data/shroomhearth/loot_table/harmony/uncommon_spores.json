@@ -1,0 +1,17 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "shroomhearth:harmony/spores/ease"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "shroomhearth:harmony/spores/experience"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

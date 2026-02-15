@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "player_hurt_harmony_cap": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:interaction",
+                    "nbt": {"Tags":["harmony_cap_interaction"]}
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "shroomhearth:harmony/advancement_reward/player_hurt_harmony_cap"
+    }
+}

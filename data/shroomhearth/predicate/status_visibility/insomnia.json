@@ -35,7 +35,7 @@
             "dimension": "minecraft:overworld",
             "position": {
                 "y": {
-                    "min": 64
+                    "min": 63
                 }
             },
             "can_see_sky": true

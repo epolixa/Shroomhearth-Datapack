@@ -1,0 +1,37 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "shroomhearth:harmony/spores/armor"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "shroomhearth:harmony/spores/haste"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "shroomhearth:harmony/spores/leaping"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "shroomhearth:harmony/spores/swiftness"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "shroomhearth:harmony/spores/strength"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "shroomhearth:harmony/spores/health"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "shroomhearth:harmony/spores/insomnia"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

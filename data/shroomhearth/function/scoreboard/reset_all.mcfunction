@@ -3,7 +3,7 @@ function shroomhearth:scoreboard/reset
 function allay_bottle:scoreboard/reset
 function arena:scoreboard/reset
 function community:scoreboard/reset
-function harmony:scoreboard/reset
+function shroomhearth:harmony/scoreboard/reset
 function ender_dragon:scoreboard/reset
 function haberdasher:scoreboard/reset
 function hollow_vale:scoreboard/reset

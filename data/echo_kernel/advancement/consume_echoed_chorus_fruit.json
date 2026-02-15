@@ -6,7 +6,7 @@
                 "item": {
                     "predicates": {
                         "minecraft:custom_data": {
-                            "spore": "echoed_chorus_fruit"
+                            "shroomhearth_id": "echoed_chorus_fruit"
                         }
                     }
                 }

@@ -12,7 +12,7 @@ function shroomhearth:score_uuid
 function shroomhearth:store_target_uuid
 
 # Inform player about any active events
-function harmony:inform_spores
+function shroomhearth:harmony/inform_spores
 
 # Reset leave_game
 scoreboard players reset @s leave_game
