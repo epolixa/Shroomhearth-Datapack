@@ -2,7 +2,7 @@
 
 
 # Process Goat Horn channeled cast time
-execute as @a[tag=using_echo_horn] at @s run function echo_horn:using_echo_horn
+execute as @a[tag=using_echo_horn] at @s run function shroomhearth:echo_horn/using_echo_horn
 
 # Re-schedule
 schedule function shroomhearth:1s/6 1s

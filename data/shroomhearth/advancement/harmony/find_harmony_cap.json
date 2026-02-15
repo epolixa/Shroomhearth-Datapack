@@ -1,0 +1,29 @@
+{
+	"parent": "shroomhearth:shroomhearth_guide",
+	"display": {
+		"icon": {
+			"id": "minecraft:glistering_melon_slice",
+            "components": {
+				"minecraft:item_model": "shroomhearth:harmony_cap"
+			}
+		},
+		"title": "Find Harmony Cap",
+		"description": "Find a Harmony Cap after spending time with other players"
+	},
+	"criteria": {
+		"find_harmony_cap": {
+			"trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "shroomhearth_id": "harmony_cap"
+                            }
+                        }
+                    }
+                ]
+            }
+		}
+	}
+}

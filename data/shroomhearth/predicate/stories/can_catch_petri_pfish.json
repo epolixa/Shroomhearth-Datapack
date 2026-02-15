@@ -11,7 +11,7 @@
                 "max": -329
             }
         },
-        "biomes": "#quests:petri_pfish_catchable",
+        "biomes": "#shroomhearth:petri_pfish_catchable",
         "dimension": "minecraft:overworld"
     }
 }

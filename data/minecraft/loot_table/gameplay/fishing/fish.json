@@ -29,12 +29,12 @@
 
         {
           "type": "minecraft:loot_table",
-          "value": "quests:fish/petri_pfish",
+          "value": "shroomhearth:stories/fish/petri_pfish",
           "weight": 2,
           "conditions": [
             {
               "condition": "minecraft:reference",
-              "name": "quests:can_catch_petri_pfish"
+              "name": "shroomhearth:stories/can_catch_petri_pfish"
             }
           ]
         }

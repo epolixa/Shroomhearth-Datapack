@@ -1,5 +1,5 @@
 {
-	"parent": "community:community_cooperator",
+	"parent": "shroomhearth:harmony/find_harmony_cap",
 	"display": {
 		"icon": {
 			"id": "minecraft:potion",

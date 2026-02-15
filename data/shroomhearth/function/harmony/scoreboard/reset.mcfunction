@@ -1,2 +1,2 @@
-function shroomhearth:harmony/objectives/remove
-function shroomhearth:harmony/objectives/add
+function shroomhearth:harmony/scoreboard/remove
+function shroomhearth:harmony/scoreboard/add
