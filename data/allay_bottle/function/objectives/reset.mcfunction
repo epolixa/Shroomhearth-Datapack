@@ -1,2 +1,0 @@
-function allay_bottle:objectives/remove
-function allay_bottle:objectives/add

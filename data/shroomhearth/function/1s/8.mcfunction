@@ -5,7 +5,7 @@
 execute as @e[type=wandering_trader,tag=!announced] at @s run function shroomhearth:wandering_trader/announce
 
 # Assign Allays to special team for no collision
-execute as @e[type=minecraft:allay,tag=!no_collide] run function allay_bottle:1s
+execute as @e[type=minecraft:allay,tag=!no_collide] run function shroomhearth:allay_bottle/1s
 
 # Re-schedule
 schedule function shroomhearth:1s/8 1s

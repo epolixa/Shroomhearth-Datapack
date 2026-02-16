@@ -1,6 +1,6 @@
 function shroomhearth:scoreboard/remove
 
-function allay_bottle:objectives/remove
+function shroomhearth:allay_bottle/objectives/remove
 function arena:objectives/remove
 function community:objectives/remove
 function shroomhearth:harmony/objectives/remove

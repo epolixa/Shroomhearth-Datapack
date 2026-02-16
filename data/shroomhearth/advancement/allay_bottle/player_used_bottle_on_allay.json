@@ -13,6 +13,6 @@
         }
     },
     "rewards": {
-        "function": "allay_bottle:player_used_bottle_on_allay"
+        "function": "shroomhearth:allay_bottle/advancement_reward/player_used_bottle_on_allay"
     }
 }

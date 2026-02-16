@@ -31,6 +31,6 @@
         }
     },
     "rewards": {
-        "function": "allay_bottle:allay_bottle_used_on_block"
+        "function": "shroomhearth:allay_bottle/advancement_reward/allay_bottle_used_on_block"
     }
 }

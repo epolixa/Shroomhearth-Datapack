@@ -1,6 +1,6 @@
 function shroomhearth:scoreboard/reset
 
-function allay_bottle:scoreboard/reset
+function shroomhearth:allay_bottle/scoreboard/reset
 function arena:scoreboard/reset
 function community:scoreboard/reset
 function shroomhearth:harmony/scoreboard/reset
