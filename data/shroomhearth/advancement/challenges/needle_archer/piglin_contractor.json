@@ -9,9 +9,9 @@
 				}
 			}
 		},
-		"title": "Needle_Archer",
+		"title": "Piglin Contractor",
 		"description": [
-			{"text": "Place 25,000 blocks in The Nether"},
+			{"text": "Place 52,778 blocks in The Nether"},
 			{"text": "\n\n"},
 			{"text": "Created by Needle_Archer", "color": "gray"}
 		],
@@ -23,7 +23,7 @@
 		]
 	},
 	"criteria": {
-		"placed_blocks": {
+		"piglin_contractor": {
 			"trigger": "minecraft:impossible"
 		}
 	}

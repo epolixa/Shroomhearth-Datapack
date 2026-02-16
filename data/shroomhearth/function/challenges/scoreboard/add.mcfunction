@@ -20,7 +20,7 @@ scoreboard objectives add five_hundred_liters_of_frogs dummy
 scoreboard objectives add nearby_skeleton_horses dummy
 
 # Track placed blocks in The Nether for Needle_Archer's challenge
-scoreboard objectives add placed_block_in_nether dummy
+scoreboard objectives add placed_block_in_the_nether dummy
 
 # Track placed rails for Omega825's challenge
 scoreboard objectives add placed_rails dummy
@@ -52,3 +52,6 @@ scoreboard objectives add placed_skit_stone dummy
 
 # Track cured villagers for Aerialz's challenge
 scoreboard objectives add cured_zombie_villager dummy
+
+# Track used armor stands for vegworm's challenge
+scoreboard objectives add used_armor_stand minecraft.used:minecraft.armor_stand

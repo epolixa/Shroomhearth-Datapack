@@ -20,7 +20,7 @@ scoreboard objectives remove five_hundred_liters_of_frogs
 scoreboard objectives remove nearby_skeleton_horses
 
 # Track placed blocks in The Nether for Needle_Archer's challenge
-scoreboard objectives remove placed_block_in_nether
+scoreboard objectives remove placed_block_in_the_nether
 
 # Track placed rails for Omega825's challenge
 scoreboard objectives remove placed_rails
@@ -52,3 +52,6 @@ scoreboard objectives remove placed_skit_stone
 
 # Track cured villagers for Aerialz's challenge
 scoreboard objectives remove cured_zombie_villager
+
+# Track used armor stands for vegworm's challenge
+scoreboard objectives remove used_armor_stand

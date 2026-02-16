@@ -1,6 +1,6 @@
 {
 	"criteria": {
-		"place_block_in_nether": {
+		"placed_block_in_the_nether": {
 			"trigger": "minecraft:placed_block",
 			"conditions": {
 				"location": [
@@ -29,6 +29,6 @@
 		}
 	},
 	"rewards": {
-		"function": "challenges:needle_archer"
+		"function": "shroomhearth:challenges/advancement_reward/needle_archer/placed_block_in_the_nether"
 	} 
 }
