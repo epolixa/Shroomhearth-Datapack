@@ -1,5 +1,5 @@
 {
-	"parent": "sleeping:slumber_party",
+	"parent": "shroomhearth:cooperative_sleep/slumber_party",
 	"display": {
 		"icon": {
 			"id": "minecraft:goat_horn",

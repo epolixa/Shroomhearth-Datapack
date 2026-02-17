@@ -13,6 +13,6 @@ function challenges:objectives/add
 function shroomhearth:porcelain/objectives/add
 function recall:objectives/add
 function relics:objectives/add
-function sleeping:objectives/add
+function shroomhearth:cooperative_sleep/objectives/add
 function stat_display:objectives/add
 function wither:objectives/add

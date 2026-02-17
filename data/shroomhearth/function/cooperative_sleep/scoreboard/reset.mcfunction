@@ -1,0 +1,2 @@
+function shroomhearth:cooperative_sleep/scoreboard/remove
+function shroomhearth:cooperative_sleep/scoreboard/add

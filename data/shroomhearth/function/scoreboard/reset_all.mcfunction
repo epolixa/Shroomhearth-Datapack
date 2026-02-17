@@ -13,7 +13,7 @@ function challenges:scoreboard/reset
 function shroomhearth:porcelain/scoreboard/reset
 function shroomhearth:world_border/scoreboard/reset
 function recall:scoreboard/reset
-function sleeping:scoreboard/reset
+function shroomhearth:cooperative_sleep/scoreboard/reset
 function stat_display:scoreboard/reset
 function wither:scoreboard/reset
 function relics:scoreboard/reset

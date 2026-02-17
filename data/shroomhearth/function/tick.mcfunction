@@ -14,7 +14,7 @@ execute as @a[scores={used_goat_horn=1..}] at @s run function shroomhearth:used_
 execute if entity @p run function shroomhearth:porcelain/tick
 
 # Cooperative sleep - only run when more than one player is online
-execute if score player_count shroomhearth matches 2.. as @a[tag=sleeping] run function sleeping:tick
+execute if score player_count shroomhearth matches 2.. as @a[tag=sleeping] run function shroomhearth:cooperative_sleep/tick
 
 # Spawn Eggs from Spawners - execute if a Spawner item entity exists
 execute as @e[type=minecraft:item,nbt={Item:{id:"minecraft:spawner"}}] at @s run function shroomhearth:replace_spawner_item_with_spawn_egg

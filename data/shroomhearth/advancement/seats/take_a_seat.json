@@ -1,5 +1,5 @@
 {
-	"parent": "sleeping:express_myself",
+	"parent": "shroomhearth:cooperative_sleep/express_myself",
 	"display": {
 		"icon": {
 			"id": "minecraft:pig_spawn_egg",

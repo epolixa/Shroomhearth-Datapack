@@ -5,6 +5,6 @@
 		}
 	},
 	"rewards": {
-		"function": "sleeping:slept_in_bed"
+		"function": "shroomhearth:cooperative_sleep/advancement_reward/slept_in_bed"
 	} 
 }

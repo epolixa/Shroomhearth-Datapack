@@ -12,7 +12,7 @@ function pillager_raid:objectives/remove
 function challenges:objectives/remove
 function shroomhearth:porcelain/objectives/remove
 function recall:objectives/remove
-function sleeping:objectives/remove
+function shroomhearth:cooperative_sleep/objectives/remove
 function stat_display:objectives/remove
 function wither:objectives/remove
 function relics:objectives/remove
