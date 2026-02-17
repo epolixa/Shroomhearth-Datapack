@@ -20,7 +20,7 @@ execute as @s[team=!black] at @s if block ~ ~ ~ minecraft:black_bed run function
 execute at @s run playsound minecraft:block.wool.step player @a ~ ~ ~ 1 0.5
 
 # Announce that the player started sleeping if there are other players in the same dimension
-execute if entity @p[distance=1..] tellraw @a [{"selector":"@s"},{"text":" fell asleep","color":"white"}]
+execute if entity @p[distance=1..] run tellraw @a [{"selector":"@s"},{"text":" fell asleep","color":"white"}]
 
 # give slept_in_bed tag
 tag @s add sleeping

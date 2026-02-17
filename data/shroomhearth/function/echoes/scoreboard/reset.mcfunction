@@ -1,0 +1,2 @@
+function shroomhearth:echoes/scoreboard/remove
+function shroomhearth:echoes/scoreboard/add

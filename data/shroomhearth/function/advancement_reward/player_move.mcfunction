@@ -19,10 +19,10 @@ scoreboard players reset @s strider_one_cm
 scoreboard players reset @s swim_one_cm
 scoreboard players reset @s walk_one_cm
 scoreboard players reset @s walk_on_water_one_cm
-scoreboard players reset @s walk_under_water_one_cm 
+scoreboard players reset @s walk_under_water_one_cm
 
-# Tag the player as moved so that their echo tracker can update position data on next pulse.
-tag @s[gamemode=!spectator] add moved
+# Update the player's positional data in the echoes storage
+function shroomhearth:echoes/m_update_player_storage with entity @s
 
 # Revoke advancement
 advancement revoke @s only shroomhearth:player_move

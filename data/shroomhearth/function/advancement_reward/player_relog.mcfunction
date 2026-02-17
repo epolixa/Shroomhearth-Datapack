@@ -14,6 +14,9 @@ function shroomhearth:store_target_uuid
 # Inform player about any active events
 function shroomhearth:harmony/inform_spores
 
+# Trigger all Echoes to check for their tracked Players
+execute as @e[tag=echoes_interaction] at @s run function shroomhearth:echoes/m_find_echoes_player with entity @s data.player
+
 # Reset leave_game
 scoreboard players reset @s leave_game
 

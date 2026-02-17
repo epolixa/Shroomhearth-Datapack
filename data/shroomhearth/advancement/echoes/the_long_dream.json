@@ -1,5 +1,5 @@
 {
-    "parent": "community:community_cooperator",
+    "parent": "shroomhearth:shroomhearth_guide",
     "display": {
         "icon": {
             "id": "minecraft:soul_campfire"

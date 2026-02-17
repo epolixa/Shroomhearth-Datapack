@@ -11,6 +11,6 @@
         }
     },
     "rewards": {
-        "function": "echoes:player_interacted_with_echoes"
+        "function": "shroomhearth:echoes/advancement_reward/player_interacted_with_echoes"
     }
 }

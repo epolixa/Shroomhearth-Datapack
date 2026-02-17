@@ -2,7 +2,7 @@
 
 
 # Process echoes entities and track players
-function echoes:pulse
+function shroomhearth:echoes/pulse
 
 # Re-schedule
 schedule function shroomhearth:1s/1 1s

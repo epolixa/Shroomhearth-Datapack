@@ -1,8 +1,9 @@
-# Executor: A player who is being tracked
-# Position: The player
-# Data: The player's data
+# Executor: A Player who recently moved and should be updated in storage
+# Position: The Player
+# Data: The Player's entity data
 
-$tellraw @a[tag=debug_echoes] "[echoes.m_update_player_storage] updating Player $(UUID) in storage players list..."
+$tellraw @a[tag=debug_echoes] "[shroomhearth:echoes/m_update_player_storage] updating Player $(UUID) in storage players list"
+
 
 # Check if the player has been added yet
 $execute unless data storage shroomhearth:echoes players[{uuid:$(UUID)}] run tag @s add echoes_untracked

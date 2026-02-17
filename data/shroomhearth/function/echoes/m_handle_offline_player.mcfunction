@@ -2,7 +2,8 @@
 # Position: Spawn
 # Data: Target player data, determined as offline
 
-tellraw @a[tag=debug_echoes] "[echoes.m_handle_offline_player] $(name) is offline."
+tellraw @a[tag=debug_echoes] "[shroomhearth:echoes/m_handle_offline_player] $(name) is offline"
+
 
 # Summon a new echoes interaction entity
 $execute in $(dimension) \
@@ -21,3 +22,6 @@ tag @n[tag=echoes_new] remove echoes_new
 
 # Mark the player to be removed in the storage list
 $data modify storage shroomhearth:echoes players[{uuid:$(uuid)}].remove set value true
+
+# Audit player storage on next tick
+schedule function shroomhearth:echoes/audit_storage 1t
