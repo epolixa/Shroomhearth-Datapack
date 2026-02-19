@@ -1,5 +1,5 @@
 {
-	"parent": "sleeping:slumber_party",
+	"parent": "shroomhearth:echo_horn/homebound",
 	"display": {
 		"icon": {
 			"id": "minecraft:goat_horn",
@@ -9,10 +9,7 @@
 		},
 		"title": "Soulbound",
 		"description": "Use another player's Echo Horn to teleport to them",
-		"frame": "task",
-		"show_toast": true,
-		"announce_to_chat": true,
-		"hidden": false
+		"frame": "task"
 	},
 	"criteria": {
 		"soulbound": {

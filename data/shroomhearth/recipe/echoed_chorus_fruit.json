@@ -9,17 +9,19 @@
         "count": 1,
         "id": "minecraft:chorus_fruit",
         "components": {
+            "!minecraft:use_cooldown": {},
             "minecraft:item_name": {
                 "translate": "echo_kernel.echoed_chorus_fruit",
                 "fallback": "Echoed Chorus Fruit"
             },
             "minecraft:item_model": "shroomhearth:echoed_chorus_fruit",
             "minecraft:rarity": "uncommon",
-            "!minecraft:use_cooldown": {},
             "minecraft:consumable": {
                 "animation": "none",
                 "consume_seconds": 0,
-                "sound": "minecraft:block.sculk_sensor.break"
+                "sound": {
+                    "sound_id": "minecraft:block.sculk.spread"
+                }
             },
             "minecraft:food": {
                 "nutrition": 0,

@@ -6,29 +6,22 @@
                 {
                     "type": "item",
                     "name": "minecraft:chorus_fruit",
+                    "weight": 1,
                     "functions": [
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": {
-                                    "translate": "echo_kernel.echoed_chorus_fruit",
-                                    "fallback": "Echoed Chorus Fruit"
-                                },
-                                "minecraft:item_model": "shroomhearth:echoed_chorus_fruit",
+                                "minecraft:item_name": "Echo Kernel",
+                                "minecraft:item_model": "shroomhearth:echo_kernel",
                                 "minecraft:rarity": "uncommon",
-                                "!minecraft:use_cooldown": {},
-                                "minecraft:consumable": {
-                                    "animation": "none",
-                                    "consume_seconds": 0,
-                                    "sound": "minecraft:block.sculk_sensor.break"
-                                },
+                                "minecraft:consumable": {},
                                 "minecraft:food": {
                                     "nutrition": 0,
                                     "saturation": 0,
                                     "can_always_eat": true
                                 },
                                 "minecraft:custom_data": {
-                                    "shroomhearth_id": "echoed_chorus_fruit"
+                                    "shroomhearth_id": "uncalibrated_echo_kernel"
                                 }
                             }
                         }

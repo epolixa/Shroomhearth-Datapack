@@ -21,25 +21,10 @@
                 ]
             }
         },
-        "has_echoed_chorus_fruit": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:warped_fungus_on_a_stick",
-                        "components": {
-                            "minecraft:custom_data": {
-                                "shroomhearth_id": "echoed_chorus_fruit"
-                            }
-                        }
-                    }
-                ]
-            }
-        },
         "has_recipe": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "echo_kernel:echoed_chorus_fruit"
+                "recipe": "shroomhearth:echoed_chorus_fruit"
             }
         }
     },
@@ -47,13 +32,12 @@
         [
             "has_echo_shard",
             "has_chorus_fruit",
-            "has_echoed_chorus_fruit",
             "has_recipe"
         ]
     ],
     "rewards": {
         "recipes": [
-            "echo_kernel:echoed_chorus_fruit"
+            "shroomhearth:echoed_chorus_fruit"
         ]
     }
 }

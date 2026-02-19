@@ -1,5 +1,5 @@
 {
-	"parent": "shroomhearth:cooperative_sleep/slumber_party",
+	"parent": "shroomhearth:shroomhearth_guide",
 	"display": {
 		"icon": {
 			"id": "minecraft:goat_horn",
@@ -9,10 +9,7 @@
 		},
 		"title": "Homebound",
 		"description": "Use your Echo Horn to teleport to your respawn point",
-		"frame": "task",
-		"show_toast": true,
-		"announce_to_chat": true,
-		"hidden": false
+		"frame": "task"
 	},
 	"criteria": {
 		"homebound": {

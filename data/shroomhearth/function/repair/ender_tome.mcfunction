@@ -3,7 +3,7 @@ execute store result score @s repairable run clear @s minecraft:knowledge_book[c
 
 # replace with new item
 clear @s[scores={repairable=1..}] minecraft:knowledge_book[custom_data={"shroomhearth_id":"ender_tome"}] 1
-loot give @s[scores={repairable=1..}] loot shroomhearth:ender_tome/ender_tome
+loot give @s[scores={repairable=1..}] loot shroomhearth:ender_tome
 
 # tag player
 tag @s[scores={repairable=1..}] add repaired

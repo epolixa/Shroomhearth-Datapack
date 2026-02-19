@@ -3,6 +3,8 @@
 
 tellraw @a[tag=debug_shroomhearth] [{"text":"[shroomhearth:score_uuid] Scoring UUID for "},{"selector":"@s"}]
 
+# Often used in conjunction with shroomhearth:store_target_uuid
+
 
 # Capture entity UUID components to scores
 # Useful for matching entities to other linked entities, like a player and their echo horn

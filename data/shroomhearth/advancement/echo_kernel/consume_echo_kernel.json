@@ -1,7 +1,7 @@
 {
     "criteria": {
-        "using_echo_kernel": {
-            "trigger": "minecraft:using_item",
+        "consume_echo_kernel": {
+            "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
                     "predicates": {
@@ -14,6 +14,6 @@
         }
     },
     "rewards": {
-        "function": "echo_kernel:using_echo_kernel"
+        "function": "shroomhearth:echo_kernel/advancement_reward/consume_echo_kernel"
     }
 }

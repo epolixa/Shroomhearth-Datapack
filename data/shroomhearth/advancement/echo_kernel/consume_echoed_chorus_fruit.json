@@ -14,6 +14,6 @@
         }
     },
     "rewards": {
-        "function": "echo_kernel:consume_echoed_chorus_fruit"
+        "function": "shroomhearth:echo_kernel/advancement_reward/consume_echoed_chorus_fruit"
     }
 }
