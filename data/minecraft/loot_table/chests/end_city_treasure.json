@@ -424,7 +424,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "ender_tome:ender_tome",
+          "value": "shroomhearth:ender_tome/ender_tome",
           "weight": 2
         }
       ],

@@ -3,11 +3,11 @@
         "has_recipe": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "ender_tome:ender_tome"
+                "recipe": "shroomhearth:ender_tome"
             }
         }
     },
     "rewards": {
-        "function": "ender_tome:activate_ender_tome"
+        "function": "shroomhearth:ender_tome/advancement_reward/activate_ender_tome"
     }
 }

@@ -1,5 +1,5 @@
 {
-	"parent": "golden_chorus_fruit:spontaneous_adventure",
+	"parent": "shroomhearth:shroomhearth_guide",
 	"display": {
 		"icon": {
 			"id": "minecraft:knowledge_book",
@@ -10,13 +10,10 @@
 		},
 		"title": "Forbidden Knowledge",
 		"description": "Enhance a max-level enchantment by reading an Ender Tome",
-		"frame": "task",
-		"show_toast": true,
-		"announce_to_chat": true,
-		"hidden": false
+		"frame": "task"
 	},
 	"criteria": {
-		"enchance_enchantment": {
+		"forbidden_knowledge": {
 			"trigger": "minecraft:impossible"
 		}
 	}

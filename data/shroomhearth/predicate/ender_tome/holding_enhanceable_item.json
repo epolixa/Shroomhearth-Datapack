@@ -12,7 +12,7 @@
                             "predicates": {
                                 "minecraft:enchantments": [
                                     {
-                                        "enchantments": "#ender_tome:max_level_2",
+                                        "enchantments": "#shroomhearth:ender_tome/max_level_2",
                                         "levels": {
                                             "min": 2,
                                             "max": 2
@@ -34,7 +34,7 @@
                             "predicates": {
                                 "minecraft:enchantments": [
                                     {
-                                        "enchantments": "#ender_tome:max_level_3",
+                                        "enchantments": "#shroomhearth:ender_tome/max_level_3",
                                         "levels": {
                                             "min": 3,
                                             "max": 3
@@ -56,7 +56,7 @@
                             "predicates": {
                                 "minecraft:enchantments": [
                                     {
-                                        "enchantments": "#ender_tome:max_level_4",
+                                        "enchantments": "#shroomhearth:ender_tome/max_level_4",
                                         "levels": {
                                             "min": 4,
                                             "max": 4
@@ -78,7 +78,7 @@
                             "predicates": {
                                 "minecraft:enchantments": [
                                     {
-                                        "enchantments": "#ender_tome:max_level_5",
+                                        "enchantments": "#shroomhearth:ender_tome/max_level_5",
                                         "levels": {
                                             "min": 5,
                                             "max": 5
@@ -107,7 +107,7 @@
                                 "predicates": {
                                     "minecraft:enchantments": [
                                         {
-                                            "enchantments": "#ender_tome:max_level_2",
+                                            "enchantments": "#shroomhearth:ender_tome/max_level_2",
                                             "levels": {
                                                 "min": 3
                                             }
@@ -128,7 +128,7 @@
                                 "predicates": {
                                     "minecraft:enchantments": [
                                         {
-                                            "enchantments": "#ender_tome:max_level_3",
+                                            "enchantments": "#shroomhearth:ender_tome/max_level_3",
                                             "levels": {
                                                 "min": 4
                                             }
@@ -149,7 +149,7 @@
                                 "predicates": {
                                     "minecraft:enchantments": [
                                         {
-                                            "enchantments": "#ender_tome:max_level_4",
+                                            "enchantments": "#shroomhearth:ender_tome/max_level_4",
                                             "levels": {
                                                 "min": 5
                                             }
@@ -170,7 +170,7 @@
                                 "predicates": {
                                     "minecraft:enchantments": [
                                         {
-                                            "enchantments": "#ender_tome:max_level_5",
+                                            "enchantments": "#shroomhearth:ender_tome/max_level_5",
                                             "levels": {
                                                 "min": 6
                                             }
