@@ -22,11 +22,13 @@ scoreboard players reset active_spores shroomhearth.harmony
 
 # Global timers for spores
 scoreboard players reset spores_of_armor shroomhearth.harmony
+scoreboard players reset spores_of_ease shroomhearth.harmony
+scoreboard players reset spores_of_egg_hunt shroomhearth.harmony
 scoreboard players reset spores_of_experience shroomhearth.harmony
 scoreboard players reset spores_of_haste shroomhearth.harmony
 scoreboard players reset spores_of_health shroomhearth.harmony
+scoreboard players reset spores_of_insomnia shroomhearth.harmony
 scoreboard players reset spores_of_keeping shroomhearth.harmony
 scoreboard players reset spores_of_leaping shroomhearth.harmony
 scoreboard players reset spores_of_swiftness shroomhearth.harmony
 scoreboard players reset spores_of_strength shroomhearth.harmony
-scoreboard players reset spores_of_insomnia shroomhearth.harmony

@@ -16,6 +16,9 @@ execute if score spores_of_armor shroomhearth.harmony matches 1.. run function s
 # Ease
 execute if score spores_of_ease shroomhearth.harmony matches 1.. run function shroomhearth:harmony/spores/ease/1s
 
+# Egg Hunt
+execute if score spores_of_egg_hunt shroomhearth.harmony matches 1.. run function shroomhearth:harmony/spores/egg_hunt/1s
+
 # Experience
 execute if score spores_of_experience shroomhearth.harmony matches 1.. run function shroomhearth:harmony/spores/experience/1s
 

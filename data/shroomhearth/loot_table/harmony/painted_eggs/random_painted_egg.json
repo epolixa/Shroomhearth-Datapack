@@ -5,347 +5,347 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:allay_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/allay_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:armadillo_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/armadillo_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:axolotl_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/axolotl_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:bat_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/bat_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:bee_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/bee_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:blaze_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/blaze_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:bogged_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/bogged_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:breeze_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/breeze_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:camel_husk_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/camel_husk_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:camel_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/camel_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:cat_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/cat_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:cave_spider_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/cave_spider_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:chicken_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/chicken_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:cod_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/cod_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:copper_golem_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/copper_golem_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:cow_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/cow_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:creaking_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/creaking_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:creeper_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/creeper_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:dolphin_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/dolphin_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:donkey_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/donkey_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:drowned_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/drowned_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:elder_guardian_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/elder_guardian_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:ender_dragon_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/ender_dragon_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:enderman_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/enderman_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:endermite_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/endermite_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:evoker_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/evoker_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:fox_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/fox_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:frog_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/frog_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:ghast_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/ghast_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:glow_squid_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/glow_squid_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:goat_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/goat_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:guardian_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/guardian_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:hoglin_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/hoglin_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:horse_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/horse_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:husk_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/husk_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:iron_golem_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/iron_golem_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:llama_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/llama_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:magma_cube_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/magma_cube_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:mooshroom_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/mooshroom_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:mule_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/mule_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:nautilus_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/nautilus_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:ocelot_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/ocelot_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:panda_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/panda_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:parched_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/parched_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:parrot_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/parrot_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:phantom_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/phantom_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:pig_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/pig_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:piglin_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/piglin_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:piglin_brute_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/piglin_brute_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:pillager_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/pillager_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:polar_bear_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/polar_bear_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:pufferfish_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/pufferfish_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:rabbit_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/rabbit_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:ravager_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/ravager_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:salmon_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/salmon_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:sheep_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/sheep_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:shulker_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/shulker_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:silverfish_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/silverfish_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:skeleton_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/skeleton_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:skeleton_horse_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/skeleton_horse_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:slime_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/slime_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:sniffer_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/sniffer_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:snow_golem_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/snow_golem_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:spider_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/spider_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:squid_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/squid_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:stray_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/stray_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:strider_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/strider_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:tadpole_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/tadpole_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:trader_llama_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/trader_llama_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:tropical_fish_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/tropical_fish_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:turtle_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/turtle_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:vex_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/vex_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:villager_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/villager_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:vindicator_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/vindicator_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:wandering_trader_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/wandering_trader_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:warden_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/warden_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:witch_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/witch_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:wither_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/wither_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:wither_skeleton_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/wither_skeleton_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:wolf_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/wolf_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:zoglin_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/zoglin_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:zombie_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/zombie_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:zombie_horse_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/zombie_horse_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:zombie_nautilus_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/zombie_nautilus_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:zombie_villager_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/zombie_villager_painted_egg"
                 },
                 {
                     "type": "minecraft:loot_table",
-                    "value": "easter:zombified_piglin_painted_egg"
+                    "value": "shroomhearth:harmony/painted_eggs/zombified_piglin_painted_egg"
                 }
             ]
         }
