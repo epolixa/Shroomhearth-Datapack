@@ -1,0 +1,16 @@
+{
+	"parent": "shroomhearth:shroomhearth_guide",
+	"display": {
+		"icon": {
+			"id": "minecraft:ominous_bottle"
+		},
+		"title": "Ominous Power",
+		"description": "Defeat an Omen Ender Dragon",
+		"frame": "goal"
+	},
+	"criteria": {
+		"defeat_dragon": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

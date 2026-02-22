@@ -20,7 +20,7 @@ execute if score player_count shroomhearth matches 2.. as @a[tag=sleeping] run f
 execute as @e[type=minecraft:item,nbt={Item:{id:"minecraft:spawner"}}] at @s run function shroomhearth:replace_spawner_item_with_spawn_egg
 
 # Clone random experience orb - execute if Spores of Experience is active
-execute if score spores_of_experience shroomhearth matches 1.. as @e[type=minecraft:experience_orb,tag=!double_xp,limit=1,sort=random] at @s run function shroomhearth:harmony/spores/experience/double_experience_orb
+execute if score spores_of_experience shroomhearth.harmony matches 1.. as @e[type=minecraft:experience_orb,tag=!double_xp,limit=1,sort=random] at @s run function shroomhearth:harmony/spores/experience/double_experience_orb
 
 # Some relic enchantments require execution every tick
 function shroomhearth:stories/relics/tick

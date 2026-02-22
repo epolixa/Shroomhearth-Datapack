@@ -2,7 +2,7 @@
 
 
 # Process Ender Dragon functions in the end if not currently slain
-execute if score dragonSlain shroomhearth matches 0 in minecraft:the_end positioned 0 64 0 run function ender_dragon:1s
+execute if score ender_dragon_slain shroomhearth.ender_dragon matches 0 in minecraft:the_end positioned 0 64 0 run function shroomhearth:ender_dragon/1s
 
 # Re-schedule
 schedule function shroomhearth:1s/2 1s

@@ -1,2 +1,0 @@
-function ender_dragon:objectives/remove
-function ender_dragon:objectives/add

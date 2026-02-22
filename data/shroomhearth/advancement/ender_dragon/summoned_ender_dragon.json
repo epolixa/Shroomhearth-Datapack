@@ -1,0 +1,15 @@
+{
+	"criteria": {
+		"summoned_dragon": {
+			"trigger": "minecraft:summoned_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:ender_dragon"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "shroomhearth:ender_dragon/advancement_reward/summoned_ender_dragon"
+	} 
+}

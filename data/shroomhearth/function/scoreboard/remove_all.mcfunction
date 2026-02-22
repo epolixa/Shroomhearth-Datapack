@@ -4,7 +4,7 @@ function shroomhearth:allay_bottle/objectives/remove
 function arena:objectives/remove
 function community:objectives/remove
 function shroomhearth:harmony/objectives/remove
-function ender_dragon:objectives/remove
+function shroomhearth:ender_dragon/objectives/remove
 function haberdasher:objectives/remove
 function hollow_vale:objectives/remove
 function item_interactions:objectives/remove

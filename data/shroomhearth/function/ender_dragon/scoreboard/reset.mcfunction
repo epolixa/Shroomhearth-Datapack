@@ -1,0 +1,2 @@
+function shroomhearth:ender_dragon/scoreboard/remove
+function shroomhearth:ender_dragon/scoreboard/add

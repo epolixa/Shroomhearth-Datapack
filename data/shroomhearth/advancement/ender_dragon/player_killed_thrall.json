@@ -1,0 +1,29 @@
+{
+    "criteria": {
+        "player_killed_thrall": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "team": "ender_dragon",
+                    "type": "#shroomhearth:ender_dragon/dragon_thralls",
+                    "location": {
+                        "dimension": "minecraft:the_end",
+                        "position": {
+                            "x": {
+                                "min": -200,
+                                "max": 200
+                            },
+                            "z": {
+                                "min": -200,
+                                "max": 200
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "shroomhearth:ender_dragon/advancement_reward/player_killed_thrall"
+    }
+}

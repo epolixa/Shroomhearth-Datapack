@@ -1,0 +1,215 @@
+{
+    "condition": "minecraft:any_of",
+    "terms": [
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "slots": {
+                    "contents": {
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "shroomhearth_id": "rune_of_armor"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "slots": {
+                    "contents": {
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "shroomhearth_id": "rune_of_gravity"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "slots": {
+                    "contents": {
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "shroomhearth_id": "rune_of_haste"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "slots": {
+                    "contents": {
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "shroomhearth_id": "rune_of_health"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "slots": {
+                    "contents": {
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "shroomhearth_id": "rune_of_knockback"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "slots": {
+                    "contents": {
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "shroomhearth_id": "rune_of_largeness"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "slots": {
+                    "contents": {
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "shroomhearth_id": "rune_of_leaping"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "slots": {
+                    "contents": {
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "shroomhearth_id": "rune_of_reach"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "slots": {
+                    "contents": {
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "shroomhearth_id": "rune_of_respiration"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "slots": {
+                    "contents": {
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "shroomhearth_id": "rune_of_smallness"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "slots": {
+                    "contents": {
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "shroomhearth_id": "rune_of_stability"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "slots": {
+                    "contents": {
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "shroomhearth_id": "rune_of_stepping"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "slots": {
+                    "contents": {
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "shroomhearth_id": "rune_of_strength"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "slots": {
+                    "contents": {
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "shroomhearth_id": "rune_of_swiftness"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
