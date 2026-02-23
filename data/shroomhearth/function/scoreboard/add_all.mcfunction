@@ -1,7 +1,7 @@
 function shroomhearth:scoreboard/add
 
 function shroomhearth:allay_bottle/objectives/add
-function arena:objectives/add
+function shroomhearth:arena/objectives/add
 function community:objectives/add
 function shroomhearth:harmony/objectives/add
 function shroomhearth:ender_dragon/objectives/add

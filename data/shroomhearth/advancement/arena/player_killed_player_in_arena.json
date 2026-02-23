@@ -1,7 +1,7 @@
 {
 	"criteria": {
-		"player_hurt_player_in_arena": {
-			"trigger": "minecraft:player_hurt_entity",
+		"player_killed_player_in_arena": {
+			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": [
 					{
@@ -11,20 +11,20 @@
 							"type": "minecraft:player",
 							"distance": {
 								"absolute": {
-									"min": 0.1
+									"min": 0.0625
 								}
 							}
 						}
 					},
 					{
 						"condition": "minecraft:reference",
-						"name": "arena:player_in_arena"
+						"name": "shroomhearth:arena/player_in_arena"
 					}
 				]
 			}
 		}
 	},
 	"rewards": {
-		"function": "arena:player_hurt_player_in_arena"
+		"function": "shroomhearth:arena/advancement_reward/player_killed_player_in_arena"
 	}
 }

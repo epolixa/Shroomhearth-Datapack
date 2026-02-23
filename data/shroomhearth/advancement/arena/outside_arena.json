@@ -8,7 +8,7 @@
                         "condition": "minecraft:inverted",
                         "term": {
                             "condition": "minecraft:reference",
-                            "name": "arena:in_arena"
+                            "name": "shroomhearth:arena/in_arena"
                         }
                     }
                 ]
@@ -16,6 +16,6 @@
 		}
 	},
     "rewards": {
-        "function": "arena:leave_arena"
+        "function": "shroomhearth:arena/advancement_reward/leave_arena"
     }
 }

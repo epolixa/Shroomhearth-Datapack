@@ -1,7 +1,7 @@
 function shroomhearth:scoreboard/remove
 
 function shroomhearth:allay_bottle/objectives/remove
-function arena:objectives/remove
+function shroomhearth:arena/objectives/remove
 function community:objectives/remove
 function shroomhearth:harmony/objectives/remove
 function shroomhearth:ender_dragon/objectives/remove

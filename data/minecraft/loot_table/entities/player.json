@@ -8,7 +8,7 @@
           "conditions": [
             {
               "condition": "minecraft:reference",
-              "name": "arena:in_arena"
+              "name": "shroomhearth:arena/in_arena"
             },
             {
               "condition": "minecraft:damage_source_properties",

@@ -6,7 +6,7 @@
 				"entity": [
 					{
 						"condition": "minecraft:reference",
-						"name": "arena:player_in_arena"
+						"name": "shroomhearth:arena/player_in_arena"
 					}
 				],
 				"killing_blow": {
@@ -14,7 +14,7 @@
 						"type": "minecraft:player",
 						"distance": {
 							"absolute": {
-								"min": 0.1
+								"min": 0.0625
 							}
 						}
 					}
@@ -23,6 +23,6 @@
 		}
 	},
 	"rewards": {
-		"function": "arena:player_killed_by_player_in_arena"
+		"function": "shroomhearth:arena/advancement_reward/player_killed_by_player_in_arena"
 	}
 }

@@ -6,13 +6,13 @@
 				"player": [
                     {
                         "condition": "minecraft:reference",
-                        "name": "arena:in_arena"
+                        "name": "shroomhearth:arena/in_arena"
                     }
                 ]
 			}
 		}
 	},
     "rewards": {
-        "function": "arena:enter_arena"
+        "function": "shroomhearth:arena/advancement_reward/enter_arena"
     }
 }

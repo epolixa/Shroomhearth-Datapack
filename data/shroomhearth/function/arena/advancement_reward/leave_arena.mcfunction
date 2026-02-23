@@ -1,0 +1,5 @@
+# send message
+tellraw @s[advancements={shroomhearth:arena/inside_arena=true}] {"translate":"arena.leaving","hover_event":{"action":"show_text","value":{"translate":"arena.tooltip"}}}
+
+# revoke opposing trigger
+advancement revoke @s[advancements={shroomhearth:arena/inside_arena=true}] only shroomhearth:arena/inside_arena

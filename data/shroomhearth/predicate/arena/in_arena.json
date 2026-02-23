@@ -3,27 +3,27 @@
     "terms": [
         {
             "condition": "minecraft:reference",
-            "name": "arena:on_hollow_vale_slab"
+            "name": "shroomhearth:arena/on_hollow_vale_slab"
         },
         {
             "condition": "minecraft:reference",
-            "name": "arena:in_wondermere_arena"
+            "name": "shroomhearth:arena/in_wondermere_arena"
         },
         {
             "condition": "minecraft:reference",
-            "name": "arena:in_moss_cathedral_shrine"
+            "name": "shroomhearth:arena/in_moss_cathedral_shrine"
         },
         {
             "condition": "minecraft:reference",
-            "name": "arena:in_upper_tramway_colosseum"
+            "name": "shroomhearth:arena/in_upper_tramway_colosseum"
         },
         {
             "condition": "minecraft:reference",
-            "name": "arena:in_goblin_arena"
+            "name": "shroomhearth:arena/in_goblin_arena"
         },
         {
             "condition": "minecraft:reference",
-            "name": "arena:in_venshari_arena"
+            "name": "shroomhearth:arena/in_venshari_arena"
         }
     ]
 }

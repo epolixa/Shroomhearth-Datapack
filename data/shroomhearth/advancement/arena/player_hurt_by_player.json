@@ -17,6 +17,6 @@
         }
     },
     "rewards": {
-        "function": "arena:player_hurt_by_player"
+        "function": "shroomhearth:arena/advancement_reward/player_hurt_by_player"
     }
 }
