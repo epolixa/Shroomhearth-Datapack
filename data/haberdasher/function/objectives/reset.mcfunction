@@ -1,2 +1,0 @@
-function haberdasher:objectives/remove
-function haberdasher:objectives/add

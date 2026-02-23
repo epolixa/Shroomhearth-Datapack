@@ -5,7 +5,7 @@ function shroomhearth:arena/objectives/remove
 function community:objectives/remove
 function shroomhearth:harmony/objectives/remove
 function shroomhearth:ender_dragon/objectives/remove
-function haberdasher:objectives/remove
+function shroomhearth:haberdasher/objectives/remove
 function hollow_vale:objectives/remove
 function item_interactions:objectives/remove
 function pillager_raid:objectives/remove

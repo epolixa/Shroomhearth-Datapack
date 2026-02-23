@@ -5,7 +5,7 @@ function shroomhearth:arena/objectives/add
 function community:objectives/add
 function shroomhearth:harmony/objectives/add
 function shroomhearth:ender_dragon/objectives/add
-function haberdasher:objectives/add
+function shroomhearth:haberdasher/objectives/add
 function hollow_vale:objectives/add
 function item_interactions:objectives/add
 function pillager_raid:objectives/add
