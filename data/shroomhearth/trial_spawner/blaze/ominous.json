@@ -1,0 +1,26 @@
+{
+  "loot_tables_to_eject": [
+    {
+      "data": "shroomhearth:dungeons/ominous_hallow_vale_trial_key",
+      "weight": 3
+    },
+    {
+      "data": "shroomhearth:dungeons/ominous_trial_spawner/treats",
+      "weight": 7
+    }
+  ],
+  "simultaneous_mobs_added_per_player": 0.5,
+  "spawn_potentials": [
+    {
+      "data": {
+        "entity": {
+          "id": "minecraft:blaze"
+        }
+      },
+      "weight": 1
+    }
+  ],
+  "ticks_between_spawn": 20,
+  "total_mobs": 4.0,
+  "total_mobs_added_per_player": 1.0
+}

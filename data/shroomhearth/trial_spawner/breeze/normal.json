@@ -1,0 +1,27 @@
+{
+    "loot_tables_to_eject": [
+        {
+            "data": "shroomhearth:dungeons/hallow_vale_trial_key",
+            "weight": 1
+        },
+        {
+            "data": "shroomhearth:dungeons/trial_spawner/treats",
+            "weight": 1
+        }
+    ],
+    "simultaneous_mobs": 1.0,
+    "simultaneous_mobs_added_per_player": 0.5,
+    "spawn_potentials": [
+        {
+            "data": {
+                "entity": {
+                    "id": "minecraft:breeze"
+                }
+            },
+            "weight": 1
+        }
+    ],
+    "ticks_between_spawn": 20,
+    "total_mobs": 2.0,
+    "total_mobs_added_per_player": 1.0
+}
