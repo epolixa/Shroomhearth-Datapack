@@ -1,0 +1,41 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_spear",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": {
+                                    "translate": "quests.jerry_rig",
+                                    "fallback": "Jerry Rig"
+                                },
+                                "minecraft:item_model": "shroomhearth:jerry_rig",
+                                "minecraft:rarity": "epic",
+                                "minecraft:enchantments": {
+                                    "relics:backlash": 1
+                                },
+                                "minecraft:lore": [
+                                    {
+                                        "text": "A crass weapon assembled from scavenged scraps,"
+                                    },
+                                    {
+                                        "text": "brandished by survivors of the City of Echoes."
+                                    }
+                                ],
+                                "minecraft:custom_data": {
+                                    "shroomhearth_id": "jerry_rig"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

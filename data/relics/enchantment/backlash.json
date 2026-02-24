@@ -1,0 +1,48 @@
+{
+    "description": {
+        "text": "Backlash",
+        "color": "#4C9A8E"
+    },
+    "supported_items": "#minecraft:spears",
+    "weight": 1,
+    "max_level": 1,
+    "anvil_cost": 5,
+    "min_cost": {
+        "base": 25,
+        "per_level_above_first": 25
+    },
+    "max_cost": {
+        "base": 75,
+        "per_level_above_first": 25
+    },
+    "slots": [
+        "mainhand"
+    ],
+    "effects": {
+        "minecraft:post_attack": [
+            {
+                "effect": {
+                    "type": "minecraft:all_of",
+                    "effects": [
+                        {
+                            "type": "minecraft:apply_impulse",
+                            "coordinate_scale": [
+                                1.0,
+                                1.0,
+                                1.0
+                            ],
+                            "direction": [
+                                0.0,
+                                0.0,
+                                -1.0
+                            ],
+                            "magnitude": 0.916
+                        }
+                    ]
+                },
+                "enchanted": "attacker",
+                "affected": "attacker"
+            }
+        ]
+    }
+}
