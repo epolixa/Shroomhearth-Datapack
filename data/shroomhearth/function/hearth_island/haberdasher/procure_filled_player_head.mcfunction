@@ -8,7 +8,7 @@ execute if entity @s[gamemode=!creative] run xp add @s -1 levels
 playsound minecraft:block.beehive.exit player @a ~ ~ ~ 1 2
 
 # give the player their head
-loot give @s loot shroomhearth:haberdasher/player_head
+loot give @s loot shroomhearth:hearth_island/filled_player_head
 
 # grant advancement
-advancement grant @s only shroomhearth:haberdasher/face_painter
+advancement grant @s only shroomhearth:hearth_island/haberdasher/face_painter

@@ -1,0 +1,33 @@
+{
+    "parent": "shroomhearth:shroomhearth_stories",
+	"display": {
+		"icon": {
+			"id": "minecraft:gray_candle"
+		},
+		"title": "Everstone",
+		"description": "Visit Everstone",
+		"frame": "task"
+	},
+	"criteria": {
+		"everstone": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"dimension": "minecraft:overworld",
+						"position": {
+							"x": {
+								"min": 110,
+								"max": 114
+							},
+							"z": {
+								"min": -2,
+								"max": 2
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

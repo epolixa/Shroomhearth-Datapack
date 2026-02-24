@@ -1,2 +1,0 @@
-function shroomhearth:haberdasher/scoreboard/remove
-function shroomhearth:haberdasher/scoreboard/add

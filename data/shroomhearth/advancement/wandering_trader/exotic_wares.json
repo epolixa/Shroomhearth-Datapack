@@ -1,5 +1,5 @@
 {
-	"parent": "shroomhearth:shroomhearth_guide",
+	"parent": "shroomhearth:corrosive_crafting",
 	"display": {
 		"icon": {
 			"id": "minecraft:player_head",

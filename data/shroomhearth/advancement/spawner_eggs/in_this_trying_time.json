@@ -1,5 +1,5 @@
 {
-	"parent": "mob_warding:mob_zapper",
+	"parent": "shroomhearth:shroomhearth_guide",
 	"display": {
 		"icon": {
 			"id": "minecraft:zombie_spawn_egg"

@@ -1,11 +1,11 @@
 {
-	"parent": "community:community_convenience",
+	"parent": "shroomhearth:hearth_island/world_hall/learning_curve",
 	"display": {
 		"icon": {
-			"id": "minecraft:knowledge_book"
+			"id": "minecraft:writable_book"
 		},
-		"title": "Learning Curve",
-		"description": "Print a Knowledge Book at the World Hall",
+		"title": "The Fine Print",
+		"description": "Print lore onto an item at the World Hall",
 		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,

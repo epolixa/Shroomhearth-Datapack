@@ -1,5 +1,5 @@
 {
-	"parent": "shroomhearth:shroomhearth_guide",
+	"parent": "shroomhearth:ender_dragon/ominous_power",
 	"display": {
 		"icon": {
 			"id": "minecraft:knowledge_book",
@@ -9,7 +9,7 @@
 			}
 		},
 		"title": "Forbidden Knowledge",
-		"description": "Enhance a max-level enchantment by reading an Ender Tome",
+		"description": "Use an Ender Tome to overlevel one enchantment on an item",
 		"frame": "task"
 	},
 	"criteria": {

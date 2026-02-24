@@ -1,5 +1,5 @@
 {
-	"parent": "shroomhearth:shroomhearth_guide",
+	"parent": "shroomhearth:hearth_island/hearth_island",
 	"display": {
 		"icon": {
 			"id": "minecraft:glistering_melon_slice",
@@ -7,11 +7,11 @@
 				"minecraft:item_model": "shroomhearth:harmony_cap"
 			}
 		},
-		"title": "Find Harmony Cap",
-		"description": "Find a Harmony Cap after spending time with other players"
+		"title": "Friendly Forager",
+		"description": "Find a Harmony Cap nearby other Players"
 	},
 	"criteria": {
-		"find_harmony_cap": {
+		"friendly_forager": {
 			"trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [

@@ -1,5 +1,5 @@
 {
-	"parent": "shroomhearth:harmony/find_harmony_cap",
+	"parent": "shroomhearth:harmony/friendly_forager",
 	"display": {
 		"icon": {
 			"id": "minecraft:potion",
@@ -13,14 +13,14 @@
 			}
 		},
 		"title": "Spore Barer",
-		"description": "Disperse Spores to aid the world",
+		"description": "Use a Spore Bottle to start a Spores event",
 		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false
 	},
 	"criteria": {
-		"activate_favor": {
+		"spore_barer": {
 			"trigger": "minecraft:impossible"
 		}
 	}

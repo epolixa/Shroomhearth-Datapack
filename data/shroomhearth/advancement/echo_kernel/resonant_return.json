@@ -1,5 +1,5 @@
 {
-	"parent": "shroomhearth:shroomhearth_guide",
+	"parent": "shroomhearth:swift_paths/well_traveled",
 	"display": {
 		"icon": {
 			"id": "minecraft:chorus_fruit",
@@ -7,12 +7,12 @@
 				"minecraft:item_model": "shroomhearth:echo_kernel"
 			}
 		},
-		"title": "Use Echo Kernel",
+		"title": "Resonant Return",
 		"description": "Eat an Echo Kernel to teleport to its origin",
 		"frame": "task"
 	},
 	"criteria": {
-		"use_echo_kernel": {
+		"resonant_return": {
 			"trigger": "minecraft:impossible"
 		}
 	}

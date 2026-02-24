@@ -1,0 +1,34 @@
+{
+    "parent": "shroomhearth:shroomhearth_guide",
+    "display": {
+        "icon": {
+            "id": "minecraft:mycelium"
+        },
+        "title": "The Hearth",
+        "description": "Visit the Hearth Island",
+        "background": "minecraft:block/mushroom_stem",
+        "frame": "task"
+    },
+    "criteria": {
+        "hearth_island": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "dimension": "minecraft:overworld",
+                        "position": {
+                            "x": {
+                                "min": -2,
+                                "max": 2
+                            },
+                            "z": {
+                                "min": -2,
+                                "max": 2
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

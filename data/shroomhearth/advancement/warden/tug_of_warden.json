@@ -1,15 +1,12 @@
 {
-    "parent": "shroomhearth:headhunter",
+    "parent": "shroomhearth:wither/reanimated_reinforcements",
     "display": {
         "icon": {
             "id": "minecraft:echo_shard"
         },
         "title": "Tug of Warden",
         "description": "Use a Fishing Rod to hook an Echo Shard off of a Warden",
-        "frame": "task",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false
+        "frame": "task"
     },
     "criteria": {
         "tug_of_warden": {

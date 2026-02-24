@@ -1,5 +1,5 @@
 {
-    "parent": "community:community_convenience",
+    "parent": "shroomhearth:hearth_island/world_hall/learning_curve",
     "display": {
         "icon": {
             "id": "minecraft:oak_sign"

@@ -1,15 +1,12 @@
 {
-    "parent": "wandering_trader:exotic_wares",
+    "parent": "shroomhearth:a_cut_above",
     "display": {
         "icon": {
             "id": "minecraft:magma_cream"
         },
         "title": "Corrosive Crafting",
-        "description": "Oxidize any copper block by crafting it with Magma Cream",
-        "frame": "task",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false
+        "description": "Craft any copper block with Magma Cream to oxidize it",
+        "frame": "task"
     },
     "criteria": {
         "oxidize_chiseled_copper": {

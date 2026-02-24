@@ -1,5 +1,5 @@
 {
-	"parent": "shroomhearth:shroomhearth_guide",
+	"parent": "shroomhearth:spawner_eggs/in_this_trying_time",
 	"display": {
 		"icon": {
 			"id": "minecraft:end_crystal"

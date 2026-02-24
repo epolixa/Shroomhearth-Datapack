@@ -1,5 +1,5 @@
 {
-    "parent": "quests:it_lurks_in_the_murk",
+    "parent": "shroomhearth:stories/petrichor_pond/it_lurks_in_the_murk",
     "display": {
         "icon": {
             "id": "minecraft:fishing_rod",

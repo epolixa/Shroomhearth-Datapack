@@ -6,7 +6,7 @@
     },
     "rewards": {
         "loot": [
-            "quests:petrichor_pond_pole"
+            "shroomhearth:stories/petrichor_pond_pole"
         ]
     }
 }

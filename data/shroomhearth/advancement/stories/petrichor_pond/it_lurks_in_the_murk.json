@@ -1,5 +1,5 @@
 {
-	"parent": "shroomhearth:shroomhearth_stories",
+	"parent": "shroomhearth:stories/petrichor_pond/petrichor_pond",
 	"display": {
 		"icon": {
             "id": "minecraft:pufferfish",
