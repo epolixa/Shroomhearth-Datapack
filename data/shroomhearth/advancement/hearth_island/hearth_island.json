@@ -18,12 +18,12 @@
                         "dimension": "minecraft:overworld",
                         "position": {
                             "x": {
-                                "min": -2,
-                                "max": 2
+                                "min": 999999,
+                                "max": 999999
                             },
                             "z": {
-                                "min": -2,
-                                "max": 2
+                                "min": 999999,
+                                "max": 999999
                             }
                         }
                     }

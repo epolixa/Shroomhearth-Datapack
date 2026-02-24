@@ -103,7 +103,3 @@ team add white "White"
 team modify white color white
 team add yellow "Yellow"
 team modify yellow color yellow
-
-
-# Set default game rules
-function shroomhearth:set_game_rules
