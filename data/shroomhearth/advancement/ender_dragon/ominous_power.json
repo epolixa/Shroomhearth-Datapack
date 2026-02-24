@@ -1,15 +1,15 @@
 {
-	"parent": "shroomhearth:wither/reanimated_reinforcements",
+	"parent": "shroomhearth:shroomhearth_guide",
 	"display": {
 		"icon": {
 			"id": "minecraft:ominous_bottle"
 		},
 		"title": "Ominous Power",
-		"description": "Defeat an Omen Ender Dragon",
+		"description": "Defeat an Ominous Ender Dragon",
 		"frame": "goal"
 	},
 	"criteria": {
-		"defeat_dragon": {
+		"ominous_power": {
 			"trigger": "minecraft:impossible"
 		}
 	}

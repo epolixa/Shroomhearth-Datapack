@@ -4,7 +4,7 @@
             "id": "minecraft:crimson_hyphae"
         },
         "title": "Shroomhearth Challenges",
-        "description": "Take on various challenges created by the Shroomhearth community",
+        "description": "Take on various challenges created by Players",
         "background": "minecraft:block/stripped_crimson_stem",
         "frame": "task",
         "show_toast": false,

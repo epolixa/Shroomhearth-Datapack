@@ -1,5 +1,5 @@
 # announce player woke up
-tellraw @a [{"selector":"@s"},{"text":" woke up","color":"white"}]
+tellraw @p[distance=0.0625..] [{"selector":"@s"},{"text":" woke up","color":"white"}]
 
 # remove sleeping tag
 tag @s remove sleeping

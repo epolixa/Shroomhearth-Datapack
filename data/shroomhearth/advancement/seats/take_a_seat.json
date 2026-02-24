@@ -1,5 +1,5 @@
 {
-	"parent": "shroomhearth:cooperative_sleep/express_myself",
+	"parent": "shroomhearth:cooperative_sleep/slumber_party",
 	"display": {
 		"icon": {
 			"id": "minecraft:pig_spawn_egg",
@@ -8,7 +8,7 @@
 			}
 		},
 		"title": "Take a Seat",
-		"description": "Sit on a seat",
+		"description": "Sit on a Seat",
 		"frame": "task"
 	},
 	"criteria": {

@@ -9,7 +9,7 @@
 			}
 		},
 		"title": "Forbidden Knowledge",
-		"description": "Use an Ender Tome to overlevel one enchantment on an item",
+		"description": "Use an Ender Tome to overlevel an enchantment on an item",
 		"frame": "task"
 	},
 	"criteria": {

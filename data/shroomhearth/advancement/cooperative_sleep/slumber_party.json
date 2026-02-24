@@ -1,15 +1,12 @@
 {
-	"parent": "shroomhearth:cooperative_sleep/express_myself",
+	"parent": "shroomhearth:shroomhearth_guide",
 	"display": {
 		"icon": {
 			"id": "minecraft:purple_bed"
 		},
 		"title": "Slumber Party",
-		"description": "Sleep while another player is sleeping",
-		"frame": "goal",
-		"show_toast": true,
-		"announce_to_chat": true,
-		"hidden": false
+		"description": "Sleep while other Players are in the Overworld to advance the night quickly",
+		"frame": "task"
 	},
 	"criteria": {
 		"slumber_party": {

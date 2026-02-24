@@ -8,7 +8,7 @@
 			}
 		},
 		"title": "Soulbound",
-		"description": "Use another player's Echo Horn to teleport to them",
+		"description": "Use another Player's Echo Horn to teleport to them",
 		"frame": "task"
 	},
 	"criteria": {

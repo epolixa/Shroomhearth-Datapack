@@ -1,5 +1,5 @@
 {
-	"parent": "shroomhearth:corrosive_crafting",
+	"parent": "shroomhearth:shroomhearth_guide",
 	"display": {
 		"icon": {
 			"id": "minecraft:player_head",
@@ -16,11 +16,8 @@
 			}
 		},
 		"title": "Exotic Wares",
-		"description": "Trade for something unusual from the Wandering Trader",
-		"frame": "task",
-		"show_toast": true,
-		"announce_to_chat": true,
-		"hidden": false
+		"description": "Complete an unusual trade with the Wandering Trader",
+		"frame": "task"
 	},
 	"criteria": {
 		"exotic_wares": {

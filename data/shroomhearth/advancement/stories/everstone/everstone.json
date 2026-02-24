@@ -1,5 +1,5 @@
 {
-    "parent": "shroomhearth:shroomhearth_stories",
+    "parent": "shroomhearth:_shroomhearth_stories",
 	"display": {
 		"icon": {
 			"id": "minecraft:gray_candle"

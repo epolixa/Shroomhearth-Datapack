@@ -1,5 +1,5 @@
-# grant advancement if another player is also sleeping
-execute at @s if entity @p[tag=sleeping,distance=1..] run advancement grant @s only shroomhearth:cooperative_sleep/slumber_party
+# Grant advancement if another player is in the overworld while this player is sleeping
+execute at @s if entity @p[distance=0.0625..] run advancement grant @s only shroomhearth:cooperative_sleep/slumber_party
 
 # make night pass faster for sleeping players
 time of minecraft:overworld add 10
