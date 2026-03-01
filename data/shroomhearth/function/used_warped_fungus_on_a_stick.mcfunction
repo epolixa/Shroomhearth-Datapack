@@ -8,4 +8,4 @@ tellraw @a[tag=debug_shroomhearth] [{"text":"[shroomhearth:used_warped_fungus_on
 scoreboard players reset @s used_warped_fungus_on_a_stick
 
 # Trigger porcelain functionality if the player is holding a porcelain item
-execute if predicate shroomhearth:porcelain/holding_porcelain run scoreboard players add @s used_porcelain 1
+execute if predicate shroomhearth:porcelain/holding_porcelain as @s[tag=!used_porcelain] run function shroomhearth:porcelain/used_porcelain

@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "inventory_changed": {
+    "inventory_changed_blacklist": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [
@@ -20,6 +20,6 @@
     }
   },
   "rewards": {
-    "function": "shroomhearth:porcelain/advancement_reward/clear_blacklist"
+    "function": "shroomhearth:porcelain/advancement_reward/inventory_changed_blacklist"
   }
 }

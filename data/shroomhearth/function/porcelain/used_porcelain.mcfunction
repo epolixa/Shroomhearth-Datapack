@@ -1,23 +1,20 @@
-# Executor: Player using The Porcelain item
-# Position: the Player
+# Executor: A Player that used a Porcelain
+# Position: The Player
 
-tellraw @a[tag=debug_porcelain] [{"text":"[shroomhearth:porcelain/used_porcelain] "},{"selector":"@s"},{"text":" used The Porcelain"}]
+tellraw @a[tag=debug_porcelain] [{"text":"[shroomhearth:porcelain/used_porcelain] "},{"selector":"@s"},{"text":" used a Porcelain"}]
 
 
-# calculate nearby porcelains or monsters
-execute store result score @s nearby_porcelain if entity @e[tag=source_anchor,distance=..1.5]
-execute store result score @s nearby_monster if entity @e[type=#shroomhearth:sleep_preventing_monsters,distance=..8]
+# Mark the player as having used a Porcelain
+tag @s add used_porcelain
 
-# interrupt recall
-#execute as @s[tag=recalling] run function recall:interrupted
+# Interrupt Echo Horn use
+#execute if predicate shroomhearth:echo_horn/using_echo_horn run function shroomhearth:echo_horn/interrupt_echo_horn
 
-# relative to player using porcelain in other dimensions
-execute if predicate shroomhearth:porcelain/used_porcelain_in_source_dimension if predicate shroomhearth:porcelain/can_use_porcelain run function shroomhearth:porcelain/enter_porcelain
-execute if predicate shroomhearth:porcelain/used_porcelain_in_source_dimension unless score @s nearby_porcelain matches 0 run title @s actionbar {"color":"white","translate":"porcelain.nearby_porcelain","fallback":"You may not enter the Porcelain here, another player's Porcelain is too close"}
-execute if predicate shroomhearth:porcelain/used_porcelain_in_source_dimension unless score @s nearby_monster matches 0 run title @s actionbar {"color":"white","translate":"porcelain.nearby_monster","fallback":"You may not enter the Porcelain now, there are monsters nearby"}
+# If the player is in the Porcelain, exit the Porcelain
+execute if predicate shroomhearth:porcelain/in_the_porcelain run function shroomhearth:porcelain/exit_the_porcelain
 
-# activate porcelain item in porcelain
-execute if predicate shroomhearth:porcelain/used_porcelain_in_the_porcelain run function shroomhearth:porcelain/exit_porcelain
+# If the player is not in the Porcelain, attempt to enter the Porcelain
+execute unless predicate shroomhearth:porcelain/in_the_porcelain run function shroomhearth:porcelain/attempt_to_enter_the_porcelain
 
-# remove score
-scoreboard players reset @s used_porcelain
+# Remove all tags
+function shroomhearth:porcelain/remove_tags

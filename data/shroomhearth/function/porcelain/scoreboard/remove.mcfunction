@@ -1,28 +1,14 @@
-# Flag for using the Porcelain item
-scoreboard objectives remove used_porcelain
-
-# Identifier to match players with their anchors
-# in the future we should try to match anchor by player UUID
-scoreboard objectives remove porcelain_id
-
-# Check if player has porcelain while in the porcelain
-scoreboard objectives remove has_porcelain
-
-# Identifier for dimension porcelain was used in
-# 0  = overworld (default)
-# -1 = the_nether
-# 1  = the_end
-scoreboard objectives remove porcelain_dimension_id
-
-# Track nearby porcelain anchors and prevent porcelain usage
+# Used to check if another Player's Porcelain is too close while attempting to use a Porcelain
 scoreboard objectives remove nearby_porcelain
 
-# Track nearby hostile mobs and prevent porcelain usage
+# Used to check if there are monsters nearby while attempting to use a Porcelain
 scoreboard objectives remove nearby_monster
 
+# Tracks UUID data of a Porcelain Anchor's parent Player
+scoreboard objectives remove porcelain_uuid_1
+scoreboard objectives remove porcelain_uuid_2
+scoreboard objectives remove porcelain_uuid_3
+scoreboard objectives remove porcelain_uuid_4
 
-# Objective for fake player globals
-scoreboard objectives remove shroomhearth.porcelain
-
-# Next ID to use for a new anchor
-scoreboard players reset next_porcelain_id shroomhearth.porcelain
+# Used to check if a Player has a Porcelain in their inventory
+scoreboard objectives remove has_porcelain

@@ -3,7 +3,7 @@
 # Data: temp_uuid storage
 # {uuid_string: string}
 
-$tellraw @a[tag=debug_echo_horn] [{"text":"[shroomhearth:echo_horn/m_modify_storage_player_echo_horn] Modifying echo horn storage for $(uuid_string)"}]
+$tellraw @a[tag=debug_echo_horn] [{"text":"[shroomhearth:echo_horn/m_modify_storage_player_echo_horn] Modifying echo horn storage for player $(uuid_string)"}]
 
 
 # First flush the existing data

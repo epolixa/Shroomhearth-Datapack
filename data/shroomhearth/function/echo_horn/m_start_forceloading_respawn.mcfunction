@@ -10,4 +10,5 @@ tellraw @a[tag=debug_echo_horn] [{"text":"[shroomhearth:echo_horn/m_start_forcel
 $execute in $(dimension) positioned $(x) $(y) $(z) run forceload add ~ ~
 
 # Summon a new echo horn forceload marker entity for the player
+# Does not work using common forceload methods since the chunk may not be loaded in advance?
 $execute in $(dimension) positioned $(x) $(y) $(z) summon minecraft:marker run function shroomhearth:echo_horn/initialize_echo_horn_forceload_marker
