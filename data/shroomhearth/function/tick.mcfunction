@@ -10,8 +10,8 @@ execute as @a[scores={used_warped_fungus_on_a_stick=1..}] at @s run function shr
 # Goat horn trigger detection
 execute as @a[scores={used_goat_horn=1..}] at @s run function shroomhearth:used_goat_horn
 
-# Porcelain tick functions - execute if a player exists
-execute if entity @p run function shroomhearth:porcelain/tick
+# Tick in The Porcelain dimension if a player exists in it
+execute if entity @p[predicate=shroomhearth:porcelain/in_the_porcelain] in shroomhearth:the_porcelain run function shroomhearth:porcelain/tick_the_porcelain
 
 # Cooperative sleep - only run when more than one player is online
 execute if score player_count shroomhearth matches 2.. as @a[tag=sleeping] run function shroomhearth:cooperative_sleep/tick

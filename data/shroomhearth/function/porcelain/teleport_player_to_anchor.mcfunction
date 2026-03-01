@@ -1,25 +1,29 @@
-# Executor: Player leaving The Porcelain
-# Position: a source anchor matching the player ID
+# Executor: A Porcelain Anchor that has been matched with a Player who is exiting The Porcelain
+# Position: The Anchor
 
-tellraw @a[tag=debug_porcelain] [{"text":"[shroomhearth:porcelain/teleport_player_to_anchor] Teleporting "},{"selector":"@s"},{"text":" to their source anchor"}]
+tellraw @a[tag=debug_porcelain] [{"text":"[shroomhearth:porcelain/teleport_player_to_anchor] Teleporting "},{"selector":"@p[tag=exiting_porcelain]"},{"text":" to their Porcelain Anchor"}]
 
 
-# teleport player to source anchor
-execute if score @s porcelain_dimension_id matches 0 in minecraft:overworld run teleport @n[tag=source_anchor]
-execute if score @s porcelain_dimension_id matches -1 in minecraft:the_nether run teleport @n[tag=source_anchor]
-execute if score @s porcelain_dimension_id matches 1 in minecraft:the_end run teleport @n[tag=source_anchor]
+# Teleport the Player to their Porcelain Anchor
+tp @p[tag=exiting_porcelain] @s
 
-# copy stored inventory from source anchor
-execute if predicate shroomhearth:in_overworld as @n[tag=source_anchor] at @s run function shroomhearth:porcelain/copy_inv_a_to_p_overworld
-execute unless predicate shroomhearth:in_overworld as @n[tag=source_anchor] at @s run function shroomhearth:porcelain/copy_inv_a_to_p
+# Copy the Player's stored inventory from their Anchor
+execute if predicate shroomhearth:in_overworld run function shroomhearth:porcelain/copy_inventory/anchor_to_player_overworld
+execute unless predicate shroomhearth:in_overworld run function shroomhearth:porcelain/copy_inventory/anchor_to_player
 
-# create cleanup marker to unload chunk after 15s
-# keepChunk - 0/1 flag to determine whether chunk should be removed from forceloading or kept, depending on nearby anchors, default to 0
-execute at @s run summon minecraft:marker ~ ~ ~ {Tags:["source_cleanup"], data:{keepChunk:0}}
+# Mark the teleportation as succesful
+tag @p[tag=exiting_porcelain] add found_porcelain_anchor
 
-# destroy nearest anchor in source
-kill @n[tag=source_anchor]
-kill @n[tag=porcelain_display]
+# Tag the matching forceload marker for removal
+execute as @e[tag=porcelain_forceload_marker] \
+if score @p[tag=exiting_porcelain] uuid_1 = @s porcelain_uuid_1 \
+if score @p[tag=exiting_porcelain] uuid_2 = @s porcelain_uuid_2 \
+if score @p[tag=exiting_porcelain] uuid_3 = @s porcelain_uuid_3 \
+if score @p[tag=exiting_porcelain] uuid_4 = @s porcelain_uuid_4 \
+run tag @s add remove_forceload_marker
 
-# schedule function to process cleanup markers
-schedule function shroomhearth:porcelain/cleanup_marked_chunks 15s
+# Prune forceloaded chunks
+function shroomhearth:forceload/prune_forceloaded_chunks
+
+# Destroy self
+kill @s

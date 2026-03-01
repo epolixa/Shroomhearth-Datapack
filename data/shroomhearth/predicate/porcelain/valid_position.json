@@ -4,10 +4,7 @@
         "condition": "minecraft:location_check",
         "predicate": {
             "block": {
-                "blocks": [
-                    "minecraft:nether_portal",
-                    "minecraft:end_portal"
-                ]
+                "blocks": "#shroomhearth:obstructs_porcelain"
             }
         }
     }

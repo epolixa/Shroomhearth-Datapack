@@ -12,6 +12,6 @@
     }
   },
   "rewards": {
-    "function": "shroomhearth:porcelain/advancement_reward/restore_porcelain"
+    "function": "shroomhearth:porcelain/advancement_reward/location_porcelain"
   }
 }
