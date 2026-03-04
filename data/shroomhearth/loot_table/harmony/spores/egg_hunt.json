@@ -16,6 +16,11 @@
                                     "translate": "harmony.spores.egg_hunt",
                                     "fallback": "Spores of Egg Hunt"
                                 },
+                                "minecraft:lore": [
+                                    {
+                                        "translate": "harmony.spores.egg_hunt.tooltip"
+                                    }
+                                ],
                                 "minecraft:item_model": "shroomhearth:spores",
                                 "minecraft:consumable": {
                                     "consume_seconds": 0.8,

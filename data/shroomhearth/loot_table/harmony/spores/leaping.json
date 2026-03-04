@@ -16,6 +16,11 @@
                                     "translate": "harmony.spores.leaping",
                                     "fallback": "Spores of Leaping"
                                 },
+                                "minecraft:lore": [
+                                    {
+                                        "translate": "harmony.spores.leaping.tooltip"
+                                    }
+                                ],
                                 "minecraft:item_model": "shroomhearth:spores",
                                 "minecraft:consumable": {
                                     "consume_seconds": 0.8,

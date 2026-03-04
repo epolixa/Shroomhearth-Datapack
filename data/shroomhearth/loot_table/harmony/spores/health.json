@@ -16,6 +16,11 @@
                                     "translate": "harmony.spores.health",
                                     "fallback": "Spores of Health"
                                 },
+                                "minecraft:lore": [
+                                    {
+                                        "translate": "harmony.spores.health.tooltip"
+                                    }
+                                ],
                                 "minecraft:item_model": "shroomhearth:spores",
                                 "minecraft:consumable": {
                                     "consume_seconds": 0.8,

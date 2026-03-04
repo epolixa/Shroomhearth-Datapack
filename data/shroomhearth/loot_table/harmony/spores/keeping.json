@@ -16,6 +16,11 @@
                                     "translate": "harmony.spores.keeping",
                                     "fallback": "Spores of Keeping"
                                 },
+                                "minecraft:lore": [
+                                    {
+                                        "translate": "harmony.spores.keeping.tooltip"
+                                    }
+                                ],
                                 "minecraft:item_model": "shroomhearth:spores",
                                 "minecraft:consumable": {
                                     "consume_seconds": 0.8,

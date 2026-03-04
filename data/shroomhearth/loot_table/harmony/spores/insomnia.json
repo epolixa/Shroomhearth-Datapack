@@ -16,6 +16,11 @@
                                     "translate": "harmony.spores.insomnia",
                                     "fallback": "Spores of Insomnia"
                                 },
+                                "minecraft:lore": [
+                                    {
+                                        "translate": "harmony.spores.insomnia.tooltip"
+                                    }
+                                ],
                                 "minecraft:item_model": "shroomhearth:spores",
                                 "minecraft:consumable": {
                                     "consume_seconds": 0.8,

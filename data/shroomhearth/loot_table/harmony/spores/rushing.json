@@ -16,6 +16,11 @@
                                     "translate": "harmony.spores.rushing",
                                     "fallback": "Spores of Rushing"
                                 },
+                                "minecraft:lore": [
+                                    {
+                                        "translate": "harmony.spores.rushing.tooltip"
+                                    }
+                                ],
                                 "minecraft:item_model": "shroomhearth:spores",
                                 "minecraft:consumable": {
                                     "consume_seconds": 0.8,

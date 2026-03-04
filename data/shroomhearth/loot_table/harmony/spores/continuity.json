@@ -16,6 +16,11 @@
                                     "translate": "harmony.spores.continuity",
                                     "fallback": "Spores of Continuity"
                                 },
+                                "minecraft:lore": [
+                                    {
+                                        "translate": "harmony.spores.continuity.tooltip"
+                                    }
+                                ],
                                 "minecraft:item_model": "shroomhearth:spores",
                                 "minecraft:consumable": {
                                     "consume_seconds": 0.8,

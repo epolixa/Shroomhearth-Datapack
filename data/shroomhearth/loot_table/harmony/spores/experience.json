@@ -16,6 +16,11 @@
                                     "translate": "harmony.spores.experience",
                                     "fallback": "Spores of Experience"
                                 },
+                                "minecraft:lore": [
+                                    {
+                                        "translate": "harmony.spores.experience.tooltip"
+                                    }
+                                ],
                                 "minecraft:item_model": "shroomhearth:spores",
                                 "minecraft:consumable": {
                                     "consume_seconds": 0.8,

@@ -16,6 +16,11 @@
                                     "translate": "harmony.spores.swiftness",
                                     "fallback": "Spores of Swiftness"
                                 },
+                                "minecraft:lore": [
+                                    {
+                                        "translate": "harmony.spores.swiftness.tooltip"
+                                    }
+                                ],
                                 "minecraft:item_model": "shroomhearth:spores",
                                 "minecraft:consumable": {
                                     "consume_seconds": 0.8,

@@ -16,6 +16,11 @@
                                     "translate": "harmony.spores.peace",
                                     "fallback": "Spores of Peace"
                                 },
+                                "minecraft:lore": [
+                                    {
+                                        "translate": "harmony.spores.peace.tooltip"
+                                    }
+                                ],
                                 "minecraft:item_model": "shroomhearth:spores",
                                 "minecraft:consumable": {
                                     "consume_seconds": 0.8,

@@ -16,6 +16,11 @@
                                     "translate": "harmony.spores.haste",
                                     "fallback": "Spores of Haste"
                                 },
+                                "minecraft:lore": [
+                                    {
+                                        "translate": "harmony.spores.haste.tooltip"
+                                    }
+                                ],
                                 "minecraft:item_model": "shroomhearth:spores",
                                 "minecraft:consumable": {
                                     "consume_seconds": 0.8,

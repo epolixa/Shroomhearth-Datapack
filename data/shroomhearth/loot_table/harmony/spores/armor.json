@@ -16,6 +16,11 @@
                                     "translate": "harmony.spores.armor",
                                     "fallback": "Spores of Armor"
                                 },
+                                "minecraft:lore": [
+                                    {
+                                        "translate": "harmony.spores.armor.tooltip"
+                                    }
+                                ],
                                 "minecraft:item_model": "shroomhearth:spores",
                                 "minecraft:consumable": {
                                     "consume_seconds": 0.8,
