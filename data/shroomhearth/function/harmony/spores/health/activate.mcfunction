@@ -4,7 +4,7 @@
 tellraw @a[tag=debug_harmony] [{"text":"[shroomhearth:harmony/spores/health/activate] "},{"translate":"harmony.spores.health"},{"text":" activated by "},{"selector":"@s"}]
 
 # Update active spores if not already active
-execute if score spores_of_health shroomhearth.harmony matches 0 run scoreboard players add active_spores shroomhearth.harmony 1
+scoreboard players add active_spores shroomhearth.harmony 1
 
 # Add value to timer - 3600 seconds in an hour
 scoreboard players add spores_of_health shroomhearth.harmony 3600
