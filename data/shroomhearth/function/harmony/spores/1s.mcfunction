@@ -43,6 +43,9 @@ execute if score spores_of_leaping shroomhearth.harmony matches 1.. run function
 # Keeping
 execute if score spores_of_keeping shroomhearth.harmony matches 1.. run function shroomhearth:harmony/spores/keeping/1s
 
+# Rushing
+execute if score spores_of_rushing shroomhearth.harmony matches 1.. run function shroomhearth:harmony/spores/rushing/1s
+
 # Respiration
 
 # Speed

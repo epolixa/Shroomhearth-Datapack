@@ -40,6 +40,13 @@ loot give @s[scores={repairable=1..}] loot shroomhearth:harmony/spores/keeping
 tag @s[scores={repairable=1..}] add repaired
 scoreboard players reset @s repairable
 
+# spores of rushing
+execute store result score @s repairable run clear @s #shroomhearth:harmony/spores[custom_data={"shroomhearth_id":"spores_of_rushing"}] 0
+clear @s[scores={repairable=1..}] #shroomhearth:harmony/spores[custom_data={"shroomhearth_id":"spores_of_rushing"}] 1
+loot give @s[scores={repairable=1..}] loot shroomhearth:harmony/spores/rushing
+tag @s[scores={repairable=1..}] add repaired
+scoreboard players reset @s repairable
+
 # spores of leaping
 execute store result score @s repairable run clear @s #shroomhearth:harmony/spores[custom_data={"shroomhearth_id":"spores_of_leaping"}] 0
 clear @s[scores={repairable=1..}] #shroomhearth:harmony/spores[custom_data={"shroomhearth_id":"spores_of_leaping"}] 1

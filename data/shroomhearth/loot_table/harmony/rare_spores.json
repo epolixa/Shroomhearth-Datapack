@@ -8,6 +8,10 @@
         },
         {
           "type": "minecraft:loot_table",
+          "value": "shroomhearth:harmony/spores/rushing"
+        },
+        {
+          "type": "minecraft:loot_table",
           "value": "shroomhearth:harmony/spores/peace"
         }
       ],
