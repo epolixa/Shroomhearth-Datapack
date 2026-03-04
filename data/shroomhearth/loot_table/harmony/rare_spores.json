@@ -5,6 +5,10 @@
         {
           "type": "minecraft:loot_table",
           "value": "shroomhearth:harmony/spores/keeping"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "shroomhearth:harmony/spores/peace"
         }
       ],
       "rolls": 1.0

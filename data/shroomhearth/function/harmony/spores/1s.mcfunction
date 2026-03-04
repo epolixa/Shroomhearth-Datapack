@@ -33,6 +33,9 @@ execute if score spores_of_health shroomhearth.harmony matches 1.. run function 
 # Insomnia
 execute if score spores_of_insomnia shroomhearth.harmony matches 1.. run function shroomhearth:harmony/spores/insomnia/1s
 
+# Peace
+execute if score spores_of_peace shroomhearth.harmony matches 1.. run function shroomhearth:harmony/spores/peace/1s
+
 # Leaping
 execute if score spores_of_leaping shroomhearth.harmony matches 1.. run function shroomhearth:harmony/spores/leaping/1s
 

@@ -30,5 +30,6 @@ scoreboard players set spores_of_health shroomhearth.harmony 0
 scoreboard players set spores_of_insomnia shroomhearth.harmony 0
 scoreboard players set spores_of_keeping shroomhearth.harmony 0
 scoreboard players set spores_of_leaping shroomhearth.harmony 0
+scoreboard players set spores_of_peace shroomhearth.harmony 0
 scoreboard players set spores_of_swiftness shroomhearth.harmony 0
 scoreboard players set spores_of_strength shroomhearth.harmony 0

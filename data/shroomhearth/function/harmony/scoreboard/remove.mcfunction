@@ -30,5 +30,6 @@ scoreboard players reset spores_of_health shroomhearth.harmony
 scoreboard players reset spores_of_insomnia shroomhearth.harmony
 scoreboard players reset spores_of_keeping shroomhearth.harmony
 scoreboard players reset spores_of_leaping shroomhearth.harmony
+scoreboard players reset spores_of_peace shroomhearth.harmony
 scoreboard players reset spores_of_swiftness shroomhearth.harmony
 scoreboard players reset spores_of_strength shroomhearth.harmony
