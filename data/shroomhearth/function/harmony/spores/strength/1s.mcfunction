@@ -18,4 +18,4 @@ bossbar set shroomhearth:spores_of_strength players @a[scores={show_timer_bars=1
 execute if score spores_of_strength shroomhearth.harmony matches ..0 run function shroomhearth:harmony/spores/strength/deactivate
 
 # Chance to play particle effect around players
-execute as @a at @s run execute if predicate shroomhearth:harmony/spores_particle_chance run particle minecraft:dust{color:[1, 0.78, 0], scale: 1} ~ ~1 ~ 10 10 10 0.01 1 force
+execute as @r at @s if predicate shroomhearth:harmony/spores_particle_chance run particle minecraft:dust{color:[1, 0.78, 0], scale: 1} ~ ~1 ~ 10 10 10 0.01 1 force
