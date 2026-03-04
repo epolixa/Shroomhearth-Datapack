@@ -25,6 +25,8 @@ scoreboard players set spores_of_armor shroomhearth.harmony 0
 scoreboard players set spores_of_ease shroomhearth.harmony 0
 scoreboard players set spores_of_egg_hunt shroomhearth.harmony 0
 scoreboard players set spores_of_experience shroomhearth.harmony 0
+scoreboard players set spores_of_continuity shroomhearth.harmony 0
+scoreboard players set spores_of_clemency shroomhearth.harmony 0
 scoreboard players set spores_of_haste shroomhearth.harmony 0
 scoreboard players set spores_of_health shroomhearth.harmony 0
 scoreboard players set spores_of_insomnia shroomhearth.harmony 0

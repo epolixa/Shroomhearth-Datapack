@@ -13,8 +13,8 @@
                                 "!minecraft:potion_contents": {},
                                 "!minecraft:use_remainder": {},
                                 "minecraft:item_name": {
-                                    "translate": "harmony.spores.peace",
-                                    "fallback": "Spores of Peace"
+                                    "translate": "harmony.spores.clemency",
+                                    "fallback": "Spores of Clemency"
                                 },
                                 "minecraft:item_model": "shroomhearth:spores",
                                 "minecraft:consumable": {
@@ -29,15 +29,15 @@
                                 "minecraft:custom_model_data": {
                                     "colors": [
                                         [
-                                            0.95,
-                                            0.6,
-                                            0.37
+                                            0.47,
+                                            0.65,
+                                            1
                                         ]
                                     ]
                                 },
-                                "minecraft:rarity": "rare",
+                                "minecraft:rarity": "uncommon",
                                 "minecraft:custom_data": {
-                                    "shroomhearth_id": "spores_of_peace"
+                                    "shroomhearth_id": "spores_of_clemency"
                                 }
                             }
                         }

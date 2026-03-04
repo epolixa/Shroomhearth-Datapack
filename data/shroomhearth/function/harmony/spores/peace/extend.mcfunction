@@ -11,10 +11,10 @@ scoreboard players add spores_of_peace shroomhearth.harmony 3600
 execute store result bossbar shroomhearth:spores_of_peace max run scoreboard players get spores_of_peace shroomhearth.harmony
 
 # Update the attribution for bossbar
-bossbar set shroomhearth:spores_of_peace name [{"color":"#ffc24d","translate":"harmony.spores.peace"},{"color":"white","text":" - "},{"selector": "@s"}]
+bossbar set shroomhearth:spores_of_peace name [{"color":"#f39a5e","translate":"harmony.spores.peace"},{"color":"white","text":" - "},{"selector": "@s"}]
 
 # Announce extension
-tellraw @a [{"color":"#ffc24d","text":"["},{"translate":"harmony.spores.peace","hover_event":{"action":"show_text","value":{"translate":"harmony.spores.peace.tooltip"}}},{"text":"]"},{"color":"white","text":" were dispersed by "},{"selector":"@s"}]
+tellraw @a [{"color":"#f39a5e","text":"["},{"translate":"harmony.spores.peace","hover_event":{"action":"show_text","value":{"translate":"harmony.spores.peace.tooltip"}}},{"text":"]"},{"color":"white","text":" were dispersed by "},{"selector":"@s"}]
 
 # Play sound 
 execute as @a at @s run playsound block.beacon.power_select player @s ~ ~ ~ 1 1.8

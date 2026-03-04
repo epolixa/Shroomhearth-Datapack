@@ -11,7 +11,7 @@ scoreboard players set @a player_group 0
 execute as @a[gamemode=!spectator] at @s run scoreboard players add @a[gamemode=!spectator,distance=0.0625..160] player_group 1
 
 # Grant Community Cooperator advancement to any player who is near 5 or more other players.
-advancement grant @a[scores={player_group=5..}] only community:community_cooperator
+#advancement grant @a[scores={player_group=5..}] only community:community_cooperator
 
 # For every player who is near another player, increase harmony score by the number of other players.
 #execute as @a[scores={player_group=1..}] run scoreboard players operation @s harmony += @s player_group

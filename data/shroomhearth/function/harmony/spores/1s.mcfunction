@@ -11,7 +11,8 @@ execute if score spores_of_armor shroomhearth.harmony matches 1.. run function s
 
 # Burn Damage Resistance
 
-# Clear Weather
+# Clemency
+execute if score spores_of_clemency shroomhearth.harmony matches 1.. run function shroomhearth:harmony/spores/clemency/1s
 
 # Ease
 execute if score spores_of_ease shroomhearth.harmony matches 1.. run function shroomhearth:harmony/spores/ease/1s
@@ -52,7 +53,8 @@ execute if score spores_of_strength shroomhearth.harmony matches 1.. run functio
 
 # Uptick
 
-# Pause Day/Night Cycle
+# Continuity
+execute if score spores_of_continuity shroomhearth.harmony matches 1.. run function shroomhearth:harmony/spores/continuity/1s
 
 
 

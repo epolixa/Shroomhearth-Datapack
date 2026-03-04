@@ -11,7 +11,7 @@ gamerule spawn_monsters true
 bossbar remove shroomhearth:spores_of_peace
 
 # Announce expiration
-tellraw @a [{"color":"#ffc24d","text":"["},{"translate":"harmony.spores.peace","hover_event":{"action":"show_text","value":{"translate":"harmony.spores.peace.tooltip"}}},{"text":"]"},{"color":"white","text":" have dissipated"}]
+tellraw @a [{"color":"#f39a5e","text":"["},{"translate":"harmony.spores.peace","hover_event":{"action":"show_text","value":{"translate":"harmony.spores.peace.tooltip"}}},{"text":"]"},{"color":"white","text":" have dissipated"}]
 
 # Play sound 
 execute as @a at @s run playsound block.beacon.deactivate player @s ~ ~ ~ 1 1.7
