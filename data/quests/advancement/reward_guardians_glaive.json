@@ -1,0 +1,12 @@
+{
+    "criteria": {
+        "reward_guardians_glaive": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "loot": [
+            "relics:guardians_glaive"
+        ]
+    }
+}

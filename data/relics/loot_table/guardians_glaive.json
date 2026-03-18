@@ -16,8 +16,20 @@
                                     "fallback": "Guardian's Glaive"
                                 },
                                 "minecraft:item_model": "shroomhearth:guardians_glaive",
+                                "minecraft:rarity": "epic",
+                                "minecraft:enchantments": {
+                                    "relics:ender_rend": 1
+                                },
+                                "minecraft:lore": [
+                                    {
+                                        "text": "Fallen heroes of ancient times wielded"
+                                    },
+                                    {
+                                        "text": "this weapon against their OverLords"
+                                    }
+                                ],
                                 "minecraft:custom_data": {
-                                    "spore": "guardians_glaive"
+                                    "shroomhearth_id": "guardians_glaive"
                                 }
                             }
                         }
