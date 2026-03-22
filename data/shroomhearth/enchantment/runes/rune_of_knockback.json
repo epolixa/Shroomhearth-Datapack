@@ -1,7 +1,7 @@
 {
     "description": {
         "text": "Rune of Knockback",
-        "color": "#e381ff"
+        "color": "#be95d4"
     },
     "supported_items": "#shroomhearth:rune_supported",
     "max_level": 1,

@@ -1,7 +1,7 @@
 {
     "description": {
         "text": "Wondermerian Agility",
-        "color": "#4C9A8E"
+        "color": "#13bbbb"
     },
     "supported_items": "#shroomhearth:stories/wondermerian_agility_supported",
     "weight": 1,
