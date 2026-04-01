@@ -1,0 +1,36 @@
+{
+    "criteria": {
+        "cancel_elytra": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "equipment": {
+                                "chest": {
+                                    "items": [
+                                        "minecraft:elytra"
+                                    ]
+                                }
+                            },
+                            "flags": {
+                                "is_fall_flying": true
+                            },
+                            "type_specific": {
+                                "type": "minecraft:player",
+                                "input": {
+                                    "sneak": true
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "shroomhearth:advancement_reward/cancel_elytra"
+    }
+}
