@@ -3,8 +3,14 @@
         "icon": {
             "id": "minecraft:warped_hyphae"
         },
-        "title": "Shroomhearth Stories",
-        "description": "Discover the world's locations and stories",
+        "title": {
+            "fallback": "Shroomhearth Stories",
+            "translate": "advancements.shroomhearth_stories.root.title"
+        },
+        "description": {
+            "fallback": "Discover the world's locations and stories",
+            "translate": "advancements.shroomhearth_stories.root.description"
+        },
         "background": "minecraft:block/stripped_warped_stem",
         "frame": "task",
         "show_toast": false,

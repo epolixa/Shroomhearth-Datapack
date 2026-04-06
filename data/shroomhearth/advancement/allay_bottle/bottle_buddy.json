@@ -7,8 +7,14 @@
 				"minecraft:item_model": "shroomhearth:bottle_of_allay"
 			}
 		},
-		"title": "Bottle Buddy",
-		"description": "Catch an Allay in a Bottle",
+		"title": {
+			"fallback": "Bottle Buddy",
+			"translate": "advancements.shroomhearth_guide.bottle_buddy.title"
+		},
+		"description": {
+			"fallback": "Catch an Allay in a Bottle",
+			"translate": "advancements.shroomhearth_guide.bottle_buddy.description"
+		},
 		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,

@@ -3,8 +3,14 @@
 		"icon": {
 			"id": "minecraft:red_mushroom_block"	
 		},
-		"title": "Shroomhearth Guide",
-		"description": "Learn about the unique features and mechanics of Shroomhearth",
+		"title": {
+			"fallback": "Shroomhearth Guide",
+			"translate": "advancements.shroomhearth_guide.root.title"
+		},
+		"description": {
+			"fallback": "Learn about the unique features and mechanics of Shroomhearth",
+			"translate": "advancements.shroomhearth_guide.root.description"
+		},
 		"background": "minecraft:block/mushroom_stem",
 		"frame": "task",
 		"show_toast": false,
