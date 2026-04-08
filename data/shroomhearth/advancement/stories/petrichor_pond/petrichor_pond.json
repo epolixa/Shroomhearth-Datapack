@@ -1,11 +1,17 @@
 {
-    "parent": "shroomhearth:_shroomhearth_stories",
+	"parent": "shroomhearth:_shroomhearth_stories",
 	"display": {
 		"icon": {
-			"id": "minecraft:firefly_bush"	
+			"id": "minecraft:firefly_bush"
 		},
-		"title": "Petrichor Pond",
-		"description": "Visit Petrichor Pond",
+		"title": {
+			"fallback": "Petrichor Pond",
+			"translate": "advancements.stories.petrichor_pond.petrichor_pond.root.title"
+		},
+		"description": {
+			"fallback": "Visit Petrichor Pond",
+			"translate": "advancements.stories.petrichor_pond.petrichor_pond.root.description"
+		},
 		"frame": "task"
 	},
 	"criteria": {

@@ -9,12 +9,14 @@
 				}
 			}
 		},
-		"title": "Omega825",
-		"description": [
-			{"text": "Place 8,250 rails"},
-			{"text": "\n\n"},
-			{"text": "Created by Omega825", "color": "gray"}
-		],
+		"title": {
+			"fallback": "Omega825",
+			"translate": "advancements.shroomhearth_challenges.omega825.title"
+		},
+		"description": {
+			"fallback": "Place 8,250 rails\n\nCreated by Omega825",
+			"translate": "advancements.shroomhearth_challenges.omega825.description"
+		},
 		"frame": "challenge"
 	},
 	"rewards": {

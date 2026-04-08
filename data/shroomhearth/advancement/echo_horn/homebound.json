@@ -7,8 +7,14 @@
 				"minecraft:item_model": "shroomhearth:echo_horn"
 			}
 		},
-		"title": "Homebound",
-		"description": "Use your Echo Horn to teleport to your respawn point",
+		"title": {
+			"fallback": "Homebound",
+			"translate": "advancements.shroomhearth_guide.homebound.title"
+		},
+		"description": {
+			"fallback": "Use your Echo Horn to teleport to your respawn point",
+			"translate": "advancements.shroomhearth_guide.homebound.description"
+		},
 		"frame": "task"
 	},
 	"criteria": {

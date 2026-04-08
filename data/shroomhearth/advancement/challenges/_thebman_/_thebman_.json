@@ -9,12 +9,14 @@
 				}
 			}
 		},
-		"title": "_TheBman_",
-		"description": [
-            {"text": "Place 1,679 sandstone blocks"},
-            {"text": "\n\n"},
-            {"text": "Created by _TheBman_", "color": "gray"}
-        ],
+		"title": {
+			"fallback": "_TheBman_",
+			"translate": "advancements.shroomhearth_challenges._thebman_.title"
+		},
+		"description": {
+			"fallback": "Place 1,679 sandstone blocks\n\nCreated by _TheBman_",
+			"translate": "advancements.shroomhearth_challenges._thebman_.description"
+		},
 		"frame": "challenge"
 	},
 	"rewards": {

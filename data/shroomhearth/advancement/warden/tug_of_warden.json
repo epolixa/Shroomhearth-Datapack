@@ -1,21 +1,27 @@
 {
-    "parent": "shroomhearth:shroomhearth_guide",
-    "display": {
-        "icon": {
-            "id": "minecraft:echo_shard"
-        },
-        "title": "Tug of Warden",
-        "description": "Use a Fishing Rod to hook an Echo Shard off of a Warden",
-        "frame": "task"
-    },
-    "criteria": {
-        "tug_of_warden": {
-            "trigger": "minecraft:fishing_rod_hooked",
-            "conditions": {
-                "entity": {
-                    "type": "minecraft:warden"
-                }
-            }
-        }
-    }
+	"parent": "shroomhearth:shroomhearth_guide",
+	"display": {
+		"icon": {
+			"id": "minecraft:echo_shard"
+		},
+		"title": {
+			"fallback": "Tug of Warden",
+			"translate": "advancements.shroomhearth_guide.tug_of_warden.title"
+		},
+		"description": {
+			"fallback": "Use a Fishing Rod to hook an Echo Shard off of a Warden",
+			"translate": "advancements.shroomhearth_guide.tug_of_warden.description"
+		},
+		"frame": "task"
+	},
+	"criteria": {
+		"tug_of_warden": {
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:warden"
+				}
+			}
+		}
+	}
 }

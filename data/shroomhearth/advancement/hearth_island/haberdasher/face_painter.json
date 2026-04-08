@@ -3,9 +3,15 @@
 	"display": {
 		"icon": {
 			"id": "minecraft:player_head"
-        },
-		"title": "Face Painter",
-		"description": "Create a custom Player Head at the Haberdasher",
+		},
+		"title": {
+			"fallback": "Face Painter",
+			"translate": "advancements.hearth_island.hearth_island.face_painter.title"
+		},
+		"description": {
+			"fallback": "Create a custom Player Head at the Haberdasher",
+			"translate": "advancements.hearth_island.hearth_island.face_painter.description"
+		},
 		"frame": "task"
 	},
 	"criteria": {

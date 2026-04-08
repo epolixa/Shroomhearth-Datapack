@@ -9,12 +9,14 @@
 				}
 			}
 		},
-		"title": "Cog Father's Palette",
-		"description": [
-            {"text": "Place every \"Red\" block"},
-            {"text": "\n\n"},
-            {"text": "Created by The_RedGear", "color": "gray"}
-        ],
+		"title": {
+			"fallback": "Cog Father's Palette",
+			"translate": "advancements.shroomhearth_challenges.cog_fathers_palette.title"
+		},
+		"description": {
+			"fallback": "Place every \"Red\" block\n\nCreated by The_RedGear",
+			"translate": "advancements.shroomhearth_challenges.cog_fathers_palette.description"
+		},
 		"frame": "challenge"
 	},
 	"rewards": {

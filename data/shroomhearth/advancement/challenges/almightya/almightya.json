@@ -9,12 +9,14 @@
 				}
 			}
 		},
-		"title": "AlMightyA",
-		"description": [
-            {"text": "Mine 1,000,000 Stone, Granite, Diorite, Andesite, Tuff, or Deepslate"},
-			{"text": "\n\n"},
-			{"text": "Created by AlMightyA", "color": "gray"}
-        ],
+		"title": {
+			"fallback": "AlMightyA",
+			"translate": "advancements.shroomhearth_challenges.almightya.title"
+		},
+		"description": {
+			"fallback": "Mine 1,000,000 Stone, Granite, Diorite, Andesite, Tuff, or Deepslate\n\nCreated by AlMightyA",
+			"translate": "advancements.shroomhearth_challenges.almightya.description"
+		},
 		"frame": "challenge"
 	},
 	"rewards": {

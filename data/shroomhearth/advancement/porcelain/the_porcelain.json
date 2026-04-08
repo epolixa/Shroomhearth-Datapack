@@ -7,8 +7,14 @@
 				"minecraft:item_model": "shroomhearth:porcelain"
 			}
 		},
-		"title": "The Porcelain",
-		"description": "Enter The Porcelain",
+		"title": {
+			"fallback": "The Porcelain",
+			"translate": "advancements.shroomhearth_guide.the_porcelain.title"
+		},
+		"description": {
+			"fallback": "Enter The Porcelain",
+			"translate": "advancements.shroomhearth_guide.the_porcelain.description"
+		},
 		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,

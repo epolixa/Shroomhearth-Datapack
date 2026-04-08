@@ -4,8 +4,14 @@
 		"icon": {
 			"id": "minecraft:zombie_spawn_egg"
 		},
-		"title": "In This Trying Time",
-		"description": "Collect a Spawn Egg from a Spawner",
+		"title": {
+			"fallback": "In This Trying Time",
+			"translate": "advancements.shroomhearth_guide.in_this_trying_time.title"
+		},
+		"description": {
+			"fallback": "Collect a Spawn Egg from a Spawner",
+			"translate": "advancements.shroomhearth_guide.in_this_trying_time.description"
+		},
 		"frame": "task"
 	},
 	"criteria": {
@@ -14,7 +20,7 @@
 			"conditions": {
 				"items": [
 					{
-						"items":"#shroomhearth:spawner_eggs"
+						"items": "#shroomhearth:spawner_eggs"
 					}
 				]
 			}

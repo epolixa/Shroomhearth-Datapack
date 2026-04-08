@@ -15,8 +15,14 @@
 				}
 			}
 		},
-		"title": "Arcane Alphabet",
-		"description": "Collect every type of Rune",
+		"title": {
+			"fallback": "Arcane Alphabet",
+			"translate": "advancements.shroomhearth_challenges.arcane_alphabet.title"
+		},
+		"description": {
+			"fallback": "Collect every type of Rune",
+			"translate": "advancements.shroomhearth_challenges.arcane_alphabet.description"
+		},
 		"frame": "challenge",
 		"show_toast": true,
 		"announce_to_chat": true,

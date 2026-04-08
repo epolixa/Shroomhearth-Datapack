@@ -9,12 +9,14 @@
 				}
 			}
 		},
-		"title": "Head in the Clouds",
-		"description": [
-            {"text": "Place a Blue Orchid or Cornflower at the build height limit"},
-            {"text": "\n\n"},
-            {"text": "Created by PolarisPlume", "color": "gray"}
-        ],
+		"title": {
+			"fallback": "Head in the Clouds",
+			"translate": "advancements.shroomhearth_challenges.head_in_the_clouds.title"
+		},
+		"description": {
+			"fallback": "Place a Blue Orchid or Cornflower at the build height limit\n\nCreated by PolarisPlume",
+			"translate": "advancements.shroomhearth_challenges.head_in_the_clouds.description"
+		},
 		"frame": "challenge"
 	},
 	"rewards": {
@@ -24,24 +26,24 @@
 	},
 	"criteria": {
 		"head_in_the_clouds": {
-            "trigger": "minecraft:placed_block",
-            "conditions": {
-                "location": [
-                    {
-                        "condition": "minecraft:location_check",
-                        "predicate": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
 							"block": {
 								"blocks": "#shroomhearth:head_in_the_clouds"
 							},
-                            "position": {
-                                "y": {
-                                    "min": 319
+							"position": {
+								"y": {
+									"min": 319
 								}
-                            }
-                        }
-                    }
+							}
+						}
+					}
 				]
-            }
-        }
-    }
+			}
+		}
+	}
 }

@@ -1,55 +1,50 @@
 {
-    "parent": "shroomhearth:shroomhearth_challenges",
-    "display": {
-        "icon": {
-            "id": "minecraft:player_head",
-            "components": {
-                "minecraft:profile": {
-                    "name": "vegworm"
-                }
-            }
-        },
-        "title": "Understanding Overstanding",
-        "description": [
-            {
-                "text": "Place 1,000 Armor Stands"
-            },
-            {
-                "text": "\n\n"
-            },
-            {
-                "text": "Created by vegworm",
-                "color": "gray"
-            }
-        ],
-        "frame": "challenge"
-    },
-    "rewards": {
-        "loot": [
-            "shroomhearth:challenges/vegworm"
-        ]
-    },
-    "criteria": {
-        "understanding_overstanding": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:armor_stand"
-                    }
-                ],
-                "player": [
-                    {
-                        "condition": "entity_scores",
-                        "entity": "this",
-                        "scores": {
-                            "used_armor_stand": {
-                                "min": 1000
-                            }
-                        }
-                    }
-                ]
-            }
-        }
-    }
+	"parent": "shroomhearth:shroomhearth_challenges",
+	"display": {
+		"icon": {
+			"id": "minecraft:player_head",
+			"components": {
+				"minecraft:profile": {
+					"name": "vegworm"
+				}
+			}
+		},
+		"title": {
+			"fallback": "Understanding Overstanding",
+			"translate": "advancements.shroomhearth_challenges.understanding_overstanding.title"
+		},
+		"description": {
+			"fallback": "Place 1,000 Armor Stands\n\nCreated by vegworm",
+			"translate": "advancements.shroomhearth_challenges.understanding_overstanding.description"
+		},
+		"frame": "challenge"
+	},
+	"rewards": {
+		"loot": [
+			"shroomhearth:challenges/vegworm"
+		]
+	},
+	"criteria": {
+		"understanding_overstanding": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:armor_stand"
+					}
+				],
+				"player": [
+					{
+						"condition": "entity_scores",
+						"entity": "this",
+						"scores": {
+							"used_armor_stand": {
+								"min": 1000
+							}
+						}
+					}
+				]
+			}
+		}
+	}
 }

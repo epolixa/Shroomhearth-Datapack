@@ -9,12 +9,14 @@
 				}
 			}
 		},
-		"title": "Boreal Baker",
-		"description": [
-            {"text": "Craft every baked good while in a Taiga biome"},
-            {"text": "\n\n"},
-            {"text": "Created by Natsirk", "color": "gray"}
-        ],
+		"title": {
+			"fallback": "Boreal Baker",
+			"translate": "advancements.shroomhearth_challenges.boreal_baker.title"
+		},
+		"description": {
+			"fallback": "Craft every baked good while in a Taiga biome\n\nCreated by Natsirk",
+			"translate": "advancements.shroomhearth_challenges.boreal_baker.description"
+		},
 		"frame": "challenge"
 	},
 	"rewards": {
@@ -23,49 +25,49 @@
 		]
 	},
 	"criteria": {
-        "crafted_bread": {
-            "trigger": "minecraft:recipe_crafted",
-            "conditions": {
-                "recipe_id": "minecraft:bread",
-                "player": {
-                    "location": {
-                        "biomes": "#shroomhearth:boreal_baker"
-                    }
-                }
-            }
-        },
-        "crafted_cake": {
-            "trigger": "minecraft:recipe_crafted",
-            "conditions": {
-                "recipe_id": "minecraft:cake",
-                "player": {
-                    "location": {
-                        "biomes": "#shroomhearth:boreal_baker"
-                    }
-                }
-            }
-        },
-        "crafted_cookies": {
-            "trigger": "minecraft:recipe_crafted",
-            "conditions": {
-                "recipe_id": "minecraft:cookie",
-                "player": {
-                    "location": {
-                        "biomes": "#shroomhearth:boreal_baker"
-                    }
-                }
-            }
-        },
-        "crafted_pumpkin_pie": {
-            "trigger": "minecraft:recipe_crafted",
-            "conditions": {
-                "recipe_id": "minecraft:pumpkin_pie",
-                "player": {
-                    "location": {
-                        "biomes": "#shroomhearth:boreal_baker"
-                    }
-                }
-            }
-        }
-    }
+		"crafted_bread": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "minecraft:bread",
+				"player": {
+					"location": {
+						"biomes": "#shroomhearth:boreal_baker"
+					}
+				}
+			}
+		},
+		"crafted_cake": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "minecraft:cake",
+				"player": {
+					"location": {
+						"biomes": "#shroomhearth:boreal_baker"
+					}
+				}
+			}
+		},
+		"crafted_cookies": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "minecraft:cookie",
+				"player": {
+					"location": {
+						"biomes": "#shroomhearth:boreal_baker"
+					}
+				}
+			}
+		},
+		"crafted_pumpkin_pie": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "minecraft:pumpkin_pie",
+				"player": {
+					"location": {
+						"biomes": "#shroomhearth:boreal_baker"
+					}
+				}
+			}
+		}
+	}
 }

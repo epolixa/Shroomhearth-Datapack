@@ -9,12 +9,14 @@
 				}
 			}
 		},
-		"title": "Green Thumb",
-		"description": [
-            {"text": "Collect every flower and crop"},
-            {"text": "\n\n"},
-            {"text": "Created by CaptainVegtable", "color": "gray"}
-        ],
+		"title": {
+			"fallback": "Green Thumb",
+			"translate": "advancements.shroomhearth_challenges.green_thumb.title"
+		},
+		"description": {
+			"fallback": "Collect every flower and crop\n\nCreated by CaptainVegtable",
+			"translate": "advancements.shroomhearth_challenges.green_thumb.description"
+		},
 		"frame": "challenge"
 	},
 	"rewards": {

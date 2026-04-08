@@ -4,8 +4,14 @@
 		"icon": {
 			"id": "minecraft:end_crystal"
 		},
-		"title": "Mob Zapper",
-		"description": "Place an End Crystal to block certain monsters from spawning",
+		"title": {
+			"fallback": "Mob Zapper",
+			"translate": "advancements.shroomhearth_guide.mob_zapper.title"
+		},
+		"description": {
+			"fallback": "Place an End Crystal to block certain monsters from spawning",
+			"translate": "advancements.shroomhearth_guide.mob_zapper.description"
+		},
 		"frame": "task"
 	},
 	"criteria": {

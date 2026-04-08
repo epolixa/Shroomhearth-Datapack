@@ -9,12 +9,14 @@
 				}
 			}
 		},
-		"title": "Lava Fishing",
-		"description": [
-			{"text": "Use a Fishing Rod to hook a mob in lava"},
-			{"text": "\n\n"},
-			{"text": "Created by joanna_nuisance", "color": "gray"}
-		],
+		"title": {
+			"fallback": "Lava Fishing",
+			"translate": "advancements.shroomhearth_challenges.lava_fishing.title"
+		},
+		"description": {
+			"fallback": "Use a Fishing Rod to hook a mob in lava\n\nCreated by joanna_nuisance",
+			"translate": "advancements.shroomhearth_challenges.lava_fishing.description"
+		},
 		"frame": "challenge"
 	},
 	"rewards": {
@@ -24,16 +26,16 @@
 	},
 	"criteria": {
 		"lava_fishing": {
-            "trigger": "minecraft:fishing_rod_hooked",
-            "conditions": {
-                "entity": {
-                    "location": {
-                        "fluid": {
-                            "fluids": "#minecraft:lava"
-                        }
-                    }
-                }
-            }
-        }
-    }
+			"trigger": "minecraft:fishing_rod_hooked",
+			"conditions": {
+				"entity": {
+					"location": {
+						"fluid": {
+							"fluids": "#minecraft:lava"
+						}
+					}
+				}
+			}
+		}
+	}
 }

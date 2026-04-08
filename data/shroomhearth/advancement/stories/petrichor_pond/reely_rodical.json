@@ -1,22 +1,28 @@
 {
-    "parent": "shroomhearth:stories/petrichor_pond/it_lurks_in_the_murk",
-    "display": {
-        "icon": {
-            "id": "minecraft:fishing_rod",
-            "components": {
-                "minecraft:item_model": "shroomhearth:petrichor_pond_pole"
-            }
-        },
-        "title": "Reel-y Rodical",
-        "description": "Win any fishing tournament category at Petrichor Pond",
-        "frame": "challenge"
-    },
-    "criteria": {
-        "reely_rodical": {
-            "trigger": "minecraft:impossible"
-        }
-    },
-    "rewards": {
-        "function": "shroomhearth:stories/advancement_reward/reely_rodical"
-    }
+	"parent": "shroomhearth:stories/petrichor_pond/it_lurks_in_the_murk",
+	"display": {
+		"icon": {
+			"id": "minecraft:fishing_rod",
+			"components": {
+				"minecraft:item_model": "shroomhearth:petrichor_pond_pole"
+			}
+		},
+		"title": {
+			"fallback": "Reel-y Rodical",
+			"translate": "advancements.stories.petrichor_pond.petrichor_pond.reely_rodical.title"
+		},
+		"description": {
+			"fallback": "Win any fishing tournament category at Petrichor Pond",
+			"translate": "advancements.stories.petrichor_pond.petrichor_pond.reely_rodical.description"
+		},
+		"frame": "challenge"
+	},
+	"criteria": {
+		"reely_rodical": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"function": "shroomhearth:stories/advancement_reward/reely_rodical"
+	}
 }
