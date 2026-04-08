@@ -13,10 +13,24 @@
 			"fallback": "Five Hundred Liters of Frogs",
 			"translate": "advancements.shroomhearth_challenges.five_hundred_liters_of_frogs.title"
 		},
-		"description": {
-			"fallback": "Fill a Bucket with a Tadpole 500 times\n\nCreated by FlyntHazzard",
-			"translate": "advancements.shroomhearth_challenges.five_hundred_liters_of_frogs.description"
-		},
+		"description": [
+			{
+				"fallback": "Fill a Bucket with a Tadpole 500 times",
+				"translate": "advancements.shroomhearth_challenges.five_hundred_liters_of_frogs.description"
+			},
+			{
+				"text": "\n\n"
+			},
+			{
+				"color": "gray",
+				"fallback": "Created by: ",
+				"translate": "advancements.shroomhearth_challenges.created_by"
+			},
+			{
+				"color": "gray",
+				"text": "FlyntHazzard"
+			}
+		],
 		"frame": "challenge"
 	},
 	"rewards": {

@@ -13,10 +13,24 @@
 			"fallback": "Skit",
 			"translate": "advancements.shroomhearth_challenges.skit.title"
 		},
-		"description": {
-			"fallback": "Place over 100,000 Stone, Cobblestone, or Stone Brick blocks\n\nCreated by Skit",
-			"translate": "advancements.shroomhearth_challenges.skit.description"
-		},
+		"description": [
+			{
+				"fallback": "Place over 100,000 Stone, Cobblestone, or Stone Brick blocks",
+				"translate": "advancements.shroomhearth_challenges.skit.description"
+			},
+			{
+				"text": "\n\n"
+			},
+			{
+				"color": "gray",
+				"fallback": "Created by: ",
+				"translate": "advancements.shroomhearth_challenges.created_by"
+			},
+			{
+				"color": "gray",
+				"text": "Skit"
+			}
+		],
 		"frame": "challenge"
 	},
 	"rewards": {

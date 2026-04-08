@@ -13,10 +13,24 @@
 			"fallback": "Understanding Overstanding",
 			"translate": "advancements.shroomhearth_challenges.understanding_overstanding.title"
 		},
-		"description": {
-			"fallback": "Place 1,000 Armor Stands\n\nCreated by vegworm",
-			"translate": "advancements.shroomhearth_challenges.understanding_overstanding.description"
-		},
+		"description": [
+			{
+				"fallback": "Place 1,000 Armor Stands",
+				"translate": "advancements.shroomhearth_challenges.understanding_overstanding.description"
+			},
+			{
+				"text": "\n\n"
+			},
+			{
+				"color": "gray",
+				"fallback": "Created by: ",
+				"translate": "advancements.shroomhearth_challenges.created_by"
+			},
+			{
+				"color": "gray",
+				"text": "vegworm"
+			}
+		],
 		"frame": "challenge"
 	},
 	"rewards": {

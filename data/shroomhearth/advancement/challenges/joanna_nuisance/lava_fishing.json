@@ -13,10 +13,24 @@
 			"fallback": "Lava Fishing",
 			"translate": "advancements.shroomhearth_challenges.lava_fishing.title"
 		},
-		"description": {
-			"fallback": "Use a Fishing Rod to hook a mob in lava\n\nCreated by joanna_nuisance",
-			"translate": "advancements.shroomhearth_challenges.lava_fishing.description"
-		},
+		"description": [
+			{
+				"fallback": "Use a Fishing Rod to hook a mob in lava",
+				"translate": "advancements.shroomhearth_challenges.lava_fishing.description"
+			},
+			{
+				"text": "\n\n"
+			},
+			{
+				"color": "gray",
+				"fallback": "Created by: ",
+				"translate": "advancements.shroomhearth_challenges.created_by"
+			},
+			{
+				"color": "gray",
+				"text": "joanna_nuisance"
+			}
+		],
 		"frame": "challenge"
 	},
 	"rewards": {

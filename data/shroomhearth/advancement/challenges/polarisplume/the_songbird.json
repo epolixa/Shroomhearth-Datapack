@@ -13,10 +13,24 @@
 			"fallback": "The Songbird",
 			"translate": "advancements.shroomhearth_challenges.the_songbird.title"
 		},
-		"description": {
-			"fallback": "Collect all Music Discs\n\nCreated by PolarisPlume",
-			"translate": "advancements.shroomhearth_challenges.the_songbird.description"
-		},
+		"description": [
+			{
+				"fallback": "Collect all Music Discs",
+				"translate": "advancements.shroomhearth_challenges.the_songbird.description"
+			},
+			{
+				"text": "\n\n"
+			},
+			{
+				"color": "gray",
+				"fallback": "Created by: ",
+				"translate": "advancements.shroomhearth_challenges.created_by"
+			},
+			{
+				"color": "gray",
+				"text": "PolarisPlume"
+			}
+		],
 		"frame": "challenge"
 	},
 	"rewards": {

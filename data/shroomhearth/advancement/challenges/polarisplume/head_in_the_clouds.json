@@ -13,10 +13,24 @@
 			"fallback": "Head in the Clouds",
 			"translate": "advancements.shroomhearth_challenges.head_in_the_clouds.title"
 		},
-		"description": {
-			"fallback": "Place a Blue Orchid or Cornflower at the build height limit\n\nCreated by PolarisPlume",
-			"translate": "advancements.shroomhearth_challenges.head_in_the_clouds.description"
-		},
+		"description": [
+			{
+				"fallback": "Place a Blue Orchid or Cornflower at the build height limit",
+				"translate": "advancements.shroomhearth_challenges.head_in_the_clouds.description"
+			},
+			{
+				"text": "\n\n"
+			},
+			{
+				"color": "gray",
+				"fallback": "Created by: ",
+				"translate": "advancements.shroomhearth_challenges.created_by"
+			},
+			{
+				"color": "gray",
+				"text": "PolarisPlume"
+			}
+		],
 		"frame": "challenge"
 	},
 	"rewards": {

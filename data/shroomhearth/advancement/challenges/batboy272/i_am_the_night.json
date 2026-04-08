@@ -13,10 +13,24 @@
 			"fallback": "I Am The Night",
 			"translate": "advancements.shroomhearth_challenges.i_am_the_night.title"
 		},
-		"description": {
-			"fallback": "Equip a Netherite Helmet with Quartz Eye Trim, Elytra, Netherite Leggings with Netherite Silence Trim, and Netherite Boots with Amethyst Silence Trim\n\nCreated by Batboy272",
-			"translate": "advancements.shroomhearth_challenges.i_am_the_night.description"
-		},
+		"description": [
+			{
+				"fallback": "Equip a Netherite Helmet with Quartz Eye Trim, Elytra, Netherite Leggings with Netherite Silence Trim, and Netherite Boots with Amethyst Silence Trim",
+				"translate": "advancements.shroomhearth_challenges.i_am_the_night.description"
+			},
+			{
+				"text": "\n\n"
+			},
+			{
+				"color": "gray",
+				"fallback": "Created by: ",
+				"translate": "advancements.shroomhearth_challenges.created_by"
+			},
+			{
+				"color": "gray",
+				"text": "Batboy272"
+			}
+		],
 		"frame": "challenge"
 	},
 	"rewards": {

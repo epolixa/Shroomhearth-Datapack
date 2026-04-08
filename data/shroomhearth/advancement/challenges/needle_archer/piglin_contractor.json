@@ -13,10 +13,24 @@
 			"fallback": "Piglin Contractor",
 			"translate": "advancements.shroomhearth_challenges.piglin_contractor.title"
 		},
-		"description": {
-			"fallback": "Place 52,778 blocks in The Nether\n\nCreated by Needle_Archer",
-			"translate": "advancements.shroomhearth_challenges.piglin_contractor.description"
-		},
+		"description": [
+			{
+				"fallback": "Place 52,778 blocks in The Nether",
+				"translate": "advancements.shroomhearth_challenges.piglin_contractor.description"
+			},
+			{
+				"text": "\n\n"
+			},
+			{
+				"color": "gray",
+				"fallback": "Created by: ",
+				"translate": "advancements.shroomhearth_challenges.created_by"
+			},
+			{
+				"color": "gray",
+				"text": "Needle_Archer"
+			}
+		],
 		"frame": "challenge"
 	},
 	"rewards": {

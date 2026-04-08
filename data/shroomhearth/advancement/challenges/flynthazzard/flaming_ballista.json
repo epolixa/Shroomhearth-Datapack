@@ -13,10 +13,24 @@
 			"fallback": "Flaming Ballista",
 			"translate": "advancements.shroomhearth_challenges.flaming_ballista.title"
 		},
-		"description": {
-			"fallback": "Shoot the center of a Target while on fire\n\nCreated by FlyntHazzard",
-			"translate": "advancements.shroomhearth_challenges.flaming_ballista.description"
-		},
+		"description": [
+			{
+				"fallback": "Shoot the center of a Target while on fire",
+				"translate": "advancements.shroomhearth_challenges.flaming_ballista.description"
+			},
+			{
+				"text": "\n\n"
+			},
+			{
+				"color": "gray",
+				"fallback": "Created by: ",
+				"translate": "advancements.shroomhearth_challenges.created_by"
+			},
+			{
+				"color": "gray",
+				"text": "FlyntHazzard"
+			}
+		],
 		"frame": "challenge"
 	},
 	"rewards": {

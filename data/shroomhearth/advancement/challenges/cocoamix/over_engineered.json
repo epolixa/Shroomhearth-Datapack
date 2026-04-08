@@ -13,10 +13,24 @@
 			"fallback": "Over-Engineered",
 			"translate": "advancements.shroomhearth_challenges.over_engineered.title"
 		},
-		"description": {
-			"fallback": "Craft 256 Redstone Torches, Repeaters, Comparators, Pistons, Sticky Pistons, Observers, Targets, Redstone Lamps, Note Blocks, Droppers, Dispensers, Redstone Blocks, Hoppers, and Daylight Detectors\n\nCreated by CocoaMix",
-			"translate": "advancements.shroomhearth_challenges.over_engineered.description"
-		},
+		"description": [
+			{
+				"fallback": "Craft 256 Redstone Torches, Repeaters, Comparators, Pistons, Sticky Pistons, Observers, Targets, Redstone Lamps, Note Blocks, Droppers, Dispensers, Redstone Blocks, Hoppers, and Daylight Detectors",
+				"translate": "advancements.shroomhearth_challenges.over_engineered.description"
+			},
+			{
+				"text": "\n\n"
+			},
+			{
+				"color": "gray",
+				"fallback": "Created by: ",
+				"translate": "advancements.shroomhearth_challenges.created_by"
+			},
+			{
+				"color": "gray",
+				"text": "CocoaMix"
+			}
+		],
 		"frame": "challenge"
 	},
 	"rewards": {

@@ -13,10 +13,24 @@
 			"fallback": "Tempestuous Seas Captain",
 			"translate": "advancements.shroomhearth_challenges.tempestuous_seas_captain.title"
 		},
-		"description": {
-			"fallback": "Ride a Boat in \"X-Water\"\n\nCreated by Lonnie_Mack",
-			"translate": "advancements.shroomhearth_challenges.tempestuous_seas_captain.description"
-		},
+		"description": [
+			{
+				"fallback": "Ride a Boat in \"X-Water\"",
+				"translate": "advancements.shroomhearth_challenges.tempestuous_seas_captain.description"
+			},
+			{
+				"text": "\n\n"
+			},
+			{
+				"color": "gray",
+				"fallback": "Created by: ",
+				"translate": "advancements.shroomhearth_challenges.created_by"
+			},
+			{
+				"color": "gray",
+				"text": "Lonnie_Mack"
+			}
+		],
 		"frame": "challenge"
 	},
 	"rewards": {

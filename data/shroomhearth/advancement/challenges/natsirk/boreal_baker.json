@@ -13,10 +13,24 @@
 			"fallback": "Boreal Baker",
 			"translate": "advancements.shroomhearth_challenges.boreal_baker.title"
 		},
-		"description": {
-			"fallback": "Craft every baked good while in a Taiga biome\n\nCreated by Natsirk",
-			"translate": "advancements.shroomhearth_challenges.boreal_baker.description"
-		},
+		"description": [
+			{
+				"fallback": "Craft every baked good while in a Taiga biome",
+				"translate": "advancements.shroomhearth_challenges.boreal_baker.description"
+			},
+			{
+				"text": "\n\n"
+			},
+			{
+				"color": "gray",
+				"fallback": "Created by: ",
+				"translate": "advancements.shroomhearth_challenges.created_by"
+			},
+			{
+				"color": "gray",
+				"text": "Natsirk"
+			}
+		],
 		"frame": "challenge"
 	},
 	"rewards": {

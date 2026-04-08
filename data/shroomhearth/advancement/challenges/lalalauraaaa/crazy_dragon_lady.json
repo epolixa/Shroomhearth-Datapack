@@ -13,10 +13,24 @@
 			"fallback": "Crazy Dragon Lady",
 			"translate": "advancements.shroomhearth_challenges.crazy_dragon_lady.title"
 		},
-		"description": {
-			"fallback": "Slay 100 Ender Dragons\n\nCreated by lalalauraaaa",
-			"translate": "advancements.shroomhearth_challenges.crazy_dragon_lady.description"
-		},
+		"description": [
+			{
+				"fallback": "Slay 100 Ender Dragons",
+				"translate": "advancements.shroomhearth_challenges.crazy_dragon_lady.description"
+			},
+			{
+				"text": "\n\n"
+			},
+			{
+				"color": "gray",
+				"fallback": "Created by: ",
+				"translate": "advancements.shroomhearth_challenges.created_by"
+			},
+			{
+				"color": "gray",
+				"text": "lalalauraaaa"
+			}
+		],
 		"frame": "challenge"
 	},
 	"rewards": {
