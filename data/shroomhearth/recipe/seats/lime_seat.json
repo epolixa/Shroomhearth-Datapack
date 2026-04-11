@@ -16,8 +16,8 @@
         "id": "minecraft:pig_spawn_egg",
         "components": {
             "minecraft:item_name": {
-                "translate": "seats.lime_seat",
-                "fallback": "Lime Seat"
+                "fallback": "Lime Seat",
+                "translate": "item.shroomhearth.lime_seat"
             },
             "minecraft:item_model": "shroomhearth:lime_seat",
             "minecraft:max_stack_size": 1,

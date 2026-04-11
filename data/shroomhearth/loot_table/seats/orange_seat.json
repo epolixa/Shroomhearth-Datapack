@@ -11,8 +11,8 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_name": {
-                                    "translate": "seats.orange_seat",
-                                    "fallback": "Orange Seat"
+                                    "fallback": "Orange Seat",
+                                    "translate": "item.shroomhearth.orange_seat"
                                 },
                                 "minecraft:item_model": "shroomhearth:orange_seat",
                                 "minecraft:max_stack_size": 1,

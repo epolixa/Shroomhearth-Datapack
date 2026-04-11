@@ -11,8 +11,8 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_name": {
-                                    "translate": "seats.pink_seat",
-                                    "fallback": "Pink Seat"
+                                    "fallback": "Pink Seat",
+                                    "translate": "item.shroomhearth.pink_seat"
                                 },
                                 "minecraft:item_model": "shroomhearth:pink_seat",
                                 "minecraft:max_stack_size": 1,
