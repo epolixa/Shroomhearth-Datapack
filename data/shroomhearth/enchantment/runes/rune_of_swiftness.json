@@ -1,6 +1,7 @@
 {
     "description": {
-        "text": "Rune of Swiftness",
+        "fallback": "Rune of Swiftness",
+        "translate": "enchantment.shroomhearth.rune_of_swiftness",
         "color": "#be95d4"
     },
     "supported_items": "#shroomhearth:rune_supported",

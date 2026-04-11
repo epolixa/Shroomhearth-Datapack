@@ -1,6 +1,7 @@
 {
     "description": {
-        "text": "Rune of Stepping",
+        "fallback": "Rune of Stepping",
+        "translate": "enchantment.shroomhearth.rune_of_stepping",
         "color": "#be95d4"
     },
     "supported_items": "#shroomhearth:rune_supported",

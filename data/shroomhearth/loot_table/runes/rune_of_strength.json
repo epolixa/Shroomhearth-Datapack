@@ -11,8 +11,8 @@
                             "function": "set_components",
                             "components": {
                                 "minecraft:item_name": {
-                                    "translate": "runes.rune_of_strength",
-                                    "fallback": "Rune of Strength"
+                                    "fallback": "Rune of Strength",
+                                    "translate": "enchantment.shroomhearth.rune_of_strength"
                                 },
                                 "minecraft:item_model": "shroomhearth:rune",
                                 "minecraft:rarity": "rare",

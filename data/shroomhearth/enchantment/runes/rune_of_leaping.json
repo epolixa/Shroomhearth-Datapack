@@ -1,6 +1,7 @@
 {
     "description": {
-        "text": "Rune of Leaping",
+        "fallback": "Rune of Leaping",
+        "translate": "enchantment.shroomhearth.rune_of_leaping",
         "color": "#be95d4"
     },
     "supported_items": "#shroomhearth:rune_supported",

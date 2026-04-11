@@ -11,8 +11,8 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_name": {
-                                    "translate": "runes.rune_of_reach",
-                                    "fallback": "Rune of Reach"
+                                    "fallback": "Rune of Reach",
+                                    "translate": "enchantment.shroomhearth.rune_of_reach"
                                 },
                                 "minecraft:item_model": "shroomhearth:rune",
                                 "minecraft:rarity": "rare",

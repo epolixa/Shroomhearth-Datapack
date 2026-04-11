@@ -11,8 +11,8 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_name": {
-                                    "translate": "runes.rune_of_smallness",
-                                    "fallback": "Rune of Smallness"
+                                    "fallback": "Rune of Smallness",
+                                    "translate": "enchantment.shroomhearth.rune_of_smallness"
                                 },
                                 "minecraft:item_model": "shroomhearth:rune",
                                 "minecraft:rarity": "rare",

@@ -1,6 +1,7 @@
 {
     "description": {
-        "text": "Rune of Stability",
+        "fallback": "Rune of Stability",
+        "translate": "enchantment.shroomhearth.rune_of_stability",
         "color": "#be95d4"
     },
     "supported_items": "#shroomhearth:rune_supported",

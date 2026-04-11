@@ -11,8 +11,8 @@
                             "function": "set_components",
                             "components": {
                                 "minecraft:item_name": {
-                                    "translate": "runes.rune_of_swiftness",
-                                    "fallback": "Rune of Swiftnesss"
+                                    "fallback": "Rune of Swiftness",
+                                    "translate": "enchantment.shroomhearth.rune_of_swiftness"
                                 },
                                 "minecraft:item_model": "shroomhearth:rune",
                                 "minecraft:rarity": "rare",
