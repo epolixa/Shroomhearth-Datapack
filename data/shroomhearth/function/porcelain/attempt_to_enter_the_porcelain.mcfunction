@@ -13,5 +13,5 @@ execute if predicate shroomhearth:porcelain/can_enter_the_porcelain run function
 
 # Inform the Player if they cannot enter The Porcelain
 execute unless score @s nearby_porcelain_amphora matches 0 run title @s actionbar {"color":"white","translate":"item.shroomhearth.porcelain_amphora.too_close","fallback":"You may not enter the Porcelain here, another Player's Porcelain Amphora is too close"}
-execute unless score @s nearby_monster matches 0 run title @s actionbar {"color":"white","translate":"item.shroomhearth.porcelain.nearby_monster","fallback":"You may not enter the Porcelain now, there are monsters nearby"}
-execute unless predicate shroomhearth:porcelain/valid_position run title @s actionbar {"color":"white","translate":"item.shroomhearth.porcelain.invalid_position","fallback":"You may not enter the Porcelain here, the position is invalid"}
+execute unless score @s nearby_monster matches 0 run title @s actionbar {"color":"white","translate":"item.shroomhearth.porcelain_amphora.not_safe","fallback":"You may not enter The Porcelain now, there are monsters nearby"}
+execute unless predicate shroomhearth:porcelain/valid_position run title @s actionbar {"color":"white","translate":"item.shroomhearth.porcelain_amphora.invalid_position","fallback":"You may not enter The Porcelain here, the position is invalid"}
