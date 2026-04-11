@@ -12,8 +12,8 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_name": {
-                                    "translate": "quests.petri_pfish",
-                                    "fallback": "Petri Pfish"
+                                    "fallback": "Petri Pfish",
+                                    "translate": "item.shroomhearth.petri_pfish"
                                 },
                                 "minecraft:item_model": "shroomhearth:petri_pfish",
                                 "minecraft:custom_data": {

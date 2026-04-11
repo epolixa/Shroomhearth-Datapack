@@ -12,8 +12,8 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_name": {
-                                    "translate": "relics.threnel",
-                                    "fallback": "Threnel"
+                                    "fallback": "Threnel",
+                                    "translate": "item.shroomhearth.threnel"
                                 },
                                 "minecraft:item_model": "shroomhearth:threnel",
                                 "minecraft:rarity": "epic",
@@ -22,10 +22,12 @@
                                 },
                                 "minecraft:lore": [
                                     {
-                                        "text": "A treasured heirloom of Briskasin ice-craft"
+                                        "fallback": "A treasured heirloom of Briskasin ice-craft carrying a radiant",
+                                        "translate": "item.shroomhearth.threnel.lore.0"
                                     },
                                     {
-                                        "text": "carrying a radiant memory."
+                                        "fallback": "memory.",
+                                        "translate": "item.shroomhearth.threnel.lore.1"
                                     }
                                 ],
                                 "minecraft:custom_data": {

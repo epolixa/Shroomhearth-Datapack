@@ -12,8 +12,8 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_name": {
-                                    "translate": "quests.wondermerian_blade",
-                                    "fallback": "Wondermerian Blade"
+                                    "fallback": "Wondermerian Blade",
+                                    "translate": "quests.wondermerian_blade"
                                 },
                                 "minecraft:item_model": "shroomhearth:wondermerian_blade",
                                 "minecraft:rarity": "epic",
@@ -22,10 +22,12 @@
                                 },
                                 "minecraft:lore": [
                                     {
-                                        "text": "A ceremonial dagger traditionally bestowed "
+                                        "fallback": "A ceremonial dagger traditionally bestowed upon the most",
+                                        "translate": "item.shroomhearth.wondermerian_blade.lore.0"
                                     },
                                     {
-                                        "text": "upon the most illustrious of Wondermerian aristocrats."
+                                        "fallback": "illustrious of Wondermerian aristocrats.",
+                                        "translate": "item.shroomhearth.wondermerian_blade.lore.1"
                                     }
                                 ],
                                 "minecraft:custom_data": {

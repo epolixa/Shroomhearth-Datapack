@@ -12,8 +12,8 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_name": {
-                                    "translate": "relics.guardians_glaive",
-                                    "fallback": "Guardian's Glaive"
+                                    "fallback": "Guardian's Glaive",
+                                    "translate": "item.shroomhearth.guardians_glaive"
                                 },
                                 "minecraft:item_model": "shroomhearth:guardians_glaive",
                                 "minecraft:rarity": "epic",
@@ -22,10 +22,12 @@
                                 },
                                 "minecraft:lore": [
                                     {
-                                        "text": "Fallen heroes of ancient times wielded"
+                                        "fallback": "Fallen heroes of ancient times wielded this weapon against their",
+                                        "translate": "item.shroomhearth.guardians_glaive.lore.0"
                                     },
                                     {
-                                        "text": "this weapon against their OverLords"
+                                        "fallback": "OverLords.",
+                                        "translate": "item.shroomhearth.guardians_glaive.lore.1"
                                     }
                                 ],
                                 "minecraft:custom_data": {

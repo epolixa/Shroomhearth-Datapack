@@ -12,8 +12,8 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_name": {
-                                    "translate": "quests.petrichor_pond_pole",
-                                    "fallback": "Petrichor Pond Pole"
+                                    "fallback": "Petrichor Pond Pole",
+                                    "translate": "item.shroomhearth.petrichor_pond_pole"
                                 },
                                 "minecraft:item_model": "shroomhearth:petrichor_pond_pole",
                                 "minecraft:rarity": "epic",
