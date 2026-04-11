@@ -13,12 +13,13 @@
                                 "!minecraft:potion_contents": {},
                                 "!minecraft:use_remainder": {},
                                 "minecraft:item_name": {
-                                    "translate": "harmony.spores.peace",
-                                    "fallback": "Spores of Peace"
+                                    "fallback": "Spores of Peace",
+                                    "translate": "event.shroomhearth.spores_of_peace"
                                 },
                                 "minecraft:lore": [
                                     {
-                                        "translate": "harmony.spores.peace.tooltip"
+                                        "fallback": "Prevents monsters from spawning",
+                                        "translate": "event.shroomhearth.spores_of_peace.tooltip"
                                     }
                                 ],
                                 "minecraft:item_model": "shroomhearth:spores",

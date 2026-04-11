@@ -13,12 +13,13 @@
                                 "!minecraft:potion_contents": {},
                                 "!minecraft:use_remainder": {},
                                 "minecraft:item_name": {
-                                    "translate": "harmony.spores.keeping",
-                                    "fallback": "Spores of Keeping"
+                                    "fallback": "Spores of Keeping",
+                                    "translate": "event.shroomhearth.spores_of_keeping"
                                 },
                                 "minecraft:lore": [
                                     {
-                                        "translate": "harmony.spores.keeping.tooltip"
+                                        "fallback": "Enables the Keep Inventory game rule",
+                                        "translate": "event.shroomhearth.spores_of_keeping.tooltip"
                                     }
                                 ],
                                 "minecraft:item_model": "shroomhearth:spores",

@@ -13,12 +13,13 @@
                                 "!minecraft:potion_contents": {},
                                 "!minecraft:use_remainder": {},
                                 "minecraft:item_name": {
-                                    "translate": "harmony.spores.clemency",
-                                    "fallback": "Spores of Clemency"
+                                    "fallback": "Spores of Clemency",
+                                    "translate": "event.shroomhearth.spores_of_clemency"
                                 },
                                 "minecraft:lore": [
                                     {
-                                        "translate": "harmony.spores.clemency.tooltip"
+                                        "fallback": "Pauses the weather cycle",
+                                        "translate": "event.shroomhearth.spores_of_clemency.tooltip"
                                     }
                                 ],
                                 "minecraft:item_model": "shroomhearth:spores",

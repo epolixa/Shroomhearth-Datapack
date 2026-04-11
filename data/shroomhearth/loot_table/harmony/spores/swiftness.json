@@ -13,12 +13,13 @@
                                 "!minecraft:potion_contents": {},
                                 "!minecraft:use_remainder": {},
                                 "minecraft:item_name": {
-                                    "translate": "harmony.spores.swiftness",
-                                    "fallback": "Spores of Swiftness"
+                                    "fallback": "Spores of Swiftness",
+                                    "translate": "event.shroomhearth.spores_of_swiftness"
                                 },
                                 "minecraft:lore": [
                                     {
-                                        "translate": "harmony.spores.swiftness.tooltip"
+                                        "fallback": "Applies +20%% Speed to all Players",
+                                        "translate": "event.shroomhearth.spores_of_swiftness.tooltip"
                                     }
                                 ],
                                 "minecraft:item_model": "shroomhearth:spores",

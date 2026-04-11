@@ -13,12 +13,13 @@
                                 "!minecraft:potion_contents": {},
                                 "!minecraft:use_remainder": {},
                                 "minecraft:item_name": {
-                                    "translate": "harmony.spores.armor",
-                                    "fallback": "Spores of Armor"
+                                    "fallback": "Spores of Armor",
+                                    "translate": "event.shroomhearth.spores_of_armor"
                                 },
                                 "minecraft:lore": [
                                     {
-                                        "translate": "harmony.spores.armor.tooltip"
+                                        "fallback": "Applies +4 Armor to all Players",
+                                        "translate": "event.shroomhearth.spores_of_armor.tooltip"
                                     }
                                 ],
                                 "minecraft:item_model": "shroomhearth:spores",

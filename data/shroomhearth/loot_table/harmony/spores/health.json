@@ -13,12 +13,13 @@
                                 "!minecraft:potion_contents": {},
                                 "!minecraft:use_remainder": {},
                                 "minecraft:item_name": {
-                                    "translate": "harmony.spores.health",
-                                    "fallback": "Spores of Health"
+                                    "fallback": "Spores of Health",
+                                    "translate": "event.shroomhearth.spores_of_health"
                                 },
                                 "minecraft:lore": [
                                     {
-                                        "translate": "harmony.spores.health.tooltip"
+                                        "fallback": "Applies +4 Max Health to all Players",
+                                        "translate": "event.shroomhearth.spores_of_health.tooltip"
                                     }
                                 ],
                                 "minecraft:item_model": "shroomhearth:spores",

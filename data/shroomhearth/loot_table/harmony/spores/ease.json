@@ -13,12 +13,13 @@
                                 "!minecraft:potion_contents": {},
                                 "!minecraft:use_remainder": {},
                                 "minecraft:item_name": {
-                                    "translate": "harmony.spores.ease",
-                                    "fallback": "Spores of Ease"
+                                    "fallback": "Spores of Ease",
+                                    "translate": "event.shroomhearth.spores_of_ease"
                                 },
                                 "minecraft:lore": [
                                     {
-                                        "translate": "harmony.spores.ease.tooltip"
+                                        "fallback": "Changes the Difficulty to Easy",
+                                        "translate": "event.shroomhearth.spores_of_ease.tooltip"
                                     }
                                 ],
                                 "minecraft:item_model": "shroomhearth:spores",

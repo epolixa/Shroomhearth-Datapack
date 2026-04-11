@@ -13,12 +13,13 @@
                                 "!minecraft:potion_contents": {},
                                 "!minecraft:use_remainder": {},
                                 "minecraft:item_name": {
-                                    "translate": "harmony.spores.haste",
-                                    "fallback": "Spores of Haste"
+                                    "fallback": "Spores of Haste",
+                                    "translate": "event.shroomhearth.spores_of_haste"
                                 },
                                 "minecraft:lore": [
                                     {
-                                        "translate": "harmony.spores.haste.tooltip"
+                                        "fallback": "Applies +10%% Attack Speed and +20%% Block Break Speed to all Players",
+                                        "translate": "event.shroomhearth.spores_of_haste.tooltip"
                                     }
                                 ],
                                 "minecraft:item_model": "shroomhearth:spores",

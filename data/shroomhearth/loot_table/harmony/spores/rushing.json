@@ -13,12 +13,13 @@
                                 "!minecraft:potion_contents": {},
                                 "!minecraft:use_remainder": {},
                                 "minecraft:item_name": {
-                                    "translate": "harmony.spores.rushing",
-                                    "fallback": "Spores of Rushing"
+                                    "fallback": "Spores of Rushing",
+                                    "translate": "event.shroomhearth.spores_of_rushing"
                                 },
                                 "minecraft:lore": [
                                     {
-                                        "translate": "harmony.spores.rushing.tooltip"
+                                        "fallback": "Increases random tick speed to 30",
+                                        "translate": "event.shroomhearth.spores_of_rushing.tooltip"
                                     }
                                 ],
                                 "minecraft:item_model": "shroomhearth:spores",
