@@ -1,0 +1,4 @@
+/setblock ~ ~ ~ minecraft:trial_spawner{
+    normal_config:"shroomhearth:zombie/normal",
+    ominous_config:"shroomhearth:zombie/ominous"
+}

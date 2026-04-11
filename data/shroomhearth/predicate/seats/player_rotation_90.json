@@ -1,0 +1,10 @@
+{
+    "condition": "minecraft:entity_scores",
+    "entity": "this",
+    "scores": {
+        "rotation_yaw": {
+            "min": 45,
+            "max": 134
+        }
+    }
+}

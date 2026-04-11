@@ -1,0 +1,19 @@
+/setblock ~ ~ ~ minecraft:vault[ominous=true]{
+    config: {
+        loot_table: "shroomhearth:dungeons/ominous_vault/reward",
+        key_item: {
+            id: "minecraft:ominous_trial_key",
+            count: 1,
+            components: {
+                "minecraft:item_name": {
+                  "translate": "hallow_vale.ominous_hallow_vale_trial_key",
+                  "fallback": "Ominous Hallow Vale Trial Key"
+                },
+                "minecraft:item_model": "shroomhearth:ominous_hallow_vale_trial_key",
+                "minecraft:custom_data": {
+                  "shroomhearth_id": "ominous_hallow_vale_trial_key"
+                }
+            }
+        }
+    }
+}

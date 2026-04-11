@@ -1,0 +1,2 @@
+function shroomhearth:allay_bottle/scoreboard/remove
+function shroomhearth:allay_bottle/scoreboard/add

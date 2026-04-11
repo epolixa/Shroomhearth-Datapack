@@ -129,7 +129,7 @@
                                 "minecraft:item_name": "Parched Skull",
                                 "minecraft:note_block_sound": "minecraft:entity.parched.ambient",
                                 "minecraft:custom_data": {
-                                    "spore": "parched_skull"
+                                    "shroomhearth_id": "parched_skull"
                                 },
                                 "minecraft:profile": {
                                     "properties": [

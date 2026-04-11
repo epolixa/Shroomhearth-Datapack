@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "has_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "shroomhearth:ender_tome"
+            }
+        }
+    },
+    "rewards": {
+        "function": "shroomhearth:ender_tome/advancement_reward/activate_ender_tome"
+    }
+}

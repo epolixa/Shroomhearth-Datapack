@@ -1,0 +1,35 @@
+{
+	"parent": "shroomhearth:shroomhearth_guide",
+	"display": {
+		"icon": {
+			"id": "minecraft:glistering_melon_slice",
+			"components": {
+				"minecraft:item_model": "shroomhearth:harmony_cap"
+			}
+		},
+		"title": {
+			"fallback": "Friendly Forager",
+			"translate": "advancements.shroomhearth_guide.friendly_forager.title"
+		},
+		"description": {
+			"fallback": "Find a Harmony Cap nearby other Players",
+			"translate": "advancements.shroomhearth_guide.friendly_forager.description"
+		}
+	},
+	"criteria": {
+		"friendly_forager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"predicates": {
+							"minecraft:custom_data": {
+								"shroomhearth_id": "harmony_cap"
+							}
+						}
+					}
+				]
+			}
+		}
+	}
+}

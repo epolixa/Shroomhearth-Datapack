@@ -94,7 +94,7 @@
                                 "minecraft:item_name": "Spider Head",
                                 "minecraft:note_block_sound": "minecraft:entity.spider.ambient",
                                 "minecraft:custom_data": {
-                                    "spore": "spider_head"
+                                    "shroomhearth_id": "spider_head"
                                 },
                                 "minecraft:profile": {
                                     "properties": [

@@ -1,0 +1,58 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_carpet": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:purple_carpet"
+                    }
+                ]
+            }
+        },
+        "has_saddle": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:saddle"
+                    }
+                ]
+            }
+        },
+        "has_seat": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "shroomhearth_id": "purple_seat"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "has_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "shroomhearth:seats/purple_seat"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_carpet",
+            "has_saddle",
+            "has_seat",
+            "has_recipe"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "shroomhearth:seats/purple_seat"
+        ]
+    }
+}

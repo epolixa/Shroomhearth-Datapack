@@ -1,0 +1,35 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:egg",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": [
+                                    {
+                                        "fallback": "Tropical Fish",
+                                        "translate": "entity.minecraft.tropical_fish"
+                                    },
+                                    {
+                                        "fallback": " Painted Egg",
+                                        "translate": "item.shroomhearth.painted_egg"
+                                    }
+                                ],
+                                "minecraft:item_model": "minecraft:tropical_fish_spawn_egg",
+                                "minecraft:custom_data": {
+                                    "shroomhearth_id": "tropical_fish_painted_egg"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

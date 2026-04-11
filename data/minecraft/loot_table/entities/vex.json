@@ -29,7 +29,7 @@
                 "minecraft:item_name": "Vex Head",
                 "minecraft:note_block_sound": "minecraft:entity.vex.ambient",
                 "minecraft:custom_data": {
-                  "spore": "vex_head"
+                  "shroomhearth_id": "vex_head"
                 },
                 "minecraft:profile": {
                   "properties": [

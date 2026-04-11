@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "player_hurt_seat": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:interaction",
+                    "nbt": {"Tags":["seat_interaction"]}
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "shroomhearth:seats/advancement_reward/player_hurt_seat"
+    }
+}

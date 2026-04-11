@@ -114,7 +114,7 @@
                 "minecraft:item_name": "Zombified Piglin Head",
                 "minecraft:note_block_sound": "minecraft:entity.zombified_piglin.ambient",
                 "minecraft:custom_data": {
-                  "spore": "zombified_piglin_head"
+                  "shroomhearth_id": "zombified_piglin_head"
                 },
                 "minecraft:profile": {
                   "properties": [

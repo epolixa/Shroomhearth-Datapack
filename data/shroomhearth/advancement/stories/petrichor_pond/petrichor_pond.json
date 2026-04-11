@@ -1,0 +1,39 @@
+{
+	"parent": "shroomhearth:_shroomhearth_stories",
+	"display": {
+		"icon": {
+			"id": "minecraft:firefly_bush"
+		},
+		"title": {
+			"fallback": "Petrichor Pond",
+			"translate": "advancements.stories.petrichor_pond.petrichor_pond.root.title"
+		},
+		"description": {
+			"fallback": "Visit Petrichor Pond",
+			"translate": "advancements.stories.petrichor_pond.petrichor_pond.root.description"
+		},
+		"frame": "task"
+	},
+	"criteria": {
+		"petrichor_pond": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"dimension": "minecraft:overworld",
+						"position": {
+							"x": {
+								"min": 999999,
+								"max": 999999
+							},
+							"z": {
+								"min": 999999,
+								"max": 999999
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

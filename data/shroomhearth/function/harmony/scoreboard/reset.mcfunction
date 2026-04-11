@@ -1,0 +1,2 @@
+function shroomhearth:harmony/scoreboard/remove
+function shroomhearth:harmony/scoreboard/add

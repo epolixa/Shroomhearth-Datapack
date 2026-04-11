@@ -1,1 +1,0 @@
-tellraw @p [{"text": "Your Arena K/D: "}, {"score": {"name": "@p", "objective": "arenaKills"}, "color": "green"}, {"text": "/"}, {"score": {"name": "@p", "objective": "arenaDeaths"}, "color": "red"}]

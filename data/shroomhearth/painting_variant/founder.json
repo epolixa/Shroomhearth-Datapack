@@ -2,6 +2,12 @@
     "asset_id": "shroomhearth:founder",
     "height": 1,
     "width": 1,
-    "author": "epolixa",
-    "title": "Founder"
+    "author": {
+        "fallback": "epolixa",
+        "translate":"painting.shroomhearth.founder.author"
+    },
+    "title": {
+        "fallback": "Founder",
+        "translate":"painting.shroomhearth.founder.title"
+    }
 }

@@ -130,7 +130,7 @@
                                 "minecraft:item_name": "Zombie Villager Head",
                                 "minecraft:note_block_sound": "minecraft:entity.zombie_villager.ambient",
                                 "minecraft:custom_data": {
-                                    "spore": "zombie_villager_head"
+                                    "shroomhearth_id": "zombie_villager_head"
                                 },
                                 "minecraft:profile": {
                                     "properties": [

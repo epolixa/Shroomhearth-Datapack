@@ -1,0 +1,87 @@
+{
+	"parent": "shroomhearth:shroomhearth_challenges",
+	"display": {
+		"icon": {
+			"id": "minecraft:player_head",
+			"components": {
+				"minecraft:profile": {
+					"name": "Natsirk"
+				}
+			}
+		},
+		"title": {
+			"fallback": "Boreal Baker",
+			"translate": "advancements.shroomhearth_challenges.boreal_baker.title"
+		},
+		"description": [
+			{
+				"fallback": "Craft every baked good while in a Taiga biome",
+				"translate": "advancements.shroomhearth_challenges.boreal_baker.description"
+			},
+			{
+				"text": "\n\n"
+			},
+			{
+				"color": "gray",
+				"fallback": "Created by: ",
+				"translate": "advancements.shroomhearth_challenges.created_by"
+			},
+			{
+				"color": "gray",
+				"text": "Natsirk"
+			}
+		],
+		"frame": "challenge"
+	},
+	"rewards": {
+		"loot": [
+			"shroomhearth:challenges/natsirk"
+		]
+	},
+	"criteria": {
+		"crafted_bread": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "minecraft:bread",
+				"player": {
+					"location": {
+						"biomes": "#shroomhearth:boreal_baker"
+					}
+				}
+			}
+		},
+		"crafted_cake": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "minecraft:cake",
+				"player": {
+					"location": {
+						"biomes": "#shroomhearth:boreal_baker"
+					}
+				}
+			}
+		},
+		"crafted_cookies": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "minecraft:cookie",
+				"player": {
+					"location": {
+						"biomes": "#shroomhearth:boreal_baker"
+					}
+				}
+			}
+		},
+		"crafted_pumpkin_pie": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "minecraft:pumpkin_pie",
+				"player": {
+					"location": {
+						"biomes": "#shroomhearth:boreal_baker"
+					}
+				}
+			}
+		}
+	}
+}

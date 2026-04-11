@@ -1,0 +1,25 @@
+{
+	"parent": "shroomhearth:cooperative_sleep/slumber_party",
+	"display": {
+		"icon": {
+			"id": "minecraft:pig_spawn_egg",
+			"components": {
+				"minecraft:item_model": "shroomhearth:white_seat"
+			}
+		},
+		"title": {
+			"fallback": "Take a Seat",
+			"translate": "advancements.shroomhearth_guide.take_a_seat.title"
+		},
+		"description": {
+			"fallback": "Sit on a Seat",
+			"translate": "advancements.shroomhearth_guide.take_a_seat.description"
+		},
+		"frame": "task"
+	},
+	"criteria": {
+		"take_a_seat": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

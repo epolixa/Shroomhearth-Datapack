@@ -29,7 +29,7 @@
                 "minecraft:item_name": "Wither Head",
                 "minecraft:note_block_sound": "minecraft:entity.wither.ambient",
                 "minecraft:custom_data": {
-                  "spore": "wither_head"
+                  "shroomhearth_id": "wither_head"
                 },
                 "minecraft:profile": {
                   "properties": [

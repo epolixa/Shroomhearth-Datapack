@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:crimson_hyphae"
+        },
+        "title": {
+            "fallback": "Shroomhearth Challenges",
+            "translate": "advancements.shroomhearth_challenges.root.title"
+        },
+        "description": {
+            "fallback": "Take on various challenges created by Players",
+            "translate": "advancements.shroomhearth_challenges.root.description"
+        },
+        "background": "minecraft:block/stripped_crimson_stem",
+        "frame": "task",
+        "show_toast": false,
+		"announce_to_chat": false
+    },
+    "criteria": {
+        "shroomhearth_challenges": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

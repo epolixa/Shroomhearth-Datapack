@@ -1,0 +1,46 @@
+{
+	"parent": "shroomhearth:shroomhearth_challenges",
+	"display": {
+		"icon": {
+			"id": "minecraft:player_head",
+			"components": {
+				"minecraft:profile": {
+					"name": "Omega825"
+				}
+			}
+		},
+		"title": {
+			"fallback": "Omega825",
+			"translate": "advancements.shroomhearth_challenges.omega825.title"
+		},
+		"description": [
+			{
+				"fallback": "Place 8,250 rails",
+				"translate": "advancements.shroomhearth_challenges.omega825.description"
+			},
+			{
+				"text": "\n\n"
+			},
+			{
+				"color": "gray",
+				"fallback": "Created by: ",
+				"translate": "advancements.shroomhearth_challenges.created_by"
+			},
+			{
+				"color": "gray",
+				"text": "Omega825"
+			}
+		],
+		"frame": "challenge"
+	},
+	"rewards": {
+		"loot": [
+			"shroomhearth:challenges/omega825"
+		]
+	},
+	"criteria": {
+		"placed_blocks": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "consume_spores_of_clemency": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "predicates": {
+                        "minecraft:custom_data": {
+                            "shroomhearth_id": "spores_of_clemency"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "shroomhearth:harmony/advancement_reward/consume_spores/clemency"
+    }
+}

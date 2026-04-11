@@ -1,0 +1,10 @@
+{
+    "condition": "minecraft:match_tool",
+    "predicate": {
+        "predicates": {
+            "minecraft:custom_data": {
+                "shroomhearth_id": "gray_seat"
+            }
+        }
+    }
+}

@@ -1,0 +1,1 @@
+$data modify storage shroomhearth:ender_tome selected_enhanceable_enchantment set from storage shroomhearth:ender_tome enhanceable_enchantments[$(random_enhanceable_enchantment_index)]

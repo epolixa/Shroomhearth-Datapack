@@ -1,0 +1,2 @@
+function shroomhearth:challenges/scoreboard/remove
+function shroomhearth:challenges/scoreboard/add

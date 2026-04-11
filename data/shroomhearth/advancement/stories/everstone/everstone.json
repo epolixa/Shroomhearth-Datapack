@@ -1,0 +1,39 @@
+{
+	"parent": "shroomhearth:_shroomhearth_stories",
+	"display": {
+		"icon": {
+			"id": "minecraft:gray_candle"
+		},
+		"title": {
+			"fallback": "Everstone",
+			"translate": "advancements.stories.everstone.everstone.root.title"
+		},
+		"description": {
+			"fallback": "Visit Everstone",
+			"translate": "advancements.stories.everstone.everstone.root.description"
+		},
+		"frame": "task"
+	},
+	"criteria": {
+		"everstone": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"dimension": "minecraft:overworld",
+						"position": {
+							"x": {
+								"min": 999999,
+								"max": 999999
+							},
+							"z": {
+								"min": 999999,
+								"max": 999999
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

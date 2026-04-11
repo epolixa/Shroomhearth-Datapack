@@ -1,0 +1,46 @@
+{
+	"parent": "shroomhearth:shroomhearth_challenges",
+	"display": {
+		"icon": {
+			"id": "minecraft:player_head",
+			"components": {
+				"minecraft:profile": {
+					"name": "AlMightyA"
+				}
+			}
+		},
+		"title": {
+			"fallback": "AlMightyA",
+			"translate": "advancements.shroomhearth_challenges.almightya.title"
+		},
+		"description": [
+			{
+				"fallback": "Mine 1,000,000 Stone, Granite, Diorite, Andesite, Tuff, or Deepslate",
+				"translate": "advancements.shroomhearth_challenges.almightya.description"
+			},
+			{
+				"text": "\n\n"
+			},
+			{
+				"color": "gray",
+				"fallback": "Created by: ",
+				"translate": "advancements.shroomhearth_challenges.created_by"
+			},
+			{
+				"color": "gray",
+				"text": "AlMightyA"
+			}
+		],
+		"frame": "challenge"
+	},
+	"rewards": {
+		"loot": [
+			"shroomhearth:challenges/almightya"
+		]
+	},
+	"criteria": {
+		"mined_blocks": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

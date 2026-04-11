@@ -1,0 +1,10 @@
+{
+	"criteria": {
+		"tame_animal": {
+			"trigger": "minecraft:tame_animal"
+		}
+	},
+	"rewards": {
+		"function": "shroomhearth:extra_xp/advancement_reward/tame_animal"
+	} 
+}

@@ -1,0 +1,25 @@
+{
+	"parent": "shroomhearth:warden/tug_of_warden",
+	"display": {
+		"icon": {
+			"id": "minecraft:goat_horn",
+			"components": {
+				"minecraft:item_model": "shroomhearth:echo_horn"
+			}
+		},
+		"title": {
+			"fallback": "Homebound",
+			"translate": "advancements.shroomhearth_guide.homebound.title"
+		},
+		"description": {
+			"fallback": "Use your Echo Horn to teleport to your respawn point",
+			"translate": "advancements.shroomhearth_guide.homebound.description"
+		},
+		"frame": "task"
+	},
+	"criteria": {
+		"homebound": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

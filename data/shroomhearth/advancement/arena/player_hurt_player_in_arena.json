@@ -1,0 +1,30 @@
+{
+	"criteria": {
+		"player_hurt_player_in_arena": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "minecraft:player",
+							"distance": {
+								"absolute": {
+									"min": 0.0625
+								}
+							}
+						}
+					},
+					{
+						"condition": "minecraft:reference",
+						"name": "shroomhearth:arena/player_in_arena"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "shroomhearth:arena/advancement_reward/player_hurt_player_in_arena"
+	}
+}

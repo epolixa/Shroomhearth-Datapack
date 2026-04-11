@@ -1,0 +1,55 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "!minecraft:potion_contents": {},
+                                "!minecraft:use_remainder": {},
+                                "minecraft:item_name": {
+                                    "fallback": "Spores of Egg Hunt",
+                                    "translate": "event.shroomhearth.spores_of_egg_hunt"
+                                },
+                                "minecraft:lore": [
+                                    {
+                                        "fallback": "Rabbits drop a Painted Egg after eating Carrots",
+                                        "translate": "event.shroomhearth.spores_of_egg_hunt.tooltip"
+                                    }
+                                ],
+                                "minecraft:item_model": "shroomhearth:spores",
+                                "minecraft:consumable": {
+                                    "consume_seconds": 0.8,
+                                    "animation": "crossbow",
+                                    "sound": {
+                                        "sound_id": ""
+                                    },
+                                    "has_consume_particles": false
+                                },
+                                "minecraft:max_stack_size": 64,
+                                "minecraft:custom_model_data": {
+                                    "colors": [
+                                        [
+                                            0.63,
+                                            0.45,
+                                            0.3
+                                        ]
+                                    ]
+                                },
+                                "minecraft:rarity": "uncommon",
+                                "minecraft:custom_data": {
+                                    "shroomhearth_id": "spores_of_egg_hunt"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

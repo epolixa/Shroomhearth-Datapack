@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "wheat_picked_up": {
+            "trigger": "minecraft:thrown_item_picked_up_by_entity",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:bread"
+                },
+                "entity": {
+                    "type": "minecraft:villager"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "shroomhearth:challenges/advancement_reward/depressus/thrown_bread_picked_up_by_villager"
+    }
+}

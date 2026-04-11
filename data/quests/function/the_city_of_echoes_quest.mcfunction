@@ -1,1 +1,0 @@
-advancement grant @s only quests:reward_jerry_rig

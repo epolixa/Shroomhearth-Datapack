@@ -1,0 +1,24 @@
+[
+    {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+            "movement_affected_by": {
+                "block": {
+                    "blocks": "minecraft:slime_block"
+                }
+            }
+        }
+    },
+    {
+        "condition": "minecraft:location_check",
+        "predicate": {
+            "position": {
+                "y": {
+                    "min": -64,
+                    "max": -58
+                }
+            }
+        }
+    }
+]

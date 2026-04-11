@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "echo_horn_interrupted": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "player": {
+                    "nbt": "{Tags:[\"using_echo_horn\"]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "shroomhearth:echo_horn/advancement_reward/echo_horn_interrupted"
+    }
+}

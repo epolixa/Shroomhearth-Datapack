@@ -125,7 +125,7 @@
                 "minecraft:item_name": "Hoglin Head",
                 "minecraft:note_block_sound": "minecraft:entity.hoglin.ambient",
                 "minecraft:custom_data": {
-                  "spore": "hoglin_head"
+                  "shroomhearth_id": "hoglin_head"
                 },
                 "minecraft:profile": {
                   "properties": [

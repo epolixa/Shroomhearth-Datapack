@@ -1,0 +1,28 @@
+{
+    "criteria": {
+        "harvest_beehive": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:match_tool",
+                        "predicate": {
+                            "items": "#shroomhearth:beehive_tools"
+                        }
+                    },
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": "#minecraft:beehives"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "shroomhearth:extra_xp/advancement_reward/harvest_beehive"
+    }
+}

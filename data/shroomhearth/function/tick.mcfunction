@@ -5,25 +5,25 @@ execute as @a[scores={death_count=1..}] run function shroomhearth:player_died
 execute as @a[tag=!respawned,scores={time_since_death=1..}] run function shroomhearth:player_respawned
 
 # Warped Fungus on a Stick trigger detection
-execute as @a[scores={useWarpedFungusStick=1..}] at @s run function shroomhearth:use_warped_fungus_stick
+execute as @a[scores={used_warped_fungus_on_a_stick=1..}] at @s run function shroomhearth:used_warped_fungus_on_a_stick
 
 # Goat horn trigger detection
-execute as @a[scores={use_goat_horn=1..}] at @s run function shroomhearth:use_goat_horn
+execute as @a[scores={used_goat_horn=1..}] at @s run function shroomhearth:used_goat_horn
 
-# Porcelain tick functions - execute if a player exists
-execute if entity @p run function porcelain:tick
+# Tick in The Porcelain dimension if a player exists in it
+execute if entity @p[predicate=shroomhearth:porcelain/in_the_porcelain] in shroomhearth:the_porcelain run function shroomhearth:porcelain/tick_the_porcelain
 
-# Multiplayer sleep - only run when more than one player is online
-execute if score PLAYER_COUNT shroomhearth matches 2.. as @a[tag=sleeping] run function sleeping:tick
+# Cooperative sleep - only run when more than one player is online
+execute if score player_count shroomhearth matches 2.. as @a[tag=sleeping] run function shroomhearth:cooperative_sleep/tick
 
-# Spawn Eggs from Mob Spawners - execute if a mob spawner item entity exists
-execute as @e[type=item,nbt={Age:0s,Item:{id:"minecraft:spawner"}}] run function spawner_eggs:tick
+# Spawn Eggs from Spawners - execute if a Spawner item entity exists
+execute as @e[type=minecraft:item,nbt={Item:{id:"minecraft:spawner"}}] at @s run function shroomhearth:replace_spawner_item_with_spawn_egg
 
 # Clone random experience orb - execute if Spores of Experience is active
-execute if score spores_of_experience shroomhearth matches 1.. if predicate shroomhearth:random_chance_50 as @e[type=minecraft:experience_orb,tag=!double_xp,limit=1,sort=random] at @s run function harmony:spores/experience/double_experience_orb
+execute if score spores_of_experience shroomhearth.harmony matches 1.. as @e[type=minecraft:experience_orb,tag=!double_xp,limit=1,sort=random] at @s run function shroomhearth:harmony/spores/experience/double_experience_orb
 
-# Relic enchantments
-function relics:tick
+# Some relic enchantments require execution every tick
+function shroomhearth:stories/relics/tick
 
 # Misc XP - execute as item entities that have just appeared, at those items, as players within 6 blocks of those items
 # keeping this disabled for now, in case we ever get a mined_block trigger

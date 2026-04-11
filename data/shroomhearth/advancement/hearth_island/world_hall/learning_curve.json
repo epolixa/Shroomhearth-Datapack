@@ -1,0 +1,25 @@
+{
+	"parent": "shroomhearth:hearth_island/hearth_island",
+	"display": {
+		"icon": {
+			"id": "minecraft:knowledge_book"
+		},
+		"title": {
+			"fallback": "Learning Curve",
+			"translate": "advancements.hearth_island.hearth_island.learning_curve.title"
+		},
+		"description": {
+			"fallback": "Print a Knowledge Book at the World Hall",
+			"translate": "advancements.hearth_island.hearth_island.learning_curve.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"print": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

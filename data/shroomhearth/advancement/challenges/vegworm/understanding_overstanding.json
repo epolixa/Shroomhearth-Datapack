@@ -1,0 +1,64 @@
+{
+	"parent": "shroomhearth:shroomhearth_challenges",
+	"display": {
+		"icon": {
+			"id": "minecraft:player_head",
+			"components": {
+				"minecraft:profile": {
+					"name": "vegworm"
+				}
+			}
+		},
+		"title": {
+			"fallback": "Understanding Overstanding",
+			"translate": "advancements.shroomhearth_challenges.understanding_overstanding.title"
+		},
+		"description": [
+			{
+				"fallback": "Place 1,000 Armor Stands",
+				"translate": "advancements.shroomhearth_challenges.understanding_overstanding.description"
+			},
+			{
+				"text": "\n\n"
+			},
+			{
+				"color": "gray",
+				"fallback": "Created by: ",
+				"translate": "advancements.shroomhearth_challenges.created_by"
+			},
+			{
+				"color": "gray",
+				"text": "vegworm"
+			}
+		],
+		"frame": "challenge"
+	},
+	"rewards": {
+		"loot": [
+			"shroomhearth:challenges/vegworm"
+		]
+	},
+	"criteria": {
+		"understanding_overstanding": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:armor_stand"
+					}
+				],
+				"player": [
+					{
+						"condition": "entity_scores",
+						"entity": "this",
+						"scores": {
+							"used_armor_stand": {
+								"min": 1000
+							}
+						}
+					}
+				]
+			}
+		}
+	}
+}

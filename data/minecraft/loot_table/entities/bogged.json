@@ -129,7 +129,7 @@
                 "minecraft:item_name": "Bogged Skull",
                 "minecraft:note_block_sound": "minecraft:entity.bogged.ambient",
                 "minecraft:custom_data": {
-                  "spore": "bogged_skull"
+                  "shroomhearth_id": "bogged_skull"
                 },
                 "minecraft:profile": {
                   "properties": [

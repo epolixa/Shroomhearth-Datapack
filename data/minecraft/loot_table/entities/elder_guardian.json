@@ -228,7 +228,7 @@
                 "minecraft:item_name": "Elder Guardian Carapace",
                 "minecraft:note_block_sound": "minecraft:entity.elder_guardian.ambient",
                 "minecraft:custom_data": {
-                  "spore": "elder_guardian_carapace"
+                  "shroomhearth_id": "elder_guardian_carapace"
                 },
                 "minecraft:profile": {
                   "properties": [

@@ -59,7 +59,7 @@
                 "minecraft:item_name": "Zoglin Head",
                 "minecraft:note_block_sound": "minecraft:entity.zoglin.ambient",
                 "minecraft:custom_data": {
-                  "spore": "zoglin_head"
+                  "shroomhearth_id": "zoglin_head"
                 },
                 "minecraft:profile": {
                   "properties": [

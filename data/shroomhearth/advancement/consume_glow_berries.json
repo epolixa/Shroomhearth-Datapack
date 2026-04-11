@@ -1,0 +1,15 @@
+{
+	"criteria": {
+		"consume_glow_berries": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"items": "minecraft:glow_berries"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "shroomhearth:advancement_reward/consume_glow_berries"
+	} 
+}

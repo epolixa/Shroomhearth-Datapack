@@ -1,0 +1,29 @@
+{
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "shroomhearth:harmony/spores/ease"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "shroomhearth:harmony/spores/egg_hunt"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "shroomhearth:harmony/spores/experience"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "shroomhearth:harmony/spores/continuity"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "shroomhearth:harmony/spores/clemency"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

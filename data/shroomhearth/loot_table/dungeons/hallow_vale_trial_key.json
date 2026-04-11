@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:trial_key",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "fallback": "Hallow Vale Trial Key",
+                  "translate": "item.shroomhearth.hallow_vale_trial_key"
+                },
+                "minecraft:item_model": "shroomhearth:hallow_vale_trial_key",
+                "minecraft:custom_data": {
+                  "shroomhearth_id": "hallow_vale_trial_key"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:spawners/trial_chamber/key"
+}

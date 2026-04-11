@@ -1,0 +1,22 @@
+{
+	"parent": "shroomhearth:hearth_island/haberdasher/haberdasher",
+	"display": {
+		"icon": {
+			"id": "minecraft:player_head"
+		},
+		"title": {
+			"fallback": "Face Painter",
+			"translate": "advancements.hearth_island.hearth_island.face_painter.title"
+		},
+		"description": {
+			"fallback": "Create a custom Player Head at the Haberdasher",
+			"translate": "advancements.hearth_island.hearth_island.face_painter.description"
+		},
+		"frame": "task"
+	},
+	"criteria": {
+		"face_painter": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "consume_echo_kernel": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "predicates": {
+                        "minecraft:custom_data": {
+                            "shroomhearth_id": "echo_kernel"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "shroomhearth:echo_kernel/advancement_reward/consume_echo_kernel"
+    }
+}

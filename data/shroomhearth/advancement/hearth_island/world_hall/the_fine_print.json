@@ -1,0 +1,25 @@
+{
+	"parent": "shroomhearth:hearth_island/world_hall/learning_curve",
+	"display": {
+		"icon": {
+			"id": "minecraft:writable_book"
+		},
+		"title": {
+			"fallback": "The Fine Print",
+			"translate": "advancements.hearth_island.hearth_island.the_fine_print.title"
+		},
+		"description": {
+			"fallback": "Print lore onto an item at the World Hall",
+			"translate": "advancements.hearth_island.hearth_island.the_fine_print.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"print": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

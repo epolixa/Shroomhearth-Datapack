@@ -1,0 +1,10 @@
+{
+	"criteria": {
+		"cured_zombie_villager": {
+			"trigger": "minecraft:cured_zombie_villager"
+		}
+	},
+	"rewards": {
+		"function": "shroomhearth:extra_xp/advancement_reward/cured_zombie_villager"
+	} 
+}

@@ -29,7 +29,7 @@
                 "minecraft:item_name": "Endermite Head",
                 "minecraft:note_block_sound": "minecraft:entity.endermite.ambient",
                 "minecraft:custom_data": {
-                  "spore": "endermite_head"
+                  "shroomhearth_id": "endermite_head"
                 },
                 "minecraft:profile": {
                   "properties": [

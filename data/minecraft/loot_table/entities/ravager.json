@@ -46,7 +46,7 @@
                 "minecraft:item_name": "Ravager Head",
                 "minecraft:note_block_sound": "minecraft:entity.ravager.ambient",
                 "minecraft:custom_data": {
-                  "spore": "ravager_head"
+                  "shroomhearth_id": "ravager_head"
                 },
                 "minecraft:profile": {
                   "properties": [

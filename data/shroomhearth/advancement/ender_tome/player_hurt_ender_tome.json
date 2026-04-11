@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "player_hurt_ender_tome": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:interaction",
+                            "nbt": "{Tags:[\"ender_tome_interaction\"]}"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "shroomhearth:ender_tome/advancement_reward/player_hurt_ender_tome"
+    }
+}

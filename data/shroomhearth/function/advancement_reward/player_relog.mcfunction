@@ -1,0 +1,24 @@
+# Executor: A player who relogged
+# Position: The player entity
+
+# A player is considered to have relogged if they have a non-zero leave_game score.
+# This score is incremented the moment they leave the game and is not detected by the advancement until they log back in.
+
+tellraw @a[tag=debug_shroomhearth] [{"text":"[shroomhearth:advancement_reward/player_relog] Player "},{"selector":"@s"},{"color":"white","text":" relogged"}]
+
+
+# Capture player UUID components
+function shroomhearth:score_uuid
+function shroomhearth:store_target_uuid
+
+# Inform player about any active events
+function shroomhearth:harmony/spores/inform_spores
+
+# Trigger all Echoes to check for their tracked Players
+execute as @e[tag=echoes_interaction] at @s run function shroomhearth:echoes/m_find_echoes_player with entity @s data.player
+
+# Reset leave_game
+scoreboard players reset @s leave_game
+
+# Reset advancement trigger
+advancement revoke @s only shroomhearth:player_relog

@@ -1,0 +1,11 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "movement_affected_by": {
+            "block": {
+                "blocks": "#shroomhearth:swift_paths"
+            }
+        }
+    }
+}

@@ -1,2 +1,0 @@
-function community:objectives/remove
-function community:objectives/add

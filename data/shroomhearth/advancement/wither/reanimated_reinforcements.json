@@ -1,0 +1,28 @@
+{
+	"parent": "shroomhearth:shroomhearth_guide",
+	"display": {
+		"icon": {
+			"id": "minecraft:wither_skeleton_skull"
+		},
+		"title": {
+			"fallback": "Reanimated Reinforcements",
+			"translate": "advancements.shroomhearth_guide.reanimated_reinforcements.title"
+		},
+		"description": {
+			"fallback": "Kill a Wither Skeleton that has been summoned by a Wither",
+			"translate": "advancements.shroomhearth_guide.reanimated_reinforcements.description"
+		},
+		"frame": "task"
+	},
+	"criteria": {
+		"reanimated_reinforcements": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:wither_skeleton",
+					"team": "wither"
+				}
+			}
+		}
+	}
+}

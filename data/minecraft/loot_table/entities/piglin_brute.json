@@ -29,7 +29,7 @@
                 "minecraft:item_name": "Piglin Brute Head",
                 "minecraft:note_block_sound": "minecraft:entity.piglin_brute.ambient",
                 "minecraft:custom_data": {
-                  "spore": "piglin_brute_head"
+                  "shroomhearth_id": "piglin_brute_head"
                 },
                 "minecraft:profile": {
                   "properties": [

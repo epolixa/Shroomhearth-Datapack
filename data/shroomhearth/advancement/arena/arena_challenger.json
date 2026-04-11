@@ -1,0 +1,25 @@
+{
+	"parent": "shroomhearth:hearth_island/hearth_island",
+	"display": {
+		"icon": {
+			"id": "minecraft:netherite_helmet"
+		},
+		"title": {
+			"fallback": "Arena Challenger",
+			"translate": "advancements.hearth_island.hearth_island.arena_challenger.title"
+		},
+		"description": {
+			"fallback": "Defeat another Player in an Arena",
+			"translate": "advancements.hearth_island.hearth_island.arena_challenger.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"arena_challenger": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

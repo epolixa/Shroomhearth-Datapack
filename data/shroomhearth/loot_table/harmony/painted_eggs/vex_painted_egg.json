@@ -1,0 +1,35 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:egg",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": [
+                                    {
+                                        "fallback": "Vex",
+                                        "translate": "entity.minecraft.vex"
+                                    },
+                                    {
+                                        "fallback": " Painted Egg",
+                                        "translate": "item.shroomhearth.painted_egg"
+                                    }
+                                ],
+                                "minecraft:item_model": "minecraft:vex_spawn_egg",
+                                "minecraft:custom_data": {
+                                    "shroomhearth_id": "vex_painted_egg"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

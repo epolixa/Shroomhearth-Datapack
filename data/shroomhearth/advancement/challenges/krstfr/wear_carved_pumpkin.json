@@ -1,0 +1,29 @@
+{
+	"criteria": {
+		"wear_carved_pumpkin": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:carved_pumpkin"
+					}
+				],
+				"player": {
+					"equipment": {
+						"head": {
+							"items": "minecraft:carved_pumpkin"
+						}
+					},
+					"player": {
+						"advancements": {
+							"challenges:krstfr": false
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "challenges:krstfr"
+	} 
+}

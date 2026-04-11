@@ -1,0 +1,22 @@
+{
+	"parent": "shroomhearth:shroomhearth_guide",
+	"display": {
+		"icon": {
+			"id": "minecraft:purple_bed"
+		},
+		"title": {
+			"fallback": "Slumber Party",
+			"translate": "advancements.shroomhearth_guide.slumber_party.title"
+		},
+		"description": {
+			"fallback": "Sleep while other Players are in the Overworld to advance the night quickly",
+			"translate": "advancements.shroomhearth_guide.slumber_party.description"
+		},
+		"frame": "task"
+	},
+	"criteria": {
+		"slumber_party": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

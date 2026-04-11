@@ -1,0 +1,16 @@
+function shroomhearth:scoreboard/remove
+
+function shroomhearth:allay_bottle/scoreboard/remove
+function shroomhearth:arena/scoreboard/remove
+function shroomhearth:challenges/scoreboard/remove
+function shroomhearth:cooperative_sleep/scoreboard/remove
+function shroomhearth:echo_horn/scoreboard/remove
+function shroomhearth:echoes/scoreboard/remove
+function shroomhearth:ender_dragon/scoreboard/remove
+function shroomhearth:harmony/scoreboard/remove
+function shroomhearth:porcelain/scoreboard/remove
+function shroomhearth:raid/scoreboard/remove
+function shroomhearth:status_visibility/scoreboard/remove
+function shroomhearth:stories/scoreboard/remove
+function shroomhearth:wither/scoreboard/remove
+function shroomhearth:world_border/scoreboard/remove

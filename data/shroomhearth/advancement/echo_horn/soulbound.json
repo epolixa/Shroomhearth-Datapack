@@ -1,0 +1,25 @@
+{
+	"parent": "shroomhearth:echo_horn/homebound",
+	"display": {
+		"icon": {
+			"id": "minecraft:goat_horn",
+			"components": {
+				"minecraft:item_model": "shroomhearth:echo_horn"
+			}
+		},
+		"title": {
+			"fallback": "Soulbound",
+			"translate": "advancements.shroomhearth_guide.soulbound.title"
+		},
+		"description": {
+			"fallback": "Use another Player's Echo Horn to teleport to them",
+			"translate": "advancements.shroomhearth_guide.soulbound.description"
+		},
+		"frame": "task"
+	},
+	"criteria": {
+		"soulbound": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

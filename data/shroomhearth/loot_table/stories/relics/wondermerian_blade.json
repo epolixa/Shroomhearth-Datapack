@@ -1,0 +1,43 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_sword",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": {
+                                    "fallback": "Wondermerian Blade",
+                                    "translate": "quests.wondermerian_blade"
+                                },
+                                "minecraft:item_model": "shroomhearth:wondermerian_blade",
+                                "minecraft:rarity": "epic",
+                                "minecraft:enchantments": {
+                                    "shroomhearth:stories/wondermerian_agility": 1
+                                },
+                                "minecraft:lore": [
+                                    {
+                                        "fallback": "A ceremonial dagger traditionally bestowed upon the most",
+                                        "translate": "item.shroomhearth.wondermerian_blade.lore.0"
+                                    },
+                                    {
+                                        "fallback": "illustrious of Wondermerian aristocrats.",
+                                        "translate": "item.shroomhearth.wondermerian_blade.lore.1"
+                                    }
+                                ],
+                                "minecraft:custom_data": {
+                                    "shroomhearth_id": "wondermerian_blade"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

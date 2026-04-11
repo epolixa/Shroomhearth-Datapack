@@ -1,0 +1,43 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_spear",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": {
+                                    "fallback": "Guardian's Glaive",
+                                    "translate": "item.shroomhearth.guardians_glaive"
+                                },
+                                "minecraft:item_model": "shroomhearth:guardians_glaive",
+                                "minecraft:rarity": "epic",
+                                "minecraft:enchantments": {
+                                    "shroomhearth:stories/ender_rend": 1
+                                },
+                                "minecraft:lore": [
+                                    {
+                                        "fallback": "Fallen heroes of ancient times wielded this weapon against their",
+                                        "translate": "item.shroomhearth.guardians_glaive.lore.0"
+                                    },
+                                    {
+                                        "fallback": "OverLords.",
+                                        "translate": "item.shroomhearth.guardians_glaive.lore.1"
+                                    }
+                                ],
+                                "minecraft:custom_data": {
+                                    "shroomhearth_id": "guardians_glaive"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

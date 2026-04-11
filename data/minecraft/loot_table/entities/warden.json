@@ -39,7 +39,7 @@
                 "minecraft:item_name": "Warden Head",
                 "minecraft:note_block_sound": "minecraft:entity.warden.ambient",
                 "minecraft:custom_data": {
-                  "spore": "warden_head"
+                  "shroomhearth_id": "warden_head"
                 },
                 "minecraft:profile": {
                   "properties": [

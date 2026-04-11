@@ -1,0 +1,46 @@
+{
+	"parent": "shroomhearth:shroomhearth_challenges",
+	"display": {
+		"icon": {
+			"id": "minecraft:player_head",
+			"components": {
+				"minecraft:profile": {
+					"name": "lalalauraaaa"
+				}
+			}
+		},
+		"title": {
+			"fallback": "Crazy Dragon Lady",
+			"translate": "advancements.shroomhearth_challenges.crazy_dragon_lady.title"
+		},
+		"description": [
+			{
+				"fallback": "Slay 100 Ender Dragons",
+				"translate": "advancements.shroomhearth_challenges.crazy_dragon_lady.description"
+			},
+			{
+				"text": "\n\n"
+			},
+			{
+				"color": "gray",
+				"fallback": "Created by: ",
+				"translate": "advancements.shroomhearth_challenges.created_by"
+			},
+			{
+				"color": "gray",
+				"text": "lalalauraaaa"
+			}
+		],
+		"frame": "challenge"
+	},
+	"rewards": {
+		"loot": [
+			"shroomhearth:challenges/lalalauraaaa"
+		]
+	},
+	"criteria": {
+		"crazy_dragon_lady": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

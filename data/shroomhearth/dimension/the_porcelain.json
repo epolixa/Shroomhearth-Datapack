@@ -1,0 +1,23 @@
+{
+    "type": "shroomhearth:the_porcelain",
+    "generator": {
+        "type": "minecraft:flat",
+        "seed": 413,
+        "settings": {
+            "biome": "shroomhearth:porcelain",
+            "layers": [
+                {
+                    "block": "minecraft:bedrock",
+                    "height": 1
+                },
+                {
+                    "block": "minecraft:white_concrete",
+                    "height": 31
+                }
+            ],
+            "structures": {
+                "structures": {}
+            }
+        }
+    }
+}

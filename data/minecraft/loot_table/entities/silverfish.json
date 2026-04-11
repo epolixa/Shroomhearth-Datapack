@@ -57,7 +57,7 @@
                 "minecraft:item_name": "Silverfish Head",
                 "minecraft:note_block_sound": "minecraft:entity.silverfish.ambient",
                 "minecraft:custom_data": {
-                  "spore": "silverfish_head"
+                  "shroomhearth_id": "silverfish_head"
                 },
                 "minecraft:profile": {
                   "properties": [

@@ -1,0 +1,22 @@
+{
+	"parent": "shroomhearth:challenges/headhunter",
+	"display": {
+		"icon": {
+			"id": "minecraft:dragon_head"
+		},
+		"title": {
+			"fallback": "Our Battle Will Be Legendary!",
+			"translate": "advancements.shroomhearth_challenges.legendary_battle.title"
+		},
+		"description": {
+			"fallback": "Defeat a level 5 or higher Ominous Ender Dragon by yourself, without dying, and with no active Spores events",
+			"translate": "advancements.shroomhearth_challenges.legendary_battle.description"
+		},
+		"frame": "challenge"
+	},
+	"criteria": {
+		"legendary_battle": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

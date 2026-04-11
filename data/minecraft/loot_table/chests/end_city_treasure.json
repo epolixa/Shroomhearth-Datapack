@@ -394,7 +394,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "world_border:enchanted_golden_chorus_fruit",
+          "value": "shroomhearth:world_border/enchanted_golden_chorus_fruit",
           "weight": 15
         }
       ],
@@ -424,7 +424,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "ender_tome:ender_tome",
+          "value": "shroomhearth:ender_tome",
           "weight": 2
         }
       ],
@@ -439,7 +439,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "runes:random_rune"
+          "value": "shroomhearth:runes/random_rune"
         }
       ],
       "rolls": 1.0

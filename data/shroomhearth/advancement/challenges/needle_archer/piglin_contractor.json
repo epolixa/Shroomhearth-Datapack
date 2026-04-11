@@ -1,0 +1,46 @@
+{
+	"parent": "shroomhearth:shroomhearth_challenges",
+	"display": {
+		"icon": {
+			"id": "minecraft:player_head",
+			"components": {
+				"minecraft:profile": {
+					"name": "Needle_Archer"
+				}
+			}
+		},
+		"title": {
+			"fallback": "Piglin Contractor",
+			"translate": "advancements.shroomhearth_challenges.piglin_contractor.title"
+		},
+		"description": [
+			{
+				"fallback": "Place 52,778 blocks in The Nether",
+				"translate": "advancements.shroomhearth_challenges.piglin_contractor.description"
+			},
+			{
+				"text": "\n\n"
+			},
+			{
+				"color": "gray",
+				"fallback": "Created by: ",
+				"translate": "advancements.shroomhearth_challenges.created_by"
+			},
+			{
+				"color": "gray",
+				"text": "Needle_Archer"
+			}
+		],
+		"frame": "challenge"
+	},
+	"rewards": {
+		"loot": [
+			"shroomhearth:challenges/needle_archer"
+		]
+	},
+	"criteria": {
+		"piglin_contractor": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

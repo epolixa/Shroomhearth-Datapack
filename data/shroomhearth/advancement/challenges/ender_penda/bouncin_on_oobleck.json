@@ -1,0 +1,46 @@
+{
+	"parent": "shroomhearth:shroomhearth_challenges",
+	"display": {
+		"icon": {
+			"id": "minecraft:player_head",
+			"components": {
+				"minecraft:profile": {
+					"name": "Ender_Penda"
+				}
+			}
+		},
+		"title": {
+			"fallback": "Bouncin' on Oobleck",
+			"translate": "advancements.shroomhearth_challenges.bouncin_on_oobleck.title"
+		},
+		"description": [
+			{
+				"fallback": "Fall at least 24 blocks onto a Slime Block at the bottom of the world",
+				"translate": "advancements.shroomhearth_challenges.bouncin_on_oobleck.description"
+			},
+			{
+				"text": "\n\n"
+			},
+			{
+				"color": "gray",
+				"fallback": "Created by: ",
+				"translate": "advancements.shroomhearth_challenges.created_by"
+			},
+			{
+				"color": "gray",
+				"text": "Ender_Penda"
+			}
+		],
+		"frame": "challenge"
+	},
+	"rewards": {
+		"loot": [
+			"shroomhearth:challenges/ender_penda"
+		]
+	},
+	"criteria": {
+		"bouncin_on_oobleck": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

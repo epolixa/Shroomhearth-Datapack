@@ -1,0 +1,25 @@
+{
+	"parent": "shroomhearth:warden/tug_of_warden",
+	"display": {
+		"icon": {
+			"id": "minecraft:chorus_fruit",
+			"components": {
+				"minecraft:item_model": "shroomhearth:echo_kernel"
+			}
+		},
+		"title": {
+			"fallback": "Resonant Return",
+			"translate": "advancements.shroomhearth_guide.resonant_return.title"
+		},
+		"description": {
+			"fallback": "Eat an Echo Kernel to teleport to its origin",
+			"translate": "advancements.shroomhearth_guide.resonant_return.description"
+		},
+		"frame": "task"
+	},
+	"criteria": {
+		"resonant_return": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

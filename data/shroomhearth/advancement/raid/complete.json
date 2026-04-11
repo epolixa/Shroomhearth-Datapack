@@ -1,0 +1,18 @@
+{
+	"criteria": {
+		"complete": {
+			"trigger": "minecraft:hero_of_the_village",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:reference",
+						"name": "shroomhearth:raid/40_minutes_since_raid_complete"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "shroomhearth:raid/advancement_reward/complete"
+	} 
+}

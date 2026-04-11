@@ -1,0 +1,30 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:fishing_rod",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": {
+                                    "fallback": "Petrichor Pond Pole",
+                                    "translate": "item.shroomhearth.petrichor_pond_pole"
+                                },
+                                "minecraft:item_model": "shroomhearth:petrichor_pond_pole",
+                                "minecraft:rarity": "epic",
+                                "minecraft:custom_data": {
+                                    "shroomhearth_id": "petrichor_pond_pole"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

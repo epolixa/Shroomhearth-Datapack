@@ -64,7 +64,7 @@
                 "minecraft:item_name": "Breeze Head",
                 "minecraft:note_block_sound": "minecraft:entity.breeze.idle_ground",
                 "minecraft:custom_data": {
-                  "spore": "breeze_head"
+                  "shroomhearth_id": "breeze_head"
                 },
                 "minecraft:profile": {
                   "properties": [

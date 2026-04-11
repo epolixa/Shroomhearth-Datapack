@@ -1,0 +1,11 @@
+{
+    "condition": "minecraft:inverted",
+    "term": {
+        "condition": "minecraft:location_check",
+        "predicate": {
+            "block": {
+                "blocks": "#shroomhearth:obstructs_porcelain_amphora"
+            }
+        }
+    }
+}

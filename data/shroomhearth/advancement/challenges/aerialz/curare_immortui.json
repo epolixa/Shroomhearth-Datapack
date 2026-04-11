@@ -1,0 +1,46 @@
+{
+	"parent": "shroomhearth:challenges/lalalauraaaa/crazy_dragon_lady",
+	"display": {
+		"icon": {
+			"id": "minecraft:player_head",
+			"components": {
+				"minecraft:profile": {
+					"name": "Aerialz"
+				}
+			}
+		},
+		"title": {
+			"fallback": "Curare Immortui",
+			"translate": "advancements.shroomhearth_challenges.curare_immortui.title"
+		},
+		"description": [
+			{
+				"fallback": "Cure 27 Zombie Villagers",
+				"translate": "advancements.shroomhearth_challenges.curare_immortui.description"
+			},
+			{
+				"text": "\n\n"
+			},
+			{
+				"color": "gray",
+				"fallback": "Created by: ",
+				"translate": "advancements.shroomhearth_challenges.created_by"
+			},
+			{
+				"color": "gray",
+				"text": "Aerialz"
+			}
+		],
+		"frame": "challenge"
+	},
+	"rewards": {
+		"loot": [
+			"shroomhearth:challenges/aerialz"
+		]
+	},
+	"criteria": {
+		"cure_villagers": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

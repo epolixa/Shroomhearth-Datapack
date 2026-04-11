@@ -1,0 +1,43 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_spear",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": {
+                                    "fallback": "Wondermerian Staff",
+                                    "translate": "item.shroomhearth.wondermerian_staff"
+                                },
+                                "minecraft:item_model": "shroomhearth:wondermerian_staff",
+                                "minecraft:rarity": "epic",
+                                "minecraft:enchantments": {
+                                    "shroomhearth:stories/wondermerian_agility": 1
+                                },
+                                "minecraft:lore": [
+                                    {
+                                        "fallback": "A relic of Wondermerian legend, given to those who proved",
+                                        "translate": "item.shroomhearth.wondermerian_staff.lore.0"
+                                    },
+                                    {
+                                        "fallback": "themselves worthy.",
+                                        "translate": "item.shroomhearth.wondermerian_staff.lore.1"
+                                    }
+                                ],
+                                "minecraft:custom_data": {
+                                    "shroomhearth_id": "wondermerian_staff"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

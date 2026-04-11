@@ -1,0 +1,19 @@
+[
+    {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+            "type": "minecraft:wither"
+        }
+    },
+    {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+            "health": {
+                "min": 1,
+                "max": 149
+            }
+        }
+    }
+]

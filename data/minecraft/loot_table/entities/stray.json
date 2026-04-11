@@ -129,7 +129,7 @@
                                 "minecraft:item_name": "Stray Skull",
                                 "minecraft:note_block_sound": "minecraft:entity.stray.ambient",
                                 "minecraft:custom_data": {
-                                    "spore": "stray_skull"
+                                    "shroomhearth_id": "stray_skull"
                                 },
                                 "minecraft:profile": {
                                     "properties": [

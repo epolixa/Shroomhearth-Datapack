@@ -1,0 +1,25 @@
+{
+	"parent": "shroomhearth:harmony/friendly_forager",
+	"display": {
+		"icon": {
+			"id": "minecraft:soul_campfire"
+		},
+		"title": {
+			"fallback": "The Long Dream",
+			"translate": "advancements.shroomhearth_guide.the_long_dream.title"
+		},
+		"description": {
+			"fallback": "Visit an offline Player's Echoes",
+			"translate": "advancements.shroomhearth_guide.the_long_dream.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"group_up": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

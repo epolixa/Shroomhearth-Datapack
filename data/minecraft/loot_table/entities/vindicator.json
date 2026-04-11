@@ -64,7 +64,7 @@
                 "minecraft:item_name": "Vindicator Head",
                 "minecraft:note_block_sound": "minecraft:entity.vindicator.ambient",
                 "minecraft:custom_data": {
-                  "spore": "vindicator_head"
+                  "shroomhearth_id": "vindicator_head"
                 },
                 "minecraft:profile": {
                   "properties": [

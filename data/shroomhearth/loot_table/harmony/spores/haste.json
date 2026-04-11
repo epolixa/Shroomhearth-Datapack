@@ -1,0 +1,54 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "!minecraft:potion_contents": {},
+                                "!minecraft:use_remainder": {},
+                                "minecraft:item_name": {
+                                    "fallback": "Spores of Haste",
+                                    "translate": "event.shroomhearth.spores_of_haste"
+                                },
+                                "minecraft:lore": [
+                                    {
+                                        "fallback": "Applies +10%% Attack Speed and +20%% Block Break Speed to all Players",
+                                        "translate": "event.shroomhearth.spores_of_haste.tooltip"
+                                    }
+                                ],
+                                "minecraft:item_model": "shroomhearth:spores",
+                                "minecraft:consumable": {
+                                    "consume_seconds": 0.8,
+                                    "animation": "crossbow",
+                                    "sound": {
+                                        "sound_id": ""
+                                    },
+                                    "has_consume_particles": false
+                                },
+                                "minecraft:max_stack_size": 64,
+                                "minecraft:custom_model_data": {
+                                    "colors": [
+                                        [
+                                            0.85,
+                                            0.75,
+                                            0.26
+                                        ]
+                                    ]
+                                },
+                                "minecraft:custom_data": {
+                                    "shroomhearth_id": "spores_of_haste"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

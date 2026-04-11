@@ -1,0 +1,22 @@
+{
+	"parent": "shroomhearth:hearth_island/hearth_island",
+	"display": {
+		"icon": {
+			"id": "minecraft:end_rod"
+		},
+		"title": {
+			"fallback": "Haberdasher",
+			"translate": "advancements.hearth_island.hearth_island.haberdasher.title"
+		},
+		"description": {
+			"fallback": "Put any item into your head slot at the Haberdasher",
+			"translate": "advancements.hearth_island.hearth_island.haberdasher.description"
+		},
+		"frame": "task"
+	},
+	"criteria": {
+		"haberdasher": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

@@ -1,0 +1,28 @@
+{
+    "criteria": {
+        "seat_used_on_spawner": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "reference",
+                        "name": "shroomhearth:seats/match_tool_any_seat"
+                    },
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "minecraft:spawner"
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "shroomhearth:seats/advancement_reward/seat_used_on_spawner"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        "minecraft:knowledge_book"
+    ],
+    "result": {
+        "id": "minecraft:knowledge_book"
+    }
+}

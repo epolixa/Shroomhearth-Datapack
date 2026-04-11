@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "insomnia_warning": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "shroomhearth:status_visibility/insomnia"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "shroomhearth:status_visibility/advancement_reward/insomnia_warning"
+    }
+}

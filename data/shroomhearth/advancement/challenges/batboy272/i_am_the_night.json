@@ -1,0 +1,114 @@
+{
+	"parent": "shroomhearth:challenges/captainvegtable/green_thumb",
+	"display": {
+		"icon": {
+			"id": "minecraft:player_head",
+			"components": {
+				"minecraft:profile": {
+					"name": "Batboy272"
+				}
+			}
+		},
+		"title": {
+			"fallback": "I Am The Night",
+			"translate": "advancements.shroomhearth_challenges.i_am_the_night.title"
+		},
+		"description": [
+			{
+				"fallback": "Equip a Netherite Helmet with Quartz Eye Trim, Elytra, Netherite Leggings with Netherite Silence Trim, and Netherite Boots with Amethyst Silence Trim",
+				"translate": "advancements.shroomhearth_challenges.i_am_the_night.description"
+			},
+			{
+				"text": "\n\n"
+			},
+			{
+				"color": "gray",
+				"fallback": "Created by: ",
+				"translate": "advancements.shroomhearth_challenges.created_by"
+			},
+			{
+				"color": "gray",
+				"text": "Batboy272"
+			}
+		],
+		"frame": "challenge"
+	},
+	"rewards": {
+		"loot": [
+			"shroomhearth:challenges/batboy272"
+		]
+	},
+	"criteria": {
+		"i_am_the_night": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:netherite_helmet",
+						"predicates": {
+							"minecraft:trim": {
+								"material": "minecraft:quartz",
+								"pattern": "minecraft:eye"
+							}
+						}
+					},
+					{
+						"items": "minecraft:elytra"
+					},
+					{
+						"items": "minecraft:netherite_leggings",
+						"predicates": {
+							"minecraft:trim": {
+								"material": "minecraft:netherite",
+								"pattern": "minecraft:silence"
+							}
+						}
+					},
+					{
+						"items": "minecraft:netherite_boots",
+						"predicates": {
+							"minecraft:trim": {
+								"material": "minecraft:amethyst",
+								"pattern": "minecraft:silence"
+							}
+						}
+					}
+				],
+				"player": {
+					"equipment": {
+						"head": {
+							"items": "minecraft:netherite_helmet",
+							"components": {
+								"minecraft:trim": {
+									"material": "minecraft:quartz",
+									"pattern": "minecraft:eye"
+								}
+							}
+						},
+						"chest": {
+							"items": "minecraft:elytra"
+						},
+						"legs": {
+							"items": "minecraft:netherite_leggings",
+							"components": {
+								"minecraft:trim": {
+									"material": "minecraft:netherite",
+									"pattern": "minecraft:silence"
+								}
+							}
+						},
+						"feet": {
+							"items": "minecraft:netherite_boots",
+							"components": {
+								"minecraft:trim": {
+									"material": "minecraft:amethyst",
+									"pattern": "minecraft:silence"
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

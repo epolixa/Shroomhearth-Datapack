@@ -1,0 +1,27 @@
+{
+	"criteria": {
+		"inventory_changed_golden_carrots": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:golden_carrot",
+						"count": {
+							"min": 64
+						}
+					}
+				],
+				"player": {
+					"player": {
+						"advancements": {
+							"challenges:depressus": false
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "challenges:depressus"
+	} 
+}

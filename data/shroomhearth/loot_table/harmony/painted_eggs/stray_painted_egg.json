@@ -1,0 +1,35 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:egg",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": [
+                                    {
+                                        "fallback": "Stray",
+                                        "translate": "entity.minecraft.stray"
+                                    },
+                                    {
+                                        "fallback": " Painted Egg",
+                                        "translate": "item.shroomhearth.painted_egg"
+                                    }
+                                ],
+                                "minecraft:item_model": "minecraft:stray_spawn_egg",
+                                "minecraft:custom_data": {
+                                    "shroomhearth_id": "stray_painted_egg"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

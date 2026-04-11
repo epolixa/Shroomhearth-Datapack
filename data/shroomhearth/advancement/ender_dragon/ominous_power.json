@@ -1,0 +1,22 @@
+{
+	"parent": "shroomhearth:shroomhearth_guide",
+	"display": {
+		"icon": {
+			"id": "minecraft:ominous_bottle"
+		},
+		"title": {
+			"fallback": "Ominous Power",
+			"translate": "advancements.shroomhearth_guide.ominous_power.title"
+		},
+		"description": {
+			"fallback": "Defeat an Ominous Ender Dragon",
+			"translate": "advancements.shroomhearth_guide.ominous_power.description"
+		},
+		"frame": "goal"
+	},
+	"criteria": {
+		"ominous_power": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

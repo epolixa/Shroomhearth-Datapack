@@ -1,0 +1,21 @@
+{
+	"criteria": {
+		"enter_arena": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:reference",
+                            "name": "shroomhearth:arena/in_arena"
+                        }
+                    }
+                ]
+			}
+		}
+	},
+    "rewards": {
+        "function": "shroomhearth:arena/advancement_reward/leave_arena"
+    }
+}

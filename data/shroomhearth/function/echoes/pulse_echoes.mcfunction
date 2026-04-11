@@ -1,0 +1,10 @@
+# Executor: An interaction entity representing the echoes of an offline player
+# Position: The interaction entity (where the player was last seen)
+
+#tellraw @a[tag=debug_echoes] [{"text":"[shroomhearth:echoes/pulse_echoes] pulsing Echoes of "},{"nbt":"data.player.name","entity":"@s"},{"text":"..."}]
+
+# Count pulse
+scoreboard players add @s echoes_pulses 1
+
+# Play particles
+particle minecraft:soul_fire_flame ~ ~0.125 ~ 0.0625 0.0625 0.0625 0 1 force

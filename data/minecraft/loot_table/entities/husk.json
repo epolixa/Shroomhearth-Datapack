@@ -130,7 +130,7 @@
 								"minecraft:item_name": "Husk Head",
 								"minecraft:note_block_sound": "minecraft:entity.husk.ambient",
                                 "minecraft:custom_data": {
-                                    "spore": "husk_head"
+                                    "shroomhearth_id": "husk_head"
                                 },
 								"minecraft:profile": {
 									"properties": [

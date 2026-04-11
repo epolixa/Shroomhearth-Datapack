@@ -1,0 +1,2 @@
+function shroomhearth:status_visibility/scoreboard/remove
+function shroomhearth:status_visibility/scoreboard/add
