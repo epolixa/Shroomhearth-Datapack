@@ -2,6 +2,12 @@
     "asset_id": "shroomhearth:bandon_harbor",
     "height": 4,
     "width": 4,
-    "author": "Lonnie_Mack",
-    "title": "Bandon Harbor"
+    "author": {
+        "fallback": "Lonnie_Mack",
+        "translate":"painting.shroomhearth.bandon_harbor.author"
+    },
+    "title": {
+        "fallback": "Bandon Harbor",
+        "translate":"painting.shroomhearth.bandon_harbor.title"
+    }
 }
