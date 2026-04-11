@@ -2,7 +2,7 @@
     "type": "minecraft:crafting_transmute",
     "category": "equipment",
     "input": "minecraft:goat_horn",
-    "material": "minecraft:echo_shard",
+    "material": "minecraft:recovery_compass",
     "result": {
         "count": 1,
         "id": "minecraft:goat_horn",
