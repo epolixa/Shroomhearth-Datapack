@@ -29,7 +29,7 @@
                 },
                 demand: 0,
                 maxUses: 2147483647,
-                priceMultiplier: 1,
+                priceMultiplier: 0,
                 rewardExp: false,
                 sell: {
                     id: "minecraft:glistering_melon_slice",
