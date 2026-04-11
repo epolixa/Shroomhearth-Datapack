@@ -1,7 +1,7 @@
 # Executor: Server 
 # Location: Root
 
-tellraw @a[tag=debug_harmony] [{"text":"[shroomhearth:harmony/spores/peace/deactivate] deactivating "},{"translate":"harmony.spores.peace"}]
+tellraw @a[tag=debug_harmony] [{"text":"[shroomhearth:harmony/spores/peace/deactivate] deactivating "},{"translate":"event.shroomhearth.spores_of_peace"}]
 
 
 # Update the spawn monsters game rule
@@ -11,7 +11,7 @@ gamerule spawn_monsters true
 bossbar remove shroomhearth:spores_of_peace
 
 # Announce expiration
-tellraw @a [{"color":"#f39a5e","text":"["},{"translate":"harmony.spores.peace","hover_event":{"action":"show_text","value":{"translate":"harmony.spores.peace.tooltip"}}},{"text":"]"},{"color":"white","text":" have dissipated"}]
+tellraw @a [{"color":"#f39a5e","text":"["},{"translate":"event.shroomhearth.spores_of_peace","hover_event":{"action":"show_text","value":{"translate":"event.shroomhearth.spores_of_peace.tooltip"}}},{"text":"]"},{"color":"white","text":" have dissipated"}]
 
 # Play sound 
 execute as @a at @s run playsound block.beacon.deactivate player @s ~ ~ ~ 1 1.7

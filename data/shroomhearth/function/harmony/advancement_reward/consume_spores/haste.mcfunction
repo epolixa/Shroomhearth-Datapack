@@ -1,7 +1,7 @@
 # Executor: A player that just consumed Spores of Haste
 # Location: The player's current location
 
-tellraw @a[tag=debug_harmony] [{"text":"[shroomhearth:harmony/advancement_reward/consume_spores/haste] "},{"translate":"harmony.spores.haste"},{"text":" consumed by "},{"selector":"@s"}]
+tellraw @a[tag=debug_harmony] [{"text":"[shroomhearth:harmony/advancement_reward/consume_spores/haste] "},{"translate":"event.shroomhearth.spores_of_haste"},{"text":" consumed by "},{"selector":"@s"}]
 
 # Activate or extend Spores of Haste
 execute if score spores_of_haste shroomhearth.harmony matches 1.. run function shroomhearth:harmony/spores/haste/extend

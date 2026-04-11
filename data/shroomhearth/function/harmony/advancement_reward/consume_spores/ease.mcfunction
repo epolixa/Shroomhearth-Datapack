@@ -1,7 +1,7 @@
 # Executor: A player that just consumed Spores of Ease
 # Location: The player's current location
 
-tellraw @a[tag=debug_harmony] [{"text":"[shroomhearth:harmony/advancement_reward/consume_spores/ease] "},{"translate":"harmony.spores.ease"},{"text":" consumed by "},{"selector":"@s"}]
+tellraw @a[tag=debug_harmony] [{"text":"[shroomhearth:harmony/advancement_reward/consume_spores/ease] "},{"translate":"event.shroomhearth.spores_of_ease"},{"text":" consumed by "},{"selector":"@s"}]
 
 
 # Activate or extend Spores of Ease

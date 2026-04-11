@@ -1,7 +1,7 @@
 # Executor: A player that just consumed Spores of Continuity
 # Location: The player's current location
 
-tellraw @a[tag=debug_harmony] [{"text":"[shroomhearth:harmony/advancement_reward/consume_spores/continuity] "},{"translate":"harmony.spores.continuity"},{"text":" consumed by "},{"selector":"@s"}]
+tellraw @a[tag=debug_harmony] [{"text":"[shroomhearth:harmony/advancement_reward/consume_spores/continuity] "},{"translate":"event.shroomhearth.spores_of_continuity"},{"text":" consumed by "},{"selector":"@s"}]
 
 
 # Activate or extend Spores of Continuity

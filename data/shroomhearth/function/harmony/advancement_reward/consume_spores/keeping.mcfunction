@@ -1,7 +1,7 @@
 # Executor: A player that just consumed Spores of Keeping
 # Location: The player's current location
 
-tellraw @a[tag=debug_harmony] [{"text":"[shroomhearth:harmony/advancement_reward/consume_spores/keeping] "},{"translate":"harmony.spores.keeping"},{"text":" consumed by "},{"selector":"@s"}]
+tellraw @a[tag=debug_harmony] [{"text":"[shroomhearth:harmony/advancement_reward/consume_spores/keeping] "},{"translate":"event.shroomhearth.spores_of_keeping"},{"text":" consumed by "},{"selector":"@s"}]
 
 
 # Activate or extend Spores of Keeping

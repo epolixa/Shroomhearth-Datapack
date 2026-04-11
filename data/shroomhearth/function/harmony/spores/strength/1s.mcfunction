@@ -1,7 +1,7 @@
 # Executor: Server 
 # Location: Root
 
-tellraw @a[tag=debug_harmony] [{"text":"[shroomhearth:harmony/spores/strength/1s] processing "},{"translate":"harmony.spores.strength"}]
+tellraw @a[tag=debug_harmony] [{"text":"[shroomhearth:harmony/spores/strength/1s] processing "},{"translate":"event.shroomhearth.spores_of_strength"}]
 
 
 # Apply Spores of Strength to any players who don't have it

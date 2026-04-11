@@ -1,7 +1,7 @@
 # Executor: A player that just consumed Spores of Peace
 # Location: The player's current location
 
-tellraw @a[tag=debug_harmony] [{"text":"[shroomhearth:harmony/advancement_reward/consume_spores/peace] "},{"translate":"harmony.spores.peace"},{"text":" consumed by "},{"selector":"@s"}]
+tellraw @a[tag=debug_harmony] [{"text":"[shroomhearth:harmony/advancement_reward/consume_spores/peace] "},{"translate":"event.shroomhearth.spores_of_peace"},{"text":" consumed by "},{"selector":"@s"}]
 
 
 # Activate or extend Spores of Peace

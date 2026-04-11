@@ -1,7 +1,7 @@
 # Executor: A player that just consumed Spores of Haste
 # Location: The player's current location
 
-tellraw @a[tag=debug_harmony] [{"text":"[shroomhearth:harmony/spores/haste/extend] "},{"translate":"harmony.spores.haste"},{"text":" extended by "},{"selector":"@s"}]
+tellraw @a[tag=debug_harmony] [{"text":"[shroomhearth:harmony/spores/haste/extend] "},{"translate":"event.shroomhearth.spores_of_haste"},{"text":" extended by "},{"selector":"@s"}]
 
 
 # Add value to timer - 3600 seconds in an hour
@@ -11,10 +11,10 @@ scoreboard players add spores_of_haste shroomhearth.harmony 3600
 execute store result bossbar shroomhearth:spores_of_haste max run scoreboard players get spores_of_haste shroomhearth.harmony
 
 # Update the attribution for bossbar
-bossbar set shroomhearth:spores_of_haste name [{"color":"#D9C043","translate":"harmony.spores.haste"},{"color":"white","text":" - "},{"selector": "@s"}]
+bossbar set shroomhearth:spores_of_haste name [{"color":"#D9C043","translate":"event.shroomhearth.spores_of_haste"},{"color":"white","text":" - "},{"selector": "@s"}]
 
 # Announce extension
-tellraw @a [{"color":"#D9C043","text":"["},{"translate":"harmony.spores.haste","hover_event":{"action":"show_text","value":{"translate":"harmony.spores.haste.tooltip"}}},{"text":"]"},{"color":"white","text":" were dispersed by "},{"selector":"@s"}]
+tellraw @a [{"color":"#D9C043","text":"["},{"translate":"event.shroomhearth.spores_of_haste","hover_event":{"action":"show_text","value":{"translate":"event.shroomhearth.spores_of_haste.tooltip"}}},{"text":"]"},{"color":"white","text":" were dispersed by "},{"selector":"@s"}]
 
 # Play sound 
 execute as @a at @s run playsound block.beacon.power_select player @s ~ ~ ~ 1 1.8

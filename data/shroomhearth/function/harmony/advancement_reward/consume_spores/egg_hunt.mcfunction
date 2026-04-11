@@ -1,7 +1,7 @@
 # Executor: A player that just consumed Spores of Egg Hunt
 # Location: The player's current location
 
-tellraw @a[tag=debug_harmony] [{"text":"[shroomhearth:harmony/advancement_reward/consume_spores/egg_hunt] "},{"translate":"harmony.spores.egg_hunt"},{"text":" consumed by "},{"selector":"@s"}]
+tellraw @a[tag=debug_harmony] [{"text":"[shroomhearth:harmony/advancement_reward/consume_spores/egg_hunt] "},{"translate":"event.shroomhearth.spores_of_egg_hunt"},{"text":" consumed by "},{"selector":"@s"}]
 
 
 # Activate or extend Spores of Egg Hunt

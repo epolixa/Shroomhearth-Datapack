@@ -1,7 +1,7 @@
 # Executor: Server 
 # Location: Root
 
-tellraw @a[tag=debug_harmony] [{"text":"[shroomhearth:harmony/spores/experience/1s] processing "},{"translate":"harmony.spores.experience"}]
+tellraw @a[tag=debug_harmony] [{"text":"[shroomhearth:harmony/spores/experience/1s] processing "},{"translate":"event.shroomhearth.spores_of_experience"}]
 
 
 # Experience orbs are duplicated from shroomhearth:tick while active

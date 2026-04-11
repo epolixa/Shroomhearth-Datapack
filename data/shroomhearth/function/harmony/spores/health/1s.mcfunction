@@ -1,7 +1,7 @@
 # Executor: Server 
 # Location: Root
 
-tellraw @a[tag=debug_harmony] [{"text":"[shroomhearth:harmony/spores/health/1s] processing "},{"translate":"harmony.spores.health"}]
+tellraw @a[tag=debug_harmony] [{"text":"[shroomhearth:harmony/spores/health/1s] processing "},{"translate":"event.shroomhearth.spores_of_health"}]
 
 
 # Apply Spores of Health to any players who don't have it

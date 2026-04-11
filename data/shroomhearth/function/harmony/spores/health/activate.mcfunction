@@ -1,7 +1,7 @@
 # Executor: A player that just consumed Spores of Health
 # Location: The player's current location
 
-tellraw @a[tag=debug_harmony] [{"text":"[shroomhearth:harmony/spores/health/activate] "},{"translate":"harmony.spores.health"},{"text":" activated by "},{"selector":"@s"}]
+tellraw @a[tag=debug_harmony] [{"text":"[shroomhearth:harmony/spores/health/activate] "},{"translate":"event.shroomhearth.spores_of_health"},{"text":" activated by "},{"selector":"@s"}]
 
 # Update active spores if not already active
 scoreboard players add active_spores shroomhearth.harmony 1
@@ -10,7 +10,7 @@ scoreboard players add active_spores shroomhearth.harmony 1
 scoreboard players add spores_of_health shroomhearth.harmony 3600
 
 # Create bossbar
-bossbar add shroomhearth:spores_of_health [{"color":"#F87D23","translate":"harmony.spores.health"},{"color":"white","text":" - "},{"selector": "@s"}]
+bossbar add shroomhearth:spores_of_health [{"color":"#F87D23","translate":"event.shroomhearth.spores_of_health"},{"color":"white","text":" - "},{"selector": "@s"}]
 bossbar set shroomhearth:spores_of_health max 3600
 bossbar set shroomhearth:spores_of_health style progress
 bossbar set shroomhearth:spores_of_health value 3600
@@ -18,7 +18,7 @@ bossbar set shroomhearth:spores_of_health visible true
 bossbar set shroomhearth:spores_of_health players @a[scores={show_timer_bars=1}]
 
 # Announce activation
-tellraw @a [{"color":"#F87D23","text":"["},{"translate":"harmony.spores.health","hover_event":{"action":"show_text","value":{"translate":"harmony.spores.health.tooltip"}}},{"text":"]"},{"color":"white","text":" were dispersed by "},{"selector":"@s"}]
+tellraw @a [{"color":"#F87D23","text":"["},{"translate":"event.shroomhearth.spores_of_health","hover_event":{"action":"show_text","value":{"translate":"event.shroomhearth.spores_of_health.tooltip"}}},{"text":"]"},{"color":"white","text":" were dispersed by "},{"selector":"@s"}]
 
 # Play sound 
 execute as @a at @s run playsound block.beacon.power_select player @s ~ ~ ~ 1 1.8

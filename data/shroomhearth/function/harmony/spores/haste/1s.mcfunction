@@ -1,7 +1,7 @@
 # Executor: Server 
 # Location: Root
 
-tellraw @a[tag=debug_harmony] [{"text":"[shroomhearth:harmony/spores/haste/1s] processing "},{"translate":"harmony.spores.haste"}]
+tellraw @a[tag=debug_harmony] [{"text":"[shroomhearth:harmony/spores/haste/1s] processing "},{"translate":"event.shroomhearth.spores_of_haste"}]
 
 
 # Apply Spores of Haste to any players who don't have it

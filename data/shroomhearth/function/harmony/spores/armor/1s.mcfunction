@@ -1,7 +1,7 @@
 # Executor: Server 
 # Location: Root
 
-tellraw @a[tag=debug_harmony] [{"text":"[shroomhearth:harmony/spores/armor/1s] processing "},{"translate":"harmony.spores.armor"}]
+tellraw @a[tag=debug_harmony] [{"text":"[shroomhearth:harmony/spores/armor/1s] processing "},{"translate":"event.shroomhearth.spores_of_armor"}]
 
 
 # Apply Spores of Armor to any players who don't have it

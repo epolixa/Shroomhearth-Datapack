@@ -1,7 +1,7 @@
 # Executor: Server 
 # Location: Root
 
-tellraw @a[tag=debug_harmony] [{"text":"[shroomhearth:harmony/spores/swiftness/1s] processing "},{"translate":"harmony.spores.swiftness"}]
+tellraw @a[tag=debug_harmony] [{"text":"[shroomhearth:harmony/spores/swiftness/1s] processing "},{"translate":"event.shroomhearth.spores_of_swiftness"}]
 
 
 # Apply Spores of Swiftness to any players who don't have it
