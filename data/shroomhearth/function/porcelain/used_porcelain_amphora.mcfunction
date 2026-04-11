@@ -1,11 +1,11 @@
-# Executor: A Player that used a Porcelain
+# Executor: A Player that used a Porcelain Amphora
 # Position: The Player
 
-tellraw @a[tag=debug_porcelain] [{"text":"[shroomhearth:porcelain/used_porcelain] "},{"selector":"@s"},{"text":" used a Porcelain"}]
+tellraw @a[tag=debug_porcelain] [{"text":"[shroomhearth:porcelain/used_porcelain_amphora] "},{"selector":"@s"},{"text":" used a Porcelain Amphora"}]
 
 
-# Mark the player as having used a Porcelain
-tag @s add used_porcelain
+# Mark the player as having used a Porcelain Amphora
+tag @s add used_porcelain_amphora
 
 # Interrupt Echo Horn use
 #execute if predicate shroomhearth:echo_horn/using_echo_horn run function shroomhearth:echo_horn/interrupt_echo_horn

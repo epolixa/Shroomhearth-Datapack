@@ -4,7 +4,7 @@
 		"icon": {
 			"id": "minecraft:warped_fungus_on_a_stick",
 			"components": {
-				"minecraft:item_model": "shroomhearth:porcelain"
+				"minecraft:item_model": "shroomhearth:porcelain_amphora"
 			}
 		},
 		"title": {
@@ -12,7 +12,7 @@
 			"translate": "advancements.shroomhearth_guide.the_porcelain.title"
 		},
 		"description": {
-			"fallback": "Enter The Porcelain",
+			"fallback": "Use a Porcelain Amphora to enter The Porcelain",
 			"translate": "advancements.shroomhearth_guide.the_porcelain.description"
 		},
 		"frame": "task",

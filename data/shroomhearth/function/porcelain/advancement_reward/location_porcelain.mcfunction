@@ -7,9 +7,9 @@
 # Ensure that any Player in Survival mode is set to Creative mode
 gamemode creative @s[gamemode=survival]
 
-# Give the Player a Porcelain if they don't have one
-execute store result score @s has_porcelain run clear @s minecraft:warped_fungus_on_a_stick[custom_data={shroomhearth_id:"porcelain"}] 0
-loot give @s[scores={has_porcelain=0}] loot shroomhearth:porcelain
+# Give the Player a Porcelain Amphora if they don't have one
+execute store result score @s has_porcelain_amphora run clear @s minecraft:warped_fungus_on_a_stick[custom_data={shroomhearth_id:"porcelain_amphora"}] 0
+loot give @s[scores={has_porcelain_amphora=0}] loot shroomhearth:porcelain_amphora
 
 # Revoke trigger
 advancement revoke @s only shroomhearth:porcelain/location_porcelain

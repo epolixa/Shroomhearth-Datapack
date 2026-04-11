@@ -5,9 +5,9 @@ tellraw @a[tag=debug_porcelain] [{"text":"[shroomhearth:porcelain/remove_tags] R
 
 
 # Remove all porcelain related tags from the player
-tag @s remove used_porcelain
-tag @s remove used_porcelain_in_overworld
-tag @s remove used_porcelain_in_the_nether
-tag @s remove used_porcelain_in_the_end
+tag @s remove used_porcelain_amphora
+tag @s remove used_porcelain_amphora_in_overworld
+tag @s remove used_porcelain_amphora_in_the_nether
+tag @s remove used_porcelain_amphora_in_the_end
 tag @s remove exiting_porcelain
-tag @s remove found_porcelain_anchor
+tag @s remove found_porcelain_amphora
