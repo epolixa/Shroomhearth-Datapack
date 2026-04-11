@@ -7,9 +7,8 @@
         "S": "minecraft:saddle"
     },
     "pattern": [
-        "CCC",
-        "CSC",
-        "CCC"
+        " C ",
+        "CSC"
     ],
     "result": {
         "count": 1,
