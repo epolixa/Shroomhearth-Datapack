@@ -8,6 +8,10 @@
         },
         {
           "type": "minecraft:loot_table",
+          "value": "shroomhearth:harmony/spores/egg_hunt"
+        },
+        {
+          "type": "minecraft:loot_table",
           "value": "shroomhearth:harmony/spores/experience"
         },
         {
