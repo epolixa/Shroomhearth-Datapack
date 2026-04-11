@@ -1,0 +1,12 @@
+{
+    "criteria": {
+        "reward_jerry_rig": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "loot": [
+            "relics:jerry_rig"
+        ]
+    }
+}

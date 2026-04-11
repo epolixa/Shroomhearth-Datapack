@@ -1,0 +1,47 @@
+{
+    "parent": "quests:visit_endura",
+    "display": {
+        "icon": {
+            "id": "minecraft:diamond_spear",
+            "components": {
+                "minecraft:item_model": "shroomhearth:guardians_glaive"
+            }
+        },
+        "title": "Ghost in the Shroom",
+        "description": [
+            {"text": "Gather the relics strewn across Mundus"},
+            {"text": "\n\n"},
+            {"text": "Contact Needle_Archer for scheduling", "color": "gray"}
+        ],
+        "frame": "challenge"
+    },
+    "criteria": {
+        "purpur_plant": {
+            "trigger": "minecraft:impossible"
+        },
+        "eyes_of_the_slain": {
+            "trigger": "minecraft:impossible"
+        },
+        "flower": {
+            "trigger": "minecraft:impossible"
+        },
+        "hunks_of_pillar": {
+            "trigger": "minecraft:impossible"
+        },
+        "honey": {
+            "trigger": "minecraft:impossible"
+        },
+        "remnants_of_iron": {
+            "trigger": "minecraft:impossible"
+        },
+        "breath_of_magic": {
+            "trigger": "minecraft:impossible"
+        },
+        "milk": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "quests:endura_quest"
+    }
+}

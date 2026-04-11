@@ -1,0 +1,33 @@
+{
+    "parent": "quests:root",
+    "display": {
+        "icon": {
+            "id": "minecraft:cracked_deepslate_tiles"
+        },
+        "title": "The City of Echoes",
+        "description": "Visit the City of Echoes",
+        "frame": "task"
+    },
+    "criteria": {
+        "visit_the_city_of_echoes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "dimension": "minecraft:overworld",
+                        "position": {
+                            "x": {
+                                "min": -4041,
+                                "max": -3637
+                            },
+                            "z": {
+                                "min": 5286,
+                                "max": 5626
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
