@@ -1,7 +1,7 @@
 # Executor: Server 
 # Location: Root
 
-tellraw @a[tag=debug_harmony] [{"text":"[shroomhearth:harmony/spores/leaping/1s] processing "},{"translate":"harmony.spores.leaping"}]
+tellraw @a[tag=debug_harmony] [{"text":"[shroomhearth:harmony/spores/leaping/1s] processing "},{"translate":"event.shroomhearth.spores_of_leaping"}]
 
 
 # Apply Spores of Leaping to any players who don't have it

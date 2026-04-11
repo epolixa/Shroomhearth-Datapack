@@ -13,12 +13,13 @@
                                 "!minecraft:potion_contents": {},
                                 "!minecraft:use_remainder": {},
                                 "minecraft:item_name": {
-                                    "translate": "harmony.spores.continuity",
-                                    "fallback": "Spores of Continuity"
+                                    "fallback": "Spores of Continuity",
+                                    "translate": "event.shroomhearth.spores_of_continuity"
                                 },
                                 "minecraft:lore": [
                                     {
-                                        "translate": "harmony.spores.continuity.tooltip"
+                                        "fallback": "Pauses the day/night cycle",
+                                        "translate": "event.shroomhearth.spores_of_continuity.tooltip"
                                     }
                                 ],
                                 "minecraft:item_model": "shroomhearth:spores",

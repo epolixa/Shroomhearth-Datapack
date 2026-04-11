@@ -1,7 +1,7 @@
 # Executor: Server 
 # Location: Root
 
-tellraw @a[tag=debug_harmony] [{"text":"[shroomhearth:harmony/spores/egg_hunt/1s] processing "},{"translate":"harmony.spores.egg_hunt"}]
+tellraw @a[tag=debug_harmony] [{"text":"[shroomhearth:harmony/spores/egg_hunt/1s] processing "},{"translate":"event.shroomhearth.spores_of_egg_hunt"}]
 
 
 # Check all rabbits for easter egg

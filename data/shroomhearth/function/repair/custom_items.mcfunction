@@ -5,7 +5,7 @@ function shroomhearth:repair/echoed_chorus_fruit
 function shroomhearth:repair/enchanted_golden_chorus_fruit
 function shroomhearth:repair/ender_tome
 function shroomhearth:repair/golden_chorus_fruit
-function shroomhearth:repair/porcelain
+function shroomhearth:repair/porcelain_amphora
 function shroomhearth:repair/recall_whistle
 function shroomhearth:repair/spores
 

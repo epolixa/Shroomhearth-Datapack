@@ -12,8 +12,8 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_name": {
-                                    "translate": "relics.bleeding_tooth",
-                                    "fallback": "Bleeding Tooth"
+                                    "fallback": "Bleeding Tooth",
+                                    "translate": "item.shroomhearth.bleeding_tooth"
                                 },
                                 "minecraft:item_model": "shroomhearth:bleeding_tooth",
                                 "minecraft:rarity": "epic",
@@ -22,10 +22,12 @@
                                 },
                                 "minecraft:lore": [
                                     {
-                                        "text": "Once used to fell an arboreal fungus,"
+                                        "fallback": "Once used to fell an arboreal fungus, now tainted by its",
+                                        "translate": "item.shroomhearth.bleeding_tooth.lore.0"
                                     },
                                     {
-                                        "text": "now tainted by its invasive mycelium."
+                                        "fallback": "invasive mycelium.",
+                                        "translate": "item.shroomhearth.bleeding_tooth.lore.1"
                                     }
                                 ],
                                 "minecraft:custom_data": {

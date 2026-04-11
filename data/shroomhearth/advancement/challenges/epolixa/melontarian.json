@@ -9,12 +9,28 @@
 				}
 			}
 		},
-		"title": "Melontarian",
+		"title": {
+			"fallback": "Melontarian",
+			"translate": "advancements.shroomhearth_challenges.melontarian.title"
+		},
 		"description": [
-            {"text": "Eat 64 consecutive Melon Slices"},
-            {"text": "\n\n"},
-            {"text": "Created by epolixa", "color": "gray"}
-        ],
+			{
+				"fallback": "Eat 64 consecutive Melon Slices",
+				"translate": "advancements.shroomhearth_challenges.melontarian.description"
+			},
+			{
+				"text": "\n\n"
+			},
+			{
+				"color": "gray",
+				"fallback": "Created by: ",
+				"translate": "advancements.shroomhearth_challenges.created_by"
+			},
+			{
+				"color": "gray",
+				"text": "epolixa"
+			}
+		],
 		"frame": "challenge"
 	},
 	"rewards": {

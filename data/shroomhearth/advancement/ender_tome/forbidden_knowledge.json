@@ -3,13 +3,19 @@
 	"display": {
 		"icon": {
 			"id": "minecraft:knowledge_book",
-            "components": {
+			"components": {
 				"minecraft:item_model": "shroomhearth:ender_tome",
-            	"minecraft:enchantment_glint_override": true
+				"minecraft:enchantment_glint_override": true
 			}
 		},
-		"title": "Forbidden Knowledge",
-		"description": "Use an Ender Tome to overlevel an enchantment on an item",
+		"title": {
+			"fallback": "Forbidden Knowledge",
+			"translate": "advancements.shroomhearth_guide.forbidden_knowledge.title"
+		},
+		"description": {
+			"fallback": "Use an Ender Tome to overlevel an enchantment on an item",
+			"translate": "advancements.shroomhearth_guide.forbidden_knowledge.description"
+		},
 		"frame": "task"
 	},
 	"criteria": {

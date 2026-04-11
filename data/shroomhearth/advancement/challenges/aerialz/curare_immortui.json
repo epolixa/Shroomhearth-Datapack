@@ -9,12 +9,28 @@
 				}
 			}
 		},
-		"title": "Curare Immortui",
+		"title": {
+			"fallback": "Curare Immortui",
+			"translate": "advancements.shroomhearth_challenges.curare_immortui.title"
+		},
 		"description": [
-            {"text": "Cure 27 Zombie Villagers"},
-            {"text": "\n\n"},
-            {"text": "Created by Aerialz", "color": "gray"}
-        ],
+			{
+				"fallback": "Cure 27 Zombie Villagers",
+				"translate": "advancements.shroomhearth_challenges.curare_immortui.description"
+			},
+			{
+				"text": "\n\n"
+			},
+			{
+				"color": "gray",
+				"fallback": "Created by: ",
+				"translate": "advancements.shroomhearth_challenges.created_by"
+			},
+			{
+				"color": "gray",
+				"text": "Aerialz"
+			}
+		],
 		"frame": "challenge"
 	},
 	"rewards": {
@@ -23,8 +39,8 @@
 		]
 	},
 	"criteria": {
-        "cure_villagers": {
-            "trigger": "minecraft:impossible"
-        }
+		"cure_villagers": {
+			"trigger": "minecraft:impossible"
+		}
 	}
 }

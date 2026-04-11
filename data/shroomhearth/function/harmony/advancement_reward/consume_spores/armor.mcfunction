@@ -1,7 +1,7 @@
 # Executor: A player that just consumed Spores of Armor
 # Location: The player's current location
 
-tellraw @a[tag=debug_harmony] [{"text":"[shroomhearth:harmony/advancement_reward/consume_spores/armor] "},{"translate":"harmony.spores.armor"},{"text":" consumed by "},{"selector":"@s"}]
+tellraw @a[tag=debug_harmony] [{"text":"[shroomhearth:harmony/advancement_reward/consume_spores/armor] "},{"translate":"event.shroomhearth.spores_of_armor"},{"text":" consumed by "},{"selector":"@s"}]
 
 # Activate or extend Spores of Armor
 execute if score spores_of_armor shroomhearth.harmony matches 1.. run function shroomhearth:harmony/spores/armor/extend

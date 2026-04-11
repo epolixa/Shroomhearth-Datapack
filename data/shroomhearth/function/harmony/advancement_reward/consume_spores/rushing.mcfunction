@@ -1,7 +1,7 @@
 # Executor: A player that just consumed Spores of Rushing
 # Location: The player's current location
 
-tellraw @a[tag=debug_harmony] [{"text":"[shroomhearth:harmony/advancement_reward/consume_spores/rushing] "},{"translate":"harmony.spores.rushing"},{"text":" consumed by "},{"selector":"@s"}]
+tellraw @a[tag=debug_harmony] [{"text":"[shroomhearth:harmony/advancement_reward/consume_spores/rushing] "},{"translate":"event.shroomhearth.spores_of_rushing"},{"text":" consumed by "},{"selector":"@s"}]
 
 
 # Activate or extend Spores of Rushing

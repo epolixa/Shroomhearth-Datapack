@@ -15,13 +15,13 @@
         "id": "minecraft:warped_fungus_on_a_stick",
         "components": {
             "minecraft:item_name": {
-                "translate": "porcelain.porcelain",
-                "fallback": "Porcelain"
+                "fallback": "Porcelain Amphora",
+                "translate": "item.shroomhearth.porcelain_amphora"
             },
-            "minecraft:item_model": "shroomhearth:porcelain",
+            "minecraft:item_model": "shroomhearth:porcelain_amphora",
             "minecraft:rarity": "uncommon",
             "minecraft:custom_data": {
-                "shroomhearth_id": "porcelain"
+                "shroomhearth_id": "porcelain_amphora"
             }
         }
     }

@@ -1,14 +1,14 @@
 # Executor: Server 
 # Location: Root
 
-tellraw @a[tag=debug_harmony] [{"text":"[shroomhearth:harmony/spores/experience/deactivate] deactivating "},{"translate":"harmony.spores.experience"}]
+tellraw @a[tag=debug_harmony] [{"text":"[shroomhearth:harmony/spores/experience/deactivate] deactivating "},{"translate":"event.shroomhearth.spores_of_experience"}]
 
 
 # Remove bossbar
 bossbar remove shroomhearth:spores_of_experience
 
 # Announce expiration
-tellraw @a [{"color":"#00FF00","text":"["},{"translate":"harmony.spores.experience","hover_event":{"action":"show_text","value":{"translate":"harmony.spores.experience.tooltip"}}},{"text":"]"},{"color":"white","translate":"harmony.spores.deactivate"}]
+tellraw @a [{"color":"#00FF00","text":"["},{"translate":"event.shroomhearth.spores_of_experience","hover_event":{"action":"show_text","value":{"translate":"event.shroomhearth.spores_of_experience.tooltip"}}},{"text":"]"},{"color":"white","translate":"event.shroomhearth.spores.deactivate"}]
 
 # Play sound 
 execute as @a at @s run playsound block.beacon.deactivate player @s ~ ~ ~ 1 1.7

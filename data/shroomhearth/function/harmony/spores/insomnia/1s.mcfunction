@@ -1,7 +1,7 @@
 # Executor: Server 
 # Location: Root
 
-tellraw @a[tag=debug_harmony] [{"text":"[shroomhearth:harmony/spores/insomnia/1s] processing "},{"translate":"harmony.spores.insomnia"}]
+tellraw @a[tag=debug_harmony] [{"text":"[shroomhearth:harmony/spores/insomnia/1s] processing "},{"translate":"event.shroomhearth.spores_of_insomnia"}]
 
 
 # Reduce timer for Spores of Insomnia

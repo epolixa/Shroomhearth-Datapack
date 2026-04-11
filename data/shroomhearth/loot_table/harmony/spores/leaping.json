@@ -13,12 +13,13 @@
                                 "!minecraft:potion_contents": {},
                                 "!minecraft:use_remainder": {},
                                 "minecraft:item_name": {
-                                    "translate": "harmony.spores.leaping",
-                                    "fallback": "Spores of Leaping"
+                                    "fallback": "Spores of Leaping",
+                                    "translate": "event.shroomhearth.spores_of_leaping"
                                 },
                                 "minecraft:lore": [
                                     {
-                                        "translate": "harmony.spores.leaping.tooltip"
+                                        "fallback": "Applies +1 Safe Fall Distance and +0.1 Jump Strength to all Players",
+                                        "translate": "event.shroomhearth.spores_of_leaping.tooltip"
                                     }
                                 ],
                                 "minecraft:item_model": "shroomhearth:spores",

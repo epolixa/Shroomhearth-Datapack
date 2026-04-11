@@ -9,12 +9,28 @@
 				}
 			}
 		},
-		"title": "Depressus",
+		"title": {
+			"fallback": "Depressus",
+			"translate": "advancements.shroomhearth_challenges.depressus.title"
+		},
 		"description": [
-            {"text": "Craft or trade for 64 Golden Carrots at once"},
-            {"text": "\n\n"},
-            {"text": "Created by Depressus", "color": "gray"}
-        ],
+			{
+				"fallback": "Craft or trade for 64 Golden Carrots at once",
+				"translate": "advancements.shroomhearth_challenges.depressus.description"
+			},
+			{
+				"text": "\n\n"
+			},
+			{
+				"color": "gray",
+				"fallback": "Created by: ",
+				"translate": "advancements.shroomhearth_challenges.created_by"
+			},
+			{
+				"color": "gray",
+				"text": "Depressus"
+			}
+		],
 		"frame": "challenge"
 	},
 	"rewards": {

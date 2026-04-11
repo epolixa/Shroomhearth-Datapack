@@ -4,8 +4,14 @@
 		"icon": {
 			"id": "minecraft:dirt_path"
 		},
-		"title": "Well Traveled",
-		"description": "Gain movement speed while sprinting or riding a saddled mob on Dirt Path or Frosted Ice blocks",
+		"title": {
+			"fallback": "Well Traveled",
+			"translate": "advancements.shroomhearth_guide.well_traveled.title"
+		},
+		"description": {
+			"fallback": "Gain movement speed while sprinting or riding a saddled mob on Dirt Path or Frosted Ice blocks",
+			"translate": "advancements.shroomhearth_guide.well_traveled.description"
+		},
 		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,

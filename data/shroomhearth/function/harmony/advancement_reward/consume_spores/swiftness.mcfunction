@@ -1,7 +1,7 @@
 # Executor: A player that just consumed Spores of Swiftness
 # Location: The player's current location
 
-tellraw @a[tag=debug_harmony] [{"text":"[shroomhearth:harmony/advancement_reward/consume_spores/swiftness] "},{"translate":"harmony.spores.swiftness"},{"text":" consumed by "},{"selector":"@s"}]
+tellraw @a[tag=debug_harmony] [{"text":"[shroomhearth:harmony/advancement_reward/consume_spores/swiftness] "},{"translate":"event.shroomhearth.spores_of_swiftness"},{"text":" consumed by "},{"selector":"@s"}]
 
 
 # Activate or extend Spores of Swiftness

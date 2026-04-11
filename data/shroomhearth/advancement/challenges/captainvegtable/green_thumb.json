@@ -9,12 +9,28 @@
 				}
 			}
 		},
-		"title": "Green Thumb",
+		"title": {
+			"fallback": "Green Thumb",
+			"translate": "advancements.shroomhearth_challenges.green_thumb.title"
+		},
 		"description": [
-            {"text": "Collect every flower and crop"},
-            {"text": "\n\n"},
-            {"text": "Created by CaptainVegtable", "color": "gray"}
-        ],
+			{
+				"fallback": "Collect every flower and crop",
+				"translate": "advancements.shroomhearth_challenges.green_thumb.description"
+			},
+			{
+				"text": "\n\n"
+			},
+			{
+				"color": "gray",
+				"fallback": "Created by: ",
+				"translate": "advancements.shroomhearth_challenges.created_by"
+			},
+			{
+				"color": "gray",
+				"text": "CaptainVegtable"
+			}
+		],
 		"frame": "challenge"
 	},
 	"rewards": {

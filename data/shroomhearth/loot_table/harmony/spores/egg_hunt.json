@@ -13,12 +13,13 @@
                                 "!minecraft:potion_contents": {},
                                 "!minecraft:use_remainder": {},
                                 "minecraft:item_name": {
-                                    "translate": "harmony.spores.egg_hunt",
-                                    "fallback": "Spores of Egg Hunt"
+                                    "fallback": "Spores of Egg Hunt",
+                                    "translate": "event.shroomhearth.spores_of_egg_hunt"
                                 },
                                 "minecraft:lore": [
                                     {
-                                        "translate": "harmony.spores.egg_hunt.tooltip"
+                                        "fallback": "Rabbits drop a Painted Egg after eating Carrots",
+                                        "translate": "event.shroomhearth.spores_of_egg_hunt.tooltip"
                                     }
                                 ],
                                 "minecraft:item_model": "shroomhearth:spores",

@@ -11,7 +11,16 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": "Zombified Piglin Painted Egg",
+                                "minecraft:item_name": [
+                                    {
+                                        "fallback": "Zombified Piglin",
+                                        "translate": "entity.minecraft.zombified_piglin"
+                                    },
+                                    {
+                                        "fallback": " Painted Egg",
+                                        "translate": "item.shroomhearth.painted_egg"
+                                    }
+                                ],
                                 "minecraft:item_model": "minecraft:zombified_piglin_spawn_egg",
                                 "minecraft:custom_data": {
                                     "shroomhearth_id": "zombified_piglin_painted_egg"

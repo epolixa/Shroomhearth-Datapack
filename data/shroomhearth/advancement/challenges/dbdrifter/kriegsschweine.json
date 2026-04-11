@@ -9,12 +9,28 @@
 				}
 			}
 		},
-		"title": "Kriegsschweine",
+		"title": {
+			"fallback": "Kriegsschweine",
+			"translate": "advancements.shroomhearth_challenges.kriegsschweine.title"
+		},
 		"description": [
-            {"text": "Defeat the Ender Dragon while riding a Pig"},
-            {"text": "\n\n"},
-            {"text": "Created by DBDrifter", "color": "gray"}
-        ],
+			{
+				"fallback": "Defeat the Ender Dragon while riding a Pig",
+				"translate": "advancements.shroomhearth_challenges.kriegsschweine.description"
+			},
+			{
+				"text": "\n\n"
+			},
+			{
+				"color": "gray",
+				"fallback": "Created by: ",
+				"translate": "advancements.shroomhearth_challenges.created_by"
+			},
+			{
+				"color": "gray",
+				"text": "DBDrifter"
+			}
+		],
 		"frame": "challenge"
 	},
 	"rewards": {

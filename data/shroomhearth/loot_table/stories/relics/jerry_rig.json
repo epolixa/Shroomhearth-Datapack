@@ -12,8 +12,8 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_name": {
-                                    "translate": "relics.jerry_rig",
-                                    "fallback": "Jerry Rig"
+                                    "fallback": "Jerry Rig",
+                                    "translate": "item.shroomhearth.jerry_rig"
                                 },
                                 "minecraft:item_model": "shroomhearth:jerry_rig",
                                 "minecraft:rarity": "epic",
@@ -22,10 +22,12 @@
                                 },
                                 "minecraft:lore": [
                                     {
-                                        "text": "A crass weapon assembled from scavenged scraps,"
+                                        "fallback": "A crass weapon assembled from scavenged scraps, brandished by",
+                                        "translate": "item.shroomhearth.jerry_rig.lore.0"
                                     },
                                     {
-                                        "text": "brandished by survivors of the City of Echoes."
+                                        "fallback": "survivors of the City of Echoes.",
+                                        "translate": "item.shroomhearth.jerry_rig.lore.1"
                                     }
                                 ],
                                 "minecraft:custom_data": {

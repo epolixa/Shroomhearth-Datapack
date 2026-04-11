@@ -11,7 +11,16 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": "Ocelot Painted Egg",
+                                "minecraft:item_name": [
+                                    {
+                                        "fallback": "Ocelot",
+                                        "translate": "entity.minecraft.ocelot"
+                                    },
+                                    {
+                                        "fallback": " Painted Egg",
+                                        "translate": "item.shroomhearth.painted_egg"
+                                    }
+                                ],
                                 "minecraft:item_model": "minecraft:ocelot_spawn_egg",
                                 "minecraft:custom_data": {
                                     "shroomhearth_id": "ocelot_painted_egg"

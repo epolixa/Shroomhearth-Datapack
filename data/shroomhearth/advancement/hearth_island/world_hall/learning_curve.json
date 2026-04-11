@@ -4,8 +4,14 @@
 		"icon": {
 			"id": "minecraft:knowledge_book"
 		},
-		"title": "Learning Curve",
-		"description": "Print a Knowledge Book at the World Hall",
+		"title": {
+			"fallback": "Learning Curve",
+			"translate": "advancements.hearth_island.hearth_island.learning_curve.title"
+		},
+		"description": {
+			"fallback": "Print a Knowledge Book at the World Hall",
+			"translate": "advancements.hearth_island.hearth_island.learning_curve.description"
+		},
 		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,

@@ -1,7 +1,7 @@
 # Executor: A player that just consumed Spores of Health
 # Location: The player's current location
 
-tellraw @a[tag=debug_harmony] [{"text":"[shroomhearth:harmony/advancement_reward/consume_spores/health] "},{"translate":"harmony.spores.health"},{"text":" consumed by "},{"selector":"@s"}]
+tellraw @a[tag=debug_harmony] [{"text":"[shroomhearth:harmony/advancement_reward/consume_spores/health] "},{"translate":"event.shroomhearth.spores_of_health"},{"text":" consumed by "},{"selector":"@s"}]
 
 # Activate or extend Spores of Health
 execute if score spores_of_health shroomhearth.harmony matches 1.. run function shroomhearth:harmony/spores/health/extend

@@ -11,8 +11,8 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_name": {
-                                    "translate": "runes.rune_of_respiration",
-                                    "fallback": "Rune of Respiration"
+                                    "fallback": "Rune of Respiration",
+                                    "translate": "enchantment.shroomhearth.rune_of_respiration"
                                 },
                                 "minecraft:item_model": "shroomhearth:rune",
                                 "minecraft:rarity": "rare",

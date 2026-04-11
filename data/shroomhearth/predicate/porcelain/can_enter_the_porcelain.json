@@ -7,7 +7,7 @@
         "condition": "minecraft:entity_scores",
         "entity": "this",
         "scores": {
-            "nearby_porcelain": 0
+            "nearby_porcelain_amphora": 0
         }
     },
     {

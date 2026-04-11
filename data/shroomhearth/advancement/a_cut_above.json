@@ -4,8 +4,14 @@
         "icon": {
             "id": "minecraft:stonecutter"
         },
-        "description": "Craft alternate materials with a Stonecutter",
-        "title": "A Cut Above",
+        "title": {
+            "fallback": "A Cut Above",
+            "translate": "advancements.shroomhearth_guide.a_cut_above.title"
+        },
+        "description": {
+            "fallback": "Craft alternate materials with a Stonecutter",
+            "translate": "advancements.shroomhearth_guide.a_cut_above.description"
+        },
         "frame": "task"
     },
     "criteria": {

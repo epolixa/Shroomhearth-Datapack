@@ -5,7 +5,12 @@
 			"id": "minecraft:player_head",
 			"components": {
 				"minecraft:profile": {
-					"id": [-1808185366,1041911772,-2048527048,933168617],
+					"id": [
+						-1808185366,
+						1041911772,
+						-2048527048,
+						933168617
+					],
 					"properties": [
 						{
 							"name": "textures",
@@ -15,8 +20,14 @@
 				}
 			}
 		},
-		"title": "Exotic Wares",
-		"description": "Complete an unusual trade with the Wandering Trader",
+		"title": {
+			"fallback": "Exotic Wares",
+			"translate": "advancements.shroomhearth_guide.exotic_wares.title"
+		},
+		"description": {
+			"fallback": "Complete an unusual trade with the Wandering Trader",
+			"translate": "advancements.shroomhearth_guide.exotic_wares.description"
+		},
 		"frame": "task"
 	},
 	"criteria": {

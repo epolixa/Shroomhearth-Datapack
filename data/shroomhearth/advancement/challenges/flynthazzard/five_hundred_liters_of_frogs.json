@@ -9,11 +9,27 @@
 				}
 			}
 		},
-		"title": "Five Hundred Liters of Frogs",
+		"title": {
+			"fallback": "Five Hundred Liters of Frogs",
+			"translate": "advancements.shroomhearth_challenges.five_hundred_liters_of_frogs.title"
+		},
 		"description": [
-			{"text": "Fill a Bucket with a Tadpole 500 times"},
-			{"text": "\n\n"},
-			{"text": "Created by FlyntHazzard", "color": "gray"}
+			{
+				"fallback": "Fill a Bucket with a Tadpole 500 times",
+				"translate": "advancements.shroomhearth_challenges.five_hundred_liters_of_frogs.description"
+			},
+			{
+				"text": "\n\n"
+			},
+			{
+				"color": "gray",
+				"fallback": "Created by: ",
+				"translate": "advancements.shroomhearth_challenges.created_by"
+			},
+			{
+				"color": "gray",
+				"text": "FlyntHazzard"
+			}
 		],
 		"frame": "challenge"
 	},
@@ -24,25 +40,25 @@
 	},
 	"criteria": {
 		"five_hundred_liters_of_frogs": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "item": "minecraft:tadpole_bucket"
-                    }
-                ],
-                "player": [
-                    {
-                        "condition": "minecraft:entity_scores",
-                        "entity": "this",
-                        "scores": {
-                            "five_hundred_liters_of_frogs": {
-                                "min": 500
-                            }
-                        }
-                    }
-                ]
-            }
-        }
-    }
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:tadpole_bucket"
+					}
+				],
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"five_hundred_liters_of_frogs": {
+								"min": 500
+							}
+						}
+					}
+				]
+			}
+		}
+	}
 }

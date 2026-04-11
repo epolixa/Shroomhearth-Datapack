@@ -11,8 +11,8 @@
                             "function": "set_components",
                             "components": {
                                 "minecraft:item_name": {
-                                    "translate": "runes.rune_of_stepping",
-                                    "fallback": "Rune of Stepping"
+                                    "fallback": "Rune of Stepping",
+                                    "translate": "enchantment.shroomhearth.rune_of_stepping"
                                 },
                                 "minecraft:item_model": "shroomhearth:rune",
                                 "minecraft:rarity": "rare",

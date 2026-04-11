@@ -8,8 +8,8 @@
         "id": "minecraft:goat_horn",
         "components": {
             "minecraft:item_name": {
-                "translate": "echo_whistle.echo_horn",
-                "fallback": "Echo Horn"
+                "fallback": "Echo Horn",
+                "translate": "item.shroomhearth.echo_horn"
             },
             "minecraft:item_model": "shroomhearth:echo_horn",
             "minecraft:rarity": "uncommon",

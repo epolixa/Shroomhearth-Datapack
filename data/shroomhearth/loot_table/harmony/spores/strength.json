@@ -13,12 +13,13 @@
                                 "!minecraft:potion_contents": {},
                                 "!minecraft:use_remainder": {},
                                 "minecraft:item_name": {
-                                    "translate": "harmony.spores.strength",
-                                    "fallback": "Spores of Strength"
+                                    "fallback": "Spores of Strength",
+                                    "translate": "event.shroomhearth.spores_of_strength"
                                 },
                                 "minecraft:lore": [
                                     {
-                                        "translate": "harmony.spores.strength.tooltip"
+                                        "fallback": "Applies +3 Attack Damage to all Players",
+                                        "translate": "event.shroomhearth.spores_of_strength.tooltip"
                                     }
                                 ],
                                 "minecraft:item_model": "shroomhearth:spores",

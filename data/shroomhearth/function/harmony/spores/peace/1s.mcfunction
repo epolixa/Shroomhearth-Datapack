@@ -1,7 +1,7 @@
 # Executor: Server 
 # Location: Root
 
-tellraw @a[tag=debug_harmony] [{"text":"[shroomhearth:harmony/spores/peace/1s] processing "},{"translate":"harmony.spores.peace"}]
+tellraw @a[tag=debug_harmony] [{"text":"[shroomhearth:harmony/spores/peace/1s] processing "},{"translate":"event.shroomhearth.spores_of_peace"}]
 
 
 # Reduce timer for Spores of Peace

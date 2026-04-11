@@ -4,8 +4,14 @@
 		"icon": {
 			"id": "minecraft:creeper_head"
 		},
-		"title": "Headhunter",
-		"description": "Collect a head from every hostile mob",
+		"title": {
+			"fallback": "Headhunter",
+			"translate": "advancements.shroomhearth_challenges.headhunter.title"
+		},
+		"description": {
+			"fallback": "Collect a head from every hostile mob",
+			"translate": "advancements.shroomhearth_challenges.headhunter.description"
+		},
 		"frame": "challenge",
 		"show_toast": true,
 		"announce_to_chat": true,
@@ -371,7 +377,7 @@
 					}
 				]
 			}
-		},	
+		},
 		"skeleton": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
@@ -551,7 +557,7 @@
 					}
 				]
 			}
-		},		
+		},
 		"zombified_piglin": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {

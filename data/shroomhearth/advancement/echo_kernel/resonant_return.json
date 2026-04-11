@@ -7,8 +7,14 @@
 				"minecraft:item_model": "shroomhearth:echo_kernel"
 			}
 		},
-		"title": "Resonant Return",
-		"description": "Eat an Echo Kernel to teleport to its origin",
+		"title": {
+			"fallback": "Resonant Return",
+			"translate": "advancements.shroomhearth_guide.resonant_return.title"
+		},
+		"description": {
+			"fallback": "Eat an Echo Kernel to teleport to its origin",
+			"translate": "advancements.shroomhearth_guide.resonant_return.description"
+		},
 		"frame": "task"
 	},
 	"criteria": {

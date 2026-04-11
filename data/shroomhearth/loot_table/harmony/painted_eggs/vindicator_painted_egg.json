@@ -11,7 +11,16 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": "Vindicator Painted Egg",
+                                "minecraft:item_name": [
+                                    {
+                                        "fallback": "Vindicator",
+                                        "translate": "entity.minecraft.vindicator"
+                                    },
+                                    {
+                                        "fallback": " Painted Egg",
+                                        "translate": "item.shroomhearth.painted_egg"
+                                    }
+                                ],
                                 "minecraft:item_model": "minecraft:vindicator_spawn_egg",
                                 "minecraft:custom_data": {
                                     "shroomhearth_id": "vindicator_painted_egg"

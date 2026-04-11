@@ -9,12 +9,28 @@
 				}
 			}
 		},
-		"title": "Live Más",
+		"title": {
+			"fallback": "Live Más",
+			"translate": "advancements.shroomhearth_challenges.live_mas.title"
+		},
 		"description": [
-            {"text": "Use Bone Meal to spread Moss 5,000 times"},
-            {"text": "\n\n"},
-            {"text": "Created by clown_professor", "color": "gray"}
-        ],
+			{
+				"fallback": "Use Bone Meal to spread Moss 5,000 times",
+				"translate": "advancements.shroomhearth_challenges.live_mas.description"
+			},
+			{
+				"text": "\n\n"
+			},
+			{
+				"color": "gray",
+				"fallback": "Created by: ",
+				"translate": "advancements.shroomhearth_challenges.created_by"
+			},
+			{
+				"color": "gray",
+				"text": "clown_professor"
+			}
+		],
 		"frame": "challenge"
 	},
 	"rewards": {
@@ -23,8 +39,8 @@
 		]
 	},
 	"criteria": {
-        "spread_x_moss": {
-            "trigger": "minecraft:impossible"
-        }
+		"spread_x_moss": {
+			"trigger": "minecraft:impossible"
+		}
 	}
 }

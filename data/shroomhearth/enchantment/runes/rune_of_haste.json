@@ -1,6 +1,7 @@
 {
     "description": {
-        "text": "Rune of Haste",
+        "fallback": "Rune of Haste",
+        "translate": "enchantment.shroomhearth.rune_of_haste",
         "color": "#be95d4"
     },
     "supported_items": "#shroomhearth:rune_supported",

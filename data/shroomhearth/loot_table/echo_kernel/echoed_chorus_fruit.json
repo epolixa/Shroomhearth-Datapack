@@ -12,8 +12,8 @@
                             "components": {
                                 "!minecraft:use_cooldown": {},
                                 "minecraft:item_name": {
-                                    "translate": "echo_kernel.echoed_chorus_fruit",
-                                    "fallback": "Echoed Chorus Fruit"
+                                    "fallback": "Echoed Chorus Fruit",
+                                    "translate": "item.shroomhearth.echoed_chorus_fruit"
                                 },
                                 "minecraft:item_model": "shroomhearth:echoed_chorus_fruit",
                                 "minecraft:rarity": "uncommon",

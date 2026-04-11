@@ -12,8 +12,8 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_name": {
-                                    "translate": "quests.scene_seeker_trophy",
-                                    "fallback": "Scene Seeker Trophy"
+                                    "fallback": "Scene Seeker Trophy",
+                                    "translate": "item.shroomhearth.scene_seeker_trophy"
                                 },
                                 "minecraft:item_model": "shroomhearth:scene_seeker_trophy",
                                 "minecraft:rarity": "epic",

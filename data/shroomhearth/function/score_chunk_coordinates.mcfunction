@@ -5,6 +5,6 @@ tellraw @a[tag=debug_shroomhearth] [{"text":"[shroomhearth:score_chunk_coordinat
 
 
 # Score chunk coordinates as 1/16th of the block coordinates.
-# Used for porcelain anchor forceloading
+# Used for porcelain amphora forceloading
 execute store result score @s chunk_x run data get entity @s Pos[0] 0.0625
 execute store result score @s chunk_z run data get entity @s Pos[2] 0.0625

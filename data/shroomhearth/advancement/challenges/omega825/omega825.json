@@ -9,11 +9,27 @@
 				}
 			}
 		},
-		"title": "Omega825",
+		"title": {
+			"fallback": "Omega825",
+			"translate": "advancements.shroomhearth_challenges.omega825.title"
+		},
 		"description": [
-			{"text": "Place 8,250 rails"},
-			{"text": "\n\n"},
-			{"text": "Created by Omega825", "color": "gray"}
+			{
+				"fallback": "Place 8,250 rails",
+				"translate": "advancements.shroomhearth_challenges.omega825.description"
+			},
+			{
+				"text": "\n\n"
+			},
+			{
+				"color": "gray",
+				"fallback": "Created by: ",
+				"translate": "advancements.shroomhearth_challenges.created_by"
+			},
+			{
+				"color": "gray",
+				"text": "Omega825"
+			}
 		],
 		"frame": "challenge"
 	},

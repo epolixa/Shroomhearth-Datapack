@@ -1,7 +1,7 @@
 # Executor: Server
 # Location: Root
 
-tellraw @a[tag=debug_harmony] [{"text":"[shroomhearth:harmony/spores/continuity/deactivate] deactivating "},{"translate":"harmony.spores.continuity"}]
+tellraw @a[tag=debug_harmony] [{"text":"[shroomhearth:harmony/spores/continuity/deactivate] deactivating "},{"translate":"event.shroomhearth.spores_of_continuity"}]
 
 
 # Stop time lock
@@ -14,7 +14,7 @@ scoreboard players remove active_spores shroomhearth.harmony 1
 bossbar remove shroomhearth:spores_of_continuity
 
 # Announce expiration
-tellraw @a [{"color":"#6c6c89","text":"["},{"translate":"harmony.spores.continuity","hover_event":{"action":"show_text","value":{"translate":"harmony.spores.continuity.tooltip"}}},{"text":"]"},{"color":"white","translate":"harmony.spores.deactivate"}]
+tellraw @a [{"color":"#6c6c89","text":"["},{"translate":"event.shroomhearth.spores_of_continuity","hover_event":{"action":"show_text","value":{"translate":"event.shroomhearth.spores_of_continuity.tooltip"}}},{"text":"]"},{"color":"white","translate":"event.shroomhearth.spores.deactivate"}]
 
 # Play sound 
 execute as @a at @s run playsound block.beacon.deactivate player @s ~ ~ ~ 1 1.7

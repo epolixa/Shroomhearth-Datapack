@@ -11,7 +11,16 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": "Donkey Painted Egg",
+                                "minecraft:item_name": [
+                                    {
+                                        "fallback": "Donkey",
+                                        "translate": "entity.minecraft.donkey"
+                                    },
+                                    {
+                                        "fallback": " Painted Egg",
+                                        "translate": "item.shroomhearth.painted_egg"
+                                    }
+                                ],
                                 "minecraft:item_model": "minecraft:donkey_spawn_egg",
                                 "minecraft:custom_data": {
                                     "shroomhearth_id": "donkey_painted_egg"

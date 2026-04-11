@@ -11,7 +11,16 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": "Skeleton Painted Egg",
+                                "minecraft:item_name": [
+                                    {
+                                        "fallback": "Skeleton",
+                                        "translate": "entity.minecraft.skeleton"
+                                    },
+                                    {
+                                        "fallback": " Painted Egg",
+                                        "translate": "item.shroomhearth.painted_egg"
+                                    }
+                                ],
                                 "minecraft:item_model": "minecraft:skeleton_spawn_egg",
                                 "minecraft:custom_data": {
                                     "shroomhearth_id": "skeleton_painted_egg"

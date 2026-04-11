@@ -9,12 +9,28 @@
 				}
 			}
 		},
-		"title": "Cog Father's Palette",
+		"title": {
+			"fallback": "Cog Father's Palette",
+			"translate": "advancements.shroomhearth_challenges.cog_fathers_palette.title"
+		},
 		"description": [
-            {"text": "Place every \"Red\" block"},
-            {"text": "\n\n"},
-            {"text": "Created by The_RedGear", "color": "gray"}
-        ],
+			{
+				"fallback": "Place every \"Red\" block",
+				"translate": "advancements.shroomhearth_challenges.cog_fathers_palette.description"
+			},
+			{
+				"text": "\n\n"
+			},
+			{
+				"color": "gray",
+				"fallback": "Created by: ",
+				"translate": "advancements.shroomhearth_challenges.created_by"
+			},
+			{
+				"color": "gray",
+				"text": "The_RedGear"
+			}
+		],
 		"frame": "challenge"
 	},
 	"rewards": {

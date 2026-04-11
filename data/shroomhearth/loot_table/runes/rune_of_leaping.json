@@ -11,8 +11,8 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_name": {
-                                    "translate": "runes.rune_of_leaping",
-                                    "fallback": "Rune of Leaping"
+                                    "fallback": "Rune of Leaping",
+                                    "translate": "enchantment.shroomhearth.rune_of_leaping"
                                 },
                                 "minecraft:item_model": "shroomhearth:rune",
                                 "minecraft:rarity": "rare",

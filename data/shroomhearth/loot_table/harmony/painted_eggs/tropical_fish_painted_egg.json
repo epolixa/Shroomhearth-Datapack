@@ -11,7 +11,16 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": "Tropical Fish Painted Egg",
+                                "minecraft:item_name": [
+                                    {
+                                        "fallback": "Tropical Fish",
+                                        "translate": "entity.minecraft.tropical_fish"
+                                    },
+                                    {
+                                        "fallback": " Painted Egg",
+                                        "translate": "item.shroomhearth.painted_egg"
+                                    }
+                                ],
                                 "minecraft:item_model": "minecraft:tropical_fish_spawn_egg",
                                 "minecraft:custom_data": {
                                     "shroomhearth_id": "tropical_fish_painted_egg"

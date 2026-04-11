@@ -12,8 +12,8 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_name": {
-                                    "translate": "quests.wondermerian_staff",
-                                    "fallback": "Wondermerian Staff"
+                                    "fallback": "Wondermerian Staff",
+                                    "translate": "item.shroomhearth.wondermerian_staff"
                                 },
                                 "minecraft:item_model": "shroomhearth:wondermerian_staff",
                                 "minecraft:rarity": "epic",
@@ -22,10 +22,12 @@
                                 },
                                 "minecraft:lore": [
                                     {
-                                        "text": "A relic of Wondermerian legend, "
+                                        "fallback": "A relic of Wondermerian legend, given to those who proved",
+                                        "translate": "item.shroomhearth.wondermerian_staff.lore.0"
                                     },
                                     {
-                                        "text": "given to those who proved themselves worthy."
+                                        "fallback": "themselves worthy.",
+                                        "translate": "item.shroomhearth.wondermerian_staff.lore.1"
                                     }
                                 ],
                                 "minecraft:custom_data": {

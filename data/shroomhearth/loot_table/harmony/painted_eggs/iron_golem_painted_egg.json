@@ -11,7 +11,16 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": "Iron Golem Painted Egg",
+                                "minecraft:item_name": [
+                                    {
+                                        "fallback": "Iron Golem",
+                                        "translate": "entity.minecraft.iron_golem"
+                                    },
+                                    {
+                                        "fallback": " Painted Egg",
+                                        "translate": "item.shroomhearth.painted_egg"
+                                    }
+                                ],
                                 "minecraft:item_model": "minecraft:iron_golem_spawn_egg",
                                 "minecraft:custom_data": {
                                     "shroomhearth_id": "iron_golem_painted_egg"

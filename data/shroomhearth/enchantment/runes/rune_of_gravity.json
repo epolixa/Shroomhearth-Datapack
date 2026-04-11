@@ -1,6 +1,7 @@
 {
     "description": {
-        "text": "Rune of Gravity",
+        "fallback": "Rune of Gravity",
+        "translate": "enchantment.shroomhearth.rune_of_gravity",
         "color": "#be95d4"
     },
     "supported_items": "#shroomhearth:rune_supported",

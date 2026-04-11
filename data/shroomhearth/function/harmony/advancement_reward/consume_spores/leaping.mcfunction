@@ -1,7 +1,7 @@
 # Executor: A player that just consumed Spores of Leaping
 # Location: The player's current location
 
-tellraw @a[tag=debug_harmony] [{"text":"[shroomhearth:harmony/advancement_reward/consume_spores/leaping] "},{"translate":"harmony.spores.leaping"},{"text":" consumed by "},{"selector":"@s"}]
+tellraw @a[tag=debug_harmony] [{"text":"[shroomhearth:harmony/advancement_reward/consume_spores/leaping] "},{"translate":"event.shroomhearth.spores_of_leaping"},{"text":" consumed by "},{"selector":"@s"}]
 
 # Activate or extend Spores of Leaping
 execute if score spores_of_leaping shroomhearth.harmony matches 1.. run function shroomhearth:harmony/spores/leaping/extend

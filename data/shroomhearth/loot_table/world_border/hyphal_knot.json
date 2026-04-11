@@ -11,8 +11,8 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_name": {
-                                    "translate": "hyphal_knot.hyphal_knot",
-                                    "fallback": "Hyphal Knot"
+                                    "fallback": "Hyphal Knot",
+                                    "translate": "item.shroomhearth.hyphal_knot"
                                 },
                                 "minecraft:item_model": "shroomhearth:hyphal_knot",
                                 "minecraft:consumable": {

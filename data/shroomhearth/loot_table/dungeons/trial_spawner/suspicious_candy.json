@@ -12,8 +12,8 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_name": {
-                                    "translate": "hallow_vale.suspicious_candy",
-                                    "fallback": "Suspicious Candy"
+                                    "fallback": "Suspicious Candy",
+                                    "translate": "item.shroomhearth.suspicious_candy"
                                 },
                                 "minecraft:item_model": "shroomhearth:suspicious_candy",
                                 "minecraft:consumable": {

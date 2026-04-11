@@ -13,12 +13,13 @@
                                 "!minecraft:potion_contents": {},
                                 "!minecraft:use_remainder": {},
                                 "minecraft:item_name": {
-                                    "translate": "harmony.spores.experience",
-                                    "fallback": "Spores of Experience"
+                                    "fallback": "Spores of Experience",
+                                    "translate": "event.shroomhearth.spores_of_experience"
                                 },
                                 "minecraft:lore": [
                                     {
-                                        "translate": "harmony.spores.experience.tooltip"
+                                        "fallback": "Experience orbs are duplicated",
+                                        "translate": "event.shroomhearth.spores_of_experience.tooltip"
                                     }
                                 ],
                                 "minecraft:item_model": "shroomhearth:spores",

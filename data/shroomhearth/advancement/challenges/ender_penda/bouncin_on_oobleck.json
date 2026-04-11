@@ -9,12 +9,28 @@
 				}
 			}
 		},
-		"title": "Bouncin' on Oobleck",
+		"title": {
+			"fallback": "Bouncin' on Oobleck",
+			"translate": "advancements.shroomhearth_challenges.bouncin_on_oobleck.title"
+		},
 		"description": [
-            {"text": "Fall at least 24 blocks onto a Slime Block at the bottom of the world"},
-            {"text": "\n\n"},
-            {"text": "Created by Ender_Penda", "color": "gray"}
-        ],
+			{
+				"fallback": "Fall at least 24 blocks onto a Slime Block at the bottom of the world",
+				"translate": "advancements.shroomhearth_challenges.bouncin_on_oobleck.description"
+			},
+			{
+				"text": "\n\n"
+			},
+			{
+				"color": "gray",
+				"fallback": "Created by: ",
+				"translate": "advancements.shroomhearth_challenges.created_by"
+			},
+			{
+				"color": "gray",
+				"text": "Ender_Penda"
+			}
+		],
 		"frame": "challenge"
 	},
 	"rewards": {

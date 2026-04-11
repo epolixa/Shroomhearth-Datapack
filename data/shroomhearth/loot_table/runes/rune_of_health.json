@@ -11,8 +11,8 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_name": {
-                                    "translate": "runes.rune_of_health",
-                                    "fallback": "Rune of Health"
+                                    "fallback": "Rune of Health",
+                                    "translate": "enchantment.shroomhearth.rune_of_health"
                                 },
                                 "minecraft:item_model": "shroomhearth:rune",
                                 "minecraft:rarity": "rare",

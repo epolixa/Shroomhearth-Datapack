@@ -11,7 +11,16 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": "Creaking Painted Egg",
+                                "minecraft:item_name": [
+                                    {
+                                        "fallback": "Creaking",
+                                        "translate": "entity.minecraft.creaking"
+                                    },
+                                    {
+                                        "fallback": " Painted Egg",
+                                        "translate": "item.shroomhearth.painted_egg"
+                                    }
+                                ],
                                 "minecraft:item_model": "minecraft:creaking_spawn_egg",
                                 "minecraft:custom_data": {
                                     "shroomhearth_id": "creaking_painted_egg"

@@ -9,11 +9,27 @@
 				}
 			}
 		},
-		"title": "Krstfr",
+		"title": {
+			"fallback": "Krstfr",
+			"translate": "advancements.shroomhearth_challenges.krstfr.title"
+		},
 		"description": [
-			{"text": "Equip a Carved Pumpkin while near a dozen Skeleton Horses"},
-			{"text": "\n\n"},
-			{"text": "Created by Krstfr", "color": "gray"}
+			{
+				"fallback": "Equip a Carved Pumpkin while near a dozen Skeleton Horses",
+				"translate": "advancements.shroomhearth_challenges.krstfr.description"
+			},
+			{
+				"text": "\n\n"
+			},
+			{
+				"color": "gray",
+				"fallback": "Created by: ",
+				"translate": "advancements.shroomhearth_challenges.created_by"
+			},
+			{
+				"color": "gray",
+				"text": "Krstfr"
+			}
 		],
 		"frame": "challenge"
 	},

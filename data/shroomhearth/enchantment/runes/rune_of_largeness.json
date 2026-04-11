@@ -1,6 +1,7 @@
 {
     "description": {
-        "text": "Rune of Largeness",
+        "fallback": "Rune of Largeness",
+        "translate": "enchantment.shroomhearth.rune_of_largeness",
         "color": "#be95d4"
     },
     "supported_items": "#shroomhearth:rune_supported",

@@ -1,7 +1,7 @@
 # Executor: Server
 # Location: Root
 
-tellraw @a[tag=debug_harmony] [{"text":"[shroomhearth:harmony/spores/continuity/1s] processing "},{"translate":"harmony.spores.continuity"}]
+tellraw @a[tag=debug_harmony] [{"text":"[shroomhearth:harmony/spores/continuity/1s] processing "},{"translate":"event.shroomhearth.spores_of_continuity"}]
 
 
 # Reduce the timer

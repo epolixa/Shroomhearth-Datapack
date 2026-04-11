@@ -9,7 +9,7 @@
                     "mainhand": {
                         "predicates": {
                             "minecraft:custom_data": {
-                                "shroomhearth_id": "porcelain"
+                                "shroomhearth_id": "porcelain_amphora"
                             }
                         }
                     }
@@ -24,7 +24,7 @@
                     "offhand": {
                         "predicates": {
                             "minecraft:custom_data": {
-                                "shroomhearth_id": "porcelain"
+                                "shroomhearth_id": "porcelain_amphora"
                             }
                         }
                     }

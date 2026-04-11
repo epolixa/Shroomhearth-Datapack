@@ -11,8 +11,8 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_name": {
-                                    "translate": "seats.magenta_seat",
-                                    "fallback": "Magenta Seat"
+                                    "fallback": "Magenta Seat",
+                                    "translate": "item.shroomhearth.magenta_seat"
                                 },
                                 "minecraft:item_model": "shroomhearth:magenta_seat",
                                 "minecraft:max_stack_size": 1,

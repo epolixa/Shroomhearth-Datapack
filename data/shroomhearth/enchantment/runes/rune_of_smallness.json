@@ -1,6 +1,7 @@
 {
     "description": {
-        "text": "Rune of Smallness",
+        "fallback": "Rune of Smallness",
+        "translate": "enchantment.shroomhearth.rune_of_smallness",
         "color": "#be95d4"
     },
     "supported_items": "#shroomhearth:rune_supported",

@@ -2,6 +2,12 @@
     "asset_id": "shroomhearth:the_raft",
     "height": 3,
     "width": 3,
-    "author": "_TheBman_",
-    "title": "The Raft"
+    "author": {
+        "fallback": "_TheBman_",
+        "translate":"painting.shroomhearth.the_raft.author"
+    },
+    "title": {
+        "fallback": "The Raft",
+        "translate":"painting.shroomhearth.the_raft.title"
+    }
 }

@@ -16,8 +16,8 @@
         "id": "minecraft:pig_spawn_egg",
         "components": {
             "minecraft:item_name": {
-                "translate": "seats.purple_seat",
-                "fallback": "Purple Seat"
+                "fallback": "Purple Seat",
+                "translate": "item.shroomhearth.purple_seat"
             },
             "minecraft:item_model": "shroomhearth:purple_seat",
             "minecraft:max_stack_size": 1,

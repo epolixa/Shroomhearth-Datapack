@@ -7,8 +7,14 @@
 				"minecraft:item_model": "shroomhearth:echo_horn"
 			}
 		},
-		"title": "Soulbound",
-		"description": "Use another Player's Echo Horn to teleport to them",
+		"title": {
+			"fallback": "Soulbound",
+			"translate": "advancements.shroomhearth_guide.soulbound.title"
+		},
+		"description": {
+			"fallback": "Use another Player's Echo Horn to teleport to them",
+			"translate": "advancements.shroomhearth_guide.soulbound.description"
+		},
 		"frame": "task"
 	},
 	"criteria": {

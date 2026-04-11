@@ -11,8 +11,8 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_name": {
-                                    "translate": "seats.blue_seat",
-                                    "fallback": "Blue Seat"
+                                    "fallback": "Blue Seat",
+                                    "translate": "item.shroomhearth.blue_seat"
                                 },
                                 "minecraft:item_model": "shroomhearth:blue_seat",
                                 "minecraft:max_stack_size": 1,

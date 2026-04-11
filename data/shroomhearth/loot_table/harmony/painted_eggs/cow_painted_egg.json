@@ -11,7 +11,16 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": "Cow Painted Egg",
+                                "minecraft:item_name": [
+                                    {
+                                        "fallback": "Cow",
+                                        "translate": "entity.minecraft.cow"
+                                    },
+                                    {
+                                        "fallback": " Painted Egg",
+                                        "translate": "item.shroomhearth.painted_egg"
+                                    }
+                                ],
                                 "minecraft:item_model": "minecraft:cow_spawn_egg",
                                 "minecraft:custom_data": {
                                     "shroomhearth_id": "cow_painted_egg"

@@ -13,12 +13,13 @@
                                 "!minecraft:potion_contents": {},
                                 "!minecraft:use_remainder": {},
                                 "minecraft:item_name": {
-                                    "translate": "harmony.spores.insomnia",
-                                    "fallback": "Spores of Insomnia"
+                                    "fallback": "Spores of Insomnia",
+                                    "translate": "event.shroomhearth.spores_of_insomnia"
                                 },
                                 "minecraft:lore": [
                                     {
-                                        "translate": "harmony.spores.insomnia.tooltip"
+                                        "fallback": "Prevents Phantoms from spawning",
+                                        "translate": "event.shroomhearth.spores_of_insomnia.tooltip"
                                     }
                                 ],
                                 "minecraft:item_model": "shroomhearth:spores",

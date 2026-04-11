@@ -3,9 +3,15 @@
 	"display": {
 		"icon": {
 			"id": "minecraft:end_rod"
-        },
-		"title": "Haberdasher",
-		"description": "Put any item into your head slot at the Haberdasher",
+		},
+		"title": {
+			"fallback": "Haberdasher",
+			"translate": "advancements.hearth_island.hearth_island.haberdasher.title"
+		},
+		"description": {
+			"fallback": "Put any item into your head slot at the Haberdasher",
+			"translate": "advancements.hearth_island.hearth_island.haberdasher.description"
+		},
 		"frame": "task"
 	},
 	"criteria": {

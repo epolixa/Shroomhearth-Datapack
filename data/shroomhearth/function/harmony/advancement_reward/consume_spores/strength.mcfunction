@@ -1,7 +1,7 @@
 # Executor: A player that just consumed Spores of Strength
 # Location: The player's current location
 
-tellraw @a[tag=debug_harmony] [{"text":"[shroomhearth:harmony/advancement_reward/consume_spores/strength] "},{"translate":"harmony.spores.strength"},{"text":" consumed by "},{"selector":"@s"}]
+tellraw @a[tag=debug_harmony] [{"text":"[shroomhearth:harmony/advancement_reward/consume_spores/strength] "},{"translate":"event.shroomhearth.spores_of_strength"},{"text":" consumed by "},{"selector":"@s"}]
 
 
 # Activate or extend Spores of Strength

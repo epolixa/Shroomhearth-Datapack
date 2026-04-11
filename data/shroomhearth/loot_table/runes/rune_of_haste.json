@@ -11,8 +11,8 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_name": {
-                                    "translate": "runes.rune_of_haste",
-                                    "fallback": "Rune of Haste"
+                                    "fallback": "Rune of Haste",
+                                    "translate": "enchantment.shroomhearth.rune_of_haste"
                                 },
                                 "minecraft:item_model": "shroomhearth:rune",
                                 "minecraft:rarity": "rare",

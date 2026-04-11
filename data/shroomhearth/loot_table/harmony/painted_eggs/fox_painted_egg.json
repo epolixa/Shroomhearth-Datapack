@@ -11,7 +11,16 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": "Fox Painted Egg",
+                                "minecraft:item_name": [
+                                    {
+                                        "fallback": "Fox",
+                                        "translate": "entity.minecraft.fox"
+                                    },
+                                    {
+                                        "fallback": " Painted Egg",
+                                        "translate": "item.shroomhearth.painted_egg"
+                                    }
+                                ],
                                 "minecraft:item_model": "minecraft:fox_spawn_egg",
                                 "minecraft:custom_data": {
                                     "shroomhearth_id": "fox_painted_egg"
