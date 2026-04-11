@@ -12,8 +12,8 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_name": {
-                                    "translate": "world_border.enchanted_golden_chorus_fruit",
-                                    "fallback": "Enchanted Golden Chorus Fruit"
+                                    "fallback": "Enchanted Golden Chorus Fruit",
+                                    "translate": "item.shroomhearth.enchanted_golden_chorus_fruit"
                                 },
                                 "minecraft:item_model": "shroomhearth:golden_chorus_fruit",
                                 "minecraft:rarity": "rare",

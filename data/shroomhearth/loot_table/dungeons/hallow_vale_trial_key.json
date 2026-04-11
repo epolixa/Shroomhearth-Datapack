@@ -12,8 +12,8 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": {
-                  "translate": "hallow_vale.hallow_vale_trial_key",
-                  "fallback": "Hallow Vale Trial Key"
+                  "fallback": "Hallow Vale Trial Key",
+                  "translate": "item.shroomhearth.hallow_vale_trial_key"
                 },
                 "minecraft:item_model": "shroomhearth:hallow_vale_trial_key",
                 "minecraft:custom_data": {

@@ -11,8 +11,8 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_name": {
-                                    "translate": "ender_tome.ender_tome",
-                                    "fallback": "Ender Tome"
+                                    "fallback": "Ender Tome",
+                                    "translate": "item.shroomhearth.ender_tome"
                                 },
                                 "minecraft:item_model": "shroomhearth:ender_tome",
                                 "minecraft:rarity": "rare",

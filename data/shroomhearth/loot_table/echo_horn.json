@@ -11,8 +11,8 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_name": {
-                                    "translate": "echo_whistle.echo_horn",
-                                    "fallback": "Echo Horn"
+                                    "fallback": "Echo Horn",
+                                    "translate": "item.shroomhearth.echo_horn"
                                 },
                                 "minecraft:item_model": "shroomhearth:echo_horn",
                                 "minecraft:rarity": "uncommon",
