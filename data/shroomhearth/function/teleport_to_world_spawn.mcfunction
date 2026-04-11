@@ -5,5 +5,4 @@ tellraw @a[tag=debug_teleport] [{"text":"[shroomhearth:teleport_to_world_spawn] 
 
 
 # Teleport to world spawn
-# TODO: Make sure to update this for world spawn in World 6
-execute in minecraft:overworld run teleport @s 112 75 0
+execute in minecraft:overworld run teleport @s 0 80 0
