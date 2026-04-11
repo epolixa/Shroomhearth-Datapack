@@ -13,7 +13,7 @@ execute store result bossbar shroomhearth:spores_of_experience max run scoreboar
 bossbar set shroomhearth:spores_of_experience name [{"color":"#00FF00","translate":"event.shroomhearth.spores_of_experience"},{"color":"white","text":" - "},{"selector": "@s"}]
 
 # Announce extension
-tellraw @a [{"color":"#00FF00","text":"["},{"translate":"event.shroomhearth.spores_of_experience","hover_event":{"action":"show_text","value":{"translate":"event.shroomhearth.spores_of_experience.tooltip"}}},{"text":"]"},{"color":"white","translate":"harmony.spores.extend"},{"selector":"@s"}]
+tellraw @a [{"color":"#00FF00","text":"["},{"translate":"event.shroomhearth.spores_of_experience","hover_event":{"action":"show_text","value":{"translate":"event.shroomhearth.spores_of_experience.tooltip"}}},{"text":"]"},{"color":"white","translate":"event.shroomhearth.spores.extend"},{"selector":"@s"}]
 
 # Play sound 
 execute as @a at @s run playsound block.beacon.power_select player @s ~ ~ ~ 1 1.8

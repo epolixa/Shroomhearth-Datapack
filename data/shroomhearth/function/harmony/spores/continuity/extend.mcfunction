@@ -14,7 +14,7 @@ execute store result bossbar shroomhearth:spores_of_continuity max run scoreboar
 bossbar set shroomhearth:spores_of_continuity name [{"color":"#6c6c89","translate":"event.shroomhearth.spores_of_continuity"},{"color":"white","text":" - "},{"selector": "@s"}]
 
 # Announce extension
-tellraw @a [{"color":"#6c6c89","text":"["},{"translate":"event.shroomhearth.spores_of_continuity","hover_event":{"action":"show_text","value":{"translate":"event.shroomhearth.spores_of_continuity.tooltip"}}},{"text":"]"},{"color":"white","translate":"harmony.spores.extend"},{"selector":"@s"}]
+tellraw @a [{"color":"#6c6c89","text":"["},{"translate":"event.shroomhearth.spores_of_continuity","hover_event":{"action":"show_text","value":{"translate":"event.shroomhearth.spores_of_continuity.tooltip"}}},{"text":"]"},{"color":"white","translate":"event.shroomhearth.spores.extend"},{"selector":"@s"}]
 
 # Play sound 
 execute as @a at @s run playsound block.beacon.power_select player @s ~ ~ ~ 1 1.8

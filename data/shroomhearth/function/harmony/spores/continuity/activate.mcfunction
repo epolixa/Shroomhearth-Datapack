@@ -22,7 +22,7 @@ bossbar set shroomhearth:spores_of_continuity visible true
 bossbar set shroomhearth:spores_of_continuity players @a[scores={show_timer_bars=1}]
 
 # Announce activation
-tellraw @a [{"color":"#6c6c89","text":"["},{"translate":"event.shroomhearth.spores_of_continuity","hover_event":{"action":"show_text","value":{"translate":"event.shroomhearth.spores_of_continuity.tooltip"}}},{"text":"]"},{"color":"white","translate":"harmony.spores.activate"},{"selector":"@s"}]
+tellraw @a [{"color":"#6c6c89","text":"["},{"translate":"event.shroomhearth.spores_of_continuity","hover_event":{"action":"show_text","value":{"translate":"event.shroomhearth.spores_of_continuity.tooltip"}}},{"text":"]"},{"color":"white","translate":"event.shroomhearth.spores.activate"},{"selector":"@s"}]
 
 # Play sound 
 execute as @a at @s run playsound block.beacon.power_select player @s ~ ~ ~ 1 1.7
