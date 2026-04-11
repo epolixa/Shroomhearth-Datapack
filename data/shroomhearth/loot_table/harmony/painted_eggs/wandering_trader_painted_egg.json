@@ -11,7 +11,16 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": "Wandering Trader Painted Egg",
+                                "minecraft:item_name": [
+                                    {
+                                        "fallback": "Wandering Trader",
+                                        "translate": "entity.minecraft.wandering_trader"
+                                    },
+                                    {
+                                        "fallback": " Painted Egg",
+                                        "translate": "item.shroomhearth.painted_egg"
+                                    }
+                                ],
                                 "minecraft:item_model": "minecraft:wandering_trader_spawn_egg",
                                 "minecraft:custom_data": {
                                     "shroomhearth_id": "wandering_trader_painted_egg"

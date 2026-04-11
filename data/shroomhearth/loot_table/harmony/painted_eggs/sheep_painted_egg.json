@@ -11,7 +11,16 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": "Sheep Painted Egg",
+                                "minecraft:item_name": [
+                                    {
+                                        "fallback": "Sheep",
+                                        "translate": "entity.minecraft.sheep"
+                                    },
+                                    {
+                                        "fallback": " Painted Egg",
+                                        "translate": "item.shroomhearth.painted_egg"
+                                    }
+                                ],
                                 "minecraft:item_model": "minecraft:sheep_spawn_egg",
                                 "minecraft:custom_data": {
                                     "shroomhearth_id": "sheep_painted_egg"

@@ -11,7 +11,16 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": "Tadpole Painted Egg",
+                                "minecraft:item_name": [
+                                    {
+                                        "fallback": "Tadpole",
+                                        "translate": "entity.minecraft.tadpole"
+                                    },
+                                    {
+                                        "fallback": " Painted Egg",
+                                        "translate": "item.shroomhearth.painted_egg"
+                                    }
+                                ],
                                 "minecraft:item_model": "minecraft:tadpole_spawn_egg",
                                 "minecraft:custom_data": {
                                     "shroomhearth_id": "tadpole_painted_egg"

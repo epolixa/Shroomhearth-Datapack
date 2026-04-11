@@ -11,7 +11,16 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": "Zombie Nautilus Painted Egg",
+                                "minecraft:item_name": [
+                                    {
+                                        "fallback": "Zombie Nautilus",
+                                        "translate": "entity.minecraft.zombie_nautilus"
+                                    },
+                                    {
+                                        "fallback": " Painted Egg",
+                                        "translate": "item.shroomhearth.painted_egg"
+                                    }
+                                ],
                                 "minecraft:item_model": "minecraft:zombie_nautilus_spawn_egg",
                                 "minecraft:custom_data": {
                                     "shroomhearth_id": "zombie_nautilus_painted_egg"

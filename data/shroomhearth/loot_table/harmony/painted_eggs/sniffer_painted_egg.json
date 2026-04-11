@@ -11,7 +11,16 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": "Sniffer Painted Egg",
+                                "minecraft:item_name": [
+                                    {
+                                        "fallback": "Sniffer",
+                                        "translate": "entity.minecraft.sniffer"
+                                    },
+                                    {
+                                        "fallback": " Painted Egg",
+                                        "translate": "item.shroomhearth.painted_egg"
+                                    }
+                                ],
                                 "minecraft:item_model": "minecraft:sniffer_spawn_egg",
                                 "minecraft:custom_data": {
                                     "shroomhearth_id": "sniffer_painted_egg"

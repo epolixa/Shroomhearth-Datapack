@@ -11,7 +11,16 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": "Elder Guardian Painted Egg",
+                                "minecraft:item_name": [
+                                    {
+                                        "fallback": "Elder Guardian",
+                                        "translate": "entity.minecraft.elder_guardian"
+                                    },
+                                    {
+                                        "fallback": " Painted Egg",
+                                        "translate": "item.shroomhearth.painted_egg"
+                                    }
+                                ],
                                 "minecraft:item_model": "minecraft:elder_guardian_spawn_egg",
                                 "minecraft:custom_data": {
                                     "shroomhearth_id": "elder_guardian_painted_egg"

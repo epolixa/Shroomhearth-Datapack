@@ -11,7 +11,16 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": "Wither Painted Egg",
+                                "minecraft:item_name": [
+                                    {
+                                        "fallback": "Wither",
+                                        "translate": "entity.minecraft.wither"
+                                    },
+                                    {
+                                        "fallback": " Painted Egg",
+                                        "translate": "item.shroomhearth.painted_egg"
+                                    }
+                                ],
                                 "minecraft:item_model": "minecraft:wither_spawn_egg",
                                 "minecraft:custom_data": {
                                     "shroomhearth_id": "wither_painted_egg"

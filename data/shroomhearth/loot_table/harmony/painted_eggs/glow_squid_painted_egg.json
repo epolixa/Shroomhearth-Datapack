@@ -11,7 +11,16 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": "Glow Squid Painted Egg",
+                                "minecraft:item_name": [
+                                    {
+                                        "fallback": "Glow Squid",
+                                        "translate": "entity.minecraft.glow_squid"
+                                    },
+                                    {
+                                        "fallback": " Painted Egg",
+                                        "translate": "item.shroomhearth.painted_egg"
+                                    }
+                                ],
                                 "minecraft:item_model": "minecraft:glow_squid_spawn_egg",
                                 "minecraft:custom_data": {
                                     "shroomhearth_id": "glow_squid_painted_egg"

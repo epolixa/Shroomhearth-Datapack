@@ -11,7 +11,16 @@
                         {
                             "function": "minecraft:set_components",
                             "components": {
-                                "minecraft:item_name": "Piglin Brute Painted Egg",
+                                "minecraft:item_name": [
+                                    {
+                                        "fallback": "Piglin Brute",
+                                        "translate": "entity.minecraft.piglin_brute"
+                                    },
+                                    {
+                                        "fallback": " Painted Egg",
+                                        "translate": "item.shroomhearth.painted_egg"
+                                    }
+                                ],
                                 "minecraft:item_model": "minecraft:piglin_brute_spawn_egg",
                                 "minecraft:custom_data": {
                                     "shroomhearth_id": "piglin_brute_painted_egg"
