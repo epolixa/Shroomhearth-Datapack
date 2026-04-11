@@ -6,6 +6,9 @@
 tellraw @a[tag=debug_shroomhearth] [{"text":"[shroomhearth:advancement_reward/shroomhearth_guide] Player "},{"selector":"@s"},{"color":"white","text":" granted Shroomhearth Guide advancement"}]
 
 
+# Welcome announcement
+tellraw @a [{"text":"Welcome to Shroomhearth, "},{"selector":"@s"},{"text":"!"}]
+
 # Grant challenges and stories guide advancement
 advancement grant @s only shroomhearth:shroomhearth_challenges
 advancement grant @s only shroomhearth:shroomhearth_stories
