@@ -24,7 +24,7 @@
         "minecraft:attributes": [
             {
                 "id": "shroomhearth:rune_of_swiftness.movement_speed",
-                "attribute": "movement_speed",
+                "attribute": "minecraft:movement_speed",
                 "operation": "add_multiplied_base",
                 "amount": {
                     "type": "minecraft:linear",
@@ -34,7 +34,7 @@
             },
             {
                 "id": "shroomhearth:rune_of_swiftness.flying_speed",
-                "attribute": "flying_speed",
+                "attribute": "minecraft:flying_speed",
                 "operation": "add_multiplied_base",
                 "amount": {
                     "type": "minecraft:linear",

@@ -24,7 +24,7 @@
         "minecraft:attributes": [
             {
                 "id": "shroomhearth:rune_of_leaping.safe_fall_distance",
-                "attribute": "safe_fall_distance",
+                "attribute": "minecraft:safe_fall_distance",
                 "operation": "add_value",
                 "amount": {
                     "type": "minecraft:linear",
@@ -34,7 +34,7 @@
             },
             {
                 "id": "shroomhearth:rune_of_leaping.jump_strength",
-                "attribute": "jump_strength",
+                "attribute": "minecraft:jump_strength",
                 "operation": "add_value",
                 "amount": {
                     "type": "minecraft:linear",

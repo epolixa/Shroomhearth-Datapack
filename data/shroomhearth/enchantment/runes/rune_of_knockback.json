@@ -24,7 +24,7 @@
         "minecraft:attributes": [
             {
                 "id": "shroomhearth:rune_of_knockback",
-                "attribute": "attack_knockback",
+                "attribute": "minecraft:attack_knockback",
                 "operation": "add_value",
                 "amount": {
                     "type": "minecraft:linear",
