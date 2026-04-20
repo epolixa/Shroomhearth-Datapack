@@ -44,20 +44,30 @@
 				]
 			}
 		},
+		"rune_of_bounciness": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:enchanted_book",
+						"predicates": {
+							"minecraft:custom_data": {
+								"shroomhearth_id": "rune_of_bounciness"
+							}
+						}
+					}
+				]
+			}
+		},
 		"rune_of_gravity": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
 					{
 						"items": "minecraft:enchanted_book",
-						"components": {
-							"minecraft:stored_enchantments": {
-								"shroomhearth:runes/rune_of_gravity": 1
-							},
-							"minecraft:tooltip_display": {
-								"hidden_components": [
-									"minecraft:stored_enchantments"
-								]
+						"predicates": {
+							"minecraft:custom_data": {
+								"shroomhearth_id": "rune_of_gravity"
 							}
 						}
 					}
@@ -70,14 +80,9 @@
 				"items": [
 					{
 						"items": "minecraft:enchanted_book",
-						"components": {
-							"minecraft:stored_enchantments": {
-								"shroomhearth:runes/rune_of_haste": 1
-							},
-							"minecraft:tooltip_display": {
-								"hidden_components": [
-									"minecraft:stored_enchantments"
-								]
+						"predicates": {
+							"minecraft:custom_data": {
+								"shroomhearth_id": "rune_of_haste"
 							}
 						}
 					}
@@ -90,14 +95,9 @@
 				"items": [
 					{
 						"items": "minecraft:enchanted_book",
-						"components": {
-							"minecraft:stored_enchantments": {
-								"shroomhearth:runes/rune_of_health": 1
-							},
-							"minecraft:tooltip_display": {
-								"hidden_components": [
-									"minecraft:stored_enchantments"
-								]
+						"predicates": {
+							"minecraft:custom_data": {
+								"shroomhearth_id": "rune_of_health"
 							}
 						}
 					}
@@ -110,14 +110,9 @@
 				"items": [
 					{
 						"items": "minecraft:enchanted_book",
-						"components": {
-							"minecraft:stored_enchantments": {
-								"shroomhearth:runes/rune_of_knockback": 1
-							},
-							"minecraft:tooltip_display": {
-								"hidden_components": [
-									"minecraft:stored_enchantments"
-								]
+						"predicates": {
+							"minecraft:custom_data": {
+								"shroomhearth_id": "rune_of_knockback"
 							}
 						}
 					}
@@ -130,14 +125,9 @@
 				"items": [
 					{
 						"items": "minecraft:enchanted_book",
-						"components": {
-							"minecraft:stored_enchantments": {
-								"shroomhearth:runes/rune_of_largeness": 1
-							},
-							"minecraft:tooltip_display": {
-								"hidden_components": [
-									"minecraft:stored_enchantments"
-								]
+						"predicates": {
+							"minecraft:custom_data": {
+								"shroomhearth_id": "rune_of_largeness"
 							}
 						}
 					}
@@ -150,14 +140,24 @@
 				"items": [
 					{
 						"items": "minecraft:enchanted_book",
-						"components": {
-							"minecraft:stored_enchantments": {
-								"shroomhearth:runes/rune_of_leaping": 1
-							},
-							"minecraft:tooltip_display": {
-								"hidden_components": [
-									"minecraft:stored_enchantments"
-								]
+						"predicates": {
+							"minecraft:custom_data": {
+								"shroomhearth_id": "rune_of_leaping"
+							}
+						}
+					}
+				]
+			}
+		},
+		"rune_of_lubricity": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:enchanted_book",
+						"predicates": {
+							"minecraft:custom_data": {
+								"shroomhearth_id": "rune_of_lubricity"
 							}
 						}
 					}
@@ -170,14 +170,9 @@
 				"items": [
 					{
 						"items": "minecraft:enchanted_book",
-						"components": {
-							"minecraft:stored_enchantments": {
-								"shroomhearth:runes/rune_of_reach": 1
-							},
-							"minecraft:tooltip_display": {
-								"hidden_components": [
-									"minecraft:stored_enchantments"
-								]
+						"predicates": {
+							"minecraft:custom_data": {
+								"shroomhearth_id": "rune_of_reach"
 							}
 						}
 					}
@@ -190,14 +185,9 @@
 				"items": [
 					{
 						"items": "minecraft:enchanted_book",
-						"components": {
-							"minecraft:stored_enchantments": {
-								"shroomhearth:runes/rune_of_respiration": 1
-							},
-							"minecraft:tooltip_display": {
-								"hidden_components": [
-									"minecraft:stored_enchantments"
-								]
+						"predicates": {
+							"minecraft:custom_data": {
+								"shroomhearth_id": "rune_of_respiration"
 							}
 						}
 					}
@@ -210,14 +200,9 @@
 				"items": [
 					{
 						"items": "minecraft:enchanted_book",
-						"components": {
-							"minecraft:stored_enchantments": {
-								"shroomhearth:runes/rune_of_smallness": 1
-							},
-							"minecraft:tooltip_display": {
-								"hidden_components": [
-									"minecraft:stored_enchantments"
-								]
+						"predicates": {
+							"minecraft:custom_data": {
+								"shroomhearth_id": "rune_of_smallness"
 							}
 						}
 					}
@@ -230,14 +215,9 @@
 				"items": [
 					{
 						"items": "minecraft:enchanted_book",
-						"components": {
-							"minecraft:stored_enchantments": {
-								"shroomhearth:runes/rune_of_stability": 1
-							},
-							"minecraft:tooltip_display": {
-								"hidden_components": [
-									"minecraft:stored_enchantments"
-								]
+						"predicates": {
+							"minecraft:custom_data": {
+								"shroomhearth_id": "rune_of_stability"
 							}
 						}
 					}
@@ -250,14 +230,24 @@
 				"items": [
 					{
 						"items": "minecraft:enchanted_book",
-						"components": {
-							"minecraft:stored_enchantments": {
-								"shroomhearth:runes/rune_of_stepping": 1
-							},
-							"minecraft:tooltip_display": {
-								"hidden_components": [
-									"minecraft:stored_enchantments"
-								]
+						"predicates": {
+							"minecraft:custom_data": {
+								"shroomhearth_id": "rune_of_stepping"
+							}
+						}
+					}
+				]
+			}
+		},
+		"rune_of_streamlining": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:enchanted_book",
+						"predicates": {
+							"minecraft:custom_data": {
+								"shroomhearth_id": "rune_of_streamlining"
 							}
 						}
 					}
@@ -270,14 +260,9 @@
 				"items": [
 					{
 						"items": "minecraft:enchanted_book",
-						"components": {
-							"minecraft:stored_enchantments": {
-								"shroomhearth:runes/rune_of_strength": 1
-							},
-							"minecraft:tooltip_display": {
-								"hidden_components": [
-									"minecraft:stored_enchantments"
-								]
+						"predicates": {
+							"minecraft:custom_data": {
+								"shroomhearth_id": "rune_of_strength"
 							}
 						}
 					}
@@ -290,14 +275,9 @@
 				"items": [
 					{
 						"items": "minecraft:enchanted_book",
-						"components": {
-							"minecraft:stored_enchantments": {
-								"shroomhearth:runes/rune_of_swiftness": 1
-							},
-							"minecraft:tooltip_display": {
-								"hidden_components": [
-									"minecraft:stored_enchantments"
-								]
+						"predicates": {
+							"minecraft:custom_data": {
+								"shroomhearth_id": "rune_of_swiftness"
 							}
 						}
 					}
