@@ -15,11 +15,11 @@
             {
                 buy: {
                     id: "minecraft:glistering_melon_slice",
-                    count: 8,
+                    count: 4,
                     components: {
                         "minecraft:item_name": {
-                            "translate": "community.harmony_cap",
-                            "fallback": "Harmony Cap"
+                            "fallback": "Harmony Cap",
+                            "translate": "item.shroomhearth.harmony_cap"                           
                         },
                         "minecraft:item_model": "shroomhearth:harmony_cap",
                         "minecraft:custom_data": {
@@ -36,8 +36,8 @@
                     count: 1,
                     components: {
                         "minecraft:item_name": {
-                            "translate": "hyphal_knot.hyphal_knot",
-                            "fallback": "Hyphal Knot"
+                            "fallback": "Hyphal Knot",
+                            "translate": "item.shroomhearth.hyphal_knot"
                         },
                         "minecraft:item_model": "shroomhearth:hyphal_knot",
                         "minecraft:consumable": {
