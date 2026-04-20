@@ -1,0 +1,22 @@
+{
+	"parent": "shroomhearth:shroomhearth_guide",
+	"display": {
+		"icon": {
+			"id": "minecraft:anvil"
+		},
+		"title": {
+			"fallback": "Right Where You Left It",
+			"translate": "advancements.shroomhearth_guide.right_where_you_left_it.title"
+		},
+		"description": {
+			"fallback": "Rename an item to prevent it from despawning when dropped",
+			"translate": "advancements.shroomhearth_guide.right_where_you_left_it.description"
+		},
+		"frame": "task"
+	},
+	"criteria": {
+		"right_where_you_left_it": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}
