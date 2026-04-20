@@ -5,11 +5,11 @@
 			"conditions": {
 				"entity": [
 					{
-						"condition": "entity_properties",
+						"condition": "minecraft:entity_properties",
 						"entity": "this",
 						"predicate": {
-							"type": "minecraft:player",
-							"distance": {
+							"minecraft:entity_type": "minecraft:player",
+							"minecraft:distance": {
 								"absolute": {
 									"min": 0.0625
 								}

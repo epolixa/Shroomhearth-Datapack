@@ -4,9 +4,9 @@
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "entity": {
-                    "type": "minecraft:end_crystal",
-                    "nbt": "{ShowBottom:1b}",
-                    "location": {
+                    "minecraft:entity_type": "minecraft:end_crystal",
+                    "minecraft:nbt": "{ShowBottom:1b}",
+                    "minecraft:location": {
                         "dimension": "minecraft:the_end",
                         "position": {
                             "x": {

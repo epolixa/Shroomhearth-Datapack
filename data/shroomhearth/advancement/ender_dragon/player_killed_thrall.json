@@ -4,9 +4,9 @@
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "entity": {
-                    "team": "ender_dragon",
-                    "type": "#shroomhearth:ender_dragon/dragon_thralls",
-                    "location": {
+                    "minecraft:team": "ender_dragon",
+                    "minecraft:entity_type": "#shroomhearth:ender_dragon/dragon_thralls",
+                    "minecraft:location": {
                         "dimension": "minecraft:the_end",
                         "position": {
                             "x": {

@@ -4,7 +4,7 @@
             "trigger": "minecraft:player_interacted_with_entity",
             "conditions": {
                 "entity": {
-                    "type": "minecraft:allay"
+                    "minecraft:entity_type": "minecraft:allay"
                 },
                 "item": {
                     "items": "minecraft:glass_bottle"

@@ -19,7 +19,7 @@
 			"trigger": "minecraft:fishing_rod_hooked",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:warden"
+					"minecraft:entity_type": "minecraft:warden"
 				}
 			}
 		}

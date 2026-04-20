@@ -4,8 +4,8 @@
         "condition": "minecraft:entity_properties",
         "entity": "this",
         "predicate": {
-            "type": "minecraft:player",
-            "location": {
+            "minecraft:entity_type": "minecraft:player",
+            "minecraft:location": {
                 "dimension": "minecraft:the_end",
                 "position": {
                     "x": {
@@ -18,8 +18,8 @@
                     }
                 }
             },
-            "vehicle": {
-                "type": "#shroomhearth:mounts"
+            "minecraft:vehicle": {
+                "minecraft:entity_type": "#shroomhearth:mounts"
             }
         }
     }

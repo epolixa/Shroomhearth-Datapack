@@ -19,8 +19,8 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:wither_skeleton",
-					"team": "wither"
+					"minecraft:entity_type": "minecraft:wither_skeleton",
+					"minecraft:team": "wither"
 				}
 			}
 		}
