@@ -12,9 +12,9 @@
 					}
 				],
 				"player": {
-					"player": {
+					"minecraft:type_specific/player": {
 						"advancements": {
-							"challenges:depressus": false
+							"shroomhearth:challenges/depressus/depressus": false
 						}
 					}
 				}
@@ -22,6 +22,6 @@
 		}
 	},
 	"rewards": {
-		"function": "challenges:depressus"
+		"function": "shroomhearth:challenges/depressus"
 	} 
 }

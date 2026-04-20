@@ -1,6 +1,6 @@
 {
 	"criteria": {
-		"place_rail": {
+		"place_sandstone": {
 			"trigger": "minecraft:placed_block",
 			"conditions": {
 				"location": [
@@ -8,12 +8,9 @@
 						"condition": "minecraft:entity_properties",
 						"entity": "this",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
-								"player": {
-									"advancements": {
-										"challenges:_thebman_": false
-									}
+							"minecraft:type_specific/player": {
+								"advancements": {
+									"shroomhearth:challenges/_thebman_/_thebman_": false
 								}
 							}
 						}
@@ -29,6 +26,6 @@
 		}
 	},
 	"rewards": {
-		"function": "challenges:_thebman_"
+		"function": "shroomhearth:challenges/_thebman_"
 	}
 }

@@ -9,8 +9,7 @@
                     }
                 },
 				"player": {
-					"type_specific": {
-						"type": "minecraft:player",
+					"minecraft:type_specific/player": {
 						"advancements": {
 							"shroomhearth:challenges/ender_penda/bouncin_on_oobleck": false
 						}

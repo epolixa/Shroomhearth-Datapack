@@ -8,11 +8,10 @@
 						"condition": "minecraft:entity_properties",
 						"entity": "this",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"player": {
 									"advancements": {
-										"challenges:omega825": false
+										"shroomhearth:challenges/omega825/omega825": false
 									}
 								}
 							}
@@ -29,6 +28,6 @@
 		}
 	},
 	"rewards": {
-		"function": "challenges:omega825"
+		"function": "shroomhearth:challenges/omega825"
 	} 
 }

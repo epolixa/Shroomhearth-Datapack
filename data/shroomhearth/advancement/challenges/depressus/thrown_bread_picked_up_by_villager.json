@@ -7,7 +7,7 @@
                     "items": "minecraft:bread"
                 },
                 "entity": {
-                    "type": "minecraft:villager"
+                    "minecraft:entity_type": "minecraft:villager"
                 }
             }
         }

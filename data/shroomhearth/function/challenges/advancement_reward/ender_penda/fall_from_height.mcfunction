@@ -8,4 +8,4 @@ tellraw @a[tag=debug_challenges] [{"text":"[shroomhearth:challenges/advancement_
 advancement grant @s[predicate=shroomhearth:on_slime_block_at_bottom_of_world] only shroomhearth:challenges/ender_penda/bouncin_on_oobleck
 
 # Revoke trigger if advancement not granted
-advancement revoke @s[advancements={challenges:ender_penda=false}] only shroomhearth:challenges/ender_penda/fall_from_height
+advancement revoke @s[advancements={shroomhearth:challenges/ender_penda/bouncin_on_oobleck=false}] only shroomhearth:challenges/ender_penda/fall_from_height
