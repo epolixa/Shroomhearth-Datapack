@@ -8,7 +8,7 @@
   "key": {
     "l": "minecraft:stick",
     "s": "minecraft:string",
-    "n": "minecraft:iron_nugget"
+    "n": "#minecraft:metal_nuggets"
   },
   "result": {
     "id": "minecraft:fishing_rod"

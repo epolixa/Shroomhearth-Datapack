@@ -6,8 +6,8 @@
             count: 1,
             components: {
                 "minecraft:item_name": {
-                    "translate": "community.harmony_cap",
-                    "fallback": "Harmony Cap"
+                    "fallback": "Harmony Cap",
+                    "translate": "item.shroomhearth.harmony_cap"
                 },
                 "minecraft:item_model": "shroomhearth:harmony_cap",
                 "minecraft:custom_data": {

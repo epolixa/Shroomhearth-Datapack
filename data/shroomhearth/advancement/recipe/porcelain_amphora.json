@@ -11,7 +11,7 @@
                 ]
             }
         },
-        "has_porcelain": {
+        "has_porcelain_amphora": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -19,7 +19,7 @@
                         "items": "minecraft:warped_fungus_on_a_stick",
                         "components": {
                             "minecraft:custom_data": {
-                                "shroomhearth_id": "porcelain"
+                                "shroomhearth_id": "porcelain_amphora"
                             }
                         }
                     }
@@ -29,20 +29,20 @@
         "has_recipe": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "shroomhearth:porcelain"
+                "recipe": "shroomhearth:porcelain_amphora"
             }
         }
     },
     "requirements": [
         [
             "has_nether_star",
-            "has_porcelain",
+            "has_porcelain_amphora",
             "has_recipe"
         ]
     ],
     "rewards": {
         "recipes": [
-            "shroomhearth:porcelain"
+            "shroomhearth:porcelain_amphora"
         ]
     }
 }

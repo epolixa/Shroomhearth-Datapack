@@ -1,5 +1,7 @@
 {
-    Tags: ["harmony_villager"],
+    Tags: [
+        "harmony_villager"
+    ],
     CustomName: "Knotkeeper",
     Invulnerable: true,
     attributes: [
@@ -15,11 +17,11 @@
             {
                 buy: {
                     id: "minecraft:glistering_melon_slice",
-                    count: 8,
+                    count: 4,
                     components: {
                         "minecraft:item_name": {
-                            "translate": "community.harmony_cap",
-                            "fallback": "Harmony Cap"
+                            "fallback": "Harmony Cap",
+                            "translate": "item.shroomhearth.harmony_cap"
                         },
                         "minecraft:item_model": "shroomhearth:harmony_cap",
                         "minecraft:custom_data": {
@@ -36,8 +38,8 @@
                     count: 1,
                     components: {
                         "minecraft:item_name": {
-                            "translate": "hyphal_knot.hyphal_knot",
-                            "fallback": "Hyphal Knot"
+                            "fallback": "Hyphal Knot",
+                            "translate": "item.shroomhearth.hyphal_knot"
                         },
                         "minecraft:item_model": "shroomhearth:hyphal_knot",
                         "minecraft:consumable": {
@@ -52,6 +54,261 @@
                         },
                         "minecraft:custom_data": {
                             "shroomhearth_id": "hyphal_knot"
+                        }
+                    }
+                },
+                specialPrice: 0,
+                uses: 0,
+                xp: 0
+            },
+            {
+                buy: {
+                    id: "minecraft:glistering_melon_slice",
+                    count: 16,
+                    components: {
+                        "minecraft:item_name": {
+                            "fallback": "Harmony Cap",
+                            "translate": "item.shroomhearth.harmony_cap"
+                        },
+                        "minecraft:item_model": "shroomhearth:harmony_cap",
+                        "minecraft:custom_data": {
+                            "shroomhearth_id": "harmony_cap"
+                        }
+                    }
+                },
+                demand: 0,
+                maxUses: 2147483647,
+                priceMultiplier: 0,
+                rewardExp: false,
+                sell: {
+                    id: "minecraft:diamond_sword",
+                    count: 1,
+                    components: {
+                        "minecraft:item_name": {
+                            "fallback": "Wondermerian Blade",
+                            "translate": "quests.wondermerian_blade"
+                        },
+                        "minecraft:item_model": "shroomhearth:wondermerian_blade",
+                        "minecraft:rarity": "epic",
+                        "minecraft:enchantments": {
+                            "shroomhearth:stories/wondermerian_agility": 1
+                        },
+                        "minecraft:lore": [
+                            {
+                                "fallback": "A ceremonial dagger traditionally bestowed upon the most",
+                                "translate": "item.shroomhearth.wondermerian_blade.lore.0"
+                            },
+                            {
+                                "fallback": "illustrious of Wondermerian aristocrats.",
+                                "translate": "item.shroomhearth.wondermerian_blade.lore.1"
+                            }
+                        ],
+                        "minecraft:custom_data": {
+                            "shroomhearth_id": "wondermerian_blade"
+                        }
+                    }
+                },
+                specialPrice: 0,
+                uses: 0,
+                xp: 0
+            },
+            {
+                buy: {
+                    id: "minecraft:glistering_melon_slice",
+                    count: 16,
+                    components: {
+                        "minecraft:item_name": {
+                            "fallback": "Harmony Cap",
+                            "translate": "item.shroomhearth.harmony_cap"
+                        },
+                        "minecraft:item_model": "shroomhearth:harmony_cap",
+                        "minecraft:custom_data": {
+                            "shroomhearth_id": "harmony_cap"
+                        }
+                    }
+                },
+                demand: 0,
+                maxUses: 2147483647,
+                priceMultiplier: 0,
+                rewardExp: false,
+                sell: {
+                    id: "minecraft:diamond_spear",
+                    count: 1,
+                    components: {
+                        "minecraft:item_name": {
+                            "fallback": "Wondermerian Staff",
+                            "translate": "item.shroomhearth.wondermerian_staff"
+                        },
+                        "minecraft:item_model": "shroomhearth:wondermerian_staff",
+                        "minecraft:rarity": "epic",
+                        "minecraft:enchantments": {
+                            "shroomhearth:stories/wondermerian_agility": 1
+                        },
+                        "minecraft:lore": [
+                            {
+                                "fallback": "A relic of Wondermerian legend, given to those who proved",
+                                "translate": "item.shroomhearth.wondermerian_staff.lore.0"
+                            },
+                            {
+                                "fallback": "themselves worthy.",
+                                "translate": "item.shroomhearth.wondermerian_staff.lore.1"
+                            }
+                        ],
+                        "minecraft:custom_data": {
+                            "shroomhearth_id": "wondermerian_staff"
+                        }
+                    }
+                },
+                specialPrice: 0,
+                uses: 0,
+                xp: 0
+            },
+            {
+                buy: {
+                    id: "minecraft:glistering_melon_slice",
+                    count: 16,
+                    components: {
+                        "minecraft:item_name": {
+                            "fallback": "Harmony Cap",
+                            "translate": "item.shroomhearth.harmony_cap"
+                        },
+                        "minecraft:item_model": "shroomhearth:harmony_cap",
+                        "minecraft:custom_data": {
+                            "shroomhearth_id": "harmony_cap"
+                        }
+                    }
+                },
+                demand: 0,
+                maxUses: 2147483647,
+                priceMultiplier: 0,
+                rewardExp: false,
+                sell: {
+                    id: "minecraft:diamond_spear",
+                    count: 1,
+                    components: {
+                        "minecraft:item_name": {
+                            "fallback": "Guardian's Glaive",
+                            "translate": "item.shroomhearth.guardians_glaive"
+                        },
+                        "minecraft:item_model": "shroomhearth:guardians_glaive",
+                        "minecraft:rarity": "epic",
+                        "minecraft:enchantments": {
+                            "shroomhearth:stories/ender_rend": 1
+                        },
+                        "minecraft:lore": [
+                            {
+                                "fallback": "Fallen heroes of ancient times wielded this weapon against their",
+                                "translate": "item.shroomhearth.guardians_glaive.lore.0"
+                            },
+                            {
+                                "fallback": "OverLords.",
+                                "translate": "item.shroomhearth.guardians_glaive.lore.1"
+                            }
+                        ],
+                        "minecraft:custom_data": {
+                            "shroomhearth_id": "guardians_glaive"
+                        }
+                    }
+                },
+                specialPrice: 0,
+                uses: 0,
+                xp: 0
+            },
+            {
+                buy: {
+                    id: "minecraft:glistering_melon_slice",
+                    count: 16,
+                    components: {
+                        "minecraft:item_name": {
+                            "fallback": "Harmony Cap",
+                            "translate": "item.shroomhearth.harmony_cap"
+                        },
+                        "minecraft:item_model": "shroomhearth:harmony_cap",
+                        "minecraft:custom_data": {
+                            "shroomhearth_id": "harmony_cap"
+                        }
+                    }
+                },
+                demand: 0,
+                maxUses: 2147483647,
+                priceMultiplier: 0,
+                rewardExp: false,
+                sell: {
+                    id: "minecraft:diamond_spear",
+                    count: 1,
+                    components: {
+                        "minecraft:item_name": {
+                            "fallback": "Jerry Rig",
+                            "translate": "item.shroomhearth.jerry_rig"
+                        },
+                        "minecraft:item_model": "shroomhearth:jerry_rig",
+                        "minecraft:rarity": "epic",
+                        "minecraft:enchantments": {
+                            "shroomhearth:stories/backlash": 1
+                        },
+                        "minecraft:lore": [
+                            {
+                                "fallback": "A crass weapon assembled from scavenged scraps, brandished by",
+                                "translate": "item.shroomhearth.jerry_rig.lore.0"
+                            },
+                            {
+                                "fallback": "survivors of the City of Echoes.",
+                                "translate": "item.shroomhearth.jerry_rig.lore.1"
+                            }
+                        ],
+                        "minecraft:custom_data": {
+                            "shroomhearth_id": "jerry_rig"
+                        }
+                    }
+                },
+                specialPrice: 0,
+                uses: 0,
+                xp: 0
+            },
+            {
+                buy: {
+                    id: "minecraft:glistering_melon_slice",
+                    count: 16,
+                    components: {
+                        "minecraft:item_name": {
+                            "fallback": "Harmony Cap",
+                            "translate": "item.shroomhearth.harmony_cap"
+                        },
+                        "minecraft:item_model": "shroomhearth:harmony_cap",
+                        "minecraft:custom_data": {
+                            "shroomhearth_id": "harmony_cap"
+                        }
+                    }
+                },
+                demand: 0,
+                maxUses: 2147483647,
+                priceMultiplier: 0,
+                rewardExp: false,
+                sell: {
+                    id: "minecraft:diamond_pickaxe",
+                    count: 1,
+                    components: {
+                        "minecraft:item_name": {
+                            "fallback": "Threnel",
+                            "translate": "item.shroomhearth.threnel"
+                        },
+                        "minecraft:item_model": "shroomhearth:threnel",
+                        "minecraft:rarity": "epic",
+                        "minecraft:enchantments": {
+                            "shroomhearth:stories/mineglow": 1
+                        },
+                        "minecraft:lore": [
+                            {
+                                "fallback": "A treasured heirloom of Briskasin ice-craft carrying a radiant",
+                                "translate": "item.shroomhearth.threnel.lore.0"
+                            },
+                            {
+                                "fallback": "memory.",
+                                "translate": "item.shroomhearth.threnel.lore.1"
+                            }
+                        ],
+                        "minecraft:custom_data": {
+                            "shroomhearth_id": "threnel"
                         }
                     }
                 },
