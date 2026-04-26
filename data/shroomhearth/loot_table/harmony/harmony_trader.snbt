@@ -1,8 +1,8 @@
 {
     Tags: [
-        "harmony_villager"
+        "harmony_trader"
     ],
-    CustomName: "Knotkeeper",
+    CustomName: "Harmony Trader",
     Invulnerable: true,
     attributes: [
         {
@@ -317,10 +317,5 @@
                 xp: 0
             }
         ]
-    },
-    VillagerData: {
-        level: 5,
-        profession: "minecraft:cartographer",
-        type: "minecraft:swamp"
     }
 }
