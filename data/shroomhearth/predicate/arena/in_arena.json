@@ -1,29 +1,41 @@
-{
-    "condition": "minecraft:any_of",
-    "terms": [
-        {
-            "condition": "minecraft:reference",
-            "name": "shroomhearth:arena/on_hollow_vale_slab"
-        },
-        {
-            "condition": "minecraft:reference",
-            "name": "shroomhearth:arena/in_wondermere_arena"
-        },
-        {
-            "condition": "minecraft:reference",
-            "name": "shroomhearth:arena/in_moss_cathedral_shrine"
-        },
-        {
-            "condition": "minecraft:reference",
-            "name": "shroomhearth:arena/in_upper_tramway_colosseum"
-        },
-        {
-            "condition": "minecraft:reference",
-            "name": "shroomhearth:arena/in_goblin_arena"
-        },
-        {
-            "condition": "minecraft:reference",
-            "name": "shroomhearth:arena/in_venshari_arena"
+[
+    {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+            "type_specific": {
+                "type": "minecraft:player",
+                "gamemode": ["creative","spectator"]
+            }
         }
-    ]
-}
+    },
+    {
+        "condition": "minecraft:any_of",
+        "terms": [
+            {
+                "condition": "minecraft:reference",
+                "name": "shroomhearth:arena/on_hollow_vale_slab"
+            },
+            {
+                "condition": "minecraft:reference",
+                "name": "shroomhearth:arena/in_wondermere_arena"
+            },
+            {
+                "condition": "minecraft:reference",
+                "name": "shroomhearth:arena/in_moss_cathedral_shrine"
+            },
+            {
+                "condition": "minecraft:reference",
+                "name": "shroomhearth:arena/in_upper_tramway_colosseum"
+            },
+            {
+                "condition": "minecraft:reference",
+                "name": "shroomhearth:arena/in_goblin_arena"
+            },
+            {
+                "condition": "minecraft:reference",
+                "name": "shroomhearth:arena/in_venshari_arena"
+            }
+        ]
+    }
+]
