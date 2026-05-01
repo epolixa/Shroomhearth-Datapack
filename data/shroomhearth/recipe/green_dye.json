@@ -1,0 +1,12 @@
+{
+  "type": "crafting_shapeless",
+  "group": "green_dye",
+  "ingredients": [
+    "minecraft:yellow_dye",
+    "minecraft:blue_dye",
+  ],
+  "result": {
+    "id": "minecraft:green_dye",
+    "count": 2
+  }
+}
