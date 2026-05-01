@@ -12,5 +12,6 @@ function shroomhearth:porcelain/scoreboard/reset
 function shroomhearth:raid/scoreboard/reset
 function shroomhearth:status_visibility/scoreboard/reset
 function shroomhearth:stories/scoreboard/reset
+function shroomhearth:warden/scoreboard/reset
 function shroomhearth:wither/scoreboard/reset
 function shroomhearth:world_border/scoreboard/reset

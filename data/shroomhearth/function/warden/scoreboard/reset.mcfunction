@@ -1,0 +1,2 @@
+function shroomhearth:warden/scoreboard/remove
+function shroomhearth:warden/scoreboard/add

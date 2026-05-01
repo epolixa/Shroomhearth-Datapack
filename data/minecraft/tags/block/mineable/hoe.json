@@ -1,7 +1,10 @@
 {
     "replace": false,
     "values": [
+        "minecraft:cactus",
         "minecraft:honeycomb_block",
-        "minecraft:cactus"
+        "minecraft:ochre_froglight",
+        "minecraft:pearlescent_froglight",
+        "minecraft:verdant_froglight"
     ]
 }

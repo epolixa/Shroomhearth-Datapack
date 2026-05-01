@@ -21,7 +21,7 @@ tellraw @a [{"color":"white","text":"A Hyphal Knot was unravelled by "},{"select
 playsound minecraft:item.lead.break player
 
 # Play sound for all players
-execute as @a at @s run playsound minecraft:block.chorus_flower.grow player @s ~ ~ ~ 32 0.8
+execute as @a at @s run playsound minecraft:block.beacon.activate player @s ~ ~ ~ 1 0.5
 
 # Play particles
 particle minecraft:end_rod ~ ~1 ~ 4 0 4 0.05 16
