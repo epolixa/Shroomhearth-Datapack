@@ -13,3 +13,6 @@ playsound minecraft:entity.turtle.egg_break hostile @a ~ ~1.5 ~ 1 1.5
 
 # Drop the Echo Shard loot
 loot spawn ~ ~1.5 ~ loot shroomhearth:warden_shed
+
+# Set cooldown to prevent spam
+execute store result score @s shed_cooldown run random value 8..16

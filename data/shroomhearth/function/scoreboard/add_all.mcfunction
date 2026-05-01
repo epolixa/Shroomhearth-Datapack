@@ -12,5 +12,6 @@ function shroomhearth:porcelain/scoreboard/add
 function shroomhearth:raid/scoreboard/add
 function shroomhearth:status_visibility/scoreboard/add
 function shroomhearth:stories/scoreboard/add
+function shroomhearth:warden/scoreboard/add
 function shroomhearth:wither/scoreboard/add
 function shroomhearth:world_border/scoreboard/add

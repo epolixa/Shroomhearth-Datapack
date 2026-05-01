@@ -12,5 +12,6 @@ function shroomhearth:porcelain/scoreboard/remove
 function shroomhearth:raid/scoreboard/remove
 function shroomhearth:status_visibility/scoreboard/remove
 function shroomhearth:stories/scoreboard/remove
+function shroomhearth:warden/scoreboard/remove
 function shroomhearth:wither/scoreboard/remove
 function shroomhearth:world_border/scoreboard/remove
