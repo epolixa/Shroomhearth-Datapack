@@ -5,7 +5,7 @@ tellraw @a[tag=debug_harmony] "[shroomhearth:harmony/harmony_cap/check_marker] c
 
 
 # Get count of nearby harmony cap entities
-execute store result score @s harmony_cluster if entity @e[tag=harmony_cap_interaction,distance=..32]
+execute store result score @s harmony_cluster if entity @e[tag=harmony_cap_interaction,distance=..16]
 
 # If the count is less than the player's player_group score, 
 # and there is a valid block below, 

@@ -4,8 +4,6 @@
 tellraw @a[tag=debug_harmony] "[shroomhearth:harmony/harmony_cap/spawn] selecting position for harmony cap..."
 
 
-tag @s add spawning_harmony_cap
-
 # Capture the player's current Y level
 # Add 8 to it
 # and then capture the score in storage
