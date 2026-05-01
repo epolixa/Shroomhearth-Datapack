@@ -16,6 +16,6 @@ width: 0.5\
 execute as @n[tag=new_harmony_cap_display] at @s run function shroomhearth:harmony/harmony_cap/initialize_display
 
 # Play a growing sound effect
-playsound minecraft:block.chorus_flower.grow block @a ~ ~ ~ 0.5 1.9
+playsound minecraft:block.chorus_flower.grow block @a ~ ~ ~ 1 2
 
 tag @s remove new_harmony_cap_interaction
