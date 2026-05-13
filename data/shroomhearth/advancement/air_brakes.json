@@ -1,0 +1,22 @@
+{
+    "parent": "shroomhearth:swift_paths/well_traveled",
+    "display": {
+        "icon": {
+            "id": "minecraft:elytra"
+        },
+        "title": {
+            "fallback": "Air Brakes",
+            "translate": "advancements.shroomhearth_guide.air_brakes.title"
+        },
+        "description": {
+            "fallback": "Sneak to stop gliding with Elytra",
+            "translate": "advancements.shroomhearth_guide.air_brakes.description"
+        },
+        "frame": "task"
+    },
+    "criteria": {
+        "air_brakes": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}
