@@ -8,3 +8,6 @@ execute if score random shroomhearth matches 1 summon minecraft:ravager run func
 execute if score random shroomhearth matches 2 summon minecraft:piglin_brute run function shroomhearth:ender_dragon/powers/summon/initialize_thrall
 execute if score random shroomhearth matches 3 summon minecraft:breeze run function shroomhearth:ender_dragon/powers/summon/initialize_thrall
 scoreboard players set random shroomhearth -1
+
+# Consume an extra sequence score
+scoreboard players remove summon_sequence shroomhearth.ender_dragon 1
