@@ -5,7 +5,7 @@ tellraw @a[tag=debug_ender_dragon] [{"text":"[shroomhearth:ender_dragon/powers/r
 #playsound minecraft:entity.zombie_villager.converted hostile @a[predicate=shroomhearth:ender_dragon/on_main_end_island] ~ ~ ~ 12 1.7
 
 # show actionbar
-title @a[predicate=shroomhearth:ender_dragon/on_main_end_island] actionbar {"color":"dark_purple","font":"minecraft:illageralt","bold":true,"text":"RESTORE"}
+#title @a[predicate=shroomhearth:ender_dragon/on_main_end_island] actionbar {"color":"dark_purple","font":"minecraft:illageralt","bold":true,"text":"RESTORE"}
 
 # tag markers that can have crystals
 execute as @e[type=minecraft:armor_stand,tag=crystal_marker] at @s if block ~ ~ ~ minecraft:air unless entity @e[type=minecraft:end_crystal,distance=..3] run tag @s add restorable
