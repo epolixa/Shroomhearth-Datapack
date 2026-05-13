@@ -21,3 +21,6 @@ execute as @s[scores={rage=64..,health=1..}] run function shroomhearth:ender_dra
 
 # Tick snatch cooldown
 execute if score @s snatch_cooldown matches 1.. run scoreboard players remove @s snatch_cooldown 1
+
+# Play particles on thrall mobs with rune attributes
+execute as @e[tag=has_ominous_ender_dragon_rune_attribute] at @s run particle minecraft:dragon_breath ~ ~1 ~ 0.0625 0.0625 0.0625 0.01 8
