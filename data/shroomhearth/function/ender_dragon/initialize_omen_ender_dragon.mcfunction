@@ -49,7 +49,7 @@ execute as @e[type=minecraft:armor_stand,tag=crystal_marker] at @s run tp @s @e[
 
 # Play sounds to indicate an omen ender dragon was summoned
 playsound minecraft:entity.ender_dragon.growl hostile @a[predicate=shroomhearth:ender_dragon/on_main_end_island] ~ ~ ~ 200 0.5
-playsound minecraft:ambient.cave hostile @a[predicate=shroomhearth:ender_dragon/on_main_end_island] ~ ~ ~ 200 0.5
+playsound minecraft:block.trial_spawner.ambient_ominous hostile @a[predicate=shroomhearth:ender_dragon/on_main_end_island] ~ ~ ~ 200 0.5
 
 # Remove bad omen from contributing players
 effect clear @a[predicate=shroomhearth:ender_dragon/on_main_end_island] minecraft:bad_omen
