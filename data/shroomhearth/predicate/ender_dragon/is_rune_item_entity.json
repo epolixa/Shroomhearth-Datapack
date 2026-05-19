@@ -24,6 +24,21 @@
                     "contents": {
                         "predicates": {
                             "minecraft:custom_data": {
+                                "shroomhearth_id": "rune_of_bounciness"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "slots": {
+                    "contents": {
+                        "predicates": {
+                            "minecraft:custom_data": {
                                 "shroomhearth_id": "rune_of_gravity"
                             }
                         }
@@ -114,6 +129,21 @@
                     "contents": {
                         "predicates": {
                             "minecraft:custom_data": {
+                                "shroomhearth_id": "rune_of_lubricity"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "slots": {
+                    "contents": {
+                        "predicates": {
+                            "minecraft:custom_data": {
                                 "shroomhearth_id": "rune_of_reach"
                             }
                         }
@@ -175,6 +205,21 @@
                         "predicates": {
                             "minecraft:custom_data": {
                                 "shroomhearth_id": "rune_of_stepping"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "slots": {
+                    "contents": {
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "shroomhearth_id": "rune_of_streamlining"
                             }
                         }
                     }
