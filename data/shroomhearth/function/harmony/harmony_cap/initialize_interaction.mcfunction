@@ -4,7 +4,7 @@
 tellraw @a[tag=debug_harmony] "[shroomhearth:harmony/harmony_cap/initialize_interaction] initializing harmony cap interaction entity"
 
 
-# Create a display entity for the harmony cap
+# Create a display entity for the Harmony Cap to control the visual model
 summon minecraft:item_display ~ ~ ~ {\
 Tags: ["harmony_cap","harmony_cap_display","new_harmony_cap_display"], \
 item: {id: "minecraft:glistering_melon_slice", count:1, components: {"minecraft:item_model":"shroomhearth:harmony_cap_entity"}}, \
@@ -12,7 +12,6 @@ item_display: "head", \
 height: 0.1875, \
 width: 0.5\
 }
-
 execute as @n[tag=new_harmony_cap_display] at @s run function shroomhearth:harmony/harmony_cap/initialize_display
 
 # Play a growing sound effect
