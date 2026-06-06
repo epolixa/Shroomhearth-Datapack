@@ -1,0 +1,27 @@
+{
+	"criteria": {
+		"soaring_slayer_is_on_ground": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+                    "minecraft:entity_tags": {
+                        "all_of": [
+                            "soaring_slayer"
+                        ]
+                    },
+                    "minecraft:flags": {
+                        "is_on_ground": true
+                    },
+					"minecraft:type_specific/player": {
+						"advancements": {
+							"shroomhearth:challenges/batboy272/soaring_slayer": false
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "shroomhearth:challenges/advancement_reward/batboy272/soaring_slayer_is_on_ground"
+	} 
+}

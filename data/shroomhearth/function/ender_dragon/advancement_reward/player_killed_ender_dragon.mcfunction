@@ -19,6 +19,10 @@ scoreboard players add @a[predicate=shroomhearth:ender_dragon/on_main_end_island
 # grant laura advancement if slain 20 dragons
 advancement grant @a[scores={ender_dragon_stats_total_slain=20..}] only shroomhearth:challenges/lalalauraaaa/crazy_dragon_lady
 
+# grant soaring slayer advancement to any players who still have the tag, and remove the tag
+advancement grant @a[predicate=shroomhearth:ender_dragon/on_main_end_island,tag=soaring_slayer] only shroomhearth:challenges/batboy272/soaring_slayer
+tag @a[tag=soaring_slayer] remove soaring_slayer
+
 # capture stats for slay time
 scoreboard players set ender_dragon_stats_fight_time_seconds shroomhearth.ender_dragon 60
 scoreboard players operation ender_dragon_stats_fight_time_minutes shroomhearth.ender_dragon = ender_dragon_stats_fight_time shroomhearth.ender_dragon

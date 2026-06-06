@@ -12,6 +12,9 @@ scoreboard players set @a[predicate=shroomhearth:ender_dragon/on_main_end_island
 scoreboard players set @a[predicate=shroomhearth:ender_dragon/on_main_end_island] ender_dragon_stats_hits 0
 scoreboard players set shroomhearth ender_dragon_stats_fight_time 0
 
+# Tag players for soaring slayer if they do not yet have the advancement
+tag @a[predicate=shroomhearth:ender_dragon/on_main_end_island,advancements={shroomhearth:challenges/batboy272/soaring_slayer=false}] add soaring_slayer
+
 # Calculate the Ender Dragon's omen_level and determine if it is an Omen Ender Dragon
 function shroomhearth:ender_dragon/set_omen_level
 
