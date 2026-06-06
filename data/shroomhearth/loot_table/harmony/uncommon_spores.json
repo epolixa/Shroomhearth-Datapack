@@ -17,10 +17,6 @@
         {
           "type": "minecraft:loot_table",
           "value": "shroomhearth:harmony/spores/continuity"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "shroomhearth:harmony/spores/clemency"
         }
       ],
       "rolls": 1.0

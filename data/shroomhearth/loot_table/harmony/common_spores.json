@@ -29,6 +29,10 @@
         {
           "type": "minecraft:loot_table",
           "value": "shroomhearth:harmony/spores/insomnia"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "shroomhearth:harmony/spores/clemency"
         }
       ],
       "rolls": 1.0
