@@ -1,0 +1,201 @@
+{
+	"parent": "shroomhearth:shroomhearth_challenges",
+	"display": {
+		"icon": {
+			"id": "minecraft:player_head",
+			"components": {
+				"minecraft:profile": {
+					"name": "CowardlyChicken"
+				}
+			}
+		},
+		"title": {
+			"fallback": "Pocket Library",
+			"translate": "advancements.shroomhearth_challenges.pocket_library.title"
+		},
+		"description": [
+			{
+				"fallback": "Completely fill your inventory with Bookshelves",
+				"translate": "advancements.shroomhearth_challenges.pocket_library.description"
+			},
+			{
+				"text": "\n\n"
+			},
+			{
+				"color": "gray",
+				"fallback": "Created by: ",
+				"translate": "advancements.shroomhearth_challenges.created_by"
+			},
+			{
+				"color": "gray",
+				"text": "CowardlyChicken"
+			}
+		],
+		"frame": "challenge"
+	},
+	"rewards": {
+		"loot": [
+			"shroomhearth:challenges/cowardlychicken"
+		]
+	},
+	"criteria": {
+		"pocket_library": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:bookshelf"
+					}
+				],
+				"player": {
+					"slots": {
+                        "hotbar.0": {
+                            "items": "minecraft:bookshelf",
+                            "count": 64
+                        },
+                        "hotbar.1": {
+                            "items": "minecraft:bookshelf",
+                            "count": 64
+                        },
+                        "hotbar.2": {
+                            "items": "minecraft:bookshelf",
+                            "count": 64
+                        },
+                        "hotbar.3": {
+                            "items": "minecraft:bookshelf",
+                            "count": 64
+                        },
+                        "hotbar.4": {
+                            "items": "minecraft:bookshelf",
+                            "count": 64
+                        },
+                        "hotbar.5": {
+                            "items": "minecraft:bookshelf",
+                            "count": 64
+                        },
+                        "hotbar.6": {
+                            "items": "minecraft:bookshelf",
+                            "count": 64
+                        },
+                        "hotbar.7": {
+                            "items": "minecraft:bookshelf",
+                            "count": 64
+                        },
+                        "hotbar.8": {
+                            "items": "minecraft:bookshelf",
+                            "count": 64
+                        },
+						"inventory.0": {
+							"items": "minecraft:bookshelf",
+							"count": 64
+						},
+                        "inventory.1": {
+                            "items": "minecraft:bookshelf",
+                            "count": 64
+                        },
+                        "inventory.2": {
+                            "items": "minecraft:bookshelf",
+                            "count": 64
+                        },
+                        "inventory.3": {
+                            "items": "minecraft:bookshelf",
+                            "count": 64
+                        },
+						"inventory.4": {
+							"items": "minecraft:bookshelf",
+							"count": 64
+						},
+						"inventory.5": {
+							"items": "minecraft:bookshelf",
+							"count": 64
+						},
+						"inventory.6": {
+							"items": "minecraft:bookshelf",
+							"count": 64
+						},
+						"inventory.7": {
+							"items": "minecraft:bookshelf",
+							"count": 64
+						},
+						"inventory.8": {
+							"items": "minecraft:bookshelf",
+							"count": 64
+						},
+						"inventory.9": {
+							"items": "minecraft:bookshelf",
+							"count": 64
+						},
+						"inventory.10": {
+							"items": "minecraft:bookshelf",
+							"count": 64
+						},
+						"inventory.11": {
+							"items": "minecraft:bookshelf",
+							"count": 64
+						},
+						"inventory.12": {
+							"items": "minecraft:bookshelf",
+							"count": 64
+						},
+						"inventory.13": {
+							"items": "minecraft:bookshelf",
+							"count": 64
+						},
+						"inventory.14": {
+							"items": "minecraft:bookshelf",
+							"count": 64
+						},
+						"inventory.15": {
+							"items": "minecraft:bookshelf",
+							"count": 64
+						},
+						"inventory.16": {
+							"items": "minecraft:bookshelf",
+							"count": 64
+						},
+						"inventory.17": {
+							"items": "minecraft:bookshelf",
+							"count": 64
+						},
+						"inventory.18": {
+							"items": "minecraft:bookshelf",
+							"count": 64
+						},
+						"inventory.19": {
+							"items": "minecraft:bookshelf",
+							"count": 64
+						},
+						"inventory.20": {
+							"items": "minecraft:bookshelf",
+							"count": 64
+						},
+						"inventory.21": {
+							"items": "minecraft:bookshelf",
+							"count": 64
+						},
+						"inventory.22": {
+							"items": "minecraft:bookshelf",
+							"count": 64
+						},
+						"inventory.23": {
+							"items": "minecraft:bookshelf",
+							"count": 64
+						},
+						"inventory.24": {
+							"items": "minecraft:bookshelf",
+							"count": 64
+						},
+						"inventory.25": {
+							"items": "minecraft:bookshelf",
+							"count": 64
+						},
+                        "inventory.26": {
+                            "items": "minecraft:bookshelf",
+                            "count": 64
+                        }
+					}
+				}
+			}
+		}
+	}
+}
