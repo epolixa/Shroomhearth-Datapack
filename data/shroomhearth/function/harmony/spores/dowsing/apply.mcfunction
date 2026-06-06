@@ -7,7 +7,7 @@ tellraw @a[tag=debug_harmony] [{"text":"[shroomhearth:harmony/spores/dowsing/app
 # Create an Armor Stand to transmit waypoint
 summon minecraft:armor_stand ~ ~ ~ {\
 Tags: ["harmony_cap","harmony_cap_armor_stand","new_harmony_cap_armor_stand","spores_of_dowsing"], \
-attributes: [{id:"minecraft:waypoint_transmit_range",base:64}], \
+attributes: [{id:"minecraft:waypoint_transmit_range",base:160}], \
 locator_bar_icon: {color: 16777215, style: "shroomhearth:harmony_cap"}, \
 Invisible:1b, \
 Marker:1b, \
