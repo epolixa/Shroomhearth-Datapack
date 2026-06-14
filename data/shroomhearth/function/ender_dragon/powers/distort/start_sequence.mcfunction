@@ -14,4 +14,4 @@ scoreboard players operation distort_sequence shroomhearth.ender_dragon += @s om
 execute unless entity @e[tag=distort_target] run summon minecraft:marker ~ ~ ~ {Tags:["power_target","distort_target"]}
 
 # kickoff sequence
-function ender_dragon:powers/distort/run_sequence
+function shroomhearth:ender_dragon/powers/distort/run_sequence

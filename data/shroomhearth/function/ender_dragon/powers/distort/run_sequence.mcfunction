@@ -5,7 +5,7 @@ tellraw @a[tag=debug_ender_dragon] [{"text":"[shroomhearth:ender_dragon/powers/d
 execute as @e[tag=distort_target] at @s run function shroomhearth:ender_dragon/powers/juggle_power_target
 
 # summon aec at marker
-execute as @e[tag=distort_target] at @s run function shroomhearth:ender_dragon/powers/distort/summon_random_aec
+execute as @e[tag=distort_target] at @s summon minecraft:area_effect_cloud run function shroomhearth:ender_dragon/powers/distort/initialize_aec
 
 # decrement sequence score
 scoreboard players remove distort_sequence shroomhearth.ender_dragon 1
