@@ -8,8 +8,10 @@
                         "condition": "minecraft:entity_properties",
                         "entity": "this",
                         "predicate": {
-                            "type": "minecraft:interaction",
-                            "nbt": "{Tags:[\"ender_tome_interaction\"]}"
+                            "minecraft:entity_type": "minecraft:interaction",
+                            "minecraft:entity_tags": {
+                                "all_of": ["ender_tome_interaction"]
+                            }
                         }
                     }
                 ]

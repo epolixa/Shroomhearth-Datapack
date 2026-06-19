@@ -1,8 +1,11 @@
-# grant the advancement when they craft a full stack of 64
-advancement grant @s[scores={craftedCarrots=64..}] only challenges:depressus
+tellraw @a[tag=debug_challenges] [{"text":"[shroomhearth:challenges/depressus] "},{"selector":"@s"},{"text":" obtained 64 Golden Carrots"}]  
 
-# craftedCarrots - should reset to 0 if the advancement is not yet made and the requirement is not met
-scoreboard players set @s[scores={craftedCarrots=1..}] craftedCarrots 0
+
+# grant the advancement when they craft a full stack of 64
+advancement grant @s[scores={crafted_golden_carrots=64..}] only shroomhearth:challenges/depressus/depressus
+
+# crafted_golden_carrots - should reset to 0 if the advancement is not yet made and the requirement is not met
+scoreboard players set @s[scores={crafted_golden_carrots=1..}] crafted_golden_carrots 0
 
 # revoke trigger
-advancement revoke @s only challenges:inventory_changed_golden_carrots
+advancement revoke @s only shroomhearth:challenges/depressus/inventory_changed_golden_carrots

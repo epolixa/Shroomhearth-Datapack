@@ -9,6 +9,10 @@
                 },
                 {
                     "type": "minecraft:loot_table",
+                    "value": "shroomhearth:runes/rune_of_bounciness"
+                },
+                {
+                    "type": "minecraft:loot_table",
                     "value": "shroomhearth:runes/rune_of_knockback"
                 },
                 {
@@ -33,6 +37,10 @@
                 },
                 {
                     "type": "minecraft:loot_table",
+                    "value": "shroomhearth:runes/rune_of_lubricity"
+                },
+                {
+                    "type": "minecraft:loot_table",
                     "value": "shroomhearth:runes/rune_of_reach"
                 },
                 {
@@ -50,6 +58,10 @@
                 {
                     "type": "minecraft:loot_table",
                     "value": "shroomhearth:runes/rune_of_stepping"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "shroomhearth:runes/rune_of_streamlining"
                 },
                 {
                     "type": "minecraft:loot_table",

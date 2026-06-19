@@ -9,7 +9,7 @@
             "term": {
               "condition": "minecraft:entity_properties",
               "predicate": {
-                "equipment": {
+                "minecraft:equipment": {
                   "head": {
                     "items": "minecraft:golden_helmet"
                   }
@@ -23,7 +23,7 @@
             "term": {
               "condition": "minecraft:entity_properties",
               "predicate": {
-                "equipment": {
+                "minecraft:equipment": {
                   "chest": {
                     "items": "minecraft:golden_chestplate"
                   }
@@ -37,7 +37,7 @@
             "term": {
               "condition": "minecraft:entity_properties",
               "predicate": {
-                "equipment": {
+                "minecraft:equipment": {
                   "legs": {
                     "items": "minecraft:golden_leggings"
                   }
@@ -51,7 +51,7 @@
             "term": {
               "condition": "minecraft:entity_properties",
               "predicate": {
-                "equipment": {
+                "minecraft:equipment": {
                   "feet": {
                     "items": "minecraft:golden_boots"
                   }
@@ -68,8 +68,8 @@
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "type": "minecraft:piglin",
-              "flags": {
+              "minecraft:entity_type": "minecraft:piglin",
+              "minecraft:flags": {
                 "is_baby": false
               }
             },
@@ -87,7 +87,7 @@
             "term": {
               "condition": "minecraft:entity_properties",
               "predicate": {
-                "equipment": {
+                "minecraft:equipment": {
                   "head": {
                     "items": "minecraft:golden_helmet"
                   }
@@ -101,7 +101,7 @@
             "term": {
               "condition": "minecraft:entity_properties",
               "predicate": {
-                "equipment": {
+                "minecraft:equipment": {
                   "chest": {
                     "items": "minecraft:golden_chestplate"
                   }
@@ -115,7 +115,7 @@
             "term": {
               "condition": "minecraft:entity_properties",
               "predicate": {
-                "equipment": {
+                "minecraft:equipment": {
                   "legs": {
                     "items": "minecraft:golden_leggings"
                   }
@@ -129,7 +129,7 @@
             "term": {
               "condition": "minecraft:entity_properties",
               "predicate": {
-                "equipment": {
+                "minecraft:equipment": {
                   "feet": {
                     "items": "minecraft:golden_boots"
                   }
@@ -146,8 +146,8 @@
           {
             "condition": "minecraft:entity_properties",
             "predicate": {
-              "type": "minecraft:piglin",
-              "flags": {
+              "minecraft:entity_type": "minecraft:piglin",
+              "minecraft:flags": {
                 "is_baby": false
               }
             },

@@ -2,8 +2,8 @@
     "condition": "minecraft:entity_properties",
     "entity": "this",
     "predicate": {
-        "vehicle": {
-            "type": "minecraft:ender_dragon"
+        "minecraft:vehicle": {
+            "minecraft:entity_type": "minecraft:ender_dragon"
         }
     }
 }

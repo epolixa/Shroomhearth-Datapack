@@ -8,18 +8,17 @@
                         "condition": "minecraft:entity_properties",
                         "entity": "this",
                         "predicate": {
-                            "equipment": {
+                            "minecraft:equipment": {
                                 "chest": {
                                     "items": [
                                         "minecraft:elytra"
                                     ]
                                 }
                             },
-                            "flags": {
+                            "minecraft:flags": {
                                 "is_fall_flying": true
                             },
-                            "type_specific": {
-                                "type": "minecraft:player",
+                            "minecraft:type_specific/player": {
                                 "input": {
                                     "sneak": true
                                 }

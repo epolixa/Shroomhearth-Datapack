@@ -4,22 +4,22 @@
         "condition": "minecraft:entity_properties",
         "entity": "this",
         "predicate": {
-            "type": "minecraft:player",
-            "location": {
+            "minecraft:entity_type": "minecraft:player",
+            "minecraft:location": {
                 "dimension": "minecraft:the_end",
                 "position": {
                     "x": {
-                        "min": -200,
-                        "max": 200
+                        "min": -160,
+                        "max": 160
                     },
                     "z": {
-                        "min": -200,
-                        "max": 200
+                        "min": -160,
+                        "max": 160
                     }
                 }
             },
-            "vehicle": {
-                "type": "#shroomhearth:mounts"
+            "minecraft:vehicle": {
+                "minecraft:entity_type": "#shroomhearth:mounts"
             }
         }
     }

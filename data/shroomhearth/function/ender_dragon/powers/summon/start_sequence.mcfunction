@@ -2,7 +2,7 @@ tellraw @a[tag=debug_ender_dragon] [{"text":"[shroomhearth:ender_dragon/powers/s
 
 
 # show actionbar
-title @a[predicate=shroomhearth:ender_dragon/on_main_end_island] actionbar {"color":"dark_purple","font":"minecraft:illageralt","bold":true,"text":"SUMMON"}
+#title @a[predicate=shroomhearth:ender_dragon/on_main_end_island] actionbar {"color":"dark_purple","font":"minecraft:illageralt","bold":true,"text":"SUMMON"}
 
 # expend rage
 scoreboard players remove @s rage 48

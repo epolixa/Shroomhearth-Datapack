@@ -24,7 +24,7 @@
         "minecraft:attributes": [
             {
                 "id": "shroomhearth:rune_of_strength",
-                "attribute": "attack_damage",
+                "attribute": "minecraft:attack_damage",
                 "operation": "add_value",
                 "amount": {
                     "type": "minecraft:linear",

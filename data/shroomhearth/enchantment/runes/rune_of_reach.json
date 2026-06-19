@@ -24,7 +24,7 @@
         "minecraft:attributes": [
             {
                 "id": "shroomhearth:rune_of_reach.block_interaction_range",
-                "attribute": "block_interaction_range",
+                "attribute": "minecraft:block_interaction_range",
                 "operation": "add_multiplied_base",
                 "amount": {
                     "type": "minecraft:linear",
@@ -34,7 +34,7 @@
             },
             {
                 "id": "shroomhearth:rune_of_reach.entity_interaction_range",
-                "attribute": "entity_interaction_range",
+                "attribute": "minecraft:entity_interaction_range",
                 "operation": "add_multiplied_base",
                 "amount": {
                     "type": "minecraft:linear",

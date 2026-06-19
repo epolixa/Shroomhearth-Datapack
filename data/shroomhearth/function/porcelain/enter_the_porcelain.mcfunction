@@ -15,9 +15,10 @@ function shroomhearth:score_uuid
 execute as @n[tag=new_porcelain_amphora] at @s run function shroomhearth:porcelain/initialize_porcelain_amphora
 
 # Teleport the Player to The Porcelain
-# Use spreadplayers to find a safe position
-execute in shroomhearth:the_porcelain run teleport @s ~ 64 ~
-execute at @s run spreadplayers ~ ~ 0 1 false @s
+# Use spreadplayers to find a safe position with maxHeight as current Y position
+execute store result storage shroomhearth:porcelain maxHeight int 1 run data get entity @s Pos[1]
+execute in shroomhearth:the_porcelain run teleport @s ~ ~ ~
+function shroomhearth:porcelain/m_spread_player_entering_porcelain with storage shroomhearth:porcelain
 
 # Clear the Player's inventory
 clear @s

@@ -24,7 +24,7 @@
         "minecraft:attributes": [
             {
                 "id": "shroomhearth:rune_of_stability",
-                "attribute": "knockback_resistance",
+                "attribute": "minecraft:knockback_resistance",
                 "operation": "add_value",
                 "amount": {
                     "type": "minecraft:linear",

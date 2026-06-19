@@ -11,8 +11,8 @@
 				],
 				"killing_blow": {
 					"source_entity": {
-						"type": "minecraft:player",
-						"distance": {
+						"minecraft:entity_type": "minecraft:player",
+						"minecraft:distance": {
 							"absolute": {
 								"min": 0.0625
 							}

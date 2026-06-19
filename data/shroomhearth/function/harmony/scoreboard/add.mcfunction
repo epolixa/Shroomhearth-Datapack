@@ -22,6 +22,7 @@ scoreboard players set active_spores shroomhearth.harmony 0
 
 # Global timers for spores
 scoreboard players set spores_of_armor shroomhearth.harmony 0
+scoreboard players set spores_of_dowsing shroomhearth.harmony 0
 scoreboard players set spores_of_ease shroomhearth.harmony 0
 scoreboard players set spores_of_egg_hunt shroomhearth.harmony 0
 scoreboard players set spores_of_experience shroomhearth.harmony 0

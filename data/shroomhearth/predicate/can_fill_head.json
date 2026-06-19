@@ -15,8 +15,7 @@
                 "condition": "minecraft:entity_properties",
                 "entity": "this",
                 "predicate": {
-                    "type_specific": {
-                        "type": "player",
+                    "minecraft:type_specific/player": {
                         "level": {
                             "min": 1
                         }
@@ -27,8 +26,7 @@
                 "condition": "minecraft:entity_properties",
                 "entity": "this",
                 "predicate": {
-                    "type_specific": {
-                        "type": "player",
+                    "minecraft:type_specific/player": {
                         "gamemode": ["creative"]
                     }
                 }

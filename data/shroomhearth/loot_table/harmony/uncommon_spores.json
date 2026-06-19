@@ -8,7 +8,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "shroomhearth:harmony/spores/egg_hunt"
+          "value": "shroomhearth:harmony/spores/dowsing"
         },
         {
           "type": "minecraft:loot_table",
@@ -17,10 +17,6 @@
         {
           "type": "minecraft:loot_table",
           "value": "shroomhearth:harmony/spores/continuity"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "shroomhearth:harmony/spores/clemency"
         }
       ],
       "rolls": 1.0

@@ -9,14 +9,14 @@
 					}
 				],
 				"player": {
-					"equipment": {
+					"minecraft:equipment": {
 						"head": {
 							"items": "minecraft:carved_pumpkin"
 						}
 					},
-					"player": {
+					"minecraft:type_specific/player": {
 						"advancements": {
-							"challenges:krstfr": false
+							"shroomhearth:challenges/krstfr/krstfr": false
 						}
 					}
 				}
@@ -24,6 +24,6 @@
 		}
 	},
 	"rewards": {
-		"function": "challenges:krstfr"
+		"function": "shroomhearth:challenges/krstfr"
 	} 
 }

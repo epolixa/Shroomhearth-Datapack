@@ -4,8 +4,7 @@
             "trigger": "minecraft:cured_zombie_villager",
             "conditions": {
                 "player": {
-                    "type_specific": {
-                        "type": "minecraft:player",
+                    "minecraft:type_specific/player": {
                         "advancements": {
                             "shroomhearth:challenges/aerialz/curare_immortui": false
                         }

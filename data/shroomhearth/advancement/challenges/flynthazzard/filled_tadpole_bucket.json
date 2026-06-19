@@ -7,8 +7,7 @@
 					"items": "minecraft:tadpole_bucket"
 				},
 				"player": {
-					"type_specific": {
-                        "type": "player",
+					"minecraft:type_specific/player": {
 						"advancements": {
 							"shroomhearth:challenges/flynthazzard/five_hundred_liters_of_frogs": false
 						}

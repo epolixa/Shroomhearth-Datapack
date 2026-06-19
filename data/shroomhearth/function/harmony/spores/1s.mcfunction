@@ -14,6 +14,9 @@ execute if score spores_of_armor shroomhearth.harmony matches 1.. run function s
 # Clemency
 execute if score spores_of_clemency shroomhearth.harmony matches 1.. run function shroomhearth:harmony/spores/clemency/1s
 
+# Dowsing
+execute if score spores_of_dowsing shroomhearth.harmony matches 1.. run function shroomhearth:harmony/spores/dowsing/1s
+
 # Ease
 execute if score spores_of_ease shroomhearth.harmony matches 1.. run function shroomhearth:harmony/spores/ease/1s
 
@@ -54,8 +57,6 @@ execute if score spores_of_swiftness shroomhearth.harmony matches 1.. run functi
 # Strength
 execute if score spores_of_strength shroomhearth.harmony matches 1.. run function shroomhearth:harmony/spores/strength/1s
 
-# Uptick
-
 # Continuity
 execute if score spores_of_continuity shroomhearth.harmony matches 1.. run function shroomhearth:harmony/spores/continuity/1s
 
@@ -67,6 +68,9 @@ execute if score spores_of_continuity shroomhearth.harmony matches 1.. run funct
 execute unless score spores_of_armor shroomhearth.harmony matches 1.. as @a[tag=spores_of_armor] run function shroomhearth:harmony/spores/armor/remove
 
 # Burn Damage Resistance
+
+# Dowsing
+execute unless score spores_of_dowsing shroomhearth.harmony matches 1.. as @e[tag=harmony_cap_interaction,tag=spores_of_dowsing] run function shroomhearth:harmony/spores/dowsing/remove
 
 # Fall Damage Resistance
 

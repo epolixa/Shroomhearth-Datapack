@@ -5,8 +5,10 @@ tellraw @a[tag=debug_ender_dragon] [{"text":"[shroomhearth:ender_dragon/drop_car
 
 
 # Play sound for all players
-playsound minecraft:entity.goat.horn_break hostile @a ~ ~ ~ 12 0.5
-playsound minecraft:item.trident.return hostile @a ~ ~ ~ 12 0.5
+# Play different sound to indicate penultimate carve drop
+playsound minecraft:entity.goat.horn_break hostile @a ~ ~ ~ 160 0.5
+execute if score @n[tag=omen_ender_dragon] carve_drop_potential matches 2.. run playsound minecraft:item.trident.return hostile @a ~ ~ ~ 160 0.5
+execute if score @n[tag=omen_ender_dragon] carve_drop_potential matches 1 run playsound minecraft:entity.ender_dragon.hurt hostile @a ~ ~ ~ 160 0.5
 
 # Play particles for all players
 particle minecraft:crit ~ ~1 ~ 3 1 3 1 32 force

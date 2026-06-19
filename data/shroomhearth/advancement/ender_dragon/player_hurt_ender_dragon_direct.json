@@ -4,12 +4,12 @@
 			"trigger": "minecraft:player_hurt_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:ender_dragon"
+					"minecraft:entity_type": "minecraft:ender_dragon"
 				},
 				"damage": {
 					"type": {
 						"direct_entity": {
-							"type": "minecraft:player"
+							"minecraft:entity_type": "minecraft:player"
 						}
 					}
 				}

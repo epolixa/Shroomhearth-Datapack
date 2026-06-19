@@ -20,7 +20,7 @@ execute as @s[team=!yellow] at @s if block ~ ~ ~ minecraft:yellow_bed run team j
 execute at @s run playsound minecraft:block.wool.step player @a ~ ~ ~ 1 0.5
 
 # Announce to ther players in the same dimension that the player has fallen asleep
-tellraw @p[distance=0.0625..] [{"selector":"@s"},{"text":" fell asleep","color":"white"}]
+tellraw @a[distance=0.0625..] [{"selector":"@s"},{"text":" fell asleep","color":"white"}]
 
 # give slept_in_bed tag
 tag @s add sleeping

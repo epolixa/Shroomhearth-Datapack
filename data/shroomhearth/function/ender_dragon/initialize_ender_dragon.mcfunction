@@ -12,6 +12,9 @@ scoreboard players set @a[predicate=shroomhearth:ender_dragon/on_main_end_island
 scoreboard players set @a[predicate=shroomhearth:ender_dragon/on_main_end_island] ender_dragon_stats_hits 0
 scoreboard players set shroomhearth ender_dragon_stats_fight_time 0
 
+# Tag players for soaring slayer if they do not yet have the advancement
+tag @a[predicate=shroomhearth:ender_dragon/on_main_end_island,advancements={shroomhearth:challenges/batboy272/soaring_slayer=false}] add soaring_slayer
+
 # Calculate the Ender Dragon's omen_level and determine if it is an Omen Ender Dragon
 function shroomhearth:ender_dragon/set_omen_level
 
@@ -24,7 +27,7 @@ execute as @s[tag=omen_ender_dragon] run function shroomhearth:ender_dragon/init
 
 # Announce Ender Dragon
 execute as @s[tag=!omen_ender_dragon] run tellraw @a [{"text":"The "}, {"color":"#cc00fa","text":"Ender Dragon"}, {"text":" was summoned by "}, {"selector": "@p"}]
-execute as @s[tag=omen_ender_dragon] run tellraw @a [{"text":"The "}, {"color":"#0b6138","text":"Omen "}, {"color":"#0b6138", "score": {"name": "@s", "objective": "omen_level"}, "font": "minecraft:illageralt", "hover_event": {"action": "show_text", "value": {"score": {"name": "@s", "objective": "omen_level"}}}}, {"color":"#cc00fa","text":" Ender Dragon"}, {"text":" was summoned by "}, {"selector": "@p"}]
+execute as @s[tag=omen_ender_dragon] run tellraw @a [{"text":"The "}, {"color":"#16A6A6","text":"Ominous Ender Dragon "}, {"text":" was summoned by "}, {"selector": "@p"}]
 
 # tag dragon when done
 tag @s add initialized

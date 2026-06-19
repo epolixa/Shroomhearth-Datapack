@@ -24,7 +24,7 @@
         "minecraft:attributes": [
             {
                 "id": "shroomhearth:rune_of_respiration",
-                "attribute": "oxygen_bonus",
+                "attribute": "minecraft:oxygen_bonus",
                 "operation": "add_value",
                 "amount": {
                     "type": "minecraft:linear",

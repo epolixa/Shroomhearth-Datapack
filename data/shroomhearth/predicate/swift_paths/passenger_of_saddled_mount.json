@@ -2,9 +2,9 @@
     "condition": "minecraft:entity_properties",
     "entity": "this",
     "predicate": {
-        "vehicle": {
-            "type": "#shroomhearth:mounts",
-            "slots": {
+        "minecraft:vehicle": {
+            "minecraft:entity_type": "#shroomhearth:mounts",
+            "minecraft:slots": {
                 "saddle": {
                     "items": "minecraft:saddle"
                 }

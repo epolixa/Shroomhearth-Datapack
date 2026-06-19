@@ -14,6 +14,9 @@ tag @s add cancel_elytra
 # Audio cue (disabled for now since there is no vanilla audio cue for starting flight)
 #playsound minecraft:entity.ender_dragon.flap player @a ~ ~ ~ 1 1.75
 
+# Grant guide advancement
+advancement grant @s only shroomhearth:air_brakes
+
 # Schedule function to remove levitation after 1 tick
 schedule function shroomhearth:cancel_elytra_1t 1t
 

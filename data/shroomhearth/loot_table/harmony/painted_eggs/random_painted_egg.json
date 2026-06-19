@@ -273,6 +273,10 @@
                 },
                 {
                     "type": "minecraft:loot_table",
+                    "value": "shroomhearth:harmony/painted_eggs/sulfur_cube_painted_egg"
+                },
+                {
+                    "type": "minecraft:loot_table",
                     "value": "shroomhearth:harmony/painted_eggs/tadpole_painted_egg"
                 },
                 {

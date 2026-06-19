@@ -17,11 +17,14 @@ execute as @s[type=#shroomhearth:ender_dragon/piglins] run data merge entity @s 
 execute as @s[type=#shroomhearth:ender_dragon/babies] run data merge entity @s {Age:0,IsBaby:0b}
 execute as @s[type=#shroomhearth:ender_dragon/patrol_leaders] run data merge entity @s {PatrolLeader:0b}
 
-# Small chance to apply random buff effect
-execute if predicate shroomhearth:random_chance_20 run function shroomhearth:ender_dragon/powers/summon/apply_random_effect
+# Small chance to apply random potion effect
+execute if predicate shroomhearth:random_chance_20 if score summon_sequence shroomhearth.ender_dragon matches 1.. run function shroomhearth:ender_dragon/powers/summon/apply_random_effect
+
+# Small chance to apply random rune attribute
+execute if predicate shroomhearth:random_chance_20 if score summon_sequence shroomhearth.ender_dragon matches 1.. run function shroomhearth:ender_dragon/powers/summon/apply_random_attribute
 
 # Small chance to ride nearest thrall
-execute if predicate shroomhearth:random_chance_20 run ride @s mount @n[tag=dragon_thrall,predicate=shroomhearth:ender_dragon/thrall_without_rider,distance=0.1..]
+execute if predicate shroomhearth:random_chance_20 if score summon_sequence shroomhearth.ender_dragon matches 1.. run function shroomhearth:ender_dragon/powers/summon/ride_nearest_thrall
 
 # Play particles on summoned thrall
 execute at @s run particle minecraft:trial_omen ~ ~1 ~ 0.5 0.5 0.5 1 8 force

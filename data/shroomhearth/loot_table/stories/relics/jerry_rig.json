@@ -22,12 +22,20 @@
                                 },
                                 "minecraft:lore": [
                                     {
-                                        "fallback": "A crass weapon assembled from scavenged scraps, brandished by",
+                                        "fallback": "A crass weapon assembled",
                                         "translate": "item.shroomhearth.jerry_rig.lore.0"
                                     },
                                     {
-                                        "fallback": "survivors of the City of Echoes.",
+                                        "fallback": "from scavenged scraps,",
                                         "translate": "item.shroomhearth.jerry_rig.lore.1"
+                                    },
+                                    {
+                                        "fallback": "brandished by survivors",
+                                        "translate": "item.shroomhearth.jerry_rig.lore.2"
+                                    },
+                                    {
+                                        "fallback": "of the City of Echoes.",
+                                        "translate": "item.shroomhearth.jerry_rig.lore.3"
                                     }
                                 ],
                                 "minecraft:custom_data": {

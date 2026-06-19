@@ -8,11 +8,10 @@
 						"condition": "minecraft:entity_properties",
 						"entity": "this",
 						"predicate": {
-							"type_specific": {
-								"type": "player",
+							"minecraft:type_specific/player": {
 								"player": {
 									"advancements": {
-										"challenges:needle_archer": false
+										"shroomhearth:challenges/needle_archer/piglin_contractor": false
 									}
 								}
 							}

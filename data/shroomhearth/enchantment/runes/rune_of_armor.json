@@ -24,7 +24,7 @@
         "minecraft:attributes": [
             {
                 "id": "shroomhearth:rune_of_armor",
-                "attribute": "armor",
+                "attribute": "minecraft:armor",
                 "operation": "add_value",
                 "amount": {
                     "type": "minecraft:linear",

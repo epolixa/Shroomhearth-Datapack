@@ -5,11 +5,11 @@
             "conditions": {
                 "damage": {
                     "source_entity": {
-                        "type": "ender_dragon"
+                        "minecraft:entity_type": "ender_dragon"
                     },
                     "type": {
                         "direct_entity": {
-                            "type": "ender_dragon"
+                            "minecraft:entity_type": "ender_dragon"
                         }
                     }
                 }

@@ -1,0 +1,47 @@
+{
+    "parent": "shroomhearth:challenges/batboy272/i_am_the_night",
+    "display": {
+        "icon": {
+            "id": "minecraft:player_head",
+            "components": {
+                "minecraft:profile": {
+                    "name": "Batboy272"
+                }
+            }
+        },
+        "title": {
+            "fallback": "Soaring Slayer",
+            "translate": "advancements.shroomhearth_challenges.soaring_slayer.title"
+        },
+        "description": [
+            {
+                "fallback": "Defeat the Ender Dragon without touching the ground",
+                "translate": "advancements.shroomhearth_challenges.soaring_slayer.description"
+            },
+            {
+                "text": "\n\n"
+            },
+            {
+                "color": "gray",
+                "fallback": "Created by: ",
+                "translate": "advancements.shroomhearth_challenges.created_by"
+            },
+            {
+                "color": "gray",
+                "text": "Batboy272"
+            }
+        ],
+        "frame": "challenge",
+        "hidden": false
+    },
+    "rewards": {
+        "loot": [
+            "shroomhearth:challenges/batboy272"
+        ]
+    },
+    "criteria": {
+        "soaring_slayer": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

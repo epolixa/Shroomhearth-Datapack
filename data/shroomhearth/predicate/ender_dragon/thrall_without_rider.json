@@ -4,22 +4,22 @@
         "condition": "minecraft:entity_properties",
         "entity": "this",
         "predicate": {
-            "team": "ender_dragon",
-            "type": "#shroomhearth:ender_dragon/dragon_thralls",
-            "location": {
+            "minecraft:team": "ender_dragon",
+            "minecraft:entity_type": "#shroomhearth:ender_dragon/dragon_thralls",
+            "minecraft:location": {
                 "dimension": "minecraft:the_end",
                 "position": {
                     "x": {
-                        "min": -200,
-                        "max": 200
+                        "min": -160,
+                        "max": 160
                     },
                     "z": {
-                        "min": -200,
-                        "max": 200
+                        "min": -160,
+                        "max": 160
                     }
                 }
             },
-            "passenger": {}
+            "minecraft:passenger": {}
         }
     }
 }

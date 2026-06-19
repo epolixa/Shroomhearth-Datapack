@@ -24,7 +24,7 @@
         "minecraft:attributes": [
             {
                 "id": "shroomhearth:rune_of_smallness",
-                "attribute": "scale",
+                "attribute": "minecraft:scale",
                 "operation": "add_multiplied_total",
                 "amount": {
                     "type": "minecraft:linear",

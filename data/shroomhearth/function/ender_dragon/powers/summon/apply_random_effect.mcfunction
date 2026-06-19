@@ -20,3 +20,6 @@ execute if score random shroomhearth matches 11 run effect give @s minecraft:wea
 execute if score random shroomhearth matches 12 run effect give @s minecraft:oozing infinite
 execute if score random shroomhearth matches 13 run effect give @s minecraft:infested infinite
 scoreboard players set random shroomhearth -1
+
+# Consume an extra sequence score
+scoreboard players remove summon_sequence shroomhearth.ender_dragon 1

@@ -1,7 +1,7 @@
 {
-    "condition": "entity_properties",
+    "condition": "minecraft:entity_properties",
     "entity": "this",
     "predicate": {
-        "nbt": "{DragonPhase:0}"
+        "minecraft:nbt": "{DragonPhase:0}"
     }
 }

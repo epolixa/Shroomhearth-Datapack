@@ -4,8 +4,10 @@
             "trigger": "minecraft:player_hurt_entity",
             "conditions": {
                 "entity": {
-                    "type": "minecraft:interaction",
-                    "nbt": {"Tags":["harmony_cap_interaction"]}
+                    "minecraft:entity_type": "minecraft:interaction",
+                    "minecraft:entity_tags": {
+                        "all_of": ["harmony_cap_interaction"]
+                    }
                 }
             }
         }

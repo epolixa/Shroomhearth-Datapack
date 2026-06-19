@@ -24,7 +24,7 @@
         "minecraft:attributes": [
             {
                 "id": "shroomhearth:rune_of_haste.attack_speed",
-                "attribute": "attack_speed",
+                "attribute": "minecraft:attack_speed",
                 "operation": "add_multiplied_total",
                 "amount": {
                     "type": "minecraft:linear",
@@ -34,7 +34,7 @@
             },
             {
                 "id": "shroomhearth:rune_of_haste.block_break_speed",
-                "attribute": "block_break_speed",
+                "attribute": "minecraft:block_break_speed",
                 "operation": "add_multiplied_total",
                 "amount": {
                     "type": "minecraft:linear",

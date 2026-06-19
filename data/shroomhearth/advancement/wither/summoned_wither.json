@@ -4,7 +4,7 @@
 			"trigger": "minecraft:summoned_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:wither"
+					"minecraft:entity_type": "minecraft:wither"
 				},
 				"player": {
 					"location": {
@@ -17,7 +17,7 @@
 			"trigger": "minecraft:summoned_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:wither"
+					"minecraft:entity_type": "minecraft:wither"
 				},
 				"player": {
 					"location": {
@@ -30,7 +30,7 @@
 			"trigger": "minecraft:summoned_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:wither"
+					"minecraft:entity_type": "minecraft:wither"
 				},
 				"player": {
 					"location": {
