@@ -17,8 +17,8 @@ tag @s remove checking_target_player
 execute unless entity @s[tag=echo_horn_teleport_success] run tellraw @a[tag=debug_echo_horn] [{"text":"[shroomhearth:echo_horn/teleport_to_player] No target player found for "},{"selector":"@s"}]
 
 # Notify the echo horn user if player could not be teleported to
-execute unless entity @s[tag=echo_horn_teleport_success] if entity @s[tag=using_echo_horn_mainhand] run title @s actionbar [{"text":"You may not teleport to "},{"nbt":"SelectedItem.components.minecraft:lore[].extra[].text","entity":"@s"},{"text":" right now"}]
-execute unless entity @s[tag=echo_horn_teleport_success] if entity @s[tag=using_echo_horn_offhand] run title @s actionbar [{"text":"You may not teleport to "},{"nbt":"equipment.offhand.components.minecraft:lore[].extra[].text","entity":"@s"},{"text":" right now"}]
+execute unless entity @s[tag=echo_horn_teleport_success] if entity @s[tag=using_echo_horn_mainhand] run title @s actionbar [{"text":"You may not teleport to "},{"nbt":"SelectedItem.components.minecraft:lore[].extra[].insertion","entity":"@s"},{"text":" right now"}]
+execute unless entity @s[tag=echo_horn_teleport_success] if entity @s[tag=using_echo_horn_offhand] run title @s actionbar [{"text":"You may not teleport to "},{"nbt":"equipment.offhand.components.minecraft:lore[].extra[].insertion","entity":"@s"},{"text":" right now"}]
 
 # Grant advancement for using another player's echo horn
 advancement grant @s[tag=echo_horn_teleport_success] only shroomhearth:echo_horn/soulbound
