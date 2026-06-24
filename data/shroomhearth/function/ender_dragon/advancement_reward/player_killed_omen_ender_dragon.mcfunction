@@ -30,6 +30,3 @@ kill @e[tag=power_target]
 kill @e[tag=dragon_thrall]
 kill @e[tag=dragon_distortion]
 kill @e[tag=dragon_gravity]
-
-# kickoff checks for dissolve
-function shroomhearth:ender_dragon/check_dissolved
