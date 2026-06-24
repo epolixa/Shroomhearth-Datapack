@@ -12,7 +12,7 @@ advancement revoke @s only shroomhearth:wandering_trader/wandering_trader_trade
 advancement revoke @s only shroomhearth:wandering_trader/wandering_trader_trade_villager_offers
 
 # give player a brief trade buff
-effect give @s minecraft:hero_of_the_village 180
+#effect give @s minecraft:hero_of_the_village 180
 
 # grant harmony for all nearby players if there are more than one player near the trader
 execute at @n[type=minecraft:wandering_trader] run scoreboard players add @a[distance=..16,scores={player_group=2..}] harmony 1
