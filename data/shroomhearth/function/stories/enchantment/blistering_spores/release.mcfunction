@@ -1,14 +1,11 @@
-# Executor: an entity attacked with Blistering Spores
+# Executor: an entity afflicted with Blistering Spores receiving delayed damage
 # Position: the entity
 
 tellraw @a[tag=debug_stories] [{"text":"[shroomhearth:stories/enchantment/blistering_spores/release] "},{"selector":"@s"},{"text":" released Blistering Spores"}]
 
 
-# Remove pseudo effect tag
-tag @s remove blistering_spores
-
-# Reset timer score
-scoreboard players reset @s blistering_spores
+# Reduce stacks score
+scoreboard players remove @s blistering_spores 1
 
 # Take damage
 damage @s 1 shroomhearth:blistering_spores

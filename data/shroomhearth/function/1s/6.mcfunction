@@ -4,5 +4,8 @@
 # Process Goat Horn channeled cast time
 execute as @a[tag=using_echo_horn] at @s run function shroomhearth:echo_horn/using_echo_horn
 
+# Relic item enchantments that require execution every 1s
+function shroomhearth:stories/relics/1s
+
 # Re-schedule
 schedule function shroomhearth:1s/6 1s
