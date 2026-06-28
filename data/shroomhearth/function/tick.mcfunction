@@ -22,9 +22,6 @@ execute as @e[type=minecraft:item,nbt={Item:{id:"minecraft:spawner"}}] at @s run
 # Clone random experience orb - execute if Spores of Experience is active
 execute if score spores_of_experience shroomhearth.harmony matches 1.. as @e[type=minecraft:experience_orb,tag=!double_xp,limit=1,sort=random] at @s run function shroomhearth:harmony/spores/experience/double_experience_orb
 
-# Some relic enchantments require execution every tick
-function shroomhearth:stories/relics/tick
-
 # Misc XP - execute as item entities that have just appeared, at those items, as players within 6 blocks of those items
 # keeping this disabled for now, in case we ever get a mined_block trigger
 #execute as @e[type=item,nbt={Age:0s},limit=1] at @s as @a[distance=..6] run function extra_xp:tick

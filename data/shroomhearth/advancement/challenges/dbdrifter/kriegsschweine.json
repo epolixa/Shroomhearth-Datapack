@@ -40,7 +40,19 @@
 	},
 	"criteria": {
 		"kriegsschweine": {
-			"trigger": "minecraft:impossible"
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"minecraft:entity_type": "minecraft:ender_dragon"
+				},
+				"killing_blow": {
+					"source_entity": {
+						"vehicle": {
+							"minecraft:entity_type": "minecraft:pig"
+						}
+					}
+				}
+			}
 		}
 	}
 }

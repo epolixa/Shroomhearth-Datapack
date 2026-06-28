@@ -1,8 +1,8 @@
 #tellraw @a[tag=debug_shroomhearth] [{"text":"[shroomhearth:1s/8] Executing function set 8"}]
 
 
-# Announce newly-spawned Wandering Traders
-execute as @e[type=wandering_trader,tag=!announced] at @s run function shroomhearth:wandering_trader/announce
+# Highlight newly-spawned Wandering Traders
+execute as @e[type=wandering_trader,tag=!highlighted,tag=!announced] at @s run function shroomhearth:wandering_trader/highlight
 
 # Assign Allays to special team for no collision
 execute as @e[type=minecraft:allay,tag=!no_collide] run function shroomhearth:allay_bottle/1s

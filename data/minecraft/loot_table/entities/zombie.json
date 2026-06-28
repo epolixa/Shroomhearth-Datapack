@@ -2,13 +2,11 @@
     "type": "minecraft:entity",
     "pools": [
         {
-            "bonus_rolls": 0.0,
             "entries": [
                 {
                     "type": "minecraft:item",
                     "functions": [
                         {
-                            "add": false,
                             "count": {
                                 "type": "minecraft:uniform",
                                 "max": 2.0,
@@ -32,7 +30,45 @@
             "rolls": 1.0
         },
         {
-            "bonus_rolls": 0.0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "conditions": [
+                        {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "minecraft:vehicle": {
+                                    "minecraft:entity_type": "minecraft:zombie_horse"
+                                }
+                            }
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 1.0,
+                                "min": 0.0
+                            },
+                            "function": "minecraft:set_count"
+                        },
+                        {
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 1.0,
+                                "min": 0.0
+                            },
+                            "enchantment": "minecraft:looting",
+                            "function": "minecraft:enchanted_count_increase"
+                        }
+                    ],
+                    "name": "minecraft:red_mushroom"
+                }
+            ],
+            "rolls": 1.0
+        },
+        {
             "conditions": [
                 {
                     "condition": "minecraft:killed_by_player"
@@ -69,7 +105,7 @@
                                             "condition": "minecraft:entity_properties",
                                             "entity": "this",
                                             "predicate": {
-                                                "flags": {
+                                                "minecraft:flags": {
                                                     "is_on_fire": true
                                                 }
                                             }
@@ -78,7 +114,7 @@
                                             "condition": "minecraft:entity_properties",
                                             "entity": "direct_attacker",
                                             "predicate": {
-                                                "equipment": {
+                                                "minecraft:equipment": {
                                                     "mainhand": {
                                                         "predicates": {
                                                             "minecraft:enchantments": [
@@ -98,6 +134,32 @@
                         }
                     ],
                     "name": "minecraft:potato"
+                }
+            ],
+            "rolls": 1.0
+        },
+        {
+            "conditions": [
+                {
+                    "condition": "minecraft:killed_by_player"
+                },
+                {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "minecraft:flags": {
+                            "is_baby": true
+                        },
+                        "minecraft:vehicle": {
+                            "minecraft:entity_type": "minecraft:chicken"
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:music_disc_lava_chicken"
                 }
             ],
             "rolls": 1.0

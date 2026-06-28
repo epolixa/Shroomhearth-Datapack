@@ -1,0 +1,43 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_pickaxe",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": {
+                                    "fallback": "Harmony Pickaxe",
+                                    "translate": "item.shroomhearth.harmony_pickaxe"
+                                },
+                                "minecraft:item_model": "shroomhearth:harmony_pickaxe",
+                                "minecraft:rarity": "epic",
+                                "minecraft:enchantments": {
+                                    "shroomhearth:stories/harmonic_haste": 1
+                                },
+                                "minecraft:lore": [
+                                    {
+                                        "fallback": "A Fungaian Artifact that",
+                                        "translate": "item.shroomhearth.harmony_pickaxe.lore.0"
+                                    },
+                                    {
+                                        "fallback": "mines faster near other players.",
+                                        "translate": "item.shroomhearth.harmony_pickaxe.lore.1"
+                                    }
+                                ],
+                                "minecraft:custom_data": {
+                                    "shroomhearth_id": "harmony_pickaxe"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

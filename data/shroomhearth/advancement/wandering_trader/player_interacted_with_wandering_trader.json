@@ -1,0 +1,15 @@
+{
+	"criteria": {
+		"player_interacted_with_wandering_trader": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"entity": {
+					"entity_type": "minecraft:wandering_trader"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "shroomhearth:wandering_trader/advancement_reward/player_interacted_with_wandering_trader"
+	} 
+}
