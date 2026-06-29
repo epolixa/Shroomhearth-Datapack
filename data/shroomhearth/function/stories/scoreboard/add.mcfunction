@@ -6,3 +6,5 @@ scoreboard objectives add has_fillable_head dummy
 scoreboard objectives add blistering_spores dummy
 # Harmonic Haste - tracks duration
 scoreboard objectives add harmonic_haste dummy
+# Harmonic Strength - tracks duration
+scoreboard objectives add harmonic_strength dummy

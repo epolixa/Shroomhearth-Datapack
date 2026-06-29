@@ -6,3 +6,5 @@ scoreboard objectives remove has_fillable_head
 scoreboard objectives remove blistering_spores
 # Harmonic Haste - tracks duration
 scoreboard objectives remove harmonic_haste
+# Harmonic Strength - tracks duration
+scoreboard objectives remove harmonic_strength
