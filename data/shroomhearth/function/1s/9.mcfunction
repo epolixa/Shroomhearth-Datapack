@@ -5,5 +5,8 @@
 #execute if entity @p[tag=debug_markers] at @e[type=minecraft:marker] run particle minecraft:block_marker{block_state:{Name:"minecraft:redstone_torch"}}
 execute if entity @p[tag=debug_markers] at @e[type=minecraft:marker] run particle minecraft:sonic_boom ~ ~ ~ 0 0 0 0 1 force @a[tag=debug_markers]
 
+# Run repair scripts
+execute as @a[tag=!repair_challenge_advancement_triggers_20260710] run function shroomhearth:repair/scripts/challenge_advancement_triggers_20260710
+
 # Re-schedule
 schedule function shroomhearth:1s/9 1s
