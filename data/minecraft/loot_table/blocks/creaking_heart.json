@@ -115,6 +115,9 @@
               "components": {
                 "minecraft:item_name": "Creaking Head",
                 "minecraft:note_block_sound": "minecraft:entity.creaking.ambient",
+                "minecraft:custom_data": {
+                  "shroomhearth_id": "creaking_head"
+                },
                 "minecraft:profile": {
                   "properties": [
                     {
