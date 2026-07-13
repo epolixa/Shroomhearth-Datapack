@@ -1,5 +1,5 @@
 {
-	"parent": "shroomhearth:_shroomhearth_stories",
+	"parent": "shroomhearth:shroomhearth_stories",
 	"display": {
 		"icon": {
 			"id": "minecraft:firefly_bush"
@@ -23,12 +23,12 @@
 						"dimension": "minecraft:overworld",
 						"position": {
 							"x": {
-								"min": 999999,
-								"max": 999999
+								"min": 827,
+								"max": 1192
 							},
 							"z": {
-								"min": 999999,
-								"max": 999999
+								"min": 1281,
+								"max": 1599
 							}
 						}
 					}
