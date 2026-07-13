@@ -16,6 +16,16 @@
                                     "translate": "item.shroomhearth.petri_pfish"
                                 },
                                 "minecraft:item_model": "shroomhearth:petri_pfish",
+                                "minecraft:lore": [
+                                    {
+                                        "fallback": "item.shroomhearth.petri_pfish.lore.0",
+                                        "translate": "item.shroomhearth.petri_pfish.lore.0"
+                                    },
+                                    {
+                                        "fallback": "item.shroomhearth.petri_pfish.lore.1",
+                                        "translate": "item.shroomhearth.petri_pfish.lore.1"
+                                    }
+                                ],
                                 "minecraft:custom_data": {
                                     "shroomhearth_id": "petri_pfish"
                                 }
