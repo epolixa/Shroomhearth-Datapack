@@ -48,6 +48,24 @@
                             sound: "minecraft:item.lead.tied",
                             has_consume_particles: "false"
                         },
+                        "minecraft:lore": [
+                            {
+                                fallback: "A tightly woven bundle of nascent mycelium.",
+                                translate: "item.shroomhearth.hyphal_knot.lore.0"
+                            },
+                            {
+                                fallback: "Gently unraveling the fibrous threads coaxes",
+                                translate: "item.shroomhearth.hyphal_knot.lore.1"
+                            },
+                            {
+                                fallback: "Fungaia to expand its vast reach towards the",
+                                translate: "item.shroomhearth.hyphal_knot.lore.2"
+                            },
+                            {
+                                fallback: "distant horizons.",
+                                translate: "item.shroomhearth.hyphal_knot.lore.3"
+                            }
+                        ],
                         "minecraft:use_cooldown": {
                             seconds: 64,
                             cooldown_group: "hyphal_knot"
