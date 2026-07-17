@@ -15,6 +15,24 @@
                                     "translate": "item.shroomhearth.harmony_cap"
                                 },
                                 "minecraft:item_model": "shroomhearth:harmony_cap",
+                                "minecraft:lore": [
+                                    {
+                                        "fallback": "A delicate mushroom that thrums with an",
+                                        "translate": "item.shroomhearth.harmony_cap.lore.0"
+                                    },
+                                    {
+                                        "fallback": "ethereal gleam. This token of Fungaian gratitude",
+                                        "translate": "item.shroomhearth.harmony_cap.lore.1"
+                                    },
+                                    {
+                                        "fallback": "sprouts amid flourishing bonds and conveys a",
+                                        "translate": "item.shroomhearth.harmony_cap.lore.2"
+                                    },
+                                    {
+                                        "fallback": "divine potency.",
+                                        "translate": "item.shroomhearth.harmony_cap.lore.3"
+                                    }
+                                ],
                                 "minecraft:custom_data": {
                                     "shroomhearth_id": "harmony_cap"
                                 }
