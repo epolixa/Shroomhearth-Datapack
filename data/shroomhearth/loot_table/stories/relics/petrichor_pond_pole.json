@@ -22,12 +22,20 @@
                                 },
                                 "minecraft:lore": [
                                     {
-                                        "fallback": "item.shroomhearth.petrichor_pond_pole.lore.0",
+                                        "fallback": "Imbued with mystical aspects of magical mire,",
                                         "translate": "item.shroomhearth.petrichor_pond_pole.lore.0"
                                     },
                                     {
-                                        "fallback": "item.shroomhearth.petrichor_pond_pole.lore.1",
+                                        "fallback": "this fishing rod shimmers with a slimy sheen.",
                                         "translate": "item.shroomhearth.petrichor_pond_pole.lore.1"
+                                    },
+                                    {
+                                        "fallback": "You get the sense that the lily pad lure really",
+                                        "translate": "item.shroomhearth.petrichor_pond_pole.lore.2"
+                                    },
+                                    {
+                                        "fallback": "likes swampy water.",
+                                        "translate": "item.shroomhearth.petrichor_pond_pole.lore.3"
                                     }
                                 ],
                                 "minecraft:custom_data": {
