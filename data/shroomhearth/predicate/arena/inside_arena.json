@@ -1,0 +1,6 @@
+{
+    "type": "minecraft:any_of",
+    "terms": [
+        "shroomhearth:arena/inside_maybeapro_arena"
+    ]
+}
