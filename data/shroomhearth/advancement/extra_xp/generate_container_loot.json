@@ -68,7 +68,7 @@
 	},
 	"requirements": [
 		[
-			"player_generates_container_loot"
+			"generate_container_loot"
 		]
 	],
 	"rewards": {
