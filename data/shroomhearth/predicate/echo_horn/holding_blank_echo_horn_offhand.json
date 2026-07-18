@@ -1,24 +1,27 @@
-[
-    {
-        "condition": "minecraft:reference",
-        "name": "shroomhearth:echo_horn/holding_echo_horn_offhand"
-    },
-    {
-        "condition": "minecraft:inverted",
-        "term": {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-                "equipment": {
-                    "offhand": {
-                        "predicates": {
-                            "minecraft:custom_data": {
-                                "timbre": {}
+{
+    "type": "minecraft:all_of",
+    "terms": [
+        {
+            "type": "minecraft:all_of",
+            "terms": "shroomhearth:echo_horn/holding_echo_horn_offhand"
+        },
+        {
+            "type": "minecraft:inverted",
+            "term": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "equipment": {
+                        "offhand": {
+                            "predicates": {
+                                "minecraft:custom_data": {
+                                    "timbre": {}
+                                }
                             }
                         }
                     }
                 }
             }
         }
-    }
-]
+    ]
+}

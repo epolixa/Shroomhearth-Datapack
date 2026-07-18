@@ -2,6 +2,6 @@
     "type": "minecraft:entity_properties",
     "entity": "this",
     "predicate": {
-        "minecraft:nbt": "{DragonPhase:0}"
+        "minecraft:entity_type": "minecraft:player"
     }
 }

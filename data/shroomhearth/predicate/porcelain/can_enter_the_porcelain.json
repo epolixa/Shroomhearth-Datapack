@@ -1,20 +1,23 @@
-[
-    {
-        "condition": "minecraft:reference",
-        "name": "shroomhearth:porcelain/valid_position"
-    },
-    {
-        "condition": "minecraft:entity_scores",
-        "entity": "this",
-        "scores": {
-            "nearby_porcelain_amphora": 0
+{
+    "type": "minecraft:all_of",
+    "terms": [
+        {
+            "type": "minecraft:all_of",
+            "terms": "shroomhearth:porcelain/valid_position"
+        },
+        {
+            "type": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "nearby_porcelain_amphora": 0
+            }
+        },
+        {
+            "type": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+                "nearby_monster": 0
+            }
         }
-    },
-    {
-        "condition": "minecraft:entity_scores",
-        "entity": "this",
-        "scores": {
-            "nearby_monster": 0
-        }
-    }
-]
+    ]
+}
