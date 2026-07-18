@@ -4,11 +4,11 @@
         "has_recipe": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipes": "world_hall:knowledge_book_dummy"
+                "recipes": "shroomhearth:knowledge_book_dummy"
             }
         }
     },
     "rewards": {
-        "function": "world_hall:use_knowledge_book"
+        "function": "shroomhearth:hearth_island/world_hall/use_knowledge_book"
     }
 }
