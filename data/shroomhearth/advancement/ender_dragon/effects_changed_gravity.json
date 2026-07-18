@@ -9,12 +9,7 @@
                         "duration": 30
                     }
                 },
-                "player": [
-                    {
-                        "condition": "minecraft:reference",
-                        "name": "shroomhearth:ender_dragon/on_main_end_island"
-                    }
-                ]
+                "player": "shroomhearth:ender_dragon/on_main_end_island"
 			}
 		}
 	},
