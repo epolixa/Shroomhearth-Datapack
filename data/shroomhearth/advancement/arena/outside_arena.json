@@ -1,9 +1,17 @@
 {
 	"criteria": {
-		"outside_arena": {
+		"enter_arena": {
 			"trigger": "minecraft:location",
 			"conditions": {
-				"player": "shroomhearth:arena/outside_arena"
+				"player": [
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:reference",
+                            "name": "shroomhearth:arena/in_arena"
+                        }
+                    }
+                ]
 			}
 		}
 	},

@@ -3,13 +3,24 @@
 		"player_killed_player_in_arena": {
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
-				"entity": {
-					"type": "minecraft:all_of",
-					"terms": [
-						"shroomhearth:arena/is_other_player",
-						"shroomhearth:arena/inside_arena"
-					]
-				}
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"minecraft:entity_type": "minecraft:player",
+							"minecraft:distance": {
+								"absolute": {
+									"min": 0.0625
+								}
+							}
+						}
+					},
+					{
+						"condition": "minecraft:reference",
+						"name": "shroomhearth:arena/player_in_arena"
+					}
+				]
 			}
 		}
 	},

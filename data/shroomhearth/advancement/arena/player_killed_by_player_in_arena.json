@@ -3,7 +3,12 @@
 		"player_killed_by_player_in_arena": {
 			"trigger": "minecraft:entity_killed_player",
 			"conditions": {
-				"entity": "shroomhearth:arena/player_inside_arena",
+				"entity": [
+					{
+						"condition": "minecraft:reference",
+						"name": "shroomhearth:arena/player_in_arena"
+					}
+				],
 				"killing_blow": {
 					"source_entity": {
 						"minecraft:entity_type": "minecraft:player",

@@ -1,7 +1,0 @@
-{
-    "type": "minecraft:all_of",
-    "terms": [
-        "shroomhearth:is_player",
-        "shroomhearth:arena/inside_arena"
-    ]
-}

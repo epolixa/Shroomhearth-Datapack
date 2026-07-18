@@ -1,9 +1,14 @@
 {
 	"criteria": {
-		"inside_arena": {
+		"enter_arena": {
 			"trigger": "minecraft:location",
 			"conditions": {
-				"player": "shroomhearth:arena/inside_arena"
+				"player": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "shroomhearth:arena/in_arena"
+                    }
+                ]
 			}
 		}
 	},
