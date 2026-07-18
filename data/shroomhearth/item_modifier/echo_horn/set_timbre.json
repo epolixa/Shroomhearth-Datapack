@@ -1,6 +1,6 @@
 [
   {
-    "function": "minecraft:copy_custom_data",
+    "type": "minecraft:copy_custom_data",
     "source": "this",
     "ops": [
       {
@@ -8,11 +8,10 @@
         "target": "timbre.UUID",
         "op": "replace"
       }
-    ],
-    "conditions": []
+    ]
   },
   {
-    "function": "minecraft:set_lore",
+    "type": "minecraft:set_lore",
     "entity": "this",
     "lore": [[
       {
