@@ -3,31 +3,32 @@
 		"placed_block_in_the_nether": {
 			"trigger": "minecraft:placed_block",
 			"conditions": {
-				"location": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"minecraft:type_specific/player": {
-								"player": {
+				"location": {
+					"type": "minecraft:all_of",
+					"terms": [
+						{
+							"type": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"minecraft:type_specific/player": {
 									"advancements": {
 										"shroomhearth:challenges/needle_archer/piglin_contractor": false
 									}
 								}
 							}
+						},
+						{
+							"type": "minecraft:location_check",
+							"predicate": {
+								"dimension": "minecraft:the_nether"
+							}
 						}
-					},
-					{
-						"condition": "minecraft:location_check",
-						"predicate": {
-							"dimension": "minecraft:the_nether"
-						}
-					}
-				]
+					]
+				}
 			}
 		}
 	},
 	"rewards": {
 		"function": "shroomhearth:challenges/advancement_reward/needle_archer/placed_block_in_the_nether"
-	} 
+	}
 }

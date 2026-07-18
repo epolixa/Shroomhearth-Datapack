@@ -47,17 +47,15 @@
 						"items": "minecraft:armor_stand"
 					}
 				],
-				"player": [
-					{
-						"condition": "entity_scores",
-						"entity": "this",
-						"scores": {
-							"used_armor_stand": {
-								"min": 1000
-							}
+				"player": {
+					"type": "entity_scores",
+					"entity": "this",
+					"scores": {
+						"used_armor_stand": {
+							"min": 1000
 						}
 					}
-				]
+				}
 			}
 		}
 	}

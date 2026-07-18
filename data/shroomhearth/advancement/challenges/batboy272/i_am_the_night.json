@@ -75,34 +75,38 @@
 					}
 				],
 				"player": {
-					"equipment": {
-						"head": {
-							"items": "minecraft:netherite_helmet",
-							"components": {
-								"minecraft:trim": {
-									"material": "minecraft:quartz",
-									"pattern": "minecraft:eye"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:equipment": {
+							"head": {
+								"items": "minecraft:netherite_helmet",
+								"components": {
+									"minecraft:trim": {
+										"material": "minecraft:quartz",
+										"pattern": "minecraft:eye"
+									}
 								}
-							}
-						},
-						"chest": {
-							"items": "minecraft:elytra"
-						},
-						"legs": {
-							"items": "minecraft:netherite_leggings",
-							"components": {
-								"minecraft:trim": {
-									"material": "minecraft:netherite",
-									"pattern": "minecraft:silence"
+							},
+							"chest": {
+								"items": "minecraft:elytra"
+							},
+							"legs": {
+								"items": "minecraft:netherite_leggings",
+								"components": {
+									"minecraft:trim": {
+										"material": "minecraft:netherite",
+										"pattern": "minecraft:silence"
+									}
 								}
-							}
-						},
-						"feet": {
-							"items": "minecraft:netherite_boots",
-							"components": {
-								"minecraft:trim": {
-									"material": "minecraft:amethyst",
-									"pattern": "minecraft:silence"
+							},
+							"feet": {
+								"items": "minecraft:netherite_boots",
+								"components": {
+									"minecraft:trim": {
+										"material": "minecraft:amethyst",
+										"pattern": "minecraft:silence"
+									}
 								}
 							}
 						}

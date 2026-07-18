@@ -45,15 +45,13 @@
 				"item": {
 					"items": "minecraft:melon_slice"
 				},
-				"player": [
-					{
-						"condition": "minecraft:entity_scores",
-						"entity": "this",
-						"scores": {
-							"melontarian": 64
-						}
+				"player": {
+					"type": "minecraft:entity_scores",
+					"entity": "this",
+					"scores": {
+						"melontarian": 64
 					}
-				]
+				}
 			}
 		}
 	}
