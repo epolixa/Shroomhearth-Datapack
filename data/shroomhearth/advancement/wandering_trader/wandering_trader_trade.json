@@ -4,7 +4,11 @@
 			"trigger": "minecraft:villager_trade",
 			"conditions": {
 				"villager": {
-					"minecraft:entity_type": "minecraft:wandering_trader"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:entity_type": "minecraft:wandering_trader"
+					}
 				}
 			}
 		}
