@@ -3,22 +3,25 @@
         "harvest_beehive": {
             "trigger": "minecraft:item_used_on_block",
             "conditions": {
-                "location": [
-                    {
-                        "condition": "minecraft:match_tool",
-                        "predicate": {
-                            "items": "#shroomhearth:beehive_tools"
-                        }
-                    },
-                    {
-                        "condition": "minecraft:location_check",
-                        "predicate": {
-                            "block": {
-                                "blocks": "#minecraft:beehives"
+                "location": {
+                    "type": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "type": "minecraft:match_tool",
+                            "predicate": {
+                                "items": "#shroomhearth:beehive_tools"
+                            }
+                        },
+                        {
+                            "type": "minecraft:location_check",
+                            "predicate": {
+                                "block": {
+                                    "blocks": "#minecraft:beehives"
+                                }
                             }
                         }
-                    }
-                ]
+                    ]
+                }
             }
         }
     },
