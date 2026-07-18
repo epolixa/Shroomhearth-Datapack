@@ -33,7 +33,7 @@
         "has_recipe": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "shroomhearth:copper/oxidize_weathered_copper_grate"
+                "recipes": "shroomhearth:copper/oxidize_weathered_copper_grate"
             }
         }
     },

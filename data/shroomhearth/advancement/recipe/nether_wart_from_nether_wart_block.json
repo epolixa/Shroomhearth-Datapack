@@ -19,7 +19,7 @@
         "has_the_recipe": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "shroomhearth:nether_wart_from_nether_wart_block"
+                "recipes": "shroomhearth:nether_wart_from_nether_wart_block"
             }
         }
     },

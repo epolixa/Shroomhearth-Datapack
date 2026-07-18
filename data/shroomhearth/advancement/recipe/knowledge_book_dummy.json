@@ -4,7 +4,7 @@
         "has_recipe": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "world_hall:knowledge_book_dummy"
+                "recipes": "world_hall:knowledge_book_dummy"
             }
         }
     },

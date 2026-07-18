@@ -9,7 +9,7 @@
 		"has_root_recipe": {
 			"trigger": "minecraft:recipe_unlocked",
 			"conditions": {
-				"recipe": "minecraft:trapped_chest"
+				"recipes": "minecraft:trapped_chest"
 			}
 		}
 	}

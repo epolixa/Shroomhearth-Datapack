@@ -10,7 +10,7 @@
 		"has_root_recipe": {
 			"trigger": "minecraft:recipe_unlocked",
 			"conditions": {
-				"recipe": "minecraft:dispenser"
+				"recipes": "minecraft:dispenser"
 			}
 		}
 	}

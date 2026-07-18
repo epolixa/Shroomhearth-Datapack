@@ -24,7 +24,7 @@
         "has_recipe": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "shroomhearth:echo_horn"
+                "recipes": "shroomhearth:echo_horn"
             }
         }
     },
