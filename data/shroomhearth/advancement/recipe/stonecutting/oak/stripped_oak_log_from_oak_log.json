@@ -19,7 +19,7 @@
     "has_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "shroomhearth:stonecutting/oak/stripped_oak_log_from_oak_log"
+        "recipes": "shroomhearth:stonecutting/oak/stripped_oak_log_from_oak_log"
       }
     }
   },

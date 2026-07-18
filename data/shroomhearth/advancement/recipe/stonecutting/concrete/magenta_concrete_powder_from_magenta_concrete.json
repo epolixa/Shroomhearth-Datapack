@@ -19,7 +19,7 @@
     "has_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "shroomhearth:stonecutting/concrete/magenta_concrete_powder_from_magenta_concrete"
+        "recipes": "shroomhearth:stonecutting/concrete/magenta_concrete_powder_from_magenta_concrete"
       }
     }
   },

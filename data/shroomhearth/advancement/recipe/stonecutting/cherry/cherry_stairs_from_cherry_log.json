@@ -19,7 +19,7 @@
     "has_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "shroomhearth:stonecutting/cherry/cherry_stairs_from_cherry_log"
+        "recipes": "shroomhearth:stonecutting/cherry/cherry_stairs_from_cherry_log"
       }
     }
   },

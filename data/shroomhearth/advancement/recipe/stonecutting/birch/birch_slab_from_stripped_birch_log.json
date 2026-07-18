@@ -19,7 +19,7 @@
     "has_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "shroomhearth:stonecutting/birch/birch_slab_from_stripped_birch_log"
+        "recipes": "shroomhearth:stonecutting/birch/birch_slab_from_stripped_birch_log"
       }
     }
   },

@@ -19,7 +19,7 @@
     "has_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "shroomhearth:stonecutting/pale_oak/pale_oak_slab_from_pale_oak_planks"
+        "recipes": "shroomhearth:stonecutting/pale_oak/pale_oak_slab_from_pale_oak_planks"
       }
     }
   },

@@ -19,7 +19,7 @@
     "has_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "shroomhearth:stonecutting/mangrove/mangrove_stairs_from_stripped_mangrove_log"
+        "recipes": "shroomhearth:stonecutting/mangrove/mangrove_stairs_from_stripped_mangrove_log"
       }
     }
   },

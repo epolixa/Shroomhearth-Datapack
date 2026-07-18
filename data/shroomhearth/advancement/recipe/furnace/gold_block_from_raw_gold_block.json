@@ -19,7 +19,7 @@
     "has_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "shroomhearth:furnace/gold_block_from_raw_gold_block"
+        "recipes": "shroomhearth:furnace/gold_block_from_raw_gold_block"
       }
     }
   },

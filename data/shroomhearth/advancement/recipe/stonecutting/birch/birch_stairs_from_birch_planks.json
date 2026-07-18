@@ -19,7 +19,7 @@
     "has_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "shroomhearth:stonecutting/birch/birch_stairs_from_birch_planks"
+        "recipes": "shroomhearth:stonecutting/birch/birch_stairs_from_birch_planks"
       }
     }
   },

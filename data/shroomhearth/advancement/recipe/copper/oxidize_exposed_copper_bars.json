@@ -33,7 +33,7 @@
     "has_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "shroomhearth:copper/oxidize_exposed_copper_bars"
+        "recipes": "shroomhearth:copper/oxidize_exposed_copper_bars"
       }
     }
   },

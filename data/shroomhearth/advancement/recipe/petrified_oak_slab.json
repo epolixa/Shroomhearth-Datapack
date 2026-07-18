@@ -29,7 +29,7 @@
     "has_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "shroomhearth:petrified_oak_slab"
+        "recipes": "shroomhearth:petrified_oak_slab"
       }
     }
   },

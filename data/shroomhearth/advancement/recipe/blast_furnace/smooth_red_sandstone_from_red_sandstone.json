@@ -19,7 +19,7 @@
     "has_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "shroomhearth:blast_furnace/smooth_red_sandstone_from_red_sandstone"
+        "recipes": "shroomhearth:blast_furnace/smooth_red_sandstone_from_red_sandstone"
       }
     }
   },
