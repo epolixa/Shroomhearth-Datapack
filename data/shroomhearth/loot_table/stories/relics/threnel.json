@@ -7,9 +7,9 @@
                     "type": "item",
                     "name": "minecraft:diamond_pickaxe",
                     "weight": 1,
-                    "functions": [
+                    "modifiers": [
                         {
-                            "function": "minecraft:set_components",
+                            "type": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_name": {
                                     "fallback": "Threnel",

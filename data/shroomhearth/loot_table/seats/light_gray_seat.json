@@ -6,9 +6,9 @@
                 {
                     "type": "item",
                     "name": "minecraft:pig_spawn_egg",
-                    "functions": [
+                    "modifiers": [
                         {
-                            "function": "minecraft:set_components",
+                            "type": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_name": {
                                     "fallback": "Light Gray Seat",

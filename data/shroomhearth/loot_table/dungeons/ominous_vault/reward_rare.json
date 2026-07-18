@@ -21,7 +21,7 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifiers": [
             {
               "function": "minecraft:enchant_with_levels",
               "levels": {
@@ -37,7 +37,7 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifiers": [
             {
               "function": "minecraft:enchant_randomly",
               "options": [

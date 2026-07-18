@@ -6,9 +6,9 @@
                 {
                     "type": "item",
                     "name": "minecraft:potion",
-                    "functions": [
+                    "modifiers": [
                         {
-                            "function": "minecraft:set_components",
+                            "type": "minecraft:set_components",
                             "components": {
                                 "!minecraft:potion_contents": {},
                                 "!minecraft:use_remainder": {},

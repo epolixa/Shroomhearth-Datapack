@@ -8,7 +8,7 @@
           "type": "item",
           "name": "minecraft:player_head",
           "weight": 100,
-          "functions": [
+          "modifiers": [
             {
               "function": "set_components",
               "components": {

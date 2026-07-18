@@ -6,9 +6,9 @@
                 {
                     "type": "item",
                     "name": "minecraft:enchanted_book",
-                    "functions": [
+                    "modifiers": [
                         {
-                            "function": "set_components",
+                            "type": "set_components",
                             "components": {
                                 "minecraft:item_name": {
                                     "fallback": "Rune of Stepping",

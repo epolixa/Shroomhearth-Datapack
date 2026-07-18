@@ -7,9 +7,9 @@
                 {
                     "type": "item",
                     "name": "minecraft:player_head",
-                    "functions": [
+                    "modifiers": [
                         {
-                            "function": "set_components",
+                            "type": "set_components",
                             "components": {
                                 "minecraft:profile": {
                                     "name": "FlyntHazzard"

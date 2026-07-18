@@ -7,7 +7,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:trial_key",
-          "functions": [
+          "modifiers": [
             {
               "function": "minecraft:set_components",
               "components": {

@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifiers": [
             {
               "add": false,
               "count": {
@@ -22,7 +22,7 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifiers": [
             {
               "add": false,
               "count": {
@@ -42,7 +42,7 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifiers": [
             {
               "add": false,
               "count": {
@@ -63,7 +63,7 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifiers": [
             {
               "add": false,
               "count": {
@@ -79,7 +79,7 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifiers": [
             {
               "add": false,
               "count": {
@@ -95,7 +95,7 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifiers": [
             {
               "add": false,
               "count": 1.0,
@@ -115,7 +115,7 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifiers": [
             {
               "add": false,
               "count": {
