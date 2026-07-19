@@ -10,7 +10,7 @@
           "weight": 100,
           "modifier": [
             {
-              "function": "set_components",
+              "type": "set_components",
               "components": {
                 "minecraft:profile": {
                   "name": "epolixa"

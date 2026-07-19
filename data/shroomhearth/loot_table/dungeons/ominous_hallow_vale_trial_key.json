@@ -9,7 +9,7 @@
           "name": "minecraft:ominous_trial_key",
           "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_name": {
                   "fallback": "Ominous Hallow Vale Trial Key",

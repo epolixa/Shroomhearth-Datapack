@@ -23,7 +23,7 @@
           "type": "minecraft:item",
           "modifier": [
             {
-              "function": "minecraft:enchant_with_levels",
+              "type": "minecraft:enchant_with_levels",
               "levels": {
                 "type": "minecraft:uniform",
                 "max": 20.0,
@@ -39,7 +39,7 @@
           "type": "minecraft:item",
           "modifier": [
             {
-              "function": "minecraft:enchant_randomly",
+              "type": "minecraft:enchant_randomly",
               "options": [
                 "minecraft:smite",
                 "minecraft:soul_speed",
