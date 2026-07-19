@@ -12,7 +12,7 @@
               "type": "minecraft:set_components",
               "components": {
                 "minecraft:recipes": [
-                  "world_hall:knowledge_book_dummy"
+                  "shroomhearth:knowledge_book_dummy"
                 ]
               }
             }
