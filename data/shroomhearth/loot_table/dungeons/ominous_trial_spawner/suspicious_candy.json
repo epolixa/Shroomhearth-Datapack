@@ -7,7 +7,7 @@
                 {
                     "type": "item",
                     "name": "minecraft:spider_eye",
-                    "modifiers": [
+                    "modifier": [
                         {
                             "type": "minecraft:set_components",
                             "components": {

@@ -6,7 +6,7 @@
                 {
                     "type": "item",
                     "name": "minecraft:knowledge_book",
-                    "modifiers": [
+                    "modifier": [
                         {
                             "type": "minecraft:set_components",
                             "components": {

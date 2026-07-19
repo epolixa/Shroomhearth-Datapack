@@ -6,7 +6,7 @@
                 {
                     "type": "item",
                     "name": "minecraft:pig_spawn_egg",
-                    "modifiers": [
+                    "modifier": [
                         {
                             "type": "minecraft:set_components",
                             "components": {

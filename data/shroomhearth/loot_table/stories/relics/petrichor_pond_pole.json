@@ -7,7 +7,7 @@
                     "type": "item",
                     "name": "minecraft:fishing_rod",
                     "weight": 1,
-                    "modifiers": [
+                    "modifier": [
                         {
                             "type": "minecraft:set_components",
                             "components": {

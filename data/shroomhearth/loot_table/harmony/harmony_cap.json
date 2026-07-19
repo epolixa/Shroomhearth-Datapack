@@ -6,7 +6,7 @@
                 {
                     "type": "item",
                     "name": "minecraft:glistering_melon_slice",
-                    "modifiers": [
+                    "modifier": [
                         {
                             "type": "minecraft:set_components",
                             "components": {

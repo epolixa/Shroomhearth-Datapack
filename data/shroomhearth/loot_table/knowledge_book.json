@@ -7,7 +7,7 @@
           "type": "item",
           "name": "minecraft:knowledge_book",
           "weight": 1,
-          "modifiers": [
+          "modifier": [
             {
               "function": "minecraft:set_components",
               "components": {

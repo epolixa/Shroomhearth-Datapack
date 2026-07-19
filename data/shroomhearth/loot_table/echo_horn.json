@@ -6,7 +6,7 @@
                 {
                     "type": "item",
                     "name": "minecraft:goat_horn",
-                    "modifiers": [
+                    "modifier": [
                         {
                             "type": "minecraft:set_components",
                             "components": {

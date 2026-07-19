@@ -6,7 +6,7 @@
                 {
                     "type": "item",
                     "name": "minecraft:enchanted_book",
-                    "modifiers": [
+                    "modifier": [
                         {
                             "type": "set_components",
                             "components": {

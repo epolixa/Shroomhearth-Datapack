@@ -23,7 +23,7 @@
                     ],
                     "type": "item",
                     "name": "minecraft:player_head",
-                    "modifiers": [
+                    "modifier": [
                         {
                             "type": "set_custom_data",
                             "tag": {

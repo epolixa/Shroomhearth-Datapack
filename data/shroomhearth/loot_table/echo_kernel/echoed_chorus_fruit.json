@@ -6,7 +6,7 @@
                 {
                     "type": "item",
                     "name": "minecraft:chorus_fruit",
-                    "modifiers": [
+                    "modifier": [
                         {
                             "type": "minecraft:set_components",
                             "components": {

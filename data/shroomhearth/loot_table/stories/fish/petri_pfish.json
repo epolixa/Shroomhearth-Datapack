@@ -7,7 +7,7 @@
                     "type": "item",
                     "name": "minecraft:pufferfish",
                     "weight": 1,
-                    "modifiers": [
+                    "modifier": [
                         {
                             "type": "minecraft:set_components",
                             "components": {

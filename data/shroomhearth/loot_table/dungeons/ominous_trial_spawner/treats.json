@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "modifiers": [
+          "modifier": [
             {
               "add": false,
               "count": {
@@ -27,7 +27,7 @@
         },
         {
           "type": "minecraft:item",
-          "modifiers": [
+          "modifier": [
             {
               "add": false,
               "count": {
@@ -43,7 +43,7 @@
         },
         {
           "type": "minecraft:item",
-          "modifiers": [
+          "modifier": [
             {
               "add": false,
               "count": 1.0,
@@ -58,7 +58,7 @@
         },
         {
           "type": "minecraft:item",
-          "modifiers": [
+          "modifier": [
             {
               "add": false,
               "count": 1.0,

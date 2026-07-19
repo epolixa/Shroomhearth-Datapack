@@ -6,7 +6,7 @@
                 {
                     "type": "item",
                     "name": "minecraft:warped_fungus_on_a_stick",
-                    "modifiers": [
+                    "modifier": [
                         {
                             "type": "minecraft:set_components",
                             "components": {

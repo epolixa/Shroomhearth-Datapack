@@ -6,7 +6,7 @@
                 {
                     "type": "item",
                     "name": "minecraft:potion",
-                    "modifiers": [
+                    "modifier": [
                         {
                             "type": "minecraft:set_components",
                             "components": {
