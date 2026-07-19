@@ -1,0 +1,66 @@
+{
+    "description": {
+        "fallback": "Murky Moxie",
+        "translate": "enchantment.shroomhearth.murky_moxie",
+        "color": "#13bbbb"
+    },
+    "supported_items": "#minecraft:enchantable/fishing",
+    "weight": 1,
+    "max_level": 1,
+    "anvil_cost": 5,
+    "min_cost": {
+        "base": 25,
+        "per_level_above_first": 25
+    },
+    "max_cost": {
+        "base": 75,
+        "per_level_above_first": 25
+    },
+    "slots": [
+        "mainhand"
+    ],
+    "effects": {
+        "minecraft:fishing_luck_bonus": [
+            {
+                "effect": {
+                    "type": "minecraft:add",
+                    "value": {
+                        "type": "minecraft:linear",
+                        "base": 1.0,
+                        "per_level_above_first": 1.0
+                    }
+                },
+                "requirements": {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                        "biomes": [
+                            "minecraft:mangrove_swamp",
+                            "minecraft:swamp"
+                        ]
+                    }
+                }
+            }
+        ],
+        "minecraft:fishing_time_reduction": [
+            {
+                "effect": {
+                    "type": "minecraft:add",
+                    "value": {
+                        "type": "minecraft:linear",
+                        "base": 5.0,
+                        "per_level_above_first": 5.0
+                    }
+                },
+                "requirements": {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                        "biomes": [
+                            "minecraft:mangrove_swamp",
+                            "minecraft:swamp"
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}

@@ -17,6 +17,27 @@
                                 },
                                 "minecraft:item_model": "shroomhearth:petrichor_pond_pole",
                                 "minecraft:rarity": "epic",
+                                "minecraft:enchantments": {
+                                    "shroomhearth:stories/murky_moxie": 1
+                                },
+                                "minecraft:lore": [
+                                    {
+                                        "fallback": "Imbued with mystical aspects of magical mire,",
+                                        "translate": "item.shroomhearth.petrichor_pond_pole.lore.0"
+                                    },
+                                    {
+                                        "fallback": "this fishing rod shimmers with a slimy sheen.",
+                                        "translate": "item.shroomhearth.petrichor_pond_pole.lore.1"
+                                    },
+                                    {
+                                        "fallback": "You get the sense that the lily pad lure really",
+                                        "translate": "item.shroomhearth.petrichor_pond_pole.lore.2"
+                                    },
+                                    {
+                                        "fallback": "likes swampy water.",
+                                        "translate": "item.shroomhearth.petrichor_pond_pole.lore.3"
+                                    }
+                                ],
                                 "minecraft:custom_data": {
                                     "shroomhearth_id": "petrichor_pond_pole"
                                 }

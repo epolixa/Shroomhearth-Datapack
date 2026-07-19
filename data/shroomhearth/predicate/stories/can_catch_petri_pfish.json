@@ -3,12 +3,12 @@
     "predicate": {
         "position": {
             "x": {
-                "min": -6463,
-                "max": -6380
+                "min": 827,
+                "max": 1192
             },
             "z": {
-                "min": -404,
-                "max": -329
+                "min": 1281,
+                "max": 1599
             }
         },
         "biomes": "#shroomhearth:petri_pfish_catchable",

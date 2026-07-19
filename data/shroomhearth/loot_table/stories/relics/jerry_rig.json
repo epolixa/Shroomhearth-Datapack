@@ -22,19 +22,19 @@
                                 },
                                 "minecraft:lore": [
                                     {
-                                        "fallback": "A crass weapon assembled",
+                                        "fallback": "A crass weapon assembled from scavenged scraps,",
                                         "translate": "item.shroomhearth.jerry_rig.lore.0"
                                     },
                                     {
-                                        "fallback": "from scavenged scraps,",
+                                        "fallback": "brandished by survivors of the City of Echoes.",
                                         "translate": "item.shroomhearth.jerry_rig.lore.1"
                                     },
                                     {
-                                        "fallback": "brandished by survivors",
+                                        "fallback": "Practiced vagrants use it to vault across the",
                                         "translate": "item.shroomhearth.jerry_rig.lore.2"
                                     },
                                     {
-                                        "fallback": "of the City of Echoes.",
+                                        "fallback": "desecrated buildings.",
                                         "translate": "item.shroomhearth.jerry_rig.lore.3"
                                     }
                                 ],

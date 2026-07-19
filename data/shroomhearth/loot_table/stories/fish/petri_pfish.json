@@ -16,6 +16,24 @@
                                     "translate": "item.shroomhearth.petri_pfish"
                                 },
                                 "minecraft:item_model": "shroomhearth:petri_pfish",
+                                "minecraft:lore": [
+                                    {
+                                        "fallback": "This breed of mudskipper has undergone a",
+                                        "translate": "item.shroomhearth.petri_pfish.lore.0"
+                                    },
+                                    {
+                                        "fallback": "mycological mutation, evidenced by the darker",
+                                        "translate": "item.shroomhearth.petri_pfish.lore.1"
+                                    },
+                                    {
+                                        "fallback": "scales and pungent mucus secretions. It does",
+                                        "translate": "item.shroomhearth.petri_pfish.lore.2"
+                                    },
+                                    {
+                                        "fallback": "not look or smell appetizing.",
+                                        "translate": "item.shroomhearth.petri_pfish.lore.3"
+                                    }
+                                ],
                                 "minecraft:custom_data": {
                                     "shroomhearth_id": "petri_pfish"
                                 }

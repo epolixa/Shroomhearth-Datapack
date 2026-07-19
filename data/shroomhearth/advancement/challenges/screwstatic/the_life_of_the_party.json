@@ -34,9 +34,7 @@
         "frame": "challenge"
     },
     "rewards": {
-        "loot": [
-            "shroomhearth:challenges/screwstatic"
-        ]
+        "function": "shroomhearth:challenges/the_life_of_the_party"
     },
     "criteria": {
         "sword_killed_player": {
