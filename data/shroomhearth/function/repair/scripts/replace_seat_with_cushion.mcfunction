@@ -2,7 +2,7 @@
 # As such, all Seats functionality has been removed from the datapack.
 # This script targets any leftover Seats interaction entities and replaces them with a Cushion.
 
-tellraw @a[tag=debug_repair] [{"text":"[shroomhearth:repair/scripts/replace_seat_with_cushion] Replacing all leftover Seat with a Cushion"}]
+tellraw @a[tag=debug_repair] [{"text":"[shroomhearth:repair/scripts/replace_seat_with_cushion] Replacing Seat with a Cushion"}]
 
 
 # Summon a Cushion according to the color of the seat

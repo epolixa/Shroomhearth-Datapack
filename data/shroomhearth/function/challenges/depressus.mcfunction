@@ -1,4 +1,4 @@
-tellraw @a[tag=debug_challenges] [{"text":"[shroomhearth:challenges/depressus] "},{"selector":"@s"},{"text":" obtained 64 Golden Carrots"}]  
+tellraw @a[tag=debug_challenges] [{"text":"[shroomhearth:challenges/depressus] "},{"selector":"@s"},{"text":" obtained 64 Golden Carrots"}]
 
 
 # grant the advancement when they craft a full stack of 64
