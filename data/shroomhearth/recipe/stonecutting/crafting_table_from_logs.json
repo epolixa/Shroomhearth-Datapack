@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "#minecraft:logs",
+  "result": {
+    "id": "minecraft:crafting_table"
+  }
+}
