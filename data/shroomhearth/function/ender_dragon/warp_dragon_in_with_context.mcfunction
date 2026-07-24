@@ -8,7 +8,7 @@ tellraw @a[tag=debug_ender_dragon] [{"text":"[shroomhearth:ender_dragon/warp_dra
 tp @s ~ 90 ~
 
 # fix height to nearest end crystal if one exists
-data modify entity @s Pos[1] set from entity @e[type=minecraft:end_crystal,limit=1,sort=nearest] Pos[1]
+data modify entity @s Pos[1] set from entity @n[type=minecraft:end_crystal] Pos[1]
 
 # set dragon phase to circling
 data modify entity @s DragonPhase set value 0
