@@ -3,18 +3,7 @@
     "terms": [
         {
             "type": "minecraft:inverted",
-            "term": {
-                "type": "minecraft:match_tool",
-                "predicate": {
-                    "predicates": {
-                        "enchantments": [
-                            {
-                                "enchantments": "minecraft:silk_touch"
-                            }
-                        ]
-                    }
-                }
-            }
+            "term": "minecraft:tool/can_silk_touch"
         },
         {
             "type": "minecraft:match_tool",
