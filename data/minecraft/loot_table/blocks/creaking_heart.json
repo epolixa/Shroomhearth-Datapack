@@ -80,26 +80,24 @@
         {
           "type": "item",
           "name": "minecraft:player_head",
-          "modifier": [
-            {
-              "type": "minecraft:set_components",
-              "components": {
-                "minecraft:item_name": "Creaking Head",
-                "minecraft:note_block_sound": "minecraft:entity.creaking.ambient",
-                "minecraft:custom_data": {
-                  "shroomhearth_id": "creaking_head"
-                },
-                "minecraft:profile": {
-                  "properties": [
-                    {
-                      "name": "textures",
-                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWVmMDA5ZDg2ZmNjNDIwMzYxYTY4Y2JiOGJmYTg1YTc0MjJiZmU5ZTJmMzA2MjQ3YmUxZTFiNWQyMGZjNTJiMSJ9fX0="
-                    }
-                  ]
-                }
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:item_name": "Creaking Head",
+              "minecraft:note_block_sound": "minecraft:entity.creaking.ambient",
+              "minecraft:custom_data": {
+                "shroomhearth_id": "creaking_head"
+              },
+              "minecraft:profile": {
+                "properties": [
+                  {
+                    "name": "textures",
+                    "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWVmMDA5ZDg2ZmNjNDIwMzYxYTY4Y2JiOGJmYTg1YTc0MjJiZmU5ZTJmMzA2MjQ3YmUxZTFiNWQyMGZjNTJiMSJ9fX0="
+                  }
+                ]
               }
             }
-          ]
+          }
         }
       ],
       "rolls": 1.0
