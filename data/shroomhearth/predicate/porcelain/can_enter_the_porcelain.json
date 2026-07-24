@@ -1,10 +1,7 @@
 {
     "type": "minecraft:all_of",
     "terms": [
-        {
-            "type": "minecraft:all_of",
-            "terms": "shroomhearth:porcelain/valid_position"
-        },
+        "shroomhearth:porcelain/valid_position",
         {
             "type": "minecraft:entity_scores",
             "entity": "this",

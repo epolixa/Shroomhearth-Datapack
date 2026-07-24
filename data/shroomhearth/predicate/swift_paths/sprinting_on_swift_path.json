@@ -1,10 +1,7 @@
 {
     "type": "minecraft:all_of",
     "terms": [
-        {
-            "type": "minecraft:all_of",
-            "terms": "shroomhearth:swift_paths/movement_affected_by_swift_path"
-        },
+        "shroomhearth:swift_paths/movement_affected_by_swift_path",
         {
             "type": "minecraft:entity_properties",
             "entity": "this",

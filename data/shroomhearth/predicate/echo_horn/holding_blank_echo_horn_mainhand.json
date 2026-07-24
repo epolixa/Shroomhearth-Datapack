@@ -1,10 +1,7 @@
 {
     "type": "minecraft:all_of",
     "terms": [
-        {
-            "type": "minecraft:all_of",
-            "terms": "shroomhearth:echo_horn/holding_echo_horn_mainhand"
-        },
+        "shroomhearth:echo_horn/holding_echo_horn_mainhand",
         {
             "type": "minecraft:inverted",
             "term": {
