@@ -23,6 +23,8 @@
 		}
 	},
 	"rewards": {
-		"function": "shroomhearth:stories/advancement_reward/reely_rodical"
+		"loot": [
+			"shroomhearth:stories/relics/petrichor_pond_pole"
+		]
 	}
 }
