@@ -1,7 +1,7 @@
 ﻿{
     "description": {
-        "fallback": "Rune of Respiration",
-        "translate": "enchantment.shroomhearth.rune_of_respiration",
+        "fallback": "Rune of Stability",
+        "translate": "enchantment.shroomhearth.rune_of_stability",
         "color": "#be95d4"
     },
     "supported_items": "#shroomhearth:rune_supported",
@@ -19,19 +19,21 @@
         "any"
     ],
     "weight": 1,
-    "exclusive_set": "#shroomhearth:runes/runes",
+    "exclusive_set": "#shroomhearth:runes/ominous_runes",
     "effects": {
         "minecraft:attributes": [
             {
-                "id": "shroomhearth:rune_of_respiration",
-                "attribute": "minecraft:oxygen_bonus",
+                "id": "shroomhearth:ominous_rune_of_stability",
+                "attribute": "minecraft:knockback_resistance",
                 "operation": "add_value",
                 "amount": {
                     "type": "minecraft:linear",
-                    "base": 1,
-                    "per_level_above_first": 1
+                    "base": 0.1,
+                    "per_level_above_first": 0.1
                 }
             }
         ]
     }
 }
+
+

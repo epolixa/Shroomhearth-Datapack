@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "shroomhearth:runes/random_rune",
+                    "weight": 95
+                },
+                {
+                    "type": "loot_table",
+                    "value": "shroomhearth:runes/ominous_rune",
+                    "weight": 5
+                }
+            ]
+        }
+    ]
+}

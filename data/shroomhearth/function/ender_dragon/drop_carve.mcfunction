@@ -14,7 +14,7 @@ execute if score @n[tag=omen_ender_dragon] carve_drop_potential matches 1 run pl
 particle minecraft:crit ~ ~1 ~ 3 1 3 1 32 force
 
 # Generate the carve
-loot spawn ~ ~1 ~ loot shroomhearth:runes/random_rune
+loot spawn ~ ~1 ~ loot shroomhearth:runes/ominous_ender_dragon_carve
 
 # Modify the generated carve's movement data on next tick
 schedule function shroomhearth:ender_dragon/initialize_carve_drop 1t

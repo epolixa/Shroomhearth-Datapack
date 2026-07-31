@@ -1,7 +1,7 @@
 ﻿{
     "description": {
-        "fallback": "Rune of Gravity",
-        "translate": "enchantment.shroomhearth.rune_of_gravity",
+        "fallback": "Rune of Haste",
+        "translate": "enchantment.shroomhearth.rune_of_haste",
         "color": "#be95d4"
     },
     "supported_items": "#shroomhearth:rune_supported",
@@ -19,29 +19,31 @@
         "any"
     ],
     "weight": 1,
-    "exclusive_set": "#shroomhearth:runes/runes",
+    "exclusive_set": "#shroomhearth:runes/ominous_runes",
     "effects": {
         "minecraft:attributes": [
             {
-                "id": "shroomhearth:rune_of_gravity.gravity",
-                "attribute": "minecraft:gravity",
+                "id": "shroomhearth:ominous_rune_of_haste.attack_speed",
+                "attribute": "minecraft:attack_speed",
                 "operation": "add_multiplied_total",
                 "amount": {
                     "type": "minecraft:linear",
-                    "base": -0.5,
-                    "per_level_above_first": -0.5
+                    "base": 0.1,
+                    "per_level_above_first": 0.1
                 }
             },
             {
-                "id": "shroomhearth:rune_of_gravity.fall_damage_multiplier",
-                "attribute": "fall_damage_multiplier",
+                "id": "shroomhearth:ominous_rune_of_haste.block_break_speed",
+                "attribute": "minecraft:block_break_speed",
                 "operation": "add_multiplied_total",
                 "amount": {
                     "type": "minecraft:linear",
-                    "base": -0.5,
-                    "per_level_above_first": -0.5
+                    "base": 0.2,
+                    "per_level_above_first": 0.2
                 }
             }
         ]
     }
 }
+
+

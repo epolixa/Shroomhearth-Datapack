@@ -7,6 +7,7 @@
         "minecraft:mending",
         "minecraft:multishot",
         "minecraft:silk_touch",        
-        "#shroomhearth:runes"
+        "#shroomhearth:runes/runes",
+        "#shroomhearth:runes/ominous_runes"
     ]
 }

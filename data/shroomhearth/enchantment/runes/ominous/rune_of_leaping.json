@@ -1,7 +1,7 @@
 ﻿{
     "description": {
-        "fallback": "Rune of Gravity",
-        "translate": "enchantment.shroomhearth.rune_of_gravity",
+        "fallback": "Rune of Leaping",
+        "translate": "enchantment.shroomhearth.rune_of_leaping",
         "color": "#be95d4"
     },
     "supported_items": "#shroomhearth:rune_supported",
@@ -19,29 +19,31 @@
         "any"
     ],
     "weight": 1,
-    "exclusive_set": "#shroomhearth:runes/runes",
+    "exclusive_set": "#shroomhearth:runes/ominous_runes",
     "effects": {
         "minecraft:attributes": [
             {
-                "id": "shroomhearth:rune_of_gravity.gravity",
-                "attribute": "minecraft:gravity",
-                "operation": "add_multiplied_total",
+                "id": "shroomhearth:ominous_rune_of_leaping.safe_fall_distance",
+                "attribute": "minecraft:safe_fall_distance",
+                "operation": "add_value",
                 "amount": {
                     "type": "minecraft:linear",
-                    "base": -0.5,
-                    "per_level_above_first": -0.5
+                    "base": 1,
+                    "per_level_above_first": 1
                 }
             },
             {
-                "id": "shroomhearth:rune_of_gravity.fall_damage_multiplier",
-                "attribute": "fall_damage_multiplier",
-                "operation": "add_multiplied_total",
+                "id": "shroomhearth:ominous_rune_of_leaping.jump_strength",
+                "attribute": "minecraft:jump_strength",
+                "operation": "add_value",
                 "amount": {
                     "type": "minecraft:linear",
-                    "base": -0.5,
-                    "per_level_above_first": -0.5
+                    "base": 0.1,
+                    "per_level_above_first": 0.1
                 }
             }
         ]
     }
 }
+
+

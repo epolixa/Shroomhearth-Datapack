@@ -19,11 +19,11 @@
         "any"
     ],
     "weight": 1,
-    "exclusive_set": "#shroomhearth:runes/runes",
+    "exclusive_set": "#shroomhearth:runes/ominous_runes",
     "effects": {
         "minecraft:attributes": [
             {
-                "id": "shroomhearth:rune_of_gravity.gravity",
+                "id": "shroomhearth:ominous_rune_of_gravity.gravity",
                 "attribute": "minecraft:gravity",
                 "operation": "add_multiplied_total",
                 "amount": {
@@ -33,7 +33,7 @@
                 }
             },
             {
-                "id": "shroomhearth:rune_of_gravity.fall_damage_multiplier",
+                "id": "shroomhearth:ominous_rune_of_gravity.fall_damage_multiplier",
                 "attribute": "fall_damage_multiplier",
                 "operation": "add_multiplied_total",
                 "amount": {
@@ -45,3 +45,5 @@
         ]
     }
 }
+
+

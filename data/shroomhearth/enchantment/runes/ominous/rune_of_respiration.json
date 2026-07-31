@@ -19,11 +19,11 @@
         "any"
     ],
     "weight": 1,
-    "exclusive_set": "#shroomhearth:runes/runes",
+    "exclusive_set": "#shroomhearth:runes/ominous_runes",
     "effects": {
         "minecraft:attributes": [
             {
-                "id": "shroomhearth:rune_of_respiration",
+                "id": "shroomhearth:ominous_rune_of_respiration",
                 "attribute": "minecraft:oxygen_bonus",
                 "operation": "add_value",
                 "amount": {
@@ -35,3 +35,5 @@
         ]
     }
 }
+
+

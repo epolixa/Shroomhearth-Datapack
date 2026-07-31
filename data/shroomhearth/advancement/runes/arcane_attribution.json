@@ -27,7 +27,7 @@
 						"predicates": {
 							"minecraft:enchantments": [
 								{
-									"enchantments": "#shroomhearth:runes"
+									"enchantments": "#shroomhearth:runes/runes"
 								}
 							]
 						}

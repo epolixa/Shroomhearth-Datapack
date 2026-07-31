@@ -1,7 +1,7 @@
 ﻿{
     "description": {
-        "fallback": "Rune of Respiration",
-        "translate": "enchantment.shroomhearth.rune_of_respiration",
+        "fallback": "Rune of Knockback",
+        "translate": "enchantment.shroomhearth.rune_of_knockback",
         "color": "#be95d4"
     },
     "supported_items": "#shroomhearth:rune_supported",
@@ -19,12 +19,12 @@
         "any"
     ],
     "weight": 1,
-    "exclusive_set": "#shroomhearth:runes/runes",
+    "exclusive_set": "#shroomhearth:runes/ominous_runes",
     "effects": {
         "minecraft:attributes": [
             {
-                "id": "shroomhearth:rune_of_respiration",
-                "attribute": "minecraft:oxygen_bonus",
+                "id": "shroomhearth:ominous_rune_of_knockback",
+                "attribute": "minecraft:attack_knockback",
                 "operation": "add_value",
                 "amount": {
                     "type": "minecraft:linear",
@@ -35,3 +35,5 @@
         ]
     }
 }
+
+

@@ -6,7 +6,7 @@
 			"components": {
 				"minecraft:item_model": "shroomhearth:rune",
 				"minecraft:stored_enchantments": {
-					"shroomhearth:runes/rune_of_health": 1
+					"shroomhearth:runes/rune_of_armor": 1
 				},
 				"minecraft:tooltip_display": {
 					"hidden_components": [
@@ -29,6 +29,21 @@
 		"hidden": false
 	},
 	"criteria": {
+		"ominous_rune": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:enchanted_book",
+						"predicates": {
+							"minecraft:custom_data": {
+								"shroomhearth_id": "ominous_rune"
+							}
+						}
+					}
+				]
+			}
+		},
 		"rune_of_armor": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {

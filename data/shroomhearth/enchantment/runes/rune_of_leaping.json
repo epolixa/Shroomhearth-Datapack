@@ -1,4 +1,4 @@
-{
+﻿{
     "description": {
         "fallback": "Rune of Leaping",
         "translate": "enchantment.shroomhearth.rune_of_leaping",
@@ -19,7 +19,7 @@
         "any"
     ],
     "weight": 1,
-    "exclusive_set": "#shroomhearth:runes",
+    "exclusive_set": "#shroomhearth:runes/runes",
     "effects": {
         "minecraft:attributes": [
             {

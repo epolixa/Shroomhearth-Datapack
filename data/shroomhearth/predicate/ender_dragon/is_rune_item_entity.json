@@ -9,6 +9,21 @@
                     "contents": {
                         "predicates": {
                             "minecraft:custom_data": {
+                                "shroomhearth_id": "ominous_rune"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "slots": {
+                    "contents": {
+                        "predicates": {
+                            "minecraft:custom_data": {
                                 "shroomhearth_id": "rune_of_armor"
                             }
                         }

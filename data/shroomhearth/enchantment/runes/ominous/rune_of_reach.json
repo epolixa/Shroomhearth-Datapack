@@ -19,11 +19,11 @@
         "any"
     ],
     "weight": 1,
-    "exclusive_set": "#shroomhearth:runes/runes",
+    "exclusive_set": "#shroomhearth:runes/ominous_runes",
     "effects": {
         "minecraft:attributes": [
             {
-                "id": "shroomhearth:rune_of_reach.block_interaction_range",
+                "id": "shroomhearth:ominous_rune_of_reach.block_interaction_range",
                 "attribute": "minecraft:block_interaction_range",
                 "operation": "add_multiplied_base",
                 "amount": {
@@ -33,7 +33,7 @@
                 }
             },
             {
-                "id": "shroomhearth:rune_of_reach.entity_interaction_range",
+                "id": "shroomhearth:ominous_rune_of_reach.entity_interaction_range",
                 "attribute": "minecraft:entity_interaction_range",
                 "operation": "add_multiplied_base",
                 "amount": {
@@ -45,3 +45,5 @@
         ]
     }
 }
+
+

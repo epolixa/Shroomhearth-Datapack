@@ -1,7 +1,7 @@
 ﻿{
     "description": {
-        "fallback": "Rune of Reach",
-        "translate": "enchantment.shroomhearth.rune_of_reach",
+        "fallback": "Rune of Swiftness",
+        "translate": "enchantment.shroomhearth.rune_of_swiftness",
         "color": "#be95d4"
     },
     "supported_items": "#shroomhearth:rune_supported",
@@ -19,29 +19,31 @@
         "any"
     ],
     "weight": 1,
-    "exclusive_set": "#shroomhearth:runes/runes",
+    "exclusive_set": "#shroomhearth:runes/ominous_runes",
     "effects": {
         "minecraft:attributes": [
             {
-                "id": "shroomhearth:rune_of_reach.block_interaction_range",
-                "attribute": "minecraft:block_interaction_range",
+                "id": "shroomhearth:ominous_rune_of_swiftness.movement_speed",
+                "attribute": "minecraft:movement_speed",
                 "operation": "add_multiplied_base",
                 "amount": {
                     "type": "minecraft:linear",
-                    "base": 0.5,
-                    "per_level_above_first": 0.5
+                    "base": 0.2,
+                    "per_level_above_first": 0.2
                 }
             },
             {
-                "id": "shroomhearth:rune_of_reach.entity_interaction_range",
-                "attribute": "minecraft:entity_interaction_range",
+                "id": "shroomhearth:ominous_rune_of_swiftness.flying_speed",
+                "attribute": "minecraft:flying_speed",
                 "operation": "add_multiplied_base",
                 "amount": {
                     "type": "minecraft:linear",
-                    "base": 0.5,
-                    "per_level_above_first": 0.5
+                    "base": 0.2,
+                    "per_level_above_first": 0.2
                 }
             }
         ]
     }
 }
+
+
