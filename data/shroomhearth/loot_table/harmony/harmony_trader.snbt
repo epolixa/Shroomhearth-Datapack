@@ -3,15 +3,15 @@
         "harmony_trader"
     ],
     CustomName: "Harmony Trader",
-    Invulnerable: "true",
+    Invulnerable: 1,
     attributes: [
         {
             id: "minecraft:movement_speed",
             base: 0.0
         }
     ],
-    CanPickUpLoot: "false",
-    PersistenceRequired: "true",
+    CanPickUpLoot: 0,
+    PersistenceRequired: 1,
     Offers: {
         Recipes: [
             {
@@ -223,6 +223,79 @@
                         ],
                         "minecraft:custom_data": {
                             shroomhearth_id: "harmony_pickaxe"
+                        }
+                    }
+                },
+                specialPrice: 0,
+                uses: 0,
+                xp: 0
+            },
+            {
+                buy: {
+                    id: "minecraft:glistering_melon_slice",
+                    count: 2,
+                    components: {
+                        "minecraft:item_name": {
+                            fallback: "Harmony Cap",
+                            translate: "item.shroomhearth.harmony_cap"
+                        },
+                        "minecraft:item_model": "shroomhearth:harmony_cap",
+                        "minecraft:lore": [
+                            {
+                                fallback: "A delicate mushroom that thrums with an",
+                                translate: "item.shroomhearth.harmony_cap.lore.0"
+                            },
+                            {
+                                fallback: "ethereal gleam. This token of Fungaian gratitude",
+                                translate: "item.shroomhearth.harmony_cap.lore.1"
+                            },
+                            {
+                                fallback: "sprouts amid flourishing bonds and conveys a",
+                                translate: "item.shroomhearth.harmony_cap.lore.2"
+                            },
+                            {
+                                fallback: "divine potency.",
+                                translate: "item.shroomhearth.harmony_cap.lore.3"
+                            }
+                        ],
+                        "minecraft:custom_data": {
+                            shroomhearth_id: "harmony_cap"
+                        }
+                    }
+                },
+                buyB: {
+                    id: "minecraft:diamond_sword",
+                    count: 1
+                },
+                demand: 0,
+                maxUses: 2147483647,
+                priceMultiplier: 0,
+                rewardExp: "false",
+                sell: {
+                    id: "minecraft:diamond_sword",
+                    count: 1,
+                    components: {
+                        "minecraft:item_name": {
+                            fallback: "Harmony Sword",
+                            translate: "item.shroomhearth.harmony_sword"
+                        },
+                        "minecraft:item_model": "shroomhearth:harmony_sword",
+                        "minecraft:rarity": "epic",
+                        "minecraft:enchantments": {
+                            "shroomhearth:stories/harmonic_strength": 1
+                        },
+                        "minecraft:lore": [
+                            {
+                                fallback: "A Fungaian Artifact that",
+                                translate: "item.shroomhearth.harmony_sword.lore.0"
+                            },
+                            {
+                                fallback: "deals extra damage near other players.",
+                                translate: "item.shroomhearth.harmony_sword.lore.1"
+                            }
+                        ],
+                        "minecraft:custom_data": {
+                            shroomhearth_id: "harmony_sword"
                         }
                     }
                 },
