@@ -1,0 +1,34 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "modifier": [
+                {
+                    "type": "minecraft:set_components",
+                    "components": {
+                        "!minecraft:tooltip_display": {},
+                        "minecraft:item_name": {
+                            "fallback": "Ominous Rune",
+                            "translate": "enchantment.shroomhearth.ominous_rune"
+                        },
+                        "minecraft:item_model": "shroomhearth:ominous_rune",
+                        "minecraft:rarity": "epic",
+                        "minecraft:custom_data": {
+                            "shroomhearth_id": "ominous_rune"
+                        }
+                    }
+                }
+            ],
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "shroomhearth:runes/rune_of_armor",
+                    "modifier": {
+                        "type": "minecraft:enchant_randomly",
+                        "options": "#shroomhearth:runes/ominous_rune_of_armor_secondary"
+                    }
+                }
+            ]
+        }
+    ]
+}

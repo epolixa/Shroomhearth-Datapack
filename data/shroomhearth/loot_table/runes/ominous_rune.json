@@ -27,12 +27,10 @@
                         },
                         {
                             "type": "minecraft:enchant_randomly",
-                            "only_compatible": false,
                             "options": "#shroomhearth:runes/runes"
                         },
                         {
                             "type": "minecraft:enchant_randomly",
-                            "only_compatible": false,
                             "options": "#shroomhearth:runes/ominous_runes"
                         }
                     ]
