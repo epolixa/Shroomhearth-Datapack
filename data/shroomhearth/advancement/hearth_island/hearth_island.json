@@ -12,7 +12,6 @@
 			"fallback": "Visit the Hearth Island",
 			"translate": "advancements.hearth_island.hearth_island.root.description"
 		},
-		"background": "minecraft:block/mushroom_stem",
 		"frame": "task"
 	},
 	"criteria": {
