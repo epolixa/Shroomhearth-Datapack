@@ -1,4 +1,4 @@
-{
+﻿{
   "type": "minecraft:entity",
   "pools": [
     {
@@ -34,13 +34,13 @@
     },
     {
       "condition": "shroomhearth:can_drop_mob_head",
-      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:loot_table",
           "value": "shroomhearth:mob_heads/blaze_head"
         }
-      ]
+      ],
+      "rolls": 1.0
     }
   ],
   "random_sequence": "minecraft:entities/blaze"
