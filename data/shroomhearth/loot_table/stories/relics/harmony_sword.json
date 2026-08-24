@@ -1,13 +1,11 @@
 {
     "pools": [
         {
-            "rolls": 1,
             "entries": [
                 {
-                    "type": "item",
+                    "type": "minecraft:item",
                     "name": "minecraft:diamond_sword",
-                    "weight": 1,
-                    "functions": [
+                    "modifier": [
                         {
                             "type": "minecraft:set_components",
                             "components": {
@@ -37,7 +35,8 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "rolls": 1.0
         }
     ]
 }
