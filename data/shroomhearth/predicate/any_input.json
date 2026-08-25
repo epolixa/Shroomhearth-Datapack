@@ -1,0 +1,82 @@
+{
+  "type": "minecraft:any_of",
+  "terms": [
+    {
+      "type": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "minecraft:type_specific/player": {
+          "input": {
+            "forward": true
+          }
+        }
+      }
+    },
+    {
+      "type": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "minecraft:type_specific/player": {
+          "input": {
+            "backward": true
+          }
+        }
+      }
+    },
+    {
+      "type": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "minecraft:type_specific/player": {
+          "input": {
+            "left": true
+          }
+        }
+      }
+    },
+    {
+      "type": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "minecraft:type_specific/player": {
+          "input": {
+            "right": true
+          }
+        }
+      }
+    },
+    {
+      "type": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "minecraft:type_specific/player": {
+          "input": {
+            "jump": true
+          }
+        }
+      }
+    },
+    {
+      "type": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "minecraft:type_specific/player": {
+          "input": {
+            "sneak": true
+          }
+        }
+      }
+    },
+    {
+      "type": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "minecraft:type_specific/player": {
+          "input": {
+            "sprint": true
+          }
+        }
+      }
+    }
+  ]
+}

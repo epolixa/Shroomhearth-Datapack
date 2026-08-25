@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "player_move": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": "shroomhearth:move_one_cm"
+      }
+    }
+  },
+  "rewards": {
+    "function": "shroomhearth:advancement_reward/player_move_one_cm"
+  }
+}
