@@ -70,6 +70,9 @@ scoreboard objectives remove omen_level
 # Track if the player dropped an item
 scoreboard objectives remove drop
 
+# Tracks number of seconds the player has been inactive
+scoreboard objectives remove player_inactive
+
 
 # Teams for name colors
 team remove aqua

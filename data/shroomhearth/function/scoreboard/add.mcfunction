@@ -71,6 +71,9 @@ scoreboard objectives add omen_level dummy
 # Track if the player dropped an item
 scoreboard objectives add drop minecraft.custom:minecraft.drop
 
+# Tracks number of seconds the player has been inactive
+scoreboard objectives add player_inactive dummy
+
 
 # Teams for name colors
 team add aqua "Aqua"

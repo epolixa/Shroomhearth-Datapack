@@ -3,11 +3,11 @@
     "player_move": {
       "trigger": "minecraft:location",
       "conditions": {
-        "player": "shroomhearth:move_one_cm"
+        "player": "shroomhearth:is_active"
       }
     }
   },
   "rewards": {
-    "function": "shroomhearth:advancement_reward/player_move_one_cm"
+    "function": "shroomhearth:advancement_reward/player_is_active"
   }
 }
