@@ -18,7 +18,7 @@ bossbar set shroomhearth:spores_of_spookiness visible true
 bossbar set shroomhearth:spores_of_spookiness players @a[scores={show_timer_bars=1}]
 
 # Announce activation
-tellraw @a [{"color":"#e3901d","text":"["},{"translate":"event.shroomhearth.spores_of_spookiness"},{"text":"]"},{"color":"white","text":" were dispersed by "},{"selector":"@s"}]
+tellraw @a [{"color":"#e3901d","text":"["},{"translate":"event.shroomhearth.spores_of_spookiness","hover_event":{"action":"show_text","value":{"translate":"event.shroomhearth.spores_of_spookiness.tooltip"}}},{"text":"]"},{"color":"white","text":" were dispersed by "},{"selector":"@s"}]
 
 # Play sound
 execute as @a at @s run playsound block.beacon.power_select player @s ~ ~ ~ 1 1.7

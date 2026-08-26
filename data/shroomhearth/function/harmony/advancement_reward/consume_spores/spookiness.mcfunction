@@ -8,7 +8,7 @@ execute if score spores_of_spookiness shroomhearth.harmony matches 1.. run funct
 execute unless score spores_of_spookiness shroomhearth.harmony matches 1.. run function shroomhearth:harmony/spores/spookiness/activate
 
 # Play particles
-particle minecraft:instant_effect ~ ~1 ~ 0.5 0.5 0.5 1 16
+particle minecraft:instant_effect{color: [0.89, 0.56, 0.11], scale: 2} ~ ~1 ~ 0.5 0.5 0.5 1 16
 
 # Play sound
 playsound minecraft:block.vault.open_shutter player @a ~ ~ ~ 1 1.35
