@@ -21,6 +21,7 @@ scoreboard objectives add shroomhearth.harmony dummy
 scoreboard players set active_spores shroomhearth.harmony 0
 
 # Global timers for spores
+scoreboard players set spores_of_spookiness shroomhearth.harmony 0
 scoreboard players set spores_of_armor shroomhearth.harmony 0
 scoreboard players set spores_of_dowsing shroomhearth.harmony 0
 scoreboard players set spores_of_ease shroomhearth.harmony 0
