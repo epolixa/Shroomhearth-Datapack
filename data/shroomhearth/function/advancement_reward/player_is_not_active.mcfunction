@@ -7,8 +7,8 @@ tellraw @a[tag=debug_shroomhearth] [{"text":"[shroomhearth:advancement_reward/pl
 # Increment player_inactive
 scoreboard players add @s player_inactive 1
 
-# Add afk tag after 1 minute of inactivity
-execute as @s[tag=!afk,scores={player_inactive=60..}] run function shroomhearth:set_afk
+# Add afk tag after 20 minutes of inactivity
+execute as @s[tag=!afk,scores={player_inactive=1200..}] run function shroomhearth:set_afk
 
 # Revoke advancement
 advancement revoke @s only shroomhearth:player_is_not_active
