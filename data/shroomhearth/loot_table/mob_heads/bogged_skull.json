@@ -1,0 +1,35 @@
+﻿{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:player_head",
+                    "modifier": {
+                        "type": "minecraft:set_components",
+                        "components": {
+                            "minecraft:item_name": "Bogged Skull",
+                            "minecraft:mob_visibility": {
+                                "targeting_entity_types": "minecraft:bogged",
+                                "visibility": 0.5
+                            },
+                            "minecraft:note_block_sound": "minecraft:entity.bogged.ambient",
+                            "minecraft:custom_data": {
+                                "shroomhearth_id": "bogged_skull"
+                            },
+                            "minecraft:profile": {
+                                "properties": [
+                                    {
+                                        "name": "textures",
+                                        "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTNiOTAwM2JhMmQwNTU2MmM3NTExOWI4YTYyMTg1YzY3MTMwZTkyODJmN2FjYmFjNGJjMjgyNGMyMWViOTVkOSJ9fX0="
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

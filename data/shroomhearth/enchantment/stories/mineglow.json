@@ -22,7 +22,7 @@
         "minecraft:hit_block": [
             {
                 "requirements": {
-                    "condition": "minecraft:location_check",
+                    "type": "minecraft:location_check",
                     "predicate": {
                         "block": {
                             "blocks": "#minecraft:mineable/pickaxe"

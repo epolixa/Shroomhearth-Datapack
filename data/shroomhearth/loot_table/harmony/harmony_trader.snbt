@@ -100,6 +100,66 @@
             {
                 buy: {
                     id: "minecraft:glistering_melon_slice",
+                    count: 1,
+                    components: {
+                        "minecraft:item_name": {
+                            fallback: "Harmony Cap",
+                            translate: "item.shroomhearth.harmony_cap"
+                        },
+                        "minecraft:item_model": "shroomhearth:harmony_cap",
+                        "minecraft:lore": [
+                            {
+                                fallback: "A delicate mushroom that thrums with an",
+                                translate: "item.shroomhearth.harmony_cap.lore.0"
+                            },
+                            {
+                                fallback: "ethereal gleam. This token of Fungaian gratitude",
+                                translate: "item.shroomhearth.harmony_cap.lore.1"
+                            },
+                            {
+                                fallback: "sprouts amid flourishing bonds and conveys a",
+                                translate: "item.shroomhearth.harmony_cap.lore.2"
+                            },
+                            {
+                                fallback: "divine potency.",
+                                translate: "item.shroomhearth.harmony_cap.lore.3"
+                            }
+                        ],
+                        "minecraft:custom_data": {
+                            shroomhearth_id: "harmony_cap"
+                        }
+                    }
+                },
+                buyB: {
+                    id: "minecraft:brick",
+                    count: 1
+                },
+                demand: 0,
+                maxUses: 2147483647,
+                priceMultiplier: 0,
+                rewardExp: "false",
+                sell: {
+                    id: "minecraft:heart_pottery_sherd",
+                    count: 1,
+                    components: {
+                        "minecraft:item_name": {
+                            translate: "item.shroomhearth.shroomhearth_pottery_sherd",
+                            fallback: "Shroomhearth Pottery Sherd"
+                        },
+                        "minecraft:item_model": "shroomhearth:shroomhearth_pottery_sherd",
+                        "minecraft:provides_pottery_pattern": "shroomhearth:shroomhearth",
+                        "minecraft:custom_data": {
+                            shroomhearth_id: "shroomhearth_pottery_sherd"
+                        }
+                    }
+                },
+                specialPrice: 0,
+                uses: 0,
+                xp: 0
+            },
+            {
+                buy: {
+                    id: "minecraft:glistering_melon_slice",
                     count: 3,
                     components: {
                         "minecraft:item_name": {

@@ -21,8 +21,10 @@ scoreboard objectives remove climb_one_cm
 scoreboard objectives remove crouch_one_cm
 scoreboard objectives remove fall_one_cm
 scoreboard objectives remove fly_one_cm
+scoreboard objectives remove happy_ghast_one_cm
 scoreboard objectives remove horse_one_cm
 scoreboard objectives remove minecart_one_cm
+scoreboard objectives remove nautilus_one_cm
 scoreboard objectives remove pig_one_cm
 scoreboard objectives remove sprint_one_cm
 scoreboard objectives remove strider_one_cm
@@ -67,6 +69,9 @@ scoreboard objectives remove omen_level
 
 # Track if the player dropped an item
 scoreboard objectives remove drop
+
+# Tracks number of seconds the player has been inactive
+scoreboard objectives remove player_inactive
 
 
 # Teams for name colors

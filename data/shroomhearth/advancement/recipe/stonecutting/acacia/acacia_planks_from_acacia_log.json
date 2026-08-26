@@ -19,7 +19,7 @@
     "has_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "shroomhearth:stonecutting/acacia/acacia_planks_from_acacia_log"
+        "recipes": "shroomhearth:stonecutting/acacia/acacia_planks_from_acacia_log"
       }
     }
   },

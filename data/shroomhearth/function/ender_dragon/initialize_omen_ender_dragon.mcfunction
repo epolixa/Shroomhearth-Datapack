@@ -31,7 +31,6 @@ bossbar set shroomhearth:ender_dragon_rage value 0
 bossbar set shroomhearth:ender_dragon_rage visible true
 
 # Summon End Crystal markers
-# UPDATE THIS FOR WORLD 6 SEED
 # 90y is average height of obsidian spikes
 summon minecraft:armor_stand -34 90 -25 {Tags:["crystal_marker"],Invulnerable:1b,Marker:1b,Invisible:1b}
 summon minecraft:armor_stand -13 90 -40 {Tags:["crystal_marker"],Invulnerable:1b,Marker:1b,Invisible:1b}
@@ -45,7 +44,7 @@ summon minecraft:armor_stand -34 90 24 {Tags:["crystal_marker"],Invulnerable:1b,
 summon minecraft:armor_stand -42 90 -1 {Tags:["crystal_marker"],Invulnerable:1b,Marker:1b,Invisible:1b}
 
 # Fix markers to End Crystal positions if any still exist
-execute as @e[type=minecraft:armor_stand,tag=crystal_marker] at @s run tp @s @e[type=minecraft:end_crystal,limit=1,sort=nearest]
+execute as @e[type=minecraft:armor_stand,tag=crystal_marker] at @s run tp @s @n[type=minecraft:end_crystal]
 
 # Play sounds to indicate an omen ender dragon was summoned
 playsound minecraft:entity.ender_dragon.growl hostile @a[predicate=shroomhearth:ender_dragon/on_main_end_island] ~ ~ ~ 160 0.5

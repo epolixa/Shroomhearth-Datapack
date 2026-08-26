@@ -7,6 +7,7 @@ execute if entity @p[tag=debug_markers] at @e[type=minecraft:marker] run particl
 
 # Run repair scripts
 execute as @a[tag=!repair_challenge_advancement_triggers_20260710] run function shroomhearth:repair/scripts/challenge_advancement_triggers_20260710
+execute as @e[tag=seat_interaction] at @s run function shroomhearth:repair/scripts/replace_seat_with_cushion
 
 # Re-schedule
 schedule function shroomhearth:1s/9 1s

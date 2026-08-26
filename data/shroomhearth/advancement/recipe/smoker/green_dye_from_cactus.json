@@ -21,7 +21,7 @@
         "has_recipe": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "shroomhearth:smoker/green_dye_from_cactus"
+                "recipes": "shroomhearth:smoker/green_dye_from_cactus"
             }
         }
     },

@@ -19,7 +19,7 @@
     "has_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "shroomhearth:blast_furnace/smooth_stone_from_stone"
+        "recipes": "shroomhearth:blast_furnace/smooth_stone_from_stone"
       }
     }
   },

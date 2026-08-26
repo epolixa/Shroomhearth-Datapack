@@ -1,13 +1,17 @@
 {
     "criteria": {
-        "wheat_picked_up": {
+        "thrown_bread_picked_up_by_villager": {
             "trigger": "minecraft:thrown_item_picked_up_by_entity",
             "conditions": {
                 "item": {
                     "items": "minecraft:bread"
                 },
                 "entity": {
-                    "minecraft:entity_type": "minecraft:villager"
+                    "type": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "minecraft:entity_type": "minecraft:villager"
+                    }
                 }
             }
         }

@@ -1,10 +1,7 @@
-[
-    {
-        "condition": "minecraft:reference",
-        "name": "shroomhearth:world_border/world_border_idle_overworld"
-    },
-    {
-        "condition": "minecraft:reference",
-        "name": "shroomhearth:world_border/world_border_idle_the_nether"
-    }
-]
+{
+    "type": "minecraft:all_of",
+    "terms": [
+        "shroomhearth:world_border/world_border_idle_overworld",
+        "shroomhearth:world_border/world_border_idle_the_nether"
+    ]
+}

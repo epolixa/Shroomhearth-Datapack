@@ -19,7 +19,7 @@
     "has_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "shroomhearth:stonecutting/mangrove/mangrove_planks_from_mangrove_wood"
+        "recipes": "shroomhearth:stonecutting/mangrove/mangrove_planks_from_mangrove_wood"
       }
     }
   },

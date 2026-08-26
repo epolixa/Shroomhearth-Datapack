@@ -1,0 +1,35 @@
+﻿{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:player_head",
+                    "modifier": {
+                        "type": "minecraft:set_components",
+                        "components": {
+                            "minecraft:item_name": "Elder Guardian Carapace",
+                            "minecraft:mob_visibility": {
+                                "targeting_entity_types": "minecraft:elder_guardian",
+                                "visibility": 0.5
+                            },
+                            "minecraft:note_block_sound": "minecraft:entity.elder_guardian.ambient",
+                            "minecraft:custom_data": {
+                                "shroomhearth_id": "elder_guardian_carapace"
+                            },
+                            "minecraft:profile": {
+                                "properties": [
+                                    {
+                                        "name": "textures",
+                                        "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWM3OTc0ODJhMTRiZmNiODc3MjU3Y2IyY2ZmMWI2ZTZhOGI4NDEzMzM2ZmZiNGMyOWE2MTM5Mjc4YjQzNmIifX19"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

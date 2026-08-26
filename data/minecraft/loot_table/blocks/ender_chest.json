@@ -10,20 +10,15 @@
                     "children": [
                         {
                             "type": "minecraft:item",
-                            "conditions": [
+                            "condition": "shroomhearth:obsidian_from_ender_chest",
+                            "modifier": [
                                 {
-                                    "condition": "minecraft:reference",
-                                    "name": "shroomhearth:obsidian_from_ender_chest"
-                                }
-                            ],
-                            "functions": [
-                                {
+                                    "type": "minecraft:set_count",
                                     "add": false,
-                                    "count": 8.0,
-                                    "function": "minecraft:set_count"
+                                    "count": 8.0
                                 },
                                 {
-                                    "function": "minecraft:explosion_decay"
+                                    "type": "minecraft:explosion_decay"
                                 }
                             ],
                             "name": "minecraft:obsidian"

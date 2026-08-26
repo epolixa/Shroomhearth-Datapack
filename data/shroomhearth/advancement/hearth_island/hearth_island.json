@@ -12,7 +12,6 @@
 			"fallback": "Visit the Hearth Island",
 			"translate": "advancements.hearth_island.hearth_island.root.description"
 		},
-		"background": "minecraft:block/mushroom_stem",
 		"frame": "task"
 	},
 	"criteria": {
@@ -20,7 +19,8 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player": {
-					"location": {
+					"type": "minecraft:location_check",
+					"predicate": {
 						"dimension": "minecraft:overworld",
 						"position": {
 							"x": {

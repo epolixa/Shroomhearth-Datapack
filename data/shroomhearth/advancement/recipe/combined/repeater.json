@@ -9,7 +9,7 @@
 		"has_root_recipe": {
 			"trigger": "minecraft:recipe_unlocked",
 			"conditions": {
-				"recipe": "minecraft:repeater"
+				"recipes": "minecraft:repeater"
 			}
 		}
 	}

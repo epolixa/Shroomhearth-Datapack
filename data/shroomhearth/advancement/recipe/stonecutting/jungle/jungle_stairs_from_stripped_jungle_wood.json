@@ -19,7 +19,7 @@
     "has_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "shroomhearth:stonecutting/jungle/jungle_stairs_from_stripped_jungle_wood"
+        "recipes": "shroomhearth:stonecutting/jungle/jungle_stairs_from_stripped_jungle_wood"
       }
     }
   },

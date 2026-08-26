@@ -2,7 +2,6 @@
   "type": "minecraft:fishing",
   "pools": [
     {
-      "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:item",
@@ -29,14 +28,9 @@
 
         {
           "type": "minecraft:loot_table",
+          "condition": "shroomhearth:stories/can_catch_petri_pfish",
           "value": "shroomhearth:stories/fish/petri_pfish",
-          "weight": 2,
-          "conditions": [
-            {
-              "condition": "minecraft:reference",
-              "name": "shroomhearth:stories/can_catch_petri_pfish"
-            }
-          ]
+          "weight": 2
         }
       ],
       "rolls": 1.0

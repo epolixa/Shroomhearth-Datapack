@@ -6,9 +6,9 @@
                 {
                     "type": "item",
                     "name": "minecraft:spider_eye",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "minecraft:set_components",
+                            "type": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_name": {
                                     "fallback": "Suspicious Candy",

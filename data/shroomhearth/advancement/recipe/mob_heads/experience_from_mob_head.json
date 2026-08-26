@@ -19,7 +19,7 @@
     "has_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "shroomhearth:mob_heads/experience_from_mob_head"
+        "recipes": "shroomhearth:mob_heads/experience_from_mob_head"
       }
     }
   },

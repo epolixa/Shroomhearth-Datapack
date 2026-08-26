@@ -19,7 +19,7 @@
     "has_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "shroomhearth:stonecutting/dark_oak/dark_oak_planks_from_stripped_dark_oak_log"
+        "recipes": "shroomhearth:stonecutting/dark_oak/dark_oak_planks_from_stripped_dark_oak_log"
       }
     }
   },

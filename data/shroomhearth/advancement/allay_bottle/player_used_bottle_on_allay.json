@@ -4,7 +4,11 @@
             "trigger": "minecraft:player_interacted_with_entity",
             "conditions": {
                 "entity": {
-                    "minecraft:entity_type": "minecraft:allay"
+                    "type": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "minecraft:entity_type": "minecraft:allay"
+                    }
                 },
                 "item": {
                     "items": "minecraft:glass_bottle"

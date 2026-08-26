@@ -19,7 +19,7 @@
     "has_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "shroomhearth:stonecutting/spruce/spruce_stairs_from_spruce_wood"
+        "recipes": "shroomhearth:stonecutting/spruce/spruce_stairs_from_spruce_wood"
       }
     }
   },

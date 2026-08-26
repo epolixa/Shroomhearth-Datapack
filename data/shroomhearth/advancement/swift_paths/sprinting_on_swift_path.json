@@ -3,12 +3,7 @@
         "sprinting_on_swift_path": {
             "trigger": "minecraft:location",
             "conditions": {
-                "player": [
-                    {
-                        "condition": "minecraft:reference",
-                        "name": "shroomhearth:swift_paths/sprinting_on_swift_path"
-                    }
-                ]
+                "player": "shroomhearth:swift_paths/sprinting_on_swift_path"
             }
         }
     },

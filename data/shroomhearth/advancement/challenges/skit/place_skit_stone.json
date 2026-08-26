@@ -1,33 +1,34 @@
 {
 	"criteria": {
-		"place_rail": {
+		"place_skit_stone": {
 			"trigger": "minecraft:placed_block",
 			"conditions": {
-                "location": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"minecraft:type_specific/player": {
-								"player": {
+				"location": {
+					"type": "minecraft:all_of",
+					"terms": [
+						{
+							"type": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"minecraft:type_specific/player": {
 									"advancements": {
 										"shroomhearth:challenges/skit/skit": false
 									}
 								}
 							}
+						},
+						{
+							"type": "minecraft:match_tool",
+							"predicate": {
+								"items": "#shroomhearth:challenges/skit_stone_blocks"
+							}
 						}
-					},
-                    {
-                        "condition": "minecraft:match_tool",
-                        "predicate": {
-                            "items": "#shroomhearth:challenges/skit_stone_blocks"
-                        }
-                    }
-                ]				
+					]
+				}
 			}
 		}
 	},
 	"rewards": {
 		"function": "shroomhearth:challenges/skit"
-	} 
+	}
 }
