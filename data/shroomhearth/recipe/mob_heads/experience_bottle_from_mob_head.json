@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:brewing",
+  "input": {
+    "item": [
+      "minecraft:splash_potion"
+    ],
+    "potion_contents": {
+      "potions": "minecraft:water"
+    }
+  },
+  "reagent": {
+    "item": "#shroomhearth:mob_head"
+  },
+  "output": "minecraft:experience_bottle"
+}
