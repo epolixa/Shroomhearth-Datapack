@@ -13,10 +13,6 @@
         {
           "type": "minecraft:loot_table",
           "value": "shroomhearth:harmony/spores/peace"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "shroomhearth:harmony/spores/spookiness"
         }
       ],
       "rolls": 1.0

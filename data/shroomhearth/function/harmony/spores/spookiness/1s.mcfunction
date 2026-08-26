@@ -1,9 +1,17 @@
 # Executor: Server
 # Location: Root
 
+tellraw @a[tag=debug_harmony] [{"text":"[shroomhearth:harmony/spores/spookiness/1s] processing "},{"translate":"event.shroomhearth.spores_of_spookiness"}]
+
+
+# Chance to set a Carved Pumpkin in head slot of certain mobs
+execute as @e[type=#shroomhearth:spores_of_spookiness_wears_carved_pumpkin,tag=!spores_of_spookiness_carved_pumpkin] at @s run function shroomhearth:harmony/spores/spookiness/equip_carved_pumpkin
+
+# Chance to scale Phantoms
+execute as @e[type=minecraft:phantom,tag=!spores_of_spookiness_scaled] at @s run function shroomhearth:harmony/spores/spookiness/scale_phantom
 
 # Chance to play spooky noise near afk players
-execute as @a[tag=afk] at @s if predicate shroomhearth:harmony/spores_of_spookiness_sound_chance run function shroomhearth:harmony/spores/spookiness/play_sound
+execute as @a[tag=afk] at @s if predicate shroomhearth:harmony/spores_of_spookiness_mysterious_sound_chance summon minecraft:marker run function shroomhearth:harmony/spores/spookiness/play_mysterious_sound
 
 # Reduce the timer
 scoreboard players remove spores_of_spookiness shroomhearth.harmony 1
