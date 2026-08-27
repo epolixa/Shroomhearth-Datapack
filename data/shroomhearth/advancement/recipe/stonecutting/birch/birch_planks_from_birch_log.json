@@ -11,7 +11,9 @@
       "conditions": {
         "items": [
           {
-            "items": ["minecraft:birch_log"]
+            "items": [
+              "minecraft:birch_log"
+            ]
           }
         ]
       }

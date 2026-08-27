@@ -11,7 +11,9 @@
       "conditions": {
         "items": [
           {
-            "items": ["minecraft:pale_oak_log"]
+            "items": [
+              "minecraft:pale_oak_log"
+            ]
           }
         ]
       }

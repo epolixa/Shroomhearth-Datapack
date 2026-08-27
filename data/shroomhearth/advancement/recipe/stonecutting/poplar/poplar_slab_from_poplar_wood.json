@@ -11,7 +11,9 @@
       "conditions": {
         "items": [
           {
-            "items": ["minecraft:poplar_wood"]
+            "items": [
+              "minecraft:poplar_wood"
+            ]
           }
         ]
       }
