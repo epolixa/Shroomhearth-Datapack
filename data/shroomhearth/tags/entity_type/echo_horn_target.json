@@ -1,7 +1,6 @@
 {
-    "replace": false,
-    "values": [
-        "minecraft:player",
-        "minecraft:mannequin"
-    ]
+  "replace": false,
+  "values": [
+    "#shroomhearth:players_and_mannequins"
+  ]
 }

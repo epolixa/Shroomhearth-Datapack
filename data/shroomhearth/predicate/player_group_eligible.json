@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:any_of",
+  "terms": [
+    {
+      "type": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "minecraft:entity_tags": {
+          "none_of": [
+            "afk"
+          ]
+        },
+        "minecraft:entity_type": "minecraft:player",
+        "minecraft:type_specific/player": {
+          "gamemode": [
+            "survival",
+            "creative",
+            "adventure"
+          ]
+        }
+      }
+    },
+    {
+      "type": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "minecraft:entity_tags": {
+          "none_of": [
+            "afk"
+          ]
+        },
+        "minecraft:entity_type": "minecraft:mannequin"
+      }
+    }
+  ]
+}

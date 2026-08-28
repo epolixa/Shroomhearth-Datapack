@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:any_of",
+  "terms": [
+    {
+      "type": "minecraft:location_check",
+      "predicate": {
+        "block": {
+          "blocks": "#shroomhearth:harmony/harmony_cap_grows_in"
+        }
+      }
+    },
+    {
+      "type": "minecraft:location_check",
+      "predicate": {
+        "block": {
+          "blocks": "#shroomhearth:harmony/harmony_cap_grows_in_with_layers",
+          "state": {
+            "layers": "1"
+          }
+        }
+      }
+    }
+  ]
+}
