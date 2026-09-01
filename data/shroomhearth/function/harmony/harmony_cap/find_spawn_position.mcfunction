@@ -13,5 +13,8 @@ function shroomhearth:harmony/harmony_cap/m_spread_marker with storage shroomhea
 # https://minecraft.wiki/w/Java_Edition_26.3_Snapshot_4#Command_format
 execute at @s positioned ~ ~-0.0625 ~ if predicate shroomhearth:harmony/harmony_cap_can_grow_in at @s run tp @s ~ ~-1 ~
 
+# Move position one texel down if spreadplayers landed on top of a dirt path
+execute at @s if block ~ ~-0.0625 ~ minecraft:dirt_path run tp @s ~ ~-0.0625 ~
+
 # Check if the marker can spawn a harmony cap
 execute at @s run function shroomhearth:harmony/harmony_cap/check_spawn_position
