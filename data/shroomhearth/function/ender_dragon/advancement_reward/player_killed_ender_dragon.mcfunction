@@ -16,8 +16,8 @@ scoreboard players add @s ender_dragon_stats_hits 1
 # increment total dragons slain for each player involved
 scoreboard players add @a[predicate=shroomhearth:ender_dragon/on_main_end_island] ender_dragon_stats_total_slain 1
 
-# grant laura advancement if slain 20 dragons
-advancement grant @a[scores={ender_dragon_stats_total_slain=20..}] only shroomhearth:challenges/lalalauraaaa/crazy_dragon_lady
+# grant laura advancement if slain 100 dragons
+advancement grant @a[scores={ender_dragon_stats_total_slain=100..}] only shroomhearth:challenges/lalalauraaaa/crazy_dragon_lady
 
 # grant soaring slayer advancement to any players who still have the tag, and remove the tag
 advancement grant @a[predicate=shroomhearth:ender_dragon/on_main_end_island,tag=soaring_slayer] only shroomhearth:challenges/batboy272/soaring_slayer
