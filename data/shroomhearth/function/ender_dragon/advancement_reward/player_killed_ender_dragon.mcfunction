@@ -36,8 +36,8 @@ execute as @a[predicate=shroomhearth:ender_dragon/on_main_end_island,scores={end
 # set ender_dragon_slain
 scoreboard players set ender_dragon_slain shroomhearth.ender_dragon 1
 
-# give harmony to each other participating player
-execute as @a[predicate=shroomhearth:ender_dragon/on_main_end_island] at @s run scoreboard players add @a[predicate=shroomhearth:ender_dragon/on_main_end_island,distance=0.1..] harmony 8
+# grant each player 64 harmony for every other participating player
+execute as @a[predicate=shroomhearth:ender_dragon/on_main_end_island] at @s run scoreboard players add @a[predicate=shroomhearth:ender_dragon/on_main_end_island,distance=0.0625..] harmony 64
 
 # kickoff checks for dissolve
 function shroomhearth:ender_dragon/check_dissolved

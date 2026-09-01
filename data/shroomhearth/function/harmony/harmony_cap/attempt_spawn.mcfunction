@@ -1,4 +1,4 @@
-# Executor: A player with 60 or more harmony score
+# Executor: A player with 64 or more harmony score
 # Position: Spawn
 
 tellraw @a[tag=debug_harmony] [{"text":"shroomhearth:harmony/harmony_cap/attempt_spawn] attempting to spawn harmony cap from "},{"selector":"@s"}]
@@ -22,5 +22,5 @@ at @s run function shroomhearth:harmony/harmony_cap/spawn
 # Remove tag when done spawning
 tag @s[tag=spawning_harmony_cap] remove spawning_harmony_cap
 
-# Reset harmony
-scoreboard players set @s harmony 0
+# Reduce harmony by 64
+scoreboard players remove @s harmony 64
