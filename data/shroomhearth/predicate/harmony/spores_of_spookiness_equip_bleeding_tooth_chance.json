@@ -6,8 +6,12 @@
       "entity": "this",
       "predicate": {
         "minecraft:equipment": {
-          "head": {
-            "items": "minecraft:carved_pumpkin"
+          "offhand": {
+            "predicates": {
+              "custom_data": {
+                "shroomhearth_id": "suspicious_candy"
+              }
+            }
           }
         }
       }
