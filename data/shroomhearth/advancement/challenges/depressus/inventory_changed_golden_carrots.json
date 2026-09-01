@@ -1,31 +1,31 @@
 {
-	"criteria": {
-		"inventory_changed_golden_carrots": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"items": "minecraft:golden_carrot",
-						"count": {
-							"min": 64
-						}
-					}
-				],
-				"player": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:type_specific/player": {
-							"advancements": {
-								"shroomhearth:challenges/depressus/depressus": false
-							}
-						}
-					}
-				}
-			}
-		}
-	},
-	"rewards": {
-		"function": "shroomhearth:challenges/depressus"
-	}
+  "criteria": {
+    "inventory_changed_golden_carrots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_carrot",
+            "count": {
+              "min": 64
+            }
+          }
+        ],
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "shroomhearth:challenges/depressus/carrot_connoisseur": false
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "shroomhearth:challenges/advancement_reward/depressus/inventory_changed_golden_carrots"
+  }
 }

@@ -10,13 +10,13 @@
 			}
 		},
 		"title": {
-			"fallback": "Depressus",
-			"translate": "advancements.shroomhearth_challenges.depressus.title"
+			"fallback": "Carrot Connoisseur",
+			"translate": "advancements.shroomhearth_challenges.carrot_connoisseur.title"
 		},
 		"description": [
 			{
 				"fallback": "Craft or trade for 64 Golden Carrots at once",
-				"translate": "advancements.shroomhearth_challenges.depressus.description"
+				"translate": "advancements.shroomhearth_challenges.carrot_connoisseur.description"
 			},
 			{
 				"text": "\n\n"
@@ -39,7 +39,7 @@
 		]
 	},
 	"criteria": {
-		"crafted_carrots": {
+		"carrot_connoisseur": {
 			"trigger": "minecraft:impossible"
 		}
 	}
