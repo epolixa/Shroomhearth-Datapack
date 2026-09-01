@@ -49,7 +49,7 @@
             }
         },
         {
-            "type": "minecraft:value_check",
+            "type": "minecraft:int_value_check",
             "value": {
                 "type": "score",
                 "target": {
@@ -58,7 +58,7 @@
                 },
                 "score": "shroomhearth.harmony"
             },
-            "range": 0
+            "test": 0
         }
     ]
 }
