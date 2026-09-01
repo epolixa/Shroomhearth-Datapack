@@ -7,6 +7,7 @@ function shroomhearth:repair/custom_items/ender_tome
 function shroomhearth:repair/custom_items/golden_chorus_fruit
 function shroomhearth:repair/custom_items/porcelain_amphora
 function shroomhearth:repair/custom_items/recall_whistle
+function shroomhearth:repair/custom_items/relics
 function shroomhearth:repair/custom_items/runes
 function shroomhearth:repair/custom_items/spores
 
