@@ -6,7 +6,7 @@ tellraw @a[tag=debug_harmony] [{"text":"shroomhearth:harmony/harmony_cap/spawn] 
 
 # Capture the player's current Y level in storage then add 8 to it with number provider
 execute store result storage shroomhearth:harmony harmony_cap.maxHeight int 1 run data get entity @s Pos[1]
-execute store result storage shroomhearth:harmony harmony_cap.maxHeight int 1 run compute default shroomhearth:storage_harmony_harmony_cap_max_height_add_eight
+execute store result storage shroomhearth:harmony harmony_cap.maxHeight int 1 run compute default integer shroomhearth:storage_harmony_harmony_cap_max_height_add_eight
 
 # Summon a marker to find a suitable spawn location
 summon minecraft:armor_stand ~ ~ ~ {Tags:["harmony_cap","harmony_cap_spawn_marker"]}

@@ -1,6 +1,6 @@
 {
-  "type": "minecraft:sum",
-  "operands": [
+  "type": "minecraft:add",
+  "inputs": [
     {
       "type": "minecraft:storage",
       "storage": "shroomhearth:harmony",
