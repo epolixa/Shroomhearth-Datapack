@@ -10,10 +10,10 @@ scoreboard players add spores_of_spookiness shroomhearth.harmony 3600
 execute store result bossbar shroomhearth:spores_of_spookiness max run scoreboard players get spores_of_spookiness shroomhearth.harmony
 
 # Update the attribution for bossbar
-bossbar set shroomhearth:spores_of_spookiness name [{"color":"#e3901d","translate":"event.shroomhearth.spores_of_spookiness"},{"color":"white","text":" - "},{"selector":"@s"}]
+bossbar set shroomhearth:spores_of_spookiness name [{"color":"#493348","translate":"event.shroomhearth.spores_of_spookiness"},{"color":"white","text":" - "},{"selector":"@s"}]
 
 # Announce extension
-tellraw @a [{"color":"#e3901d","text":"["},{"translate":"event.shroomhearth.spores_of_spookiness","hover_event":{"action":"show_text","value":{"translate":"event.shroomhearth.spores_of_spookiness.tooltip"}}},{"text":"]"},{"color":"white","text":" were dispersed by "},{"selector":"@s"}]
+tellraw @a [{"color":"#493348","text":"["},{"translate":"event.shroomhearth.spores_of_spookiness","hover_event":{"action":"show_text","value":{"translate":"event.shroomhearth.spores_of_spookiness.tooltip"}}},{"text":"]"},{"color":"white","text":" were dispersed by "},{"selector":"@s"}]
 
 # Play sound
 execute as @a at @s run playsound block.beacon.power_select player @s ~ ~ ~ 1 1.8
