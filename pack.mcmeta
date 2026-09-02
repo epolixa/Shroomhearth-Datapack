@@ -1,8 +1,36 @@
 {
 	"pack": {
-		"pack_format": 107.1,
+		"pack_format": 119.0,
 		"description": "Bespoke datapack for the Shroomhearth Minecraft server",
-		"min_format": [107, 1],
-		"max_format": [107, 1]
+		"min_format": [119, 0],
+		"max_format": [119, 0]
+	},
+	"filter": {
+		"block": [
+			{
+				"namespace": "minecraft",
+				"path": "recipe/copper_nugget_from_blasting"
+			},
+			{
+				"namespace": "minecraft",
+				"path": "recipe/copper_nugget_from_smelting"
+			},
+			{
+				"namespace": "minecraft",
+				"path": "recipe/gold_nugget_from_blasting"
+			},
+			{
+				"namespace": "minecraft",
+				"path": "recipe/gold_nugget_from_smelting"
+			},
+			{
+				"namespace": "minecraft",
+				"path": "recipe/iron_nugget_from_blasting"
+			},
+			{
+				"namespace": "minecraft",
+				"path": "recipe/iron_nugget_from_smelting"
+			}
+		]
 	}
 }

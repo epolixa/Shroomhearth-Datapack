@@ -9,7 +9,7 @@
 		"has_root_recipe": {
 			"trigger": "minecraft:recipe_unlocked",
 			"conditions": {
-				"recipe": "minecraft:cartography_table"
+				"recipes": "minecraft:cartography_table"
 			}
 		}
 	}

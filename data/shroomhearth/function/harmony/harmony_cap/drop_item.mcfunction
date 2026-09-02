@@ -14,7 +14,7 @@ playsound minecraft:block.small_dripleaf.break block @a ~ ~ ~ 1 0.9
 particle minecraft:end_rod ~ ~0.1875 ~ 0.2 0.2 0.2 0.03 3
 
 # Spawn experience
-summon minecraft:experience_orb
+execute as @s[tag=player_hurt_harmony_cap] run summon minecraft:experience_orb
 
 # Remove the harmony mushroom interaction entity and attached display entity
 execute on passengers run kill @s[tag=harmony_cap]

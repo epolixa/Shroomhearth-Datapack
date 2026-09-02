@@ -3,12 +3,7 @@
         "passenger_of_mount": {
             "trigger": "minecraft:location",
             "conditions": {
-                "player": [
-                    {
-                        "condition": "minecraft:reference",
-                        "name": "shroomhearth:swift_paths/passenger_of_saddled_mount"
-                    }
-                ]
+                "player": "shroomhearth:swift_paths/passenger_of_saddled_mount"
             }
         }
     },

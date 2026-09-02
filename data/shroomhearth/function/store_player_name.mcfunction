@@ -13,7 +13,7 @@ tellraw @a[tag=debug_shroomhearth] [{"text":"[shroomhearth:store_player_name] St
 summon minecraft:item_display ~ ~ ~ {Tags:["temp_player_name"],view_range:0f,item:{id:"minecraft:player_head"}}
 
 # Modify the item display to have the player's head
-item modify entity @n[tag=temp_player_name] contents {function:"fill_player_head",entity:"this"}
+item modify entity @n[tag=temp_player_name] contents {"type":"minecraft:fill_player_head","entity":"this"}
 
 # Store the player name from the item display's profile component into storage
 data modify storage shroomhearth:player_name name set from entity @n[tag=temp_player_name] item.components.minecraft:profile.name

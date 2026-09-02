@@ -19,7 +19,7 @@
     "has_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "shroomhearth:furnace/iron_block_from_raw_iron_block"
+        "recipes": "shroomhearth:furnace/iron_block_from_raw_iron_block"
       }
     }
   },

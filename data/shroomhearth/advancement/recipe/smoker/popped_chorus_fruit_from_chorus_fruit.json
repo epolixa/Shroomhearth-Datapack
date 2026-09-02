@@ -21,7 +21,7 @@
     "has_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "shroomhearth:smoker/popped_chorus_fruit_from_chorus_fruit"
+        "recipes": "shroomhearth:smoker/popped_chorus_fruit_from_chorus_fruit"
       }
     }
   },

@@ -100,6 +100,66 @@
             {
                 buy: {
                     id: "minecraft:glistering_melon_slice",
+                    count: 1,
+                    components: {
+                        "minecraft:item_name": {
+                            fallback: "Harmony Cap",
+                            translate: "item.shroomhearth.harmony_cap"
+                        },
+                        "minecraft:item_model": "shroomhearth:harmony_cap",
+                        "minecraft:lore": [
+                            {
+                                fallback: "A delicate mushroom that thrums with an",
+                                translate: "item.shroomhearth.harmony_cap.lore.0"
+                            },
+                            {
+                                fallback: "ethereal gleam. This token of Fungaian gratitude",
+                                translate: "item.shroomhearth.harmony_cap.lore.1"
+                            },
+                            {
+                                fallback: "sprouts amid flourishing bonds and conveys a",
+                                translate: "item.shroomhearth.harmony_cap.lore.2"
+                            },
+                            {
+                                fallback: "divine potency.",
+                                translate: "item.shroomhearth.harmony_cap.lore.3"
+                            }
+                        ],
+                        "minecraft:custom_data": {
+                            shroomhearth_id: "harmony_cap"
+                        }
+                    }
+                },
+                buyB: {
+                    id: "minecraft:brick",
+                    count: 1
+                },
+                demand: 0,
+                maxUses: 2147483647,
+                priceMultiplier: 0,
+                rewardExp: "false",
+                sell: {
+                    id: "minecraft:heart_pottery_sherd",
+                    count: 1,
+                    components: {
+                        "minecraft:item_name": {
+                            translate: "item.shroomhearth.shroomhearth_pottery_sherd",
+                            fallback: "Shroomhearth Pottery Sherd"
+                        },
+                        "minecraft:item_model": "shroomhearth:shroomhearth_pottery_sherd",
+                        "minecraft:provides_pottery_pattern": "shroomhearth:shroomhearth",
+                        "minecraft:custom_data": {
+                            shroomhearth_id: "shroomhearth_pottery_sherd"
+                        }
+                    }
+                },
+                specialPrice: 0,
+                uses: 0,
+                xp: 0
+            },
+            {
+                buy: {
+                    id: "minecraft:glistering_melon_slice",
                     count: 3,
                     components: {
                         "minecraft:item_name": {
@@ -609,6 +669,123 @@
                         ],
                         "minecraft:custom_data": {
                             shroomhearth_id: "threnel"
+                        }
+                    }
+                },
+                specialPrice: 0,
+                uses: 0,
+                xp: 0
+            },
+            {
+                buy: {
+                    id: "minecraft:spider_eye",
+                    count: 8,
+                    components: {
+                        "minecraft:item_name": {
+                            fallback: "Suspicious Candy",
+                            translate: "item.shroomhearth.suspicious_candy"
+                        },
+                        "minecraft:item_model": "shroomhearth:suspicious_candy",
+                        "minecraft:lore": [
+                            {
+                                fallback: "A sinister sweet pilfered from the shadows.",
+                                translate: "item.shroomhearth.suspicious_candy.lore.0"
+                            },
+                            {
+                                fallback: "Tasting it may twist the senses and instill a",
+                                translate: "item.shroomhearth.suspicious_candy.lore.1"
+                            },
+                            {
+                                fallback: "mischievous intent.",
+                                translate: "item.shroomhearth.suspicious_candy.lore.2"
+                            }
+                        ],
+                        "minecraft:consumable": {
+                            on_consume_effects: [
+                                {
+                                    type: "apply_effects",
+                                    effects: [
+                                        {
+                                            id: "minecraft:darkness",
+                                            duration: 100
+                                        }
+                                    ],
+                                    probability: 0.5
+                                },
+                                {
+                                    type: "apply_effects",
+                                    effects: [
+                                        {
+                                            id: "minecraft:invisibility",
+                                            duration: 100
+                                        }
+                                    ],
+                                    probability: 0.5
+                                },
+                                {
+                                    type: "apply_effects",
+                                    effects: [
+                                        {
+                                            id: "minecraft:glowing",
+                                            duration: 100
+                                        }
+                                    ],
+                                    probability: 0.5
+                                },
+                                {
+                                    type: "play_sound",
+                                    sound: {
+                                        sound_id: "minecraft:entity.vex.ambient"
+                                    }
+                                }
+                            ]
+                        },
+                        "minecraft:custom_data": {
+                            shroomhearth_id: "suspicious_candy"
+                        }
+                    }
+                },
+                buyB: {
+                    id: "minecraft:diamond_axe",
+                    count: 1
+                },
+                demand: 0,
+                maxUses: 2147483647,
+                priceMultiplier: 0,
+                rewardExp: "false",
+                sell: {
+                    id: "minecraft:diamond_axe",
+                    count: 1,
+                    components: {
+                        "minecraft:item_name": {
+                            fallback: "Bleeding Tooth",
+                            translate: "item.shroomhearth.bleeding_tooth"
+                        },
+                        "minecraft:item_model": "shroomhearth:bleeding_tooth",
+                        "minecraft:rarity": "epic",
+                        "minecraft:enchantments": {
+                            "shroomhearth:stories/blistering_spores": 1
+                        },
+                        "minecraft:lore": [
+                            {
+                                fallback: "A pale axe weeping with sticky, scarlet sap.",
+                                translate: "item.shroomhearth.bleeding_tooth.lore.0"
+                            },
+                            {
+                                fallback: "Forever stained by felling an invasive, arboreal",
+                                translate: "item.shroomhearth.bleeding_tooth.lore.1"
+                            },
+                            {
+                                fallback: "fungus, its blade embeds festering spores that",
+                                translate: "item.shroomhearth.bleeding_tooth.lore.2"
+                            },
+                            {
+                                fallback: "erupt in violent irritation.",
+                                translate: "item.shroomhearth.bleeding_tooth.lore.3"
+                            }
+                        ],
+                        "minecraft:custom_data": {
+                            shroomhearth_id: "bleeding_tooth"
                         }
                     }
                 },

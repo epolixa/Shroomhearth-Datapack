@@ -1,0 +1,8 @@
+﻿{
+  "ingredient": "minecraft:stripped_poplar_log",
+  "result": {
+    "id": "minecraft:poplar_fence_gate",
+    "count": 1
+  },
+  "type": "minecraft:stonecutting"
+}

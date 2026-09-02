@@ -21,6 +21,7 @@ scoreboard objectives remove shroomhearth.harmony
 scoreboard players reset active_spores shroomhearth.harmony
 
 # Global timers for spores
+scoreboard players reset spores_of_spookiness shroomhearth.harmony
 scoreboard players reset spores_of_armor shroomhearth.harmony
 scoreboard players reset spores_of_dowsing shroomhearth.harmony
 scoreboard players reset spores_of_ease shroomhearth.harmony

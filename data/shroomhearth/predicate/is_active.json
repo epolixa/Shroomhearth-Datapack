@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:any_of",
+  "terms": [
+    "shroomhearth:any_input",
+    "shroomhearth:move_one_cm"
+  ]
+}

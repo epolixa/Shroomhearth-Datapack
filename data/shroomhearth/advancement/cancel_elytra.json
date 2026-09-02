@@ -3,29 +3,32 @@
         "cancel_elytra": {
             "trigger": "minecraft:tick",
             "conditions": {
-                "player": [
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "minecraft:equipment": {
-                                "chest": {
-                                    "items": [
-                                        "minecraft:elytra"
-                                    ]
-                                }
-                            },
-                            "minecraft:flags": {
-                                "is_fall_flying": true
-                            },
-                            "minecraft:type_specific/player": {
-                                "input": {
-                                    "sneak": true
+                "player": {
+                    "type": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "type": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "minecraft:equipment": {
+                                    "chest": {
+                                        "items": [
+                                            "minecraft:elytra"
+                                        ]
+                                    }
+                                },
+                                "minecraft:flags": {
+                                    "is_fall_flying": true
+                                },
+                                "minecraft:type_specific/player": {
+                                    "input": {
+                                        "sneak": true
+                                    }
                                 }
                             }
                         }
-                    }
-                ]
+                    ]
+                }
             }
         }
     },

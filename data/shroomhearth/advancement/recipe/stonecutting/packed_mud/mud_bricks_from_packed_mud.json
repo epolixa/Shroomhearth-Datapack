@@ -21,7 +21,7 @@
         "has_recipe": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "shroomhearth:stonecutting/packed_mud/mud_bricks_from_packed_mud"
+                "recipes": "shroomhearth:stonecutting/packed_mud/mud_bricks_from_packed_mud"
             }
         }
     },

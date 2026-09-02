@@ -1,0 +1,8 @@
+﻿{
+  "ingredient": "minecraft:poplar_wood",
+  "result": {
+    "id": "minecraft:poplar_fence",
+    "count": 2
+  },
+  "type": "minecraft:stonecutting"
+}

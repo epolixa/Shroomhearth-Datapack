@@ -2,8 +2,8 @@
 # Position: The player
 # Data: {maxHeight: int}
 
-$tellraw @a[tag=debug_harmony] "[shroomhearth:harmony/harmony_cap/m_spread_marker] Spreading marker for harmony cap up to max height $(maxHeight)..."
+$tellraw @a[tag=debug_harmony] [{"text":"[shroomhearth:harmony/harmony_cap/m_spread_marker] spreading harmony cap position marker up to max height $(maxHeight)"}]
 
 
 # Spread the marker within an 8 to 16 block radius up to max height
-$spreadplayers ~ ~ 8 16 under $(maxHeight) true @e[tag=harmony_cap_marker]
+$spreadplayers ~ ~ 8 16 under $(maxHeight) true @e[tag=harmony_cap_spawn_marker]

@@ -1,3 +1,10 @@
+# spores of spookiness
+execute store result score @s repairable run clear @s #shroomhearth:harmony/spores[custom_data={"shroomhearth_id":"spores_of_spookiness"}] 0
+clear @s[scores={repairable=1..}] #shroomhearth:harmony/spores[custom_data={"shroomhearth_id":"spores_of_spookiness"}] 1
+loot give @s[scores={repairable=1..}] loot shroomhearth:harmony/spores/spookiness
+tag @s[scores={repairable=1..}] add repaired
+scoreboard players reset @s repairable
+
 # spores of armor
 execute store result score @s repairable run clear @s #shroomhearth:harmony/spores[custom_data={"shroomhearth_id":"spores_of_armor"}] 0
 clear @s[scores={repairable=1..}] #shroomhearth:harmony/spores[custom_data={"shroomhearth_id":"spores_of_armor"}] 1

@@ -1,49 +1,15 @@
-{
+﻿{
   "type": "minecraft:entity",
   "pools": [
     {
-      "rolls": 1,
-      "conditions": [
-        {
-          "condition": "minecraft:killed_by_player"
-        },
-        {
-          "condition": "minecraft:random_chance_with_enchanted_bonus",
-          "enchanted_chance": {
-            "type": "minecraft:linear",
-            "base": 0.035,
-            "per_level_above_first": 0.01
-          },
-          "enchantment": "minecraft:looting",
-          "unenchanted_chance": 0.025
-        }
-      ],
+      "condition": "shroomhearth:can_drop_mob_head",
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:player_head",
-          "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:item_name": "Wither Head",
-                "minecraft:note_block_sound": "minecraft:entity.wither.ambient",
-                "minecraft:custom_data": {
-                  "shroomhearth_id": "wither_head"
-                },
-                "minecraft:profile": {
-                  "properties": [
-                    {
-                      "name": "textures",
-                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2RmNzRlMzIzZWQ0MTQzNjk2NWY1YzU3ZGRmMjgxNWQ1MzMyZmU5OTllNjhmYmI5ZDZjZjVjOGJkNDEzOWYifX19"
-                    }
-                  ]
-                }
-              }
-            }
-          ]
+          "type": "minecraft:loot_table",
+          "value": "shroomhearth:mob_heads/wither_head"
         }
-      ]
+      ],
+      "rolls": 1.0
     }
   ],
   "random_sequence": "minecraft:entities/wither"

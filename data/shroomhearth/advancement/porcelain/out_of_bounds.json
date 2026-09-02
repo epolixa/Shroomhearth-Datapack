@@ -4,7 +4,8 @@
             "trigger": "minecraft:location",
             "conditions": {
                 "player": {
-                    "location": {
+                    "type": "minecraft:location_check",
+                    "predicate": {
                         "dimension": "shroomhearth:the_porcelain",
                         "position": {
                             "y": {
@@ -19,7 +20,8 @@
             "trigger": "minecraft:location",
             "conditions": {
                 "player": {
-                    "location": {
+                    "type": "minecraft:location_check",
+                    "predicate": {
                         "dimension": "shroomhearth:the_porcelain",
                         "position": {
                             "y": {

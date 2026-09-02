@@ -6,9 +6,9 @@
                 {
                     "type": "item",
                     "name": "minecraft:enchanted_book",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_components",
+                            "type": "set_components",
                             "components": {
                                 "minecraft:item_name": {
                                     "fallback": "Rune of Strength",

@@ -1,68 +1,82 @@
 {
-    "pools": [
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
         {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "item",
-                    "name": "minecraft:spider_eye",
-                    "functions": [
+          "type": "item",
+          "name": "minecraft:spider_eye",
+          "modifier": [
+            {
+              "type": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "fallback": "Suspicious Candy",
+                  "translate": "item.shroomhearth.suspicious_candy"
+                },
+                "minecraft:item_model": "shroomhearth:suspicious_candy",
+                "minecraft:lore": [
+                  {
+                    "fallback": "A sinister sweet pilfered from the shadows.",
+                    "translate": "item.shroomhearth.suspicious_candy.lore.0"
+                  },
+                  {
+                    "fallback": "Tasting it may twist the senses and instill a",
+                    "translate": "item.shroomhearth.suspicious_candy.lore.1"
+                  },
+                  {
+                    "fallback": "mischievous intent.",
+                    "translate": "item.shroomhearth.suspicious_candy.lore.2"
+                  }
+                ],
+                "minecraft:consumable": {
+                  "on_consume_effects": [
+                    {
+                      "type": "apply_effects",
+                      "effects": [
                         {
-                            "function": "minecraft:set_components",
-                            "components": {
-                                "minecraft:item_name": {
-                                    "fallback": "Suspicious Candy",
-                                    "translate": "item.shroomhearth.suspicious_candy"
-                                },
-                                "minecraft:item_model": "shroomhearth:suspicious_candy",
-                                "minecraft:consumable": {
-                                    "on_consume_effects": [
-                                        {
-                                            "type": "apply_effects",
-                                            "effects": [
-                                                {
-                                                    "id": "minecraft:darkness",
-                                                    "duration": 100
-                                                }
-                                            ],
-                                            "probability": 0.5
-                                        },
-                                        {
-                                            "type": "apply_effects",
-                                            "effects": [
-                                                {
-                                                    "id": "minecraft:invisibility",
-                                                    "duration": 100
-                                                }
-                                            ],
-                                            "probability": 0.5
-                                        },
-                                        {
-                                            "type": "apply_effects",
-                                            "effects": [
-                                                {
-                                                    "id": "minecraft:glowing",
-                                                    "duration": 100
-                                                }
-                                            ],
-                                            "probability": 0.5
-                                        },
-                                        {
-                                            "type": "play_sound",
-                                            "sound": {
-                                                "sound_id": "minecraft:entity.vex.ambient"
-                                            }
-                                        }
-                                    ]
-                                },
-                                "minecraft:custom_data": {
-                                    "shroomhearth_id": "suspicious_candy"
-                                }
-                            }
+                          "id": "minecraft:darkness",
+                          "duration": 100
                         }
-                    ]
+                      ],
+                      "probability": 0.5
+                    },
+                    {
+                      "type": "apply_effects",
+                      "effects": [
+                        {
+                          "id": "minecraft:invisibility",
+                          "duration": 100
+                        }
+                      ],
+                      "probability": 0.5
+                    },
+                    {
+                      "type": "apply_effects",
+                      "effects": [
+                        {
+                          "id": "minecraft:glowing",
+                          "duration": 100
+                        }
+                      ],
+                      "probability": 0.5
+                    },
+                    {
+                      "type": "play_sound",
+                      "sound": {
+                        "sound_id": "minecraft:entity.vex.ambient"
+                      }
+                    }
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "shroomhearth_id": "suspicious_candy"
                 }
-            ]
+              }
+            }
+          ]
         }
-    ]
+      ]
+    }
+  ]
 }

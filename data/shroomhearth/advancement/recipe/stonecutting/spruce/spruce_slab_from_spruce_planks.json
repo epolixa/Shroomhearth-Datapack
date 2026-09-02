@@ -11,7 +11,9 @@
       "conditions": {
         "items": [
           {
-            "items": ["minecraft:spruce_planks"]
+            "items": [
+              "minecraft:spruce_planks"
+            ]
           }
         ]
       }
@@ -19,7 +21,7 @@
     "has_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "shroomhearth:stonecutting/spruce/spruce_slab_from_spruce_planks"
+        "recipes": "shroomhearth:stonecutting/spruce/spruce_slab_from_spruce_planks"
       }
     }
   },

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:add",
+  "inputs": [
+    {
+      "type": "minecraft:storage",
+      "storage": "shroomhearth:harmony",
+      "path": "harmony_cap.maxHeight"
+    },
+    {
+      "type": "minecraft:constant",
+      "value": 8
+    }
+  ]
+}

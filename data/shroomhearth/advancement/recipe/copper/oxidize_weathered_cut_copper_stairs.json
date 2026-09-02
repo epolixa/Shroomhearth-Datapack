@@ -33,7 +33,7 @@
     "has_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "shroomhearth:copper/oxidize_weathered_cut_copper_stairs"
+        "recipes": "shroomhearth:copper/oxidize_weathered_cut_copper_stairs"
       }
     }
   },

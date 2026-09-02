@@ -5,30 +5,30 @@
       "rolls": 1,
       "entries": [
         {
-          "conditions": [
-            {
-              "condition": "minecraft:reference",
-              "name": "shroomhearth:arena/in_arena"
-            },
-            {
-              "condition": "minecraft:damage_source_properties",
-              "predicate": {
-                "source_entity": {
-                  "minecraft:distance": {
-                    "absolute": {
-                      "min": 0.1
-                    }
-                  },
-                  "minecraft:entity_type": "minecraft:player"
+          "condition": {
+            "type": "minecraft:all_of",
+            "terms": [
+              "shroomhearth:arena/in_arena",
+              {
+                "type": "minecraft:damage_source_properties",
+                "predicate": {
+                  "source_entity": {
+                    "minecraft:distance": {
+                      "absolute": {
+                        "min": 0.1
+                      }
+                    },
+                    "minecraft:entity_type": "minecraft:player"
+                  }
                 }
               }
-            }
-          ],
-          "type": "item",
+            ]
+          },
+          "type": "minecraft:item",
           "name": "minecraft:player_head",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:fill_player_head",
+              "type": "minecraft:fill_player_head",
               "entity": "this"
             }
           ]

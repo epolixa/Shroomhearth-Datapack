@@ -1,104 +1,11 @@
-[
-    {
-        "condition": "minecraft:any_of",
-        "terms": [
-            {
-                "condition": "minecraft:entity_properties",
-                "entity": "this",
-                "predicate": {
-                    "slots": {
-                        "weapon": {
-                            "items": "#minecraft:enchantable/durability",
-                            "predicates": {
-                                "minecraft:enchantments": [
-                                    {
-                                        "enchantments": "#shroomhearth:ender_tome/max_level_2",
-                                        "levels": {
-                                            "min": 2,
-                                            "max": 2
-                                        }
-                                    }
-                                ]
-                            }
-                        }
-                    }
-                }
-            },
-            {
-                "condition": "minecraft:entity_properties",
-                "entity": "this",
-                "predicate": {
-                    "slots": {
-                        "weapon": {
-                            "items": "#minecraft:enchantable/durability",
-                            "predicates": {
-                                "minecraft:enchantments": [
-                                    {
-                                        "enchantments": "#shroomhearth:ender_tome/max_level_3",
-                                        "levels": {
-                                            "min": 3,
-                                            "max": 3
-                                        }
-                                    }
-                                ]
-                            }
-                        }
-                    }
-                }
-            },
-            {
-                "condition": "minecraft:entity_properties",
-                "entity": "this",
-                "predicate": {
-                    "slots": {
-                        "weapon": {
-                            "items": "#minecraft:enchantable/durability",
-                            "predicates": {
-                                "minecraft:enchantments": [
-                                    {
-                                        "enchantments": "#shroomhearth:ender_tome/max_level_4",
-                                        "levels": {
-                                            "min": 4,
-                                            "max": 4
-                                        }
-                                    }
-                                ]
-                            }
-                        }
-                    }
-                }
-            },
-            {
-                "condition": "minecraft:entity_properties",
-                "entity": "this",
-                "predicate": {
-                    "slots": {
-                        "weapon": {
-                            "items": "#minecraft:enchantable/durability",
-                            "predicates": {
-                                "minecraft:enchantments": [
-                                    {
-                                        "enchantments": "#shroomhearth:ender_tome/max_level_5",
-                                        "levels": {
-                                            "min": 5,
-                                            "max": 5
-                                        }
-                                    }
-                                ]
-                            }
-                        }
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "condition": "minecraft:inverted",
-        "term": {
-            "condition": "minecraft:any_of",
+{
+    "type": "minecraft:all_of",
+    "terms": [
+        {
+            "type": "minecraft:any_of",
             "terms": [
                 {
-                    "condition": "minecraft:entity_properties",
+                    "type": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
                         "slots": {
@@ -109,7 +16,8 @@
                                         {
                                             "enchantments": "#shroomhearth:ender_tome/max_level_2",
                                             "levels": {
-                                                "min": 3
+                                                "min": 2,
+                                                "max": 2
                                             }
                                         }
                                     ]
@@ -119,7 +27,7 @@
                     }
                 },
                 {
-                    "condition": "minecraft:entity_properties",
+                    "type": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
                         "slots": {
@@ -130,7 +38,8 @@
                                         {
                                             "enchantments": "#shroomhearth:ender_tome/max_level_3",
                                             "levels": {
-                                                "min": 4
+                                                "min": 3,
+                                                "max": 3
                                             }
                                         }
                                     ]
@@ -140,7 +49,7 @@
                     }
                 },
                 {
-                    "condition": "minecraft:entity_properties",
+                    "type": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
                         "slots": {
@@ -151,7 +60,8 @@
                                         {
                                             "enchantments": "#shroomhearth:ender_tome/max_level_4",
                                             "levels": {
-                                                "min": 5
+                                                "min": 4,
+                                                "max": 4
                                             }
                                         }
                                     ]
@@ -161,7 +71,7 @@
                     }
                 },
                 {
-                    "condition": "minecraft:entity_properties",
+                    "type": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
                         "slots": {
@@ -172,7 +82,8 @@
                                         {
                                             "enchantments": "#shroomhearth:ender_tome/max_level_5",
                                             "levels": {
-                                                "min": 6
+                                                "min": 5,
+                                                "max": 5
                                             }
                                         }
                                     ]
@@ -182,6 +93,98 @@
                     }
                 }
             ]
+        },
+        {
+            "type": "minecraft:inverted",
+            "term": {
+                "type": "minecraft:any_of",
+                "terms": [
+                    {
+                        "type": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "slots": {
+                                "weapon": {
+                                    "items": "#minecraft:enchantable/durability",
+                                    "predicates": {
+                                        "minecraft:enchantments": [
+                                            {
+                                                "enchantments": "#shroomhearth:ender_tome/max_level_2",
+                                                "levels": {
+                                                    "min": 3
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "type": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "slots": {
+                                "weapon": {
+                                    "items": "#minecraft:enchantable/durability",
+                                    "predicates": {
+                                        "minecraft:enchantments": [
+                                            {
+                                                "enchantments": "#shroomhearth:ender_tome/max_level_3",
+                                                "levels": {
+                                                    "min": 4
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "type": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "slots": {
+                                "weapon": {
+                                    "items": "#minecraft:enchantable/durability",
+                                    "predicates": {
+                                        "minecraft:enchantments": [
+                                            {
+                                                "enchantments": "#shroomhearth:ender_tome/max_level_4",
+                                                "levels": {
+                                                    "min": 5
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "type": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "slots": {
+                                "weapon": {
+                                    "items": "#minecraft:enchantable/durability",
+                                    "predicates": {
+                                        "minecraft:enchantments": [
+                                            {
+                                                "enchantments": "#shroomhearth:ender_tome/max_level_5",
+                                                "levels": {
+                                                    "min": 6
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
         }
-    }
-]
+    ]
+}

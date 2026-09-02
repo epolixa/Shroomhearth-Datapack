@@ -11,7 +11,9 @@
       "conditions": {
         "items": [
           {
-            "items": ["minecraft:jungle_log"]
+            "items": [
+              "minecraft:jungle_log"
+            ]
           }
         ]
       }
@@ -19,7 +21,7 @@
     "has_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "shroomhearth:stonecutting/jungle/stripped_jungle_log_from_jungle_log"
+        "recipes": "shroomhearth:stonecutting/jungle/stripped_jungle_log_from_jungle_log"
       }
     }
   },

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:all_of",
+  "terms": [
+    {
+      "type": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "minecraft:equipment": {
+          "head": {
+            "items": "minecraft:carved_pumpkin"
+          }
+        }
+      }
+    },
+    {
+      "type": "minecraft:random_chance",
+      "chance": 0.225
+    }
+  ]
+}
