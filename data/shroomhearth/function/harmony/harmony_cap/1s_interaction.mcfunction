@@ -9,7 +9,7 @@ execute if predicate shroomhearth:harmony/harmony_cap_particle_chance run partic
 execute if predicate shroomhearth:harmony/harmony_cap_sound_chance run playsound minecraft:block.amethyst_block.chime neutral @a ~ ~ ~ 1 2
 
 # Drop self if inside a solid block
-execute unless predicate shroomhearth:harmony/harmony_cap_can_grow_in run function shroomhearth:harmony/harmony_cap/drop_item
+execute unless predicate shroomhearth:harmony/harmony_cap_can_grow_into run function shroomhearth:harmony/harmony_cap/drop_item
 
 # Drop self if no support underneath
 execute unless block ~ ~-0.0625 ~ #shroomhearth:harmony/harmony_cap_grows_on run function shroomhearth:harmony/harmony_cap/drop_item

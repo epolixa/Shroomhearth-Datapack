@@ -1,7 +1,7 @@
 # Executor: Marker entity summoned to check for valid harmony cap spawn location
 # Position: The marker entity
 
-tellraw @a[tag=debug_harmony] [{"text":"[shroomhearth:harmony/harmony_cap/check_spawn_position] checking harmony cap spawn marker position at x:"},{"type":"nbt","entity":"@s","nbt":"Pos[0]"},{"text":", y:"},{"type":"nbt","entity":"@s","nbt":"Pos[1]"},{"text":", z:"},{"type":"nbt","entity":"@s","nbt":"Pos[2]"}]
+tellraw @a[tag=debug_harmony] [{"text":"[shroomhearth:harmony/harmony_cap/check_spawn_position] checking harmony cap spawn marker position at ["},{"type":"nbt","entity":"@s","nbt":"Pos[0]"},{"text":", "},{"type":"nbt","entity":"@s","nbt":"Pos[1]"},{"text":", "},{"type":"nbt","entity":"@s","nbt":"Pos[2]"},{"text":"]"}]
 
 
 # Get count of nearby harmony cap entities
