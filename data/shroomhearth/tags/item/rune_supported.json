@@ -14,6 +14,7 @@
         "minecraft:diamond_nautilus_armor",
         "minecraft:netherite_nautilus_armor",
         "minecraft:wolf_armor",
-        "minecraft:saddle"
+        "minecraft:saddle",
+        "minecraft:name_tag"
     ]
 }
