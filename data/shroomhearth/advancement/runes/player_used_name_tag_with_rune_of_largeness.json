@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "player_used_rune_of_largeness_name_tag": {
+    "player_used_name_tag_with_rune_of_largeness": {
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "item": {
@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "shroomhearth:runes/advancement_reward/player_used_rune_of_largeness_name_tag"
+    "function": "shroomhearth:runes/advancement_reward/player_used_name_tag_with_rune_of_largeness"
   }
 }
