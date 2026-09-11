@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:blasting",
+  "group": "gold_nugget",
+  "category": "misc",
+  "ingredient": "minecraft:golden_nautilus_armor",
+  "result": {
+    "id": "minecraft:gold_nugget",
+    "count": 7
+  },
+  "experience": 0.1,
+  "cookingtime": 100
+}

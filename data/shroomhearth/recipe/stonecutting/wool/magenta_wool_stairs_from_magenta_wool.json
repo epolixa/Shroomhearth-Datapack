@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "minecraft:magenta_wool",
+  "result": {
+    "id": "minecraft:magenta_wool_stairs"
+  }
+}

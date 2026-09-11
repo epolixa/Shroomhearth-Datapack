@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "using_consumable": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": "shroomhearth:porcelain/in_the_porcelain",
+        "items": [
+          {
+            "items": "#shroomhearth:consumable"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "shroomhearth:porcelain/advancement_reward/using_consumable"
+  }
+}

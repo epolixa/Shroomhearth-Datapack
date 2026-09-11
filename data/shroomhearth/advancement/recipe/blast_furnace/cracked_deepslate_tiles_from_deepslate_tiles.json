@@ -19,7 +19,7 @@
       "has_recipe": {
         "trigger": "minecraft:recipe_unlocked",
         "conditions": {
-          "recipe": "shroomhearth:blast_furnace/cracked_deepslate_tiles_from_deepslate_tiles"
+          "recipes": "shroomhearth:blast_furnace/cracked_deepslate_tiles_from_deepslate_tiles"
         }
       }
     },

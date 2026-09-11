@@ -1,0 +1,34 @@
+﻿{
+  "criteria": {
+    "has_material": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:stripped_dark_oak_log"
+            ]
+          }
+        ]
+      }
+    },
+    "has_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipes": "shroomhearth:stonecutting/dark_oak/dark_oak_shelf_from_stripped_dark_oak_log"
+      }
+    }
+  },
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "shroomhearth:stonecutting/dark_oak/dark_oak_shelf_from_stripped_dark_oak_log"
+    ]
+  },
+  "requirements": [
+    [
+      "has_material",
+      "has_recipe"
+    ]
+  ]
+}

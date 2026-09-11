@@ -19,7 +19,7 @@
     "has_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "shroomhearth:blast_furnace/terracotta_from_clay"
+        "recipes": "shroomhearth:blast_furnace/terracotta_from_clay"
       }
     }
   },

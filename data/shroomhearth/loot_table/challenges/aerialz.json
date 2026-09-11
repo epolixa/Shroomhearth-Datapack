@@ -8,9 +8,9 @@
                     "type": "item",
                     "name": "minecraft:player_head",
                     "weight": 100,
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "set_components",
+                            "type": "set_components",
                             "components": {
                                 "minecraft:profile": {
                                     "name": "Aerialz"

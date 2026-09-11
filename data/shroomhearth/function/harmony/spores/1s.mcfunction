@@ -6,6 +6,9 @@
 
 # Process active spores
 
+# Spookiness
+execute if score spores_of_spookiness shroomhearth.harmony matches 1.. run function shroomhearth:harmony/spores/spookiness/1s
+
 # Armor
 execute if score spores_of_armor shroomhearth.harmony matches 1.. run function shroomhearth:harmony/spores/armor/1s
 

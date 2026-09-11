@@ -15,7 +15,7 @@
       },
       "has_the_recipe": {
         "conditions": {
-          "recipe": "shroomhearth:snow_block"
+          "recipes": "shroomhearth:snow_block"
         },
         "trigger": "minecraft:recipe_unlocked"
       }

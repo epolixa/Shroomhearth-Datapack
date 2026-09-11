@@ -11,7 +11,9 @@
       "conditions": {
         "items": [
           {
-            "items": ["minecraft:stripped_pale_oak_log"]
+            "items": [
+              "minecraft:stripped_pale_oak_log"
+            ]
           }
         ]
       }
@@ -19,7 +21,7 @@
     "has_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "shroomhearth:stonecutting/pale_oak/pale_oak_stairs_from_stripped_pale_oak_log"
+        "recipes": "shroomhearth:stonecutting/pale_oak/pale_oak_stairs_from_stripped_pale_oak_log"
       }
     }
   },

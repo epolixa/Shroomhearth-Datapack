@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
               "add": false,
               "count": {
@@ -14,7 +14,7 @@
                 "max": 3.0,
                 "min": 1.0
               },
-              "function": "minecraft:set_count"
+              "type": "minecraft:set_count"
             }
           ],
           "name": "minecraft:cookie",
@@ -22,11 +22,11 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
               "add": false,
               "count": 1.0,
-              "function": "minecraft:set_count"
+              "type": "minecraft:set_count"
             }
           ],
           "name": "minecraft:beetroot_soup",
@@ -39,14 +39,14 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
               "add": false,
               "count": 1.0,
-              "function": "minecraft:set_count"
+              "type": "minecraft:set_count"
             },
             {
-              "function": "minecraft:set_potion",
+              "type": "minecraft:set_potion",
               "id": "minecraft:regeneration"
             }
           ],
@@ -54,14 +54,14 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [
+          "modifier": [
             {
               "add": false,
               "count": 1.0,
-              "function": "minecraft:set_count"
+              "type": "minecraft:set_count"
             },
             {
-              "function": "minecraft:set_potion",
+              "type": "minecraft:set_potion",
               "id": "minecraft:swiftness"
             }
           ],

@@ -3,15 +3,10 @@
         "not_sprinting_on_swift_path": {
             "trigger": "minecraft:location",
             "conditions": {
-                "player": [
-                    {
-                        "condition": "minecraft:inverted",
-                        "term": {
-                            "condition": "minecraft:reference",
-                            "name": "shroomhearth:swift_paths/sprinting_on_swift_path"
-                        }
-                    }
-                ]
+                "player": {
+                    "type": "minecraft:inverted",
+                    "term": "shroomhearth:swift_paths/sprinting_on_swift_path"
+                }
             }
         }
     },

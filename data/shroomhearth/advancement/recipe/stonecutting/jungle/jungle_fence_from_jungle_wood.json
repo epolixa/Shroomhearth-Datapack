@@ -1,0 +1,34 @@
+﻿{
+  "criteria": {
+    "has_material": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:jungle_wood"
+            ]
+          }
+        ]
+      }
+    },
+    "has_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipes": "shroomhearth:stonecutting/jungle/jungle_fence_from_jungle_wood"
+      }
+    }
+  },
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "shroomhearth:stonecutting/jungle/jungle_fence_from_jungle_wood"
+    ]
+  },
+  "requirements": [
+    [
+      "has_material",
+      "has_recipe"
+    ]
+  ]
+}

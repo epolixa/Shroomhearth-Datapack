@@ -4,9 +4,13 @@
             "trigger": "minecraft:cured_zombie_villager",
             "conditions": {
                 "player": {
-                    "minecraft:type_specific/player": {
-                        "advancements": {
-                            "shroomhearth:challenges/aerialz/curare_immortui": false
+                    "type": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "minecraft:type_specific/player": {
+                            "advancements": {
+                                "shroomhearth:challenges/aerialz/curare_immortui": false
+                            }
                         }
                     }
                 }

@@ -1,0 +1,46 @@
+{
+	"parent": "shroomhearth:shroomhearth_challenges",
+	"display": {
+		"icon": {
+			"id": "minecraft:player_head",
+			"components": {
+				"minecraft:profile": {
+					"name": "Depressus"
+				}
+			}
+		},
+		"title": {
+			"fallback": "Carrot Connoisseur",
+			"translate": "advancements.shroomhearth_challenges.carrot_connoisseur.title"
+		},
+		"description": [
+			{
+				"fallback": "Craft or trade for 64 Golden Carrots at once",
+				"translate": "advancements.shroomhearth_challenges.carrot_connoisseur.description"
+			},
+			{
+				"text": "\n\n"
+			},
+			{
+				"color": "gray",
+				"fallback": "Created by: ",
+				"translate": "advancements.shroomhearth_challenges.created_by"
+			},
+			{
+				"color": "gray",
+				"text": "Depressus"
+			}
+		],
+		"frame": "challenge"
+	},
+	"rewards": {
+		"loot": [
+			"shroomhearth:challenges/depressus"
+		]
+	},
+	"criteria": {
+		"carrot_connoisseur": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

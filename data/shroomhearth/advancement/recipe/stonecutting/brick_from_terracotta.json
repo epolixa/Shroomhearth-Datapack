@@ -19,7 +19,7 @@
     "has_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "shroomhearth:stonecutting/brick_from_terracotta"
+        "recipes": "shroomhearth:stonecutting/brick_from_terracotta"
       }
     }
   },

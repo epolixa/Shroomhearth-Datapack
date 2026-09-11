@@ -7,12 +7,12 @@
           "type": "item",
           "name": "minecraft:knowledge_book",
           "weight": 1,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:recipes": [
-                  "world_hall:knowledge_book_dummy"
+                  "shroomhearth:knowledge_book_dummy"
                 ]
               }
             }

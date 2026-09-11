@@ -4,7 +4,13 @@
             "trigger": "minecraft:entity_hurt_player",
             "conditions": {
                 "player": {
-                    "nbt": "{Tags:[\"using_echo_horn\"]}"
+                    "type": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "minecraft:entity_tags": {
+                            "all_of": ["using_echo_horn"]
+                        }
+                    }
                 }
             }
         }

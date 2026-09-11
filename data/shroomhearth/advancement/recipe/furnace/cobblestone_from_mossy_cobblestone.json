@@ -19,7 +19,7 @@
     "has_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "shroomhearth:furnace/cobblestone_from_mossy_cobblestone"
+        "recipes": "shroomhearth:furnace/cobblestone_from_mossy_cobblestone"
       }
     }
   },

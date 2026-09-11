@@ -1,0 +1,8 @@
+﻿{
+  "ingredient": "minecraft:stripped_crimson_stem",
+  "result": {
+    "id": "minecraft:crimson_fence",
+    "count": 2
+  },
+  "type": "minecraft:stonecutting"
+}

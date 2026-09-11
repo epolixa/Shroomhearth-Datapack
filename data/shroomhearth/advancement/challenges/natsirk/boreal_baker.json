@@ -42,9 +42,10 @@
 		"crafted_bread": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-				"recipe_id": "minecraft:bread",
+				"recipes": "minecraft:bread",
 				"player": {
-					"location": {
+					"type": "minecraft:location_check",
+					"predicate": {
 						"biomes": "#shroomhearth:boreal_baker"
 					}
 				}
@@ -53,9 +54,10 @@
 		"crafted_cake": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-				"recipe_id": "minecraft:cake",
+				"recipes": "minecraft:cake",
 				"player": {
-					"location": {
+					"type": "minecraft:location_check",
+					"predicate": {
 						"biomes": "#shroomhearth:boreal_baker"
 					}
 				}
@@ -64,9 +66,10 @@
 		"crafted_cookies": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-				"recipe_id": "minecraft:cookie",
+				"recipes": "minecraft:cookie",
 				"player": {
-					"location": {
+					"type": "minecraft:location_check",
+					"predicate": {
 						"biomes": "#shroomhearth:boreal_baker"
 					}
 				}
@@ -75,9 +78,10 @@
 		"crafted_pumpkin_pie": {
 			"trigger": "minecraft:recipe_crafted",
 			"conditions": {
-				"recipe_id": "minecraft:pumpkin_pie",
+				"recipes": "minecraft:pumpkin_pie",
 				"player": {
-					"location": {
+					"type": "minecraft:location_check",
+					"predicate": {
 						"biomes": "#shroomhearth:boreal_baker"
 					}
 				}

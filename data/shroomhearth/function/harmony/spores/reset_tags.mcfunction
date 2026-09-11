@@ -1,3 +1,4 @@
+tag @s remove spores_of_spookiness
 tag @s remove spores_of_armor
 tag @s remove spores_of_ease
 tag @s remove spores_of_experience

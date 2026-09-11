@@ -7,5 +7,8 @@ tellraw @a[tag=debug_wandering_trader] [{"text":"[shroomhearth:wandering_trader/
 # revoke trigger
 advancement revoke @s only shroomhearth:wandering_trader/player_interacted_with_wandering_trader
 
-# announce the trader
-execute as @n[type=minecraft:wandering_trader,tag=!announced] at @s run function shroomhearth:wandering_trader/announce
+# tag the trader for delayed announcement
+tag @n[type=minecraft:wandering_trader,tag=!interacted,tag=!announced] add interacted
+
+# schedule announcement in 1 second
+schedule function shroomhearth:wandering_trader/scheduled_announcement 1s

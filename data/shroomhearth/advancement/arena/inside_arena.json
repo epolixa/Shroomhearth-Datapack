@@ -3,12 +3,7 @@
 		"enter_arena": {
 			"trigger": "minecraft:location",
 			"conditions": {
-				"player": [
-                    {
-                        "condition": "minecraft:reference",
-                        "name": "shroomhearth:arena/in_arena"
-                    }
-                ]
+				"player": "shroomhearth:arena/in_arena"
 			}
 		}
 	},

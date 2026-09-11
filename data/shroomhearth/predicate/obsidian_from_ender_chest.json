@@ -1,24 +1,15 @@
-[
-    {
-        "condition": "minecraft:inverted",
-        "term": {
-            "condition": "minecraft:match_tool",
+{
+    "type": "minecraft:all_of",
+    "terms": [
+        {
+            "type": "minecraft:inverted",
+            "term": "minecraft:tool/can_silk_touch"
+        },
+        {
+            "type": "minecraft:match_tool",
             "predicate": {
-                "enchantments": [
-                    {
-                        "enchantment": "minecraft:silk_touch",
-                        "levels": {
-                            "min": 1
-                        }
-                    }
-                ]
+                "items": "#shroomhearth:pp_tools"
             }
         }
-    },
-    {
-        "condition": "minecraft:match_tool",
-        "predicate": {
-            "tag": "shroomhearth:pp_tools"
-        }
-    }
-]
+    ]
+}

@@ -19,7 +19,7 @@
       "has_recipe": {
         "trigger": "minecraft:recipe_unlocked",
         "conditions": {
-          "recipe": "shroomhearth:blast_furnace/deepslate_from_cobbled_deepslate"
+          "recipes": "shroomhearth:blast_furnace/deepslate_from_cobbled_deepslate"
         }
       }
     },

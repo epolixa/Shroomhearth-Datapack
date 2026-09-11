@@ -16,8 +16,8 @@ scoreboard players add @s ender_dragon_stats_hits 1
 # increment total dragons slain for each player involved
 scoreboard players add @a[predicate=shroomhearth:ender_dragon/on_main_end_island] ender_dragon_stats_total_slain 1
 
-# grant laura advancement if slain 20 dragons
-advancement grant @a[scores={ender_dragon_stats_total_slain=20..}] only shroomhearth:challenges/lalalauraaaa/crazy_dragon_lady
+# grant laura advancement if slain 100 dragons
+advancement grant @a[scores={ender_dragon_stats_total_slain=100..}] only shroomhearth:challenges/lalalauraaaa/crazy_dragon_lady
 
 # grant soaring slayer advancement to any players who still have the tag, and remove the tag
 advancement grant @a[predicate=shroomhearth:ender_dragon/on_main_end_island,tag=soaring_slayer] only shroomhearth:challenges/batboy272/soaring_slayer
@@ -36,8 +36,8 @@ execute as @a[predicate=shroomhearth:ender_dragon/on_main_end_island,scores={end
 # set ender_dragon_slain
 scoreboard players set ender_dragon_slain shroomhearth.ender_dragon 1
 
-# give harmony to each other participating player
-execute as @a[predicate=shroomhearth:ender_dragon/on_main_end_island] at @s run scoreboard players add @a[predicate=shroomhearth:ender_dragon/on_main_end_island,distance=0.1..] harmony 8
+# grant each player 64 harmony for every other participating player
+execute as @a[predicate=shroomhearth:ender_dragon/on_main_end_island] at @s run scoreboard players add @a[predicate=shroomhearth:ender_dragon/on_main_end_island,distance=0.0625..] harmony 64
 
 # kickoff checks for dissolve
 function shroomhearth:ender_dragon/check_dissolved

@@ -19,7 +19,7 @@
     "has_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "shroomhearth:stonecutting/sandstone/red_sand_from_cut_red_sandstone_slab"
+        "recipes": "shroomhearth:stonecutting/sandstone/red_sand_from_cut_red_sandstone_slab"
       }
     }
   },

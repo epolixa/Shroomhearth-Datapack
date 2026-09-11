@@ -19,7 +19,7 @@
     "has_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "shroomhearth:mob_heads/creeper_head"
+        "recipes": "shroomhearth:mob_heads/creeper_head"
       }
     }
   },

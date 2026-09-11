@@ -1,22 +1,21 @@
 {
-    "condition": "minecraft:all_of",
+    "type": "minecraft:all_of",
     "terms": [
         {
-            "condition": "minecraft:reference",
-            "name": "shroomhearth:ender_dragon/dragon_can_bite"
+            "type": "minecraft:all_of",
+            "terms": [
+                "shroomhearth:ender_dragon/dragon_can_bite",
+                "shroomhearth:random_chance_50"
+            ]
         },
         {
-            "condition": "minecraft:entity_scores",
+            "type": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
                 "snatch_cooldown": {
                     "max": 0
                 }
             }
-        },
-        {
-            "condition": "minecraft:reference",
-            "name": "shroomhearth:random_chance_50"
         }
     ]
 }

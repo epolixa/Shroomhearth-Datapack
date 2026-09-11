@@ -4,6 +4,9 @@ scoreboard objectives add shroomhearth dummy
 # Global random value holder
 scoreboard players set random shroomhearth 0
 
+# Globals for simple raycasting
+scoreboard players set raycast_steps shroomhearth 0
+
 # Global count of online players
 scoreboard players set player_count shroomhearth 0
 
@@ -22,8 +25,10 @@ scoreboard objectives add climb_one_cm minecraft.custom:minecraft.climb_one_cm
 scoreboard objectives add crouch_one_cm minecraft.custom:minecraft.crouch_one_cm
 scoreboard objectives add fall_one_cm minecraft.custom:minecraft.fall_one_cm
 scoreboard objectives add fly_one_cm minecraft.custom:minecraft.fly_one_cm
+scoreboard objectives add happy_ghast_one_cm minecraft.custom:minecraft.happy_ghast_one_cm
 scoreboard objectives add horse_one_cm minecraft.custom:minecraft.horse_one_cm
 scoreboard objectives add minecart_one_cm minecraft.custom:minecraft.minecart_one_cm
+scoreboard objectives add nautilus_one_cm minecraft.custom:minecraft.nautilus_one_cm
 scoreboard objectives add pig_one_cm minecraft.custom:minecraft.pig_one_cm
 scoreboard objectives add sprint_one_cm minecraft.custom:minecraft.sprint_one_cm
 scoreboard objectives add strider_one_cm minecraft.custom:minecraft.strider_one_cm
@@ -68,6 +73,9 @@ scoreboard objectives add omen_level dummy
 
 # Track if the player dropped an item
 scoreboard objectives add drop minecraft.custom:minecraft.drop
+
+# Tracks number of seconds the player has been inactive
+scoreboard objectives add player_inactive dummy
 
 
 # Teams for name colors

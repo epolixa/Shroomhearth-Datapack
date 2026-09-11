@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "player_used_name_tag_with_rune_of_swiftness": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:name_tag",
+          "predicates": {
+            "minecraft:enchantments": [
+              {
+                "enchantments": "shroomhearth:runes/rune_of_swiftness"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "shroomhearth:runes/advancement_reward/player_used_name_tag_with_rune_of_swiftness"
+  }
+}

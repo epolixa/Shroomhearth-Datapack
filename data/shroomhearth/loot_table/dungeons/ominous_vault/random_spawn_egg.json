@@ -7,9 +7,9 @@
                 {
                     "type": "item",
                     "name": "minecraft:zombie_spawn_egg",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": {
                                 "type": "minecraft:uniform",
                                 "max": 3.0,
@@ -21,9 +21,9 @@
                 {
                     "type": "item",
                     "name": "minecraft:skeleton_spawn_egg",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": {
                                 "type": "minecraft:uniform",
                                 "max": 3.0,
@@ -35,9 +35,9 @@
                 {
                     "type": "item",
                     "name": "minecraft:spider_spawn_egg",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": {
                                 "type": "minecraft:uniform",
                                 "max": 3.0,
@@ -49,9 +49,9 @@
                 {
                     "type": "item",
                     "name": "minecraft:cave_spider_spawn_egg",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": {
                                 "type": "minecraft:uniform",
                                 "max": 3.0,
@@ -63,9 +63,9 @@
                 {
                     "type": "item",
                     "name": "minecraft:silverfish_spawn_egg",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": {
                                 "type": "minecraft:uniform",
                                 "max": 3.0,
@@ -77,9 +77,9 @@
                 {
                     "type": "item",
                     "name": "minecraft:blaze_spawn_egg",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": {
                                 "type": "minecraft:uniform",
                                 "max": 3.0,
@@ -91,9 +91,9 @@
                 {
                     "type": "item",
                     "name": "minecraft:magma_cube_spawn_egg",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": {
                                 "type": "minecraft:uniform",
                                 "max": 3.0,

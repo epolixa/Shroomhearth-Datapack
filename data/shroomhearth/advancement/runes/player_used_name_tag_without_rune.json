@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "player_used_name_tag_without_rune": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:name_tag",
+          "components": {
+            "minecraft:enchantments": {}
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "shroomhearth:runes/advancement_reward/player_used_name_tag_without_rune"
+  }
+}

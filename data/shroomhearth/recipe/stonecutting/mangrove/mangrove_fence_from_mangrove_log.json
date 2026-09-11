@@ -1,0 +1,8 @@
+﻿{
+  "ingredient": "minecraft:mangrove_log",
+  "result": {
+    "id": "minecraft:mangrove_fence",
+    "count": 2
+  },
+  "type": "minecraft:stonecutting"
+}

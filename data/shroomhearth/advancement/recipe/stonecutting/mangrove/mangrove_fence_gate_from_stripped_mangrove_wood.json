@@ -1,0 +1,34 @@
+﻿{
+  "criteria": {
+    "has_material": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:stripped_mangrove_wood"
+            ]
+          }
+        ]
+      }
+    },
+    "has_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipes": "shroomhearth:stonecutting/mangrove/mangrove_fence_gate_from_stripped_mangrove_wood"
+      }
+    }
+  },
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "shroomhearth:stonecutting/mangrove/mangrove_fence_gate_from_stripped_mangrove_wood"
+    ]
+  },
+  "requirements": [
+    [
+      "has_material",
+      "has_recipe"
+    ]
+  ]
+}

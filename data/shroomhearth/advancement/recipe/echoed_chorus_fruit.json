@@ -24,7 +24,7 @@
         "has_recipe": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "shroomhearth:echoed_chorus_fruit"
+                "recipes": "shroomhearth:echoed_chorus_fruit"
             }
         }
     },

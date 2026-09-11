@@ -3,14 +3,7 @@
     "inventory_changed_blacklist": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:location_check",
-            "predicate": {
-              "dimension": "shroomhearth:the_porcelain"
-            }
-          }
-        ],
+        "player": "shroomhearth:porcelain/in_the_porcelain",
         "items": [
           {
             "items": "#shroomhearth:porcelain/blacklist"

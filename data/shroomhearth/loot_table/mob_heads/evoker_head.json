@@ -1,0 +1,35 @@
+﻿{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:player_head",
+                    "modifier": {
+                        "type": "minecraft:set_components",
+                        "components": {
+                            "minecraft:item_name": "Evoker Head",
+                            "minecraft:mob_visibility": {
+                                "targeting_entity_types": "minecraft:evoker",
+                                "visibility": 0.5
+                            },
+                            "minecraft:note_block_sound": "minecraft:entity.evoker.ambient",
+                            "minecraft:custom_data": {
+                                "shroomhearth_id": "evoker_head"
+                            },
+                            "minecraft:profile": {
+                                "properties": [
+                                    {
+                                        "name": "textures",
+                                        "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDk1NDEzNWRjODIyMTM5NzhkYjQ3ODc3OGFlMTIxMzU5MWI5M2QyMjhkMzZkZDU0ZjFlYTFkYTQ4ZTdjYmE2In19fQ=="
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

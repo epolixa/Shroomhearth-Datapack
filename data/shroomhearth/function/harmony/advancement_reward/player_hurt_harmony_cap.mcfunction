@@ -7,5 +7,8 @@ tellraw @a[tag=debug_harmony] "[shroomhearth:harmony/harmony_cap/advancement_rew
 # Revoke trigger
 advancement revoke @s only shroomhearth:harmony/player_hurt_harmony_cap
 
+# Tag the attacked entity
+tag @n[tag=harmony_cap_interaction,nbt={attack:{}}] add player_hurt_harmony_cap
+
 # Drop item and remove the harmony cap interaction entity
-execute as @n[tag=harmony_cap_interaction,nbt={attack:{}}] at @s run function shroomhearth:harmony/harmony_cap/drop_item
+execute as @n[tag=player_hurt_harmony_cap] at @s run function shroomhearth:harmony/harmony_cap/drop_item

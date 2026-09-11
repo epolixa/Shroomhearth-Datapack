@@ -1,0 +1,27 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:heart_pottery_sherd"
+                }
+            ],
+            "modifier": {
+                "type": "minecraft:set_components",
+                "components": {
+                    "minecraft:item_name": {
+                        "translate": "item.shroomhearth.shroomhearth_pottery_sherd",
+                        "fallback": "Shroomhearth Pottery Sherd"
+                    },
+                    "minecraft:item_model": "shroomhearth:shroomhearth_pottery_sherd",
+                    "minecraft:provides_pottery_pattern": "shroomhearth:shroomhearth",
+                    "minecraft:custom_data": {
+                        "shroomhearth_id": "shroomhearth_pottery_sherd"
+                    }
+                }
+            }
+        }
+    ]
+}

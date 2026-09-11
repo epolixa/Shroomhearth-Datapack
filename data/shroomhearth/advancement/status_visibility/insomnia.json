@@ -3,12 +3,7 @@
         "insomnia": {
             "trigger": "minecraft:location",
             "conditions": {
-                "player": [
-                    {
-                        "condition": "minecraft:reference",
-                        "name": "shroomhearth:status_visibility/insomnia"
-                    }
-                ]
+                "player": "shroomhearth:status_visibility/insomnia"
             }
         }
     },

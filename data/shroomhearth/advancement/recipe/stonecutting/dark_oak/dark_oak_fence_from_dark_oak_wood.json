@@ -1,0 +1,34 @@
+﻿{
+  "criteria": {
+    "has_material": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:dark_oak_wood"
+            ]
+          }
+        ]
+      }
+    },
+    "has_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipes": "shroomhearth:stonecutting/dark_oak/dark_oak_fence_from_dark_oak_wood"
+      }
+    }
+  },
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "shroomhearth:stonecutting/dark_oak/dark_oak_fence_from_dark_oak_wood"
+    ]
+  },
+  "requirements": [
+    [
+      "has_material",
+      "has_recipe"
+    ]
+  ]
+}

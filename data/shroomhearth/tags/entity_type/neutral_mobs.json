@@ -1,20 +1,24 @@
 {
-    "replace": false,
-    "values": [
-        "minecraft:bee",
-        "minecraft:dolphin",
-        "minecraft:goat",
-        "minecraft:iron_golem",
-        "minecraft:llama",
-        "minecraft:nautilus",
-        "minecraft:zombie_nautilus",
-        "minecraft:polar_bear",
-        "minecraft:pufferfish",
-        "minecraft:snow_golem",
-        "minecraft:trader_llama",
-        "minecraft:wolf",
-        "minecraft:enderman",
-        "minecraft:piglin",
-        "minecraft:zombified_piglin"
-    ]
+  "replace": false,
+  "values": [
+    "minecraft:bee",
+    "minecraft:cave_spider",
+    "minecraft:dolphin",
+    "minecraft:drowned",
+    "minecraft:enderman",
+    "minecraft:fox",
+    "minecraft:goat",
+    "minecraft:iron_golem",
+    "minecraft:llama",
+    "minecraft:nautilus",
+    "minecraft:panda",
+    "minecraft:piglin",
+    "minecraft:polar_bear",
+    "minecraft:pufferfish",
+    "minecraft:spider",
+    "minecraft:trader_llama",
+    "minecraft:wolf",
+    "minecraft:zombie_nautilus",
+    "minecraft:zombified_piglin"
+  ]
 }
