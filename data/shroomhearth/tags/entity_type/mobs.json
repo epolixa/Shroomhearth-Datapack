@@ -1,7 +1,7 @@
 {
-    "replace": false,
-    "values": [
-        "#shroomhearth:passive_mobs",
-        "#shroomhearth:threat_mobs"
-    ]
+  "replace": false,
+  "values": [
+    "#shroomhearth:passive_mobs",
+    "#shroomhearth:threat_mobs"
+  ]
 }
