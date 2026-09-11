@@ -9,9 +9,7 @@ advancement revoke @s only shroomhearth:runes/player_used_name_tag_with_rune_of_
 
 # set the rune parameters in storage
 data modify storage shroomhearth:runes name_tag.rune set value "rune_of_largeness"
-data modify storage shroomhearth:runes name_tag.attribute set value "minecraft:scale"
-data modify storage shroomhearth:runes name_tag.operation set value "add_multiplied_total"
-data modify storage shroomhearth:runes name_tag.value set value 0.5
+data modify storage shroomhearth:runes name_tag.attributes set value [{attribute:"minecraft:scale",id:"shroomhearth:name_tag_rune_of_largeness.scale",operation:"add_multiplied_total",value:0.5}]
 
 # apply the rune to target mob
 execute anchored eyes positioned ^ ^ ^ run function shroomhearth:runes/start_name_tag_raycast

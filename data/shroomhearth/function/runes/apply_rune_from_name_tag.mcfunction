@@ -1,7 +1,7 @@
 # Executor: A mob that just had a name tag with a rune applied to it
 # Position: The mob
 
-tellraw @a[tag=debug_runes] [{"text":"[shroomhearth:runes/advancement_reward/apply_rune_from_name_tag] applying a name tag with rune to "},{"selector":"@s"}]
+tellraw @a[tag=debug_runes] [{"text":"[shroomhearth:runes/apply_rune_from_name_tag] applying a name tag with rune to "},{"selector":"@s"}]
 
 
 # remove prior name tag runes from the mob
