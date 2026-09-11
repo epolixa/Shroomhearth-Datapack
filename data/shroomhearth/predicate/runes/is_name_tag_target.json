@@ -2,6 +2,7 @@
   "type": "minecraft:entity_properties",
   "entity": "this",
   "predicate": {
+    "minecraft:entity_type": "#shroomhearth:mobs",
     "minecraft:predicates": {
       "minecraft:custom_name": {}
     }
