@@ -15,7 +15,7 @@
                   "source_entity": {
                     "minecraft:distance": {
                       "absolute": {
-                        "min": 0.1
+                        "min": 0.0625
                       }
                     },
                     "minecraft:entity_type": "minecraft:player"
