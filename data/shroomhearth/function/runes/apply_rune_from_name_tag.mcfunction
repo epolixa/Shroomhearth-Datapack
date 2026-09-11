@@ -4,6 +4,9 @@
 tellraw @a[tag=debug_runes] [{"text":"[shroomhearth:runes/advancement_reward/apply_rune_from_name_tag] applying a name tag with rune to "},{"selector":"@s"}]
 
 
+# remove prior name tag runes from the mob
+function shroomhearth:runes/remove_name_tag_runes
+
 # capture the mob name
 data modify storage shroomhearth:runes name_tag.CustomName set from entity @s CustomName
 

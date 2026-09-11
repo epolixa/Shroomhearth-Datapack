@@ -10,3 +10,6 @@ attribute @s minecraft:scale modifier remove shroomhearth:name_tag_rune_of_large
 # remove name tag rune tags
 tag @s remove name_tag_rune
 tag @s remove name_tag_rune_of_largeness
+
+# remove raycast tag
+tag @s remove name_tag_raycast_target

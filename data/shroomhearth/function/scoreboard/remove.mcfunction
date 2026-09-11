@@ -4,6 +4,9 @@ scoreboard objectives remove shroomhearth
 # Global random value holder
 scoreboard players reset random shroomhearth
 
+# Globals for simple raycasting
+scoreboard players reset raycast_steps shroomhearth
+
 # Global count of online players
 scoreboard players reset player_count shroomhearth
 

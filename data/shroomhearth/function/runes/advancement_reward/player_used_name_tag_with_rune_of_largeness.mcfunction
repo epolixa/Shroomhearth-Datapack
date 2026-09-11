@@ -13,5 +13,9 @@ data modify storage shroomhearth:runes name_tag.attribute set value "minecraft:s
 data modify storage shroomhearth:runes name_tag.operation set value "add_multiplied_total"
 data modify storage shroomhearth:runes name_tag.value set value 0.5
 
-# apply the rune to nearest qualifying mob
-execute anchored eyes positioned ^ ^ ^1.5 as @n[predicate=shroomhearth:runes/is_name_tag_target] at @s run function shroomhearth:runes/apply_rune_from_name_tag
+# apply the rune to target mob
+execute anchored eyes positioned ^ ^ ^ run function shroomhearth:runes/start_name_tag_raycast
+
+execute as @n[tag=name_tag_raycast_target] at @s run particle minecraft:sonic_boom ^ ^ ^ 0 0 0 0 1 normal @a[tag=debug_runes]
+
+execute as @n[tag=name_tag_raycast_target] at @s run function shroomhearth:runes/apply_rune_from_name_tag

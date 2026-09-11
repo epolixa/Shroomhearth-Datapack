@@ -4,6 +4,9 @@ scoreboard objectives add shroomhearth dummy
 # Global random value holder
 scoreboard players set random shroomhearth 0
 
+# Globals for simple raycasting
+scoreboard players set raycast_steps shroomhearth 0
+
 # Global count of online players
 scoreboard players set player_count shroomhearth 0
 
