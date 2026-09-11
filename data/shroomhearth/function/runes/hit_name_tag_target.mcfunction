@@ -7,4 +7,4 @@ particle minecraft:sculk_charge_pop ^ ^ ^ 0 0 0 0 1 normal @a[tag=debug_runes]
 
 
 # tag the target
-tag @n[predicate=shroomhearth:runes/is_name_tag_target,dx=0,dy=0,dz=0] add name_tag_raycast_target
+tag @s add name_tag_raycast_target
