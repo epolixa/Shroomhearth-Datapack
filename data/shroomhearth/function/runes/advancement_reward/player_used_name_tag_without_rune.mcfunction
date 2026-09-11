@@ -12,7 +12,4 @@ execute unless items entity @s weapon.mainhand minecraft:name_tag[minecraft:cust
 
 # remove name tag runes from target mob
 execute anchored eyes positioned ^ ^ ^ run function shroomhearth:runes/start_name_tag_raycast
-
-execute as @n[tag=name_tag_raycast_target] at @s run particle minecraft:sonic_boom ^ ^ ^ 0 0 0 0 1 normal @a[tag=debug_runes]
-
 execute as @n[tag=name_tag_raycast_target] at @s run function shroomhearth:runes/remove_name_tag_runes

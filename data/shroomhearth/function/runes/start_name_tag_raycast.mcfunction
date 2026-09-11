@@ -3,6 +3,9 @@
 
 tellraw @a[tag=debug_runes] [{"text":"[shroomhearth:runes/start_name_tag_raycast] starting raycast from "},{"selector":"@s"}]
 
+
+# https://datapack.wiki/guide/misc/raycasts
+
 # Raycast will increment 0.1 each step. Set to 30 in survival mode for max entity in of 3 blocks and 50 in creative mode for max reach of 5 blocks
 tag @s add raycaster
 execute as @s[gamemode=creative] run scoreboard players set raycast_steps shroomhearth 50
