@@ -1,0 +1,8 @@
+﻿{
+  "ingredient": "minecraft:cherry_log",
+  "result": {
+    "id": "minecraft:cherry_fence",
+    "count": 2
+  },
+  "type": "minecraft:stonecutting"
+}

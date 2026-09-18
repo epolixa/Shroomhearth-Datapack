@@ -1,169 +1,171 @@
 {
-  "criteria": {
-    "distract_piglin": {
-      "trigger": "minecraft:thrown_item_picked_up_by_entity",
-      "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_properties",
-              "predicate": {
-                "minecraft:equipment": {
-                  "head": {
-                    "items": "minecraft:golden_helmet"
-                  }
-                }
-              },
-              "entity": "this"
-            }
-          },
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_properties",
-              "predicate": {
-                "minecraft:equipment": {
-                  "chest": {
-                    "items": "minecraft:golden_chestplate"
-                  }
-                }
-              },
-              "entity": "this"
-            }
-          },
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_properties",
-              "predicate": {
-                "minecraft:equipment": {
-                  "legs": {
-                    "items": "minecraft:golden_leggings"
-                  }
-                }
-              },
-              "entity": "this"
-            }
-          },
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_properties",
-              "predicate": {
-                "minecraft:equipment": {
-                  "feet": {
-                    "items": "minecraft:golden_boots"
-                  }
-                }
-              },
-              "entity": "this"
-            }
-          }
-        ],
-        "item": {
-          "tag": "minecraft:piglin_loved"
-        },
-        "entity": [
-          {
-            "condition": "minecraft:entity_properties",
-            "predicate": {
-              "minecraft:entity_type": "minecraft:piglin",
-              "minecraft:flags": {
-                "is_baby": false
-              }
-            },
-            "entity": "this"
-          }
-        ]
-      }
-    },
-    "distract_piglin_directly": {
-      "trigger": "minecraft:player_interacted_with_entity",
-      "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_properties",
-              "predicate": {
-                "minecraft:equipment": {
-                  "head": {
-                    "items": "minecraft:golden_helmet"
-                  }
-                }
-              },
-              "entity": "this"
-            }
-          },
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_properties",
-              "predicate": {
-                "minecraft:equipment": {
-                  "chest": {
-                    "items": "minecraft:golden_chestplate"
-                  }
-                }
-              },
-              "entity": "this"
-            }
-          },
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_properties",
-              "predicate": {
-                "minecraft:equipment": {
-                  "legs": {
-                    "items": "minecraft:golden_leggings"
-                  }
-                }
-              },
-              "entity": "this"
-            }
-          },
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_properties",
-              "predicate": {
-                "minecraft:equipment": {
-                  "feet": {
-                    "items": "minecraft:golden_boots"
-                  }
-                }
-              },
-              "entity": "this"
-            }
-          }
-        ],
-        "item": {
-          "items": "minecraft:gold_ingot"
-        },
-        "entity": [
-          {
-            "condition": "minecraft:entity_properties",
-            "predicate": {
-              "minecraft:entity_type": "minecraft:piglin",
-              "minecraft:flags": {
-                "is_baby": false
-              }
-            },
-            "entity": "this"
-          }
-        ]
-      }
-    }
-  },
-  "requirements": [
-    [
-      "distract_piglin",
-      "distract_piglin_directly"
-    ]
-  ],
-  "rewards": {
-    "function": "shroomhearth:extra_xp/advancement_reward/bartering"
-  } 
+	"criteria": {
+		"distract_piglin": {
+			"trigger": "minecraft:thrown_item_picked_up_by_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:entity_type": "minecraft:piglin",
+						"minecraft:flags": {
+							"is_baby": false
+						}
+					}
+				},
+				"item": {
+					"items": "#minecraft:piglin_loved"
+				},
+				"player": {
+					"type": "minecraft:all_of",
+					"terms": [
+						{
+							"type": "minecraft:inverted",
+							"term": {
+								"type": "minecraft:entity_properties",
+								"predicate": {
+									"minecraft:equipment": {
+										"head": {
+											"items": "minecraft:golden_helmet"
+										}
+									}
+								},
+								"entity": "this"
+							}
+						},
+						{
+							"type": "minecraft:inverted",
+							"term": {
+								"type": "minecraft:entity_properties",
+								"predicate": {
+									"minecraft:equipment": {
+										"chest": {
+											"items": "minecraft:golden_chestplate"
+										}
+									}
+								},
+								"entity": "this"
+							}
+						},
+						{
+							"type": "minecraft:inverted",
+							"term": {
+								"type": "minecraft:entity_properties",
+								"predicate": {
+									"minecraft:equipment": {
+										"legs": {
+											"items": "minecraft:golden_leggings"
+										}
+									}
+								},
+								"entity": "this"
+							}
+						},
+						{
+							"type": "minecraft:inverted",
+							"term": {
+								"type": "minecraft:entity_properties",
+								"predicate": {
+									"minecraft:equipment": {
+										"feet": {
+											"items": "minecraft:golden_boots"
+										}
+									}
+								},
+								"entity": "this"
+							}
+						}
+					]
+				}
+			}
+		},
+		"distract_piglin_directly": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:entity_type": "minecraft:piglin",
+						"minecraft:flags": {
+							"is_baby": false
+						}
+					}
+				},
+				"item": {
+					"items": "minecraft:gold_ingot"
+				},
+				"player": {
+					"type": "minecraft:all_of",
+					"terms": [
+						{
+							"type": "minecraft:inverted",
+							"term": {
+								"type": "minecraft:entity_properties",
+								"predicate": {
+									"minecraft:equipment": {
+										"head": {
+											"items": "minecraft:golden_helmet"
+										}
+									}
+								},
+								"entity": "this"
+							}
+						},
+						{
+							"type": "minecraft:inverted",
+							"term": {
+								"type": "minecraft:entity_properties",
+								"predicate": {
+									"minecraft:equipment": {
+										"chest": {
+											"items": "minecraft:golden_chestplate"
+										}
+									}
+								},
+								"entity": "this"
+							}
+						},
+						{
+							"type": "minecraft:inverted",
+							"term": {
+								"type": "minecraft:entity_properties",
+								"predicate": {
+									"minecraft:equipment": {
+										"legs": {
+											"items": "minecraft:golden_leggings"
+										}
+									}
+								},
+								"entity": "this"
+							}
+						},
+						{
+							"type": "minecraft:inverted",
+							"term": {
+								"type": "minecraft:entity_properties",
+								"predicate": {
+									"minecraft:equipment": {
+										"feet": {
+											"items": "minecraft:golden_boots"
+										}
+									}
+								},
+								"entity": "this"
+							}
+						}
+					]
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"distract_piglin",
+			"distract_piglin_directly"
+		]
+	],
+	"rewards": {
+		"function": "shroomhearth:extra_xp/advancement_reward/bartering"
+	}
 }

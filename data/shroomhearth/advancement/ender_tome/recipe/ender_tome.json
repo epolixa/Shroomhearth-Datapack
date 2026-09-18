@@ -3,7 +3,7 @@
         "has_recipe": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "shroomhearth:ender_tome"
+                "recipes": "shroomhearth:ender_tome"
             }
         }
     },

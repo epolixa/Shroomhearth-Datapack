@@ -33,7 +33,7 @@
         "has_recipe": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "shroomhearth:copper/oxidize_copper_door"
+                "recipes": "shroomhearth:copper/oxidize_copper_door"
             }
         }
     },

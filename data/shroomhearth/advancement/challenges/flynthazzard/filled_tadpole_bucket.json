@@ -7,9 +7,13 @@
 					"items": "minecraft:tadpole_bucket"
 				},
 				"player": {
-					"minecraft:type_specific/player": {
-						"advancements": {
-							"shroomhearth:challenges/flynthazzard/five_hundred_liters_of_frogs": false
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"shroomhearth:challenges/flynthazzard/five_hundred_liters_of_frogs": false
+							}
 						}
 					}
 				}
@@ -18,5 +22,5 @@
 	},
 	"rewards": {
 		"function": "shroomhearth:challenges/advancement_reward/flynthazzard/filled_tadpole_bucket"
-	} 
+	}
 }

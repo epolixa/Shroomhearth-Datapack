@@ -7,9 +7,13 @@
 					"items": "#shroomhearth:challenges/non_melon_slice"
 				},
 				"player": {
-					"minecraft:type_specific/player": {
-						"advancements": {
-							"shroomhearth:challenges/epolixa/melontarian": false
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"advancements": {
+								"shroomhearth:challenges/epolixa/melontarian": false
+							}
 						}
 					}
 				}
@@ -18,5 +22,5 @@
 	},
 	"rewards": {
 		"function": "shroomhearth:challenges/advancement_reward/epolixa/consume_non_melon_slice"
-	} 
+	}
 }

@@ -1,13 +1,7 @@
-[
-    {
-        "condition": "minecraft:entity_properties",
-        "entity": "this",
-        "predicate": {
-            "minecraft:entity_type": "minecraft:player"
-        }
-    },
-    {
-        "condition": "minecraft:reference",
-        "name": "shroomhearth:arena/in_arena"
-    }
-]
+{
+    "type": "minecraft:all_of",
+    "terms": [
+        "shroomhearth:is_player",
+        "shroomhearth:arena/in_arena"
+    ]
+}

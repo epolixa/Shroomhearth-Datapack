@@ -18,31 +18,34 @@
 		"the_good_word": {
 			"trigger": "minecraft:placed_block",
 			"conditions": {
-				"location": [
-					{
-						"condition": "minecraft:match_tool",
-						"predicate": {
-							"tag": "minecraft:signs"
-						}
-					},
-					{
-						"condition": "minecraft:location_check",
-						"predicate": {
-							"dimension": "minecraft:overworld",
-							"position": {
-								"x": {
-									"min": 60,
-									"max": 68
-								},
-								"y": {
-									"min": 87,
-									"max": 93
-								},
-								"z": -905
+				"location": {
+					"type": "minecraft:all_of",
+					"terms": [
+						{
+							"type": "minecraft:match_tool",
+							"predicate": {
+								"items": "#minecraft:signs"
+							}
+						},
+						{
+							"type": "minecraft:location_check",
+							"predicate": {
+								"dimension": "minecraft:overworld",
+								"position": {
+									"x": {
+										"min": 60,
+										"max": 68
+									},
+									"y": {
+										"min": 87,
+										"max": 93
+									},
+									"z": -905
+								}
 							}
 						}
-					}
-				]
+					]
+				}
 			}
 		}
 	}

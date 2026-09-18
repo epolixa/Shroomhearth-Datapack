@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:all_of",
+  "terms": [
+    {
+      "type": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "minecraft:equipment": {
+          "offhand": {
+            "predicates": {
+              "custom_data": {
+                "shroomhearth_id": "suspicious_candy"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "minecraft:random_chance",
+      "chance": 0.225
+    }
+  ]
+}

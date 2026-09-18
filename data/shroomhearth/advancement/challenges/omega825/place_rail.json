@@ -3,31 +3,32 @@
 		"place_rail": {
 			"trigger": "minecraft:placed_block",
 			"conditions": {
-				"location": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"minecraft:type_specific/player": {
-								"player": {
+				"location": {
+					"type": "minecraft:all_of",
+					"terms": [
+						{
+							"type": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"minecraft:type_specific/player": {
 									"advancements": {
 										"shroomhearth:challenges/omega825/omega825": false
 									}
 								}
 							}
+						},
+						{
+							"type": "minecraft:match_tool",
+							"predicate": {
+								"items": "#minecraft:rails"
+							}
 						}
-					},
-					{
-						"condition": "minecraft:match_tool",
-						"predicate": {
-							"items": "#minecraft:rails"
-						}
-					}
-				]
+					]
+				}
 			}
 		}
 	},
 	"rewards": {
 		"function": "shroomhearth:challenges/omega825"
-	} 
+	}
 }

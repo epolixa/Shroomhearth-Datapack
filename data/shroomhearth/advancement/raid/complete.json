@@ -3,12 +3,7 @@
 		"complete": {
 			"trigger": "minecraft:hero_of_the_village",
 			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:reference",
-						"name": "shroomhearth:raid/40_minutes_since_raid_complete"
-					}
-				]
+				"player": "shroomhearth:raid/40_minutes_since_raid_complete"
 			}
 		}
 	},

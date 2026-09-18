@@ -29,7 +29,7 @@
         "has_recipe": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "shroomhearth:rooted_dirt"
+                "recipes": "shroomhearth:rooted_dirt"
             }
         }
     },

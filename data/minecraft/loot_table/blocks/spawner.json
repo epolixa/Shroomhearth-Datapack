@@ -2,37 +2,81 @@
     "type": "minecraft:block",
     "pools": [
         {
-            "rolls": 1,
-            "entries": [
+            "rolls": 1.0,
+            "condition": {
+                "type": "minecraft:survives_explosion"
+            },
+            "modifier": [
                 {
-                    "type": "minecraft:item",
-                    "name": "minecraft:spawner",
-                    "functions": [
-                        {
-                            "function": "minecraft:copy_custom_data",
-                            "source": "block_entity",
-                            "ops": [
-                                {
-                                    "source": "SpawnData",
-                                    "target": "SpawnData",
-                                    "op": "replace"
-                                }
-                            ]
-                        },
-                        {
-                            "enchantment": "minecraft:fortune",
-                            "formula": "minecraft:ore_drops",
-                            "function": "minecraft:apply_bonus"
-                        },
-                        {
-                            "function": "minecraft:explosion_decay"
-                        }
-                    ]
+                    "type": "minecraft:apply_bonus",
+                    "enchantment": "minecraft:fortune",
+                    "formula": "minecraft:ore_drops"
+                },
+                {
+                    "type": "minecraft:explosion_decay"
                 }
             ],
-            "conditions": [
+            "entries": [
                 {
-                    "condition": "minecraft:survives_explosion"
+                    "type": "minecraft:alternatives",
+                    "children": [
+                        {
+                            "type": "minecraft:item",
+                            "condition": {
+                                "type": "minecraft:match_block",
+                                "nbt": "{SpawnData:{entity:{id:\"minecraft:blaze\"}}}"
+                            },
+                            "name": "minecraft:blaze_spawn_egg"
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "condition": {
+                                "type": "minecraft:match_block",
+                                "nbt": "{SpawnData:{entity:{id:\"minecraft:cave_spider\"}}}"
+                            },
+                            "name": "minecraft:cave_spider_spawn_egg"
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "condition": {
+                                "type": "minecraft:match_block",
+                                "nbt": "{SpawnData:{entity:{id:\"minecraft:magma_cube\"}}}"
+                            },
+                            "name": "minecraft:magma_cube_spawn_egg"
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "condition": {
+                                "type": "minecraft:match_block",
+                                "nbt": "{SpawnData:{entity:{id:\"minecraft:silverfish\"}}}"
+                            },
+                            "name": "minecraft:silverfish_spawn_egg"
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "condition": {
+                                "type": "minecraft:match_block",
+                                "nbt": "{SpawnData:{entity:{id:\"minecraft:skeleton\"}}}"
+                            },
+                            "name": "minecraft:skeleton_spawn_egg"
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "condition": {
+                                "type": "minecraft:match_block",
+                                "nbt": "{SpawnData:{entity:{id:\"minecraft:spider\"}}}"
+                            },
+                            "name": "minecraft:spider_spawn_egg"
+                        },
+                        {
+                            "type": "minecraft:item",
+                            "condition": {
+                                "type": "minecraft:match_block",
+                                "nbt": "{SpawnData:{entity:{id:\"minecraft:zombie\"}}}"
+                            },
+                            "name": "minecraft:zombie_spawn_egg"
+                        }
+                    ]
                 }
             ]
         }

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:blasting",
+  "group": "copper_nugget",
+  "category": "misc",
+  "ingredient": "minecraft:copper_spear",
+  "result": {
+    "id": "minecraft:copper_nugget",
+    "count": 1
+  },
+  "experience": 0.1,
+  "cookingtime": 100
+}

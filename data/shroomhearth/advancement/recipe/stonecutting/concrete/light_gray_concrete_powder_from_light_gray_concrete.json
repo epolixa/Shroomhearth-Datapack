@@ -19,7 +19,7 @@
     "has_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "shroomhearth:stonecutting/concrete/light_gray_concrete_powder_from_light_gray_concrete"
+        "recipes": "shroomhearth:stonecutting/concrete/light_gray_concrete_powder_from_light_gray_concrete"
       }
     }
   },

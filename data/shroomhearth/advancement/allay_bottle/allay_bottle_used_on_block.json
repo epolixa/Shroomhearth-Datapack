@@ -3,30 +3,33 @@
         "allay_bottle_used_on_block": {
             "trigger": "minecraft:item_used_on_block",
             "conditions": {
-                "location": [
-                    {
-                        "condition": "minecraft:match_tool",
-                        "predicate": {
-                            "items": "minecraft:allay_spawn_egg",
-                            "predicates": {
-                                "minecraft:custom_data": {
-                                    "shroomhearth_id": "allay_bottle"
-                                }
-                            }
-                        }
-                    },
-                    {
-                        "condition": "minecraft:inverted",
-                        "term": {
-                            "condition": "minecraft:location_check",
+                "location": {
+                    "type": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "type": "minecraft:match_tool",
                             "predicate": {
-                                "block": {
-                                    "blocks": "minecraft:spawner"
+                                "items": "minecraft:allay_spawn_egg",
+                                "predicates": {
+                                    "minecraft:custom_data": {
+                                        "shroomhearth_id": "allay_bottle"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "type": "minecraft:inverted",
+                            "term": {
+                                "type": "minecraft:location_check",
+                                "predicate": {
+                                    "block": {
+                                        "blocks": "minecraft:spawner"
+                                    }
                                 }
                             }
                         }
-                    }
-                ]
+                    ]
+                }
             }
         }
     },

@@ -2,60 +2,42 @@
   "type": "minecraft:block",
   "pools": [
     {
-      "bonus_rolls": 0,
       "entries": [
         {
           "type": "minecraft:alternatives",
           "children": [
             {
               "type": "minecraft:item",
-              "conditions": [
-                {
-                  "condition": "minecraft:match_tool",
-                  "predicate": {
-                    "predicates": {
-                      "minecraft:enchantments": [
-                        {
-                          "enchantments": "minecraft:silk_touch",
-                          "levels": {
-                            "min": 1
-                          }
-                        }
-                      ]
-                    }
-                  }
-                }
-              ],
+              "condition": "minecraft:tool/can_silk_touch",
               "name": "minecraft:creaking_heart"
             },
             {
               "type": "minecraft:item",
-              "functions": [
+              "modifier": [
                 {
-                  "add": false,
+                  "type": "minecraft:set_count",
                   "count": {
                     "type": "minecraft:uniform",
-                    "max": 3,
-                    "min": 1
-                  },
-                  "function": "minecraft:set_count"
+                    "max": 3.0,
+                    "min": 1.0
+                  }
                 },
                 {
+                  "type": "minecraft:apply_bonus",
                   "enchantment": "minecraft:fortune",
                   "formula": "minecraft:uniform_bonus_count",
-                  "function": "minecraft:apply_bonus",
                   "parameters": {
                     "bonusMultiplier": 1
                   }
                 },
                 {
-                  "function": "minecraft:limit_count",
+                  "type": "minecraft:limit_count",
                   "limit": {
-                    "max": 9
+                    "max": 9.0
                   }
                 },
                 {
-                  "function": "minecraft:explosion_decay"
+                  "type": "minecraft:explosion_decay"
                 }
               ],
               "name": "minecraft:resin_clump"
@@ -63,75 +45,62 @@
           ]
         }
       ],
-      "rolls": 1
+      "rolls": 1.0
     },
     {
-      "conditions": [
+      "condition": {
+        "type": "minecraft:all_of",
+        "terms": [
+          {
+            "type": "minecraft:inverted",
+            "term": "minecraft:tool/can_silk_touch"
+          },
+          {
+            "type": "minecraft:match_block",
+            "blocks": "minecraft:creaking_heart",
+            "state": {
+              "creaking_heart_state": "awake",
+              "natural": "true"
+            }
+          },
+          {
+            "type": "minecraft:table_bonus",
+            "enchantment": "minecraft:fortune",
+            "chances": [
+              0.025,
+              0.035,
+              0.045,
+              0.055,
+              0.065
+            ]
+          }
+        ]
+      },
+      "entries": [
         {
-          "condition": "minecraft:inverted",
-          "term": {
-            "condition": "minecraft:match_tool",
-            "predicate": {
-              "predicates": {
-                "minecraft:enchantments": [
+          "type": "item",
+          "name": "minecraft:player_head",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:item_name": "Creaking Head",
+              "minecraft:note_block_sound": "minecraft:entity.creaking.ambient",
+              "minecraft:custom_data": {
+                "shroomhearth_id": "creaking_head"
+              },
+              "minecraft:profile": {
+                "properties": [
                   {
-                    "enchantments": "minecraft:silk_touch",
-                    "levels": {
-                      "min": 1
-                    }
+                    "name": "textures",
+                    "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWVmMDA5ZDg2ZmNjNDIwMzYxYTY4Y2JiOGJmYTg1YTc0MjJiZmU5ZTJmMzA2MjQ3YmUxZTFiNWQyMGZjNTJiMSJ9fX0="
                   }
                 ]
               }
             }
           }
-        },
-        {
-          "condition": "minecraft:block_state_property",
-          "block": "minecraft:creaking_heart",
-          "properties": {
-            "creaking_heart_state": "awake",
-            "natural": "true"
-          }
-        },
-        {
-          "chances": [
-            0.025,
-            0.035,
-            0.045,
-            0.055,
-            0.065
-          ],
-          "condition": "minecraft:table_bonus",
-          "enchantment": "minecraft:fortune"
         }
       ],
-      "entries": [
-        {
-          "type": "item",
-          "name": "minecraft:player_head",
-          "functions": [
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:item_name": "Creaking Head",
-                "minecraft:note_block_sound": "minecraft:entity.creaking.ambient",
-                "minecraft:custom_data": {
-                  "shroomhearth_id": "creaking_head"
-                },
-                "minecraft:profile": {
-                  "properties": [
-                    {
-                      "name": "textures",
-                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWVmMDA5ZDg2ZmNjNDIwMzYxYTY4Y2JiOGJmYTg1YTc0MjJiZmU5ZTJmMzA2MjQ3YmUxZTFiNWQyMGZjNTJiMSJ9fX0="
-                    }
-                  ]
-                }
-              }
-            }
-          ]
-        }
-      ],
-      "rolls": 1
+      "rolls": 1.0
     }
   ],
   "random_sequence": "minecraft:blocks/creaking_heart"

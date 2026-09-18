@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "player_move": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:inverted",
+          "term": "shroomhearth:is_active"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "shroomhearth:advancement_reward/player_is_not_active"
+  }
+}

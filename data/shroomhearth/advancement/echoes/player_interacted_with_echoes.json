@@ -4,9 +4,15 @@
             "trigger": "minecraft:player_interacted_with_entity",
             "conditions": {
                 "entity": {
-                    "minecraft:entity_type": "minecraft:interaction",
-                    "minecraft:entity_tags": {
-                        "all_of": ["echoes_interaction"]
+                    "type": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "minecraft:entity_type": "minecraft:interaction",
+                        "minecraft:entity_tags": {
+                            "all_of": [
+                                "echoes_interaction"
+                            ]
+                        }
                     }
                 }
             }

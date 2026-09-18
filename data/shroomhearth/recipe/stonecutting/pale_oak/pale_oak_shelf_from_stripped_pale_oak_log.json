@@ -1,0 +1,8 @@
+﻿{
+  "ingredient": "minecraft:stripped_pale_oak_log",
+  "result": {
+    "id": "minecraft:pale_oak_shelf",
+    "count": 1
+  },
+  "type": "minecraft:stonecutting"
+}

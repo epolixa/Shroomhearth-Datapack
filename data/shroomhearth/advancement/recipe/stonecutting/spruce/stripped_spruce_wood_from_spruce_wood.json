@@ -11,7 +11,9 @@
       "conditions": {
         "items": [
           {
-            "items": ["minecraft:spruce_wood"]
+            "items": [
+              "minecraft:spruce_wood"
+            ]
           }
         ]
       }
@@ -19,7 +21,7 @@
     "has_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "shroomhearth:stonecutting/spruce/stripped_spruce_wood_from_spruce_wood"
+        "recipes": "shroomhearth:stonecutting/spruce/stripped_spruce_wood_from_spruce_wood"
       }
     }
   },

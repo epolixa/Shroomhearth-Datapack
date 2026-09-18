@@ -3,18 +3,18 @@
         "player_hurt_ender_tome": {
             "trigger": "minecraft:player_hurt_entity",
             "conditions": {
-                "entity": [
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "minecraft:entity_type": "minecraft:interaction",
-                            "minecraft:entity_tags": {
-                                "all_of": ["ender_tome_interaction"]
-                            }
+                "entity": {
+                    "type": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "minecraft:entity_type": "minecraft:interaction",
+                        "minecraft:entity_tags": {
+                            "all_of": [
+                                "ender_tome_interaction"
+                            ]
                         }
                     }
-                ]
+                }
             }
         }
     },

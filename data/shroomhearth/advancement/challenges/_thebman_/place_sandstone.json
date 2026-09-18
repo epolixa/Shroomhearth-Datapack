@@ -3,25 +3,28 @@
 		"place_sandstone": {
 			"trigger": "minecraft:placed_block",
 			"conditions": {
-				"location": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"minecraft:type_specific/player": {
-								"advancements": {
-									"shroomhearth:challenges/_thebman_/_thebman_": false
+				"location": {
+					"type": "minecraft:all_of",
+					"terms": [
+						{
+							"type": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"minecraft:type_specific/player": {
+									"advancements": {
+										"shroomhearth:challenges/_thebman_/_thebman_": false
+									}
 								}
 							}
+						},
+						{
+							"type": "minecraft:match_tool",
+							"predicate": {
+								"items": "#shroomhearth:challenges/sandstone_blocks"
+							}
 						}
-					},
-					{
-						"condition": "minecraft:match_tool",
-						"predicate": {
-							"items": "#shroomhearth:challenges/sandstone_blocks"
-						}
-					}
-				]
+					]
+				}
 			}
 		}
 	},

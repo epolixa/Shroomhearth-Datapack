@@ -19,7 +19,7 @@
     "has_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "shroomhearth:blast_furnace/cracked_stone_bricks_from_stone_bricks"
+        "recipes": "shroomhearth:blast_furnace/cracked_stone_bricks_from_stone_bricks"
       }
     }
   },

@@ -1,24 +1,27 @@
-[
-    {
-        "condition": "minecraft:entity_properties",
-        "entity": "this",
-        "predicate": {
-            "minecraft:movement_affected_by": {
-                "block": {
-                    "blocks": "minecraft:slime_block"
+{
+    "type": "minecraft:all_of",
+    "terms": [
+        {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "minecraft:movement_affected_by": {
+                    "block": {
+                        "blocks": "minecraft:slime_block"
+                    }
+                }
+            }
+        },
+        {
+            "type": "minecraft:location_check",
+            "predicate": {
+                "position": {
+                    "y": {
+                        "min": -64,
+                        "max": -58
+                    }
                 }
             }
         }
-    },
-    {
-        "condition": "minecraft:location_check",
-        "predicate": {
-            "position": {
-                "y": {
-                    "min": -64,
-                    "max": -58
-                }
-            }
-        }
-    }
-]
+    ]
+}

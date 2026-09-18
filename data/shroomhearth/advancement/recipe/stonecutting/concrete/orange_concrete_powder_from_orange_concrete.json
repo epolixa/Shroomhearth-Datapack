@@ -19,7 +19,7 @@
     "has_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "shroomhearth:stonecutting/concrete/orange_concrete_powder_from_orange_concrete"
+        "recipes": "shroomhearth:stonecutting/concrete/orange_concrete_powder_from_orange_concrete"
       }
     }
   },

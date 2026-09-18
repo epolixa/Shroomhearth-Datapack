@@ -19,7 +19,7 @@
     "has_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "shroomhearth:furnace/stone_bricks_from_mossy_stone_bricks"
+        "recipes": "shroomhearth:furnace/stone_bricks_from_mossy_stone_bricks"
       }
     }
   },

@@ -44,59 +44,57 @@
 			"conditions": {
 				"items": [
 					{
-						"tag": "shroomhearth:challenges/redstone_components"
+						"items": "#shroomhearth:challenges/redstone_components"
 					}
 				],
-				"player": [
-					{
-						"condition": "entity_scores",
-						"entity": "this",
-						"scores": {
-							"crafted_redstone_torch": {
-								"min": 256
-							},
-							"crafted_repeater": {
-								"min": 256
-							},
-							"crafted_comparator": {
-								"min": 256
-							},
-							"crafted_piston": {
-								"min": 256
-							},
-							"crafted_sticky_piston": {
-								"min": 256
-							},
-							"crafted_observer": {
-								"min": 256
-							},
-							"crafted_target": {
-								"min": 256
-							},
-							"crafted_redstone_lamp": {
-								"min": 256
-							},
-							"crafted_note_block": {
-								"min": 256
-							},
-							"crafted_dropper": {
-								"min": 256
-							},
-							"crafted_dispenser": {
-								"min": 256
-							},
-							"crafted_redstone_block": {
-								"min": 256
-							},
-							"crafted_hopper": {
-								"min": 256
-							},
-							"crafted_daylight_detector": {
-								"min": 256
-							}
+				"player": {
+					"type": "minecraft:entity_scores",
+					"entity": "this",
+					"scores": {
+						"crafted_redstone_torch": {
+							"min": 256
+						},
+						"crafted_repeater": {
+							"min": 256
+						},
+						"crafted_comparator": {
+							"min": 256
+						},
+						"crafted_piston": {
+							"min": 256
+						},
+						"crafted_sticky_piston": {
+							"min": 256
+						},
+						"crafted_observer": {
+							"min": 256
+						},
+						"crafted_target": {
+							"min": 256
+						},
+						"crafted_redstone_lamp": {
+							"min": 256
+						},
+						"crafted_note_block": {
+							"min": 256
+						},
+						"crafted_dropper": {
+							"min": 256
+						},
+						"crafted_dispenser": {
+							"min": 256
+						},
+						"crafted_redstone_block": {
+							"min": 256
+						},
+						"crafted_hopper": {
+							"min": 256
+						},
+						"crafted_daylight_detector": {
+							"min": 256
 						}
 					}
-				]
+				}
 			}
 		}
 	}

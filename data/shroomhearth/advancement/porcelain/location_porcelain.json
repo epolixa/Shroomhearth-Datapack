@@ -1,13 +1,9 @@
 {
   "criteria": {
-    "location": {
+    "location_porcelain": {
       "trigger": "minecraft:location",
       "conditions": {
-        "player": {
-          "location": {
-            "dimension": "shroomhearth:the_porcelain"
-          }
-        }
+        "player": "shroomhearth:porcelain/in_the_porcelain"
       }
     }
   },

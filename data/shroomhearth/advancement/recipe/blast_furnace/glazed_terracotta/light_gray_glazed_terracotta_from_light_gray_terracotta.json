@@ -19,7 +19,7 @@
     "has_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "shroomhearth:blast_furnace/glazed_terracotta/light_gray_glazed_terracotta_from_light_gray_terracotta"
+        "recipes": "shroomhearth:blast_furnace/glazed_terracotta/light_gray_glazed_terracotta_from_light_gray_terracotta"
       }
     }
   },

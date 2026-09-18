@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:blasting",
+  "group": "gold_nugget",
+  "category": "misc",
+  "ingredient": "minecraft:golden_helmet",
+  "result": {
+    "id": "minecraft:gold_nugget",
+    "count": 5
+  },
+  "experience": 0.1,
+  "cookingtime": 100
+}

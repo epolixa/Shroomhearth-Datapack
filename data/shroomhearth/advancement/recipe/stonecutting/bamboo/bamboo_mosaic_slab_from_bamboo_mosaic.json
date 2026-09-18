@@ -19,7 +19,7 @@
     "has_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "shroomhearth:stonecutting/bamboo/bamboo_mosaic_slab_from_bamboo_mosaic"
+        "recipes": "shroomhearth:stonecutting/bamboo/bamboo_mosaic_slab_from_bamboo_mosaic"
       }
     }
   },

@@ -3,26 +3,26 @@
         "insomnia_warning_reset": {
             "trigger": "minecraft:location",
             "conditions": {
-                "player": [
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "minecraft:type_specific/player": {
-                                "advancements": {
-                                    "shroomhearth:status_visibility/insomnia_warning": true
+                "player": {
+                    "type": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "type": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "minecraft:type_specific/player": {
+                                    "advancements": {
+                                        "shroomhearth:status_visibility/insomnia_warning": true
+                                    }
                                 }
                             }
+                        },
+                        {
+                            "type": "minecraft:inverted",
+                            "term": "shroomhearth:status_visibility/insomnia"
                         }
-                    },
-                    {
-                        "condition": "minecraft:inverted",
-                        "term": {
-                            "condition": "minecraft:reference",
-                            "name": "shroomhearth:status_visibility/insomnia"
-                        }
-                    }
-                ]
+                    ]
+                }
             }
         }
     },

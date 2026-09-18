@@ -1,0 +1,8 @@
+﻿{
+  "ingredient": "minecraft:stripped_spruce_wood",
+  "result": {
+    "id": "minecraft:spruce_fence_gate",
+    "count": 1
+  },
+  "type": "minecraft:stonecutting"
+}

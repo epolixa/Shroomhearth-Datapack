@@ -43,7 +43,8 @@
 			"trigger": "minecraft:fishing_rod_hooked",
 			"conditions": {
 				"entity": {
-					"minecraft:location": {
+					"type": "minecraft:location_check",
+					"predicate": {
 						"fluid": {
 							"fluids": "#minecraft:lava"
 						}

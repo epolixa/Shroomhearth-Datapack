@@ -6,9 +6,9 @@
                 {
                     "type": "item",
                     "name": "minecraft:chorus_fruit",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "minecraft:set_components",
+                            "type": "minecraft:set_components",
                             "components": {
                                 "!minecraft:use_cooldown": {},
                                 "minecraft:item_name": {

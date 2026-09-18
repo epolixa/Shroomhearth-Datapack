@@ -4,10 +4,15 @@
 			"trigger": "minecraft:summoned_entity",
 			"conditions": {
 				"entity": {
-					"minecraft:entity_type": "minecraft:wither"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:entity_type": "minecraft:wither"
+					}
 				},
 				"player": {
-					"location": {
+					"type": "minecraft:location_check",
+					"predicate": {
 						"dimension": "minecraft:overworld"
 					}
 				}
@@ -17,10 +22,15 @@
 			"trigger": "minecraft:summoned_entity",
 			"conditions": {
 				"entity": {
-					"minecraft:entity_type": "minecraft:wither"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:entity_type": "minecraft:wither"
+					}
 				},
 				"player": {
-					"location": {
+					"type": "minecraft:location_check",
+					"predicate": {
 						"dimension": "minecraft:the_nether"
 					}
 				}
@@ -30,10 +40,15 @@
 			"trigger": "minecraft:summoned_entity",
 			"conditions": {
 				"entity": {
-					"minecraft:entity_type": "minecraft:wither"
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:entity_type": "minecraft:wither"
+					}
 				},
 				"player": {
-					"location": {
+					"type": "minecraft:location_check",
+					"predicate": {
 						"dimension": "minecraft:the_end"
 					}
 				}
