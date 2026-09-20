@@ -1,38 +1,36 @@
 {
-    "type": "minecraft:entity",
-    "pools": [
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
         {
-            "rolls": 1,
-            "entries": [
-                {
-                    "conditions": [
-                        {
-                            "condition": "minecraft:inverted",
-                            "term": {
-                                "condition": "minecraft:entity_properties",
-                                "entity": "this",
-                                "predicate": {
-                                    "equipment": {
-                                        "head": {
-                                            "items": "minecraft:air"
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                    ],
-                    "type": "item",
-                    "name": "minecraft:player_head",
-                    "modifier": [
-                        {
-                            "type": "set_custom_data",
-                            "tag": {
-                                "shroomhearth_id":"head_slot_target"
-                            }
-                        }
-                    ]
+          "condition": {
+            "type": "minecraft:inverted",
+            "term": {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "head": {
+                    "items": "minecraft:air"
+                  }
                 }
-            ]
+              }
+            }
+          },
+          "type": "item",
+          "name": "minecraft:player_head",
+          "modifier": [
+            {
+              "type": "set_custom_data",
+              "tag": {
+                "shroomhearth_id": "head_slot_target"
+              }
+            }
+          ]
         }
-    ]
+      ]
+    }
+  ]
 }
