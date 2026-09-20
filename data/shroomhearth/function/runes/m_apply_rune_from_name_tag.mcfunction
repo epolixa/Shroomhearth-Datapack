@@ -13,6 +13,6 @@ execute if data storage shroomhearth:runes name_tag.attributes[0] run function s
 execute if data storage shroomhearth:runes name_tag.attributes[1] run function shroomhearth:runes/m_add_attribute_modifier with storage shroomhearth:runes name_tag.attributes[1]
 
 # Set the CustomName back with the Rune icon
-$data modify entity @s CustomName set value [{"extra":[{"atlas":"minecraft:items","sprite":"shroomhearth:item/rune"}],"text":"$(CustomName)"}]
+$data modify entity @s CustomName set value [{"extra":[{"atlas":"minecraft:items","color":"white","sprite":"shroomhearth:item/rune"}],"text":"$(CustomName)"}]
 # In the future can set a specific Rune icon
 #$data modify entity @s CustomName set value [{"extra":[{"atlas":"minecraft:items","sprite":"shroomhearth:item/$(rune)"}],"text":"$(CustomName)"}]

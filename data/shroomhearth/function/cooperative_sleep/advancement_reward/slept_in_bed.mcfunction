@@ -1,3 +1,9 @@
+# Executor: A player who has just slept in a bed
+# Position: The player
+
+tellraw @a[tag=debug_cooperative_sleep] [{"text":"[shroomhearth:cooperative_sleep/advancement_reward/slept_in_bed] Player slept in bed: "},{"selector":"@s"}]
+
+
 # join slept player to a team based on the color of bed they are in
 execute as @s[team=!aqua] at @s if block ~ ~ ~ minecraft:magenta_bed run team join aqua @s
 execute as @s[team=!black] at @s if block ~ ~ ~ minecraft:black_bed run team join black @s

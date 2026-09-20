@@ -21,7 +21,7 @@ kill @n[tag=wandering_trader_text_display]
 function shroomhearth:score_coordinates
 
 # Complete announcement
-tellraw @a [{"selector": "@p"}, {"text":" is visiting a "}, {"color":"#435f91","text":"[Wandering Trader]","hover_event":{"action":"show_text","value":{"nbt":"tooltip.text[]","storage":"shroomhearth:wandering_trader","separator":"\n","interpret":true}}}, {"text": " at "}, {"score":{"name":"@s","objective":"pos_x"}}, {"text": ", "}, {"score":{"name":"@s","objective":"pos_y"}}, {"text": ", "}, {"score":{"name":"@s","objective":"pos_z"}}]
+tellraw @a [{"selector": "@p"}, {"color":"white","text":" is visiting a "}, {"color":"#435f91","text":"[Wandering Trader]","hover_event":{"action":"show_text","value":{"nbt":"tooltip.text[]","storage":"shroomhearth:wandering_trader","separator":"\n","interpret":true}}}, {"color":"white","text": " at "}, {"color":"white","score":{"name":"@s","objective":"pos_x"}}, {"color":"white","text": ", "}, {"color":"white","score":{"name":"@s","objective":"pos_y"}}, {"color":"white","text": ", "}, {"color":"white","score":{"name":"@s","objective":"pos_z"}}]
 
 # Remove glowing
 effect clear @s minecraft:glowing

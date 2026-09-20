@@ -1,0 +1,2 @@
+function shroomhearth:ender_tome/scoreboard/remove
+function shroomhearth:ender_tome/scoreboard/add
