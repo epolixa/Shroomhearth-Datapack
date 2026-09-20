@@ -7,6 +7,7 @@ function shroomhearth:cooperative_sleep/scoreboard/add
 function shroomhearth:echo_horn/scoreboard/add
 function shroomhearth:echoes/scoreboard/add
 function shroomhearth:ender_dragon/scoreboard/add
+function shroomhearth:ender_tome/scoreboard/add
 function shroomhearth:harmony/scoreboard/add
 function shroomhearth:porcelain/scoreboard/add
 function shroomhearth:raid/scoreboard/add

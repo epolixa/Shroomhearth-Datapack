@@ -7,6 +7,7 @@ function shroomhearth:cooperative_sleep/scoreboard/reset
 function shroomhearth:echo_horn/scoreboard/reset
 function shroomhearth:echoes/scoreboard/reset
 function shroomhearth:ender_dragon/scoreboard/reset
+function shroomhearth:ender_tome/scoreboard/reset
 function shroomhearth:harmony/scoreboard/reset
 function shroomhearth:porcelain/scoreboard/reset
 function shroomhearth:raid/scoreboard/reset

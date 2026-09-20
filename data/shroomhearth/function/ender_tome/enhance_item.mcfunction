@@ -10,11 +10,6 @@ data modify storage shroomhearth:ender_tome enhanceable_enchantments_length set 
 data modify storage shroomhearth:ender_tome random_enhanceable_enchantment_index set value 0
 data modify storage shroomhearth:ender_tome selected_enhanceable_enchantment set value ""
 
-# Init the scores
-scoreboard objectives add found_enhanceable_enchantment dummy
-scoreboard objectives add enhanceable_enchantments_length dummy
-scoreboard objectives add random_enhanceable_enchantment_index dummy
-
 # Find enchantments that can be enhanced
 function shroomhearth:ender_tome/find_enhanceable_enchantments
 

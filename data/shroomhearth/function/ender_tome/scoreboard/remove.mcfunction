@@ -1,0 +1,4 @@
+scoreboard objectives remove ender_tome_age
+scoreboard objectives remove found_enhanceable_enchantment
+scoreboard objectives remove enhanceable_enchantments_length
+scoreboard objectives remove random_enhanceable_enchantment_index
