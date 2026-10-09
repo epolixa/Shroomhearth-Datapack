@@ -21,7 +21,7 @@ data modify entity @s WaitTime set value 10
 
 # Roll random potion effect
 # Start with potion effects that have amplifiers
-execute store result score random shroomhearth run random value 0..18
+execute store result score random shroomhearth run random value 0..19
 
 # Most potion effects with amplifiers start at level 2 and can be enhanced to level 4
 # Speed II 10s
@@ -54,21 +54,23 @@ execute if score random shroomhearth matches 11 run data modify entity @s potion
 execute if score random shroomhearth matches 12 run data modify entity @s potion_contents.custom_effects append value {id:"minecraft:levitation", duration:200}
 # Slow Falling 10s
 execute if score random shroomhearth matches 13 run data modify entity @s potion_contents.custom_effects append value {id:"minecraft:slow_falling", duration:200}
+# Freezing 10s
+execute if score random shroomhearth matches 14 run data modify entity @s potion_contents.custom_effects append value {id:"shroomhearth:frostbite", duration:200}
 
 # Non-amplifier effects
 # Mining Fatigue 10s
-execute if score random shroomhearth matches 14 run data modify entity @s potion_contents.custom_effects append value {id:"minecraft:mining_fatigue", duration:200}
+execute if score random shroomhearth matches 15 run data modify entity @s potion_contents.custom_effects append value {id:"minecraft:mining_fatigue", duration:200}
 # Nausea 10s
-execute if score random shroomhearth matches 15 run data modify entity @s potion_contents.custom_effects append value {id:"minecraft:nausea", duration:200}
+execute if score random shroomhearth matches 16 run data modify entity @s potion_contents.custom_effects append value {id:"minecraft:nausea", duration:200}
 # Fire Resistance 10s
-execute if score random shroomhearth matches 16 run data modify entity @s potion_contents.custom_effects append value {id:"minecraft:fire_resistance", duration:200}
+execute if score random shroomhearth matches 17 run data modify entity @s potion_contents.custom_effects append value {id:"minecraft:fire_resistance", duration:200}
 # Invisibility 10s
-execute if score random shroomhearth matches 17 run data modify entity @s potion_contents.custom_effects append value {id:"minecraft:invisibility", duration:200}
+execute if score random shroomhearth matches 18 run data modify entity @s potion_contents.custom_effects append value {id:"minecraft:invisibility", duration:200}
 # Blindness 10s
-execute if score random shroomhearth matches 18 run data modify entity @s potion_contents.custom_effects append value {id:"minecraft:blindness", duration:200}
+execute if score random shroomhearth matches 19 run data modify entity @s potion_contents.custom_effects append value {id:"minecraft:blindness", duration:200}
 
 # Roll enhanced amplifiers for additional
-execute if score random shroomhearth matches 0..13 if predicate shroomhearth:random_chance_20 if score distort_sequence shroomhearth.ender_dragon matches 1.. run function shroomhearth:ender_dragon/powers/distort/enhance_amplifier
+execute if score random shroomhearth matches 0..14 if predicate shroomhearth:random_chance_20 if score distort_sequence shroomhearth.ender_dragon matches 1.. run function shroomhearth:ender_dragon/powers/distort/enhance_amplifier
 
 # Reset random score
 scoreboard players set random shroomhearth -1
