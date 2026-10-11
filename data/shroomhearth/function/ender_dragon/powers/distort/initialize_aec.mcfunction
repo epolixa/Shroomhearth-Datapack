@@ -55,7 +55,7 @@ execute if score random shroomhearth matches 12 run data modify entity @s potion
 # Slow Falling 10s
 execute if score random shroomhearth matches 13 run data modify entity @s potion_contents.custom_effects append value {id:"minecraft:slow_falling", duration:200}
 # Freezing 10s
-execute if score random shroomhearth matches 14 run data modify entity @s potion_contents.custom_effects append value {id:"shroomhearth:frostbite", duration:200}
+execute if score random shroomhearth matches 14 run data modify entity @s potion_contents.custom_effects append value {id:"minecraft:freezing", duration:200}
 
 # Non-amplifier effects
 # Mining Fatigue 10s
