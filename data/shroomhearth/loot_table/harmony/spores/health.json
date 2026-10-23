@@ -26,9 +26,6 @@
                                 "minecraft:consumable": {
                                     "consume_seconds": 0.8,
                                     "animation": "crossbow",
-                                    "sound": {
-                                        "sound_id": ""
-                                    },
                                     "has_consume_particles": false
                                 },
                                 "minecraft:max_stack_size": 64,
