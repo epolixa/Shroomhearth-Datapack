@@ -2,7 +2,7 @@
   "type": "minecraft:stonecutting",
   "ingredient": "minecraft:leather_leggings",
   "result": {
-    "id": "minecraft:leather",
-    "count": 1
+    "id": "minecraft:rabbit_hide",
+    "count": 7
   }
 }
