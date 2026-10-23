@@ -1,5 +1,6 @@
 ﻿{
   "values": [
+    "#shroomhearth:stonecutting/leather_armor/rabbit_hide_from_leather_armor",
     "shroomhearth:stonecutting/acacia/acacia_fence_from_acacia_log",
     "shroomhearth:stonecutting/acacia/acacia_fence_from_acacia_wood",
     "shroomhearth:stonecutting/acacia/acacia_fence_from_stripped_acacia_log",
@@ -208,10 +209,6 @@
     "shroomhearth:stonecutting/jungle/stripped_jungle_log_from_jungle_log",
     "shroomhearth:stonecutting/jungle/stripped_jungle_wood_from_jungle_log",
     "shroomhearth:stonecutting/jungle/stripped_jungle_wood_from_jungle_wood",
-    "shroomhearth:stonecutting/leather_armor/rabbit_hide_from_leather_boots",
-    "shroomhearth:stonecutting/leather_armor/rabbit_hide_from_leather_chestplate",
-    "shroomhearth:stonecutting/leather_armor/rabbit_hide_from_leather_helmet",
-    "shroomhearth:stonecutting/leather_armor/rabbit_hide_from_leather_leggings",
     "shroomhearth:stonecutting/mangrove/mangrove_fence_from_mangrove_log",
     "shroomhearth:stonecutting/mangrove/mangrove_fence_from_mangrove_wood",
     "shroomhearth:stonecutting/mangrove/mangrove_fence_from_stripped_mangrove_log",
