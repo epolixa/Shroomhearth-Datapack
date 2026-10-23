@@ -1,0 +1,68 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_helmet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:leather_helmet"
+          }
+        ]
+      }
+    },
+    "has_chestplate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:leather_chestplate"
+          }
+        ]
+      }
+    },
+    "has_pants": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:leather_pants"
+          }
+        ]
+      }
+    },
+    "has_boots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:leather_boots"
+          }
+        ]
+      }
+    },
+    "has_recipe": {
+      "conditions": {
+        "recipes": "#shroomhearth:rabbit_hide_from_leather_armor"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_helmet",
+      "has_chestplate",
+      "has_pants",
+      "has_boots",
+      "has_recipe"
+    ]
+  ],
+    "rewards": {
+        "recipes": [
+            "shroomhearth:stonecutting/leather_armour/rabbit_hide_from_leather_helmet",
+            "shroomhearth:stonecutting/leather_armour/rabbit_hide_from_leather_chestplate",
+            "shroomhearth:stonecutting/leather_armour/rabbit_hide_from_leather_leggings",
+            "shroomhearth:stonecutting/leather_armour/rabbit_hide_from_leather_boots"    
+    ]
+  }
+}
