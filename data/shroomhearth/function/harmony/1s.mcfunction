@@ -9,8 +9,8 @@ scoreboard players set @e[type=#shroomhearth:players_and_mannequins] player_grou
 # Set player_group for every player to the number of other players within range.
 # Max range is 160 blocks, or 10 chunks, the default Minecraft server render distance.
 # AFK players do not count towards player_group
-execute as @e[predicate=shroomhearth:player_group_eligible] at @s \
-run scoreboard players add @e[predicate=shroomhearth:player_group_eligible,distance=0.0625..160] player_group 1
+execute as @a[predicate=shroomhearth:player_group_eligible] at @s store result score @s player_group if entity @a[predicate=shroomhearth:player_group_eligible,distance=0.0625..160]
+#execute as @e[predicate=shroomhearth:player_group_eligible] at @s store result score @s player_group if entity @e[predicate=shroomhearth:player_group_eligible,distance=0.0625..160]
 
 # Grant Community Cooperator advancement to any player who is near 5 or more other players.
 #advancement grant @a[scores={player_group=5..}] only community:community_cooperator
