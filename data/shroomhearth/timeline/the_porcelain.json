@@ -23,27 +23,6 @@
       ],
       "modifier": "multiply"
     },
-    "minecraft:visual/cloud_color": {
-      "keyframes": [
-        {
-          "ticks": 133,
-          "value": -1
-        },
-        {
-          "ticks": 11867,
-          "value": -1
-        },
-        {
-          "ticks": 13670,
-          "value": -15132378
-        },
-        {
-          "ticks": 22330,
-          "value": -15132378
-        }
-      ],
-      "modifier": "multiply"
-    },
     "minecraft:visual/fog_color": {
       "keyframes": [
         {
