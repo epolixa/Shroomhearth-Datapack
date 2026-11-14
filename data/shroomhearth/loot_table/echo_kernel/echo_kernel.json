@@ -16,8 +16,12 @@
                                     "translate": "item.shroomhearth.echo_kernel"
                                 },
                                 "minecraft:item_model": "shroomhearth:echo_kernel",
+                                "minecraft:enchantment_glint_override": true,
                                 "minecraft:rarity": "uncommon",
-                                "minecraft:consumable": {},
+                                "minecraft:consumable": {
+                                    "has_consume_particles": false,
+                                    "sound": "minecraft:entity.dolphin.eat"
+                                },
                                 "minecraft:food": {
                                     "nutrition": 0,
                                     "saturation": 0,
