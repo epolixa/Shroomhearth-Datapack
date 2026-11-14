@@ -8,7 +8,7 @@ tellraw @a[tag=debug_world_hall] [{"text":"[shroomhearth:hearth_island/world_hal
 recipe give @s *
 
 # revoke dummy recipe
-recipe take @s shroomhearth:hearth_island/world_hall/recipes/knowledge_book_dummy
+recipe take @s shroomhearth:knowledge_book_dummy
 
 # revoke trigger advancement
-advancement revoke @s only shroomhearth:hearth_island/world_hall/recipes/knowledge_book_dummy
+advancement revoke @s only shroomhearth:recipe/knowledge_book_dummy
