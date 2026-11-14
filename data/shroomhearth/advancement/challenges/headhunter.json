@@ -188,6 +188,21 @@
 				]
 			}
 		},
+    "frostbite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:player_head",
+						"components": {
+							"minecraft:custom_data": {
+								"shroomhearth_id": "frostbite_head"
+							}
+						}
+					}
+				]
+			}
+		},
 		"ghast": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
