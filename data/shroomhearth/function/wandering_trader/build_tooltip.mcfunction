@@ -14,8 +14,7 @@ execute if data storage shroomhearth:wandering_trader offers.recipes[0].sell{id:
 execute unless data storage shroomhearth:wandering_trader offers.recipes[0].sell{id:"minecraft:emerald"} run function shroomhearth:wandering_trader/m_set_sell_offer_text with storage shroomhearth:wandering_trader offers.recipes[0]
 
 # Copy resolved text from the temporary text display entity to the tooltip storage for later use
-data modify storage shroomhearth:wandering_trader tooltip.line set from entity @s text
-data modify storage shroomhearth:wandering_trader tooltip.text append from storage shroomhearth:wandering_trader tooltip.line
+data modify storage shroomhearth:wandering_trader tooltip.text append from entity @s text
 
 # pop offer
 data remove storage shroomhearth:wandering_trader offers.recipes[0]

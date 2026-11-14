@@ -1,1 +1,0 @@
-# Build a list of all active events for the tooltip
