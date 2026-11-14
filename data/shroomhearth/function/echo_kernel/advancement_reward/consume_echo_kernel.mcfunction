@@ -14,4 +14,4 @@ execute if predicate shroomhearth:echo_kernel/holding_echo_kernel_offhand run fu
 execute at @s run function shroomhearth:echo_kernel/play_teleport_effects
 
 # Grant advancement
-advancement grant @s only shroomhearth:echo_kernel/use_echo_kernel
+advancement grant @s only shroomhearth:echo_kernel/resonant_return
