@@ -30,6 +30,12 @@
         ]
       ],
       "mode": "replace_all"
+    },
+    {
+      "type": "minecraft:set_components",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
     }
   ]
 }
