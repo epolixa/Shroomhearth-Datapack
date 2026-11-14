@@ -7,6 +7,9 @@ tellraw @a[tag=debug_harmony] [{"text":"[shroomhearth:harmony/spores/peace/deact
 # Update the spawn monsters game rule
 gamerule spawn_monsters true
 
+# Update pvp game rule
+gamerule pvp true
+
 # Remove bossbar
 bossbar remove shroomhearth:spores_of_peace
 

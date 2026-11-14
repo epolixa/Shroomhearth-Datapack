@@ -7,6 +7,9 @@ tellraw @a[tag=debug_harmony] [{"text":"[shroomhearth:harmony/spores/peace/activ
 # Update the spawn monsters game rule
 gamerule spawn_monsters false
 
+# Update pvp game rule
+gamerule pvp false
+
 # Update active spores if not already active
 scoreboard players add active_spores shroomhearth.harmony 1
 
