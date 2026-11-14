@@ -8,4 +8,4 @@ tellraw @a[tag=debug_shroomhearth] [{"text":"[shroomhearth:raid/advancement_rewa
 execute if score @s time_since_raid_start matches 48000.. run function shroomhearth:raid/announce_start
 
 # revoke
-advancement revoke @s only shroomhearth:raid/started
+advancement revoke @s only shroomhearth:raid/start
