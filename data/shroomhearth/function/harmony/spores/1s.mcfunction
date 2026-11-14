@@ -57,6 +57,9 @@ execute if score spores_of_swiftness shroomhearth.harmony matches 1.. run functi
 # Strength
 execute if score spores_of_strength shroomhearth.harmony matches 1.. run function shroomhearth:harmony/spores/strength/1s
 
+# Harmony
+execute if score spores_of_harmony shroomhearth.harmony matches 1.. run function shroomhearth:harmony/spores/harmony/1s
+
 # Continuity
 execute if score spores_of_continuity shroomhearth.harmony matches 1.. run function shroomhearth:harmony/spores/continuity/1s
 
