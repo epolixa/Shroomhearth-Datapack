@@ -9,6 +9,7 @@ scoreboard players remove spores_of_continuity shroomhearth.harmony 1
 
 # Make sure time doesn't advance
 gamerule advance_time false
+gamerule advance_weather false
 
 # Update the bossbar value
 execute store result bossbar shroomhearth:spores_of_continuity value run scoreboard players get spores_of_continuity shroomhearth.harmony

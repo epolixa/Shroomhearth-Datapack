@@ -14,9 +14,6 @@ execute if score spores_of_armor shroomhearth.harmony matches 1.. run function s
 
 # Burn Damage Resistance
 
-# Clemency
-execute if score spores_of_clemency shroomhearth.harmony matches 1.. run function shroomhearth:harmony/spores/clemency/1s
-
 # Dowsing
 execute if score spores_of_dowsing shroomhearth.harmony matches 1.. run function shroomhearth:harmony/spores/dowsing/1s
 

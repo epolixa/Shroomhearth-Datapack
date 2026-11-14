@@ -18,7 +18,7 @@
                                 },
                                 "minecraft:lore": [
                                     {
-                                        "fallback": "Pauses the day/night cycle",
+                                        "fallback": "Pauses the day/night and weather cycles",
                                         "translate": "event.shroomhearth.spores_of_continuity.tooltip"
                                     }
                                 ],

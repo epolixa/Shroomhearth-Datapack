@@ -12,13 +12,6 @@ loot give @s[scores={repairable=1..}] loot shroomhearth:harmony/spores/armor
 tag @s[scores={repairable=1..}] add repaired
 scoreboard players reset @s repairable
 
-# spores of clemency
-execute store result score @s repairable run clear @s #shroomhearth:harmony/spores[custom_data={"shroomhearth_id":"spores_of_clemency"}] 0
-clear @s[scores={repairable=1..}] #shroomhearth:harmony/spores[custom_data={"shroomhearth_id":"spores_of_clemency"}] 1
-loot give @s[scores={repairable=1..}] loot shroomhearth:harmony/spores/clemency
-tag @s[scores={repairable=1..}] add repaired
-scoreboard players reset @s repairable
-
 # spores of continuity
 execute store result score @s repairable run clear @s #shroomhearth:harmony/spores[custom_data={"shroomhearth_id":"spores_of_continuity"}] 0
 clear @s[scores={repairable=1..}] #shroomhearth:harmony/spores[custom_data={"shroomhearth_id":"spores_of_continuity"}] 1

@@ -6,6 +6,7 @@ tellraw @a[tag=debug_harmony] [{"text":"[shroomhearth:harmony/spores/continuity/
 
 # Stop time lock
 gamerule advance_time true
+gamerule advance_weather true
 
 # Update active spores
 scoreboard players remove active_spores shroomhearth.harmony 1
