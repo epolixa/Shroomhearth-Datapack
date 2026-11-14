@@ -18,7 +18,7 @@
                                 },
                                 "minecraft:lore": [
                                     {
-                                        "fallback": "Prevents monsters from spawning",
+                                        "fallback": "Disables PvP and prevents monsters from spawning",
                                         "translate": "event.shroomhearth.spores_of_peace.tooltip"
                                     }
                                 ],
